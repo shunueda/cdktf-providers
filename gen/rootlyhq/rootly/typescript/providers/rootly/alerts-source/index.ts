@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AlertsSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID for the default alert urgency assigned to this alert source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_urgency_id AlertsSource#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_urgency_id AlertsSource#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * Toggle alert deduplication using deduplication key. If enabled, deduplication_key_kind and deduplication_key_path are required.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#deduplicate_alerts_by_key AlertsSource#deduplicate_alerts_by_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#deduplicate_alerts_by_key AlertsSource#deduplicate_alerts_by_key}
   */
   readonly deduplicateAlertsByKey?: boolean | cdktf.IResolvable;
   /**
   * Kind of deduplication key.. Value must be one of `payload`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#deduplication_key_kind AlertsSource#deduplication_key_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#deduplication_key_kind AlertsSource#deduplication_key_kind}
   */
   readonly deduplicationKeyKind?: string;
   /**
   * Path to deduplication key. This is a JSON Path to extract the deduplication key from the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#deduplication_key_path AlertsSource#deduplication_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#deduplication_key_path AlertsSource#deduplication_key_path}
   */
   readonly deduplicationKeyPath?: string;
   /**
   * Regular expression to extract key from value found at key path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#deduplication_key_regexp AlertsSource#deduplication_key_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#deduplication_key_regexp AlertsSource#deduplication_key_regexp}
   */
   readonly deduplicationKeyRegexp?: string;
   /**
   * The email generated for email alert sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#email AlertsSource#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#email AlertsSource#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#id AlertsSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#id AlertsSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface AlertsSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alert source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#name AlertsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#name AlertsSource#name}
   */
   readonly name: string;
   /**
   * List of team IDs that will own the alert source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#owner_group_ids AlertsSource#owner_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#owner_group_ids AlertsSource#owner_group_ids}
   */
   readonly ownerGroupIds?: string[];
   /**
   * The secret used to authenticate non-email alert sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#secret AlertsSource#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#secret AlertsSource#secret}
   */
   readonly secret?: string;
   /**
   * The alert source type. Value must be one of `email`, `app_dynamics`, `catchpoint`, `datadog`, `alertmanager`, `google_cloud`, `grafana`, `sentry`, `generic_webhook`, `cloud_watch`, `checkly`, `azure`, `new_relic`, `splunk`, `chronosphere`, `app_optics`, `bug_snag`, `honeycomb`, `monte_carlo`, `nagios`, `prtg`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#source_type AlertsSource#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#source_type AlertsSource#source_type}
   */
   readonly sourceType?: string;
   /**
   * The status of the alert source. Value must be one of `connected`, `setup_complete`, `setup_incomplete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#status AlertsSource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#status AlertsSource#status}
   */
   readonly status?: string;
   /**
   * The webhook URL generated for non-email alert sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#webhook_endpoint AlertsSource#webhook_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#webhook_endpoint AlertsSource#webhook_endpoint}
   */
   readonly webhookEndpoint?: string;
   /**
   * alert_source_fields_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_source_fields_attributes AlertsSource#alert_source_fields_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_source_fields_attributes AlertsSource#alert_source_fields_attributes}
   */
   readonly alertSourceFieldsAttributes?: AlertsSourceAlertSourceFieldsAttributes[] | cdktf.IResolvable;
   /**
   * alert_source_urgency_rules_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_source_urgency_rules_attributes AlertsSource#alert_source_urgency_rules_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_source_urgency_rules_attributes AlertsSource#alert_source_urgency_rules_attributes}
   */
   readonly alertSourceUrgencyRulesAttributes?: AlertsSourceAlertSourceUrgencyRulesAttributes[] | cdktf.IResolvable;
   /**
   * alert_template_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_template_attributes AlertsSource#alert_template_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_template_attributes AlertsSource#alert_template_attributes}
   */
   readonly alertTemplateAttributes?: AlertsSourceAlertTemplateAttributes;
   /**
   * resolution_rule_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#resolution_rule_attributes AlertsSource#resolution_rule_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#resolution_rule_attributes AlertsSource#resolution_rule_attributes}
   */
   readonly resolutionRuleAttributes?: AlertsSourceResolutionRuleAttributes;
   /**
   * sourceable_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#sourceable_attributes AlertsSource#sourceable_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#sourceable_attributes AlertsSource#sourceable_attributes}
   */
   readonly sourceableAttributes?: AlertsSourceSourceableAttributes;
 }
@@ -121,13 +121,13 @@ export interface AlertsSourceAlertSourceFieldsAttributes {
   /**
   * The ID of the alert field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_field_id AlertsSource#alert_field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_field_id AlertsSource#alert_field_id}
   */
   readonly alertFieldId?: string;
   /**
   * Liquid expression to extract a specific value from the alert's payload for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#template_body AlertsSource#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#template_body AlertsSource#template_body}
   */
   readonly templateBody?: string;
 }
@@ -274,43 +274,43 @@ export interface AlertsSourceAlertSourceUrgencyRulesAttributes {
   /**
   * The ID of the alert urgency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#alert_urgency_id AlertsSource#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#alert_urgency_id AlertsSource#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * The ID of the conditionable. If conditionable_type is AlertField, this is the ID of the alert field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#conditionable_id AlertsSource#conditionable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#conditionable_id AlertsSource#conditionable_id}
   */
   readonly conditionableId?: string;
   /**
   * The type of the conditionable. Value must be one of `AlertField`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#conditionable_type AlertsSource#conditionable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#conditionable_type AlertsSource#conditionable_type}
   */
   readonly conditionableType?: string;
   /**
   * JSON path expression to extract a specific value from the alert's payload for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#json_path AlertsSource#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#json_path AlertsSource#json_path}
   */
   readonly jsonPath?: string;
   /**
   * The kind of the conditionable. Value must be one of `payload`, `alert_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#kind AlertsSource#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#kind AlertsSource#kind}
   */
   readonly kind?: string;
   /**
   * Comparison operator used to evaluate the extracted value against the specified condition. Value must be one of `is`, `is_not`, `contains`, `does_not_contain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#operator AlertsSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#operator AlertsSource#operator}
   */
   readonly operator?: string;
   /**
   * Value that the extracted payload data is compared to using the specified operator to determine a match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#value AlertsSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#value AlertsSource#value}
   */
   readonly value?: string;
 }
@@ -602,19 +602,19 @@ export interface AlertsSourceAlertTemplateAttributes {
   /**
   * The alert description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#description AlertsSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#description AlertsSource#description}
   */
   readonly description?: string;
   /**
   * The alert URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#external_url AlertsSource#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#external_url AlertsSource#external_url}
   */
   readonly externalUrl?: string;
   /**
   * The alert title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#title AlertsSource#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#title AlertsSource#title}
   */
   readonly title?: string;
 }
@@ -758,37 +758,37 @@ export interface AlertsSourceResolutionRuleAttributesConditionsAttributes {
   /**
   * The ID of the conditionable. If conditionable_type is AlertField, this is the ID of the alert field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#conditionable_id AlertsSource#conditionable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#conditionable_id AlertsSource#conditionable_id}
   */
   readonly conditionableId?: string;
   /**
   * The type of the conditionable. Value must be one of `AlertField`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#conditionable_type AlertsSource#conditionable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#conditionable_type AlertsSource#conditionable_type}
   */
   readonly conditionableType?: string;
   /**
   * JSON path expression to extract a specific value from the alert's payload for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#field AlertsSource#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#field AlertsSource#field}
   */
   readonly field?: string;
   /**
   * The kind of the conditionable. Value must be one of `payload`, `alert_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#kind AlertsSource#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#kind AlertsSource#kind}
   */
   readonly kind?: string;
   /**
   * Comparison operator used to evaluate the extracted value against the specified condition. Value must be one of `is`, `is_not`, `contains`, `does_not_contain`, `starts_with`, `ends_with`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#operator AlertsSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#operator AlertsSource#operator}
   */
   readonly operator?: string;
   /**
   * Value that the extracted payload data is compared to using the specified operator to determine a match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#value AlertsSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#value AlertsSource#value}
   */
   readonly value?: string;
 }
@@ -1051,47 +1051,47 @@ export interface AlertsSourceResolutionRuleAttributes {
   /**
   * The type of condition to evaluate to apply auto resolution rule. Value must be one of `all`, `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#condition_type AlertsSource#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#condition_type AlertsSource#condition_type}
   */
   readonly conditionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#enabled AlertsSource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#enabled AlertsSource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * JSON path expression to extract unique alert identifier used to match triggered alerts with resolving alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#identifier_json_path AlertsSource#identifier_json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#identifier_json_path AlertsSource#identifier_json_path}
   */
   readonly identifierJsonPath?: string;
   /**
   * The ID of the identifier matchable. If identifier_matchable_type is AlertField, this is the ID of the alert field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#identifier_matchable_id AlertsSource#identifier_matchable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#identifier_matchable_id AlertsSource#identifier_matchable_id}
   */
   readonly identifierMatchableId?: string;
   /**
   * The type of the identifier matchable. Value must be one of `AlertField`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#identifier_matchable_type AlertsSource#identifier_matchable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#identifier_matchable_type AlertsSource#identifier_matchable_type}
   */
   readonly identifierMatchableType?: string;
   /**
   * The kind of the identifier reference. Value must be one of `payload`, `alert_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#identifier_reference_kind AlertsSource#identifier_reference_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#identifier_reference_kind AlertsSource#identifier_reference_kind}
   */
   readonly identifierReferenceKind?: string;
   /**
   * Regex group to further specify the part of the string used as a unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#identifier_value_regex AlertsSource#identifier_value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#identifier_value_regex AlertsSource#identifier_value_regex}
   */
   readonly identifierValueRegex?: string;
   /**
   * conditions_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#conditions_attributes AlertsSource#conditions_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#conditions_attributes AlertsSource#conditions_attributes}
   */
   readonly conditionsAttributes?: AlertsSourceResolutionRuleAttributesConditionsAttributes[] | cdktf.IResolvable;
 }
@@ -1380,13 +1380,13 @@ export interface AlertsSourceSourceableAttributesFieldMappingsAttributes {
   /**
   * Select the field on which the condition to be evaluated. Value must be one of `external_id`, `state`, `alert_title`, `alert_external_url`, `notification_target_type`, `notification_target_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#field AlertsSource#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#field AlertsSource#field}
   */
   readonly field?: string;
   /**
   * JSON path expression to extract a specific value from the alert's payload for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#json_path AlertsSource#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#json_path AlertsSource#json_path}
   */
   readonly jsonPath?: string;
 }
@@ -1533,25 +1533,25 @@ export interface AlertsSourceSourceableAttributes {
   /**
   * Set this to false to reject threaded emails. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#accept_threaded_emails AlertsSource#accept_threaded_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#accept_threaded_emails AlertsSource#accept_threaded_emails}
   */
   readonly acceptThreadedEmails?: boolean | cdktf.IResolvable;
   /**
   * Set this to true to auto-resolve alerts based on field_mappings_attributes conditions. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#auto_resolve AlertsSource#auto_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#auto_resolve AlertsSource#auto_resolve}
   */
   readonly autoResolve?: boolean | cdktf.IResolvable;
   /**
   * This value is matched with the value extracted from alerts payload using JSON path in field_mappings_attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#resolve_state AlertsSource#resolve_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#resolve_state AlertsSource#resolve_state}
   */
   readonly resolveState?: string;
   /**
   * field_mappings_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#field_mappings_attributes AlertsSource#field_mappings_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#field_mappings_attributes AlertsSource#field_mappings_attributes}
   */
   readonly fieldMappingsAttributes?: AlertsSourceSourceableAttributesFieldMappingsAttributes[] | cdktf.IResolvable;
 }
@@ -1722,7 +1722,7 @@ export class AlertsSourceSourceableAttributesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source rootly_alerts_source}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source rootly_alerts_source}
 */
 export class AlertsSource extends cdktf.TerraformResource {
 
@@ -1738,7 +1738,7 @@ export class AlertsSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertsSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertsSource to import
-  * @param importFromId The id of the existing AlertsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertsSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1750,7 +1750,7 @@ export class AlertsSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alerts_source rootly_alerts_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alerts_source rootly_alerts_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1761,8 +1761,8 @@ export class AlertsSource extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_alerts_source',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackApiGatewayV2CascadeLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_instance_id ApsarastackApiGatewayV2CascadeLink#cascade_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_instance_id ApsarastackApiGatewayV2CascadeLink#cascade_instance_id}
   */
   readonly cascadeInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_instance_name ApsarastackApiGatewayV2CascadeLink#cascade_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_instance_name ApsarastackApiGatewayV2CascadeLink#cascade_instance_name}
   */
   readonly cascadeInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_service_id ApsarastackApiGatewayV2CascadeLink#cascade_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#cascade_service_id ApsarastackApiGatewayV2CascadeLink#cascade_service_id}
   */
   readonly cascadeServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#id ApsarastackApiGatewayV2CascadeLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#id ApsarastackApiGatewayV2CascadeLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#link_name ApsarastackApiGatewayV2CascadeLink#link_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#link_name ApsarastackApiGatewayV2CascadeLink#link_name}
   */
   readonly linkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_address ApsarastackApiGatewayV2CascadeLink#source_instance_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_address ApsarastackApiGatewayV2CascadeLink#source_instance_address}
   */
   readonly sourceInstanceAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_id ApsarastackApiGatewayV2CascadeLink#source_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_id ApsarastackApiGatewayV2CascadeLink#source_instance_id}
   */
   readonly sourceInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_name ApsarastackApiGatewayV2CascadeLink#source_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#source_instance_name ApsarastackApiGatewayV2CascadeLink#source_instance_name}
   */
   readonly sourceInstanceName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link apsarastack_api_gateway_v2_cascade_link}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link apsarastack_api_gateway_v2_cascade_link}
 */
 export class ApsarastackApiGatewayV2CascadeLink extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ApsarastackApiGatewayV2CascadeLink extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApsarastackApiGatewayV2CascadeLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackApiGatewayV2CascadeLink to import
-  * @param importFromId The id of the existing ApsarastackApiGatewayV2CascadeLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackApiGatewayV2CascadeLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackApiGatewayV2CascadeLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ApsarastackApiGatewayV2CascadeLink extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_cascade_link apsarastack_api_gateway_v2_cascade_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_cascade_link apsarastack_api_gateway_v2_cascade_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ApsarastackApiGatewayV2CascadeLink extends cdktf.TerraformResource 
       terraformResourceType: 'apsarastack_api_gateway_v2_cascade_link',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

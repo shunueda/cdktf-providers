@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DnsDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#annotations DnsDomain#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#annotations DnsDomain#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#description DnsDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#description DnsDomain#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#disable DnsDomain#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#disable DnsDomain#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#dnssec_mode DnsDomain#dnssec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#dnssec_mode DnsDomain#dnssec_mode}
   */
   readonly dnssecMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#id DnsDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#id DnsDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#labels DnsDomain#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#labels DnsDomain#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#name DnsDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#name DnsDomain#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#namespace DnsDomain#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#namespace DnsDomain#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#verification_only DnsDomain#verification_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#verification_only DnsDomain#verification_only}
   */
   readonly verificationOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#volterra_managed DnsDomain#volterra_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#volterra_managed DnsDomain#volterra_managed}
   */
   readonly volterraManaged?: boolean | cdktf.IResolvable;
   /**
   * route53 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#route53 DnsDomain#route53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#route53 DnsDomain#route53}
   */
   readonly route53?: DnsDomainRoute53;
 }
 export interface DnsDomainRoute53Creds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#name DnsDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#name DnsDomain#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#namespace DnsDomain#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#namespace DnsDomain#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#tenant DnsDomain#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#tenant DnsDomain#tenant}
   */
   readonly tenant?: string;
 }
@@ -211,7 +211,7 @@ export interface DnsDomainRoute53 {
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#creds DnsDomain#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#creds DnsDomain#creds}
   */
   readonly creds?: DnsDomainRoute53Creds;
 }
@@ -295,7 +295,7 @@ export class DnsDomainRoute53OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain volterra_dns_domain}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain volterra_dns_domain}
 */
 export class DnsDomain extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class DnsDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsDomain to import
-  * @param importFromId The id of the existing DnsDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DnsDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_domain volterra_dns_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_domain volterra_dns_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class DnsDomain extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_domain',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

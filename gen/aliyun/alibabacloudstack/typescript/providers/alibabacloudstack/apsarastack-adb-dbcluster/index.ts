@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackAdbDbclusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#auto_renew_period ApsarastackAdbDbcluster#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#auto_renew_period ApsarastackAdbDbcluster#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#cluster_type ApsarastackAdbDbcluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#cluster_type ApsarastackAdbDbcluster#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#compute_resource ApsarastackAdbDbcluster#compute_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#compute_resource ApsarastackAdbDbcluster#compute_resource}
   */
   readonly computeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#cpu_type ApsarastackAdbDbcluster#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#cpu_type ApsarastackAdbDbcluster#cpu_type}
   */
   readonly cpuType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_cluster_category ApsarastackAdbDbcluster#db_cluster_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_cluster_category ApsarastackAdbDbcluster#db_cluster_category}
   */
   readonly dbClusterCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_cluster_class ApsarastackAdbDbcluster#db_cluster_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_cluster_class ApsarastackAdbDbcluster#db_cluster_class}
   */
   readonly dbClusterClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_cluster_version ApsarastackAdbDbcluster#db_cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_cluster_version ApsarastackAdbDbcluster#db_cluster_version}
   */
   readonly dbClusterVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_node_class ApsarastackAdbDbcluster#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_node_class ApsarastackAdbDbcluster#db_node_class}
   */
   readonly dbNodeClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_node_count ApsarastackAdbDbcluster#db_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_node_count ApsarastackAdbDbcluster#db_node_count}
   */
   readonly dbNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#db_node_storage ApsarastackAdbDbcluster#db_node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#db_node_storage ApsarastackAdbDbcluster#db_node_storage}
   */
   readonly dbNodeStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#description ApsarastackAdbDbcluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#description ApsarastackAdbDbcluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#executor_count ApsarastackAdbDbcluster#executor_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#executor_count ApsarastackAdbDbcluster#executor_count}
   */
   readonly executorCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#id ApsarastackAdbDbcluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#id ApsarastackAdbDbcluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#maintain_time ApsarastackAdbDbcluster#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#maintain_time ApsarastackAdbDbcluster#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#mode ApsarastackAdbDbcluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#mode ApsarastackAdbDbcluster#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#modify_type ApsarastackAdbDbcluster#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#modify_type ApsarastackAdbDbcluster#modify_type}
   */
   readonly modifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#pay_type ApsarastackAdbDbcluster#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#pay_type ApsarastackAdbDbcluster#pay_type}
   */
   readonly payType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#payment_type ApsarastackAdbDbcluster#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#payment_type ApsarastackAdbDbcluster#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#period ApsarastackAdbDbcluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#period ApsarastackAdbDbcluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#renewal_status ApsarastackAdbDbcluster#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#renewal_status ApsarastackAdbDbcluster#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#resource_group_id ApsarastackAdbDbcluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#resource_group_id ApsarastackAdbDbcluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#security_ips ApsarastackAdbDbcluster#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#security_ips ApsarastackAdbDbcluster#security_ips}
   */
   readonly securityIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#storage_resource ApsarastackAdbDbcluster#storage_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#storage_resource ApsarastackAdbDbcluster#storage_resource}
   */
   readonly storageResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#storage_type ApsarastackAdbDbcluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#storage_type ApsarastackAdbDbcluster#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#vswitch_id ApsarastackAdbDbcluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#vswitch_id ApsarastackAdbDbcluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#zone_id ApsarastackAdbDbcluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#zone_id ApsarastackAdbDbcluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#timeouts ApsarastackAdbDbcluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#timeouts ApsarastackAdbDbcluster#timeouts}
   */
   readonly timeouts?: ApsarastackAdbDbclusterTimeouts;
 }
 export interface ApsarastackAdbDbclusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#create ApsarastackAdbDbcluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#create ApsarastackAdbDbcluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#delete ApsarastackAdbDbcluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#delete ApsarastackAdbDbcluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#update ApsarastackAdbDbcluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#update ApsarastackAdbDbcluster#update}
   */
   readonly update?: string;
 }
@@ -283,7 +283,7 @@ export class ApsarastackAdbDbclusterTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster apsarastack_adb_dbcluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster apsarastack_adb_dbcluster}
 */
 export class ApsarastackAdbDbcluster extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ApsarastackAdbDbcluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackAdbDbcluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackAdbDbcluster to import
-  * @param importFromId The id of the existing ApsarastackAdbDbcluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackAdbDbcluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackAdbDbcluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ApsarastackAdbDbcluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_adb_dbcluster apsarastack_adb_dbcluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_adb_dbcluster apsarastack_adb_dbcluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class ApsarastackAdbDbcluster extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_adb_dbcluster',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

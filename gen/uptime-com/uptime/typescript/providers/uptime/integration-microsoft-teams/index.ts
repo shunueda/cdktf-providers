@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams
+// https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,23 +13,23 @@ export interface IntegrationMicrosoftTeamsConfig extends cdktf.TerraformMetaArgu
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams#contact_groups IntegrationMicrosoftTeams#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams#contact_groups IntegrationMicrosoftTeams#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams#name IntegrationMicrosoftTeams#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams#name IntegrationMicrosoftTeams#name}
   */
   readonly name: string;
   /**
   * Microsoft Teams webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams#webhook_url IntegrationMicrosoftTeams#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams#webhook_url IntegrationMicrosoftTeams#webhook_url}
   */
   readonly webhookUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams uptime_integration_microsoft_teams}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams uptime_integration_microsoft_teams}
 */
 export class IntegrationMicrosoftTeams extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IntegrationMicrosoftTeams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationMicrosoftTeams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationMicrosoftTeams to import
-  * @param importFromId The id of the existing IntegrationMicrosoftTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationMicrosoftTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationMicrosoftTeams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IntegrationMicrosoftTeams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_microsoft_teams uptime_integration_microsoft_teams} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_microsoft_teams uptime_integration_microsoft_teams} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IntegrationMicrosoftTeams extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_microsoft_teams',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.21.0',
-        providerVersionConstraint: '2.21.0'
+        providerVersion: '2.22.0',
+        providerVersionConstraint: '2.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

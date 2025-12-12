@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackCmsMetricRuleTemplatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#history DataApsarastackCmsMetricRuleTemplates#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#history DataApsarastackCmsMetricRuleTemplates#history}
   */
   readonly history?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#id DataApsarastackCmsMetricRuleTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#id DataApsarastackCmsMetricRuleTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#ids DataApsarastackCmsMetricRuleTemplates#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#ids DataApsarastackCmsMetricRuleTemplates#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#is_default DataApsarastackCmsMetricRuleTemplates#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#is_default DataApsarastackCmsMetricRuleTemplates#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#keyword DataApsarastackCmsMetricRuleTemplates#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#keyword DataApsarastackCmsMetricRuleTemplates#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#name_regex DataApsarastackCmsMetricRuleTemplates#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#name_regex DataApsarastackCmsMetricRuleTemplates#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#output_file DataApsarastackCmsMetricRuleTemplates#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#output_file DataApsarastackCmsMetricRuleTemplates#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#template_id DataApsarastackCmsMetricRuleTemplates#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#template_id DataApsarastackCmsMetricRuleTemplates#template_id}
   */
   readonly templateId?: number;
 }
@@ -135,7 +135,7 @@ export class DataApsarastackCmsMetricRuleTemplatesTemplatesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates apsarastack_cms_metric_rule_templates}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates apsarastack_cms_metric_rule_templates}
 */
 export class DataApsarastackCmsMetricRuleTemplates extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataApsarastackCmsMetricRuleTemplates extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataApsarastackCmsMetricRuleTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackCmsMetricRuleTemplates to import
-  * @param importFromId The id of the existing DataApsarastackCmsMetricRuleTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackCmsMetricRuleTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackCmsMetricRuleTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataApsarastackCmsMetricRuleTemplates extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cms_metric_rule_templates apsarastack_cms_metric_rule_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cms_metric_rule_templates apsarastack_cms_metric_rule_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataApsarastackCmsMetricRuleTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'apsarastack_cms_metric_rule_templates',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

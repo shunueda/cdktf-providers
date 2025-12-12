@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AlertUrgencyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the alert urgency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency#description AlertUrgency#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency#description AlertUrgency#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency#id AlertUrgency#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency#id AlertUrgency#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AlertUrgencyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alert urgency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency#name AlertUrgency#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency#name AlertUrgency#name}
   */
   readonly name: string;
   /**
   * Position of the alert urgency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency#position AlertUrgency#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency#position AlertUrgency#position}
   */
   readonly position?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency rootly_alert_urgency}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency rootly_alert_urgency}
 */
 export class AlertUrgency extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class AlertUrgency extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertUrgency resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertUrgency to import
-  * @param importFromId The id of the existing AlertUrgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertUrgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertUrgency to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class AlertUrgency extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/alert_urgency rootly_alert_urgency} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/alert_urgency rootly_alert_urgency} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class AlertUrgency extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_alert_urgency',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SwsAdvancedRateLimiterProfileConfig extends cdktf.TerraformMeta
   /**
   * The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#cloud_id SwsAdvancedRateLimiterProfile#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#cloud_id SwsAdvancedRateLimiterProfile#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#description SwsAdvancedRateLimiterProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#description SwsAdvancedRateLimiterProfile#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#folder_id SwsAdvancedRateLimiterProfile#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#folder_id SwsAdvancedRateLimiterProfile#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#id SwsAdvancedRateLimiterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#id SwsAdvancedRateLimiterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface SwsAdvancedRateLimiterProfileConfig extends cdktf.TerraformMeta
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#labels SwsAdvancedRateLimiterProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#labels SwsAdvancedRateLimiterProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
   */
   readonly name?: string;
   /**
   * advanced_rate_limiter_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#advanced_rate_limiter_rule SwsAdvancedRateLimiterProfile#advanced_rate_limiter_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#advanced_rate_limiter_rule SwsAdvancedRateLimiterProfile#advanced_rate_limiter_rule}
   */
   readonly advancedRateLimiterRule?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#timeouts SwsAdvancedRateLimiterProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#timeouts SwsAdvancedRateLimiterProfile#timeouts}
   */
   readonly timeouts?: SwsAdvancedRateLimiterProfileTimeouts;
 }
@@ -61,13 +61,13 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * Type of key characteristic. Possible values: `COOKIE_KEY`, `HEADER_KEY`, `QUERY_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#type SwsAdvancedRateLimiterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#type SwsAdvancedRateLimiterProfile#type}
   */
   readonly type?: string;
   /**
   * String value of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
   */
   readonly value?: string;
 }
@@ -182,7 +182,7 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * Type of simple characteristic. Possible values: `REQUEST_PATH`, `HTTP_METHOD`, `IP`, `GEO`, `HOST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#type SwsAdvancedRateLimiterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#type SwsAdvancedRateLimiterProfile#type}
   */
   readonly type?: string;
 }
@@ -268,19 +268,19 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * Determines case-sensitive or case-insensitive keys matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#case_insensitive SwsAdvancedRateLimiterProfile#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#case_insensitive SwsAdvancedRateLimiterProfile#case_insensitive}
   */
   readonly caseInsensitive?: boolean | cdktf.IResolvable;
   /**
   * key_characteristic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#key_characteristic SwsAdvancedRateLimiterProfile#key_characteristic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#key_characteristic SwsAdvancedRateLimiterProfile#key_characteristic}
   */
   readonly keyCharacteristic?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCharacteristicKeyCharacteristic;
   /**
   * simple_characteristic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#simple_characteristic SwsAdvancedRateLimiterProfile#simple_characteristic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#simple_characteristic SwsAdvancedRateLimiterProfile#simple_characteristic}
   */
   readonly simpleCharacteristic?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCharacteristicSimpleCharacteristic;
 }
@@ -454,27 +454,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCha
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -737,7 +737,7 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#authorities SwsAdvancedRateLimiterProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#authorities SwsAdvancedRateLimiterProfile#authorities}
   */
   readonly authorities?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -821,27 +821,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1070,13 +1070,13 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
   */
   readonly value: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHeadersValue;
 }
@@ -1218,27 +1218,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1501,7 +1501,7 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#http_methods SwsAdvancedRateLimiterProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#http_methods SwsAdvancedRateLimiterProfile#http_methods}
   */
   readonly httpMethods?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -1585,27 +1585,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1834,27 +1834,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -2083,13 +2083,13 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#key SwsAdvancedRateLimiterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#key SwsAdvancedRateLimiterProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
   */
   readonly value: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriQueriesValue;
 }
@@ -2230,13 +2230,13 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#path SwsAdvancedRateLimiterProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#path SwsAdvancedRateLimiterProfile#path}
   */
   readonly path?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#queries SwsAdvancedRateLimiterProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#queries SwsAdvancedRateLimiterProfile#queries}
   */
   readonly queries?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -2349,7 +2349,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2433,7 +2433,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2517,7 +2517,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2601,7 +2601,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCon
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2687,25 +2687,25 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_match SwsAdvancedRateLimiterProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_match SwsAdvancedRateLimiterProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_not_match SwsAdvancedRateLimiterProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_not_match SwsAdvancedRateLimiterProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_match SwsAdvancedRateLimiterProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_match SwsAdvancedRateLimiterProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_not_match SwsAdvancedRateLimiterProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_not_match SwsAdvancedRateLimiterProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIpIpRangesNotMatch;
 }
@@ -2878,31 +2878,31 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#authority SwsAdvancedRateLimiterProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#authority SwsAdvancedRateLimiterProfile#authority}
   */
   readonly authority?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#headers SwsAdvancedRateLimiterProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#headers SwsAdvancedRateLimiterProfile#headers}
   */
   readonly headers?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#http_method SwsAdvancedRateLimiterProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#http_method SwsAdvancedRateLimiterProfile#http_method}
   */
   readonly httpMethod?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#request_uri SwsAdvancedRateLimiterProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#request_uri SwsAdvancedRateLimiterProfile#request_uri}
   */
   readonly requestUri?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#source_ip SwsAdvancedRateLimiterProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#source_ip SwsAdvancedRateLimiterProfile#source_ip}
   */
   readonly sourceIp?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaConditionSourceIp;
 }
@@ -3104,31 +3104,31 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuot
   /**
   * Action in case of exceeding this quota. Possible values: `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#action SwsAdvancedRateLimiterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#action SwsAdvancedRateLimiterProfile#action}
   */
   readonly action?: string;
   /**
   * Desired maximum number of requests per period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#limit SwsAdvancedRateLimiterProfile#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#limit SwsAdvancedRateLimiterProfile#limit}
   */
   readonly limit?: number;
   /**
   * Period of time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#period SwsAdvancedRateLimiterProfile#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#period SwsAdvancedRateLimiterProfile#period}
   */
   readonly period?: number;
   /**
   * characteristic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#characteristic SwsAdvancedRateLimiterProfile#characteristic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#characteristic SwsAdvancedRateLimiterProfile#characteristic}
   */
   readonly characteristic?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCharacteristic[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#condition SwsAdvancedRateLimiterProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#condition SwsAdvancedRateLimiterProfile#condition}
   */
   readonly condition?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaCondition;
 }
@@ -3328,27 +3328,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuotaOut
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -3611,7 +3611,7 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#authorities SwsAdvancedRateLimiterProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#authorities SwsAdvancedRateLimiterProfile#authorities}
   */
   readonly authorities?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -3695,27 +3695,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -3944,13 +3944,13 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
   */
   readonly value: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHeadersValue;
 }
@@ -4092,27 +4092,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4375,7 +4375,7 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#http_methods SwsAdvancedRateLimiterProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#http_methods SwsAdvancedRateLimiterProfile#http_methods}
   */
   readonly httpMethods?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -4459,27 +4459,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4708,27 +4708,27 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_match SwsAdvancedRateLimiterProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#exact_not_match SwsAdvancedRateLimiterProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_match SwsAdvancedRateLimiterProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#pire_regex_not_match SwsAdvancedRateLimiterProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_match SwsAdvancedRateLimiterProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#prefix_not_match SwsAdvancedRateLimiterProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4957,13 +4957,13 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#key SwsAdvancedRateLimiterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#key SwsAdvancedRateLimiterProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#value SwsAdvancedRateLimiterProfile#value}
   */
   readonly value: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriQueriesValue;
 }
@@ -5104,13 +5104,13 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#path SwsAdvancedRateLimiterProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#path SwsAdvancedRateLimiterProfile#path}
   */
   readonly path?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#queries SwsAdvancedRateLimiterProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#queries SwsAdvancedRateLimiterProfile#queries}
   */
   readonly queries?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -5223,7 +5223,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -5307,7 +5307,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#locations SwsAdvancedRateLimiterProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -5391,7 +5391,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -5475,7 +5475,7 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCond
 }
 export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges SwsAdvancedRateLimiterProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -5561,25 +5561,25 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_match SwsAdvancedRateLimiterProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_match SwsAdvancedRateLimiterProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_not_match SwsAdvancedRateLimiterProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#geo_ip_not_match SwsAdvancedRateLimiterProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_match SwsAdvancedRateLimiterProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_match SwsAdvancedRateLimiterProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_not_match SwsAdvancedRateLimiterProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#ip_ranges_not_match SwsAdvancedRateLimiterProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIpIpRangesNotMatch;
 }
@@ -5752,31 +5752,31 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#authority SwsAdvancedRateLimiterProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#authority SwsAdvancedRateLimiterProfile#authority}
   */
   readonly authority?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#headers SwsAdvancedRateLimiterProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#headers SwsAdvancedRateLimiterProfile#headers}
   */
   readonly headers?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#http_method SwsAdvancedRateLimiterProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#http_method SwsAdvancedRateLimiterProfile#http_method}
   */
   readonly httpMethod?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#request_uri SwsAdvancedRateLimiterProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#request_uri SwsAdvancedRateLimiterProfile#request_uri}
   */
   readonly requestUri?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#source_ip SwsAdvancedRateLimiterProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#source_ip SwsAdvancedRateLimiterProfile#source_ip}
   */
   readonly sourceIp?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaConditionSourceIp;
 }
@@ -5978,25 +5978,25 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota
   /**
   * Action in case of exceeding this quota. Possible values: `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#action SwsAdvancedRateLimiterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#action SwsAdvancedRateLimiterProfile#action}
   */
   readonly action?: string;
   /**
   * Desired maximum number of requests per period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#limit SwsAdvancedRateLimiterProfile#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#limit SwsAdvancedRateLimiterProfile#limit}
   */
   readonly limit?: number;
   /**
   * Period of time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#period SwsAdvancedRateLimiterProfile#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#period SwsAdvancedRateLimiterProfile#period}
   */
   readonly period?: number;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#condition SwsAdvancedRateLimiterProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#condition SwsAdvancedRateLimiterProfile#condition}
   */
   readonly condition?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuotaCondition;
 }
@@ -6169,37 +6169,37 @@ export interface SwsAdvancedRateLimiterProfileAdvancedRateLimiterRule {
   /**
   * Description of the rule. 0-512 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#description SwsAdvancedRateLimiterProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#description SwsAdvancedRateLimiterProfile#description}
   */
   readonly description?: string;
   /**
   * This allows you to evaluate backend capabilities and find the optimum limit values. Requests will not be blocked in this mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#dry_run SwsAdvancedRateLimiterProfile#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#dry_run SwsAdvancedRateLimiterProfile#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Name of the rule. The name is unique within the ARL profile. 1-50 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#name SwsAdvancedRateLimiterProfile#name}
   */
   readonly name?: string;
   /**
   * Determines the priority in case there are several matched rules. Enter an integer within the range of 1 and 999999. The rule priority must be unique within the entire ARL profile. A lower numeric value means a higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#priority SwsAdvancedRateLimiterProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#priority SwsAdvancedRateLimiterProfile#priority}
   */
   readonly priority?: number;
   /**
   * dynamic_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#dynamic_quota SwsAdvancedRateLimiterProfile#dynamic_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#dynamic_quota SwsAdvancedRateLimiterProfile#dynamic_quota}
   */
   readonly dynamicQuota?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleDynamicQuota;
   /**
   * static_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#static_quota SwsAdvancedRateLimiterProfile#static_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#static_quota SwsAdvancedRateLimiterProfile#static_quota}
   */
   readonly staticQuota?: SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleStaticQuota;
 }
@@ -6460,19 +6460,19 @@ export class SwsAdvancedRateLimiterProfileAdvancedRateLimiterRuleList extends cd
 }
 export interface SwsAdvancedRateLimiterProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#create SwsAdvancedRateLimiterProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#create SwsAdvancedRateLimiterProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#delete SwsAdvancedRateLimiterProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#delete SwsAdvancedRateLimiterProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#read SwsAdvancedRateLimiterProfile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#read SwsAdvancedRateLimiterProfile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#update SwsAdvancedRateLimiterProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#update SwsAdvancedRateLimiterProfile#update}
   */
   readonly update?: string;
 }
@@ -6653,7 +6653,7 @@ export class SwsAdvancedRateLimiterProfileTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile yandex_sws_advanced_rate_limiter_profile}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile yandex_sws_advanced_rate_limiter_profile}
 */
 export class SwsAdvancedRateLimiterProfile extends cdktf.TerraformResource {
 
@@ -6669,7 +6669,7 @@ export class SwsAdvancedRateLimiterProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwsAdvancedRateLimiterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwsAdvancedRateLimiterProfile to import
-  * @param importFromId The id of the existing SwsAdvancedRateLimiterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwsAdvancedRateLimiterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwsAdvancedRateLimiterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6681,7 +6681,7 @@ export class SwsAdvancedRateLimiterProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/sws_advanced_rate_limiter_profile yandex_sws_advanced_rate_limiter_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/sws_advanced_rate_limiter_profile yandex_sws_advanced_rate_limiter_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6692,8 +6692,8 @@ export class SwsAdvancedRateLimiterProfile extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_sws_advanced_rate_limiter_profile',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

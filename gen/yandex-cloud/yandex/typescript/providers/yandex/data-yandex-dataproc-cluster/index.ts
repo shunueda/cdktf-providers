@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexDataprocClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Yandex Data Processing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster#cluster_id DataYandexDataprocCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster#cluster_id DataYandexDataprocCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster#id DataYandexDataprocCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster#id DataYandexDataprocCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataYandexDataprocClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster#name DataYandexDataprocCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster#name DataYandexDataprocCluster#name}
   */
   readonly name?: string;
 }
@@ -600,7 +600,7 @@ export class DataYandexDataprocClusterClusterConfigList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster yandex_dataproc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster yandex_dataproc_cluster}
 */
 export class DataYandexDataprocCluster extends cdktf.TerraformDataSource {
 
@@ -616,7 +616,7 @@ export class DataYandexDataprocCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexDataprocCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexDataprocCluster to import
-  * @param importFromId The id of the existing DataYandexDataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexDataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexDataprocCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class DataYandexDataprocCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dataproc_cluster yandex_dataproc_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dataproc_cluster yandex_dataproc_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,8 +639,8 @@ export class DataYandexDataprocCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_dataproc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

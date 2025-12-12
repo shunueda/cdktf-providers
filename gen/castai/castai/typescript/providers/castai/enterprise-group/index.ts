@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface EnterpriseGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#description EnterpriseGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#description EnterpriseGroup#description}
   */
   readonly description?: string;
   /**
   * Enterprise organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#enterprise_id EnterpriseGroup#enterprise_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#enterprise_id EnterpriseGroup#enterprise_id}
   */
   readonly enterpriseId: string;
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#name EnterpriseGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#name EnterpriseGroup#name}
   */
   readonly name: string;
   /**
   * Target organization ID for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#organization_id EnterpriseGroup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#organization_id EnterpriseGroup#organization_id}
   */
   readonly organizationId: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#members EnterpriseGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#members EnterpriseGroup#members}
   */
   readonly members?: EnterpriseGroupMembers[] | cdktf.IResolvable;
   /**
   * role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#role_bindings EnterpriseGroup#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#role_bindings EnterpriseGroup#role_bindings}
   */
   readonly roleBindings?: EnterpriseGroupRoleBindings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#timeouts EnterpriseGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#timeouts EnterpriseGroup#timeouts}
   */
   readonly timeouts?: EnterpriseGroupTimeouts;
 }
@@ -54,7 +54,7 @@ export interface EnterpriseGroupMembersMember {
   /**
   * Member UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#id EnterpriseGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#id EnterpriseGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ export interface EnterpriseGroupMembersMember {
   /**
   * Kind of the member. Supported values: user, service_account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#kind EnterpriseGroup#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#kind EnterpriseGroup#kind}
   */
   readonly kind: string;
 }
@@ -204,7 +204,7 @@ export interface EnterpriseGroupMembers {
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#member EnterpriseGroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#member EnterpriseGroup#member}
   */
   readonly member?: EnterpriseGroupMembersMember[] | cdktf.IResolvable;
 }
@@ -322,13 +322,13 @@ export interface EnterpriseGroupRoleBindingsRoleBindingScopesScope {
   /**
   * Cluster ID scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#cluster EnterpriseGroup#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#cluster EnterpriseGroup#cluster}
   */
   readonly cluster?: string;
   /**
   * Organization ID scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#organization EnterpriseGroup#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#organization EnterpriseGroup#organization}
   */
   readonly organization?: string;
 }
@@ -475,7 +475,7 @@ export interface EnterpriseGroupRoleBindingsRoleBindingScopes {
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#scope EnterpriseGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#scope EnterpriseGroup#scope}
   */
   readonly scope?: EnterpriseGroupRoleBindingsRoleBindingScopesScope[] | cdktf.IResolvable;
 }
@@ -593,19 +593,19 @@ export interface EnterpriseGroupRoleBindingsRoleBinding {
   /**
   * Role binding name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#name EnterpriseGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#name EnterpriseGroup#name}
   */
   readonly name: string;
   /**
   * Role UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#role_id EnterpriseGroup#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#role_id EnterpriseGroup#role_id}
   */
   readonly roleId: string;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#scopes EnterpriseGroup#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#scopes EnterpriseGroup#scopes}
   */
   readonly scopes: EnterpriseGroupRoleBindingsRoleBindingScopes[] | cdktf.IResolvable;
 }
@@ -777,7 +777,7 @@ export interface EnterpriseGroupRoleBindings {
   /**
   * role_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#role_binding EnterpriseGroup#role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#role_binding EnterpriseGroup#role_binding}
   */
   readonly roleBinding?: EnterpriseGroupRoleBindingsRoleBinding[] | cdktf.IResolvable;
 }
@@ -893,15 +893,15 @@ export class EnterpriseGroupRoleBindingsList extends cdktf.ComplexList {
 }
 export interface EnterpriseGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#create EnterpriseGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#create EnterpriseGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#delete EnterpriseGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#delete EnterpriseGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#update EnterpriseGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#update EnterpriseGroup#update}
   */
   readonly update?: string;
 }
@@ -1053,7 +1053,7 @@ export class EnterpriseGroupTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group castai_enterprise_group}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group castai_enterprise_group}
 */
 export class EnterpriseGroup extends cdktf.TerraformResource {
 
@@ -1069,7 +1069,7 @@ export class EnterpriseGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnterpriseGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseGroup to import
-  * @param importFromId The id of the existing EnterpriseGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnterpriseGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1081,7 +1081,7 @@ export class EnterpriseGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/enterprise_group castai_enterprise_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/enterprise_group castai_enterprise_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1092,8 +1092,8 @@ export class EnterpriseGroup extends cdktf.TerraformResource {
       terraformResourceType: 'castai_enterprise_group',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

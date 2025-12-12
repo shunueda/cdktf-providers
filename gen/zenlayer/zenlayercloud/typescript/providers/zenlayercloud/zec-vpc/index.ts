@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ZecVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * A network address block which should be a subnet of the three internal network segments (10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#cidr_block ZecVpc#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#cidr_block ZecVpc#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Whether to enable the private IPv6 network segment. Once the ipv6 is enabled, disable it will cause the resource to `ForceNew`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#enable_ipv6 ZecVpc#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#enable_ipv6 ZecVpc#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#id ZecVpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#id ZecVpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ZecVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum transmission unit. This value cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#mtu ZecVpc#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#mtu ZecVpc#mtu}
   */
   readonly mtu?: number;
   /**
   * The name of the global VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#name ZecVpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#name ZecVpc#name}
   */
   readonly name?: string;
   /**
   * The resource group id the global VPC belongs to, default to ID of Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#resource_group_id ZecVpc#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#resource_group_id ZecVpc#resource_group_id}
   */
   readonly resourceGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc zenlayercloud_zec_vpc}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc zenlayercloud_zec_vpc}
 */
 export class ZecVpc extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ZecVpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecVpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecVpc to import
-  * @param importFromId The id of the existing ZecVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecVpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ZecVpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc zenlayercloud_zec_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc zenlayercloud_zec_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ZecVpc extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_vpc',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

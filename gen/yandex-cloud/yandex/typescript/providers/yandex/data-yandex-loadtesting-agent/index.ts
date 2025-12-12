@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexLoadtestingAgentConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of a specific load testing agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent#agent_id DataYandexLoadtestingAgent#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent#agent_id DataYandexLoadtestingAgent#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent#id DataYandexLoadtestingAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent#id DataYandexLoadtestingAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataYandexLoadtestingAgentConfig extends cdktf.TerraformMetaArg
   /**
   * log_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent#log_settings DataYandexLoadtestingAgent#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent#log_settings DataYandexLoadtestingAgent#log_settings}
   */
   readonly logSettings?: DataYandexLoadtestingAgentLogSettings;
 }
@@ -552,7 +552,7 @@ export class DataYandexLoadtestingAgentComputeInstanceList extends cdktf.Complex
 }
 export interface DataYandexLoadtestingAgentLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent#log_group_id DataYandexLoadtestingAgent#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent#log_group_id DataYandexLoadtestingAgent#log_group_id}
   */
   readonly logGroupId?: string;
 }
@@ -636,7 +636,7 @@ export class DataYandexLoadtestingAgentLogSettingsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent yandex_loadtesting_agent}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent yandex_loadtesting_agent}
 */
 export class DataYandexLoadtestingAgent extends cdktf.TerraformDataSource {
 
@@ -652,7 +652,7 @@ export class DataYandexLoadtestingAgent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexLoadtestingAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexLoadtestingAgent to import
-  * @param importFromId The id of the existing DataYandexLoadtestingAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexLoadtestingAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexLoadtestingAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -664,7 +664,7 @@ export class DataYandexLoadtestingAgent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/loadtesting_agent yandex_loadtesting_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/loadtesting_agent yandex_loadtesting_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -675,8 +675,8 @@ export class DataYandexLoadtestingAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_loadtesting_agent',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

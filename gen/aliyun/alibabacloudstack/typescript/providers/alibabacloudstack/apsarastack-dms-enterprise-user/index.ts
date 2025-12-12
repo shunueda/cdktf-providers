@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackDmsEnterpriseUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#id ApsarastackDmsEnterpriseUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#id ApsarastackDmsEnterpriseUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#max_execute_count ApsarastackDmsEnterpriseUser#max_execute_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#max_execute_count ApsarastackDmsEnterpriseUser#max_execute_count}
   */
   readonly maxExecuteCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#max_result_count ApsarastackDmsEnterpriseUser#max_result_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#max_result_count ApsarastackDmsEnterpriseUser#max_result_count}
   */
   readonly maxResultCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#mobile ApsarastackDmsEnterpriseUser#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#mobile ApsarastackDmsEnterpriseUser#mobile}
   */
   readonly mobile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#nick_name ApsarastackDmsEnterpriseUser#nick_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#nick_name ApsarastackDmsEnterpriseUser#nick_name}
   */
   readonly nickName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#role_names ApsarastackDmsEnterpriseUser#role_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#role_names ApsarastackDmsEnterpriseUser#role_names}
   */
   readonly roleNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#status ApsarastackDmsEnterpriseUser#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#status ApsarastackDmsEnterpriseUser#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#tid ApsarastackDmsEnterpriseUser#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#tid ApsarastackDmsEnterpriseUser#tid}
   */
   readonly tid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#uid ApsarastackDmsEnterpriseUser#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#uid ApsarastackDmsEnterpriseUser#uid}
   */
   readonly uid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#user_name ApsarastackDmsEnterpriseUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#user_name ApsarastackDmsEnterpriseUser#user_name}
   */
   readonly userName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user apsarastack_dms_enterprise_user}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user apsarastack_dms_enterprise_user}
 */
 export class ApsarastackDmsEnterpriseUser extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ApsarastackDmsEnterpriseUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackDmsEnterpriseUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackDmsEnterpriseUser to import
-  * @param importFromId The id of the existing ApsarastackDmsEnterpriseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackDmsEnterpriseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackDmsEnterpriseUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ApsarastackDmsEnterpriseUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dms_enterprise_user apsarastack_dms_enterprise_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dms_enterprise_user apsarastack_dms_enterprise_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ApsarastackDmsEnterpriseUser extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_dms_enterprise_user',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

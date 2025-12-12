@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the DNS Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#dns_zone_id DataYandexDnsZone#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#dns_zone_id DataYandexDnsZone#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#folder_id DataYandexDnsZone#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#folder_id DataYandexDnsZone#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#id DataYandexDnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#id DataYandexDnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface DataYandexDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#name DataYandexDnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#name DataYandexDnsZone#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#timeouts DataYandexDnsZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#timeouts DataYandexDnsZone#timeouts}
   */
   readonly timeouts?: DataYandexDnsZoneTimeouts;
 }
 export interface DataYandexDnsZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#create DataYandexDnsZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#create DataYandexDnsZone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#delete DataYandexDnsZone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#delete DataYandexDnsZone#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#update DataYandexDnsZone#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#update DataYandexDnsZone#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class DataYandexDnsZoneTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone yandex_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone yandex_dns_zone}
 */
 export class DataYandexDnsZone extends cdktf.TerraformDataSource {
 
@@ -217,7 +217,7 @@ export class DataYandexDnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexDnsZone to import
-  * @param importFromId The id of the existing DataYandexDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DataYandexDnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/dns_zone yandex_dns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/dns_zone yandex_dns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class DataYandexDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

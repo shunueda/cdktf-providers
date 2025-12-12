@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface MaxcomputeProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#account MaxcomputeProject#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#account MaxcomputeProject#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#account_pk MaxcomputeProject#account_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#account_pk MaxcomputeProject#account_pk}
   */
   readonly accountPk: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#core_arch MaxcomputeProject#core_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#core_arch MaxcomputeProject#core_arch}
   */
   readonly coreArch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#cpu_type MaxcomputeProject#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#cpu_type MaxcomputeProject#cpu_type}
   */
   readonly cpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#disk MaxcomputeProject#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#disk MaxcomputeProject#disk}
   */
   readonly disk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#external_table MaxcomputeProject#external_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#external_table MaxcomputeProject#external_table}
   */
   readonly externalTable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#id MaxcomputeProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#id MaxcomputeProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#name MaxcomputeProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#name MaxcomputeProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#quota_id MaxcomputeProject#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#quota_id MaxcomputeProject#quota_id}
   */
   readonly quotaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#vpc_ids MaxcomputeProject#vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#vpc_ids MaxcomputeProject#vpc_ids}
   */
   readonly vpcIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
   */
   readonly timeouts?: MaxcomputeProjectTimeouts;
 }
 export interface MaxcomputeProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
   */
   readonly delete?: string;
 }
@@ -153,7 +153,7 @@ export class MaxcomputeProjectTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project}
 */
 export class MaxcomputeProject extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxcomputeProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxcomputeProject to import
-  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxcomputeProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_maxcompute_project',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

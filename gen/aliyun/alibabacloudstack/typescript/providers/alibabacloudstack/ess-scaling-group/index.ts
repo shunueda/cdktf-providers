@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalingGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#db_instance_ids EssScalingGroup#db_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#db_instance_ids EssScalingGroup#db_instance_ids}
   */
   readonly dbInstanceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#default_cooldown EssScalingGroup#default_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#default_cooldown EssScalingGroup#default_cooldown}
   */
   readonly defaultCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#id EssScalingGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#id EssScalingGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#loadbalancer_ids EssScalingGroup#loadbalancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#loadbalancer_ids EssScalingGroup#loadbalancer_ids}
   */
   readonly loadbalancerIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#max_size EssScalingGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#max_size EssScalingGroup#max_size}
   */
   readonly maxSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#min_size EssScalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#min_size EssScalingGroup#min_size}
   */
   readonly minSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#multi_az_policy EssScalingGroup#multi_az_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#multi_az_policy EssScalingGroup#multi_az_policy}
   */
   readonly multiAzPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#removal_policies EssScalingGroup#removal_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#removal_policies EssScalingGroup#removal_policies}
   */
   readonly removalPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#scaling_group_name EssScalingGroup#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#scaling_group_name EssScalingGroup#scaling_group_name}
   */
   readonly scalingGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#vswitch_ids EssScalingGroup#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#vswitch_ids EssScalingGroup#vswitch_ids}
   */
   readonly vswitchIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group alibabacloudstack_ess_scaling_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group alibabacloudstack_ess_scaling_group}
 */
 export class EssScalingGroup extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class EssScalingGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalingGroup to import
-  * @param importFromId The id of the existing EssScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class EssScalingGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_group alibabacloudstack_ess_scaling_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scaling_group alibabacloudstack_ess_scaling_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class EssScalingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ess_scaling_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

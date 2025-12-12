@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface AlertReceiverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#annotations AlertReceiver#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#annotations AlertReceiver#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#description AlertReceiver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#description AlertReceiver#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#disable AlertReceiver#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#disable AlertReceiver#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#id AlertReceiver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#id AlertReceiver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#labels AlertReceiver#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#labels AlertReceiver#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
   */
   readonly namespace: string;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#email AlertReceiver#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#email AlertReceiver#email}
   */
   readonly email?: AlertReceiverEmail;
   /**
   * opsgenie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#opsgenie AlertReceiver#opsgenie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#opsgenie AlertReceiver#opsgenie}
   */
   readonly opsgenie?: AlertReceiverOpsgenie;
   /**
   * pagerduty block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#pagerduty AlertReceiver#pagerduty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#pagerduty AlertReceiver#pagerduty}
   */
   readonly pagerduty?: AlertReceiverPagerduty;
   /**
   * slack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#slack AlertReceiver#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#slack AlertReceiver#slack}
   */
   readonly slack?: AlertReceiverSlack;
   /**
   * sms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#sms AlertReceiver#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#sms AlertReceiver#sms}
   */
   readonly sms?: AlertReceiverSms;
   /**
   * webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#webhook AlertReceiver#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#webhook AlertReceiver#webhook}
   */
   readonly webhook?: AlertReceiverWebhook;
 }
 export interface AlertReceiverEmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#email AlertReceiver#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#email AlertReceiver#email}
   */
   readonly email?: string;
 }
@@ -161,15 +161,15 @@ export class AlertReceiverEmailOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverOpsgenieApiKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -308,15 +308,15 @@ export class AlertReceiverOpsgenieApiKeyBlindfoldSecretInfoOutputReference exten
 }
 export interface AlertReceiverOpsgenieApiKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -455,11 +455,11 @@ export class AlertReceiverOpsgenieApiKeyBlindfoldSecretInfoInternalOutputReferen
 }
 export interface AlertReceiverOpsgenieApiKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -569,23 +569,23 @@ export class AlertReceiverOpsgenieApiKeyClearSecretInfoOutputReference extends c
 }
 export interface AlertReceiverOpsgenieApiKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -779,7 +779,7 @@ export class AlertReceiverOpsgenieApiKeyVaultSecretInfoOutputReference extends c
 }
 export interface AlertReceiverOpsgenieApiKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -860,37 +860,37 @@ export class AlertReceiverOpsgenieApiKeyWingmanSecretInfoOutputReference extends
 }
 export interface AlertReceiverOpsgenieApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverOpsgenieApiKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverOpsgenieApiKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverOpsgenieApiKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverOpsgenieApiKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverOpsgenieApiKeyWingmanSecretInfo;
 }
@@ -1119,13 +1119,13 @@ export class AlertReceiverOpsgenieApiKeyOutputReference extends cdktf.ComplexObj
 }
 export interface AlertReceiverOpsgenie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#api_key AlertReceiver#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#api_key AlertReceiver#api_key}
   */
   readonly apiKey: AlertReceiverOpsgenieApiKey;
 }
@@ -1232,15 +1232,15 @@ export class AlertReceiverOpsgenieOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1379,15 +1379,15 @@ export class AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfoOutputReference 
 }
 export interface AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1526,11 +1526,11 @@ export class AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfoInternalOutputRe
 }
 export interface AlertReceiverPagerdutyRoutingKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -1640,23 +1640,23 @@ export class AlertReceiverPagerdutyRoutingKeyClearSecretInfoOutputReference exte
 }
 export interface AlertReceiverPagerdutyRoutingKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -1850,7 +1850,7 @@ export class AlertReceiverPagerdutyRoutingKeyVaultSecretInfoOutputReference exte
 }
 export interface AlertReceiverPagerdutyRoutingKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -1931,37 +1931,37 @@ export class AlertReceiverPagerdutyRoutingKeyWingmanSecretInfoOutputReference ex
 }
 export interface AlertReceiverPagerdutyRoutingKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverPagerdutyRoutingKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverPagerdutyRoutingKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverPagerdutyRoutingKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverPagerdutyRoutingKeyWingmanSecretInfo;
 }
@@ -2190,13 +2190,13 @@ export class AlertReceiverPagerdutyRoutingKeyOutputReference extends cdktf.Compl
 }
 export interface AlertReceiverPagerduty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
   /**
   * routing_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#routing_key AlertReceiver#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#routing_key AlertReceiver#routing_key}
   */
   readonly routingKey: AlertReceiverPagerdutyRoutingKey;
 }
@@ -2303,15 +2303,15 @@ export class AlertReceiverPagerdutyOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverSlackUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2450,15 +2450,15 @@ export class AlertReceiverSlackUrlBlindfoldSecretInfoOutputReference extends cdk
 }
 export interface AlertReceiverSlackUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2597,11 +2597,11 @@ export class AlertReceiverSlackUrlBlindfoldSecretInfoInternalOutputReference ext
 }
 export interface AlertReceiverSlackUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -2711,23 +2711,23 @@ export class AlertReceiverSlackUrlClearSecretInfoOutputReference extends cdktf.C
 }
 export interface AlertReceiverSlackUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -2921,7 +2921,7 @@ export class AlertReceiverSlackUrlVaultSecretInfoOutputReference extends cdktf.C
 }
 export interface AlertReceiverSlackUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -3002,37 +3002,37 @@ export class AlertReceiverSlackUrlWingmanSecretInfoOutputReference extends cdktf
 }
 export interface AlertReceiverSlackUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverSlackUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverSlackUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverSlackUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverSlackUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverSlackUrlWingmanSecretInfo;
 }
@@ -3261,13 +3261,13 @@ export class AlertReceiverSlackUrlOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverSlack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#channel AlertReceiver#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#channel AlertReceiver#channel}
   */
   readonly channel: string;
   /**
   * url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: AlertReceiverSlackUrl;
 }
@@ -3374,7 +3374,7 @@ export class AlertReceiverSlackOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverSms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#contact_number AlertReceiver#contact_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#contact_number AlertReceiver#contact_number}
   */
   readonly contactNumber?: string;
 }
@@ -3458,15 +3458,15 @@ export class AlertReceiverSmsOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3605,15 +3605,15 @@ export class AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfoOutp
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3752,11 +3752,11 @@ export class AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfoInte
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -3866,23 +3866,23 @@ export class AlertReceiverWebhookHttpConfigAuthTokenTokenClearSecretInfoOutputRe
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -4076,7 +4076,7 @@ export class AlertReceiverWebhookHttpConfigAuthTokenTokenVaultSecretInfoOutputRe
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -4157,37 +4157,37 @@ export class AlertReceiverWebhookHttpConfigAuthTokenTokenWingmanSecretInfoOutput
 }
 export interface AlertReceiverWebhookHttpConfigAuthTokenToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverWebhookHttpConfigAuthTokenTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverWebhookHttpConfigAuthTokenTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverWebhookHttpConfigAuthTokenTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverWebhookHttpConfigAuthTokenTokenWingmanSecretInfo;
 }
@@ -4418,7 +4418,7 @@ export interface AlertReceiverWebhookHttpConfigAuthToken {
   /**
   * token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#token AlertReceiver#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#token AlertReceiver#token}
   */
   readonly token: AlertReceiverWebhookHttpConfigAuthTokenToken;
 }
@@ -4499,15 +4499,15 @@ export class AlertReceiverWebhookHttpConfigAuthTokenOutputReference extends cdkt
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4646,15 +4646,15 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfoO
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4793,11 +4793,11 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfoI
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -4907,23 +4907,23 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordClearSecretInfoOutpu
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -5117,7 +5117,7 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordVaultSecretInfoOutpu
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -5198,37 +5198,37 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordWingmanSecretInfoOut
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuthPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverWebhookHttpConfigBasicAuthPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverWebhookHttpConfigBasicAuthPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverWebhookHttpConfigBasicAuthPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverWebhookHttpConfigBasicAuthPasswordWingmanSecretInfo;
 }
@@ -5457,13 +5457,13 @@ export class AlertReceiverWebhookHttpConfigBasicAuthPasswordOutputReference exte
 }
 export interface AlertReceiverWebhookHttpConfigBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#user_name AlertReceiver#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#user_name AlertReceiver#user_name}
   */
   readonly userName: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#password AlertReceiver#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#password AlertReceiver#password}
   */
   readonly password: AlertReceiverWebhookHttpConfigBasicAuthPassword;
 }
@@ -5570,15 +5570,15 @@ export class AlertReceiverWebhookHttpConfigBasicAuthOutputReference extends cdkt
 }
 export interface AlertReceiverWebhookHttpConfigClientCertObjUseTlsObj {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#tenant AlertReceiver#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#tenant AlertReceiver#tenant}
   */
   readonly tenant?: string;
 }
@@ -5759,7 +5759,7 @@ export interface AlertReceiverWebhookHttpConfigClientCertObj {
   /**
   * use_tls_obj block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#use_tls_obj AlertReceiver#use_tls_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#use_tls_obj AlertReceiver#use_tls_obj}
   */
   readonly useTlsObj?: AlertReceiverWebhookHttpConfigClientCertObjUseTlsObj[] | cdktf.IResolvable;
 }
@@ -5843,15 +5843,15 @@ export class AlertReceiverWebhookHttpConfigClientCertObjOutputReference extends 
 }
 export interface AlertReceiverWebhookHttpConfigUseTlsUseServerVerificationCaCertObjTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#namespace AlertReceiver#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#tenant AlertReceiver#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#tenant AlertReceiver#tenant}
   */
   readonly tenant?: string;
 }
@@ -6032,7 +6032,7 @@ export interface AlertReceiverWebhookHttpConfigUseTlsUseServerVerificationCaCert
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#trusted_ca AlertReceiver#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#trusted_ca AlertReceiver#trusted_ca}
   */
   readonly trustedCa?: AlertReceiverWebhookHttpConfigUseTlsUseServerVerificationCaCertObjTrustedCa[] | cdktf.IResolvable;
 }
@@ -6118,7 +6118,7 @@ export interface AlertReceiverWebhookHttpConfigUseTlsUseServerVerification {
   /**
   * ca_cert_obj block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#ca_cert_obj AlertReceiver#ca_cert_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#ca_cert_obj AlertReceiver#ca_cert_obj}
   */
   readonly caCertObj?: AlertReceiverWebhookHttpConfigUseTlsUseServerVerificationCaCertObj;
 }
@@ -6202,29 +6202,29 @@ export class AlertReceiverWebhookHttpConfigUseTlsUseServerVerificationOutputRefe
 }
 export interface AlertReceiverWebhookHttpConfigUseTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#disable_sni AlertReceiver#disable_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#disable_sni AlertReceiver#disable_sni}
   */
   readonly disableSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#max_version AlertReceiver#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#max_version AlertReceiver#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#min_version AlertReceiver#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#min_version AlertReceiver#min_version}
   */
   readonly minVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#sni AlertReceiver#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#sni AlertReceiver#sni}
   */
   readonly sni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#volterra_trusted_ca AlertReceiver#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#volterra_trusted_ca AlertReceiver#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * use_server_verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#use_server_verification AlertReceiver#use_server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#use_server_verification AlertReceiver#use_server_verification}
   */
   readonly useServerVerification?: AlertReceiverWebhookHttpConfigUseTlsUseServerVerification;
 }
@@ -6453,43 +6453,43 @@ export class AlertReceiverWebhookHttpConfigUseTlsOutputReference extends cdktf.C
 }
 export interface AlertReceiverWebhookHttpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#enable_http2 AlertReceiver#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#enable_http2 AlertReceiver#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#follow_redirects AlertReceiver#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#follow_redirects AlertReceiver#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#no_authorization AlertReceiver#no_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#no_authorization AlertReceiver#no_authorization}
   */
   readonly noAuthorization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#no_tls AlertReceiver#no_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#no_tls AlertReceiver#no_tls}
   */
   readonly noTls?: boolean | cdktf.IResolvable;
   /**
   * auth_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#auth_token AlertReceiver#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#auth_token AlertReceiver#auth_token}
   */
   readonly authToken?: AlertReceiverWebhookHttpConfigAuthToken;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#basic_auth AlertReceiver#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#basic_auth AlertReceiver#basic_auth}
   */
   readonly basicAuth?: AlertReceiverWebhookHttpConfigBasicAuth;
   /**
   * client_cert_obj block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#client_cert_obj AlertReceiver#client_cert_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#client_cert_obj AlertReceiver#client_cert_obj}
   */
   readonly clientCertObj?: AlertReceiverWebhookHttpConfigClientCertObj;
   /**
   * use_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#use_tls AlertReceiver#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#use_tls AlertReceiver#use_tls}
   */
   readonly useTls?: AlertReceiverWebhookHttpConfigUseTls;
 }
@@ -6776,15 +6776,15 @@ export class AlertReceiverWebhookHttpConfigOutputReference extends cdktf.Complex
 }
 export interface AlertReceiverWebhookUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6923,15 +6923,15 @@ export class AlertReceiverWebhookUrlBlindfoldSecretInfoOutputReference extends c
 }
 export interface AlertReceiverWebhookUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#decryption_provider AlertReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#store_provider AlertReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7070,11 +7070,11 @@ export class AlertReceiverWebhookUrlBlindfoldSecretInfoInternalOutputReference e
 }
 export interface AlertReceiverWebhookUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: string;
 }
@@ -7184,23 +7184,23 @@ export class AlertReceiverWebhookUrlClearSecretInfoOutputReference extends cdktf
 }
 export interface AlertReceiverWebhookUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#key AlertReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#key AlertReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#location AlertReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#location AlertReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#provider AlertReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#provider AlertReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding AlertReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#version AlertReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#version AlertReceiver#version}
   */
   readonly version?: number;
 }
@@ -7394,7 +7394,7 @@ export class AlertReceiverWebhookUrlVaultSecretInfoOutputReference extends cdktf
 }
 export interface AlertReceiverWebhookUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#name AlertReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#name AlertReceiver#name}
   */
   readonly name: string;
 }
@@ -7475,37 +7475,37 @@ export class AlertReceiverWebhookUrlWingmanSecretInfoOutputReference extends cdk
 }
 export interface AlertReceiverWebhookUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#secret_encoding_type AlertReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info AlertReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AlertReceiverWebhookUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#blindfold_secret_info_internal AlertReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AlertReceiverWebhookUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#clear_secret_info AlertReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: AlertReceiverWebhookUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#vault_secret_info AlertReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: AlertReceiverWebhookUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#wingman_secret_info AlertReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AlertReceiverWebhookUrlWingmanSecretInfo;
 }
@@ -7736,13 +7736,13 @@ export interface AlertReceiverWebhook {
   /**
   * http_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#http_config AlertReceiver#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#http_config AlertReceiver#http_config}
   */
   readonly httpConfig: AlertReceiverWebhookHttpConfig;
   /**
   * url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#url AlertReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#url AlertReceiver#url}
   */
   readonly url: AlertReceiverWebhookUrl;
 }
@@ -7849,7 +7849,7 @@ export class AlertReceiverWebhookOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver volterra_alert_receiver}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver volterra_alert_receiver}
 */
 export class AlertReceiver extends cdktf.TerraformResource {
 
@@ -7865,7 +7865,7 @@ export class AlertReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertReceiver to import
-  * @param importFromId The id of the existing AlertReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7877,7 +7877,7 @@ export class AlertReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/alert_receiver volterra_alert_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/alert_receiver volterra_alert_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7888,8 +7888,8 @@ export class AlertReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_alert_receiver',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

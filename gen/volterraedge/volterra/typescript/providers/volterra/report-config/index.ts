@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ReportConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#annotations ReportConfig#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#annotations ReportConfig#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#description ReportConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#description ReportConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#disable ReportConfig#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#disable ReportConfig#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#id ReportConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#id ReportConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#labels ReportConfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#labels ReportConfig#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#name ReportConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#name ReportConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#namespace ReportConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#namespace ReportConfig#namespace}
   */
   readonly namespace: string;
   /**
   * bot_defense block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#bot_defense ReportConfig#bot_defense}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#bot_defense ReportConfig#bot_defense}
   */
   readonly botDefense?: ReportConfigBotDefense;
   /**
   * report_recipients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#report_recipients ReportConfig#report_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#report_recipients ReportConfig#report_recipients}
   */
   readonly reportRecipients?: ReportConfigReportRecipients;
   /**
   * waap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#waap ReportConfig#waap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#waap ReportConfig#waap}
   */
   readonly waap?: ReportConfigWaap;
 }
 export interface ReportConfigBotDefense {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#all_namespaces ReportConfig#all_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#all_namespaces ReportConfig#all_namespaces}
   */
   readonly allNamespaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#current_namespace ReportConfig#current_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#current_namespace ReportConfig#current_namespace}
   */
   readonly currentNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#system_default ReportConfig#system_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#system_default ReportConfig#system_default}
   */
   readonly systemDefault?: boolean | cdktf.IResolvable;
 }
@@ -209,15 +209,15 @@ export class ReportConfigBotDefenseOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigReportRecipientsUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#name ReportConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#name ReportConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#namespace ReportConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#namespace ReportConfig#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#tenant ReportConfig#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#tenant ReportConfig#tenant}
   */
   readonly tenant?: string;
 }
@@ -393,7 +393,7 @@ export interface ReportConfigReportRecipients {
   /**
   * user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#user_groups ReportConfig#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#user_groups ReportConfig#user_groups}
   */
   readonly userGroups?: ReportConfigReportRecipientsUserGroups[] | cdktf.IResolvable;
 }
@@ -477,7 +477,7 @@ export class ReportConfigReportRecipientsOutputReference extends cdktf.ComplexOb
 }
 export interface ReportConfigWaapDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
   */
   readonly reportGenerationTime: string;
 }
@@ -558,11 +558,11 @@ export class ReportConfigWaapDailyOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigWaapMonthly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#date ReportConfig#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#date ReportConfig#date}
   */
   readonly date: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
   */
   readonly reportGenerationTime: string;
 }
@@ -669,7 +669,7 @@ export class ReportConfigWaapMonthlyOutputReference extends cdktf.ComplexObject 
 }
 export interface ReportConfigWaapNamespaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#namespaces ReportConfig#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#namespaces ReportConfig#namespaces}
   */
   readonly namespaces: string[];
 }
@@ -750,11 +750,11 @@ export class ReportConfigWaapNamespacesOutputReference extends cdktf.ComplexObje
 }
 export interface ReportConfigWaapWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#day ReportConfig#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#day ReportConfig#day}
   */
   readonly day: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#report_generation_time ReportConfig#report_generation_time}
   */
   readonly reportGenerationTime: string;
 }
@@ -861,35 +861,35 @@ export class ReportConfigWaapWeeklyOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigWaap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#all_namespaces ReportConfig#all_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#all_namespaces ReportConfig#all_namespaces}
   */
   readonly allNamespaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#current_namespace ReportConfig#current_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#current_namespace ReportConfig#current_namespace}
   */
   readonly currentNamespace?: boolean | cdktf.IResolvable;
   /**
   * daily block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#daily ReportConfig#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#daily ReportConfig#daily}
   */
   readonly daily?: ReportConfigWaapDaily;
   /**
   * monthly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#monthly ReportConfig#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#monthly ReportConfig#monthly}
   */
   readonly monthly?: ReportConfigWaapMonthly;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#namespaces ReportConfig#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#namespaces ReportConfig#namespaces}
   */
   readonly namespaces?: ReportConfigWaapNamespaces;
   /**
   * weekly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#weekly ReportConfig#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#weekly ReportConfig#weekly}
   */
   readonly weekly?: ReportConfigWaapWeekly;
 }
@@ -1118,7 +1118,7 @@ export class ReportConfigWaapOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config volterra_report_config}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config volterra_report_config}
 */
 export class ReportConfig extends cdktf.TerraformResource {
 
@@ -1134,7 +1134,7 @@ export class ReportConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReportConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReportConfig to import
-  * @param importFromId The id of the existing ReportConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReportConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReportConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1146,7 +1146,7 @@ export class ReportConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/report_config volterra_report_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/report_config volterra_report_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1157,8 +1157,8 @@ export class ReportConfig extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_report_config',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

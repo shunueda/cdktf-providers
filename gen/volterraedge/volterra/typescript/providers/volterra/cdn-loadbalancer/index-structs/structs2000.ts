@@ -33,7 +33,7 @@ cdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiSpecificationOnCacheMiss
 CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiSpecificationOnCacheMissOutputReference } from './structs1600'
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -114,37 +114,37 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPasswordWingmanSecretInfo;
 }
@@ -373,13 +373,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#user CdnLoadbalancer#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#user CdnLoadbalancer#user}
   */
   readonly user?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#password CdnLoadbalancer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#password CdnLoadbalancer#password}
   */
   readonly password?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLoginPassword;
 }
@@ -492,13 +492,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#domain CdnLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#domain CdnLoadbalancer#domain}
   */
   readonly domain: string;
   /**
   * simple_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#simple_login CdnLoadbalancer#simple_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#simple_login CdnLoadbalancer#simple_login}
   */
   readonly simpleLogin?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomainsSimpleLogin;
 }
@@ -642,7 +642,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#domains CdnLoadbalancer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#domains CdnLoadbalancer#domains}
   */
   readonly domains: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfigDomains[] | cdktf.IResolvable;
 }
@@ -723,13 +723,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable_api_crawler CdnLoadbalancer#disable_api_crawler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable_api_crawler CdnLoadbalancer#disable_api_crawler}
   */
   readonly disableApiCrawler?: boolean | cdktf.IResolvable;
   /**
   * api_crawler_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_crawler_config CdnLoadbalancer#api_crawler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_crawler_config CdnLoadbalancer#api_crawler_config}
   */
   readonly apiCrawlerConfig?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawlerApiCrawlerConfig;
 }
@@ -842,15 +842,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrationsCodeBaseIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -992,7 +992,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrationsSelectedRepos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_code_repo CdnLoadbalancer#api_code_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_code_repo CdnLoadbalancer#api_code_repo}
   */
   readonly apiCodeRepo: string[];
 }
@@ -1073,19 +1073,19 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#all_repos CdnLoadbalancer#all_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#all_repos CdnLoadbalancer#all_repos}
   */
   readonly allRepos?: boolean | cdktf.IResolvable;
   /**
   * code_base_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#code_base_integration CdnLoadbalancer#code_base_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#code_base_integration CdnLoadbalancer#code_base_integration}
   */
   readonly codeBaseIntegration: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrationsCodeBaseIntegration;
   /**
   * selected_repos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#selected_repos CdnLoadbalancer#selected_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#selected_repos CdnLoadbalancer#selected_repos}
   */
   readonly selectedRepos?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrationsSelectedRepos;
 }
@@ -1258,7 +1258,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * code_base_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#code_base_integrations CdnLoadbalancer#code_base_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#code_base_integrations CdnLoadbalancer#code_base_integrations}
   */
   readonly codeBaseIntegrations: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScanCodeBaseIntegrations[] | cdktf.IResolvable;
 }
@@ -1339,15 +1339,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryCustomApiAuthDiscoveryApiDiscoveryRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1491,7 +1491,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * api_discovery_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_discovery_ref CdnLoadbalancer#api_discovery_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_discovery_ref CdnLoadbalancer#api_discovery_ref}
   */
   readonly apiDiscoveryRef: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryCustomApiAuthDiscoveryApiDiscoveryRef;
 }
@@ -1572,7 +1572,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryDiscoveredApiSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#purge_duration_for_inactive_discovered_apis CdnLoadbalancer#purge_duration_for_inactive_discovered_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#purge_duration_for_inactive_discovered_apis CdnLoadbalancer#purge_duration_for_inactive_discovered_apis}
   */
   readonly purgeDurationForInactiveDiscoveredApis?: number;
 }
@@ -1656,15 +1656,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#description CdnLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#description CdnLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable CdnLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable CdnLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -1803,11 +1803,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigApiEndpointTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_endpoint_path CdnLoadbalancer#api_endpoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_endpoint_path CdnLoadbalancer#api_endpoint_path}
   */
   readonly apiEndpointPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
   */
   readonly methods: string[];
 }
@@ -1914,7 +1914,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigCustomSections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom_sections CdnLoadbalancer#custom_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom_sections CdnLoadbalancer#custom_sections}
   */
   readonly customSections: string[];
 }
@@ -1995,11 +1995,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -2112,11 +2112,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -2229,11 +2229,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -2348,13 +2348,13 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key_pattern CdnLoadbalancer#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key_pattern CdnLoadbalancer#key_pattern}
   */
   readonly keyPattern: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternKeyPattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#value_pattern CdnLoadbalancer#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#value_pattern CdnLoadbalancer#value_pattern}
   */
   readonly valuePattern: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternValuePattern;
 }
@@ -2461,11 +2461,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_value CdnLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_value CdnLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -2578,65 +2578,65 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#all_request_sections CdnLoadbalancer#all_request_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#all_request_sections CdnLoadbalancer#all_request_sections}
   */
   readonly allRequestSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#all_response_sections CdnLoadbalancer#all_response_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#all_response_sections CdnLoadbalancer#all_response_sections}
   */
   readonly allResponseSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#all_sections CdnLoadbalancer#all_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#all_sections CdnLoadbalancer#all_sections}
   */
   readonly allSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_target CdnLoadbalancer#any_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_target CdnLoadbalancer#any_target}
   */
   readonly anyTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_group CdnLoadbalancer#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_group CdnLoadbalancer#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
   */
   readonly specificDomain?: string;
   /**
   * api_endpoint_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_endpoint_target CdnLoadbalancer#api_endpoint_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_endpoint_target CdnLoadbalancer#api_endpoint_target}
   */
   readonly apiEndpointTarget?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigApiEndpointTarget;
   /**
   * custom_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom_sections CdnLoadbalancer#custom_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom_sections CdnLoadbalancer#custom_sections}
   */
   readonly customSections?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigCustomSections;
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key_pattern CdnLoadbalancer#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key_pattern CdnLoadbalancer#key_pattern}
   */
   readonly keyPattern?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyPattern;
   /**
   * key_value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key_value_pattern CdnLoadbalancer#key_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key_value_pattern CdnLoadbalancer#key_value_pattern}
   */
   readonly keyValuePattern?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#value_pattern CdnLoadbalancer#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#value_pattern CdnLoadbalancer#value_pattern}
   */
   readonly valuePattern?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigValuePattern;
 }
@@ -3068,7 +3068,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#type CdnLoadbalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#type CdnLoadbalancer#type}
   */
   readonly type: string;
 }
@@ -3151,19 +3151,19 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#metadata CdnLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#metadata CdnLoadbalancer#metadata}
   */
   readonly metadata: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesMetadata;
   /**
   * sensitive_data_detection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#sensitive_data_detection_config CdnLoadbalancer#sensitive_data_detection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#sensitive_data_detection_config CdnLoadbalancer#sensitive_data_detection_config}
   */
   readonly sensitiveDataDetectionConfig: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfig;
   /**
   * sensitive_data_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#sensitive_data_type CdnLoadbalancer#sensitive_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#sensitive_data_type CdnLoadbalancer#sensitive_data_type}
   */
   readonly sensitiveDataType: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataType;
 }
@@ -3328,7 +3328,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesDisabledBuiltInRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -3443,13 +3443,13 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiD
   /**
   * custom_sensitive_data_detection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom_sensitive_data_detection_rules CdnLoadbalancer#custom_sensitive_data_detection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom_sensitive_data_detection_rules CdnLoadbalancer#custom_sensitive_data_detection_rules}
   */
   readonly customSensitiveDataDetectionRules?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesCustomSensitiveDataDetectionRules[] | cdktf.IResolvable;
   /**
   * disabled_built_in_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disabled_built_in_rules CdnLoadbalancer#disabled_built_in_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disabled_built_in_rules CdnLoadbalancer#disabled_built_in_rules}
   */
   readonly disabledBuiltInRules?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRulesDisabledBuiltInRules[] | cdktf.IResolvable;
 }
@@ -3562,45 +3562,45 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#default_api_auth_discovery CdnLoadbalancer#default_api_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#default_api_auth_discovery CdnLoadbalancer#default_api_auth_discovery}
   */
   readonly defaultApiAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable_learn_from_redirect_traffic CdnLoadbalancer#disable_learn_from_redirect_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable_learn_from_redirect_traffic CdnLoadbalancer#disable_learn_from_redirect_traffic}
   */
   readonly disableLearnFromRedirectTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#enable_learn_from_redirect_traffic CdnLoadbalancer#enable_learn_from_redirect_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#enable_learn_from_redirect_traffic CdnLoadbalancer#enable_learn_from_redirect_traffic}
   */
   readonly enableLearnFromRedirectTraffic?: boolean | cdktf.IResolvable;
   /**
   * api_crawler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_crawler CdnLoadbalancer#api_crawler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_crawler CdnLoadbalancer#api_crawler}
   */
   readonly apiCrawler?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiCrawler;
   /**
   * api_discovery_from_code_scan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_discovery_from_code_scan CdnLoadbalancer#api_discovery_from_code_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_discovery_from_code_scan CdnLoadbalancer#api_discovery_from_code_scan}
   */
   readonly apiDiscoveryFromCodeScan?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryApiDiscoveryFromCodeScan;
   /**
   * custom_api_auth_discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom_api_auth_discovery CdnLoadbalancer#custom_api_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom_api_auth_discovery CdnLoadbalancer#custom_api_auth_discovery}
   */
   readonly customApiAuthDiscovery?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryCustomApiAuthDiscovery;
   /**
   * discovered_api_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#discovered_api_settings CdnLoadbalancer#discovered_api_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#discovered_api_settings CdnLoadbalancer#discovered_api_settings}
   */
   readonly discoveredApiSettings?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoveryDiscoveredApiSettings;
   /**
   * sensitive_data_detection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#sensitive_data_detection_rules CdnLoadbalancer#sensitive_data_detection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#sensitive_data_detection_rules CdnLoadbalancer#sensitive_data_detection_rules}
   */
   readonly sensitiveDataDetectionRules?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscoverySensitiveDataDetectionRules;
 }
@@ -3887,11 +3887,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDisco
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#block CdnLoadbalancer#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#block CdnLoadbalancer#block}
   */
   readonly block?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#report CdnLoadbalancer#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#report CdnLoadbalancer#report}
   */
   readonly report?: boolean | cdktf.IResolvable;
 }
@@ -4004,7 +4004,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationA
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationJwksConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#cleartext CdnLoadbalancer#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#cleartext CdnLoadbalancer#cleartext}
   */
   readonly cleartext?: string;
 }
@@ -4088,7 +4088,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationJ
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationMandatoryClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#claim_names CdnLoadbalancer#claim_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#claim_names CdnLoadbalancer#claim_names}
   */
   readonly claimNames?: string[];
 }
@@ -4172,7 +4172,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationM
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationReservedClaimsAudience {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#audiences CdnLoadbalancer#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#audiences CdnLoadbalancer#audiences}
   */
   readonly audiences: string[];
 }
@@ -4253,29 +4253,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationR
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationReservedClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#audience_disable CdnLoadbalancer#audience_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#audience_disable CdnLoadbalancer#audience_disable}
   */
   readonly audienceDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#issuer CdnLoadbalancer#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#issuer CdnLoadbalancer#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#issuer_disable CdnLoadbalancer#issuer_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#issuer_disable CdnLoadbalancer#issuer_disable}
   */
   readonly issuerDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#validate_period_disable CdnLoadbalancer#validate_period_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#validate_period_disable CdnLoadbalancer#validate_period_disable}
   */
   readonly validatePeriodDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#validate_period_enable CdnLoadbalancer#validate_period_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#validate_period_enable CdnLoadbalancer#validate_period_enable}
   */
   readonly validatePeriodEnable?: boolean | cdktf.IResolvable;
   /**
   * audience block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#audience CdnLoadbalancer#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#audience CdnLoadbalancer#audience}
   */
   readonly audience?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationReservedClaimsAudience;
 }
@@ -4504,7 +4504,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationR
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTargetApiGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
   */
   readonly apiGroups: string[];
 }
@@ -4585,7 +4585,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationT
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTargetBasePaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#base_paths CdnLoadbalancer#base_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#base_paths CdnLoadbalancer#base_paths}
   */
   readonly basePaths: string[];
 }
@@ -4666,19 +4666,19 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationT
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#all_endpoint CdnLoadbalancer#all_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#all_endpoint CdnLoadbalancer#all_endpoint}
   */
   readonly allEndpoint?: boolean | cdktf.IResolvable;
   /**
   * api_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
   */
   readonly apiGroups?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTargetApiGroups;
   /**
   * base_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#base_paths CdnLoadbalancer#base_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#base_paths CdnLoadbalancer#base_paths}
   */
   readonly basePaths?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTargetBasePaths;
 }
@@ -4820,19 +4820,19 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationT
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTokenLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#bearer_token CdnLoadbalancer#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#bearer_token CdnLoadbalancer#bearer_token}
   */
   readonly bearerToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#cookie CdnLoadbalancer#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#cookie CdnLoadbalancer#cookie}
   */
   readonly cookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#header CdnLoadbalancer#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#header CdnLoadbalancer#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#query_param CdnLoadbalancer#query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#query_param CdnLoadbalancer#query_param}
   */
   readonly queryParam?: string;
 }
@@ -5003,47 +5003,47 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationT
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#auth_server_uri CdnLoadbalancer#auth_server_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#auth_server_uri CdnLoadbalancer#auth_server_uri}
   */
   readonly authServerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwks CdnLoadbalancer#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwks CdnLoadbalancer#jwks}
   */
   readonly jwks?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#action CdnLoadbalancer#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#action CdnLoadbalancer#action}
   */
   readonly action: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationAction;
   /**
   * jwks_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwks_config CdnLoadbalancer#jwks_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwks_config CdnLoadbalancer#jwks_config}
   */
   readonly jwksConfig?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationJwksConfig;
   /**
   * mandatory_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#mandatory_claims CdnLoadbalancer#mandatory_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#mandatory_claims CdnLoadbalancer#mandatory_claims}
   */
   readonly mandatoryClaims?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationMandatoryClaims;
   /**
   * reserved_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#reserved_claims CdnLoadbalancer#reserved_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#reserved_claims CdnLoadbalancer#reserved_claims}
   */
   readonly reservedClaims?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationReservedClaims;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#target CdnLoadbalancer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#target CdnLoadbalancer#target}
   */
   readonly target: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTarget;
   /**
   * token_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#token_location CdnLoadbalancer#token_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#token_location CdnLoadbalancer#token_location}
   */
   readonly tokenLocation: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationTokenLocation;
 }
@@ -5321,15 +5321,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidationO
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionSensitiveDataPolicySensitiveDataPolicyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -5473,7 +5473,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionSensitiveD
   /**
   * sensitive_data_policy_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#sensitive_data_policy_ref CdnLoadbalancer#sensitive_data_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#sensitive_data_policy_ref CdnLoadbalancer#sensitive_data_policy_ref}
   */
   readonly sensitiveDataPolicyRef: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionSensitiveDataPolicySensitiveDataPolicyRef;
 }
@@ -5554,57 +5554,57 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionSensitiveDataP
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsApiProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#default_sensitive_data_policy CdnLoadbalancer#default_sensitive_data_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#default_sensitive_data_policy CdnLoadbalancer#default_sensitive_data_policy}
   */
   readonly defaultSensitiveDataPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable_api_definition CdnLoadbalancer#disable_api_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable_api_definition CdnLoadbalancer#disable_api_definition}
   */
   readonly disableApiDefinition?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable_api_discovery CdnLoadbalancer#disable_api_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable_api_discovery CdnLoadbalancer#disable_api_discovery}
   */
   readonly disableApiDiscovery?: boolean | cdktf.IResolvable;
   /**
   * api_discovery_on_cache_miss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_discovery_on_cache_miss CdnLoadbalancer#api_discovery_on_cache_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_discovery_on_cache_miss CdnLoadbalancer#api_discovery_on_cache_miss}
   */
   readonly apiDiscoveryOnCacheMiss?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiDiscoveryOnCacheMiss;
   /**
   * api_protection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_protection_rules CdnLoadbalancer#api_protection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_protection_rules CdnLoadbalancer#api_protection_rules}
   */
   readonly apiProtectionRules?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiProtectionRules;
   /**
   * api_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_specification CdnLoadbalancer#api_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_specification CdnLoadbalancer#api_specification}
   */
   readonly apiSpecification?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiSpecification;
   /**
   * api_specification_on_cache_miss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_specification_on_cache_miss CdnLoadbalancer#api_specification_on_cache_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_specification_on_cache_miss CdnLoadbalancer#api_specification_on_cache_miss}
   */
   readonly apiSpecificationOnCacheMiss?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionApiSpecificationOnCacheMiss;
   /**
   * enable_api_discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#enable_api_discovery CdnLoadbalancer#enable_api_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#enable_api_discovery CdnLoadbalancer#enable_api_discovery}
   */
   readonly enableApiDiscovery?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionEnableApiDiscovery;
   /**
   * jwt_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwt_validation CdnLoadbalancer#jwt_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwt_validation CdnLoadbalancer#jwt_validation}
   */
   readonly jwtValidation?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionJwtValidation;
   /**
   * sensitive_data_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#sensitive_data_policy CdnLoadbalancer#sensitive_data_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#sensitive_data_policy CdnLoadbalancer#sensitive_data_policy}
   */
   readonly sensitiveDataPolicy?: CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionSensitiveDataPolicy;
 }
@@ -5949,7 +5949,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsApiProtectionOutputReferenc
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom_auth_config CdnLoadbalancer#custom_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom_auth_config CdnLoadbalancer#custom_auth_config}
   */
   readonly customAuthConfig?: string;
 }
@@ -6033,15 +6033,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsCustomOutputRefe
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6180,15 +6180,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlin
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6327,11 +6327,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlin
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#url CdnLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#url CdnLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -6441,23 +6441,23 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyClea
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_encoding CdnLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_encoding CdnLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#version CdnLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#version CdnLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -6651,7 +6651,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyVaul
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -6732,37 +6732,37 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyWing
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyWingmanSecretInfo;
 }
@@ -6991,7 +6991,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKeyOutp
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -7072,7 +7072,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtCookieOutputR
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -7153,7 +7153,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtHeaderOutputR
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtQueryParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
   */
   readonly key: string;
 }
@@ -7234,15 +7234,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtQueryParamOut
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7381,15 +7381,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlin
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#decryption_provider CdnLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#store_provider CdnLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7528,11 +7528,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlin
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#url CdnLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#url CdnLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -7642,23 +7642,23 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyClea
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#location CdnLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#provider CdnLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_encoding CdnLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_encoding CdnLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#version CdnLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#version CdnLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -7852,7 +7852,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyVaul
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -7933,37 +7933,37 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyWing
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_encoding_type CdnLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info CdnLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#blindfold_secret_info_internal CdnLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#clear_secret_info CdnLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#vault_secret_info CdnLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#wingman_secret_info CdnLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyWingmanSecretInfo;
 }
@@ -8192,37 +8192,37 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKeyOutp
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#bearer_token CdnLoadbalancer#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#bearer_token CdnLoadbalancer#bearer_token}
   */
   readonly bearerToken?: boolean | cdktf.IResolvable;
   /**
   * backup_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#backup_key CdnLoadbalancer#backup_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#backup_key CdnLoadbalancer#backup_key}
   */
   readonly backupKey?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtBackupKey;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#cookie CdnLoadbalancer#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#cookie CdnLoadbalancer#cookie}
   */
   readonly cookie?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtCookie;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#header CdnLoadbalancer#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#header CdnLoadbalancer#header}
   */
   readonly header?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtHeader;
   /**
   * query_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#query_param CdnLoadbalancer#query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#query_param CdnLoadbalancer#query_param}
   */
   readonly queryParam?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtQueryParam;
   /**
   * secret_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#secret_key CdnLoadbalancer#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#secret_key CdnLoadbalancer#secret_key}
   */
   readonly secretKey: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtSecretKey;
 }
@@ -8448,19 +8448,19 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwtOutputReferen
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsAuthOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#disable_auth CdnLoadbalancer#disable_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#disable_auth CdnLoadbalancer#disable_auth}
   */
   readonly disableAuth?: boolean | cdktf.IResolvable;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#custom CdnLoadbalancer#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#custom CdnLoadbalancer#custom}
   */
   readonly custom?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsCustom;
   /**
   * jwt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwt CdnLoadbalancer#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwt CdnLoadbalancer#jwt}
   */
   readonly jwt?: CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsJwt;
 }
@@ -8602,15 +8602,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsAuthOptionsOutputReference 
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsActiveServicePoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -8786,7 +8786,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#policies CdnLoadbalancer#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#policies CdnLoadbalancer#policies}
   */
   readonly policies: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsActiveServicePoliciesPolicies[] | cdktf.IResolvable;
 }
@@ -8867,11 +8867,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsActiv
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesApiEndpointMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
   */
   readonly methods?: string[];
 }
@@ -8984,7 +8984,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -9065,15 +9065,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -9254,7 +9254,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
   */
   readonly asnSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -9335,7 +9335,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
   */
   readonly expressions: string[];
 }
@@ -9416,15 +9416,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -9603,13 +9603,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
   */
   readonly prefixSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -9719,15 +9719,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -9869,7 +9869,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpThreatCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
   */
   readonly ipThreatCategories: string[];
 }
@@ -9950,15 +9950,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherTlsFingerprintMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
   */
   readonly classes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
   */
   readonly excludedValues?: string[];
 }
@@ -10100,53 +10100,53 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
   */
   readonly anyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
   */
   readonly anyIp?: boolean | cdktf.IResolvable;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
   */
   readonly asnList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherAsnListStruct;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
   */
   readonly asnMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherAsnMatcher;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
   */
   readonly clientSelector?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherClientSelector;
   /**
   * ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
   */
   readonly ipMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpMatcher;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
   */
   readonly ipPrefixList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpPrefixListStruct;
   /**
   * ip_threat_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
   */
   readonly ipThreatCategoryList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherIpThreatCategoryListStruct;
   /**
   * tls_fingerprint_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
   */
   readonly tlsFingerprintMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcherTlsFingerprintMatcher;
 }
@@ -10462,15 +10462,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesInlineRateLimiterRefUserId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -10612,21 +10612,21 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesInlineRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#threshold CdnLoadbalancer#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#threshold CdnLoadbalancer#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#unit CdnLoadbalancer#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#unit CdnLoadbalancer#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#use_http_lb_user_id CdnLoadbalancer#use_http_lb_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#use_http_lb_user_id CdnLoadbalancer#use_http_lb_user_id}
   */
   readonly useHttpLbUserId?: boolean | cdktf.IResolvable;
   /**
   * ref_user_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ref_user_id CdnLoadbalancer#ref_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ref_user_id CdnLoadbalancer#ref_user_id}
   */
   readonly refUserId?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesInlineRateLimiterRefUserId;
 }
@@ -10791,15 +10791,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRefRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -10941,15 +10941,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherCookieMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -11091,29 +11091,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherCookieMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherCookieMatchersItem;
 }
@@ -11371,15 +11371,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -11521,29 +11521,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherHeadersItem;
 }
@@ -11801,15 +11801,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherJwtClaimsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -11951,25 +11951,25 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherJwtClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherJwtClaimsItem;
 }
@@ -12198,15 +12198,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherQueryParamsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -12348,29 +12348,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherQueryParamsItem;
 }
@@ -12630,25 +12630,25 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * cookie_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#cookie_matchers CdnLoadbalancer#cookie_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#cookie_matchers CdnLoadbalancer#cookie_matchers}
   */
   readonly cookieMatchers?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherCookieMatchers[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#headers CdnLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#headers CdnLoadbalancer#headers}
   */
   readonly headers?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherHeaders[] | cdktf.IResolvable;
   /**
   * jwt_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwt_claims CdnLoadbalancer#jwt_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwt_claims CdnLoadbalancer#jwt_claims}
   */
   readonly jwtClaims?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherJwtClaims[] | cdktf.IResolvable;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#query_params CdnLoadbalancer#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#query_params CdnLoadbalancer#query_params}
   */
   readonly queryParams?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcherQueryParams[] | cdktf.IResolvable;
 }
@@ -12819,49 +12819,49 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_endpoint_path CdnLoadbalancer#api_endpoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_endpoint_path CdnLoadbalancer#api_endpoint_path}
   */
   readonly apiEndpointPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
   */
   readonly specificDomain?: string;
   /**
   * api_endpoint_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_endpoint_method CdnLoadbalancer#api_endpoint_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_endpoint_method CdnLoadbalancer#api_endpoint_method}
   */
   readonly apiEndpointMethod?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesApiEndpointMethod;
   /**
   * client_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#client_matcher CdnLoadbalancer#client_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#client_matcher CdnLoadbalancer#client_matcher}
   */
   readonly clientMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesClientMatcher;
   /**
   * inline_rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#inline_rate_limiter CdnLoadbalancer#inline_rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#inline_rate_limiter CdnLoadbalancer#inline_rate_limiter}
   */
   readonly inlineRateLimiter?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesInlineRateLimiter;
   /**
   * ref_rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ref_rate_limiter CdnLoadbalancer#ref_rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ref_rate_limiter CdnLoadbalancer#ref_rate_limiter}
   */
   readonly refRateLimiter?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRefRateLimiter;
   /**
   * request_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#request_matcher CdnLoadbalancer#request_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#request_matcher CdnLoadbalancer#request_matcher}
   */
   readonly requestMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitApiEndpointRulesRequestMatcher;
 }
@@ -13206,11 +13206,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesApiEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#methods CdnLoadbalancer#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#path CdnLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#path CdnLoadbalancer#path}
   */
   readonly path: string;
 }
@@ -13320,7 +13320,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesApiGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
   */
   readonly apiGroups: string[];
 }
@@ -13401,7 +13401,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -13482,15 +13482,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -13671,7 +13671,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
   */
   readonly asnSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -13752,7 +13752,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
   */
   readonly expressions: string[];
 }
@@ -13833,15 +13833,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -14020,13 +14020,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
   */
   readonly prefixSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -14136,15 +14136,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -14286,7 +14286,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpThreatCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
   */
   readonly ipThreatCategories: string[];
 }
@@ -14367,15 +14367,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherTlsFingerprintMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
   */
   readonly classes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
   */
   readonly excludedValues?: string[];
 }
@@ -14517,53 +14517,53 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
   */
   readonly anyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
   */
   readonly anyIp?: boolean | cdktf.IResolvable;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
   */
   readonly asnList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherAsnListStruct;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
   */
   readonly asnMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherAsnMatcher;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
   */
   readonly clientSelector?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherClientSelector;
   /**
   * ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
   */
   readonly ipMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpMatcher;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
   */
   readonly ipPrefixList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpPrefixListStruct;
   /**
   * ip_threat_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
   */
   readonly ipThreatCategoryList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherIpThreatCategoryListStruct;
   /**
   * tls_fingerprint_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
   */
   readonly tlsFingerprintMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcherTlsFingerprintMatcher;
 }
@@ -14879,15 +14879,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherCookieMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15029,29 +15029,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherCookieMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherCookieMatchersItem;
 }
@@ -15309,15 +15309,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15459,29 +15459,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherHeadersItem;
 }
@@ -15739,15 +15739,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherJwtClaimsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15889,25 +15889,25 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherJwtClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherJwtClaimsItem;
 }
@@ -16136,15 +16136,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherQueryParamsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -16286,29 +16286,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#key CdnLoadbalancer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherQueryParamsItem;
 }
@@ -16568,25 +16568,25 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * cookie_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#cookie_matchers CdnLoadbalancer#cookie_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#cookie_matchers CdnLoadbalancer#cookie_matchers}
   */
   readonly cookieMatchers?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherCookieMatchers[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#headers CdnLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#headers CdnLoadbalancer#headers}
   */
   readonly headers?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherHeaders[] | cdktf.IResolvable;
   /**
   * jwt_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#jwt_claims CdnLoadbalancer#jwt_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#jwt_claims CdnLoadbalancer#jwt_claims}
   */
   readonly jwtClaims?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherJwtClaims[] | cdktf.IResolvable;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#query_params CdnLoadbalancer#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#query_params CdnLoadbalancer#query_params}
   */
   readonly queryParams?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcherQueryParams[] | cdktf.IResolvable;
 }
@@ -16757,43 +16757,43 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_domain CdnLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_url CdnLoadbalancer#any_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_url CdnLoadbalancer#any_url}
   */
   readonly anyUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#base_path CdnLoadbalancer#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#specific_domain CdnLoadbalancer#specific_domain}
   */
   readonly specificDomain?: string;
   /**
   * api_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_endpoint CdnLoadbalancer#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_endpoint CdnLoadbalancer#api_endpoint}
   */
   readonly apiEndpoint: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesApiEndpoint;
   /**
   * api_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#api_groups CdnLoadbalancer#api_groups}
   */
   readonly apiGroups?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesApiGroups;
   /**
   * client_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#client_matcher CdnLoadbalancer#client_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#client_matcher CdnLoadbalancer#client_matcher}
   */
   readonly clientMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesClientMatcher;
   /**
   * request_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#request_matcher CdnLoadbalancer#request_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#request_matcher CdnLoadbalancer#request_matcher}
   */
   readonly requestMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRulesRequestMatcher;
 }
@@ -17111,7 +17111,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * bypass_rate_limiting_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#bypass_rate_limiting_rules CdnLoadbalancer#bypass_rate_limiting_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#bypass_rate_limiting_rules CdnLoadbalancer#bypass_rate_limiting_rules}
   */
   readonly bypassRateLimitingRules?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitBypassRateLimitingRulesBypassRateLimitingRules[] | cdktf.IResolvable;
 }
@@ -17195,15 +17195,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitCustomIpAllowedListRateLimiterAllowedPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -17379,7 +17379,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * rate_limiter_allowed_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#rate_limiter_allowed_prefixes CdnLoadbalancer#rate_limiter_allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#rate_limiter_allowed_prefixes CdnLoadbalancer#rate_limiter_allowed_prefixes}
   */
   readonly rateLimiterAllowedPrefixes: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitCustomIpAllowedListRateLimiterAllowedPrefixes[] | cdktf.IResolvable;
 }
@@ -17460,11 +17460,11 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitIpAllowedListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#prefixes CdnLoadbalancer#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#prefixes CdnLoadbalancer#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -17577,7 +17577,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#as_numbers CdnLoadbalancer#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -17658,15 +17658,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -17847,7 +17847,7 @@ export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsA
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_sets CdnLoadbalancer#asn_sets}
   */
   readonly asnSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -17928,7 +17928,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#expressions CdnLoadbalancer#expressions}
   */
   readonly expressions: string[];
 }
@@ -18009,15 +18009,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -18196,13 +18196,13 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#prefix_sets CdnLoadbalancer#prefix_sets}
   */
   readonly prefixSets: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -18312,15 +18312,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_match CdnLoadbalancer#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefixes CdnLoadbalancer#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ipv6_prefixes CdnLoadbalancer#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -18462,7 +18462,7 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpThreatCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_categories CdnLoadbalancer#ip_threat_categories}
   */
   readonly ipThreatCategories: string[];
 }
@@ -18543,15 +18543,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherTlsFingerprintMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#classes CdnLoadbalancer#classes}
   */
   readonly classes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#excluded_values CdnLoadbalancer#excluded_values}
   */
   readonly excludedValues?: string[];
 }
@@ -18693,53 +18693,53 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_client CdnLoadbalancer#any_client}
   */
   readonly anyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#any_ip CdnLoadbalancer#any_ip}
   */
   readonly anyIp?: boolean | cdktf.IResolvable;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_list CdnLoadbalancer#asn_list}
   */
   readonly asnList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherAsnListStruct;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#asn_matcher CdnLoadbalancer#asn_matcher}
   */
   readonly asnMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherAsnMatcher;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#client_selector CdnLoadbalancer#client_selector}
   */
   readonly clientSelector?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherClientSelector;
   /**
   * ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_matcher CdnLoadbalancer#ip_matcher}
   */
   readonly ipMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpMatcher;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_prefix_list CdnLoadbalancer#ip_prefix_list}
   */
   readonly ipPrefixList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpPrefixListStruct;
   /**
   * ip_threat_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ip_threat_category_list CdnLoadbalancer#ip_threat_category_list}
   */
   readonly ipThreatCategoryList?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherIpThreatCategoryListStruct;
   /**
   * tls_fingerprint_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tls_fingerprint_matcher CdnLoadbalancer#tls_fingerprint_matcher}
   */
   readonly tlsFingerprintMatcher?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesClientMatcherTlsFingerprintMatcher;
 }
@@ -19055,15 +19055,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesInlineRateLimiterRefUserId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -19205,21 +19205,21 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesInlineRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#threshold CdnLoadbalancer#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#threshold CdnLoadbalancer#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#unit CdnLoadbalancer#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#unit CdnLoadbalancer#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#use_http_lb_user_id CdnLoadbalancer#use_http_lb_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#use_http_lb_user_id CdnLoadbalancer#use_http_lb_user_id}
   */
   readonly useHttpLbUserId?: boolean | cdktf.IResolvable;
   /**
   * ref_user_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#ref_user_id CdnLoadbalancer#ref_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#ref_user_id CdnLoadbalancer#ref_user_id}
   */
   readonly refUserId?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesInlineRateLimiterRefUserId;
 }
@@ -19384,15 +19384,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesRefRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#namespace CdnLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#tenant CdnLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -19534,15 +19534,15 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesRequestMatcherCookieMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#exact_values CdnLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#regex_values CdnLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#transformers CdnLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -19684,29 +19684,29 @@ export class CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRa
 }
 export interface CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesRequestMatcherCookieMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_not_present CdnLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#check_present CdnLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#invert_matcher CdnLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#name CdnLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#presence CdnLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_loadbalancer#item CdnLoadbalancer#item}
   */
   readonly item?: CdnLoadbalancerMoreOptionSecurityOptionsCommonSecurityControlsApiRateLimitServerUrlRulesRequestMatcherCookieMatchersItem;
 }

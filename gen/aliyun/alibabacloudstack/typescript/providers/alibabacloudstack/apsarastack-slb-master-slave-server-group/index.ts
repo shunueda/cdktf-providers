@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackSlbMasterSlaveServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#delete_protection_validation ApsarastackSlbMasterSlaveServerGroup#delete_protection_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#delete_protection_validation ApsarastackSlbMasterSlaveServerGroup#delete_protection_validation}
   */
   readonly deleteProtectionValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#id ApsarastackSlbMasterSlaveServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#id ApsarastackSlbMasterSlaveServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#load_balancer_id ApsarastackSlbMasterSlaveServerGroup#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#load_balancer_id ApsarastackSlbMasterSlaveServerGroup#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#master_slave_server_group_name ApsarastackSlbMasterSlaveServerGroup#master_slave_server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#master_slave_server_group_name ApsarastackSlbMasterSlaveServerGroup#master_slave_server_group_name}
   */
   readonly masterSlaveServerGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#name ApsarastackSlbMasterSlaveServerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#name ApsarastackSlbMasterSlaveServerGroup#name}
   */
   readonly name?: string;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#servers ApsarastackSlbMasterSlaveServerGroup#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#servers ApsarastackSlbMasterSlaveServerGroup#servers}
   */
   readonly servers?: ApsarastackSlbMasterSlaveServerGroupServers[] | cdktf.IResolvable;
 }
 export interface ApsarastackSlbMasterSlaveServerGroupServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#port ApsarastackSlbMasterSlaveServerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#port ApsarastackSlbMasterSlaveServerGroup#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#server_id ApsarastackSlbMasterSlaveServerGroup#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#server_id ApsarastackSlbMasterSlaveServerGroup#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#server_type ApsarastackSlbMasterSlaveServerGroup#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#server_type ApsarastackSlbMasterSlaveServerGroup#server_type}
   */
   readonly serverType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#weight ApsarastackSlbMasterSlaveServerGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#weight ApsarastackSlbMasterSlaveServerGroup#weight}
   */
   readonly weight: number;
 }
@@ -242,7 +242,7 @@ export class ApsarastackSlbMasterSlaveServerGroupServersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group apsarastack_slb_master_slave_server_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group apsarastack_slb_master_slave_server_group}
 */
 export class ApsarastackSlbMasterSlaveServerGroup extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class ApsarastackSlbMasterSlaveServerGroup extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ApsarastackSlbMasterSlaveServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackSlbMasterSlaveServerGroup to import
-  * @param importFromId The id of the existing ApsarastackSlbMasterSlaveServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackSlbMasterSlaveServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackSlbMasterSlaveServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class ApsarastackSlbMasterSlaveServerGroup extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_master_slave_server_group apsarastack_slb_master_slave_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_master_slave_server_group apsarastack_slb_master_slave_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class ApsarastackSlbMasterSlaveServerGroup extends cdktf.TerraformResourc
       terraformResourceType: 'apsarastack_slb_master_slave_server_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

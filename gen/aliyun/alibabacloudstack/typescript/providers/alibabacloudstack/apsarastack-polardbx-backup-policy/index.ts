@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackPolardbxBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#backup_period ApsarastackPolardbxBackupPolicy#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#backup_period ApsarastackPolardbxBackupPolicy#backup_period}
   */
   readonly backupPeriod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#backup_plan_begin ApsarastackPolardbxBackupPolicy#backup_plan_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#backup_plan_begin ApsarastackPolardbxBackupPolicy#backup_plan_begin}
   */
   readonly backupPlanBegin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#backup_set_retention ApsarastackPolardbxBackupPolicy#backup_set_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#backup_set_retention ApsarastackPolardbxBackupPolicy#backup_set_retention}
   */
   readonly backupSetRetention: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#backup_type ApsarastackPolardbxBackupPolicy#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#backup_type ApsarastackPolardbxBackupPolicy#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#backup_way ApsarastackPolardbxBackupPolicy#backup_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#backup_way ApsarastackPolardbxBackupPolicy#backup_way}
   */
   readonly backupWay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#db_instance_id ApsarastackPolardbxBackupPolicy#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#db_instance_id ApsarastackPolardbxBackupPolicy#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#force_clean_on_high_space_usage ApsarastackPolardbxBackupPolicy#force_clean_on_high_space_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#force_clean_on_high_space_usage ApsarastackPolardbxBackupPolicy#force_clean_on_high_space_usage}
   */
   readonly forceCleanOnHighSpaceUsage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#id ApsarastackPolardbxBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#id ApsarastackPolardbxBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#local_log_retention ApsarastackPolardbxBackupPolicy#local_log_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#local_log_retention ApsarastackPolardbxBackupPolicy#local_log_retention}
   */
   readonly localLogRetention: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#local_log_retention_number ApsarastackPolardbxBackupPolicy#local_log_retention_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#local_log_retention_number ApsarastackPolardbxBackupPolicy#local_log_retention_number}
   */
   readonly localLogRetentionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#log_local_retention_space ApsarastackPolardbxBackupPolicy#log_local_retention_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#log_local_retention_space ApsarastackPolardbxBackupPolicy#log_local_retention_space}
   */
   readonly logLocalRetentionSpace: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#remove_log_retention ApsarastackPolardbxBackupPolicy#remove_log_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#remove_log_retention ApsarastackPolardbxBackupPolicy#remove_log_retention}
   */
   readonly removeLogRetention: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy apsarastack_polardbx_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy apsarastack_polardbx_backup_policy}
 */
 export class ApsarastackPolardbxBackupPolicy extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ApsarastackPolardbxBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackPolardbxBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackPolardbxBackupPolicy to import
-  * @param importFromId The id of the existing ApsarastackPolardbxBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackPolardbxBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackPolardbxBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ApsarastackPolardbxBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_backup_policy apsarastack_polardbx_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_backup_policy apsarastack_polardbx_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ApsarastackPolardbxBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_polardbx_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

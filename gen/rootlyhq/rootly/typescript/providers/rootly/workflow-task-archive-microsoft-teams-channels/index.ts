@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskArchiveMicrosoftTeamsChannelsConfig extends cdktf.T
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#enabled WorkflowTaskArchiveMicrosoftTeamsChannels#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#enabled WorkflowTaskArchiveMicrosoftTeamsChannels#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#id WorkflowTaskArchiveMicrosoftTeamsChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#id WorkflowTaskArchiveMicrosoftTeamsChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskArchiveMicrosoftTeamsChannelsConfig extends cdktf.T
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#name WorkflowTaskArchiveMicrosoftTeamsChannels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#name WorkflowTaskArchiveMicrosoftTeamsChannels#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#position WorkflowTaskArchiveMicrosoftTeamsChannels#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#position WorkflowTaskArchiveMicrosoftTeamsChannels#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#skip_on_failure WorkflowTaskArchiveMicrosoftTeamsChannels#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#skip_on_failure WorkflowTaskArchiveMicrosoftTeamsChannels#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#workflow_id WorkflowTaskArchiveMicrosoftTeamsChannels#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#workflow_id WorkflowTaskArchiveMicrosoftTeamsChannels#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#task_params WorkflowTaskArchiveMicrosoftTeamsChannels#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#task_params WorkflowTaskArchiveMicrosoftTeamsChannels#task_params}
   */
   readonly taskParams: WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParams;
 }
 export interface WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParamsChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#id WorkflowTaskArchiveMicrosoftTeamsChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#id WorkflowTaskArchiveMicrosoftTeamsChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#name WorkflowTaskArchiveMicrosoftTeamsChannels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#name WorkflowTaskArchiveMicrosoftTeamsChannels#name}
   */
   readonly name: string;
 }
@@ -199,19 +199,19 @@ export class WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParamsChannelsList ext
 }
 export interface WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#task_type WorkflowTaskArchiveMicrosoftTeamsChannels#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#task_type WorkflowTaskArchiveMicrosoftTeamsChannels#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#team WorkflowTaskArchiveMicrosoftTeamsChannels#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#team WorkflowTaskArchiveMicrosoftTeamsChannels#team}
   */
   readonly team: { [key: string]: string };
   /**
   * channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#channels WorkflowTaskArchiveMicrosoftTeamsChannels#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#channels WorkflowTaskArchiveMicrosoftTeamsChannels#channels}
   */
   readonly channels: WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParamsChannels[] | cdktf.IResolvable;
 }
@@ -347,7 +347,7 @@ export class WorkflowTaskArchiveMicrosoftTeamsChannelsTaskParamsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels rootly_workflow_task_archive_microsoft_teams_channels}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels rootly_workflow_task_archive_microsoft_teams_channels}
 */
 export class WorkflowTaskArchiveMicrosoftTeamsChannels extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class WorkflowTaskArchiveMicrosoftTeamsChannels extends cdktf.TerraformRe
   * Generates CDKTF code for importing a WorkflowTaskArchiveMicrosoftTeamsChannels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskArchiveMicrosoftTeamsChannels to import
-  * @param importFromId The id of the existing WorkflowTaskArchiveMicrosoftTeamsChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskArchiveMicrosoftTeamsChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskArchiveMicrosoftTeamsChannels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class WorkflowTaskArchiveMicrosoftTeamsChannels extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_archive_microsoft_teams_channels rootly_workflow_task_archive_microsoft_teams_channels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_archive_microsoft_teams_channels rootly_workflow_task_archive_microsoft_teams_channels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class WorkflowTaskArchiveMicrosoftTeamsChannels extends cdktf.TerraformRe
       terraformResourceType: 'rootly_workflow_task_archive_microsoft_teams_channels',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

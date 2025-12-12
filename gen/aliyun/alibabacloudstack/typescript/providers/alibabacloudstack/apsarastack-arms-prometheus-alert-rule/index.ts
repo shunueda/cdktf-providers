@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackArmsPrometheusAlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#cluster_id ApsarastackArmsPrometheusAlertRule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#cluster_id ApsarastackArmsPrometheusAlertRule#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#dispatch_rule_id ApsarastackArmsPrometheusAlertRule#dispatch_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#dispatch_rule_id ApsarastackArmsPrometheusAlertRule#dispatch_rule_id}
   */
   readonly dispatchRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#duration ApsarastackArmsPrometheusAlertRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#duration ApsarastackArmsPrometheusAlertRule#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#expression ApsarastackArmsPrometheusAlertRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#expression ApsarastackArmsPrometheusAlertRule#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#id ApsarastackArmsPrometheusAlertRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#id ApsarastackArmsPrometheusAlertRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#message ApsarastackArmsPrometheusAlertRule#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#message ApsarastackArmsPrometheusAlertRule#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#notify_type ApsarastackArmsPrometheusAlertRule#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#notify_type ApsarastackArmsPrometheusAlertRule#notify_type}
   */
   readonly notifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#prometheus_alert_rule_name ApsarastackArmsPrometheusAlertRule#prometheus_alert_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#prometheus_alert_rule_name ApsarastackArmsPrometheusAlertRule#prometheus_alert_rule_name}
   */
   readonly prometheusAlertRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#type ApsarastackArmsPrometheusAlertRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#type ApsarastackArmsPrometheusAlertRule#type}
   */
   readonly type?: string;
   /**
   * annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#annotations ApsarastackArmsPrometheusAlertRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#annotations ApsarastackArmsPrometheusAlertRule#annotations}
   */
   readonly annotations?: ApsarastackArmsPrometheusAlertRuleAnnotations[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#labels ApsarastackArmsPrometheusAlertRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#labels ApsarastackArmsPrometheusAlertRule#labels}
   */
   readonly labels?: ApsarastackArmsPrometheusAlertRuleLabels[] | cdktf.IResolvable;
 }
 export interface ApsarastackArmsPrometheusAlertRuleAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#name ApsarastackArmsPrometheusAlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#name ApsarastackArmsPrometheusAlertRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#value ApsarastackArmsPrometheusAlertRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#value ApsarastackArmsPrometheusAlertRule#value}
   */
   readonly value?: string;
 }
@@ -210,11 +210,11 @@ export class ApsarastackArmsPrometheusAlertRuleAnnotationsList extends cdktf.Com
 }
 export interface ApsarastackArmsPrometheusAlertRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#name ApsarastackArmsPrometheusAlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#name ApsarastackArmsPrometheusAlertRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#value ApsarastackArmsPrometheusAlertRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#value ApsarastackArmsPrometheusAlertRule#value}
   */
   readonly value?: string;
 }
@@ -359,7 +359,7 @@ export class ApsarastackArmsPrometheusAlertRuleLabelsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule apsarastack_arms_prometheus_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule apsarastack_arms_prometheus_alert_rule}
 */
 export class ApsarastackArmsPrometheusAlertRule extends cdktf.TerraformResource {
 
@@ -375,7 +375,7 @@ export class ApsarastackArmsPrometheusAlertRule extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApsarastackArmsPrometheusAlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackArmsPrometheusAlertRule to import
-  * @param importFromId The id of the existing ApsarastackArmsPrometheusAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackArmsPrometheusAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackArmsPrometheusAlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +387,7 @@ export class ApsarastackArmsPrometheusAlertRule extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_prometheus_alert_rule apsarastack_arms_prometheus_alert_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_prometheus_alert_rule apsarastack_arms_prometheus_alert_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,8 +398,8 @@ export class ApsarastackArmsPrometheusAlertRule extends cdktf.TerraformResource 
       terraformResourceType: 'apsarastack_arms_prometheus_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

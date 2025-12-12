@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface CrlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#annotations Crl#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#annotations Crl#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#description Crl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#description Crl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#disable Crl#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#disable Crl#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#id Crl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#id Crl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#labels Crl#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#labels Crl#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#name Crl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#name Crl#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#namespace Crl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#namespace Crl#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#refresh_interval Crl#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#refresh_interval Crl#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#server_address Crl#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#server_address Crl#server_address}
   */
   readonly serverAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#server_port Crl#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#server_port Crl#server_port}
   */
   readonly serverPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#timeout Crl#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#timeout Crl#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#verify_all_certs_with_crl Crl#verify_all_certs_with_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#verify_all_certs_with_crl Crl#verify_all_certs_with_crl}
   */
   readonly verifyAllCertsWithCrl?: boolean | cdktf.IResolvable;
   /**
   * http_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#http_access Crl#http_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#http_access Crl#http_access}
   */
   readonly httpAccess?: CrlHttpAccess;
 }
 export interface CrlHttpAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#path Crl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#path Crl#path}
   */
   readonly path?: string;
 }
@@ -151,7 +151,7 @@ export class CrlHttpAccessOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl volterra_crl}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl volterra_crl}
 */
 export class Crl extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class Crl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Crl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Crl to import
-  * @param importFromId The id of the existing Crl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Crl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Crl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class Crl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/crl volterra_crl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/crl volterra_crl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class Crl extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_crl',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

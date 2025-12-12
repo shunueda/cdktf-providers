@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,97 @@ export interface TrinoCatalogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration for Clickhouse connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#clickhouse TrinoCatalog#clickhouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#clickhouse TrinoCatalog#clickhouse}
   */
   readonly clickhouse?: TrinoCatalogClickhouse;
   /**
   * ID of the Trino cluster. Provided by the client when the Catalog is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#cluster_id TrinoCatalog#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#cluster_id TrinoCatalog#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Configuration for DeltaLake connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#delta_lake TrinoCatalog#delta_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#delta_lake TrinoCatalog#delta_lake}
   */
   readonly deltaLake?: TrinoCatalogDeltaLake;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#description TrinoCatalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#description TrinoCatalog#description}
   */
   readonly description?: string;
   /**
   * Configuration for Hive connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#hive TrinoCatalog#hive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#hive TrinoCatalog#hive}
   */
   readonly hive?: TrinoCatalogHive;
   /**
   * Configuration for Hudi connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#hudi TrinoCatalog#hudi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#hudi TrinoCatalog#hudi}
   */
   readonly hudi?: TrinoCatalogHudi;
   /**
   * Configuration for Iceberg connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#iceberg TrinoCatalog#iceberg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#iceberg TrinoCatalog#iceberg}
   */
   readonly iceberg?: TrinoCatalogIceberg;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#labels TrinoCatalog#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#labels TrinoCatalog#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
+  * Configuration for MySQL connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#mysql TrinoCatalog#mysql}
+  */
+  readonly mysql?: TrinoCatalogMysql;
+  /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#name TrinoCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#name TrinoCatalog#name}
   */
   readonly name: string;
   /**
   * Configuration for Oracle connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#oracle TrinoCatalog#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#oracle TrinoCatalog#oracle}
   */
   readonly oracle?: TrinoCatalogOracle;
   /**
   * Configuration for Postgresql connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#postgresql TrinoCatalog#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#postgresql TrinoCatalog#postgresql}
   */
   readonly postgresql?: TrinoCatalogPostgresql;
   /**
   * Configuration for SQLServer connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#sqlserver TrinoCatalog#sqlserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#sqlserver TrinoCatalog#sqlserver}
   */
   readonly sqlserver?: TrinoCatalogSqlserver;
   /**
   * Configuration for TPCDS connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#tpcds TrinoCatalog#tpcds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#tpcds TrinoCatalog#tpcds}
   */
   readonly tpcds?: TrinoCatalogTpcds;
   /**
   * Configuration for TPCH connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#tpch TrinoCatalog#tpch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#tpch TrinoCatalog#tpch}
   */
   readonly tpch?: TrinoCatalogTpch;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#timeouts TrinoCatalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#timeouts TrinoCatalog#timeouts}
   */
   readonly timeouts?: TrinoCatalogTimeouts;
 }
@@ -102,19 +108,19 @@ export interface TrinoCatalogClickhouseConnectionManager {
   /**
   * Connection ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_id TrinoCatalog#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_id TrinoCatalog#connection_id}
   */
   readonly connectionId: string;
   /**
   * Additional connection properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_properties TrinoCatalog#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_properties TrinoCatalog#connection_properties}
   */
   readonly connectionProperties?: { [key: string]: string };
   /**
   * Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#database TrinoCatalog#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#database TrinoCatalog#database}
   */
   readonly database: string;
 }
@@ -262,19 +268,19 @@ export interface TrinoCatalogClickhouseOnPremise {
   /**
   * Connection to the clickhouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Password of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#password TrinoCatalog#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#password TrinoCatalog#password}
   */
   readonly password: string;
   /**
   * Name of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
   */
   readonly userName: string;
 }
@@ -419,19 +425,19 @@ export interface TrinoCatalogClickhouse {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Configuration for connection manager connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_manager TrinoCatalog#connection_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_manager TrinoCatalog#connection_manager}
   */
   readonly connectionManager?: TrinoCatalogClickhouseConnectionManager;
   /**
   * Configuration for on-premise connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
   */
   readonly onPremise?: TrinoCatalogClickhouseOnPremise;
 }
@@ -585,25 +591,25 @@ export interface TrinoCatalogDeltaLakeFileSystemExternalS3 {
   /**
   * AWS access key ID for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
   */
   readonly awsAccessKey: string;
   /**
   * AWS S3 compatible endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
   */
   readonly awsEndpoint: string;
   /**
   * AWS region for S3 storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
   */
   readonly awsRegion: string;
   /**
   * AWS secret access key for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
   */
   readonly awsSecretKey: string;
 }
@@ -833,13 +839,13 @@ export interface TrinoCatalogDeltaLakeFileSystem {
   /**
   * Describes External S3 compatible file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
   */
   readonly externalS3?: TrinoCatalogDeltaLakeFileSystemExternalS3;
   /**
   * Describes YandexCloud native S3 file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
   */
   readonly s3?: TrinoCatalogDeltaLakeFileSystemS3;
 }
@@ -964,7 +970,7 @@ export interface TrinoCatalogDeltaLakeMetastore {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
   */
   readonly uri: string;
 }
@@ -1057,19 +1063,19 @@ export interface TrinoCatalogDeltaLake {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * File system configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
   */
   readonly fileSystem: TrinoCatalogDeltaLakeFileSystem;
   /**
   * Metastore configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
   */
   readonly metastore: TrinoCatalogDeltaLakeMetastore;
 }
@@ -1217,25 +1223,25 @@ export interface TrinoCatalogHiveFileSystemExternalS3 {
   /**
   * AWS access key ID for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
   */
   readonly awsAccessKey: string;
   /**
   * AWS S3 compatible endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
   */
   readonly awsEndpoint: string;
   /**
   * AWS region for S3 storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
   */
   readonly awsRegion: string;
   /**
   * AWS secret access key for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
   */
   readonly awsSecretKey: string;
 }
@@ -1465,13 +1471,13 @@ export interface TrinoCatalogHiveFileSystem {
   /**
   * Describes External S3 compatible file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
   */
   readonly externalS3?: TrinoCatalogHiveFileSystemExternalS3;
   /**
   * Describes YandexCloud native S3 file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
   */
   readonly s3?: TrinoCatalogHiveFileSystemS3;
 }
@@ -1596,7 +1602,7 @@ export interface TrinoCatalogHiveMetastore {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
   */
   readonly uri: string;
 }
@@ -1689,19 +1695,19 @@ export interface TrinoCatalogHive {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * File system configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
   */
   readonly fileSystem: TrinoCatalogHiveFileSystem;
   /**
   * Metastore configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
   */
   readonly metastore: TrinoCatalogHiveMetastore;
 }
@@ -1849,25 +1855,25 @@ export interface TrinoCatalogHudiFileSystemExternalS3 {
   /**
   * AWS access key ID for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
   */
   readonly awsAccessKey: string;
   /**
   * AWS S3 compatible endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
   */
   readonly awsEndpoint: string;
   /**
   * AWS region for S3 storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
   */
   readonly awsRegion: string;
   /**
   * AWS secret access key for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
   */
   readonly awsSecretKey: string;
 }
@@ -2097,13 +2103,13 @@ export interface TrinoCatalogHudiFileSystem {
   /**
   * Describes External S3 compatible file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
   */
   readonly externalS3?: TrinoCatalogHudiFileSystemExternalS3;
   /**
   * Describes YandexCloud native S3 file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
   */
   readonly s3?: TrinoCatalogHudiFileSystemS3;
 }
@@ -2228,7 +2234,7 @@ export interface TrinoCatalogHudiMetastore {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
   */
   readonly uri: string;
 }
@@ -2321,19 +2327,19 @@ export interface TrinoCatalogHudi {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * File system configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
   */
   readonly fileSystem: TrinoCatalogHudiFileSystem;
   /**
   * Metastore configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
   */
   readonly metastore: TrinoCatalogHudiMetastore;
 }
@@ -2481,25 +2487,25 @@ export interface TrinoCatalogIcebergFileSystemExternalS3 {
   /**
   * AWS access key ID for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_access_key TrinoCatalog#aws_access_key}
   */
   readonly awsAccessKey: string;
   /**
   * AWS S3 compatible endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_endpoint TrinoCatalog#aws_endpoint}
   */
   readonly awsEndpoint: string;
   /**
   * AWS region for S3 storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_region TrinoCatalog#aws_region}
   */
   readonly awsRegion: string;
   /**
   * AWS secret access key for S3 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#aws_secret_key TrinoCatalog#aws_secret_key}
   */
   readonly awsSecretKey: string;
 }
@@ -2729,13 +2735,13 @@ export interface TrinoCatalogIcebergFileSystem {
   /**
   * Describes External S3 compatible file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#external_s3 TrinoCatalog#external_s3}
   */
   readonly externalS3?: TrinoCatalogIcebergFileSystemExternalS3;
   /**
   * Describes YandexCloud native S3 file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#s3 TrinoCatalog#s3}
   */
   readonly s3?: TrinoCatalogIcebergFileSystemS3;
 }
@@ -2860,7 +2866,7 @@ export interface TrinoCatalogIcebergMetastore {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#uri TrinoCatalog#uri}
   */
   readonly uri: string;
 }
@@ -2953,19 +2959,19 @@ export interface TrinoCatalogIceberg {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * File system configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#file_system TrinoCatalog#file_system}
   */
   readonly fileSystem: TrinoCatalogIcebergFileSystem;
   /**
   * Metastore configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#metastore TrinoCatalog#metastore}
   */
   readonly metastore: TrinoCatalogIcebergMetastore;
 }
@@ -3109,23 +3115,474 @@ export class TrinoCatalogIcebergOutputReference extends cdktf.ComplexObject {
     return this._metastore.internalValue;
   }
 }
-export interface TrinoCatalogOracleOnPremise {
+export interface TrinoCatalogMysqlConnectionManager {
+  /**
+  * Connection ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_id TrinoCatalog#connection_id}
+  */
+  readonly connectionId: string;
+  /**
+  * Additional connection properties.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_properties TrinoCatalog#connection_properties}
+  */
+  readonly connectionProperties?: { [key: string]: string };
+}
+
+export function trinoCatalogMysqlConnectionManagerToTerraform(struct?: TrinoCatalogMysqlConnectionManager | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_id: cdktf.stringToTerraform(struct!.connectionId),
+    connection_properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.connectionProperties),
+  }
+}
+
+
+export function trinoCatalogMysqlConnectionManagerToHclTerraform(struct?: TrinoCatalogMysqlConnectionManager | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_id: {
+      value: cdktf.stringToHclTerraform(struct!.connectionId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    connection_properties: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.connectionProperties),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TrinoCatalogMysqlConnectionManagerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TrinoCatalogMysqlConnectionManager | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionId = this._connectionId;
+    }
+    if (this._connectionProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionProperties = this._connectionProperties;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrinoCatalogMysqlConnectionManager | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._connectionId = undefined;
+      this._connectionProperties = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._connectionId = value.connectionId;
+      this._connectionProperties = value.connectionProperties;
+    }
+  }
+
+  // connection_id - computed: false, optional: false, required: true
+  private _connectionId?: string; 
+  public get connectionId() {
+    return this.getStringAttribute('connection_id');
+  }
+  public set connectionId(value: string) {
+    this._connectionId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionIdInput() {
+    return this._connectionId;
+  }
+
+  // connection_properties - computed: false, optional: true, required: false
+  private _connectionProperties?: { [key: string]: string }; 
+  public get connectionProperties() {
+    return this.getStringMapAttribute('connection_properties');
+  }
+  public set connectionProperties(value: { [key: string]: string }) {
+    this._connectionProperties = value;
+  }
+  public resetConnectionProperties() {
+    this._connectionProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionPropertiesInput() {
+    return this._connectionProperties;
+  }
+}
+export interface TrinoCatalogMysqlOnPremise {
   /**
   * Connection to the clickhouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Password of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#password TrinoCatalog#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#password TrinoCatalog#password}
   */
   readonly password: string;
   /**
   * Name of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
+  */
+  readonly userName: string;
+}
+
+export function trinoCatalogMysqlOnPremiseToTerraform(struct?: TrinoCatalogMysqlOnPremise | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_url: cdktf.stringToTerraform(struct!.connectionUrl),
+    password: cdktf.stringToTerraform(struct!.password),
+    user_name: cdktf.stringToTerraform(struct!.userName),
+  }
+}
+
+
+export function trinoCatalogMysqlOnPremiseToHclTerraform(struct?: TrinoCatalogMysqlOnPremise | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_url: {
+      value: cdktf.stringToHclTerraform(struct!.connectionUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_name: {
+      value: cdktf.stringToHclTerraform(struct!.userName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TrinoCatalogMysqlOnPremiseOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TrinoCatalogMysqlOnPremise | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionUrl = this._connectionUrl;
+    }
+    if (this._password !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.password = this._password;
+    }
+    if (this._userName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userName = this._userName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrinoCatalogMysqlOnPremise | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._connectionUrl = undefined;
+      this._password = undefined;
+      this._userName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._connectionUrl = value.connectionUrl;
+      this._password = value.password;
+      this._userName = value.userName;
+    }
+  }
+
+  // connection_url - computed: false, optional: false, required: true
+  private _connectionUrl?: string; 
+  public get connectionUrl() {
+    return this.getStringAttribute('connection_url');
+  }
+  public set connectionUrl(value: string) {
+    this._connectionUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionUrlInput() {
+    return this._connectionUrl;
+  }
+
+  // password - computed: false, optional: false, required: true
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // user_name - computed: false, optional: false, required: true
+  private _userName?: string; 
+  public get userName() {
+    return this.getStringAttribute('user_name');
+  }
+  public set userName(value: string) {
+    this._userName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userNameInput() {
+    return this._userName;
+  }
+}
+export interface TrinoCatalogMysql {
+  /**
+  * Additional properties.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  */
+  readonly additionalProperties?: { [key: string]: string };
+  /**
+  * Configuration for MySQL connection manager connection.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_manager TrinoCatalog#connection_manager}
+  */
+  readonly connectionManager?: TrinoCatalogMysqlConnectionManager;
+  /**
+  * Configuration for on-premise connection.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
+  */
+  readonly onPremise?: TrinoCatalogMysqlOnPremise;
+}
+
+export function trinoCatalogMysqlToTerraform(struct?: TrinoCatalogMysql | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.additionalProperties),
+    connection_manager: trinoCatalogMysqlConnectionManagerToTerraform(struct!.connectionManager),
+    on_premise: trinoCatalogMysqlOnPremiseToTerraform(struct!.onPremise),
+  }
+}
+
+
+export function trinoCatalogMysqlToHclTerraform(struct?: TrinoCatalogMysql | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.additionalProperties),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    connection_manager: {
+      value: trinoCatalogMysqlConnectionManagerToHclTerraform(struct!.connectionManager),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "TrinoCatalogMysqlConnectionManager",
+    },
+    on_premise: {
+      value: trinoCatalogMysqlOnPremiseToHclTerraform(struct!.onPremise),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "TrinoCatalogMysqlOnPremise",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TrinoCatalogMysqlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TrinoCatalogMysql | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._connectionManager?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionManager = this._connectionManager?.internalValue;
+    }
+    if (this._onPremise?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onPremise = this._onPremise?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrinoCatalogMysql | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._connectionManager.internalValue = undefined;
+      this._onPremise.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._connectionManager.internalValue = value.connectionManager;
+      this._onPremise.internalValue = value.onPremise;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: { [key: string]: string }; 
+  public get additionalProperties() {
+    return this.getStringMapAttribute('additional_properties');
+  }
+  public set additionalProperties(value: { [key: string]: string }) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // connection_manager - computed: false, optional: true, required: false
+  private _connectionManager = new TrinoCatalogMysqlConnectionManagerOutputReference(this, "connection_manager");
+  public get connectionManager() {
+    return this._connectionManager;
+  }
+  public putConnectionManager(value: TrinoCatalogMysqlConnectionManager) {
+    this._connectionManager.internalValue = value;
+  }
+  public resetConnectionManager() {
+    this._connectionManager.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionManagerInput() {
+    return this._connectionManager.internalValue;
+  }
+
+  // on_premise - computed: false, optional: true, required: false
+  private _onPremise = new TrinoCatalogMysqlOnPremiseOutputReference(this, "on_premise");
+  public get onPremise() {
+    return this._onPremise;
+  }
+  public putOnPremise(value: TrinoCatalogMysqlOnPremise) {
+    this._onPremise.internalValue = value;
+  }
+  public resetOnPremise() {
+    this._onPremise.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onPremiseInput() {
+    return this._onPremise.internalValue;
+  }
+}
+export interface TrinoCatalogOracleOnPremise {
+  /**
+  * Connection to the clickhouse.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
+  */
+  readonly connectionUrl: string;
+  /**
+  * Password of the clickhouse user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#password TrinoCatalog#password}
+  */
+  readonly password: string;
+  /**
+  * Name of the clickhouse user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
   */
   readonly userName: string;
 }
@@ -3270,13 +3727,13 @@ export interface TrinoCatalogOracle {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Configuration for on-premise connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
   */
   readonly onPremise?: TrinoCatalogOracleOnPremise;
 }
@@ -3401,19 +3858,19 @@ export interface TrinoCatalogPostgresqlConnectionManager {
   /**
   * Connection ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_id TrinoCatalog#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_id TrinoCatalog#connection_id}
   */
   readonly connectionId: string;
   /**
   * Additional connection properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_properties TrinoCatalog#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_properties TrinoCatalog#connection_properties}
   */
   readonly connectionProperties?: { [key: string]: string };
   /**
   * Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#database TrinoCatalog#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#database TrinoCatalog#database}
   */
   readonly database: string;
 }
@@ -3561,19 +4018,19 @@ export interface TrinoCatalogPostgresqlOnPremise {
   /**
   * Connection to the clickhouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Password of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#password TrinoCatalog#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#password TrinoCatalog#password}
   */
   readonly password: string;
   /**
   * Name of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
   */
   readonly userName: string;
 }
@@ -3718,19 +4175,19 @@ export interface TrinoCatalogPostgresql {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Configuration for connection manager connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_manager TrinoCatalog#connection_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_manager TrinoCatalog#connection_manager}
   */
   readonly connectionManager?: TrinoCatalogPostgresqlConnectionManager;
   /**
   * Configuration for on-premise connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
   */
   readonly onPremise?: TrinoCatalogPostgresqlOnPremise;
 }
@@ -3884,19 +4341,19 @@ export interface TrinoCatalogSqlserverOnPremise {
   /**
   * Connection to the clickhouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#connection_url TrinoCatalog#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Password of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#password TrinoCatalog#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#password TrinoCatalog#password}
   */
   readonly password: string;
   /**
   * Name of the clickhouse user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#user_name TrinoCatalog#user_name}
   */
   readonly userName: string;
 }
@@ -4041,13 +4498,13 @@ export interface TrinoCatalogSqlserver {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Configuration for on-premise connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#on_premise TrinoCatalog#on_premise}
   */
   readonly onPremise?: TrinoCatalogSqlserverOnPremise;
 }
@@ -4172,7 +4629,7 @@ export interface TrinoCatalogTpcds {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
 }
@@ -4268,7 +4725,7 @@ export interface TrinoCatalogTpch {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#additional_properties TrinoCatalog#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
 }
@@ -4364,19 +4821,19 @@ export interface TrinoCatalogTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#create TrinoCatalog#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#create TrinoCatalog#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#delete TrinoCatalog#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#delete TrinoCatalog#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#update TrinoCatalog#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#update TrinoCatalog#update}
   */
   readonly update?: string;
 }
@@ -4528,7 +4985,7 @@ export class TrinoCatalogTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog yandex_trino_catalog}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog yandex_trino_catalog}
 */
 export class TrinoCatalog extends cdktf.TerraformResource {
 
@@ -4544,7 +5001,7 @@ export class TrinoCatalog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrinoCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrinoCatalog to import
-  * @param importFromId The id of the existing TrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrinoCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4556,7 +5013,7 @@ export class TrinoCatalog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_catalog yandex_trino_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_catalog yandex_trino_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4567,8 +5024,8 @@ export class TrinoCatalog extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_trino_catalog',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4586,6 +5043,7 @@ export class TrinoCatalog extends cdktf.TerraformResource {
     this._hudi.internalValue = config.hudi;
     this._iceberg.internalValue = config.iceberg;
     this._labels = config.labels;
+    this._mysql.internalValue = config.mysql;
     this._name = config.name;
     this._oracle.internalValue = config.oracle;
     this._postgresql.internalValue = config.postgresql;
@@ -4729,6 +5187,22 @@ export class TrinoCatalog extends cdktf.TerraformResource {
     return this._labels;
   }
 
+  // mysql - computed: false, optional: true, required: false
+  private _mysql = new TrinoCatalogMysqlOutputReference(this, "mysql");
+  public get mysql() {
+    return this._mysql;
+  }
+  public putMysql(value: TrinoCatalogMysql) {
+    this._mysql.internalValue = value;
+  }
+  public resetMysql() {
+    this._mysql.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mysqlInput() {
+    return this._mysql.internalValue;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -4852,6 +5326,7 @@ export class TrinoCatalog extends cdktf.TerraformResource {
       hudi: trinoCatalogHudiToTerraform(this._hudi.internalValue),
       iceberg: trinoCatalogIcebergToTerraform(this._iceberg.internalValue),
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
+      mysql: trinoCatalogMysqlToTerraform(this._mysql.internalValue),
       name: cdktf.stringToTerraform(this._name),
       oracle: trinoCatalogOracleToTerraform(this._oracle.internalValue),
       postgresql: trinoCatalogPostgresqlToTerraform(this._postgresql.internalValue),
@@ -4911,6 +5386,12 @@ export class TrinoCatalog extends cdktf.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      mysql: {
+        value: trinoCatalogMysqlToHclTerraform(this._mysql.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "TrinoCatalogMysql",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

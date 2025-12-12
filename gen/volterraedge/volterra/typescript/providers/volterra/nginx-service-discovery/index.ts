@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface NginxServiceDiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#annotations NginxServiceDiscovery#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#annotations NginxServiceDiscovery#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#description NginxServiceDiscovery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#description NginxServiceDiscovery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#disable NginxServiceDiscovery#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#disable NginxServiceDiscovery#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#id NginxServiceDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#id NginxServiceDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#labels NginxServiceDiscovery#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#labels NginxServiceDiscovery#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
   */
   readonly namespace: string;
   /**
   * discovery_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#discovery_target NginxServiceDiscovery#discovery_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#discovery_target NginxServiceDiscovery#discovery_target}
   */
   readonly discoveryTarget?: NginxServiceDiscoveryDiscoveryTarget;
   /**
   * server_block_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#server_block_filters NginxServiceDiscovery#server_block_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#server_block_filters NginxServiceDiscovery#server_block_filters}
   */
   readonly serverBlockFilters?: NginxServiceDiscoveryServerBlockFilters[] | cdktf.IResolvable;
 }
 export interface NginxServiceDiscoveryDiscoveryTargetConfigSyncGroupConfigSyncGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#tenant NginxServiceDiscovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#tenant NginxServiceDiscovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -242,7 +242,7 @@ export interface NginxServiceDiscoveryDiscoveryTargetConfigSyncGroup {
   /**
   * config_sync_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#config_sync_group NginxServiceDiscovery#config_sync_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#config_sync_group NginxServiceDiscovery#config_sync_group}
   */
   readonly configSyncGroup: NginxServiceDiscoveryDiscoveryTargetConfigSyncGroupConfigSyncGroup[] | cdktf.IResolvable;
 }
@@ -323,15 +323,15 @@ export class NginxServiceDiscoveryDiscoveryTargetConfigSyncGroupOutputReference 
 }
 export interface NginxServiceDiscoveryDiscoveryTargetNginxInstanceNginxInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#name NginxServiceDiscovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#namespace NginxServiceDiscovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#tenant NginxServiceDiscovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#tenant NginxServiceDiscovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -512,7 +512,7 @@ export interface NginxServiceDiscoveryDiscoveryTargetNginxInstance {
   /**
   * nginx_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#nginx_instance NginxServiceDiscovery#nginx_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#nginx_instance NginxServiceDiscovery#nginx_instance}
   */
   readonly nginxInstance: NginxServiceDiscoveryDiscoveryTargetNginxInstanceNginxInstance[] | cdktf.IResolvable;
 }
@@ -595,13 +595,13 @@ export interface NginxServiceDiscoveryDiscoveryTarget {
   /**
   * config_sync_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#config_sync_group NginxServiceDiscovery#config_sync_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#config_sync_group NginxServiceDiscovery#config_sync_group}
   */
   readonly configSyncGroup?: NginxServiceDiscoveryDiscoveryTargetConfigSyncGroup;
   /**
   * nginx_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#nginx_instance NginxServiceDiscovery#nginx_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#nginx_instance NginxServiceDiscovery#nginx_instance}
   */
   readonly nginxInstance?: NginxServiceDiscoveryDiscoveryTargetNginxInstance;
 }
@@ -714,11 +714,11 @@ export class NginxServiceDiscoveryDiscoveryTargetOutputReference extends cdktf.C
 }
 export interface NginxServiceDiscoveryServerBlockFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#name_regex NginxServiceDiscovery#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#name_regex NginxServiceDiscovery#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#port_ranges NginxServiceDiscovery#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#port_ranges NginxServiceDiscovery#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -863,7 +863,7 @@ export class NginxServiceDiscoveryServerBlockFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery volterra_nginx_service_discovery}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery volterra_nginx_service_discovery}
 */
 export class NginxServiceDiscovery extends cdktf.TerraformResource {
 
@@ -879,7 +879,7 @@ export class NginxServiceDiscovery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NginxServiceDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NginxServiceDiscovery to import
-  * @param importFromId The id of the existing NginxServiceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NginxServiceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NginxServiceDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -891,7 +891,7 @@ export class NginxServiceDiscovery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nginx_service_discovery volterra_nginx_service_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nginx_service_discovery volterra_nginx_service_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -902,8 +902,8 @@ export class NginxServiceDiscovery extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nginx_service_discovery',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

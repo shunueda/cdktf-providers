@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayV2SignatureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#cascade_link_ids ApiGatewayV2Signature#cascade_link_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#cascade_link_ids ApiGatewayV2Signature#cascade_link_ids}
   */
   readonly cascadeLinkIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#gw_instance_id ApiGatewayV2Signature#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#gw_instance_id ApiGatewayV2Signature#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#id ApiGatewayV2Signature#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#id ApiGatewayV2Signature#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#sig_alg ApiGatewayV2Signature#sig_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#sig_alg ApiGatewayV2Signature#sig_alg}
   */
   readonly sigAlg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#sig_scheme_name ApiGatewayV2Signature#sig_scheme_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#sig_scheme_name ApiGatewayV2Signature#sig_scheme_name}
   */
   readonly sigSchemeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#status ApiGatewayV2Signature#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#status ApiGatewayV2Signature#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature alibabacloudstack_api_gateway_v2_signature}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature alibabacloudstack_api_gateway_v2_signature}
 */
 export class ApiGatewayV2Signature extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ApiGatewayV2Signature extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayV2Signature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayV2Signature to import
-  * @param importFromId The id of the existing ApiGatewayV2Signature that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayV2Signature that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayV2Signature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ApiGatewayV2Signature extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/api_gateway_v2_signature alibabacloudstack_api_gateway_v2_signature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/api_gateway_v2_signature alibabacloudstack_api_gateway_v2_signature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ApiGatewayV2Signature extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_api_gateway_v2_signature',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

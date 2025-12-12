@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackKvstoreInstanceClassesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#architecture DataAlibabacloudstackKvstoreInstanceClasses#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#architecture DataAlibabacloudstackKvstoreInstanceClasses#architecture}
   */
   readonly architecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#cpu DataAlibabacloudstackKvstoreInstanceClasses#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#cpu DataAlibabacloudstackKvstoreInstanceClasses#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#edition_type DataAlibabacloudstackKvstoreInstanceClasses#edition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#edition_type DataAlibabacloudstackKvstoreInstanceClasses#edition_type}
   */
   readonly editionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#engine DataAlibabacloudstackKvstoreInstanceClasses#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#engine DataAlibabacloudstackKvstoreInstanceClasses#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#engine_version DataAlibabacloudstackKvstoreInstanceClasses#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#engine_version DataAlibabacloudstackKvstoreInstanceClasses#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#id DataAlibabacloudstackKvstoreInstanceClasses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#id DataAlibabacloudstackKvstoreInstanceClasses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#memory DataAlibabacloudstackKvstoreInstanceClasses#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#memory DataAlibabacloudstackKvstoreInstanceClasses#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#node_type DataAlibabacloudstackKvstoreInstanceClasses#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#node_type DataAlibabacloudstackKvstoreInstanceClasses#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#output_file DataAlibabacloudstackKvstoreInstanceClasses#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#output_file DataAlibabacloudstackKvstoreInstanceClasses#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#sorted_by DataAlibabacloudstackKvstoreInstanceClasses#sorted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#sorted_by DataAlibabacloudstackKvstoreInstanceClasses#sorted_by}
   */
   readonly sortedBy?: string;
 }
@@ -168,7 +168,7 @@ export class DataAlibabacloudstackKvstoreInstanceClassesInstanceClassesList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes alibabacloudstack_kvstore_instance_classes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes alibabacloudstack_kvstore_instance_classes}
 */
 export class DataAlibabacloudstackKvstoreInstanceClasses extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataAlibabacloudstackKvstoreInstanceClasses extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlibabacloudstackKvstoreInstanceClasses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackKvstoreInstanceClasses to import
-  * @param importFromId The id of the existing DataAlibabacloudstackKvstoreInstanceClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackKvstoreInstanceClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackKvstoreInstanceClasses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataAlibabacloudstackKvstoreInstanceClasses extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/kvstore_instance_classes alibabacloudstack_kvstore_instance_classes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/kvstore_instance_classes alibabacloudstack_kvstore_instance_classes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataAlibabacloudstackKvstoreInstanceClasses extends cdktf.Terraform
       terraformResourceType: 'alibabacloudstack_kvstore_instance_classes',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackMongodbShardinginstanceMongosnodeAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#db_instance_id ApsarastackMongodbShardinginstanceMongosnodeAddress#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#db_instance_id ApsarastackMongodbShardinginstanceMongosnodeAddress#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#enable_private_connection ApsarastackMongodbShardinginstanceMongosnodeAddress#enable_private_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#enable_private_connection ApsarastackMongodbShardinginstanceMongosnodeAddress#enable_private_connection}
   */
   readonly enablePrivateConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#enable_public_connection ApsarastackMongodbShardinginstanceMongosnodeAddress#enable_public_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#enable_public_connection ApsarastackMongodbShardinginstanceMongosnodeAddress#enable_public_connection}
   */
   readonly enablePublicConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#id ApsarastackMongodbShardinginstanceMongosnodeAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#id ApsarastackMongodbShardinginstanceMongosnodeAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#node_id ApsarastackMongodbShardinginstanceMongosnodeAddress#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#node_id ApsarastackMongodbShardinginstanceMongosnodeAddress#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#private_connect_port ApsarastackMongodbShardinginstanceMongosnodeAddress#private_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#private_connect_port ApsarastackMongodbShardinginstanceMongosnodeAddress#private_connect_port}
   */
   readonly privateConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#private_connect_string_prefix ApsarastackMongodbShardinginstanceMongosnodeAddress#private_connect_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#private_connect_string_prefix ApsarastackMongodbShardinginstanceMongosnodeAddress#private_connect_string_prefix}
   */
   readonly privateConnectStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#public_connect_port ApsarastackMongodbShardinginstanceMongosnodeAddress#public_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#public_connect_port ApsarastackMongodbShardinginstanceMongosnodeAddress#public_connect_port}
   */
   readonly publicConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#public_connect_string_prefix ApsarastackMongodbShardinginstanceMongosnodeAddress#public_connect_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#public_connect_string_prefix ApsarastackMongodbShardinginstanceMongosnodeAddress#public_connect_string_prefix}
   */
   readonly publicConnectStringPrefix?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address apsarastack_mongodb_shardinginstance_mongosnode_address}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address apsarastack_mongodb_shardinginstance_mongosnode_address}
 */
 export class ApsarastackMongodbShardinginstanceMongosnodeAddress extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ApsarastackMongodbShardinginstanceMongosnodeAddress extends cdktf.T
   * Generates CDKTF code for importing a ApsarastackMongodbShardinginstanceMongosnodeAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackMongodbShardinginstanceMongosnodeAddress to import
-  * @param importFromId The id of the existing ApsarastackMongodbShardinginstanceMongosnodeAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackMongodbShardinginstanceMongosnodeAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackMongodbShardinginstanceMongosnodeAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ApsarastackMongodbShardinginstanceMongosnodeAddress extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address apsarastack_mongodb_shardinginstance_mongosnode_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance_mongosnode_address apsarastack_mongodb_shardinginstance_mongosnode_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ApsarastackMongodbShardinginstanceMongosnodeAddress extends cdktf.T
       terraformResourceType: 'apsarastack_mongodb_shardinginstance_mongosnode_address',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

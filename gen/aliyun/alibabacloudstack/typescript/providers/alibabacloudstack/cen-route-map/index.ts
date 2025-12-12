@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface CenRouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AS path match mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#as_path_match_mode CenRouteMap#as_path_match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#as_path_match_mode CenRouteMap#as_path_match_mode}
   */
   readonly asPathMatchMode?: string;
   /**
   * The ID of the CEN instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#cen_id CenRouteMap#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#cen_id CenRouteMap#cen_id}
   */
   readonly cenId: string;
   /**
   * The CIDR match mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#cidr_match_mode CenRouteMap#cidr_match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#cidr_match_mode CenRouteMap#cidr_match_mode}
   */
   readonly cidrMatchMode?: string;
   /**
   * The community match mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#community_match_mode CenRouteMap#community_match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#community_match_mode CenRouteMap#community_match_mode}
   */
   readonly communityMatchMode?: string;
   /**
   * The community operate mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#community_operate_mode CenRouteMap#community_operate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#community_operate_mode CenRouteMap#community_operate_mode}
   */
   readonly communityOperateMode?: string;
   /**
   * The description of the route map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#description CenRouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#description CenRouteMap#description}
   */
   readonly description?: string;
   /**
   * The list of destination child instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#destination_child_instance_types CenRouteMap#destination_child_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#destination_child_instance_types CenRouteMap#destination_child_instance_types}
   */
   readonly destinationChildInstanceTypes?: string[];
   /**
   * The list of destination CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#destination_cidr_blocks CenRouteMap#destination_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#destination_cidr_blocks CenRouteMap#destination_cidr_blocks}
   */
   readonly destinationCidrBlocks?: string[];
   /**
   * The list of destination instance IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#destination_instance_ids CenRouteMap#destination_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#destination_instance_ids CenRouteMap#destination_instance_ids}
   */
   readonly destinationInstanceIds?: string[];
   /**
   * Whether to reverse match destination instance IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#destination_instance_ids_reverse_match CenRouteMap#destination_instance_ids_reverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#destination_instance_ids_reverse_match CenRouteMap#destination_instance_ids_reverse_match}
   */
   readonly destinationInstanceIdsReverseMatch?: boolean | cdktf.IResolvable;
   /**
   * The list of destination route table IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#destination_route_table_ids CenRouteMap#destination_route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#destination_route_table_ids CenRouteMap#destination_route_table_ids}
   */
   readonly destinationRouteTableIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#id CenRouteMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#id CenRouteMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,107 +83,107 @@ export interface CenRouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * The mapping result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#map_result CenRouteMap#map_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#map_result CenRouteMap#map_result}
   */
   readonly mapResult: string;
   /**
   * The address type to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#match_address_type CenRouteMap#match_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#match_address_type CenRouteMap#match_address_type}
   */
   readonly matchAddressType?: string;
   /**
   * The list of AS numbers to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#match_asns CenRouteMap#match_asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#match_asns CenRouteMap#match_asns}
   */
   readonly matchAsns?: number[];
   /**
   * The list of community sets to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#match_community_set CenRouteMap#match_community_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#match_community_set CenRouteMap#match_community_set}
   */
   readonly matchCommunitySet?: string[];
   /**
   * The next priority value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#next_priority CenRouteMap#next_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#next_priority CenRouteMap#next_priority}
   */
   readonly nextPriority?: number;
   /**
   * The list of community sets to operate on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#operate_community_set CenRouteMap#operate_community_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#operate_community_set CenRouteMap#operate_community_set}
   */
   readonly operateCommunitySet?: string[];
   /**
   * The preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#preference CenRouteMap#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#preference CenRouteMap#preference}
   */
   readonly preference?: number;
   /**
   * The AS path to prepend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#prepend_as_path CenRouteMap#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#prepend_as_path CenRouteMap#prepend_as_path}
   */
   readonly prependAsPath?: number[];
   /**
   * The priority of the route map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#priority CenRouteMap#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#priority CenRouteMap#priority}
   */
   readonly priority: number;
   /**
   * The list of route types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#route_types CenRouteMap#route_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#route_types CenRouteMap#route_types}
   */
   readonly routeTypes?: string[];
   /**
   * The list of source child instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#source_child_instance_types CenRouteMap#source_child_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#source_child_instance_types CenRouteMap#source_child_instance_types}
   */
   readonly sourceChildInstanceTypes?: string[];
   /**
   * The list of source instance IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#source_instance_ids CenRouteMap#source_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#source_instance_ids CenRouteMap#source_instance_ids}
   */
   readonly sourceInstanceIds?: string[];
   /**
   * Whether to reverse match source instance IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#source_instance_ids_reverse_match CenRouteMap#source_instance_ids_reverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#source_instance_ids_reverse_match CenRouteMap#source_instance_ids_reverse_match}
   */
   readonly sourceInstanceIdsReverseMatch?: boolean | cdktf.IResolvable;
   /**
   * The list of source region IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#source_region_ids CenRouteMap#source_region_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#source_region_ids CenRouteMap#source_region_ids}
   */
   readonly sourceRegionIds?: string[];
   /**
   * The list of source route table IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#source_route_table_ids CenRouteMap#source_route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#source_route_table_ids CenRouteMap#source_route_table_ids}
   */
   readonly sourceRouteTableIds?: string[];
   /**
   * The ID of the transit router route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#transit_router_route_table_id CenRouteMap#transit_router_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#transit_router_route_table_id CenRouteMap#transit_router_route_table_id}
   */
   readonly transitRouterRouteTableId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#transmit_direction CenRouteMap#transmit_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#transmit_direction CenRouteMap#transmit_direction}
   */
   readonly transmitDirection: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map alibabacloudstack_cen_route_map}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map alibabacloudstack_cen_route_map}
 */
 export class CenRouteMap extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class CenRouteMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenRouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenRouteMap to import
-  * @param importFromId The id of the existing CenRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenRouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class CenRouteMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_route_map alibabacloudstack_cen_route_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_route_map alibabacloudstack_cen_route_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class CenRouteMap extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cen_route_map',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

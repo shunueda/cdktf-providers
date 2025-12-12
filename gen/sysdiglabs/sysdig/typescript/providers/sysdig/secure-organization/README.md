@@ -1,3 +1,3 @@
 # `sysdig_secure_organization`
 
-Refer to the Terraform Registry for docs: [`sysdig_secure_organization`](https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_organization).
+Refer to the Terraform Registry for docs: [`sysdig_secure_organization`](https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_organization).

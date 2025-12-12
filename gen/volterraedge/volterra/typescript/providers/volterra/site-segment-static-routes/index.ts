@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface SiteSegmentStaticRoutesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#annotations SiteSegmentStaticRoutes#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#annotations SiteSegmentStaticRoutes#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#description SiteSegmentStaticRoutes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#description SiteSegmentStaticRoutes#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#disable SiteSegmentStaticRoutes#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#disable SiteSegmentStaticRoutes#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#id SiteSegmentStaticRoutes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#id SiteSegmentStaticRoutes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nameserver_v4 SiteSegmentStaticRoutes#nameserver_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nameserver_v4 SiteSegmentStaticRoutes#nameserver_v4}
   */
   readonly nameserverV4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nameserver_v6 SiteSegmentStaticRoutes#nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nameserver_v6 SiteSegmentStaticRoutes#nameserver_v6}
   */
   readonly nameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#secondary_nameserver_v4 SiteSegmentStaticRoutes#secondary_nameserver_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#secondary_nameserver_v4 SiteSegmentStaticRoutes#secondary_nameserver_v4}
   */
   readonly secondaryNameserverV4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#secondary_nameserver_v6 SiteSegmentStaticRoutes#secondary_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#secondary_nameserver_v6 SiteSegmentStaticRoutes#secondary_nameserver_v6}
   */
   readonly secondaryNameserverV6?: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#site SiteSegmentStaticRoutes#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#site SiteSegmentStaticRoutes#site}
   */
   readonly site: SiteSegmentStaticRoutesSite[] | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#static_routes SiteSegmentStaticRoutes#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#static_routes SiteSegmentStaticRoutes#static_routes}
   */
   readonly staticRoutes?: SiteSegmentStaticRoutesStaticRoutes[] | cdktf.IResolvable;
   /**
   * static_v6_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#static_v6_routes SiteSegmentStaticRoutes#static_v6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#static_v6_routes SiteSegmentStaticRoutes#static_v6_routes}
   */
   readonly staticV6Routes?: SiteSegmentStaticRoutesStaticV6Routes[] | cdktf.IResolvable;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#virtual_network SiteSegmentStaticRoutes#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#virtual_network SiteSegmentStaticRoutes#virtual_network}
   */
   readonly virtualNetwork: SiteSegmentStaticRoutesVirtualNetwork[] | cdktf.IResolvable;
 }
 export interface SiteSegmentStaticRoutesSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
   */
   readonly tenant?: string;
 }
@@ -268,15 +268,15 @@ export class SiteSegmentStaticRoutesSiteList extends cdktf.ComplexList {
 }
 export interface SiteSegmentStaticRoutesStaticRoutesNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
   */
   readonly tenant?: string;
 }
@@ -455,7 +455,7 @@ export class SiteSegmentStaticRoutesStaticRoutesNexthopInterfaceList extends cdk
 }
 export interface SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
   */
   readonly addr?: string;
 }
@@ -539,7 +539,7 @@ export class SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressIpv4OutputR
 }
 export interface SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
   */
   readonly addr?: string;
 }
@@ -625,13 +625,13 @@ export interface SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
   */
   readonly ipv4?: SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
   */
   readonly ipv6?: SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressIpv6;
 }
@@ -744,19 +744,19 @@ export class SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddressOutputRefer
 }
 export interface SiteSegmentStaticRoutesStaticRoutesNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#type SiteSegmentStaticRoutes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#type SiteSegmentStaticRoutes#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#interface SiteSegmentStaticRoutes#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#interface SiteSegmentStaticRoutes#interface}
   */
   readonly interface?: SiteSegmentStaticRoutesStaticRoutesNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nexthop_address SiteSegmentStaticRoutes#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nexthop_address SiteSegmentStaticRoutes#nexthop_address}
   */
   readonly nexthopAddress?: SiteSegmentStaticRoutesStaticRoutesNexthopNexthopAddress;
 }
@@ -898,11 +898,11 @@ export class SiteSegmentStaticRoutesStaticRoutesNexthopOutputReference extends c
 }
 export interface SiteSegmentStaticRoutesStaticRoutesSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
   */
   readonly prefix?: string;
 }
@@ -1015,11 +1015,11 @@ export class SiteSegmentStaticRoutesStaticRoutesSubnetsIpv4OutputReference exten
 }
 export interface SiteSegmentStaticRoutesStaticRoutesSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
   */
   readonly prefix?: string;
 }
@@ -1134,13 +1134,13 @@ export interface SiteSegmentStaticRoutesStaticRoutesSubnets {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
   */
   readonly ipv4?: SiteSegmentStaticRoutesStaticRoutesSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
   */
   readonly ipv6?: SiteSegmentStaticRoutesStaticRoutesSubnetsIpv6;
 }
@@ -1285,23 +1285,23 @@ export class SiteSegmentStaticRoutesStaticRoutesSubnetsList extends cdktf.Comple
 }
 export interface SiteSegmentStaticRoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#attrs SiteSegmentStaticRoutes#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#attrs SiteSegmentStaticRoutes#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nexthop SiteSegmentStaticRoutes#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nexthop SiteSegmentStaticRoutes#nexthop}
   */
   readonly nexthop?: SiteSegmentStaticRoutesStaticRoutesNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#subnets SiteSegmentStaticRoutes#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#subnets SiteSegmentStaticRoutes#subnets}
   */
   readonly subnets: SiteSegmentStaticRoutesStaticRoutesSubnets[] | cdktf.IResolvable;
 }
@@ -1501,15 +1501,15 @@ export class SiteSegmentStaticRoutesStaticRoutesList extends cdktf.ComplexList {
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
   */
   readonly tenant?: string;
 }
@@ -1688,7 +1688,7 @@ export class SiteSegmentStaticRoutesStaticV6RoutesNexthopInterfaceList extends c
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
   */
   readonly addr?: string;
 }
@@ -1772,7 +1772,7 @@ export class SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressIpv4Outpu
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#addr SiteSegmentStaticRoutes#addr}
   */
   readonly addr?: string;
 }
@@ -1858,13 +1858,13 @@ export interface SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
   */
   readonly ipv4?: SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
   */
   readonly ipv6?: SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressIpv6;
 }
@@ -1977,19 +1977,19 @@ export class SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddressOutputRef
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#type SiteSegmentStaticRoutes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#type SiteSegmentStaticRoutes#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#interface SiteSegmentStaticRoutes#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#interface SiteSegmentStaticRoutes#interface}
   */
   readonly interface?: SiteSegmentStaticRoutesStaticV6RoutesNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nexthop_address SiteSegmentStaticRoutes#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nexthop_address SiteSegmentStaticRoutes#nexthop_address}
   */
   readonly nexthopAddress?: SiteSegmentStaticRoutesStaticV6RoutesNexthopNexthopAddress;
 }
@@ -2131,11 +2131,11 @@ export class SiteSegmentStaticRoutesStaticV6RoutesNexthopOutputReference extends
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
   */
   readonly prefix?: string;
 }
@@ -2248,11 +2248,11 @@ export class SiteSegmentStaticRoutesStaticV6RoutesSubnetsIpv4OutputReference ext
 }
 export interface SiteSegmentStaticRoutesStaticV6RoutesSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#plen SiteSegmentStaticRoutes#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#prefix SiteSegmentStaticRoutes#prefix}
   */
   readonly prefix?: string;
 }
@@ -2367,13 +2367,13 @@ export interface SiteSegmentStaticRoutesStaticV6RoutesSubnets {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv4 SiteSegmentStaticRoutes#ipv4}
   */
   readonly ipv4?: SiteSegmentStaticRoutesStaticV6RoutesSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#ipv6 SiteSegmentStaticRoutes#ipv6}
   */
   readonly ipv6?: SiteSegmentStaticRoutesStaticV6RoutesSubnetsIpv6;
 }
@@ -2518,23 +2518,23 @@ export class SiteSegmentStaticRoutesStaticV6RoutesSubnetsList extends cdktf.Comp
 }
 export interface SiteSegmentStaticRoutesStaticV6Routes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#attrs SiteSegmentStaticRoutes#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#attrs SiteSegmentStaticRoutes#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#labels SiteSegmentStaticRoutes#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#nexthop SiteSegmentStaticRoutes#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#nexthop SiteSegmentStaticRoutes#nexthop}
   */
   readonly nexthop?: SiteSegmentStaticRoutesStaticV6RoutesNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#subnets SiteSegmentStaticRoutes#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#subnets SiteSegmentStaticRoutes#subnets}
   */
   readonly subnets: SiteSegmentStaticRoutesStaticV6RoutesSubnets[] | cdktf.IResolvable;
 }
@@ -2734,15 +2734,15 @@ export class SiteSegmentStaticRoutesStaticV6RoutesList extends cdktf.ComplexList
 }
 export interface SiteSegmentStaticRoutesVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#name SiteSegmentStaticRoutes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#namespace SiteSegmentStaticRoutes#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#tenant SiteSegmentStaticRoutes#tenant}
   */
   readonly tenant?: string;
 }
@@ -2921,7 +2921,7 @@ export class SiteSegmentStaticRoutesVirtualNetworkList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes volterra_site_segment_static_routes}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes volterra_site_segment_static_routes}
 */
 export class SiteSegmentStaticRoutes extends cdktf.TerraformResource {
 
@@ -2937,7 +2937,7 @@ export class SiteSegmentStaticRoutes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteSegmentStaticRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteSegmentStaticRoutes to import
-  * @param importFromId The id of the existing SiteSegmentStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteSegmentStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteSegmentStaticRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2949,7 +2949,7 @@ export class SiteSegmentStaticRoutes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_segment_static_routes volterra_site_segment_static_routes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_segment_static_routes volterra_site_segment_static_routes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2960,8 +2960,8 @@ export class SiteSegmentStaticRoutes extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_site_segment_static_routes',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

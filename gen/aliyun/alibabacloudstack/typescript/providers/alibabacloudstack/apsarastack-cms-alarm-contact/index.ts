@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCmsAlarmContactConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#alarm_contact_name ApsarastackCmsAlarmContact#alarm_contact_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#alarm_contact_name ApsarastackCmsAlarmContact#alarm_contact_name}
   */
   readonly alarmContactName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#channels_ali_im ApsarastackCmsAlarmContact#channels_ali_im}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#channels_ali_im ApsarastackCmsAlarmContact#channels_ali_im}
   */
   readonly channelsAliIm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#channels_aliim ApsarastackCmsAlarmContact#channels_aliim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#channels_aliim ApsarastackCmsAlarmContact#channels_aliim}
   */
   readonly channelsAliim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#channels_ding_web_hook ApsarastackCmsAlarmContact#channels_ding_web_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#channels_ding_web_hook ApsarastackCmsAlarmContact#channels_ding_web_hook}
   */
   readonly channelsDingWebHook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#channels_mail ApsarastackCmsAlarmContact#channels_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#channels_mail ApsarastackCmsAlarmContact#channels_mail}
   */
   readonly channelsMail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#channels_sms ApsarastackCmsAlarmContact#channels_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#channels_sms ApsarastackCmsAlarmContact#channels_sms}
   */
   readonly channelsSms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#describe ApsarastackCmsAlarmContact#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#describe ApsarastackCmsAlarmContact#describe}
   */
   readonly describe: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#id ApsarastackCmsAlarmContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#id ApsarastackCmsAlarmContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#lang ApsarastackCmsAlarmContact#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#lang ApsarastackCmsAlarmContact#lang}
   */
   readonly lang?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact apsarastack_cms_alarm_contact}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact apsarastack_cms_alarm_contact}
 */
 export class ApsarastackCmsAlarmContact extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ApsarastackCmsAlarmContact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackCmsAlarmContact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCmsAlarmContact to import
-  * @param importFromId The id of the existing ApsarastackCmsAlarmContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCmsAlarmContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCmsAlarmContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ApsarastackCmsAlarmContact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_alarm_contact apsarastack_cms_alarm_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_alarm_contact apsarastack_cms_alarm_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ApsarastackCmsAlarmContact extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_cms_alarm_contact',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

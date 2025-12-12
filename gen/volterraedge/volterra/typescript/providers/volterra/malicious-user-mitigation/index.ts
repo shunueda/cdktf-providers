@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface MaliciousUserMitigationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#annotations MaliciousUserMitigation#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#annotations MaliciousUserMitigation#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#description MaliciousUserMitigation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#description MaliciousUserMitigation#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#disable MaliciousUserMitigation#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#disable MaliciousUserMitigation#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#id MaliciousUserMitigation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#id MaliciousUserMitigation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#labels MaliciousUserMitigation#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#labels MaliciousUserMitigation#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#name MaliciousUserMitigation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#name MaliciousUserMitigation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#namespace MaliciousUserMitigation#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#namespace MaliciousUserMitigation#namespace}
   */
   readonly namespace: string;
   /**
   * mitigation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#mitigation_type MaliciousUserMitigation#mitigation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#mitigation_type MaliciousUserMitigation#mitigation_type}
   */
   readonly mitigationType?: MaliciousUserMitigationMitigationType;
 }
 export interface MaliciousUserMitigationMitigationTypeRulesMitigationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#alert_only MaliciousUserMitigation#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#alert_only MaliciousUserMitigation#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#block_temporarily MaliciousUserMitigation#block_temporarily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#block_temporarily MaliciousUserMitigation#block_temporarily}
   */
   readonly blockTemporarily?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#captcha_challenge MaliciousUserMitigation#captcha_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#captcha_challenge MaliciousUserMitigation#captcha_challenge}
   */
   readonly captchaChallenge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#javascript_challenge MaliciousUserMitigation#javascript_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#javascript_challenge MaliciousUserMitigation#javascript_challenge}
   */
   readonly javascriptChallenge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#none MaliciousUserMitigation#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#none MaliciousUserMitigation#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
 }
@@ -263,15 +263,15 @@ export class MaliciousUserMitigationMitigationTypeRulesMitigationActionOutputRef
 }
 export interface MaliciousUserMitigationMitigationTypeRulesThreatLevel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#high MaliciousUserMitigation#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#high MaliciousUserMitigation#high}
   */
   readonly high?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#low MaliciousUserMitigation#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#low MaliciousUserMitigation#low}
   */
   readonly low?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#medium MaliciousUserMitigation#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#medium MaliciousUserMitigation#medium}
   */
   readonly medium?: boolean | cdktf.IResolvable;
 }
@@ -415,13 +415,13 @@ export interface MaliciousUserMitigationMitigationTypeRules {
   /**
   * mitigation_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#mitigation_action MaliciousUserMitigation#mitigation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#mitigation_action MaliciousUserMitigation#mitigation_action}
   */
   readonly mitigationAction: MaliciousUserMitigationMitigationTypeRulesMitigationAction;
   /**
   * threat_level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#threat_level MaliciousUserMitigation#threat_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#threat_level MaliciousUserMitigation#threat_level}
   */
   readonly threatLevel: MaliciousUserMitigationMitigationTypeRulesThreatLevel;
 }
@@ -562,7 +562,7 @@ export interface MaliciousUserMitigationMitigationType {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#rules MaliciousUserMitigation#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#rules MaliciousUserMitigation#rules}
   */
   readonly rules: MaliciousUserMitigationMitigationTypeRules[] | cdktf.IResolvable;
 }
@@ -643,7 +643,7 @@ export class MaliciousUserMitigationMitigationTypeOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation volterra_malicious_user_mitigation}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation volterra_malicious_user_mitigation}
 */
 export class MaliciousUserMitigation extends cdktf.TerraformResource {
 
@@ -659,7 +659,7 @@ export class MaliciousUserMitigation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaliciousUserMitigation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaliciousUserMitigation to import
-  * @param importFromId The id of the existing MaliciousUserMitigation that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaliciousUserMitigation that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaliciousUserMitigation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -671,7 +671,7 @@ export class MaliciousUserMitigation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/malicious_user_mitigation volterra_malicious_user_mitigation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/malicious_user_mitigation volterra_malicious_user_mitigation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -682,8 +682,8 @@ export class MaliciousUserMitigation extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_malicious_user_mitigation',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

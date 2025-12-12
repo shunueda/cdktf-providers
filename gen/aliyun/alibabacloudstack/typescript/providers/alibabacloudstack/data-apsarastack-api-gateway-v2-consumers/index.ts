@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackApiGatewayV2ConsumersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#appid DataApsarastackApiGatewayV2Consumers#appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#appid DataApsarastackApiGatewayV2Consumers#appid}
   */
   readonly appid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#gw_instance_id DataApsarastackApiGatewayV2Consumers#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#gw_instance_id DataApsarastackApiGatewayV2Consumers#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#id DataApsarastackApiGatewayV2Consumers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#id DataApsarastackApiGatewayV2Consumers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#ids DataApsarastackApiGatewayV2Consumers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#ids DataApsarastackApiGatewayV2Consumers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#is_source_consumer DataApsarastackApiGatewayV2Consumers#is_source_consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#is_source_consumer DataApsarastackApiGatewayV2Consumers#is_source_consumer}
   */
   readonly isSourceConsumer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#name_regex DataApsarastackApiGatewayV2Consumers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#name_regex DataApsarastackApiGatewayV2Consumers#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -328,7 +328,7 @@ export class DataApsarastackApiGatewayV2ConsumersConsumersList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers apsarastack_api_gateway_v2_consumers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers apsarastack_api_gateway_v2_consumers}
 */
 export class DataApsarastackApiGatewayV2Consumers extends cdktf.TerraformDataSource {
 
@@ -344,7 +344,7 @@ export class DataApsarastackApiGatewayV2Consumers extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataApsarastackApiGatewayV2Consumers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackApiGatewayV2Consumers to import
-  * @param importFromId The id of the existing DataApsarastackApiGatewayV2Consumers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackApiGatewayV2Consumers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackApiGatewayV2Consumers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class DataApsarastackApiGatewayV2Consumers extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_consumers apsarastack_api_gateway_v2_consumers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_consumers apsarastack_api_gateway_v2_consumers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class DataApsarastackApiGatewayV2Consumers extends cdktf.TerraformDataSou
       terraformResourceType: 'apsarastack_api_gateway_v2_consumers',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

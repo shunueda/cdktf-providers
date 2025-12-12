@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackApiGatewayV2ConsumerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#app_code ApsarastackApiGatewayV2Consumer#app_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#app_code ApsarastackApiGatewayV2Consumer#app_code}
   */
   readonly appCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#app_name ApsarastackApiGatewayV2Consumer#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#app_name ApsarastackApiGatewayV2Consumer#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#app_secret ApsarastackApiGatewayV2Consumer#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#app_secret ApsarastackApiGatewayV2Consumer#app_secret}
   */
   readonly appSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#auth_type ApsarastackApiGatewayV2Consumer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#auth_type ApsarastackApiGatewayV2Consumer#auth_type}
   */
   readonly authType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#cascade_link_ids ApsarastackApiGatewayV2Consumer#cascade_link_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#cascade_link_ids ApsarastackApiGatewayV2Consumer#cascade_link_ids}
   */
   readonly cascadeLinkIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#description ApsarastackApiGatewayV2Consumer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#description ApsarastackApiGatewayV2Consumer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#expire_time ApsarastackApiGatewayV2Consumer#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#expire_time ApsarastackApiGatewayV2Consumer#expire_time}
   */
   readonly expireTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#groups ApsarastackApiGatewayV2Consumer#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#groups ApsarastackApiGatewayV2Consumer#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#gw_instance_id ApsarastackApiGatewayV2Consumer#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#gw_instance_id ApsarastackApiGatewayV2Consumer#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#id ApsarastackApiGatewayV2Consumer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#id ApsarastackApiGatewayV2Consumer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#key ApsarastackApiGatewayV2Consumer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#key ApsarastackApiGatewayV2Consumer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#password ApsarastackApiGatewayV2Consumer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#password ApsarastackApiGatewayV2Consumer#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#payload ApsarastackApiGatewayV2Consumer#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#payload ApsarastackApiGatewayV2Consumer#payload}
   */
   readonly payload?: { [key: string]: string };
   /**
   * oauth2_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#oauth2_payload ApsarastackApiGatewayV2Consumer#oauth2_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#oauth2_payload ApsarastackApiGatewayV2Consumer#oauth2_payload}
   */
   readonly oauth2Payload?: ApsarastackApiGatewayV2ConsumerOauth2Payload;
 }
 export interface ApsarastackApiGatewayV2ConsumerOauth2Payload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#authorization_code ApsarastackApiGatewayV2Consumer#authorization_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#authorization_code ApsarastackApiGatewayV2Consumer#authorization_code}
   */
   readonly authorizationCode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#client_credentials ApsarastackApiGatewayV2Consumer#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#client_credentials ApsarastackApiGatewayV2Consumer#client_credentials}
   */
   readonly clientCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#client_id ApsarastackApiGatewayV2Consumer#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#client_id ApsarastackApiGatewayV2Consumer#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#client_secret ApsarastackApiGatewayV2Consumer#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#client_secret ApsarastackApiGatewayV2Consumer#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#implicit_grant ApsarastackApiGatewayV2Consumer#implicit_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#implicit_grant ApsarastackApiGatewayV2Consumer#implicit_grant}
   */
   readonly implicitGrant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#password_grant ApsarastackApiGatewayV2Consumer#password_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#password_grant ApsarastackApiGatewayV2Consumer#password_grant}
   */
   readonly passwordGrant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#pkce ApsarastackApiGatewayV2Consumer#pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#pkce ApsarastackApiGatewayV2Consumer#pkce}
   */
   readonly pkce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#redirect_uris ApsarastackApiGatewayV2Consumer#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#redirect_uris ApsarastackApiGatewayV2Consumer#redirect_uris}
   */
   readonly redirectUris?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#refresh_token_expiration ApsarastackApiGatewayV2Consumer#refresh_token_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#refresh_token_expiration ApsarastackApiGatewayV2Consumer#refresh_token_expiration}
   */
   readonly refreshTokenExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#scopes ApsarastackApiGatewayV2Consumer#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#scopes ApsarastackApiGatewayV2Consumer#scopes}
   */
   readonly scopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#token_expiration ApsarastackApiGatewayV2Consumer#token_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#token_expiration ApsarastackApiGatewayV2Consumer#token_expiration}
   */
   readonly tokenExpiration?: number;
 }
@@ -485,7 +485,7 @@ export class ApsarastackApiGatewayV2ConsumerOauth2PayloadOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer apsarastack_api_gateway_v2_consumer}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer apsarastack_api_gateway_v2_consumer}
 */
 export class ApsarastackApiGatewayV2Consumer extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class ApsarastackApiGatewayV2Consumer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackApiGatewayV2Consumer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackApiGatewayV2Consumer to import
-  * @param importFromId The id of the existing ApsarastackApiGatewayV2Consumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackApiGatewayV2Consumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackApiGatewayV2Consumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class ApsarastackApiGatewayV2Consumer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_consumer apsarastack_api_gateway_v2_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_consumer apsarastack_api_gateway_v2_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class ApsarastackApiGatewayV2Consumer extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_api_gateway_v2_consumer',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

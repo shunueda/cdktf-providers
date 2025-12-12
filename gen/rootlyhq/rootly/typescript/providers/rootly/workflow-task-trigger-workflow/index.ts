@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskTriggerWorkflowConfig extends cdktf.TerraformMetaAr
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#enabled WorkflowTaskTriggerWorkflow#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#enabled WorkflowTaskTriggerWorkflow#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#id WorkflowTaskTriggerWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#id WorkflowTaskTriggerWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskTriggerWorkflowConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#name WorkflowTaskTriggerWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#name WorkflowTaskTriggerWorkflow#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#position WorkflowTaskTriggerWorkflow#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#position WorkflowTaskTriggerWorkflow#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#skip_on_failure WorkflowTaskTriggerWorkflow#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#skip_on_failure WorkflowTaskTriggerWorkflow#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#workflow_id WorkflowTaskTriggerWorkflow#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#workflow_id WorkflowTaskTriggerWorkflow#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#task_params WorkflowTaskTriggerWorkflow#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#task_params WorkflowTaskTriggerWorkflow#task_params}
   */
   readonly taskParams: WorkflowTaskTriggerWorkflowTaskParams;
 }
@@ -55,35 +55,35 @@ export interface WorkflowTaskTriggerWorkflowTaskParams {
   /**
   * ["(incident) kind can only match [:id, :slug, :sequential_id, :pagerduty_incident_id, :opsgenie_incident_id, :victor_ops_incident_id, :jira_issue_id, :asana_task_id, :shortcut_task_id, :linear_issue_id, :zendesk_ticket_id, :motion_task_id, :trello_card_id, :airtable_record_id, :shortcut_story_id, :github_issue_id, :freshservice_ticket_id, :freshservice_task_id, :clickup_task_id]", "(post_mortem) kind can only match [:id]", "(action_item) kind can only match [:id, :jira_issue_id, :asana_task_id, :shortcut_task_id, :linear_issue_id, :zendesk_ticket_id, :motion_task_id, :trello_card_id, :airtable_record_id, :shortcut_story_id, :github_issue_id, :freshservice_ticket_id, :freshservice_task_id, :clickup_task_id]", "(pulse) kind can only match [:id]", "(alert) kind can only match [:id]"]. Value must be one of `id`, `slug`, `sequential_id`, `pagerduty_incident_id`, `opsgenie_incident_id`, `victor_ops_incident_id`, `jira_issue_id`, `asana_task_id`, `shortcut_task_id`, `linear_issue_id`, `zendesk_ticket_id`, `motion_task_id`, `trello_card_id`, `airtable_record_id`, `shortcut_story_id`, `github_issue_id`, `freshservice_ticket_id`, `freshservice_task_id`, `clickup_task_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#attribute_to_query_by WorkflowTaskTriggerWorkflow#attribute_to_query_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#attribute_to_query_by WorkflowTaskTriggerWorkflow#attribute_to_query_by}
   */
   readonly attributeToQueryBy: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#check_workflow_conditions WorkflowTaskTriggerWorkflow#check_workflow_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#check_workflow_conditions WorkflowTaskTriggerWorkflow#check_workflow_conditions}
   */
   readonly checkWorkflowConditions?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of `incident`, `post_mortem`, `action_item`, `pulse`, `alert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#kind WorkflowTaskTriggerWorkflow#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#kind WorkflowTaskTriggerWorkflow#kind}
   */
   readonly kind: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#resource WorkflowTaskTriggerWorkflow#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#resource WorkflowTaskTriggerWorkflow#resource}
   */
   readonly resource: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#task_type WorkflowTaskTriggerWorkflow#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#task_type WorkflowTaskTriggerWorkflow#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#workflow WorkflowTaskTriggerWorkflow#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#workflow WorkflowTaskTriggerWorkflow#workflow}
   */
   readonly workflow: { [key: string]: string };
 }
@@ -300,7 +300,7 @@ export class WorkflowTaskTriggerWorkflowTaskParamsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow rootly_workflow_task_trigger_workflow}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow rootly_workflow_task_trigger_workflow}
 */
 export class WorkflowTaskTriggerWorkflow extends cdktf.TerraformResource {
 
@@ -316,7 +316,7 @@ export class WorkflowTaskTriggerWorkflow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskTriggerWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskTriggerWorkflow to import
-  * @param importFromId The id of the existing WorkflowTaskTriggerWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskTriggerWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskTriggerWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class WorkflowTaskTriggerWorkflow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_trigger_workflow rootly_workflow_task_trigger_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_trigger_workflow rootly_workflow_task_trigger_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class WorkflowTaskTriggerWorkflow extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_trigger_workflow',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

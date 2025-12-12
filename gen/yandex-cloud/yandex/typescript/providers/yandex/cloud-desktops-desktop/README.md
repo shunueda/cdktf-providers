@@ -1,3 +1,3 @@
 # `yandex_cloud_desktops_desktop`
 
-Refer to the Terraform Registry for docs: [`yandex_cloud_desktops_desktop`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop).
+Refer to the Terraform Registry for docs: [`yandex_cloud_desktops_desktop`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop).

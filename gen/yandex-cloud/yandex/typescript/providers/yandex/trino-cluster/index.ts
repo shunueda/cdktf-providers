@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface TrinoClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration of `coordinator` instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#coordinator TrinoCluster#coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#coordinator TrinoCluster#coordinator}
   */
   readonly coordinator: TrinoClusterCoordinator;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#deletion_protection TrinoCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#deletion_protection TrinoCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#description TrinoCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#description TrinoCluster#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#folder_id TrinoCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#folder_id TrinoCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#labels TrinoCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#labels TrinoCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cloud Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#logging TrinoCluster#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#logging TrinoCluster#logging}
   */
   readonly logging?: TrinoClusterLogging;
   /**
   * Configuration of window for maintenance operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#maintenance_window TrinoCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#maintenance_window TrinoCluster#maintenance_window}
   */
   readonly maintenanceWindow?: TrinoClusterMaintenanceWindow;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#name TrinoCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#name TrinoCluster#name}
   */
   readonly name: string;
   /**
   * Configuration for retry policy, specifying the spooling storage destination and other settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#retry_policy TrinoCluster#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#retry_policy TrinoCluster#retry_policy}
   */
   readonly retryPolicy?: TrinoClusterRetryPolicy;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#security_group_ids TrinoCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#security_group_ids TrinoCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource. For more information, see [documentation](https://yandex.cloud/docs/managed-trino/concepts/impersonation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#service_account_id TrinoCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#service_account_id TrinoCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * The list of VPC subnets identifiers which resource is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#subnet_ids TrinoCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#subnet_ids TrinoCluster#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * Configuration for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#tls TrinoCluster#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#tls TrinoCluster#tls}
   */
   readonly tls?: TrinoClusterTls;
   /**
   * Trino version. Format: "Number".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#version TrinoCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#version TrinoCluster#version}
   */
   readonly version?: string;
   /**
   * Configuration of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#worker TrinoCluster#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#worker TrinoCluster#worker}
   */
   readonly worker: TrinoClusterWorker;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#timeouts TrinoCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#timeouts TrinoCluster#timeouts}
   */
   readonly timeouts?: TrinoClusterTimeouts;
 }
@@ -108,7 +108,7 @@ export interface TrinoClusterCoordinator {
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#resource_preset_id TrinoCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#resource_preset_id TrinoCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -201,25 +201,25 @@ export interface TrinoClusterLogging {
   /**
   * Enables delivery of logs generated by the Trino components to [Cloud Logging](https://yandex.cloud/docs/logging/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#enabled TrinoCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#enabled TrinoCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Logs will be written to **default log group** of specified folder. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#folder_id TrinoCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#folder_id TrinoCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Logs will be written to the **specified log group**. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#log_group_id TrinoCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#log_group_id TrinoCluster#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum level of messages that will be sent to Cloud Logging. Can be either `TRACE`, `DEBUG`, `INFO`, `WARN`, `ERROR` or `FATAL`. If not set then server default is applied (currently `INFO`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#min_level TrinoCluster#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#min_level TrinoCluster#min_level}
   */
   readonly minLevel?: string;
 }
@@ -399,19 +399,19 @@ export interface TrinoClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window. One of `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#day TrinoCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#day TrinoCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#hour TrinoCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#hour TrinoCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. If `WEEKLY`, day and hour must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#type TrinoCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#type TrinoCluster#type}
   */
   readonly type?: string;
 }
@@ -624,13 +624,13 @@ export interface TrinoClusterRetryPolicyExchangeManager {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#additional_properties TrinoCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#additional_properties TrinoCluster#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Use S3 created on service side as exchange manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#service_s3 TrinoCluster#service_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#service_s3 TrinoCluster#service_s3}
   */
   readonly serviceS3: TrinoClusterRetryPolicyExchangeManagerServiceS3;
 }
@@ -752,19 +752,19 @@ export interface TrinoClusterRetryPolicy {
   /**
   * Additional properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#additional_properties TrinoCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#additional_properties TrinoCluster#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Configuration for exchange manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#exchange_manager TrinoCluster#exchange_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#exchange_manager TrinoCluster#exchange_manager}
   */
   readonly exchangeManager: TrinoClusterRetryPolicyExchangeManager;
   /**
   * Retry policy level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#policy TrinoCluster#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#policy TrinoCluster#policy}
   */
   readonly policy: string;
 }
@@ -912,7 +912,7 @@ export interface TrinoClusterTls {
   /**
   * Trusted CA-certificates. Each element should contain single self-signed CA-certificate or chain of CA-certificates where first certificate if leaf and last certificate is self-signed root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#trusted_certificates TrinoCluster#trusted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#trusted_certificates TrinoCluster#trusted_certificates}
   */
   readonly trustedCertificates?: string[];
 }
@@ -1008,13 +1008,13 @@ export interface TrinoClusterWorkerAutoScale {
   /**
   * The maximum number of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#max_count TrinoCluster#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#max_count TrinoCluster#max_count}
   */
   readonly maxCount: number;
   /**
   * The minimum number of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#min_count TrinoCluster#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#min_count TrinoCluster#min_count}
   */
   readonly minCount: number;
 }
@@ -1133,7 +1133,7 @@ export interface TrinoClusterWorkerFixedScale {
   /**
   * Specifies the number of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#count TrinoCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#count TrinoCluster#count}
   */
   readonly count: number;
 }
@@ -1226,19 +1226,19 @@ export interface TrinoClusterWorker {
   /**
   * A scaling policy that dynamically adjusts the number of worker instances based on the cluster's workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#auto_scale TrinoCluster#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#auto_scale TrinoCluster#auto_scale}
   */
   readonly autoScale?: TrinoClusterWorkerAutoScale;
   /**
   * A fixed scaling policy that specifies a fixed number of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#fixed_scale TrinoCluster#fixed_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#fixed_scale TrinoCluster#fixed_scale}
   */
   readonly fixedScale?: TrinoClusterWorkerFixedScale;
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#resource_preset_id TrinoCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#resource_preset_id TrinoCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1389,19 +1389,19 @@ export interface TrinoClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#create TrinoCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#create TrinoCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#delete TrinoCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#delete TrinoCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#update TrinoCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#update TrinoCluster#update}
   */
   readonly update?: string;
 }
@@ -1553,7 +1553,7 @@ export class TrinoClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster yandex_trino_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster yandex_trino_cluster}
 */
 export class TrinoCluster extends cdktf.TerraformResource {
 
@@ -1569,7 +1569,7 @@ export class TrinoCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrinoCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrinoCluster to import
-  * @param importFromId The id of the existing TrinoCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrinoCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrinoCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1581,7 +1581,7 @@ export class TrinoCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_cluster yandex_trino_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_cluster yandex_trino_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1592,8 +1592,8 @@ export class TrinoCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_trino_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

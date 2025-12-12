@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface TicketTrackingSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#annotations TicketTrackingSystem#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#annotations TicketTrackingSystem#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#description TicketTrackingSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#description TicketTrackingSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#disable TicketTrackingSystem#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#disable TicketTrackingSystem#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#id TicketTrackingSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#id TicketTrackingSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#labels TicketTrackingSystem#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#labels TicketTrackingSystem#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#name TicketTrackingSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#name TicketTrackingSystem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#namespace TicketTrackingSystem#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#namespace TicketTrackingSystem#namespace}
   */
   readonly namespace: string;
   /**
   * jira_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#jira_config TicketTrackingSystem#jira_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#jira_config TicketTrackingSystem#jira_config}
   */
   readonly jiraConfig?: TicketTrackingSystemJiraConfig;
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#decryption_provider TicketTrackingSystem#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#decryption_provider TicketTrackingSystem#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#store_provider TicketTrackingSystem#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#store_provider TicketTrackingSystem#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -194,15 +194,15 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfol
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#decryption_provider TicketTrackingSystem#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#decryption_provider TicketTrackingSystem#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#store_provider TicketTrackingSystem#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#store_provider TicketTrackingSystem#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -341,11 +341,11 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfol
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#provider TicketTrackingSystem#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#provider TicketTrackingSystem#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#url TicketTrackingSystem#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#url TicketTrackingSystem#url}
   */
   readonly url: string;
 }
@@ -455,23 +455,23 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenClearSec
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#key TicketTrackingSystem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#key TicketTrackingSystem#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#location TicketTrackingSystem#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#provider TicketTrackingSystem#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#provider TicketTrackingSystem#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#secret_encoding TicketTrackingSystem#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#secret_encoding TicketTrackingSystem#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#version TicketTrackingSystem#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#version TicketTrackingSystem#version}
   */
   readonly version?: number;
 }
@@ -665,7 +665,7 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenVaultSec
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#name TicketTrackingSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#name TicketTrackingSystem#name}
   */
   readonly name: string;
 }
@@ -746,37 +746,37 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenWingmanS
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#secret_encoding_type TicketTrackingSystem#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#secret_encoding_type TicketTrackingSystem#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#blindfold_secret_info TicketTrackingSystem#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#blindfold_secret_info TicketTrackingSystem#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#blindfold_secret_info_internal TicketTrackingSystem#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#blindfold_secret_info_internal TicketTrackingSystem#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#clear_secret_info TicketTrackingSystem#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#clear_secret_info TicketTrackingSystem#clear_secret_info}
   */
   readonly clearSecretInfo?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#vault_secret_info TicketTrackingSystem#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#vault_secret_info TicketTrackingSystem#vault_secret_info}
   */
   readonly vaultSecretInfo?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#wingman_secret_info TicketTrackingSystem#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#wingman_secret_info TicketTrackingSystem#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenWingmanSecretInfo;
 }
@@ -1005,21 +1005,21 @@ export class TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiTokenOutputRe
 }
 export interface TicketTrackingSystemJiraConfigAdhocRestApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#account_email TicketTrackingSystem#account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#account_email TicketTrackingSystem#account_email}
   */
   readonly accountEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#api_token TicketTrackingSystem#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#api_token TicketTrackingSystem#api_token}
   */
   readonly apiToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#organization_domain TicketTrackingSystem#organization_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#organization_domain TicketTrackingSystem#organization_domain}
   */
   readonly organizationDomain: string;
   /**
   * encrypted_api_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#encrypted_api_token TicketTrackingSystem#encrypted_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#encrypted_api_token TicketTrackingSystem#encrypted_api_token}
   */
   readonly encryptedApiToken?: TicketTrackingSystemJiraConfigAdhocRestApiEncryptedApiToken;
 }
@@ -1183,7 +1183,7 @@ export interface TicketTrackingSystemJiraConfig {
   /**
   * adhoc_rest_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#adhoc_rest_api TicketTrackingSystem#adhoc_rest_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#adhoc_rest_api TicketTrackingSystem#adhoc_rest_api}
   */
   readonly adhocRestApi?: TicketTrackingSystemJiraConfigAdhocRestApi;
 }
@@ -1267,7 +1267,7 @@ export class TicketTrackingSystemJiraConfigOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system volterra_ticket_tracking_system}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system volterra_ticket_tracking_system}
 */
 export class TicketTrackingSystem extends cdktf.TerraformResource {
 
@@ -1283,7 +1283,7 @@ export class TicketTrackingSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TicketTrackingSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TicketTrackingSystem to import
-  * @param importFromId The id of the existing TicketTrackingSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TicketTrackingSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TicketTrackingSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1295,7 +1295,7 @@ export class TicketTrackingSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ticket_tracking_system volterra_ticket_tracking_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ticket_tracking_system volterra_ticket_tracking_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1306,8 +1306,8 @@ export class TicketTrackingSystem extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ticket_tracking_system',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

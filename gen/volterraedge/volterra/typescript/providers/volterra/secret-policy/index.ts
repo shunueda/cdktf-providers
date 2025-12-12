@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface SecretPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#algo SecretPolicy#algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#algo SecretPolicy#algo}
   */
   readonly algo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#allow_f5xc SecretPolicy#allow_f5xc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#allow_f5xc SecretPolicy#allow_f5xc}
   */
   readonly allowF5Xc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#annotations SecretPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#annotations SecretPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#decrypt_cache_timeout SecretPolicy#decrypt_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#decrypt_cache_timeout SecretPolicy#decrypt_cache_timeout}
   */
   readonly decryptCacheTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#description SecretPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#description SecretPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#disable SecretPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#disable SecretPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#id SecretPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#id SecretPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#labels SecretPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#labels SecretPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#namespace SecretPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * legacy_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#legacy_rule_list SecretPolicy#legacy_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#legacy_rule_list SecretPolicy#legacy_rule_list}
   */
   readonly legacyRuleList?: SecretPolicyLegacyRuleListStruct;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rule_list SecretPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#rule_list SecretPolicy#rule_list}
   */
   readonly ruleList?: SecretPolicyRuleListStruct;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#rules SecretPolicy#rules}
   */
   readonly rules?: SecretPolicyRules[] | cdktf.IResolvable;
 }
 export interface SecretPolicyLegacyRuleListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#namespace SecretPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#tenant SecretPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#tenant SecretPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -260,7 +260,7 @@ export interface SecretPolicyLegacyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#rules SecretPolicy#rules}
   */
   readonly rules?: SecretPolicyLegacyRuleListRules[] | cdktf.IResolvable;
 }
@@ -344,15 +344,15 @@ export class SecretPolicyLegacyRuleListStructOutputReference extends cdktf.Compl
 }
 export interface SecretPolicyRuleListRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#description SecretPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#description SecretPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#disable SecretPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#disable SecretPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name: string;
 }
@@ -491,15 +491,15 @@ export class SecretPolicyRuleListRulesMetadataOutputReference extends cdktf.Comp
 }
 export interface SecretPolicyRuleListRulesSpecClientNameMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#exact_values SecretPolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#exact_values SecretPolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#regex_values SecretPolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#regex_values SecretPolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#transformers SecretPolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#transformers SecretPolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -641,7 +641,7 @@ export class SecretPolicyRuleListRulesSpecClientNameMatcherOutputReference exten
 }
 export interface SecretPolicyRuleListRulesSpecClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#expressions SecretPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#expressions SecretPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -722,7 +722,7 @@ export class SecretPolicyRuleListRulesSpecClientSelectorOutputReference extends 
 }
 export interface SecretPolicyRuleListRulesSpecLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#keys SecretPolicy#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#keys SecretPolicy#keys}
   */
   readonly keys?: string[];
 }
@@ -806,29 +806,29 @@ export class SecretPolicyRuleListRulesSpecLabelMatcherOutputReference extends cd
 }
 export interface SecretPolicyRuleListRulesSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#action SecretPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#action SecretPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_name SecretPolicy#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#client_name SecretPolicy#client_name}
   */
   readonly clientName?: string;
   /**
   * client_name_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_name_matcher SecretPolicy#client_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#client_name_matcher SecretPolicy#client_name_matcher}
   */
   readonly clientNameMatcher?: SecretPolicyRuleListRulesSpecClientNameMatcher;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_selector SecretPolicy#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#client_selector SecretPolicy#client_selector}
   */
   readonly clientSelector?: SecretPolicyRuleListRulesSpecClientSelector;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#label_matcher SecretPolicy#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#label_matcher SecretPolicy#label_matcher}
   */
   readonly labelMatcher?: SecretPolicyRuleListRulesSpecLabelMatcher;
 }
@@ -1027,13 +1027,13 @@ export interface SecretPolicyRuleListRules {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#metadata SecretPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#metadata SecretPolicy#metadata}
   */
   readonly metadata: SecretPolicyRuleListRulesMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#spec SecretPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#spec SecretPolicy#spec}
   */
   readonly spec: SecretPolicyRuleListRulesSpec;
 }
@@ -1174,7 +1174,7 @@ export interface SecretPolicyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#rules SecretPolicy#rules}
   */
   readonly rules?: SecretPolicyRuleListRules[] | cdktf.IResolvable;
 }
@@ -1258,15 +1258,15 @@ export class SecretPolicyRuleListStructOutputReference extends cdktf.ComplexObje
 }
 export interface SecretPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#namespace SecretPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#tenant SecretPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#tenant SecretPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1445,7 +1445,7 @@ export class SecretPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy volterra_secret_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy volterra_secret_policy}
 */
 export class SecretPolicy extends cdktf.TerraformResource {
 
@@ -1461,7 +1461,7 @@ export class SecretPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretPolicy to import
-  * @param importFromId The id of the existing SecretPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1473,7 +1473,7 @@ export class SecretPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy volterra_secret_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/secret_policy volterra_secret_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1484,8 +1484,8 @@ export class SecretPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_secret_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackArmsDispatchRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#dispatch_rule_name ApsarastackArmsDispatchRule#dispatch_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#dispatch_rule_name ApsarastackArmsDispatchRule#dispatch_rule_name}
   */
   readonly dispatchRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#dispatch_type ApsarastackArmsDispatchRule#dispatch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#dispatch_type ApsarastackArmsDispatchRule#dispatch_type}
   */
   readonly dispatchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#id ApsarastackArmsDispatchRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#id ApsarastackArmsDispatchRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#is_recover ApsarastackArmsDispatchRule#is_recover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#is_recover ApsarastackArmsDispatchRule#is_recover}
   */
   readonly isRecover?: boolean | cdktf.IResolvable;
   /**
   * group_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#group_rules ApsarastackArmsDispatchRule#group_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#group_rules ApsarastackArmsDispatchRule#group_rules}
   */
   readonly groupRules: ApsarastackArmsDispatchRuleGroupRules[] | cdktf.IResolvable;
   /**
   * label_match_expression_grid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#label_match_expression_grid ApsarastackArmsDispatchRule#label_match_expression_grid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#label_match_expression_grid ApsarastackArmsDispatchRule#label_match_expression_grid}
   */
   readonly labelMatchExpressionGrid: ApsarastackArmsDispatchRuleLabelMatchExpressionGrid[] | cdktf.IResolvable;
   /**
   * notify_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#notify_rules ApsarastackArmsDispatchRule#notify_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#notify_rules ApsarastackArmsDispatchRule#notify_rules}
   */
   readonly notifyRules: ApsarastackArmsDispatchRuleNotifyRules[] | cdktf.IResolvable;
 }
 export interface ApsarastackArmsDispatchRuleGroupRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#group_interval ApsarastackArmsDispatchRule#group_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#group_interval ApsarastackArmsDispatchRule#group_interval}
   */
   readonly groupInterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#group_wait_time ApsarastackArmsDispatchRule#group_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#group_wait_time ApsarastackArmsDispatchRule#group_wait_time}
   */
   readonly groupWaitTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#grouping_fields ApsarastackArmsDispatchRule#grouping_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#grouping_fields ApsarastackArmsDispatchRule#grouping_fields}
   */
   readonly groupingFields: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#repeat_interval ApsarastackArmsDispatchRule#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#repeat_interval ApsarastackArmsDispatchRule#repeat_interval}
   */
   readonly repeatInterval?: number;
 }
@@ -258,15 +258,15 @@ export class ApsarastackArmsDispatchRuleGroupRulesList extends cdktf.ComplexList
 }
 export interface ApsarastackArmsDispatchRuleLabelMatchExpressionGridLabelMatchExpressionGroupsLabelMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#key ApsarastackArmsDispatchRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#key ApsarastackArmsDispatchRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#operator ApsarastackArmsDispatchRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#operator ApsarastackArmsDispatchRule#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#value ApsarastackArmsDispatchRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#value ApsarastackArmsDispatchRule#value}
   */
   readonly value: string;
 }
@@ -433,7 +433,7 @@ export interface ApsarastackArmsDispatchRuleLabelMatchExpressionGridLabelMatchEx
   /**
   * label_match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#label_match_expressions ApsarastackArmsDispatchRule#label_match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#label_match_expressions ApsarastackArmsDispatchRule#label_match_expressions}
   */
   readonly labelMatchExpressions: ApsarastackArmsDispatchRuleLabelMatchExpressionGridLabelMatchExpressionGroupsLabelMatchExpressions[] | cdktf.IResolvable;
 }
@@ -548,7 +548,7 @@ export interface ApsarastackArmsDispatchRuleLabelMatchExpressionGrid {
   /**
   * label_match_expression_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#label_match_expression_groups ApsarastackArmsDispatchRule#label_match_expression_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#label_match_expression_groups ApsarastackArmsDispatchRule#label_match_expression_groups}
   */
   readonly labelMatchExpressionGroups: ApsarastackArmsDispatchRuleLabelMatchExpressionGridLabelMatchExpressionGroups[] | cdktf.IResolvable;
 }
@@ -661,15 +661,15 @@ export class ApsarastackArmsDispatchRuleLabelMatchExpressionGridList extends cdk
 }
 export interface ApsarastackArmsDispatchRuleNotifyRulesNotifyObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#name ApsarastackArmsDispatchRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#name ApsarastackArmsDispatchRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#notify_object_id ApsarastackArmsDispatchRule#notify_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#notify_object_id ApsarastackArmsDispatchRule#notify_object_id}
   */
   readonly notifyObjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#notify_type ApsarastackArmsDispatchRule#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#notify_type ApsarastackArmsDispatchRule#notify_type}
   */
   readonly notifyType: string;
 }
@@ -834,13 +834,13 @@ export class ApsarastackArmsDispatchRuleNotifyRulesNotifyObjectsList extends cdk
 }
 export interface ApsarastackArmsDispatchRuleNotifyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#notify_channels ApsarastackArmsDispatchRule#notify_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#notify_channels ApsarastackArmsDispatchRule#notify_channels}
   */
   readonly notifyChannels: string[];
   /**
   * notify_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#notify_objects ApsarastackArmsDispatchRule#notify_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#notify_objects ApsarastackArmsDispatchRule#notify_objects}
   */
   readonly notifyObjects: ApsarastackArmsDispatchRuleNotifyRulesNotifyObjects[] | cdktf.IResolvable;
 }
@@ -979,7 +979,7 @@ export class ApsarastackArmsDispatchRuleNotifyRulesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule apsarastack_arms_dispatch_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule apsarastack_arms_dispatch_rule}
 */
 export class ApsarastackArmsDispatchRule extends cdktf.TerraformResource {
 
@@ -995,7 +995,7 @@ export class ApsarastackArmsDispatchRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackArmsDispatchRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackArmsDispatchRule to import
-  * @param importFromId The id of the existing ApsarastackArmsDispatchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackArmsDispatchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackArmsDispatchRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1007,7 +1007,7 @@ export class ApsarastackArmsDispatchRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_arms_dispatch_rule apsarastack_arms_dispatch_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_arms_dispatch_rule apsarastack_arms_dispatch_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1018,8 +1018,8 @@ export class ApsarastackArmsDispatchRule extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_arms_dispatch_rule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

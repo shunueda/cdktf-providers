@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackMongodbShardinginstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#account_password ApsarastackMongodbShardinginstance#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#account_password ApsarastackMongodbShardinginstance#account_password}
   */
   readonly accountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#audit_status ApsarastackMongodbShardinginstance#audit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#audit_status ApsarastackMongodbShardinginstance#audit_status}
   */
   readonly auditStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#backup_period ApsarastackMongodbShardinginstance#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#backup_period ApsarastackMongodbShardinginstance#backup_period}
   */
   readonly backupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#backup_time ApsarastackMongodbShardinginstance#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#backup_time ApsarastackMongodbShardinginstance#backup_time}
   */
   readonly backupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#cs_root_account_password ApsarastackMongodbShardinginstance#cs_root_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#cs_root_account_password ApsarastackMongodbShardinginstance#cs_root_account_password}
   */
   readonly csRootAccountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#db_account_name ApsarastackMongodbShardinginstance#db_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#db_account_name ApsarastackMongodbShardinginstance#db_account_name}
   */
   readonly dbAccountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#db_account_password ApsarastackMongodbShardinginstance#db_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#db_account_password ApsarastackMongodbShardinginstance#db_account_password}
   */
   readonly dbAccountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#db_instance_description ApsarastackMongodbShardinginstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#db_instance_description ApsarastackMongodbShardinginstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#engine_version ApsarastackMongodbShardinginstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#engine_version ApsarastackMongodbShardinginstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#id ApsarastackMongodbShardinginstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#id ApsarastackMongodbShardinginstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#kms_encrypted_password ApsarastackMongodbShardinginstance#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#kms_encrypted_password ApsarastackMongodbShardinginstance#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#kms_encryption_context ApsarastackMongodbShardinginstance#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#kms_encryption_context ApsarastackMongodbShardinginstance#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#name ApsarastackMongodbShardinginstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#name ApsarastackMongodbShardinginstance#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#preferred_backup_period ApsarastackMongodbShardinginstance#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#preferred_backup_period ApsarastackMongodbShardinginstance#preferred_backup_period}
   */
   readonly preferredBackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#preferred_backup_time ApsarastackMongodbShardinginstance#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#preferred_backup_time ApsarastackMongodbShardinginstance#preferred_backup_time}
   */
   readonly preferredBackupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#security_ip_list ApsarastackMongodbShardinginstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#security_ip_list ApsarastackMongodbShardinginstance#security_ip_list}
   */
   readonly securityIpList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#storage_engine ApsarastackMongodbShardinginstance#storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#storage_engine ApsarastackMongodbShardinginstance#storage_engine}
   */
   readonly storageEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#tde_status ApsarastackMongodbShardinginstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#tde_status ApsarastackMongodbShardinginstance#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#vswitch_id ApsarastackMongodbShardinginstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#vswitch_id ApsarastackMongodbShardinginstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#zone_id ApsarastackMongodbShardinginstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#zone_id ApsarastackMongodbShardinginstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * audit_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#audit_filter ApsarastackMongodbShardinginstance#audit_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#audit_filter ApsarastackMongodbShardinginstance#audit_filter}
   */
   readonly auditFilter?: ApsarastackMongodbShardinginstanceAuditFilter[] | cdktf.IResolvable;
   /**
   * configserver_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#configserver_list ApsarastackMongodbShardinginstance#configserver_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#configserver_list ApsarastackMongodbShardinginstance#configserver_list}
   */
   readonly configserverList: ApsarastackMongodbShardinginstanceConfigserverListStruct;
   /**
   * mongo_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#mongo_list ApsarastackMongodbShardinginstance#mongo_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#mongo_list ApsarastackMongodbShardinginstance#mongo_list}
   */
   readonly mongoList: ApsarastackMongodbShardinginstanceMongoListStruct[] | cdktf.IResolvable;
   /**
   * shard_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#shard_list ApsarastackMongodbShardinginstance#shard_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#shard_list ApsarastackMongodbShardinginstance#shard_list}
   */
   readonly shardList: ApsarastackMongodbShardinginstanceShardListStruct[] | cdktf.IResolvable;
 }
 export interface ApsarastackMongodbShardinginstanceAuditFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#filters ApsarastackMongodbShardinginstance#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#filters ApsarastackMongodbShardinginstance#filters}
   */
   readonly filters: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#role_type ApsarastackMongodbShardinginstance#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#role_type ApsarastackMongodbShardinginstance#role_type}
   */
   readonly roleType: string;
 }
@@ -260,15 +260,15 @@ export class ApsarastackMongodbShardinginstanceAuditFilterList extends cdktf.Com
 }
 export interface ApsarastackMongodbShardinginstanceConfigserverListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
   */
   readonly nodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#node_storage ApsarastackMongodbShardinginstance#node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#node_storage ApsarastackMongodbShardinginstance#node_storage}
   */
   readonly nodeStorage: number;
 }
@@ -406,11 +406,11 @@ export class ApsarastackMongodbShardinginstanceConfigserverListStructOutputRefer
 }
 export interface ApsarastackMongodbShardinginstanceMongoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
   */
   readonly nodeClass: string;
 }
@@ -554,15 +554,15 @@ export class ApsarastackMongodbShardinginstanceMongoListStructList extends cdktf
 }
 export interface ApsarastackMongodbShardinginstanceShardListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#description ApsarastackMongodbShardinginstance#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#node_class ApsarastackMongodbShardinginstance#node_class}
   */
   readonly nodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#node_storage ApsarastackMongodbShardinginstance#node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#node_storage ApsarastackMongodbShardinginstance#node_storage}
   */
   readonly nodeStorage: number;
 }
@@ -732,7 +732,7 @@ export class ApsarastackMongodbShardinginstanceShardListStructList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance apsarastack_mongodb_shardinginstance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance apsarastack_mongodb_shardinginstance}
 */
 export class ApsarastackMongodbShardinginstance extends cdktf.TerraformResource {
 
@@ -748,7 +748,7 @@ export class ApsarastackMongodbShardinginstance extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApsarastackMongodbShardinginstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackMongodbShardinginstance to import
-  * @param importFromId The id of the existing ApsarastackMongodbShardinginstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackMongodbShardinginstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackMongodbShardinginstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -760,7 +760,7 @@ export class ApsarastackMongodbShardinginstance extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_mongodb_shardinginstance apsarastack_mongodb_shardinginstance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_mongodb_shardinginstance apsarastack_mongodb_shardinginstance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -771,8 +771,8 @@ export class ApsarastackMongodbShardinginstance extends cdktf.TerraformResource 
       terraformResourceType: 'apsarastack_mongodb_shardinginstance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

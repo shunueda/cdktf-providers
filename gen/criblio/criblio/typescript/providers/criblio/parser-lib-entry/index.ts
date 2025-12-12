@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ParserLibEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#description ParserLibEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#description ParserLibEntry#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#group_id ParserLibEntry#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#group_id ParserLibEntry#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#id ParserLibEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#id ParserLibEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#lib ParserLibEntry#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#lib ParserLibEntry#lib}
   */
   readonly lib?: string;
   /**
   * Optionally, add tags that you can use for filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#tags ParserLibEntry#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#tags ParserLibEntry#tags}
   */
   readonly tags?: string;
   /**
   * Parser or formatter type to use. Default: "csv"; must be one of ["csv", "elff", "clf", "kvp", "json", "delim", "regex", "grok"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#type ParserLibEntry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#type ParserLibEntry#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry criblio_parser_lib_entry}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry criblio_parser_lib_entry}
 */
 export class ParserLibEntry extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ParserLibEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ParserLibEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ParserLibEntry to import
-  * @param importFromId The id of the existing ParserLibEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ParserLibEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ParserLibEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ParserLibEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/parser_lib_entry criblio_parser_lib_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/parser_lib_entry criblio_parser_lib_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ParserLibEntry extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_parser_lib_entry',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

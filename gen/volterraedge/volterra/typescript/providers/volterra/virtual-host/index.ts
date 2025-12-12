@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,338 +8,338 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_location VirtualHost#add_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_location VirtualHost#add_location}
   */
   readonly addLocation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#annotations VirtualHost#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#annotations VirtualHost#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append_server_name VirtualHost#append_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#append_server_name VirtualHost#append_server_name}
   */
   readonly appendServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#connection_idle_timeout VirtualHost#connection_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#connection_idle_timeout VirtualHost#connection_idle_timeout}
   */
   readonly connectionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_errors VirtualHost#custom_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_errors VirtualHost#custom_errors}
   */
   readonly customErrors?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header VirtualHost#default_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#default_header VirtualHost#default_header}
   */
   readonly defaultHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_loadbalancer VirtualHost#default_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#default_loadbalancer VirtualHost#default_loadbalancer}
   */
   readonly defaultLoadbalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#description VirtualHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#description VirtualHost#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable VirtualHost#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable VirtualHost#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_default_error_pages VirtualHost#disable_default_error_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_default_error_pages VirtualHost#disable_default_error_pages}
   */
   readonly disableDefaultErrorPages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_dns_resolve VirtualHost#disable_dns_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_dns_resolve VirtualHost#disable_dns_resolve}
   */
   readonly disableDnsResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_path_normalize VirtualHost#disable_path_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_path_normalize VirtualHost#disable_path_normalize}
   */
   readonly disablePathNormalize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#domains VirtualHost#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_path_normalize VirtualHost#enable_path_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_path_normalize VirtualHost#enable_path_normalize}
   */
   readonly enablePathNormalize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_strict_sni_host_header_check VirtualHost#enable_strict_sni_host_header_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_strict_sni_host_header_check VirtualHost#enable_strict_sni_host_header_check}
   */
   readonly enableStrictSniHostHeaderCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#id VirtualHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#id VirtualHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#idle_timeout VirtualHost#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#idle_timeout VirtualHost#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#labels VirtualHost#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#labels VirtualHost#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_direct_response_body_size VirtualHost#max_direct_response_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_direct_response_body_size VirtualHost#max_direct_response_body_size}
   */
   readonly maxDirectResponseBodySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_header_size VirtualHost#max_request_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_request_header_size VirtualHost#max_request_header_size}
   */
   readonly maxRequestHeaderSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_authentication VirtualHost#no_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#no_authentication VirtualHost#no_authentication}
   */
   readonly noAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_challenge VirtualHost#no_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#no_challenge VirtualHost#no_challenge}
   */
   readonly noChallenge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#non_default_loadbalancer VirtualHost#non_default_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#non_default_loadbalancer VirtualHost#non_default_loadbalancer}
   */
   readonly nonDefaultLoadbalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#pass_through VirtualHost#pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#pass_through VirtualHost#pass_through}
   */
   readonly passThrough?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proxy VirtualHost#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#proxy VirtualHost#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_cookies_to_remove VirtualHost#request_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_cookies_to_remove VirtualHost#request_cookies_to_remove}
   */
   readonly requestCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_to_remove VirtualHost#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_headers_to_remove VirtualHost#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_cookies_to_remove VirtualHost#response_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#response_cookies_to_remove VirtualHost#response_cookies_to_remove}
   */
   readonly responseCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_headers_to_remove VirtualHost#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#response_headers_to_remove VirtualHost#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#server_name VirtualHost#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#server_name VirtualHost#server_name}
   */
   readonly serverName?: string;
   /**
   * additional_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#additional_domains VirtualHost#additional_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#additional_domains VirtualHost#additional_domains}
   */
   readonly additionalDomains?: VirtualHostAdditionalDomains;
   /**
   * advertise_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#advertise_policies VirtualHost#advertise_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#advertise_policies VirtualHost#advertise_policies}
   */
   readonly advertisePolicies?: VirtualHostAdvertisePolicies[] | cdktf.IResolvable;
   /**
   * api_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#api_spec VirtualHost#api_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#api_spec VirtualHost#api_spec}
   */
   readonly apiSpec?: VirtualHostApiSpec;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#authentication VirtualHost#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#authentication VirtualHost#authentication}
   */
   readonly authentication?: VirtualHostAuthentication;
   /**
   * buffer_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#buffer_policy VirtualHost#buffer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#buffer_policy VirtualHost#buffer_policy}
   */
   readonly bufferPolicy?: VirtualHostBufferPolicy;
   /**
   * captcha_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#captcha_challenge VirtualHost#captcha_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#captcha_challenge VirtualHost#captcha_challenge}
   */
   readonly captchaChallenge?: VirtualHostCaptchaChallenge;
   /**
   * coalescing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#coalescing_options VirtualHost#coalescing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#coalescing_options VirtualHost#coalescing_options}
   */
   readonly coalescingOptions?: VirtualHostCoalescingOptions;
   /**
   * compression_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#compression_params VirtualHost#compression_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#compression_params VirtualHost#compression_params}
   */
   readonly compressionParams?: VirtualHostCompressionParams;
   /**
   * cookies_to_modify block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookies_to_modify VirtualHost#cookies_to_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookies_to_modify VirtualHost#cookies_to_modify}
   */
   readonly cookiesToModify?: VirtualHostCookiesToModify[] | cdktf.IResolvable;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cors_policy VirtualHost#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cors_policy VirtualHost#cors_policy}
   */
   readonly corsPolicy?: VirtualHostCorsPolicy;
   /**
   * csrf_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#csrf_policy VirtualHost#csrf_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#csrf_policy VirtualHost#csrf_policy}
   */
   readonly csrfPolicy?: VirtualHostCsrfPolicy;
   /**
   * dns_proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#dns_proxy_configuration VirtualHost#dns_proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#dns_proxy_configuration VirtualHost#dns_proxy_configuration}
   */
   readonly dnsProxyConfiguration?: VirtualHostDnsProxyConfiguration;
   /**
   * domain_cert_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domain_cert_map VirtualHost#domain_cert_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#domain_cert_map VirtualHost#domain_cert_map}
   */
   readonly domainCertMap?: VirtualHostDomainCertMap;
   /**
   * dynamic_reverse_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#dynamic_reverse_proxy VirtualHost#dynamic_reverse_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#dynamic_reverse_proxy VirtualHost#dynamic_reverse_proxy}
   */
   readonly dynamicReverseProxy?: VirtualHostDynamicReverseProxy;
   /**
   * header_transformation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#header_transformation_type VirtualHost#header_transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#header_transformation_type VirtualHost#header_transformation_type}
   */
   readonly headerTransformationType?: VirtualHostHeaderTransformationType;
   /**
   * http_protocol_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_options VirtualHost#http_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#http_protocol_options VirtualHost#http_protocol_options}
   */
   readonly httpProtocolOptions?: VirtualHostHttpProtocolOptions;
   /**
   * js_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#js_challenge VirtualHost#js_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#js_challenge VirtualHost#js_challenge}
   */
   readonly jsChallenge?: VirtualHostJsChallenge;
   /**
   * masking_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#masking_config VirtualHost#masking_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#masking_config VirtualHost#masking_config}
   */
   readonly maskingConfig?: VirtualHostMaskingConfig;
   /**
   * rate_limiter_allowed_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#rate_limiter_allowed_prefixes VirtualHost#rate_limiter_allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#rate_limiter_allowed_prefixes VirtualHost#rate_limiter_allowed_prefixes}
   */
   readonly rateLimiterAllowedPrefixes?: VirtualHostRateLimiterAllowedPrefixes[] | cdktf.IResolvable;
   /**
   * request_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_cookies_to_add VirtualHost#request_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_cookies_to_add VirtualHost#request_cookies_to_add}
   */
   readonly requestCookiesToAdd?: VirtualHostRequestCookiesToAdd[] | cdktf.IResolvable;
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_to_add VirtualHost#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_headers_to_add VirtualHost#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: VirtualHostRequestHeadersToAdd[] | cdktf.IResolvable;
   /**
   * response_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_cookies_to_add VirtualHost#response_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#response_cookies_to_add VirtualHost#response_cookies_to_add}
   */
   readonly responseCookiesToAdd?: VirtualHostResponseCookiesToAdd[] | cdktf.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_headers_to_add VirtualHost#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#response_headers_to_add VirtualHost#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: VirtualHostResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_policy VirtualHost#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#retry_policy VirtualHost#retry_policy}
   */
   readonly retryPolicy?: VirtualHostRetryPolicy;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#routes VirtualHost#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#routes VirtualHost#routes}
   */
   readonly routes?: VirtualHostRoutes[] | cdktf.IResolvable;
   /**
   * sensitive_data_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sensitive_data_policy VirtualHost#sensitive_data_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#sensitive_data_policy VirtualHost#sensitive_data_policy}
   */
   readonly sensitiveDataPolicy?: VirtualHostSensitiveDataPolicy[] | cdktf.IResolvable;
   /**
   * slow_ddos_mitigation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#slow_ddos_mitigation VirtualHost#slow_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#slow_ddos_mitigation VirtualHost#slow_ddos_mitigation}
   */
   readonly slowDdosMitigation?: VirtualHostSlowDdosMitigation;
   /**
   * temporary_user_blocking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#temporary_user_blocking VirtualHost#temporary_user_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#temporary_user_blocking VirtualHost#temporary_user_blocking}
   */
   readonly temporaryUserBlocking?: VirtualHostTemporaryUserBlocking;
   /**
   * tls_cert_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_cert_params VirtualHost#tls_cert_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tls_cert_params VirtualHost#tls_cert_params}
   */
   readonly tlsCertParams?: VirtualHostTlsCertParams;
   /**
   * tls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_parameters VirtualHost#tls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tls_parameters VirtualHost#tls_parameters}
   */
   readonly tlsParameters?: VirtualHostTlsParameters;
   /**
   * user_identification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#user_identification VirtualHost#user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#user_identification VirtualHost#user_identification}
   */
   readonly userIdentification?: VirtualHostUserIdentification[] | cdktf.IResolvable;
   /**
   * waf_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#waf_type VirtualHost#waf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#waf_type VirtualHost#waf_type}
   */
   readonly wafType?: VirtualHostWafType;
   /**
   * ztna_proxy_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_proxy_configurations VirtualHost#ztna_proxy_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ztna_proxy_configurations VirtualHost#ztna_proxy_configurations}
   */
   readonly ztnaProxyConfigurations?: VirtualHostZtnaProxyConfigurations;
 }
 export interface VirtualHostAdditionalDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#domains VirtualHost#domains}
   */
   readonly domains: string[];
 }
@@ -420,15 +420,15 @@ export class VirtualHostAdditionalDomainsOutputReference extends cdktf.ComplexOb
 }
 export interface VirtualHostAdvertisePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -607,15 +607,15 @@ export class VirtualHostAdvertisePoliciesList extends cdktf.ComplexList {
 }
 export interface VirtualHostApiSpecApiDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -757,19 +757,19 @@ export class VirtualHostApiSpecApiDefinitionOutputReference extends cdktf.Comple
 }
 export interface VirtualHostApiSpecEnableOpenApiValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_only_specified_headers VirtualHost#allow_only_specified_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_only_specified_headers VirtualHost#allow_only_specified_headers}
   */
   readonly allowOnlySpecifiedHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_only_specified_query_params VirtualHost#allow_only_specified_query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_only_specified_query_params VirtualHost#allow_only_specified_query_params}
   */
   readonly allowOnlySpecifiedQueryParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#fail_close VirtualHost#fail_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#fail_close VirtualHost#fail_close}
   */
   readonly failClose?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#fail_oversized_body_validation VirtualHost#fail_oversized_body_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#fail_oversized_body_validation VirtualHost#fail_oversized_body_validation}
   */
   readonly failOversizedBodyValidation?: boolean | cdktf.IResolvable;
 }
@@ -940,19 +940,19 @@ export class VirtualHostApiSpecEnableOpenApiValidationOutputReference extends cd
 }
 export interface VirtualHostApiSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_open_api_validation VirtualHost#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_open_api_validation VirtualHost#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * api_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#api_definition VirtualHost#api_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#api_definition VirtualHost#api_definition}
   */
   readonly apiDefinition: VirtualHostApiSpecApiDefinition;
   /**
   * enable_open_api_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_open_api_validation VirtualHost#enable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_open_api_validation VirtualHost#enable_open_api_validation}
   */
   readonly enableOpenApiValidation?: VirtualHostApiSpecEnableOpenApiValidation;
 }
@@ -1091,15 +1091,15 @@ export class VirtualHostApiSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostAuthenticationAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -1278,15 +1278,15 @@ export class VirtualHostAuthenticationAuthConfigList extends cdktf.ComplexList {
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1425,15 +1425,15 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecret
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1572,11 +1572,11 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecret
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -1686,23 +1686,23 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -1896,7 +1896,7 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -1977,37 +1977,37 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretIn
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo;
 }
@@ -2236,15 +2236,15 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2383,15 +2383,15 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretI
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2530,11 +2530,11 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretI
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -2644,23 +2644,23 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoO
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -2854,7 +2854,7 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoO
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -2935,37 +2935,37 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInf
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo;
 }
@@ -3194,23 +3194,23 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference 
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#prim_key_expiry VirtualHost#prim_key_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#prim_key_expiry VirtualHost#prim_key_expiry}
   */
   readonly primKeyExpiry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sec_key_expiry VirtualHost#sec_key_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#sec_key_expiry VirtualHost#sec_key_expiry}
   */
   readonly secKeyExpiry: string;
   /**
   * prim_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#prim_key VirtualHost#prim_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#prim_key VirtualHost#prim_key}
   */
   readonly primKey: VirtualHostAuthenticationCookieParamsAuthHmacPrimKey;
   /**
   * sec_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sec_key VirtualHost#sec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#sec_key VirtualHost#sec_key}
   */
   readonly secKey: VirtualHostAuthenticationCookieParamsAuthHmacSecKey;
 }
@@ -3369,15 +3369,15 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacOutputReference extend
 }
 export interface VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -3521,7 +3521,7 @@ export interface VirtualHostAuthenticationCookieParamsKmsKeyHmac {
   /**
   * auth_hmac_kms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_hmac_kms VirtualHost#auth_hmac_kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#auth_hmac_kms VirtualHost#auth_hmac_kms}
   */
   readonly authHmacKms?: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms;
 }
@@ -3605,27 +3605,27 @@ export class VirtualHostAuthenticationCookieParamsKmsKeyHmacOutputReference exte
 }
 export interface VirtualHostAuthenticationCookieParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_refresh_interval VirtualHost#cookie_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookie_refresh_interval VirtualHost#cookie_refresh_interval}
   */
   readonly cookieRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#session_expiry VirtualHost#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#session_expiry VirtualHost#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * auth_hmac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_hmac VirtualHost#auth_hmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#auth_hmac VirtualHost#auth_hmac}
   */
   readonly authHmac?: VirtualHostAuthenticationCookieParamsAuthHmac;
   /**
   * kms_key_hmac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kms_key_hmac VirtualHost#kms_key_hmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#kms_key_hmac VirtualHost#kms_key_hmac}
   */
   readonly kmsKeyHmac?: VirtualHostAuthenticationCookieParamsKmsKeyHmac;
 }
@@ -3825,27 +3825,27 @@ export class VirtualHostAuthenticationCookieParamsOutputReference extends cdktf.
 }
 export interface VirtualHostAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#redirect_dynamic VirtualHost#redirect_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#redirect_dynamic VirtualHost#redirect_dynamic}
   */
   readonly redirectDynamic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#redirect_url VirtualHost#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#redirect_url VirtualHost#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_auth_object_config VirtualHost#use_auth_object_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#use_auth_object_config VirtualHost#use_auth_object_config}
   */
   readonly useAuthObjectConfig?: boolean | cdktf.IResolvable;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_config VirtualHost#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#auth_config VirtualHost#auth_config}
   */
   readonly authConfig: VirtualHostAuthenticationAuthConfig[] | cdktf.IResolvable;
   /**
   * cookie_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_params VirtualHost#cookie_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookie_params VirtualHost#cookie_params}
   */
   readonly cookieParams?: VirtualHostAuthenticationCookieParams;
 }
@@ -4042,15 +4042,15 @@ export class VirtualHostAuthenticationOutputReference extends cdktf.ComplexObjec
 }
 export interface VirtualHostBufferPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_bytes VirtualHost#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_request_bytes VirtualHost#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_time VirtualHost#max_request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_request_time VirtualHost#max_request_time}
   */
   readonly maxRequestTime?: number;
 }
@@ -4192,11 +4192,11 @@ export class VirtualHostBufferPolicyOutputReference extends cdktf.ComplexObject 
 }
 export interface VirtualHostCaptchaChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
   */
   readonly customPage?: string;
 }
@@ -4309,11 +4309,11 @@ export class VirtualHostCaptchaChallengeOutputReference extends cdktf.ComplexObj
 }
 export interface VirtualHostCoalescingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_coalescing VirtualHost#default_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#default_coalescing VirtualHost#default_coalescing}
   */
   readonly defaultCoalescing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#strict_coalescing VirtualHost#strict_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#strict_coalescing VirtualHost#strict_coalescing}
   */
   readonly strictCoalescing?: boolean | cdktf.IResolvable;
 }
@@ -4426,19 +4426,19 @@ export class VirtualHostCoalescingOptionsOutputReference extends cdktf.ComplexOb
 }
 export interface VirtualHostCompressionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#content_length VirtualHost#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#content_length VirtualHost#content_length}
   */
   readonly contentLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#content_type VirtualHost#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#content_type VirtualHost#content_type}
   */
   readonly contentType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_on_etag_header VirtualHost#disable_on_etag_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_on_etag_header VirtualHost#disable_on_etag_header}
   */
   readonly disableOnEtagHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#remove_accept_encoding_header VirtualHost#remove_accept_encoding_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#remove_accept_encoding_header VirtualHost#remove_accept_encoding_header}
   */
   readonly removeAcceptEncodingHeader?: boolean | cdktf.IResolvable;
 }
@@ -4609,55 +4609,55 @@ export class VirtualHostCompressionParamsOutputReference extends cdktf.ComplexOb
 }
 export interface VirtualHostCookiesToModify {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_tampering_protection VirtualHost#disable_tampering_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_tampering_protection VirtualHost#disable_tampering_protection}
   */
   readonly disableTamperingProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_tampering_protection VirtualHost#enable_tampering_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_tampering_protection VirtualHost#enable_tampering_protection}
   */
   readonly enableTamperingProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
   */
   readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
   */
   readonly maxAgeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
 }
@@ -5118,39 +5118,39 @@ export class VirtualHostCookiesToModifyList extends cdktf.ComplexList {
 }
 export interface VirtualHostCorsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_credentials VirtualHost#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_credentials VirtualHost#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_headers VirtualHost#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_headers VirtualHost#allow_headers}
   */
   readonly allowHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_methods VirtualHost#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_methods VirtualHost#allow_methods}
   */
   readonly allowMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_origin VirtualHost#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_origin VirtualHost#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_origin_regex VirtualHost#allow_origin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#allow_origin_regex VirtualHost#allow_origin_regex}
   */
   readonly allowOriginRegex?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#expose_headers VirtualHost#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#expose_headers VirtualHost#expose_headers}
   */
   readonly exposeHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age VirtualHost#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_age VirtualHost#max_age}
   */
   readonly maxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_age VirtualHost#maximum_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#maximum_age VirtualHost#maximum_age}
   */
   readonly maximumAge?: number;
 }
@@ -5466,7 +5466,7 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostCsrfPolicyCustomDomainListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#domains VirtualHost#domains}
   */
   readonly domains: string[];
 }
@@ -5547,17 +5547,17 @@ export class VirtualHostCsrfPolicyCustomDomainListStructOutputReference extends 
 }
 export interface VirtualHostCsrfPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#all_load_balancer_domains VirtualHost#all_load_balancer_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#all_load_balancer_domains VirtualHost#all_load_balancer_domains}
   */
   readonly allLoadBalancerDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * custom_domain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_domain_list VirtualHost#custom_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_domain_list VirtualHost#custom_domain_list}
   */
   readonly customDomainList?: VirtualHostCsrfPolicyCustomDomainListStruct;
 }
@@ -5699,11 +5699,11 @@ export class VirtualHostCsrfPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostDnsProxyConfigurationCacheProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cache_size VirtualHost#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cache_size VirtualHost#cache_size}
   */
   readonly cacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_cache_profile VirtualHost#disable_cache_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_cache_profile VirtualHost#disable_cache_profile}
   */
   readonly disableCacheProfile?: boolean | cdktf.IResolvable;
 }
@@ -5816,11 +5816,11 @@ export class VirtualHostDnsProxyConfigurationCacheProfileOutputReference extends
 }
 export interface VirtualHostDnsProxyConfigurationDdosProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_ddos_mitigation VirtualHost#disable_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_ddos_mitigation VirtualHost#disable_ddos_mitigation}
   */
   readonly disableDdosMitigation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_ddos_mitigation VirtualHost#enable_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_ddos_mitigation VirtualHost#enable_ddos_mitigation}
   */
   readonly enableDdosMitigation?: boolean | cdktf.IResolvable;
 }
@@ -5933,15 +5933,15 @@ export class VirtualHostDnsProxyConfigurationDdosProfileOutputReference extends 
 }
 export interface VirtualHostDnsProxyConfigurationIrules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -6115,15 +6115,15 @@ export class VirtualHostDnsProxyConfigurationIrulesList extends cdktf.ComplexLis
 }
 export interface VirtualHostDnsProxyConfigurationProtocolInspection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -6267,25 +6267,25 @@ export interface VirtualHostDnsProxyConfiguration {
   /**
   * cache_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cache_profile VirtualHost#cache_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cache_profile VirtualHost#cache_profile}
   */
   readonly cacheProfile?: VirtualHostDnsProxyConfigurationCacheProfile;
   /**
   * ddos_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ddos_profile VirtualHost#ddos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ddos_profile VirtualHost#ddos_profile}
   */
   readonly ddosProfile: VirtualHostDnsProxyConfigurationDdosProfile;
   /**
   * irules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#irules VirtualHost#irules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#irules VirtualHost#irules}
   */
   readonly irules?: VirtualHostDnsProxyConfigurationIrules[] | cdktf.IResolvable;
   /**
   * protocol_inspection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#protocol_inspection VirtualHost#protocol_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#protocol_inspection VirtualHost#protocol_inspection}
   */
   readonly protocolInspection?: VirtualHostDnsProxyConfigurationProtocolInspection;
 }
@@ -6453,23 +6453,23 @@ export class VirtualHostDnsProxyConfigurationOutputReference extends cdktf.Compl
 }
 export interface VirtualHostDomainCertMapValueEcdsaCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kind VirtualHost#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#kind VirtualHost#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#uid VirtualHost#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#uid VirtualHost#uid}
   */
   readonly uid?: string;
 }
@@ -6701,23 +6701,23 @@ export class VirtualHostDomainCertMapValueEcdsaCertificatesList extends cdktf.Co
 }
 export interface VirtualHostDomainCertMapValueRsaCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kind VirtualHost#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#kind VirtualHost#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#uid VirtualHost#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#uid VirtualHost#uid}
   */
   readonly uid?: string;
 }
@@ -6951,13 +6951,13 @@ export interface VirtualHostDomainCertMapValue {
   /**
   * ecdsa_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ecdsa_certificates VirtualHost#ecdsa_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ecdsa_certificates VirtualHost#ecdsa_certificates}
   */
   readonly ecdsaCertificates?: VirtualHostDomainCertMapValueEcdsaCertificates[] | cdktf.IResolvable;
   /**
   * rsa_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#rsa_certificates VirtualHost#rsa_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#rsa_certificates VirtualHost#rsa_certificates}
   */
   readonly rsaCertificates?: VirtualHostDomainCertMapValueRsaCertificates[] | cdktf.IResolvable;
 }
@@ -7070,13 +7070,13 @@ export class VirtualHostDomainCertMapValueOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostDomainCertMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value: VirtualHostDomainCertMapValue;
 }
@@ -7183,15 +7183,15 @@ export class VirtualHostDomainCertMapOutputReference extends cdktf.ComplexObject
 }
 export interface VirtualHostDynamicReverseProxyResolutionNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -7370,21 +7370,21 @@ export class VirtualHostDynamicReverseProxyResolutionNetworkList extends cdktf.C
 }
 export interface VirtualHostDynamicReverseProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#connection_timeout VirtualHost#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#connection_timeout VirtualHost#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolution_network_type VirtualHost#resolution_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#resolution_network_type VirtualHost#resolution_network_type}
   */
   readonly resolutionNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolve_endpoint_dynamically VirtualHost#resolve_endpoint_dynamically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#resolve_endpoint_dynamically VirtualHost#resolve_endpoint_dynamically}
   */
   readonly resolveEndpointDynamically?: boolean | cdktf.IResolvable;
   /**
   * resolution_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolution_network VirtualHost#resolution_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#resolution_network VirtualHost#resolution_network}
   */
   readonly resolutionNetwork?: VirtualHostDynamicReverseProxyResolutionNetwork[] | cdktf.IResolvable;
 }
@@ -7555,19 +7555,19 @@ export class VirtualHostDynamicReverseProxyOutputReference extends cdktf.Complex
 }
 export interface VirtualHostHeaderTransformationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
   */
   readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
   */
   readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
   */
   readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
   */
   readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
 }
@@ -7738,19 +7738,19 @@ export class VirtualHostHeaderTransformationTypeOutputReference extends cdktf.Co
 }
 export interface VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyHeaderTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
   */
   readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
   */
   readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
   */
   readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
   */
   readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
 }
@@ -7923,7 +7923,7 @@ export interface VirtualHostHttpProtocolOptionsHttpProtocolEnableV1Only {
   /**
   * header_transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#header_transformation VirtualHost#header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#header_transformation VirtualHost#header_transformation}
   */
   readonly headerTransformation?: VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyHeaderTransformation;
 }
@@ -8007,17 +8007,17 @@ export class VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyOutputReferen
 }
 export interface VirtualHostHttpProtocolOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v1_v2 VirtualHost#http_protocol_enable_v1_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#http_protocol_enable_v1_v2 VirtualHost#http_protocol_enable_v1_v2}
   */
   readonly httpProtocolEnableV1V2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v2_only VirtualHost#http_protocol_enable_v2_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#http_protocol_enable_v2_only VirtualHost#http_protocol_enable_v2_only}
   */
   readonly httpProtocolEnableV2Only?: boolean | cdktf.IResolvable;
   /**
   * http_protocol_enable_v1_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v1_only VirtualHost#http_protocol_enable_v1_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#http_protocol_enable_v1_only VirtualHost#http_protocol_enable_v1_only}
   */
   readonly httpProtocolEnableV1Only?: VirtualHostHttpProtocolOptionsHttpProtocolEnableV1Only;
 }
@@ -8159,15 +8159,15 @@ export class VirtualHostHttpProtocolOptionsOutputReference extends cdktf.Complex
 }
 export interface VirtualHostJsChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
   */
   readonly customPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#js_script_delay VirtualHost#js_script_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#js_script_delay VirtualHost#js_script_delay}
   */
   readonly jsScriptDelay?: number;
 }
@@ -8309,11 +8309,11 @@ export class VirtualHostJsChallengeOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostMaskingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_masking VirtualHost#disable_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_masking VirtualHost#disable_masking}
   */
   readonly disableMasking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_masking VirtualHost#enable_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#enable_masking VirtualHost#enable_masking}
   */
   readonly enableMasking?: boolean | cdktf.IResolvable;
 }
@@ -8426,15 +8426,15 @@ export class VirtualHostMaskingConfigOutputReference extends cdktf.ComplexObject
 }
 export interface VirtualHostRateLimiterAllowedPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -8613,15 +8613,15 @@ export class VirtualHostRateLimiterAllowedPrefixesList extends cdktf.ComplexList
 }
 export interface VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8760,15 +8760,15 @@ export class VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoOutputR
 }
 export interface VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8907,11 +8907,11 @@ export class VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInterna
 }
 export interface VirtualHostRequestCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -9021,23 +9021,23 @@ export class VirtualHostRequestCookiesToAddSecretValueClearSecretInfoOutputRefer
 }
 export interface VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -9231,7 +9231,7 @@ export class VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoOutputRefer
 }
 export interface VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -9312,37 +9312,37 @@ export class VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoOutputRef
 }
 export interface VirtualHostRequestCookiesToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostRequestCookiesToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo;
 }
@@ -9571,21 +9571,21 @@ export class VirtualHostRequestCookiesToAddSecretValueOutputReference extends cd
 }
 export interface VirtualHostRequestCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostRequestCookiesToAddSecretValue;
 }
@@ -9785,15 +9785,15 @@ export class VirtualHostRequestCookiesToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -9932,15 +9932,15 @@ export class VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoOutputR
 }
 export interface VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10079,11 +10079,11 @@ export class VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInterna
 }
 export interface VirtualHostRequestHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -10193,23 +10193,23 @@ export class VirtualHostRequestHeadersToAddSecretValueClearSecretInfoOutputRefer
 }
 export interface VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -10403,7 +10403,7 @@ export class VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoOutputRefer
 }
 export interface VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -10484,37 +10484,37 @@ export class VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoOutputRef
 }
 export interface VirtualHostRequestHeadersToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostRequestHeadersToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo;
 }
@@ -10743,21 +10743,21 @@ export class VirtualHostRequestHeadersToAddSecretValueOutputReference extends cd
 }
 export interface VirtualHostRequestHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append VirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#append VirtualHost#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostRequestHeadersToAddSecretValue;
 }
@@ -10957,15 +10957,15 @@ export class VirtualHostRequestHeadersToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11104,15 +11104,15 @@ export class VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoOutput
 }
 export interface VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11251,11 +11251,11 @@ export class VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoIntern
 }
 export interface VirtualHostResponseCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -11365,23 +11365,23 @@ export class VirtualHostResponseCookiesToAddSecretValueClearSecretInfoOutputRefe
 }
 export interface VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -11575,7 +11575,7 @@ export class VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoOutputRefe
 }
 export interface VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -11656,37 +11656,37 @@ export class VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoOutputRe
 }
 export interface VirtualHostResponseCookiesToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostResponseCookiesToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo;
 }
@@ -11915,97 +11915,97 @@ export class VirtualHostResponseCookiesToAddSecretValueOutputReference extends c
 }
 export interface VirtualHostResponseCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_domain VirtualHost#add_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_domain VirtualHost#add_domain}
   */
   readonly addDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_expiry VirtualHost#add_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_expiry VirtualHost#add_expiry}
   */
   readonly addExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_partitioned VirtualHost#add_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_partitioned VirtualHost#add_partitioned}
   */
   readonly addPartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_path VirtualHost#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_path VirtualHost#add_path}
   */
   readonly addPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_domain VirtualHost#ignore_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_domain VirtualHost#ignore_domain}
   */
   readonly ignoreDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_expiry VirtualHost#ignore_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_expiry VirtualHost#ignore_expiry}
   */
   readonly ignoreExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
   */
   readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_partitioned VirtualHost#ignore_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_partitioned VirtualHost#ignore_partitioned}
   */
   readonly ignorePartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_path VirtualHost#ignore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_path VirtualHost#ignore_path}
   */
   readonly ignorePath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_value VirtualHost#ignore_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ignore_value VirtualHost#ignore_value}
   */
   readonly ignoreValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
   */
   readonly maxAgeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostResponseCookiesToAddSecretValue;
 }
@@ -12756,15 +12756,15 @@ export class VirtualHostResponseCookiesToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -12903,15 +12903,15 @@ export class VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoOutput
 }
 export interface VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13050,11 +13050,11 @@ export class VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoIntern
 }
 export interface VirtualHostResponseHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -13164,23 +13164,23 @@ export class VirtualHostResponseHeadersToAddSecretValueClearSecretInfoOutputRefe
 }
 export interface VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -13374,7 +13374,7 @@ export class VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoOutputRefe
 }
 export interface VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -13455,37 +13455,37 @@ export class VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoOutputRe
 }
 export interface VirtualHostResponseHeadersToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostResponseHeadersToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo;
 }
@@ -13714,21 +13714,21 @@ export class VirtualHostResponseHeadersToAddSecretValueOutputReference extends c
 }
 export interface VirtualHostResponseHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append VirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#append VirtualHost#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostResponseHeadersToAddSecretValue;
 }
@@ -13928,11 +13928,11 @@ export class VirtualHostResponseHeadersToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostRetryPolicyBackOff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#base_interval VirtualHost#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#base_interval VirtualHost#base_interval}
   */
   readonly baseInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_interval VirtualHost#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#max_interval VirtualHost#max_interval}
   */
   readonly maxInterval?: number;
 }
@@ -14045,29 +14045,29 @@ export class VirtualHostRetryPolicyBackOffOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#num_retries VirtualHost#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#num_retries VirtualHost#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#per_try_timeout VirtualHost#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#per_try_timeout VirtualHost#per_try_timeout}
   */
   readonly perTryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retriable_status_codes VirtualHost#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#retriable_status_codes VirtualHost#retriable_status_codes}
   */
   readonly retriableStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_condition VirtualHost#retry_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#retry_condition VirtualHost#retry_condition}
   */
   readonly retryCondition: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_on VirtualHost#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#retry_on VirtualHost#retry_on}
   */
   readonly retryOn?: string;
   /**
   * back_off block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#back_off VirtualHost#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#back_off VirtualHost#back_off}
   */
   readonly backOff?: VirtualHostRetryPolicyBackOff;
 }
@@ -14293,15 +14293,15 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -14480,15 +14480,15 @@ export class VirtualHostRoutesList extends cdktf.ComplexList {
 }
 export interface VirtualHostSensitiveDataPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -14667,15 +14667,15 @@ export class VirtualHostSensitiveDataPolicyList extends cdktf.ComplexList {
 }
 export interface VirtualHostSlowDdosMitigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_request_timeout VirtualHost#disable_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_request_timeout VirtualHost#disable_request_timeout}
   */
   readonly disableRequestTimeout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_timeout VirtualHost#request_headers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_headers_timeout VirtualHost#request_headers_timeout}
   */
   readonly requestHeadersTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_timeout VirtualHost#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#request_timeout VirtualHost#request_timeout}
   */
   readonly requestTimeout?: number;
 }
@@ -14817,7 +14817,7 @@ export class VirtualHostSlowDdosMitigationOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostTemporaryUserBlocking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
   */
   readonly customPage?: string;
 }
@@ -14901,15 +14901,15 @@ export class VirtualHostTemporaryUserBlockingOutputReference extends cdktf.Compl
 }
 export interface VirtualHostTlsCertParamsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -15186,15 +15186,15 @@ export class VirtualHostTlsCertParamsClientCertificateRequiredOutputReference ex
 }
 export interface VirtualHostTlsCertParamsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -15422,15 +15422,15 @@ export class VirtualHostTlsCertParamsNoClientCertificateOutputReference extends 
 }
 export interface VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -15611,7 +15611,7 @@ export interface VirtualHostTlsCertParamsValidationParamsTrustedCa {
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
   */
   readonly trustedCaList?: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -15695,25 +15695,25 @@ export class VirtualHostTlsCertParamsValidationParamsTrustedCaOutputReference ex
 }
 export interface VirtualHostTlsCertParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
   */
   readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
   */
   readonly trustedCa?: VirtualHostTlsCertParamsValidationParamsTrustedCa;
 }
@@ -15913,59 +15913,59 @@ export class VirtualHostTlsCertParamsValidationParamsOutputReference extends cdk
 }
 export interface VirtualHostTlsCertParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
   */
   readonly requireClientCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
   */
   readonly xfccHeaderElements?: string[];
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#certificates VirtualHost#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#certificates VirtualHost#certificates}
   */
   readonly certificates: VirtualHostTlsCertParamsCertificates[] | cdktf.IResolvable;
   /**
   * client_certificate_optional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
   */
   readonly clientCertificateOptional?: VirtualHostTlsCertParamsClientCertificateOptional;
   /**
   * client_certificate_required block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
   */
   readonly clientCertificateRequired?: VirtualHostTlsCertParamsClientCertificateRequired;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#crl VirtualHost#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#crl VirtualHost#crl}
   */
   readonly crl?: VirtualHostTlsCertParamsCrl[] | cdktf.IResolvable;
   /**
   * no_client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
   */
   readonly noClientCertificate?: VirtualHostTlsCertParamsNoClientCertificate;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
   */
   readonly validationParams?: VirtualHostTlsCertParamsValidationParams;
 }
@@ -16434,7 +16434,7 @@ export class VirtualHostTlsParametersClientCertificateRequiredOutputReference ex
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#hash_algorithms VirtualHost#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#hash_algorithms VirtualHost#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -16564,15 +16564,15 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapl
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16711,15 +16711,15 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindf
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16858,11 +16858,11 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindf
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -16972,23 +16972,23 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearS
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#key VirtualHost#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#version VirtualHost#version}
   */
   readonly version?: number;
 }
@@ -17182,7 +17182,7 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultS
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
 }
@@ -17263,37 +17263,37 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingma
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
   */
   readonly vaultSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -17571,35 +17571,35 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefault
 }
 export interface VirtualHostTlsParametersCommonParamsTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#certificate_url VirtualHost#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#certificate_url VirtualHost#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#description VirtualHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#description VirtualHost#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_hash_algorithms VirtualHost#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#custom_hash_algorithms VirtualHost#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_ocsp_stapling VirtualHost#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_ocsp_stapling VirtualHost#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#private_key VirtualHost#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#private_key VirtualHost#private_key}
   */
   readonly privateKey: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_system_defaults VirtualHost#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#use_system_defaults VirtualHost#use_system_defaults}
   */
   readonly useSystemDefaults?: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults;
 }
@@ -17854,15 +17854,15 @@ export class VirtualHostTlsParametersCommonParamsTlsCertificatesList extends cdk
 }
 export interface VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -18043,7 +18043,7 @@ export interface VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa {
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
   */
   readonly trustedCaList?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -18127,25 +18127,25 @@ export class VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaOutput
 }
 export interface VirtualHostTlsParametersCommonParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
   */
   readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
   */
   readonly trustedCa?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa;
 }
@@ -18345,31 +18345,31 @@ export class VirtualHostTlsParametersCommonParamsValidationParamsOutputReference
 }
 export interface VirtualHostTlsParametersCommonParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_certificates VirtualHost#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tls_certificates VirtualHost#tls_certificates}
   */
   readonly tlsCertificates?: VirtualHostTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
   */
   readonly validationParams?: VirtualHostTlsParametersCommonParamsValidationParams;
 }
@@ -18598,15 +18598,15 @@ export class VirtualHostTlsParametersCommonParamsOutputReference extends cdktf.C
 }
 export interface VirtualHostTlsParametersCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -18834,41 +18834,41 @@ export class VirtualHostTlsParametersNoClientCertificateOutputReference extends 
 }
 export interface VirtualHostTlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
   */
   readonly requireClientCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
   */
   readonly xfccHeaderElements?: string[];
   /**
   * client_certificate_optional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
   */
   readonly clientCertificateOptional?: VirtualHostTlsParametersClientCertificateOptional;
   /**
   * client_certificate_required block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
   */
   readonly clientCertificateRequired?: VirtualHostTlsParametersClientCertificateRequired;
   /**
   * common_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#common_params VirtualHost#common_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#common_params VirtualHost#common_params}
   */
   readonly commonParams?: VirtualHostTlsParametersCommonParams;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#crl VirtualHost#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#crl VirtualHost#crl}
   */
   readonly crl?: VirtualHostTlsParametersCrl[] | cdktf.IResolvable;
   /**
   * no_client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
   */
   readonly noClientCertificate?: VirtualHostTlsParametersNoClientCertificate;
 }
@@ -19126,15 +19126,15 @@ export class VirtualHostTlsParametersOutputReference extends cdktf.ComplexObject
 }
 export interface VirtualHostUserIdentification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -19313,15 +19313,15 @@ export class VirtualHostUserIdentificationList extends cdktf.ComplexList {
 }
 export interface VirtualHostWafTypeAppFirewallAppFirewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -19502,7 +19502,7 @@ export interface VirtualHostWafTypeAppFirewall {
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
   */
   readonly appFirewall: VirtualHostWafTypeAppFirewallAppFirewall[] | cdktf.IResolvable;
 }
@@ -19583,17 +19583,17 @@ export class VirtualHostWafTypeAppFirewallOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostWafType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_waf VirtualHost#disable_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#disable_waf VirtualHost#disable_waf}
   */
   readonly disableWaf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#inherit_waf VirtualHost#inherit_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#inherit_waf VirtualHost#inherit_waf}
   */
   readonly inheritWaf?: boolean | cdktf.IResolvable;
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
   */
   readonly appFirewall?: VirtualHostWafTypeAppFirewall;
 }
@@ -19735,15 +19735,15 @@ export class VirtualHostWafTypeOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -19922,15 +19922,15 @@ export class VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigList extends
 }
 export interface VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -20111,13 +20111,13 @@ export interface VirtualHostZtnaProxyConfigurations {
   /**
   * ztna_application_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_application_config VirtualHost#ztna_application_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ztna_application_config VirtualHost#ztna_application_config}
   */
   readonly ztnaApplicationConfig?: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig[] | cdktf.IResolvable;
   /**
   * ztna_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_policy_config VirtualHost#ztna_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#ztna_policy_config VirtualHost#ztna_policy_config}
   */
   readonly ztnaPolicyConfig?: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig[] | cdktf.IResolvable;
 }
@@ -20230,7 +20230,7 @@ export class VirtualHostZtnaProxyConfigurationsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host volterra_virtual_host}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host volterra_virtual_host}
 */
 export class VirtualHost extends cdktf.TerraformResource {
 
@@ -20246,7 +20246,7 @@ export class VirtualHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualHost to import
-  * @param importFromId The id of the existing VirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20258,7 +20258,7 @@ export class VirtualHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host volterra_virtual_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_host volterra_virtual_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20269,8 +20269,8 @@ export class VirtualHost extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_virtual_host',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

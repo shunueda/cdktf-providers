@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface Ike1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#annotations Ike1#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#annotations Ike1#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#authentication_algos Ike1#authentication_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#authentication_algos Ike1#authentication_algos}
   */
   readonly authenticationAlgos?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#description Ike1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#description Ike1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#dh_group Ike1#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#dh_group Ike1#dh_group}
   */
   readonly dhGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#disable Ike1#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#disable Ike1#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#encryption_algos Ike1#encryption_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#encryption_algos Ike1#encryption_algos}
   */
   readonly encryptionAlgos?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#id Ike1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#id Ike1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#labels Ike1#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#labels Ike1#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#name Ike1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#name Ike1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#namespace Ike1#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#namespace Ike1#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#prf Ike1#prf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#prf Ike1#prf}
   */
   readonly prf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#reauth_disabled Ike1#reauth_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#reauth_disabled Ike1#reauth_disabled}
   */
   readonly reauthDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#use_default_keylifetime Ike1#use_default_keylifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#use_default_keylifetime Ike1#use_default_keylifetime}
   */
   readonly useDefaultKeylifetime?: boolean | cdktf.IResolvable;
   /**
   * ike_keylifetime_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#ike_keylifetime_hours Ike1#ike_keylifetime_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#ike_keylifetime_hours Ike1#ike_keylifetime_hours}
   */
   readonly ikeKeylifetimeHours?: Ike1IkeKeylifetimeHours;
   /**
   * ike_keylifetime_minutes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#ike_keylifetime_minutes Ike1#ike_keylifetime_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#ike_keylifetime_minutes Ike1#ike_keylifetime_minutes}
   */
   readonly ikeKeylifetimeMinutes?: Ike1IkeKeylifetimeMinutes;
   /**
   * reauth_timeout_days block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#reauth_timeout_days Ike1#reauth_timeout_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#reauth_timeout_days Ike1#reauth_timeout_days}
   */
   readonly reauthTimeoutDays?: Ike1ReauthTimeoutDays;
   /**
   * reauth_timeout_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#reauth_timeout_hours Ike1#reauth_timeout_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#reauth_timeout_hours Ike1#reauth_timeout_hours}
   */
   readonly reauthTimeoutHours?: Ike1ReauthTimeoutHours;
 }
 export interface Ike1IkeKeylifetimeHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#duration Ike1#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#duration Ike1#duration}
   */
   readonly duration?: number;
 }
@@ -173,7 +173,7 @@ export class Ike1IkeKeylifetimeHoursOutputReference extends cdktf.ComplexObject 
 }
 export interface Ike1IkeKeylifetimeMinutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#duration Ike1#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#duration Ike1#duration}
   */
   readonly duration?: number;
 }
@@ -257,7 +257,7 @@ export class Ike1IkeKeylifetimeMinutesOutputReference extends cdktf.ComplexObjec
 }
 export interface Ike1ReauthTimeoutDays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#duration Ike1#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#duration Ike1#duration}
   */
   readonly duration?: number;
 }
@@ -341,7 +341,7 @@ export class Ike1ReauthTimeoutDaysOutputReference extends cdktf.ComplexObject {
 }
 export interface Ike1ReauthTimeoutHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#duration Ike1#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#duration Ike1#duration}
   */
   readonly duration?: number;
 }
@@ -425,7 +425,7 @@ export class Ike1ReauthTimeoutHoursOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1 volterra_ike1}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1 volterra_ike1}
 */
 export class Ike1 extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class Ike1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ike1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ike1 to import
-  * @param importFromId The id of the existing Ike1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ike1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ike1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class Ike1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike1 volterra_ike1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike1 volterra_ike1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class Ike1 extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ike1',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

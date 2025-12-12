@@ -13,13 +13,13 @@ httpLoadbalancerApiSpecificationValidationAllSpecEndpointsToHclTerraform,
 HttpLoadbalancerApiSpecificationValidationAllSpecEndpointsOutputReference } from './structs400'
 export interface HttpLoadbalancerApiSpecificationValidationCustomListFallThroughMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#fall_through_mode_allow HttpLoadbalancer#fall_through_mode_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#fall_through_mode_allow HttpLoadbalancer#fall_through_mode_allow}
   */
   readonly fallThroughModeAllow?: boolean | cdktf.IResolvable;
   /**
   * fall_through_mode_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#fall_through_mode_custom HttpLoadbalancer#fall_through_mode_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#fall_through_mode_custom HttpLoadbalancer#fall_through_mode_custom}
   */
   readonly fallThroughModeCustom?: HttpLoadbalancerApiSpecificationValidationCustomListFallThroughModeFallThroughModeCustom;
 }
@@ -132,11 +132,11 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListFallThroughMode
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesApiEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#methods HttpLoadbalancer#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#methods HttpLoadbalancer#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: string;
 }
@@ -246,15 +246,15 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -393,15 +393,15 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationModeResponseValidationModeActive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#enforcement_block HttpLoadbalancer#enforcement_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#enforcement_block HttpLoadbalancer#enforcement_block}
   */
   readonly enforcementBlock?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#enforcement_report HttpLoadbalancer#enforcement_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#enforcement_report HttpLoadbalancer#enforcement_report}
   */
   readonly enforcementReport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#response_validation_properties HttpLoadbalancer#response_validation_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#response_validation_properties HttpLoadbalancer#response_validation_properties}
   */
   readonly responseValidationProperties: string[];
 }
@@ -540,15 +540,15 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationModeValidationModeActive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#enforcement_block HttpLoadbalancer#enforcement_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#enforcement_block HttpLoadbalancer#enforcement_block}
   */
   readonly enforcementBlock?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#enforcement_report HttpLoadbalancer#enforcement_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#enforcement_report HttpLoadbalancer#enforcement_report}
   */
   readonly enforcementReport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#request_validation_properties HttpLoadbalancer#request_validation_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#request_validation_properties HttpLoadbalancer#request_validation_properties}
   */
   readonly requestValidationProperties: string[];
 }
@@ -687,23 +687,23 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#skip_response_validation HttpLoadbalancer#skip_response_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#skip_response_validation HttpLoadbalancer#skip_response_validation}
   */
   readonly skipResponseValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#skip_validation HttpLoadbalancer#skip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#skip_validation HttpLoadbalancer#skip_validation}
   */
   readonly skipValidation?: boolean | cdktf.IResolvable;
   /**
   * response_validation_mode_active block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#response_validation_mode_active HttpLoadbalancer#response_validation_mode_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#response_validation_mode_active HttpLoadbalancer#response_validation_mode_active}
   */
   readonly responseValidationModeActive?: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationModeResponseValidationModeActive;
   /**
   * validation_mode_active block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#validation_mode_active HttpLoadbalancer#validation_mode_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#validation_mode_active HttpLoadbalancer#validation_mode_active}
   */
   readonly validationModeActive?: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationModeValidationModeActive;
 }
@@ -874,37 +874,37 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#api_group HttpLoadbalancer#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#api_group HttpLoadbalancer#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#base_path HttpLoadbalancer#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#base_path HttpLoadbalancer#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#specific_domain HttpLoadbalancer#specific_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#specific_domain HttpLoadbalancer#specific_domain}
   */
   readonly specificDomain?: string;
   /**
   * api_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#api_endpoint HttpLoadbalancer#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#api_endpoint HttpLoadbalancer#api_endpoint}
   */
   readonly apiEndpoint?: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesApiEndpoint;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesMetadata;
   /**
   * validation_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#validation_mode HttpLoadbalancer#validation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#validation_mode HttpLoadbalancer#validation_mode}
   */
   readonly validationMode: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRulesValidationMode;
 }
@@ -1188,11 +1188,11 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidati
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropertyValidationSettingsCustomHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#allow_additional_headers HttpLoadbalancer#allow_additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#allow_additional_headers HttpLoadbalancer#allow_additional_headers}
   */
   readonly allowAdditionalHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disallow_additional_headers HttpLoadbalancer#disallow_additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disallow_additional_headers HttpLoadbalancer#disallow_additional_headers}
   */
   readonly disallowAdditionalHeaders?: boolean | cdktf.IResolvable;
 }
@@ -1305,11 +1305,11 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropert
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropertyValidationSettingsCustomQueryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#allow_additional_parameters HttpLoadbalancer#allow_additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#allow_additional_parameters HttpLoadbalancer#allow_additional_parameters}
   */
   readonly allowAdditionalParameters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disallow_additional_parameters HttpLoadbalancer#disallow_additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disallow_additional_parameters HttpLoadbalancer#disallow_additional_parameters}
   */
   readonly disallowAdditionalParameters?: boolean | cdktf.IResolvable;
 }
@@ -1424,13 +1424,13 @@ export interface HttpLoadbalancerApiSpecificationValidationCustomListSettingsPro
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers?: HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropertyValidationSettingsCustomHeaders;
   /**
   * query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#query_parameters HttpLoadbalancer#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#query_parameters HttpLoadbalancer#query_parameters}
   */
   readonly queryParameters?: HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropertyValidationSettingsCustomQueryParameters;
 }
@@ -1543,29 +1543,29 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropert
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#fail_close HttpLoadbalancer#fail_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#fail_close HttpLoadbalancer#fail_close}
   */
   readonly failClose?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#fail_open HttpLoadbalancer#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#fail_open HttpLoadbalancer#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#oversized_body_fail_validation HttpLoadbalancer#oversized_body_fail_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#oversized_body_fail_validation HttpLoadbalancer#oversized_body_fail_validation}
   */
   readonly oversizedBodyFailValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#oversized_body_skip_validation HttpLoadbalancer#oversized_body_skip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#oversized_body_skip_validation HttpLoadbalancer#oversized_body_skip_validation}
   */
   readonly oversizedBodySkipValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#property_validation_settings_default HttpLoadbalancer#property_validation_settings_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#property_validation_settings_default HttpLoadbalancer#property_validation_settings_default}
   */
   readonly propertyValidationSettingsDefault?: boolean | cdktf.IResolvable;
   /**
   * property_validation_settings_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#property_validation_settings_custom HttpLoadbalancer#property_validation_settings_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#property_validation_settings_custom HttpLoadbalancer#property_validation_settings_custom}
   */
   readonly propertyValidationSettingsCustom?: HttpLoadbalancerApiSpecificationValidationCustomListSettingsPropertyValidationSettingsCustom;
 }
@@ -1794,29 +1794,29 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListSettingsOutputR
 }
 export interface HttpLoadbalancerApiSpecificationValidationCustomListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#oversized_body_fail_validation HttpLoadbalancer#oversized_body_fail_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#oversized_body_fail_validation HttpLoadbalancer#oversized_body_fail_validation}
   */
   readonly oversizedBodyFailValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#oversized_body_skip_validation HttpLoadbalancer#oversized_body_skip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#oversized_body_skip_validation HttpLoadbalancer#oversized_body_skip_validation}
   */
   readonly oversizedBodySkipValidation?: boolean | cdktf.IResolvable;
   /**
   * fall_through_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#fall_through_mode HttpLoadbalancer#fall_through_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#fall_through_mode HttpLoadbalancer#fall_through_mode}
   */
   readonly fallThroughMode: HttpLoadbalancerApiSpecificationValidationCustomListFallThroughMode;
   /**
   * open_api_validation_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#open_api_validation_rules HttpLoadbalancer#open_api_validation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#open_api_validation_rules HttpLoadbalancer#open_api_validation_rules}
   */
   readonly openApiValidationRules: HttpLoadbalancerApiSpecificationValidationCustomListOpenApiValidationRules[] | cdktf.IResolvable;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#settings HttpLoadbalancer#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#settings HttpLoadbalancer#settings}
   */
   readonly settings?: HttpLoadbalancerApiSpecificationValidationCustomListSettings;
 }
@@ -2010,25 +2010,25 @@ export class HttpLoadbalancerApiSpecificationValidationCustomListStructOutputRef
 }
 export interface HttpLoadbalancerApiSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#validation_disabled HttpLoadbalancer#validation_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#validation_disabled HttpLoadbalancer#validation_disabled}
   */
   readonly validationDisabled?: boolean | cdktf.IResolvable;
   /**
   * api_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#api_definition HttpLoadbalancer#api_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#api_definition HttpLoadbalancer#api_definition}
   */
   readonly apiDefinition: HttpLoadbalancerApiSpecificationApiDefinition;
   /**
   * validation_all_spec_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#validation_all_spec_endpoints HttpLoadbalancer#validation_all_spec_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#validation_all_spec_endpoints HttpLoadbalancer#validation_all_spec_endpoints}
   */
   readonly validationAllSpecEndpoints?: HttpLoadbalancerApiSpecificationValidationAllSpecEndpoints;
   /**
   * validation_custom_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#validation_custom_list HttpLoadbalancer#validation_custom_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#validation_custom_list HttpLoadbalancer#validation_custom_list}
   */
   readonly validationCustomList?: HttpLoadbalancerApiSpecificationValidationCustomListStruct;
 }
@@ -2196,15 +2196,15 @@ export class HttpLoadbalancerApiSpecificationOutputReference extends cdktf.Compl
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2343,15 +2343,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSec
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2490,11 +2490,11 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSec
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -2604,23 +2604,23 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueClearSecretI
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -2814,7 +2814,7 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueVaultSecretI
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -2895,37 +2895,37 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueWingmanSecre
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo;
 }
@@ -3154,13 +3154,13 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValueOutputRefere
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#value HttpLoadbalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#value HttpLoadbalancer#value}
   */
   readonly value: HttpLoadbalancerApiTestingDomainsCredentialsApiKeyValue;
 }
@@ -3267,15 +3267,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsApiKeyOutputReference e
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3414,15 +3414,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindf
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3561,11 +3561,11 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindf
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -3675,23 +3675,23 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordClearS
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -3885,7 +3885,7 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordVaultS
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -3966,37 +3966,37 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordWingma
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo;
 }
@@ -4225,13 +4225,13 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPasswordOutput
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#user HttpLoadbalancer#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#user HttpLoadbalancer#user}
   */
   readonly user: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#password HttpLoadbalancer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#password HttpLoadbalancer#password}
   */
   readonly password: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthPassword;
 }
@@ -4338,15 +4338,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBasicAuthOutputReferenc
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4485,15 +4485,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfo
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4632,11 +4632,11 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfo
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -4746,23 +4746,23 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenClearSe
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -4956,7 +4956,7 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenVaultSe
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -5037,37 +5037,37 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenWingman
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo;
 }
@@ -5298,7 +5298,7 @@ export interface HttpLoadbalancerApiTestingDomainsCredentialsBearerToken {
   /**
   * token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#token HttpLoadbalancer#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#token HttpLoadbalancer#token}
   */
   readonly token: HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenToken;
 }
@@ -5379,15 +5379,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsBearerTokenOutputRefere
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5526,15 +5526,15 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#decryption_provider HttpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#store_provider HttpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5673,11 +5673,11 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#url HttpLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -5787,23 +5787,23 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#location HttpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#provider HttpLoadbalancer#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding HttpLoadbalancer#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#version HttpLoadbalancer#version}
   */
   readonly version?: number;
 }
@@ -5997,7 +5997,7 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -6078,37 +6078,37 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#secret_encoding_type HttpLoadbalancer#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info HttpLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#blindfold_secret_info_internal HttpLoadbalancer#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#clear_secret_info HttpLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#vault_secret_info HttpLoadbalancer#vault_secret_info}
   */
   readonly vaultSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#wingman_secret_info HttpLoadbalancer#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo;
 }
@@ -6337,21 +6337,21 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayloa
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#method HttpLoadbalancer#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#method HttpLoadbalancer#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#token_response_key HttpLoadbalancer#token_response_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#token_response_key HttpLoadbalancer#token_response_key}
   */
   readonly tokenResponseKey: string;
   /**
   * json_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#json_payload HttpLoadbalancer#json_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#json_payload HttpLoadbalancer#json_payload}
   */
   readonly jsonPayload: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointJsonPayload;
 }
@@ -6510,39 +6510,39 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpointOutputRefe
 }
 export interface HttpLoadbalancerApiTestingDomainsCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#admin HttpLoadbalancer#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#admin HttpLoadbalancer#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#credential_name HttpLoadbalancer#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#credential_name HttpLoadbalancer#credential_name}
   */
   readonly credentialName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#standard HttpLoadbalancer#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#standard HttpLoadbalancer#standard}
   */
   readonly standard?: boolean | cdktf.IResolvable;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#api_key HttpLoadbalancer#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#api_key HttpLoadbalancer#api_key}
   */
   readonly apiKey?: HttpLoadbalancerApiTestingDomainsCredentialsApiKey;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#basic_auth HttpLoadbalancer#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#basic_auth HttpLoadbalancer#basic_auth}
   */
   readonly basicAuth?: HttpLoadbalancerApiTestingDomainsCredentialsBasicAuth;
   /**
   * bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#bearer_token HttpLoadbalancer#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#bearer_token HttpLoadbalancer#bearer_token}
   */
   readonly bearerToken?: HttpLoadbalancerApiTestingDomainsCredentialsBearerToken;
   /**
   * login_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#login_endpoint HttpLoadbalancer#login_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#login_endpoint HttpLoadbalancer#login_endpoint}
   */
   readonly loginEndpoint?: HttpLoadbalancerApiTestingDomainsCredentialsLoginEndpoint;
 }
@@ -6829,17 +6829,17 @@ export class HttpLoadbalancerApiTestingDomainsCredentialsList extends cdktf.Comp
 }
 export interface HttpLoadbalancerApiTestingDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#allow_destructive_methods HttpLoadbalancer#allow_destructive_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#allow_destructive_methods HttpLoadbalancer#allow_destructive_methods}
   */
   readonly allowDestructiveMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#credentials HttpLoadbalancer#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#credentials HttpLoadbalancer#credentials}
   */
   readonly credentials: HttpLoadbalancerApiTestingDomainsCredentials[] | cdktf.IResolvable;
 }
@@ -7007,25 +7007,25 @@ export class HttpLoadbalancerApiTestingDomainsList extends cdktf.ComplexList {
 }
 export interface HttpLoadbalancerApiTesting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#custom_header_value HttpLoadbalancer#custom_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#custom_header_value HttpLoadbalancer#custom_header_value}
   */
   readonly customHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#every_day HttpLoadbalancer#every_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#every_day HttpLoadbalancer#every_day}
   */
   readonly everyDay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#every_month HttpLoadbalancer#every_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#every_month HttpLoadbalancer#every_month}
   */
   readonly everyMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#every_week HttpLoadbalancer#every_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#every_week HttpLoadbalancer#every_week}
   */
   readonly everyWeek?: boolean | cdktf.IResolvable;
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domains HttpLoadbalancer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domains HttpLoadbalancer#domains}
   */
   readonly domains: HttpLoadbalancerApiTestingDomains[] | cdktf.IResolvable;
 }
@@ -7222,15 +7222,15 @@ export class HttpLoadbalancerApiTestingOutputReference extends cdktf.ComplexObje
 }
 export interface HttpLoadbalancerAppFirewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -7372,23 +7372,23 @@ export class HttpLoadbalancerAppFirewallOutputReference extends cdktf.ComplexObj
 }
 export interface HttpLoadbalancerBlockedClientsHttpHeaderHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact HttpLoadbalancer#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact HttpLoadbalancer#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#invert_match HttpLoadbalancer#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#invert_match HttpLoadbalancer#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -7619,7 +7619,7 @@ export interface HttpLoadbalancerBlockedClientsHttpHeader {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers: HttpLoadbalancerBlockedClientsHttpHeaderHeaders[] | cdktf.IResolvable;
 }
@@ -7700,15 +7700,15 @@ export class HttpLoadbalancerBlockedClientsHttpHeaderOutputReference extends cdk
 }
 export interface HttpLoadbalancerBlockedClientsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -7847,51 +7847,51 @@ export class HttpLoadbalancerBlockedClientsMetadataOutputReference extends cdktf
 }
 export interface HttpLoadbalancerBlockedClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#actions HttpLoadbalancer#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#actions HttpLoadbalancer#actions}
   */
   readonly actions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#as_number HttpLoadbalancer#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#as_number HttpLoadbalancer#as_number}
   */
   readonly asNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#bot_skip_processing HttpLoadbalancer#bot_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#bot_skip_processing HttpLoadbalancer#bot_skip_processing}
   */
   readonly botSkipProcessing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#expiration_timestamp HttpLoadbalancer#expiration_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#expiration_timestamp HttpLoadbalancer#expiration_timestamp}
   */
   readonly expirationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#ip_prefix HttpLoadbalancer#ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#ip_prefix HttpLoadbalancer#ip_prefix}
   */
   readonly ipPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#ipv6_prefix HttpLoadbalancer#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#ipv6_prefix HttpLoadbalancer#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#skip_processing HttpLoadbalancer#skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#skip_processing HttpLoadbalancer#skip_processing}
   */
   readonly skipProcessing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#user_identifier HttpLoadbalancer#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#user_identifier HttpLoadbalancer#user_identifier}
   */
   readonly userIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#waf_skip_processing HttpLoadbalancer#waf_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#waf_skip_processing HttpLoadbalancer#waf_skip_processing}
   */
   readonly wafSkipProcessing?: boolean | cdktf.IResolvable;
   /**
   * http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#http_header HttpLoadbalancer#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#http_header HttpLoadbalancer#http_header}
   */
   readonly httpHeader?: HttpLoadbalancerBlockedClientsHttpHeader;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBlockedClientsMetadata;
 }
@@ -8294,7 +8294,7 @@ export class HttpLoadbalancerBlockedClientsList extends cdktf.ComplexList {
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
 }
@@ -8378,15 +8378,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesOutputReference ext
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -8528,15 +8528,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListDo
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -8675,15 +8675,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListMe
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -8825,25 +8825,25 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListPa
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListPath;
 }
@@ -9040,13 +9040,13 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListSt
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExcept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
   */
   readonly excludeList?: HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -9159,15 +9159,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExceptOutputReferen
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -9309,15 +9309,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListDomainOu
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -9456,15 +9456,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListMetadata
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -9606,25 +9606,25 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListPathOutp
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListPath;
 }
@@ -9821,15 +9821,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListStructLi
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -9971,15 +9971,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesDomainOutputRe
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -10118,15 +10118,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesMetadataOutput
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -10268,29 +10268,29 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesPathOutputRefe
 }
 export interface HttpLoadbalancerBotDefensePolicyJsInsertionRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefensePolicyJsInsertionRulesRulesPath;
 }
@@ -10518,13 +10518,13 @@ export interface HttpLoadbalancerBotDefensePolicyJsInsertionRules {
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
   */
   readonly excludeList?: HttpLoadbalancerBotDefensePolicyJsInsertionRulesExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#rules HttpLoadbalancer#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#rules HttpLoadbalancer#rules}
   */
   readonly rules: HttpLoadbalancerBotDefensePolicyJsInsertionRulesRules[] | cdktf.IResolvable;
 }
@@ -10634,15 +10634,15 @@ export class HttpLoadbalancerBotDefensePolicyJsInsertionRulesOutputReference ext
 }
 export interface HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -10784,21 +10784,21 @@ export class HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierHead
 }
 export interface HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierHeadersItem;
 }
@@ -11000,7 +11000,7 @@ export interface HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifier
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers?: HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierHeaders[] | cdktf.IResolvable;
 }
@@ -11084,13 +11084,13 @@ export class HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifierOutp
 }
 export interface HttpLoadbalancerBotDefensePolicyMobileSdkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#reload_header_name HttpLoadbalancer#reload_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#reload_header_name HttpLoadbalancer#reload_header_name}
   */
   readonly reloadHeaderName?: string;
   /**
   * mobile_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
   */
   readonly mobileIdentifier?: HttpLoadbalancerBotDefensePolicyMobileSdkConfigMobileIdentifier;
 }
@@ -11203,15 +11203,15 @@ export class HttpLoadbalancerBotDefensePolicyMobileSdkConfigOutputReference exte
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -11353,11 +11353,11 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsDomainOutputRe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAccountManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#create HttpLoadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#create HttpLoadbalancer#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#password_reset HttpLoadbalancer#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#password_reset HttpLoadbalancer#password_reset}
   */
   readonly passwordReset?: boolean | cdktf.IResolvable;
 }
@@ -11470,15 +11470,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAccou
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLoginTransactionResultFailureConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
   */
   readonly status: string;
 }
@@ -11649,15 +11649,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLoginTransactionResultSuccessConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
   */
   readonly status: string;
 }
@@ -11830,13 +11830,13 @@ export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelA
   /**
   * failure_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#failure_conditions HttpLoadbalancer#failure_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#failure_conditions HttpLoadbalancer#failure_conditions}
   */
   readonly failureConditions?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLoginTransactionResultFailureConditions[] | cdktf.IResolvable;
   /**
   * success_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#success_conditions HttpLoadbalancer#success_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#success_conditions HttpLoadbalancer#success_conditions}
   */
   readonly successConditions?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLoginTransactionResultSuccessConditions[] | cdktf.IResolvable;
 }
@@ -11949,13 +11949,13 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_transaction_result HttpLoadbalancer#disable_transaction_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_transaction_result HttpLoadbalancer#disable_transaction_result}
   */
   readonly disableTransactionResult?: boolean | cdktf.IResolvable;
   /**
   * transaction_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transaction_result HttpLoadbalancer#transaction_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transaction_result HttpLoadbalancer#transaction_result}
   */
   readonly transactionResult?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLoginTransactionResult;
 }
@@ -12068,25 +12068,25 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#login_mfa HttpLoadbalancer#login_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#login_mfa HttpLoadbalancer#login_mfa}
   */
   readonly loginMfa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#login_partner HttpLoadbalancer#login_partner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#login_partner HttpLoadbalancer#login_partner}
   */
   readonly loginPartner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#logout HttpLoadbalancer#logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#logout HttpLoadbalancer#logout}
   */
   readonly logout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#token_refresh HttpLoadbalancer#token_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#token_refresh HttpLoadbalancer#token_refresh}
   */
   readonly tokenRefresh?: boolean | cdktf.IResolvable;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#login HttpLoadbalancer#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#login HttpLoadbalancer#login}
   */
   readonly login?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthenticationLogin;
 }
@@ -12286,11 +12286,11 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFinancialServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#apply HttpLoadbalancer#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#apply HttpLoadbalancer#apply}
   */
   readonly apply?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#money_transfer HttpLoadbalancer#money_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#money_transfer HttpLoadbalancer#money_transfer}
   */
   readonly moneyTransfer?: boolean | cdktf.IResolvable;
 }
@@ -12403,7 +12403,7 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFinan
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFlight {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#checkin HttpLoadbalancer#checkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#checkin HttpLoadbalancer#checkin}
   */
   readonly checkin?: boolean | cdktf.IResolvable;
 }
@@ -12487,15 +12487,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFligh
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelProfileManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#create HttpLoadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#create HttpLoadbalancer#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#update HttpLoadbalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#update HttpLoadbalancer#update}
   */
   readonly update?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#view HttpLoadbalancer#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#view HttpLoadbalancer#view}
   */
   readonly view?: boolean | cdktf.IResolvable;
 }
@@ -12637,19 +12637,19 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelProfi
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#flight_search HttpLoadbalancer#flight_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#flight_search HttpLoadbalancer#flight_search}
   */
   readonly flightSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#product_search HttpLoadbalancer#product_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#product_search HttpLoadbalancer#product_search}
   */
   readonly productSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#reservation_search HttpLoadbalancer#reservation_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#reservation_search HttpLoadbalancer#reservation_search}
   */
   readonly reservationSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#room_search HttpLoadbalancer#room_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#room_search HttpLoadbalancer#room_search}
   */
   readonly roomSearch?: boolean | cdktf.IResolvable;
 }
@@ -12820,51 +12820,51 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelSearc
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelShoppingGiftCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#gift_card_make_purchase_with_gift_card HttpLoadbalancer#gift_card_make_purchase_with_gift_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#gift_card_make_purchase_with_gift_card HttpLoadbalancer#gift_card_make_purchase_with_gift_card}
   */
   readonly giftCardMakePurchaseWithGiftCard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#gift_card_validation HttpLoadbalancer#gift_card_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#gift_card_validation HttpLoadbalancer#gift_card_validation}
   */
   readonly giftCardValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_add_to_cart HttpLoadbalancer#shop_add_to_cart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_add_to_cart HttpLoadbalancer#shop_add_to_cart}
   */
   readonly shopAddToCart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_checkout HttpLoadbalancer#shop_checkout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_checkout HttpLoadbalancer#shop_checkout}
   */
   readonly shopCheckout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_choose_seat HttpLoadbalancer#shop_choose_seat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_choose_seat HttpLoadbalancer#shop_choose_seat}
   */
   readonly shopChooseSeat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_enter_drawing_submission HttpLoadbalancer#shop_enter_drawing_submission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_enter_drawing_submission HttpLoadbalancer#shop_enter_drawing_submission}
   */
   readonly shopEnterDrawingSubmission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_make_payment HttpLoadbalancer#shop_make_payment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_make_payment HttpLoadbalancer#shop_make_payment}
   */
   readonly shopMakePayment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_order HttpLoadbalancer#shop_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_order HttpLoadbalancer#shop_order}
   */
   readonly shopOrder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_price_inquiry HttpLoadbalancer#shop_price_inquiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_price_inquiry HttpLoadbalancer#shop_price_inquiry}
   */
   readonly shopPriceInquiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_promo_code_validation HttpLoadbalancer#shop_promo_code_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_promo_code_validation HttpLoadbalancer#shop_promo_code_validation}
   */
   readonly shopPromoCodeValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_purchase_gift_card HttpLoadbalancer#shop_purchase_gift_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_purchase_gift_card HttpLoadbalancer#shop_purchase_gift_card}
   */
   readonly shopPurchaseGiftCard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shop_update_quantity HttpLoadbalancer#shop_update_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shop_update_quantity HttpLoadbalancer#shop_update_quantity}
   */
   readonly shopUpdateQuantity?: boolean | cdktf.IResolvable;
 }
@@ -13269,43 +13269,43 @@ export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabel 
   /**
   * account_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#account_management HttpLoadbalancer#account_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#account_management HttpLoadbalancer#account_management}
   */
   readonly accountManagement?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAccountManagement;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#authentication HttpLoadbalancer#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#authentication HttpLoadbalancer#authentication}
   */
   readonly authentication?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelAuthentication;
   /**
   * financial_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#financial_services HttpLoadbalancer#financial_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#financial_services HttpLoadbalancer#financial_services}
   */
   readonly financialServices?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFinancialServices;
   /**
   * flight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#flight HttpLoadbalancer#flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#flight HttpLoadbalancer#flight}
   */
   readonly flight?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelFlight;
   /**
   * profile_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#profile_management HttpLoadbalancer#profile_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#profile_management HttpLoadbalancer#profile_management}
   */
   readonly profileManagement?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelProfileManagement;
   /**
   * search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#search HttpLoadbalancer#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#search HttpLoadbalancer#search}
   */
   readonly search?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelSearch;
   /**
   * shopping_gift_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#shopping_gift_cards HttpLoadbalancer#shopping_gift_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#shopping_gift_cards HttpLoadbalancer#shopping_gift_cards}
   */
   readonly shoppingGiftCards?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelShoppingGiftCards;
 }
@@ -13563,15 +13563,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabelOutpu
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -13713,29 +13713,29 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeadersItemOut
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#invert_matcher HttpLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#invert_matcher HttpLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeadersItem;
 }
@@ -13993,15 +13993,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeadersList ex
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -14140,15 +14140,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMetadataOutput
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#body HttpLoadbalancer#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#body HttpLoadbalancer#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#body_hash HttpLoadbalancer#body_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#body_hash HttpLoadbalancer#body_hash}
   */
   readonly bodyHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#status HttpLoadbalancer#status}
   */
   readonly status?: string;
 }
@@ -14290,11 +14290,11 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationBloc
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlagAppendHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#auto_type_header_name HttpLoadbalancer#auto_type_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#auto_type_header_name HttpLoadbalancer#auto_type_header_name}
   */
   readonly autoTypeHeaderName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#inference_header_name HttpLoadbalancer#inference_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#inference_header_name HttpLoadbalancer#inference_header_name}
   */
   readonly inferenceHeaderName: string;
 }
@@ -14401,13 +14401,13 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlag
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#no_headers HttpLoadbalancer#no_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#no_headers HttpLoadbalancer#no_headers}
   */
   readonly noHeaders?: boolean | cdktf.IResolvable;
   /**
   * append_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#append_headers HttpLoadbalancer#append_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#append_headers HttpLoadbalancer#append_headers}
   */
   readonly appendHeaders?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlagAppendHeaders;
 }
@@ -14520,7 +14520,7 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlag
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#uri HttpLoadbalancer#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#uri HttpLoadbalancer#uri}
   */
   readonly uri: string;
 }
@@ -14601,25 +14601,25 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationRedi
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#none HttpLoadbalancer#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#none HttpLoadbalancer#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#block HttpLoadbalancer#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#block HttpLoadbalancer#block}
   */
   readonly block?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationBlock;
   /**
   * flag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#flag HttpLoadbalancer#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#flag HttpLoadbalancer#flag}
   */
   readonly flag?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationFlag;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#redirect HttpLoadbalancer#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#redirect HttpLoadbalancer#redirect}
   */
   readonly redirect?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationRedirect;
 }
@@ -14790,15 +14790,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigationOutp
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -14940,15 +14940,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsPathOutputRefe
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParamsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15090,29 +15090,29 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParamsIte
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#invert_matcher HttpLoadbalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#invert_matcher HttpLoadbalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#key HttpLoadbalancer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#presence HttpLoadbalancer#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParamsItem;
 }
@@ -15370,15 +15370,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParamsLis
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeaderItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15520,21 +15520,21 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeade
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeaderItem;
 }
@@ -15702,15 +15702,15 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeade
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -15852,21 +15852,21 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeade
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeadersItem;
 }
@@ -16066,19 +16066,19 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeade
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
   */
   readonly mobileIdentifier?: string;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#header HttpLoadbalancer#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#header HttpLoadbalancer#header}
   */
   readonly header?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeader;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileHeaders[] | cdktf.IResolvable;
 }
@@ -16220,83 +16220,83 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobileOutpu
 }
 export interface HttpLoadbalancerBotDefensePolicyProtectedAppEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#allow_good_bots HttpLoadbalancer#allow_good_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#allow_good_bots HttpLoadbalancer#allow_good_bots}
   */
   readonly allowGoodBots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#http_methods HttpLoadbalancer#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#http_methods HttpLoadbalancer#http_methods}
   */
   readonly httpMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mitigate_good_bots HttpLoadbalancer#mitigate_good_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mitigate_good_bots HttpLoadbalancer#mitigate_good_bots}
   */
   readonly mitigateGoodBots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile HttpLoadbalancer#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile HttpLoadbalancer#mobile}
   */
   readonly mobile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#protocol HttpLoadbalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#protocol HttpLoadbalancer#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#undefined_flow_label HttpLoadbalancer#undefined_flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#undefined_flow_label HttpLoadbalancer#undefined_flow_label}
   */
   readonly undefinedFlowLabel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#web HttpLoadbalancer#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#web HttpLoadbalancer#web}
   */
   readonly web?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsDomain;
   /**
   * flow_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#flow_label HttpLoadbalancer#flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#flow_label HttpLoadbalancer#flow_label}
   */
   readonly flowLabel?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsFlowLabel;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsHeaders[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMetadata;
   /**
   * mitigation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mitigation HttpLoadbalancer#mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mitigation HttpLoadbalancer#mitigation}
   */
   readonly mitigation: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsMitigation;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsPath;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#query_params HttpLoadbalancer#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#query_params HttpLoadbalancer#query_params}
   */
   readonly queryParams?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsQueryParams[] | cdktf.IResolvable;
   /**
   * web_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#web_mobile HttpLoadbalancer#web_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#web_mobile HttpLoadbalancer#web_mobile}
   */
   readonly webMobile?: HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsWebMobile;
 }
@@ -16835,49 +16835,49 @@ export class HttpLoadbalancerBotDefensePolicyProtectedAppEndpointsList extends c
 }
 export interface HttpLoadbalancerBotDefensePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_js_insert HttpLoadbalancer#disable_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_js_insert HttpLoadbalancer#disable_js_insert}
   */
   readonly disableJsInsert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_mobile_sdk HttpLoadbalancer#disable_mobile_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_mobile_sdk HttpLoadbalancer#disable_mobile_sdk}
   */
   readonly disableMobileSdk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_mode HttpLoadbalancer#javascript_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_mode HttpLoadbalancer#javascript_mode}
   */
   readonly javascriptMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_download_path HttpLoadbalancer#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_download_path HttpLoadbalancer#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
   * js_insert_all_pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insert_all_pages HttpLoadbalancer#js_insert_all_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insert_all_pages HttpLoadbalancer#js_insert_all_pages}
   */
   readonly jsInsertAllPages?: HttpLoadbalancerBotDefensePolicyJsInsertAllPages;
   /**
   * js_insert_all_pages_except block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insert_all_pages_except HttpLoadbalancer#js_insert_all_pages_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insert_all_pages_except HttpLoadbalancer#js_insert_all_pages_except}
   */
   readonly jsInsertAllPagesExcept?: HttpLoadbalancerBotDefensePolicyJsInsertAllPagesExcept;
   /**
   * js_insertion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insertion_rules HttpLoadbalancer#js_insertion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insertion_rules HttpLoadbalancer#js_insertion_rules}
   */
   readonly jsInsertionRules?: HttpLoadbalancerBotDefensePolicyJsInsertionRules;
   /**
   * mobile_sdk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile_sdk_config HttpLoadbalancer#mobile_sdk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile_sdk_config HttpLoadbalancer#mobile_sdk_config}
   */
   readonly mobileSdkConfig?: HttpLoadbalancerBotDefensePolicyMobileSdkConfig;
   /**
   * protected_app_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#protected_app_endpoints HttpLoadbalancer#protected_app_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#protected_app_endpoints HttpLoadbalancer#protected_app_endpoints}
   */
   readonly protectedAppEndpoints: HttpLoadbalancerBotDefensePolicyProtectedAppEndpoints[] | cdktf.IResolvable;
 }
@@ -17187,25 +17187,25 @@ export class HttpLoadbalancerBotDefensePolicyOutputReference extends cdktf.Compl
 }
 export interface HttpLoadbalancerBotDefense {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_cors_support HttpLoadbalancer#disable_cors_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_cors_support HttpLoadbalancer#disable_cors_support}
   */
   readonly disableCorsSupport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#enable_cors_support HttpLoadbalancer#enable_cors_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#enable_cors_support HttpLoadbalancer#enable_cors_support}
   */
   readonly enableCorsSupport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regional_endpoint HttpLoadbalancer#regional_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regional_endpoint HttpLoadbalancer#regional_endpoint}
   */
   readonly regionalEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#timeout HttpLoadbalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#timeout HttpLoadbalancer#timeout}
   */
   readonly timeout?: number;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#policy HttpLoadbalancer#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#policy HttpLoadbalancer#policy}
   */
   readonly policy: HttpLoadbalancerBotDefensePolicy;
 }
@@ -17399,7 +17399,7 @@ export class HttpLoadbalancerBotDefenseOutputReference extends cdktf.ComplexObje
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
 }
@@ -17483,15 +17483,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesOutputReference e
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -17633,15 +17633,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeList
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -17780,15 +17780,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeList
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -17930,25 +17930,25 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeList
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListPath;
 }
@@ -18145,13 +18145,13 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeList
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExcept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
   */
   readonly excludeList?: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -18264,15 +18264,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExceptOutputRefer
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -18414,15 +18414,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListDomain
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -18561,15 +18561,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListMetada
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -18711,25 +18711,25 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListPathOu
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListPath;
 }
@@ -18926,15 +18926,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListStruct
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_value HttpLoadbalancer#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_value HttpLoadbalancer#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#suffix_value HttpLoadbalancer#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -19076,15 +19076,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesDomainOutput
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#description HttpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable HttpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
 }
@@ -19223,15 +19223,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesMetadataOutp
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#prefix HttpLoadbalancer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex HttpLoadbalancer#regex}
   */
   readonly regex?: string;
 }
@@ -19373,29 +19373,29 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesPathOutputRe
 }
 export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#any_domain HttpLoadbalancer#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#javascript_location HttpLoadbalancer#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#domain HttpLoadbalancer#domain}
   */
   readonly domain?: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#metadata HttpLoadbalancer#metadata}
   */
   readonly metadata: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#path HttpLoadbalancer#path}
   */
   readonly path: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRulesPath;
 }
@@ -19623,13 +19623,13 @@ export interface HttpLoadbalancerBotDefenseAdvancedJsInsertionRules {
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exclude_list HttpLoadbalancer#exclude_list}
   */
   readonly excludeList?: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#rules HttpLoadbalancer#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#rules HttpLoadbalancer#rules}
   */
   readonly rules: HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesRules[] | cdktf.IResolvable;
 }
@@ -19739,15 +19739,15 @@ export class HttpLoadbalancerBotDefenseAdvancedJsInsertionRulesOutputReference e
 }
 export interface HttpLoadbalancerBotDefenseAdvancedMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -19889,15 +19889,15 @@ export class HttpLoadbalancerBotDefenseAdvancedMobileOutputReference extends cdk
 }
 export interface HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifierHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#exact_values HttpLoadbalancer#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#regex_values HttpLoadbalancer#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#transformers HttpLoadbalancer#transformers}
   */
   readonly transformers?: string[];
 }
@@ -20039,21 +20039,21 @@ export class HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifierHe
 }
 export interface HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifierHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_not_present HttpLoadbalancer#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#check_present HttpLoadbalancer#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#item HttpLoadbalancer#item}
   */
   readonly item?: HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifierHeadersItem;
 }
@@ -20255,7 +20255,7 @@ export interface HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifi
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#headers HttpLoadbalancer#headers}
   */
   readonly headers?: HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifierHeaders[] | cdktf.IResolvable;
 }
@@ -20341,7 +20341,7 @@ export interface HttpLoadbalancerBotDefenseAdvancedMobileSdkConfig {
   /**
   * mobile_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile_identifier HttpLoadbalancer#mobile_identifier}
   */
   readonly mobileIdentifier?: HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigMobileIdentifier;
 }
@@ -20425,15 +20425,15 @@ export class HttpLoadbalancerBotDefenseAdvancedMobileSdkConfigOutputReference ex
 }
 export interface HttpLoadbalancerBotDefenseAdvancedWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -20575,47 +20575,47 @@ export class HttpLoadbalancerBotDefenseAdvancedWebOutputReference extends cdktf.
 }
 export interface HttpLoadbalancerBotDefenseAdvanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_js_insert HttpLoadbalancer#disable_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_js_insert HttpLoadbalancer#disable_js_insert}
   */
   readonly disableJsInsert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#disable_mobile_sdk HttpLoadbalancer#disable_mobile_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#disable_mobile_sdk HttpLoadbalancer#disable_mobile_sdk}
   */
   readonly disableMobileSdk?: boolean | cdktf.IResolvable;
   /**
   * js_insert_all_pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insert_all_pages HttpLoadbalancer#js_insert_all_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insert_all_pages HttpLoadbalancer#js_insert_all_pages}
   */
   readonly jsInsertAllPages?: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPages;
   /**
   * js_insert_all_pages_except block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insert_all_pages_except HttpLoadbalancer#js_insert_all_pages_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insert_all_pages_except HttpLoadbalancer#js_insert_all_pages_except}
   */
   readonly jsInsertAllPagesExcept?: HttpLoadbalancerBotDefenseAdvancedJsInsertAllPagesExcept;
   /**
   * js_insertion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#js_insertion_rules HttpLoadbalancer#js_insertion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#js_insertion_rules HttpLoadbalancer#js_insertion_rules}
   */
   readonly jsInsertionRules?: HttpLoadbalancerBotDefenseAdvancedJsInsertionRules;
   /**
   * mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile HttpLoadbalancer#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile HttpLoadbalancer#mobile}
   */
   readonly mobile?: HttpLoadbalancerBotDefenseAdvancedMobile;
   /**
   * mobile_sdk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#mobile_sdk_config HttpLoadbalancer#mobile_sdk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#mobile_sdk_config HttpLoadbalancer#mobile_sdk_config}
   */
   readonly mobileSdkConfig?: HttpLoadbalancerBotDefenseAdvancedMobileSdkConfig;
   /**
   * web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#web HttpLoadbalancer#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#web HttpLoadbalancer#web}
   */
   readonly web?: HttpLoadbalancerBotDefenseAdvancedWeb;
 }
@@ -20902,15 +20902,15 @@ export class HttpLoadbalancerBotDefenseAdvancedOutputReference extends cdktf.Com
 }
 export interface HttpLoadbalancerCachingPolicyCustomCacheRuleCdnCacheRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#name HttpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#namespace HttpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#tenant HttpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -21086,7 +21086,7 @@ export interface HttpLoadbalancerCachingPolicyCustomCacheRule {
   /**
   * cdn_cache_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#cdn_cache_rules HttpLoadbalancer#cdn_cache_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#cdn_cache_rules HttpLoadbalancer#cdn_cache_rules}
   */
   readonly cdnCacheRules?: HttpLoadbalancerCachingPolicyCustomCacheRuleCdnCacheRules[] | cdktf.IResolvable;
 }
@@ -21170,7 +21170,7 @@ export class HttpLoadbalancerCachingPolicyCustomCacheRuleOutputReference extends
 }
 export interface HttpLoadbalancerCachingPolicyDefaultCacheActionEligibleForCache {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#cache_ttl HttpLoadbalancer#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#cache_ttl HttpLoadbalancer#cache_ttl}
   */
   readonly cacheTtl: string;
 }
@@ -21251,21 +21251,21 @@ export class HttpLoadbalancerCachingPolicyDefaultCacheActionEligibleForCacheOutp
 }
 export interface HttpLoadbalancerCachingPolicyDefaultCacheAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#cache_disabled HttpLoadbalancer#cache_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#cache_disabled HttpLoadbalancer#cache_disabled}
   */
   readonly cacheDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#cache_ttl_default HttpLoadbalancer#cache_ttl_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#cache_ttl_default HttpLoadbalancer#cache_ttl_default}
   */
   readonly cacheTtlDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#cache_ttl_override HttpLoadbalancer#cache_ttl_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#cache_ttl_override HttpLoadbalancer#cache_ttl_override}
   */
   readonly cacheTtlOverride?: string;
   /**
   * eligible_for_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/http_loadbalancer#eligible_for_cache HttpLoadbalancer#eligible_for_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/http_loadbalancer#eligible_for_cache HttpLoadbalancer#eligible_for_cache}
   */
   readonly eligibleForCache?: HttpLoadbalancerCachingPolicyDefaultCacheActionEligibleForCache;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface SubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#annotations Subnet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#annotations Subnet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#connect_to_sli Subnet#connect_to_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#connect_to_sli Subnet#connect_to_sli}
   */
   readonly connectToSli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#connect_to_slo Subnet#connect_to_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#connect_to_slo Subnet#connect_to_slo}
   */
   readonly connectToSlo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#description Subnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#description Subnet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#disable Subnet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#disable Subnet#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#id Subnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#id Subnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#isolated_nw Subnet#isolated_nw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#isolated_nw Subnet#isolated_nw}
   */
   readonly isolatedNw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#labels Subnet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#labels Subnet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#name Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#name Subnet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#namespace Subnet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#namespace Subnet#namespace}
   */
   readonly namespace: string;
   /**
   * connect_to_layer2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#connect_to_layer2 Subnet#connect_to_layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#connect_to_layer2 Subnet#connect_to_layer2}
   */
   readonly connectToLayer2?: SubnetConnectToLayer2;
   /**
   * site_subnet_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#site_subnet_params Subnet#site_subnet_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#site_subnet_params Subnet#site_subnet_params}
   */
   readonly siteSubnetParams: SubnetSiteSubnetParams[] | cdktf.IResolvable;
 }
 export interface SubnetConnectToLayer2Layer2IntfInternalRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#name Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#name Subnet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#namespace Subnet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#namespace Subnet#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#tenant Subnet#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#tenant Subnet#tenant}
   */
   readonly tenant?: string;
 }
@@ -252,15 +252,15 @@ export class SubnetConnectToLayer2Layer2IntfInternalRefList extends cdktf.Comple
 }
 export interface SubnetConnectToLayer2Layer2IntfRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#name Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#name Subnet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#namespace Subnet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#namespace Subnet#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#tenant Subnet#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#tenant Subnet#tenant}
   */
   readonly tenant?: string;
 }
@@ -404,13 +404,13 @@ export interface SubnetConnectToLayer2 {
   /**
   * layer2_intf_internal_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#layer2_intf_internal_ref Subnet#layer2_intf_internal_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#layer2_intf_internal_ref Subnet#layer2_intf_internal_ref}
   */
   readonly layer2IntfInternalRef?: SubnetConnectToLayer2Layer2IntfInternalRef[] | cdktf.IResolvable;
   /**
   * layer2_intf_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#layer2_intf_ref Subnet#layer2_intf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#layer2_intf_ref Subnet#layer2_intf_ref}
   */
   readonly layer2IntfRef: SubnetConnectToLayer2Layer2IntfRef;
 }
@@ -520,15 +520,15 @@ export class SubnetConnectToLayer2OutputReference extends cdktf.ComplexObject {
 }
 export interface SubnetSiteSubnetParamsSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#name Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#name Subnet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#namespace Subnet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#namespace Subnet#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#tenant Subnet#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#tenant Subnet#tenant}
   */
   readonly tenant?: string;
 }
@@ -670,11 +670,11 @@ export class SubnetSiteSubnetParamsSiteOutputReference extends cdktf.ComplexObje
 }
 export interface SubnetSiteSubnetParamsSubnetDhcpServerParamsDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#network_prefix Subnet#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#network_prefix Subnet#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#network_prefix_ipv6 Subnet#network_prefix_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#network_prefix_ipv6 Subnet#network_prefix_ipv6}
   */
   readonly networkPrefixIpv6?: string;
 }
@@ -821,7 +821,7 @@ export interface SubnetSiteSubnetParamsSubnetDhcpServerParams {
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#dhcp_networks Subnet#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#dhcp_networks Subnet#dhcp_networks}
   */
   readonly dhcpNetworks?: SubnetSiteSubnetParamsSubnetDhcpServerParamsDhcpNetworks[] | cdktf.IResolvable;
 }
@@ -905,23 +905,23 @@ export class SubnetSiteSubnetParamsSubnetDhcpServerParamsOutputReference extends
 }
 export interface SubnetSiteSubnetParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#dhcp Subnet#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#dhcp Subnet#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#static_ip Subnet#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#static_ip Subnet#static_ip}
   */
   readonly staticIp?: boolean | cdktf.IResolvable;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#site Subnet#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#site Subnet#site}
   */
   readonly site: SubnetSiteSubnetParamsSite;
   /**
   * subnet_dhcp_server_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#subnet_dhcp_server_params Subnet#subnet_dhcp_server_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#subnet_dhcp_server_params Subnet#subnet_dhcp_server_params}
   */
   readonly subnetDhcpServerParams?: SubnetSiteSubnetParamsSubnetDhcpServerParams;
 }
@@ -1121,7 +1121,7 @@ export class SubnetSiteSubnetParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet volterra_subnet}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet volterra_subnet}
 */
 export class Subnet extends cdktf.TerraformResource {
 
@@ -1137,7 +1137,7 @@ export class Subnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subnet to import
-  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1149,7 +1149,7 @@ export class Subnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/subnet volterra_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/subnet volterra_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1160,8 +1160,8 @@ export class Subnet extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_subnet',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

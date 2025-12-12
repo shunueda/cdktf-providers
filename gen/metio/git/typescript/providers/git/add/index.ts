@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add
+// https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AddConfig extends cdktf.TerraformMetaArguments {
   /**
   * The paths to add to the Git index. Values can be exact paths or glob patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add#add_paths Add#add_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add#add_paths Add#add_paths}
   */
   readonly addPaths: string[];
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add#directory Add#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add#directory Add#directory}
   */
   readonly directory: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add git_add}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add git_add}
 */
 export class Add extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Add extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Add resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Add to import
-  * @param importFromId The id of the existing Add that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Add that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Add to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Add extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/add git_add} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/resources/add git_add} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Add extends cdktf.TerraformResource {
       terraformResourceType: 'git_add',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.12.5',
-        providerVersionConstraint: '2025.12.5'
+        providerVersion: '2025.12.12',
+        providerVersionConstraint: '2025.12.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

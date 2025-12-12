@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackExpressConnectAccessPointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#id DataAlibabacloudstackExpressConnectAccessPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#id DataAlibabacloudstackExpressConnectAccessPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#ids DataAlibabacloudstackExpressConnectAccessPoints#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#ids DataAlibabacloudstackExpressConnectAccessPoints#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#name_regex DataAlibabacloudstackExpressConnectAccessPoints#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#name_regex DataAlibabacloudstackExpressConnectAccessPoints#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#output_file DataAlibabacloudstackExpressConnectAccessPoints#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#output_file DataAlibabacloudstackExpressConnectAccessPoints#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#status DataAlibabacloudstackExpressConnectAccessPoints#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#status DataAlibabacloudstackExpressConnectAccessPoints#status}
   */
   readonly status?: string;
 }
@@ -148,7 +148,7 @@ export class DataAlibabacloudstackExpressConnectAccessPointsPointsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points alibabacloudstack_express_connect_access_points}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points alibabacloudstack_express_connect_access_points}
 */
 export class DataAlibabacloudstackExpressConnectAccessPoints extends cdktf.TerraformDataSource {
 
@@ -164,7 +164,7 @@ export class DataAlibabacloudstackExpressConnectAccessPoints extends cdktf.Terra
   * Generates CDKTF code for importing a DataAlibabacloudstackExpressConnectAccessPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackExpressConnectAccessPoints to import
-  * @param importFromId The id of the existing DataAlibabacloudstackExpressConnectAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackExpressConnectAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackExpressConnectAccessPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class DataAlibabacloudstackExpressConnectAccessPoints extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_access_points alibabacloudstack_express_connect_access_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_access_points alibabacloudstack_express_connect_access_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class DataAlibabacloudstackExpressConnectAccessPoints extends cdktf.Terra
       terraformResourceType: 'alibabacloudstack_express_connect_access_points',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

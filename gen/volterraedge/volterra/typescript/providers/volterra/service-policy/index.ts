@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface ServicePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#algo ServicePolicy#algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#algo ServicePolicy#algo}
   */
   readonly algo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#allow_all_requests ServicePolicy#allow_all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#allow_all_requests ServicePolicy#allow_all_requests}
   */
   readonly allowAllRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#annotations ServicePolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#annotations ServicePolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_server ServicePolicy#any_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_server ServicePolicy#any_server}
   */
   readonly anyServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#deny_all_requests ServicePolicy#deny_all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#deny_all_requests ServicePolicy#deny_all_requests}
   */
   readonly denyAllRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#description ServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#description ServicePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#disable ServicePolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#disable ServicePolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#id ServicePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#id ServicePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#internally_generated ServicePolicy#internally_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#internally_generated ServicePolicy#internally_generated}
   */
   readonly internallyGenerated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#labels ServicePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#labels ServicePolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#server_name ServicePolicy#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#server_name ServicePolicy#server_name}
   */
   readonly serverName?: string;
   /**
   * allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#allow_list ServicePolicy#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#allow_list ServicePolicy#allow_list}
   */
   readonly allowList?: ServicePolicyAllowListStruct[] | cdktf.IResolvable;
   /**
   * deny_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#deny_list ServicePolicy#deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#deny_list ServicePolicy#deny_list}
   */
   readonly denyList?: ServicePolicyDenyListStruct[] | cdktf.IResolvable;
   /**
   * legacy_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#legacy_rule_list ServicePolicy#legacy_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#legacy_rule_list ServicePolicy#legacy_rule_list}
   */
   readonly legacyRuleList?: ServicePolicyLegacyRuleListStruct[] | cdktf.IResolvable;
   /**
   * port_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#port_matcher ServicePolicy#port_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#port_matcher ServicePolicy#port_matcher}
   */
   readonly portMatcher?: ServicePolicyPortMatcher[] | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#rule_list ServicePolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#rule_list ServicePolicy#rule_list}
   */
   readonly ruleList?: ServicePolicyRuleListStruct[] | cdktf.IResolvable;
   /**
   * server_name_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#server_name_matcher ServicePolicy#server_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#server_name_matcher ServicePolicy#server_name_matcher}
   */
   readonly serverNameMatcher?: ServicePolicyServerNameMatcher[] | cdktf.IResolvable;
   /**
   * server_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#server_selector ServicePolicy#server_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#server_selector ServicePolicy#server_selector}
   */
   readonly serverSelector?: ServicePolicyServerSelector[] | cdktf.IResolvable;
 }
 export interface ServicePolicyAllowListAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -220,15 +220,15 @@ export class ServicePolicyAllowListAsnListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyAllowListAsnSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -402,15 +402,15 @@ export class ServicePolicyAllowListAsnSetList extends cdktf.ComplexList {
 }
 export interface ServicePolicyAllowListIpPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -584,11 +584,11 @@ export class ServicePolicyAllowListIpPrefixSetList extends cdktf.ComplexList {
 }
 export interface ServicePolicyAllowListPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefixes ServicePolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefixes ServicePolicy#prefixes}
   */
   readonly prefixes: string[];
 }
@@ -727,51 +727,51 @@ export class ServicePolicyAllowListPrefixListStructList extends cdktf.ComplexLis
 }
 export interface ServicePolicyAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#country_list ServicePolicy#country_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#country_list ServicePolicy#country_list}
   */
   readonly countryList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_allow ServicePolicy#default_action_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_allow ServicePolicy#default_action_allow}
   */
   readonly defaultActionAllow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_deny ServicePolicy#default_action_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_deny ServicePolicy#default_action_deny}
   */
   readonly defaultActionDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_next_policy ServicePolicy#default_action_next_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_next_policy ServicePolicy#default_action_next_policy}
   */
   readonly defaultActionNextPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tls_fingerprint_classes ServicePolicy#tls_fingerprint_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tls_fingerprint_classes ServicePolicy#tls_fingerprint_classes}
   */
   readonly tlsFingerprintClasses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tls_fingerprint_values ServicePolicy#tls_fingerprint_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tls_fingerprint_values ServicePolicy#tls_fingerprint_values}
   */
   readonly tlsFingerprintValues?: string[];
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
   */
   readonly asnList?: ServicePolicyAllowListAsnListStruct[] | cdktf.IResolvable;
   /**
   * asn_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_set ServicePolicy#asn_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_set ServicePolicy#asn_set}
   */
   readonly asnSet?: ServicePolicyAllowListAsnSet[] | cdktf.IResolvable;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_prefix_set ServicePolicy#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_prefix_set ServicePolicy#ip_prefix_set}
   */
   readonly ipPrefixSet?: ServicePolicyAllowListIpPrefixSet[] | cdktf.IResolvable;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefix_list ServicePolicy#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefix_list ServicePolicy#prefix_list}
   */
   readonly prefixList?: ServicePolicyAllowListPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -1148,7 +1148,7 @@ export class ServicePolicyAllowListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyDenyListAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -1261,15 +1261,15 @@ export class ServicePolicyDenyListAsnListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyDenyListAsnSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1443,15 +1443,15 @@ export class ServicePolicyDenyListAsnSetList extends cdktf.ComplexList {
 }
 export interface ServicePolicyDenyListIpPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1625,11 +1625,11 @@ export class ServicePolicyDenyListIpPrefixSetList extends cdktf.ComplexList {
 }
 export interface ServicePolicyDenyListPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefixes ServicePolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefixes ServicePolicy#prefixes}
   */
   readonly prefixes: string[];
 }
@@ -1768,51 +1768,51 @@ export class ServicePolicyDenyListPrefixListStructList extends cdktf.ComplexList
 }
 export interface ServicePolicyDenyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#country_list ServicePolicy#country_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#country_list ServicePolicy#country_list}
   */
   readonly countryList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_allow ServicePolicy#default_action_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_allow ServicePolicy#default_action_allow}
   */
   readonly defaultActionAllow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_deny ServicePolicy#default_action_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_deny ServicePolicy#default_action_deny}
   */
   readonly defaultActionDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#default_action_next_policy ServicePolicy#default_action_next_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#default_action_next_policy ServicePolicy#default_action_next_policy}
   */
   readonly defaultActionNextPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tls_fingerprint_classes ServicePolicy#tls_fingerprint_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tls_fingerprint_classes ServicePolicy#tls_fingerprint_classes}
   */
   readonly tlsFingerprintClasses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tls_fingerprint_values ServicePolicy#tls_fingerprint_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tls_fingerprint_values ServicePolicy#tls_fingerprint_values}
   */
   readonly tlsFingerprintValues?: string[];
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
   */
   readonly asnList?: ServicePolicyDenyListAsnListStruct[] | cdktf.IResolvable;
   /**
   * asn_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_set ServicePolicy#asn_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_set ServicePolicy#asn_set}
   */
   readonly asnSet?: ServicePolicyDenyListAsnSet[] | cdktf.IResolvable;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_prefix_set ServicePolicy#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_prefix_set ServicePolicy#ip_prefix_set}
   */
   readonly ipPrefixSet?: ServicePolicyDenyListIpPrefixSet[] | cdktf.IResolvable;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefix_list ServicePolicy#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefix_list ServicePolicy#prefix_list}
   */
   readonly prefixList?: ServicePolicyDenyListPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -2189,15 +2189,15 @@ export class ServicePolicyDenyListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyLegacyRuleListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2378,7 +2378,7 @@ export interface ServicePolicyLegacyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#rules ServicePolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#rules ServicePolicy#rules}
   */
   readonly rules?: ServicePolicyLegacyRuleListRules[] | cdktf.IResolvable;
 }
@@ -2494,11 +2494,11 @@ export class ServicePolicyLegacyRuleListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyPortMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ports ServicePolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ports ServicePolicy#ports}
   */
   readonly ports: string[];
 }
@@ -2640,15 +2640,15 @@ export class ServicePolicyPortMatcherList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleListRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#description ServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#description ServicePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#disable ServicePolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#disable ServicePolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
 }
@@ -2822,11 +2822,11 @@ export class ServicePolicyRuleListRulesMetadataList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleListRulesSpecApiGroupMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#match ServicePolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#match ServicePolicy#match}
   */
   readonly match: string[];
 }
@@ -2968,15 +2968,15 @@ export class ServicePolicyRuleListRulesSpecApiGroupMatcherList extends cdktf.Com
 }
 export interface ServicePolicyRuleListRulesSpecArgMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -3150,29 +3150,29 @@ export class ServicePolicyRuleListRulesSpecArgMatchersItemList extends cdktf.Com
 }
 export interface ServicePolicyRuleListRulesSpecArgMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_present ServicePolicy#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_present ServicePolicy#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#presence ServicePolicy#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#presence ServicePolicy#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#item ServicePolicy#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#item ServicePolicy#item}
   */
   readonly item?: ServicePolicyRuleListRulesSpecArgMatchersItem[] | cdktf.IResolvable;
 }
@@ -3430,7 +3430,7 @@ export class ServicePolicyRuleListRulesSpecArgMatchersList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -3543,15 +3543,15 @@ export class ServicePolicyRuleListRulesSpecAsnListStructList extends cdktf.Compl
 }
 export interface ServicePolicyRuleListRulesSpecAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3732,7 +3732,7 @@ export interface ServicePolicyRuleListRulesSpecAsnMatcher {
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_sets ServicePolicy#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_sets ServicePolicy#asn_sets}
   */
   readonly asnSets: ServicePolicyRuleListRulesSpecAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -3845,15 +3845,15 @@ export class ServicePolicyRuleListRulesSpecAsnMatcherList extends cdktf.ComplexL
 }
 export interface ServicePolicyRuleListRulesSpecBodyMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -4027,11 +4027,11 @@ export class ServicePolicyRuleListRulesSpecBodyMatcherList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecBotAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#bot_skip_processing ServicePolicy#bot_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#bot_skip_processing ServicePolicy#bot_skip_processing}
   */
   readonly botSkipProcessing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#none ServicePolicy#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#none ServicePolicy#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
 }
@@ -4176,15 +4176,15 @@ export class ServicePolicyRuleListRulesSpecBotActionList extends cdktf.ComplexLi
 }
 export interface ServicePolicyRuleListRulesSpecClientNameMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -4358,7 +4358,7 @@ export class ServicePolicyRuleListRulesSpecClientNameMatcherList extends cdktf.C
 }
 export interface ServicePolicyRuleListRulesSpecClientRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#match ServicePolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#match ServicePolicy#match}
   */
   readonly match?: string;
 }
@@ -4474,7 +4474,7 @@ export class ServicePolicyRuleListRulesSpecClientRoleList extends cdktf.ComplexL
 }
 export interface ServicePolicyRuleListRulesSpecClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#expressions ServicePolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#expressions ServicePolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -4587,19 +4587,19 @@ export class ServicePolicyRuleListRulesSpecClientSelectorList extends cdktf.Comp
 }
 export interface ServicePolicyRuleListRulesSpecContentRewriteAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#element_selector ServicePolicy#element_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#element_selector ServicePolicy#element_selector}
   */
   readonly elementSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#insert_content ServicePolicy#insert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#insert_content ServicePolicy#insert_content}
   */
   readonly insertContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#inserted_types ServicePolicy#inserted_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#inserted_types ServicePolicy#inserted_types}
   */
   readonly insertedTypes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#position ServicePolicy#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#position ServicePolicy#position}
   */
   readonly position?: string;
 }
@@ -4802,15 +4802,15 @@ export class ServicePolicyRuleListRulesSpecContentRewriteActionList extends cdkt
 }
 export interface ServicePolicyRuleListRulesSpecCookieMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -4984,29 +4984,29 @@ export class ServicePolicyRuleListRulesSpecCookieMatchersItemList extends cdktf.
 }
 export interface ServicePolicyRuleListRulesSpecCookieMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_present ServicePolicy#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_present ServicePolicy#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#presence ServicePolicy#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#presence ServicePolicy#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#item ServicePolicy#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#item ServicePolicy#item}
   */
   readonly item?: ServicePolicyRuleListRulesSpecCookieMatchersItem[] | cdktf.IResolvable;
 }
@@ -5264,15 +5264,15 @@ export class ServicePolicyRuleListRulesSpecCookieMatchersList extends cdktf.Comp
 }
 export interface ServicePolicyRuleListRulesSpecDomainMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -5446,7 +5446,7 @@ export class ServicePolicyRuleListRulesSpecDomainMatcherList extends cdktf.Compl
 }
 export interface ServicePolicyRuleListRulesSpecDstAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#as_numbers ServicePolicy#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -5559,15 +5559,15 @@ export class ServicePolicyRuleListRulesSpecDstAsnListStructList extends cdktf.Co
 }
 export interface ServicePolicyRuleListRulesSpecDstAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5748,7 +5748,7 @@ export interface ServicePolicyRuleListRulesSpecDstAsnMatcher {
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_sets ServicePolicy#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_sets ServicePolicy#asn_sets}
   */
   readonly asnSets: ServicePolicyRuleListRulesSpecDstAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -5861,15 +5861,15 @@ export class ServicePolicyRuleListRulesSpecDstAsnMatcherList extends cdktf.Compl
 }
 export interface ServicePolicyRuleListRulesSpecDstIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6048,13 +6048,13 @@ export class ServicePolicyRuleListRulesSpecDstIpMatcherPrefixSetsList extends cd
 }
 export interface ServicePolicyRuleListRulesSpecDstIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefix_sets ServicePolicy#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefix_sets ServicePolicy#prefix_sets}
   */
   readonly prefixSets: ServicePolicyRuleListRulesSpecDstIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -6196,15 +6196,15 @@ export class ServicePolicyRuleListRulesSpecDstIpMatcherList extends cdktf.Comple
 }
 export interface ServicePolicyRuleListRulesSpecDstIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_match ServicePolicy#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_match ServicePolicy#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_prefixes ServicePolicy#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_prefixes ServicePolicy#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -6375,15 +6375,15 @@ export class ServicePolicyRuleListRulesSpecDstIpPrefixListStructList extends cdk
 }
 export interface ServicePolicyRuleListRulesSpecForwardingClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6562,15 +6562,15 @@ export class ServicePolicyRuleListRulesSpecForwardingClassList extends cdktf.Com
 }
 export interface ServicePolicyRuleListRulesSpecGotoPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6749,15 +6749,15 @@ export class ServicePolicyRuleListRulesSpecGotoPolicyList extends cdktf.ComplexL
 }
 export interface ServicePolicyRuleListRulesSpecHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -6931,29 +6931,29 @@ export class ServicePolicyRuleListRulesSpecHeadersItemList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_present ServicePolicy#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_present ServicePolicy#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#presence ServicePolicy#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#presence ServicePolicy#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#item ServicePolicy#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#item ServicePolicy#item}
   */
   readonly item?: ServicePolicyRuleListRulesSpecHeadersItem[] | cdktf.IResolvable;
 }
@@ -7211,11 +7211,11 @@ export class ServicePolicyRuleListRulesSpecHeadersList extends cdktf.ComplexList
 }
 export interface ServicePolicyRuleListRulesSpecHttpMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#methods ServicePolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#methods ServicePolicy#methods}
   */
   readonly methods?: string[];
 }
@@ -7360,15 +7360,15 @@ export class ServicePolicyRuleListRulesSpecHttpMethodList extends cdktf.ComplexL
 }
 export interface ServicePolicyRuleListRulesSpecIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -7547,13 +7547,13 @@ export class ServicePolicyRuleListRulesSpecIpMatcherPrefixSetsList extends cdktf
 }
 export interface ServicePolicyRuleListRulesSpecIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefix_sets ServicePolicy#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefix_sets ServicePolicy#prefix_sets}
   */
   readonly prefixSets: ServicePolicyRuleListRulesSpecIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -7695,15 +7695,15 @@ export class ServicePolicyRuleListRulesSpecIpMatcherList extends cdktf.ComplexLi
 }
 export interface ServicePolicyRuleListRulesSpecIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_match ServicePolicy#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_match ServicePolicy#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_prefixes ServicePolicy#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_prefixes ServicePolicy#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ipv6_prefixes ServicePolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -7877,7 +7877,7 @@ export class ServicePolicyRuleListRulesSpecIpPrefixListStructList extends cdktf.
 }
 export interface ServicePolicyRuleListRulesSpecIpThreatCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_threat_categories ServicePolicy#ip_threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_threat_categories ServicePolicy#ip_threat_categories}
   */
   readonly ipThreatCategories: string[];
 }
@@ -7990,7 +7990,7 @@ export class ServicePolicyRuleListRulesSpecIpThreatCategoryListStructList extend
 }
 export interface ServicePolicyRuleListRulesSpecJa4TlsFingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
 }
@@ -8106,15 +8106,15 @@ export class ServicePolicyRuleListRulesSpecJa4TlsFingerprintList extends cdktf.C
 }
 export interface ServicePolicyRuleListRulesSpecJwtClaimsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -8288,25 +8288,25 @@ export class ServicePolicyRuleListRulesSpecJwtClaimsItemList extends cdktf.Compl
 }
 export interface ServicePolicyRuleListRulesSpecJwtClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_present ServicePolicy#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_present ServicePolicy#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#item ServicePolicy#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#item ServicePolicy#item}
   */
   readonly item?: ServicePolicyRuleListRulesSpecJwtClaimsItem[] | cdktf.IResolvable;
 }
@@ -8535,7 +8535,7 @@ export class ServicePolicyRuleListRulesSpecJwtClaimsList extends cdktf.ComplexLi
 }
 export interface ServicePolicyRuleListRulesSpecLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#keys ServicePolicy#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#keys ServicePolicy#keys}
   */
   readonly keys?: string[];
 }
@@ -8651,11 +8651,11 @@ export class ServicePolicyRuleListRulesSpecLabelMatcherList extends cdktf.Comple
 }
 export interface ServicePolicyRuleListRulesSpecMumAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#none ServicePolicy#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#none ServicePolicy#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#skip_processing ServicePolicy#skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#skip_processing ServicePolicy#skip_processing}
   */
   readonly skipProcessing?: boolean | cdktf.IResolvable;
 }
@@ -8800,27 +8800,27 @@ export class ServicePolicyRuleListRulesSpecMumActionList extends cdktf.ComplexLi
 }
 export interface ServicePolicyRuleListRulesSpecPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#prefix_values ServicePolicy#prefix_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#prefix_values ServicePolicy#prefix_values}
   */
   readonly prefixValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#suffix_values ServicePolicy#suffix_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#suffix_values ServicePolicy#suffix_values}
   */
   readonly suffixValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -9081,11 +9081,11 @@ export class ServicePolicyRuleListRulesSpecPathList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleListRulesSpecPortMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ports ServicePolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ports ServicePolicy#ports}
   */
   readonly ports: string[];
 }
@@ -9227,15 +9227,15 @@ export class ServicePolicyRuleListRulesSpecPortMatcherList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecQueryParamsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -9409,29 +9409,29 @@ export class ServicePolicyRuleListRulesSpecQueryParamsItemList extends cdktf.Com
 }
 export interface ServicePolicyRuleListRulesSpecQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_not_present ServicePolicy#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#check_present ServicePolicy#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#check_present ServicePolicy#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#key ServicePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#key ServicePolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#presence ServicePolicy#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#presence ServicePolicy#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#item ServicePolicy#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#item ServicePolicy#item}
   */
   readonly item?: ServicePolicyRuleListRulesSpecQueryParamsItem[] | cdktf.IResolvable;
 }
@@ -9689,15 +9689,15 @@ export class ServicePolicyRuleListRulesSpecQueryParamsList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -9876,107 +9876,107 @@ export class ServicePolicyRuleListRulesSpecRateLimiterList extends cdktf.Complex
 }
 export interface ServicePolicyRuleListRulesSpecRequestConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_count_exceeds ServicePolicy#max_cookie_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_count_exceeds ServicePolicy#max_cookie_count_exceeds}
   */
   readonly maxCookieCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_count_none ServicePolicy#max_cookie_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_count_none ServicePolicy#max_cookie_count_none}
   */
   readonly maxCookieCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_key_size_exceeds ServicePolicy#max_cookie_key_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_key_size_exceeds ServicePolicy#max_cookie_key_size_exceeds}
   */
   readonly maxCookieKeySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_key_size_none ServicePolicy#max_cookie_key_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_key_size_none ServicePolicy#max_cookie_key_size_none}
   */
   readonly maxCookieKeySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_value_size_exceeds ServicePolicy#max_cookie_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_value_size_exceeds ServicePolicy#max_cookie_value_size_exceeds}
   */
   readonly maxCookieValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_cookie_value_size_none ServicePolicy#max_cookie_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_cookie_value_size_none ServicePolicy#max_cookie_value_size_none}
   */
   readonly maxCookieValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_count_exceeds ServicePolicy#max_header_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_count_exceeds ServicePolicy#max_header_count_exceeds}
   */
   readonly maxHeaderCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_count_none ServicePolicy#max_header_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_count_none ServicePolicy#max_header_count_none}
   */
   readonly maxHeaderCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_key_size_exceeds ServicePolicy#max_header_key_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_key_size_exceeds ServicePolicy#max_header_key_size_exceeds}
   */
   readonly maxHeaderKeySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_key_size_none ServicePolicy#max_header_key_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_key_size_none ServicePolicy#max_header_key_size_none}
   */
   readonly maxHeaderKeySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_value_size_exceeds ServicePolicy#max_header_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_value_size_exceeds ServicePolicy#max_header_value_size_exceeds}
   */
   readonly maxHeaderValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_header_value_size_none ServicePolicy#max_header_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_header_value_size_none ServicePolicy#max_header_value_size_none}
   */
   readonly maxHeaderValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_count_exceeds ServicePolicy#max_parameter_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_count_exceeds ServicePolicy#max_parameter_count_exceeds}
   */
   readonly maxParameterCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_count_none ServicePolicy#max_parameter_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_count_none ServicePolicy#max_parameter_count_none}
   */
   readonly maxParameterCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_name_size_exceeds ServicePolicy#max_parameter_name_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_name_size_exceeds ServicePolicy#max_parameter_name_size_exceeds}
   */
   readonly maxParameterNameSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_name_size_none ServicePolicy#max_parameter_name_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_name_size_none ServicePolicy#max_parameter_name_size_none}
   */
   readonly maxParameterNameSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_value_size_exceeds ServicePolicy#max_parameter_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_value_size_exceeds ServicePolicy#max_parameter_value_size_exceeds}
   */
   readonly maxParameterValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_parameter_value_size_none ServicePolicy#max_parameter_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_parameter_value_size_none ServicePolicy#max_parameter_value_size_none}
   */
   readonly maxParameterValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_query_size_exceeds ServicePolicy#max_query_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_query_size_exceeds ServicePolicy#max_query_size_exceeds}
   */
   readonly maxQuerySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_query_size_none ServicePolicy#max_query_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_query_size_none ServicePolicy#max_query_size_none}
   */
   readonly maxQuerySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_request_line_size_exceeds ServicePolicy#max_request_line_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_request_line_size_exceeds ServicePolicy#max_request_line_size_exceeds}
   */
   readonly maxRequestLineSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_request_line_size_none ServicePolicy#max_request_line_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_request_line_size_none ServicePolicy#max_request_line_size_none}
   */
   readonly maxRequestLineSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_request_size_exceeds ServicePolicy#max_request_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_request_size_exceeds ServicePolicy#max_request_size_exceeds}
   */
   readonly maxRequestSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_request_size_none ServicePolicy#max_request_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_request_size_none ServicePolicy#max_request_size_none}
   */
   readonly maxRequestSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_url_size_exceeds ServicePolicy#max_url_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_url_size_exceeds ServicePolicy#max_url_size_exceeds}
   */
   readonly maxUrlSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#max_url_size_none ServicePolicy#max_url_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#max_url_size_none ServicePolicy#max_url_size_none}
   */
   readonly maxUrlSizeNone?: boolean | cdktf.IResolvable;
 }
@@ -10817,15 +10817,15 @@ export class ServicePolicyRuleListRulesSpecRequestConstraintsList extends cdktf.
 }
 export interface ServicePolicyRuleListRulesSpecSegmentPolicySrcSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#namespace ServicePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#namespace ServicePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tenant ServicePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tenant ServicePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -11001,7 +11001,7 @@ export interface ServicePolicyRuleListRulesSpecSegmentPolicySrcSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#segments ServicePolicy#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#segments ServicePolicy#segments}
   */
   readonly segments: ServicePolicyRuleListRulesSpecSegmentPolicySrcSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -11114,13 +11114,13 @@ export class ServicePolicyRuleListRulesSpecSegmentPolicySrcSegmentsList extends 
 }
 export interface ServicePolicyRuleListRulesSpecSegmentPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#src_any ServicePolicy#src_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#src_any ServicePolicy#src_any}
   */
   readonly srcAny?: boolean | cdktf.IResolvable;
   /**
   * src_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#src_segments ServicePolicy#src_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#src_segments ServicePolicy#src_segments}
   */
   readonly srcSegments?: ServicePolicyRuleListRulesSpecSegmentPolicySrcSegments[] | cdktf.IResolvable;
 }
@@ -11265,7 +11265,7 @@ export class ServicePolicyRuleListRulesSpecSegmentPolicyList extends cdktf.Compl
 }
 export interface ServicePolicyRuleListRulesSpecServerSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#expressions ServicePolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#expressions ServicePolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -11378,15 +11378,15 @@ export class ServicePolicyRuleListRulesSpecServerSelectorList extends cdktf.Comp
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#body ServicePolicy#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#body ServicePolicy#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#body_hash ServicePolicy#body_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#body_hash ServicePolicy#body_hash}
   */
   readonly bodyHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#status ServicePolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#status ServicePolicy#status}
   */
   readonly status?: string;
 }
@@ -11560,11 +11560,11 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigatio
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationFlagAppendHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#auto_type_header_name ServicePolicy#auto_type_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#auto_type_header_name ServicePolicy#auto_type_header_name}
   */
   readonly autoTypeHeaderName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#inference_header_name ServicePolicy#inference_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#inference_header_name ServicePolicy#inference_header_name}
   */
   readonly inferenceHeaderName: string;
 }
@@ -11703,13 +11703,13 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigatio
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationFlag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#no_headers ServicePolicy#no_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#no_headers ServicePolicy#no_headers}
   */
   readonly noHeaders?: boolean | cdktf.IResolvable;
   /**
   * append_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#append_headers ServicePolicy#append_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#append_headers ServicePolicy#append_headers}
   */
   readonly appendHeaders?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationFlagAppendHeaders[] | cdktf.IResolvable;
 }
@@ -11854,7 +11854,7 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigatio
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#uri ServicePolicy#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#uri ServicePolicy#uri}
   */
   readonly uri?: string;
 }
@@ -11970,25 +11970,25 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigatio
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#none ServicePolicy#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#none ServicePolicy#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#block ServicePolicy#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#block ServicePolicy#block}
   */
   readonly block?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationBlock[] | cdktf.IResolvable;
   /**
   * flag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#flag ServicePolicy#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#flag ServicePolicy#flag}
   */
   readonly flag?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationFlag[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#redirect ServicePolicy#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#redirect ServicePolicy#redirect}
   */
   readonly redirect?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigationRedirect[] | cdktf.IResolvable;
 }
@@ -12191,15 +12191,15 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigatio
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransactionResultFailureConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#status ServicePolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#status ServicePolicy#status}
   */
   readonly status: string;
 }
@@ -12370,15 +12370,15 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransacti
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransactionResultSuccessConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#name ServicePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#name ServicePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#status ServicePolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#status ServicePolicy#status}
   */
   readonly status: string;
 }
@@ -12551,13 +12551,13 @@ export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTrans
   /**
   * failure_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#failure_conditions ServicePolicy#failure_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#failure_conditions ServicePolicy#failure_conditions}
   */
   readonly failureConditions?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransactionResultFailureConditions[] | cdktf.IResolvable;
   /**
   * success_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#success_conditions ServicePolicy#success_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#success_conditions ServicePolicy#success_conditions}
   */
   readonly successConditions?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransactionResultSuccessConditions[] | cdktf.IResolvable;
 }
@@ -12702,31 +12702,31 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransacti
 }
 export interface ServicePolicyRuleListRulesSpecShapeProtectedEndpointAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#allow_goodbot ServicePolicy#allow_goodbot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#allow_goodbot ServicePolicy#allow_goodbot}
   */
   readonly allowGoodbot: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#app_traffic_type ServicePolicy#app_traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#app_traffic_type ServicePolicy#app_traffic_type}
   */
   readonly appTrafficType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#flow_label ServicePolicy#flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#flow_label ServicePolicy#flow_label}
   */
   readonly flowLabel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#web_scraping ServicePolicy#web_scraping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#web_scraping ServicePolicy#web_scraping}
   */
   readonly webScraping: boolean | cdktf.IResolvable;
   /**
   * mitigation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#mitigation ServicePolicy#mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#mitigation ServicePolicy#mitigation}
   */
   readonly mitigation?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionMitigation[] | cdktf.IResolvable;
   /**
   * transaction_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transaction_result ServicePolicy#transaction_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transaction_result ServicePolicy#transaction_result}
   */
   readonly transactionResult?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionTransactionResult[] | cdktf.IResolvable;
 }
@@ -12978,15 +12978,15 @@ export class ServicePolicyRuleListRulesSpecShapeProtectedEndpointActionList exte
 }
 export interface ServicePolicyRuleListRulesSpecTlsFingerprintMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#classes ServicePolicy#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#classes ServicePolicy#classes}
   */
   readonly classes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#excluded_values ServicePolicy#excluded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#excluded_values ServicePolicy#excluded_values}
   */
   readonly excludedValues?: string[];
 }
@@ -13160,23 +13160,23 @@ export class ServicePolicyRuleListRulesSpecTlsFingerprintMatcherList extends cdk
 }
 export interface ServicePolicyRuleListRulesSpecUrlMatcherUrlItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#domain_regex ServicePolicy#domain_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#domain_regex ServicePolicy#domain_regex}
   */
   readonly domainRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#domain_value ServicePolicy#domain_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#domain_value ServicePolicy#domain_value}
   */
   readonly domainValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#path_prefix ServicePolicy#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#path_prefix ServicePolicy#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#path_regex ServicePolicy#path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#path_regex ServicePolicy#path_regex}
   */
   readonly pathRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#path_value ServicePolicy#path_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#path_value ServicePolicy#path_value}
   */
   readonly pathValue?: string;
 }
@@ -13408,13 +13408,13 @@ export class ServicePolicyRuleListRulesSpecUrlMatcherUrlItemsList extends cdktf.
 }
 export interface ServicePolicyRuleListRulesSpecUrlMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#invert_matcher ServicePolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * url_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#url_items ServicePolicy#url_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#url_items ServicePolicy#url_items}
   */
   readonly urlItems?: ServicePolicyRuleListRulesSpecUrlMatcherUrlItems[] | cdktf.IResolvable;
 }
@@ -13559,11 +13559,11 @@ export class ServicePolicyRuleListRulesSpecUrlMatcherList extends cdktf.ComplexL
 }
 export interface ServicePolicyRuleListRulesSpecUserIdentityMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
 }
@@ -13708,15 +13708,15 @@ export class ServicePolicyRuleListRulesSpecUserIdentityMatcherList extends cdktf
 }
 export interface ServicePolicyRuleListRulesSpecVirtualHostMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#transformers ServicePolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#transformers ServicePolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -13890,15 +13890,15 @@ export class ServicePolicyRuleListRulesSpecVirtualHostMatcherList extends cdktf.
 }
 export interface ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeAttackTypeContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context ServicePolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context ServicePolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context_name ServicePolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context_name ServicePolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_attack_type ServicePolicy#exclude_attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_attack_type ServicePolicy#exclude_attack_type}
   */
   readonly excludeAttackType: string;
 }
@@ -14066,7 +14066,7 @@ export class ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlE
 }
 export interface ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeBotNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#bot_name ServicePolicy#bot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#bot_name ServicePolicy#bot_name}
   */
   readonly botName: string;
 }
@@ -14179,15 +14179,15 @@ export class ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlE
 }
 export interface ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeSignatureContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context ServicePolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context ServicePolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context_name ServicePolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context_name ServicePolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#signature_id ServicePolicy#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#signature_id ServicePolicy#signature_id}
   */
   readonly signatureId: number;
 }
@@ -14355,15 +14355,15 @@ export class ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlE
 }
 export interface ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeViolationContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context ServicePolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context ServicePolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#context_name ServicePolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#context_name ServicePolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_violation ServicePolicy#exclude_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_violation ServicePolicy#exclude_violation}
   */
   readonly excludeViolation: string;
 }
@@ -14533,25 +14533,25 @@ export interface ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionCont
   /**
   * exclude_attack_type_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_attack_type_contexts ServicePolicy#exclude_attack_type_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_attack_type_contexts ServicePolicy#exclude_attack_type_contexts}
   */
   readonly excludeAttackTypeContexts?: ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeAttackTypeContexts[] | cdktf.IResolvable;
   /**
   * exclude_bot_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_bot_names ServicePolicy#exclude_bot_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_bot_names ServicePolicy#exclude_bot_names}
   */
   readonly excludeBotNames?: ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeBotNames[] | cdktf.IResolvable;
   /**
   * exclude_signature_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_signature_contexts ServicePolicy#exclude_signature_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_signature_contexts ServicePolicy#exclude_signature_contexts}
   */
   readonly excludeSignatureContexts?: ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeSignatureContexts[] | cdktf.IResolvable;
   /**
   * exclude_violation_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exclude_violation_contexts ServicePolicy#exclude_violation_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exclude_violation_contexts ServicePolicy#exclude_violation_contexts}
   */
   readonly excludeViolationContexts?: ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlExcludeViolationContexts[] | cdktf.IResolvable;
 }
@@ -14754,21 +14754,21 @@ export class ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControlL
 }
 export interface ServicePolicyRuleListRulesSpecWafAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#none ServicePolicy#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#none ServicePolicy#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#waf_in_monitoring_mode ServicePolicy#waf_in_monitoring_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#waf_in_monitoring_mode ServicePolicy#waf_in_monitoring_mode}
   */
   readonly wafInMonitoringMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#waf_skip_processing ServicePolicy#waf_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#waf_skip_processing ServicePolicy#waf_skip_processing}
   */
   readonly wafSkipProcessing?: boolean | cdktf.IResolvable;
   /**
   * app_firewall_detection_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#app_firewall_detection_control ServicePolicy#app_firewall_detection_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#app_firewall_detection_control ServicePolicy#app_firewall_detection_control}
   */
   readonly appFirewallDetectionControl?: ServicePolicyRuleListRulesSpecWafActionAppFirewallDetectionControl[] | cdktf.IResolvable;
 }
@@ -14971,283 +14971,283 @@ export class ServicePolicyRuleListRulesSpecWafActionList extends cdktf.ComplexLi
 }
 export interface ServicePolicyRuleListRulesSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#action ServicePolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#action ServicePolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_asn ServicePolicy#any_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_asn ServicePolicy#any_asn}
   */
   readonly anyAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_client ServicePolicy#any_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_client ServicePolicy#any_client}
   */
   readonly anyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_dst_asn ServicePolicy#any_dst_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_dst_asn ServicePolicy#any_dst_asn}
   */
   readonly anyDstAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_dst_ip ServicePolicy#any_dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_dst_ip ServicePolicy#any_dst_ip}
   */
   readonly anyDstIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#any_ip ServicePolicy#any_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#any_ip ServicePolicy#any_ip}
   */
   readonly anyIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#challenge_action ServicePolicy#challenge_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#challenge_action ServicePolicy#challenge_action}
   */
   readonly challengeAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#client_name ServicePolicy#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#client_name ServicePolicy#client_name}
   */
   readonly clientName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#expiration_timestamp ServicePolicy#expiration_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#expiration_timestamp ServicePolicy#expiration_timestamp}
   */
   readonly expirationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#scheme ServicePolicy#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#scheme ServicePolicy#scheme}
   */
   readonly scheme?: string[];
   /**
   * api_group_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#api_group_matcher ServicePolicy#api_group_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#api_group_matcher ServicePolicy#api_group_matcher}
   */
   readonly apiGroupMatcher?: ServicePolicyRuleListRulesSpecApiGroupMatcher[] | cdktf.IResolvable;
   /**
   * arg_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#arg_matchers ServicePolicy#arg_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#arg_matchers ServicePolicy#arg_matchers}
   */
   readonly argMatchers?: ServicePolicyRuleListRulesSpecArgMatchers[] | cdktf.IResolvable;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_list ServicePolicy#asn_list}
   */
   readonly asnList?: ServicePolicyRuleListRulesSpecAsnListStruct[] | cdktf.IResolvable;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#asn_matcher ServicePolicy#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#asn_matcher ServicePolicy#asn_matcher}
   */
   readonly asnMatcher?: ServicePolicyRuleListRulesSpecAsnMatcher[] | cdktf.IResolvable;
   /**
   * body_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#body_matcher ServicePolicy#body_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#body_matcher ServicePolicy#body_matcher}
   */
   readonly bodyMatcher?: ServicePolicyRuleListRulesSpecBodyMatcher[] | cdktf.IResolvable;
   /**
   * bot_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#bot_action ServicePolicy#bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#bot_action ServicePolicy#bot_action}
   */
   readonly botAction?: ServicePolicyRuleListRulesSpecBotAction[] | cdktf.IResolvable;
   /**
   * client_name_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#client_name_matcher ServicePolicy#client_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#client_name_matcher ServicePolicy#client_name_matcher}
   */
   readonly clientNameMatcher?: ServicePolicyRuleListRulesSpecClientNameMatcher[] | cdktf.IResolvable;
   /**
   * client_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#client_role ServicePolicy#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#client_role ServicePolicy#client_role}
   */
   readonly clientRole?: ServicePolicyRuleListRulesSpecClientRole[] | cdktf.IResolvable;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#client_selector ServicePolicy#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#client_selector ServicePolicy#client_selector}
   */
   readonly clientSelector?: ServicePolicyRuleListRulesSpecClientSelector[] | cdktf.IResolvable;
   /**
   * content_rewrite_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#content_rewrite_action ServicePolicy#content_rewrite_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#content_rewrite_action ServicePolicy#content_rewrite_action}
   */
   readonly contentRewriteAction?: ServicePolicyRuleListRulesSpecContentRewriteAction[] | cdktf.IResolvable;
   /**
   * cookie_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#cookie_matchers ServicePolicy#cookie_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#cookie_matchers ServicePolicy#cookie_matchers}
   */
   readonly cookieMatchers?: ServicePolicyRuleListRulesSpecCookieMatchers[] | cdktf.IResolvable;
   /**
   * domain_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#domain_matcher ServicePolicy#domain_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#domain_matcher ServicePolicy#domain_matcher}
   */
   readonly domainMatcher?: ServicePolicyRuleListRulesSpecDomainMatcher[] | cdktf.IResolvable;
   /**
   * dst_asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#dst_asn_list ServicePolicy#dst_asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#dst_asn_list ServicePolicy#dst_asn_list}
   */
   readonly dstAsnList?: ServicePolicyRuleListRulesSpecDstAsnListStruct[] | cdktf.IResolvable;
   /**
   * dst_asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#dst_asn_matcher ServicePolicy#dst_asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#dst_asn_matcher ServicePolicy#dst_asn_matcher}
   */
   readonly dstAsnMatcher?: ServicePolicyRuleListRulesSpecDstAsnMatcher[] | cdktf.IResolvable;
   /**
   * dst_ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#dst_ip_matcher ServicePolicy#dst_ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#dst_ip_matcher ServicePolicy#dst_ip_matcher}
   */
   readonly dstIpMatcher?: ServicePolicyRuleListRulesSpecDstIpMatcher[] | cdktf.IResolvable;
   /**
   * dst_ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#dst_ip_prefix_list ServicePolicy#dst_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#dst_ip_prefix_list ServicePolicy#dst_ip_prefix_list}
   */
   readonly dstIpPrefixList?: ServicePolicyRuleListRulesSpecDstIpPrefixListStruct[] | cdktf.IResolvable;
   /**
   * forwarding_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#forwarding_class ServicePolicy#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#forwarding_class ServicePolicy#forwarding_class}
   */
   readonly forwardingClass?: ServicePolicyRuleListRulesSpecForwardingClass[] | cdktf.IResolvable;
   /**
   * goto_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#goto_policy ServicePolicy#goto_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#goto_policy ServicePolicy#goto_policy}
   */
   readonly gotoPolicy?: ServicePolicyRuleListRulesSpecGotoPolicy[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#headers ServicePolicy#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#headers ServicePolicy#headers}
   */
   readonly headers?: ServicePolicyRuleListRulesSpecHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#http_method ServicePolicy#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#http_method ServicePolicy#http_method}
   */
   readonly httpMethod?: ServicePolicyRuleListRulesSpecHttpMethod[] | cdktf.IResolvable;
   /**
   * ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_matcher ServicePolicy#ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_matcher ServicePolicy#ip_matcher}
   */
   readonly ipMatcher?: ServicePolicyRuleListRulesSpecIpMatcher[] | cdktf.IResolvable;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_prefix_list ServicePolicy#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_prefix_list ServicePolicy#ip_prefix_list}
   */
   readonly ipPrefixList?: ServicePolicyRuleListRulesSpecIpPrefixListStruct[] | cdktf.IResolvable;
   /**
   * ip_threat_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ip_threat_category_list ServicePolicy#ip_threat_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ip_threat_category_list ServicePolicy#ip_threat_category_list}
   */
   readonly ipThreatCategoryList?: ServicePolicyRuleListRulesSpecIpThreatCategoryListStruct[] | cdktf.IResolvable;
   /**
   * ja4_tls_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#ja4_tls_fingerprint ServicePolicy#ja4_tls_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#ja4_tls_fingerprint ServicePolicy#ja4_tls_fingerprint}
   */
   readonly ja4TlsFingerprint?: ServicePolicyRuleListRulesSpecJa4TlsFingerprint[] | cdktf.IResolvable;
   /**
   * jwt_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#jwt_claims ServicePolicy#jwt_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#jwt_claims ServicePolicy#jwt_claims}
   */
   readonly jwtClaims?: ServicePolicyRuleListRulesSpecJwtClaims[] | cdktf.IResolvable;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#label_matcher ServicePolicy#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#label_matcher ServicePolicy#label_matcher}
   */
   readonly labelMatcher?: ServicePolicyRuleListRulesSpecLabelMatcher[] | cdktf.IResolvable;
   /**
   * mum_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#mum_action ServicePolicy#mum_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#mum_action ServicePolicy#mum_action}
   */
   readonly mumAction?: ServicePolicyRuleListRulesSpecMumAction[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#path ServicePolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#path ServicePolicy#path}
   */
   readonly path?: ServicePolicyRuleListRulesSpecPath[] | cdktf.IResolvable;
   /**
   * port_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#port_matcher ServicePolicy#port_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#port_matcher ServicePolicy#port_matcher}
   */
   readonly portMatcher?: ServicePolicyRuleListRulesSpecPortMatcher[] | cdktf.IResolvable;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#query_params ServicePolicy#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#query_params ServicePolicy#query_params}
   */
   readonly queryParams?: ServicePolicyRuleListRulesSpecQueryParams[] | cdktf.IResolvable;
   /**
   * rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#rate_limiter ServicePolicy#rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#rate_limiter ServicePolicy#rate_limiter}
   */
   readonly rateLimiter?: ServicePolicyRuleListRulesSpecRateLimiter[] | cdktf.IResolvable;
   /**
   * request_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#request_constraints ServicePolicy#request_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#request_constraints ServicePolicy#request_constraints}
   */
   readonly requestConstraints?: ServicePolicyRuleListRulesSpecRequestConstraints[] | cdktf.IResolvable;
   /**
   * segment_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#segment_policy ServicePolicy#segment_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#segment_policy ServicePolicy#segment_policy}
   */
   readonly segmentPolicy?: ServicePolicyRuleListRulesSpecSegmentPolicy[] | cdktf.IResolvable;
   /**
   * server_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#server_selector ServicePolicy#server_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#server_selector ServicePolicy#server_selector}
   */
   readonly serverSelector?: ServicePolicyRuleListRulesSpecServerSelector[] | cdktf.IResolvable;
   /**
   * shape_protected_endpoint_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#shape_protected_endpoint_action ServicePolicy#shape_protected_endpoint_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#shape_protected_endpoint_action ServicePolicy#shape_protected_endpoint_action}
   */
   readonly shapeProtectedEndpointAction?: ServicePolicyRuleListRulesSpecShapeProtectedEndpointAction[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#tls_fingerprint_matcher ServicePolicy#tls_fingerprint_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#tls_fingerprint_matcher ServicePolicy#tls_fingerprint_matcher}
   */
   readonly tlsFingerprintMatcher?: ServicePolicyRuleListRulesSpecTlsFingerprintMatcher[] | cdktf.IResolvable;
   /**
   * url_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#url_matcher ServicePolicy#url_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#url_matcher ServicePolicy#url_matcher}
   */
   readonly urlMatcher?: ServicePolicyRuleListRulesSpecUrlMatcher[] | cdktf.IResolvable;
   /**
   * user_identity_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#user_identity_matcher ServicePolicy#user_identity_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#user_identity_matcher ServicePolicy#user_identity_matcher}
   */
   readonly userIdentityMatcher?: ServicePolicyRuleListRulesSpecUserIdentityMatcher[] | cdktf.IResolvable;
   /**
   * virtual_host_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#virtual_host_matcher ServicePolicy#virtual_host_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#virtual_host_matcher ServicePolicy#virtual_host_matcher}
   */
   readonly virtualHostMatcher?: ServicePolicyRuleListRulesSpecVirtualHostMatcher[] | cdktf.IResolvable;
   /**
   * waf_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#waf_action ServicePolicy#waf_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#waf_action ServicePolicy#waf_action}
   */
   readonly wafAction?: ServicePolicyRuleListRulesSpecWafAction[] | cdktf.IResolvable;
 }
@@ -16786,13 +16786,13 @@ export interface ServicePolicyRuleListRules {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#metadata ServicePolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#metadata ServicePolicy#metadata}
   */
   readonly metadata: ServicePolicyRuleListRulesMetadata[] | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#spec ServicePolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#spec ServicePolicy#spec}
   */
   readonly spec: ServicePolicyRuleListRulesSpec[] | cdktf.IResolvable;
 }
@@ -16933,7 +16933,7 @@ export interface ServicePolicyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#rules ServicePolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#rules ServicePolicy#rules}
   */
   readonly rules?: ServicePolicyRuleListRules[] | cdktf.IResolvable;
 }
@@ -17049,11 +17049,11 @@ export class ServicePolicyRuleListStructList extends cdktf.ComplexList {
 }
 export interface ServicePolicyServerNameMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#exact_values ServicePolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#regex_values ServicePolicy#regex_values}
   */
   readonly regexValues?: string[];
 }
@@ -17198,7 +17198,7 @@ export class ServicePolicyServerNameMatcherList extends cdktf.ComplexList {
 }
 export interface ServicePolicyServerSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#expressions ServicePolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#expressions ServicePolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -17311,7 +17311,7 @@ export class ServicePolicyServerSelectorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy volterra_service_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy volterra_service_policy}
 */
 export class ServicePolicy extends cdktf.TerraformResource {
 
@@ -17327,7 +17327,7 @@ export class ServicePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicePolicy to import
-  * @param importFromId The id of the existing ServicePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17339,7 +17339,7 @@ export class ServicePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy volterra_service_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/service_policy volterra_service_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17350,8 +17350,8 @@ export class ServicePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_service_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GitTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the channel in which the release will be created if the action type is CreateRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#channel_id GitTrigger#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#channel_id GitTrigger#channel_id}
   */
   readonly channelId: string;
   /**
   * The description of this Git trigger..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#description GitTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#description GitTrigger#description}
   */
   readonly description?: string;
   /**
   * Disables the trigger from being run when set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#is_disabled GitTrigger#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#is_disabled GitTrigger#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#name GitTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#name GitTrigger#name}
   */
   readonly name: string;
   /**
   * The ID of the project to attach the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#project_id GitTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#project_id GitTrigger#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#sources GitTrigger#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#sources GitTrigger#sources}
   */
   readonly sources: GitTriggerSources[] | cdktf.IResolvable;
   /**
   * The space ID associated with this Git trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#space_id GitTrigger#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#space_id GitTrigger#space_id}
   */
   readonly spaceId?: string;
 }
@@ -52,25 +52,25 @@ export interface GitTriggerSources {
   /**
   * The deployment action slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#deployment_action_slug GitTrigger#deployment_action_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#deployment_action_slug GitTrigger#deployment_action_slug}
   */
   readonly deploymentActionSlug: string;
   /**
   * The file paths to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#exclude_file_paths GitTrigger#exclude_file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#exclude_file_paths GitTrigger#exclude_file_paths}
   */
   readonly excludeFilePaths: string[];
   /**
   * The git dependency name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#git_dependency_name GitTrigger#git_dependency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#git_dependency_name GitTrigger#git_dependency_name}
   */
   readonly gitDependencyName: string;
   /**
   * The file paths to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#include_file_paths GitTrigger#include_file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#include_file_paths GitTrigger#include_file_paths}
   */
   readonly includeFilePaths: string[];
 }
@@ -261,7 +261,7 @@ export class GitTriggerSourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger octopusdeploy_git_trigger}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger octopusdeploy_git_trigger}
 */
 export class GitTrigger extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class GitTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitTrigger to import
-  * @param importFromId The id of the existing GitTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class GitTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/git_trigger octopusdeploy_git_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/git_trigger octopusdeploy_git_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class GitTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_git_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CloudDesktopsDesktopGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * The description of the desktop group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#description CloudDesktopsDesktopGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#description CloudDesktopsDesktopGroup#description}
   */
   readonly description?: string;
   /**
   * The configuration template for the desktop group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#desktop_template CloudDesktopsDesktopGroup#desktop_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#desktop_template CloudDesktopsDesktopGroup#desktop_template}
   */
   readonly desktopTemplate?: CloudDesktopsDesktopGroupDesktopTemplate;
   /**
   * The folder the dekstop group is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#folder_id CloudDesktopsDesktopGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#folder_id CloudDesktopsDesktopGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * The group configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#group_config CloudDesktopsDesktopGroup#group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#group_config CloudDesktopsDesktopGroup#group_config}
   */
   readonly groupConfig?: CloudDesktopsDesktopGroupGroupConfig;
   /**
   * The id of the desktop image the group is based on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#image_id CloudDesktopsDesktopGroup#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#image_id CloudDesktopsDesktopGroup#image_id}
   */
   readonly imageId: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#labels CloudDesktopsDesktopGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#labels CloudDesktopsDesktopGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the desktop group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#name CloudDesktopsDesktopGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#name CloudDesktopsDesktopGroup#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#timeouts CloudDesktopsDesktopGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#timeouts CloudDesktopsDesktopGroup#timeouts}
   */
   readonly timeouts?: CloudDesktopsDesktopGroupTimeouts;
 }
@@ -60,13 +60,13 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateBootDiskInitializeParam
   /**
   * The size of disk in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#size CloudDesktopsDesktopGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#size CloudDesktopsDesktopGroup#size}
   */
   readonly size?: number;
   /**
   * The type of disk. Allowed values: TYPE_UNSPECIFIED, HDD or SDD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
   */
   readonly type: string;
 }
@@ -188,7 +188,7 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateBootDisk {
   /**
   * General data disk configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#initialize_params CloudDesktopsDesktopGroup#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#initialize_params CloudDesktopsDesktopGroup#initialize_params}
   */
   readonly initializeParams?: CloudDesktopsDesktopGroupDesktopTemplateBootDiskInitializeParams;
 }
@@ -284,13 +284,13 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateDataDiskInitializeParam
   /**
   * The size of disk in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#size CloudDesktopsDesktopGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#size CloudDesktopsDesktopGroup#size}
   */
   readonly size?: number;
   /**
   * The type of disk. Allowed values: TYPE_UNSPECIFIED, HDD or SDD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
   */
   readonly type: string;
 }
@@ -412,7 +412,7 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateDataDisk {
   /**
   * General data disk configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#initialize_params CloudDesktopsDesktopGroup#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#initialize_params CloudDesktopsDesktopGroup#initialize_params}
   */
   readonly initializeParams?: CloudDesktopsDesktopGroupDesktopTemplateDataDiskInitializeParams;
 }
@@ -508,13 +508,13 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateNetworkInterface {
   /**
   * The id of the network desktops from the group would use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#network_id CloudDesktopsDesktopGroup#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#network_id CloudDesktopsDesktopGroup#network_id}
   */
   readonly networkId: string;
   /**
   * The ids of the subnet networks desktops from the group would use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#subnet_ids CloudDesktopsDesktopGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#subnet_ids CloudDesktopsDesktopGroup#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -636,19 +636,19 @@ export interface CloudDesktopsDesktopGroupDesktopTemplateResources {
   /**
   * The baseline level of CPU performance each desktop in this group would have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#core_fraction CloudDesktopsDesktopGroup#core_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#core_fraction CloudDesktopsDesktopGroup#core_fraction}
   */
   readonly coreFraction?: number;
   /**
   * The number of cores each desktop in this group would have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#cores CloudDesktopsDesktopGroup#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#cores CloudDesktopsDesktopGroup#cores}
   */
   readonly cores?: number;
   /**
   * The number of gigabytes of RAM each desktop in this group would have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#memory CloudDesktopsDesktopGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#memory CloudDesktopsDesktopGroup#memory}
   */
   readonly memory?: number;
 }
@@ -802,25 +802,25 @@ export interface CloudDesktopsDesktopGroupDesktopTemplate {
   /**
   * The boot disk configuration for each desktop in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#boot_disk CloudDesktopsDesktopGroup#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#boot_disk CloudDesktopsDesktopGroup#boot_disk}
   */
   readonly bootDisk?: CloudDesktopsDesktopGroupDesktopTemplateBootDisk;
   /**
   * The data disk configuration for each desktop in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#data_disk CloudDesktopsDesktopGroup#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#data_disk CloudDesktopsDesktopGroup#data_disk}
   */
   readonly dataDisk?: CloudDesktopsDesktopGroupDesktopTemplateDataDisk;
   /**
   * The base network interface configuration for each desktop in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#network_interface CloudDesktopsDesktopGroup#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#network_interface CloudDesktopsDesktopGroup#network_interface}
   */
   readonly networkInterface?: CloudDesktopsDesktopGroupDesktopTemplateNetworkInterface;
   /**
   * The base resource configuration for each desktop in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#resources CloudDesktopsDesktopGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#resources CloudDesktopsDesktopGroup#resources}
   */
   readonly resources?: CloudDesktopsDesktopGroupDesktopTemplateResources;
 }
@@ -1003,7 +1003,7 @@ export interface CloudDesktopsDesktopGroupGroupConfigMembers {
   /**
   * The id of the member. More info in [the official documentation](https://yandex.cloud/ru/docs/cloud-desktop/api-ref/grpc/DesktopGroup/create#yandex.cloud.access.Subject).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#id CloudDesktopsDesktopGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#id CloudDesktopsDesktopGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1012,7 +1012,7 @@ export interface CloudDesktopsDesktopGroupGroupConfigMembers {
   /**
   * The type of the member. More info in [the official documentation](https://yandex.cloud/ru/docs/cloud-desktop/api-ref/grpc/DesktopGroup/create#yandex.cloud.access.Subject).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#type CloudDesktopsDesktopGroup#type}
   */
   readonly type: string;
 }
@@ -1153,25 +1153,25 @@ export interface CloudDesktopsDesktopGroupGroupConfig {
   /**
   * The type of the desktop group. Allowed: DESKTOP_TYPE_UNSPECIFIED, PERSISTENT, NON_PERSISTENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#desktop_type CloudDesktopsDesktopGroup#desktop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#desktop_type CloudDesktopsDesktopGroup#desktop_type}
   */
   readonly desktopType?: string;
   /**
   * Maximum number of desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#max_desktops_amount CloudDesktopsDesktopGroup#max_desktops_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#max_desktops_amount CloudDesktopsDesktopGroup#max_desktops_amount}
   */
   readonly maxDesktopsAmount?: number;
   /**
   * List of members in this desktop group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#members CloudDesktopsDesktopGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#members CloudDesktopsDesktopGroup#members}
   */
   readonly members?: CloudDesktopsDesktopGroupGroupConfigMembers[] | cdktf.IResolvable;
   /**
   * Minimum number of ready desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#min_ready_desktops CloudDesktopsDesktopGroup#min_ready_desktops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#min_ready_desktops CloudDesktopsDesktopGroup#min_ready_desktops}
   */
   readonly minReadyDesktops?: number;
 }
@@ -1354,19 +1354,19 @@ export interface CloudDesktopsDesktopGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#create CloudDesktopsDesktopGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#create CloudDesktopsDesktopGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#delete CloudDesktopsDesktopGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#delete CloudDesktopsDesktopGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#update CloudDesktopsDesktopGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#update CloudDesktopsDesktopGroup#update}
   */
   readonly update?: string;
 }
@@ -1518,7 +1518,7 @@ export class CloudDesktopsDesktopGroupTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group yandex_cloud_desktops_desktop_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group yandex_cloud_desktops_desktop_group}
 */
 export class CloudDesktopsDesktopGroup extends cdktf.TerraformResource {
 
@@ -1534,7 +1534,7 @@ export class CloudDesktopsDesktopGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudDesktopsDesktopGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudDesktopsDesktopGroup to import
-  * @param importFromId The id of the existing CloudDesktopsDesktopGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudDesktopsDesktopGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudDesktopsDesktopGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1546,7 +1546,7 @@ export class CloudDesktopsDesktopGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/cloud_desktops_desktop_group yandex_cloud_desktops_desktop_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop_group yandex_cloud_desktops_desktop_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1557,8 +1557,8 @@ export class CloudDesktopsDesktopGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cloud_desktops_desktop_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

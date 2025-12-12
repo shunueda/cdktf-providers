@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,17 +12,17 @@ export interface WorkloadScalingPolicyConfig extends cdktf.TerraformMetaArgument
   * 	- IMMEDIATE - pods are restarted immediately when new recommendation is generated.
   * 	- DEFERRED - pods are not restarted and recommendation values are applied during natural restarts only (new deployment, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
   */
   readonly applyType: string;
   /**
   * CAST AI cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#cluster_id WorkloadScalingPolicy#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#cluster_id WorkloadScalingPolicy#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#id WorkloadScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#id WorkloadScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,79 +33,79 @@ export interface WorkloadScalingPolicyConfig extends cdktf.TerraformMetaArgument
   * 	- READ_ONLY - workload watched (metrics collected), but no actions performed by CAST AI.
   * 	- MANAGED - workload watched (metrics collected), CAST AI may perform actions on the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
   */
   readonly managementOption: string;
   /**
   * Scaling policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#name WorkloadScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#name WorkloadScalingPolicy#name}
   */
   readonly name: string;
   /**
   * anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#anti_affinity WorkloadScalingPolicy#anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#anti_affinity WorkloadScalingPolicy#anti_affinity}
   */
   readonly antiAffinity?: WorkloadScalingPolicyAntiAffinity;
   /**
   * assignment_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#assignment_rules WorkloadScalingPolicy#assignment_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#assignment_rules WorkloadScalingPolicy#assignment_rules}
   */
   readonly assignmentRules?: WorkloadScalingPolicyAssignmentRules[] | cdktf.IResolvable;
   /**
   * confidence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#confidence WorkloadScalingPolicy#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#confidence WorkloadScalingPolicy#confidence}
   */
   readonly confidence?: WorkloadScalingPolicyConfidence;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#cpu WorkloadScalingPolicy#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#cpu WorkloadScalingPolicy#cpu}
   */
   readonly cpu: WorkloadScalingPolicyCpu;
   /**
   * downscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#downscaling WorkloadScalingPolicy#downscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#downscaling WorkloadScalingPolicy#downscaling}
   */
   readonly downscaling?: WorkloadScalingPolicyDownscaling;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#memory WorkloadScalingPolicy#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#memory WorkloadScalingPolicy#memory}
   */
   readonly memory: WorkloadScalingPolicyMemory;
   /**
   * memory_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#memory_event WorkloadScalingPolicy#memory_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#memory_event WorkloadScalingPolicy#memory_event}
   */
   readonly memoryEvent?: WorkloadScalingPolicyMemoryEvent;
   /**
   * predictive_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#predictive_scaling WorkloadScalingPolicy#predictive_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#predictive_scaling WorkloadScalingPolicy#predictive_scaling}
   */
   readonly predictiveScaling?: WorkloadScalingPolicyPredictiveScaling;
   /**
   * rollout_behavior block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#rollout_behavior WorkloadScalingPolicy#rollout_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#rollout_behavior WorkloadScalingPolicy#rollout_behavior}
   */
   readonly rolloutBehavior?: WorkloadScalingPolicyRolloutBehavior;
   /**
   * startup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#startup WorkloadScalingPolicy#startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#startup WorkloadScalingPolicy#startup}
   */
   readonly startup?: WorkloadScalingPolicyStartup;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#timeouts WorkloadScalingPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#timeouts WorkloadScalingPolicy#timeouts}
   */
   readonly timeouts?: WorkloadScalingPolicyTimeouts;
 }
@@ -114,7 +114,7 @@ export interface WorkloadScalingPolicyAntiAffinity {
   * Defines if anti-affinity should be considered when scaling the workload.
   * 	If enabled, requiring host ports, or having anti-affinity on hostname will force all recommendations to be deferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#consider_anti_affinity WorkloadScalingPolicy#consider_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#consider_anti_affinity WorkloadScalingPolicy#consider_anti_affinity}
   */
   readonly considerAntiAffinity?: boolean | cdktf.IResolvable;
 }
@@ -200,7 +200,7 @@ export interface WorkloadScalingPolicyAssignmentRulesRulesNamespace {
   /**
   * Defines matching by namespace names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#names WorkloadScalingPolicy#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#names WorkloadScalingPolicy#names}
   */
   readonly names?: string[];
 }
@@ -286,19 +286,19 @@ export interface WorkloadScalingPolicyAssignmentRulesRulesWorkloadLabelsExpressi
   /**
   * The label key to match. Required for all operators except `Regex` and `Contains`. If not specified, it will search through all labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#key WorkloadScalingPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#key WorkloadScalingPolicy#key}
   */
   readonly key?: string;
   /**
   * The operator to use for matching the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#operator WorkloadScalingPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#operator WorkloadScalingPolicy#operator}
   */
   readonly operator: string;
   /**
   * A list of values to match against the label key. It is required for `In`, `NotIn`, `Regex`, and `Contains` operators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#values WorkloadScalingPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#values WorkloadScalingPolicy#values}
   */
   readonly values?: string[];
 }
@@ -475,13 +475,13 @@ export interface WorkloadScalingPolicyAssignmentRulesRulesWorkload {
   *  - group and kind: e.g."Deployment.apps"
   *  - group, version and kind: e.g."Deployment.v1.apps"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#gvk WorkloadScalingPolicy#gvk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#gvk WorkloadScalingPolicy#gvk}
   */
   readonly gvk?: string[];
   /**
   * labels_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#labels_expressions WorkloadScalingPolicy#labels_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#labels_expressions WorkloadScalingPolicy#labels_expressions}
   */
   readonly labelsExpressions?: WorkloadScalingPolicyAssignmentRulesRulesWorkloadLabelsExpressions[] | cdktf.IResolvable;
 }
@@ -596,13 +596,13 @@ export interface WorkloadScalingPolicyAssignmentRulesRules {
   /**
   * namespace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#namespace WorkloadScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#namespace WorkloadScalingPolicy#namespace}
   */
   readonly namespace?: WorkloadScalingPolicyAssignmentRulesRulesNamespace;
   /**
   * workload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#workload WorkloadScalingPolicy#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#workload WorkloadScalingPolicy#workload}
   */
   readonly workload?: WorkloadScalingPolicyAssignmentRulesRulesWorkload;
 }
@@ -749,7 +749,7 @@ export interface WorkloadScalingPolicyAssignmentRules {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#rules WorkloadScalingPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#rules WorkloadScalingPolicy#rules}
   */
   readonly rules: WorkloadScalingPolicyAssignmentRulesRules[] | cdktf.IResolvable;
 }
@@ -864,7 +864,7 @@ export interface WorkloadScalingPolicyConfidence {
   /**
   * Defines the confidence threshold for applying recommendations. The smaller number indicates that we require fewer metrics data points to apply recommendations - changing this value can cause applying less precise recommendations. Do not change the default unless you want to optimize with fewer data points (e.g., short-lived workloads).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#threshold WorkloadScalingPolicy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#threshold WorkloadScalingPolicy#threshold}
   */
   readonly threshold?: number;
 }
@@ -950,7 +950,7 @@ export interface WorkloadScalingPolicyCpuApplyThresholdStrategy {
   /**
   * If denominator is close or equal to 0, the threshold will be much bigger for small values.For example when numerator, exponent is 1 and denominator is 0 the threshold for 0.5 req. CPU will be 200%.It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#denominator WorkloadScalingPolicy#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#denominator WorkloadScalingPolicy#denominator}
   */
   readonly denominator?: string;
   /**
@@ -959,19 +959,19 @@ export interface WorkloadScalingPolicyCpuApplyThresholdStrategy {
   * 	- if numerator is 0, denominator is 1, and exponent is 0.8, for 50 CPU we will pick 4.3% threshold
   * 	It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#exponent WorkloadScalingPolicy#exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#exponent WorkloadScalingPolicy#exponent}
   */
   readonly exponent?: number;
   /**
   * The numerator affects vertical stretch of function used in adaptive threshold - smaller number will create smaller threshold.It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#numerator WorkloadScalingPolicy#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#numerator WorkloadScalingPolicy#numerator}
   */
   readonly numerator?: number;
   /**
   * Percentage of a how much difference should there be between the current pod requests and the new recommendation. It must be defined for the PERCENTAGE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#percentage WorkloadScalingPolicy#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#percentage WorkloadScalingPolicy#percentage}
   */
   readonly percentage?: number;
   /**
@@ -981,7 +981,7 @@ export interface WorkloadScalingPolicyCpuApplyThresholdStrategy {
   *     - CUSTOM_ADAPTIVE - works in same way as DEFAULT_ADAPTIVE, but it allows to tweak parameters of adaptive threshold formula: percentage = numerator/(currentRequest + denominator)^exponent. This strategy is for advance use cases, we recommend to use DEFAULT_ADAPTIVE strategy.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
   */
   readonly type: string;
 }
@@ -1180,19 +1180,19 @@ export interface WorkloadScalingPolicyCpuLimit {
   /**
   * Multiplier used to calculate the resource limit. It must be defined for the MULTIPLIER strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#multiplier WorkloadScalingPolicy#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#multiplier WorkloadScalingPolicy#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Apply the strategy only when the original resource has limits defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#only_if_original_exist WorkloadScalingPolicy#only_if_original_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#only_if_original_exist WorkloadScalingPolicy#only_if_original_exist}
   */
   readonly onlyIfOriginalExist?: boolean | cdktf.IResolvable;
   /**
   * Use the original resource limits if they are higher than recommended values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#only_if_original_lower WorkloadScalingPolicy#only_if_original_lower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#only_if_original_lower WorkloadScalingPolicy#only_if_original_lower}
   */
   readonly onlyIfOriginalLower?: boolean | cdktf.IResolvable;
   /**
@@ -1201,7 +1201,7 @@ export interface WorkloadScalingPolicyCpuLimit {
   * 	- KEEP_LIMITS - keep existing resource limits. While limits provide stability predictability, they may restrict workloads that need to temporarily burst beyond their allocation.
   * 	- MULTIPLIER - used to calculate the resource limit. The final value is determined by multiplying the resource request by the specified factor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
   */
   readonly type: string;
 }
@@ -1371,61 +1371,61 @@ export interface WorkloadScalingPolicyCpu {
   /**
   * The threshold of when to apply the recommendation. Recommendation will be applied when diff of current requests and new recommendation is greater than set value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_threshold WorkloadScalingPolicy#apply_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_threshold WorkloadScalingPolicy#apply_threshold}
   */
   readonly applyThreshold?: number;
   /**
   * The arguments for the function - i.e. for `QUANTILE` this should be a [0, 1] float. `MAX` doesn't accept any args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#args WorkloadScalingPolicy#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#args WorkloadScalingPolicy#args}
   */
   readonly args?: string[];
   /**
   * The function used to calculate the resource recommendation. Supported values: `QUANTILE`, `MAX`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#function WorkloadScalingPolicy#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#function WorkloadScalingPolicy#function}
   */
   readonly function?: string;
   /**
   * The look back period in seconds for the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#look_back_period_seconds WorkloadScalingPolicy#look_back_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#look_back_period_seconds WorkloadScalingPolicy#look_back_period_seconds}
   */
   readonly lookBackPeriodSeconds?: number;
   /**
   * Disables management for a single resource when set to `READ_ONLY`. The resource will use its original workload template requests and limits. Supported value: `READ_ONLY`. Minimum required workload-autoscaler version: `v0.23.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
   */
   readonly managementOption?: string;
   /**
   * Max values for the recommendation, applies to every container. For memory - this is in MiB, for CPU - this is in cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#max WorkloadScalingPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#max WorkloadScalingPolicy#max}
   */
   readonly max?: number;
   /**
   * Min values for the recommendation, applies to every container. For memory - this is in MiB, for CPU - this is in cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#min WorkloadScalingPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#min WorkloadScalingPolicy#min}
   */
   readonly min?: number;
   /**
   * Overhead for the recommendation, e.g. `0.1` will result in 10% higher recommendation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#overhead WorkloadScalingPolicy#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#overhead WorkloadScalingPolicy#overhead}
   */
   readonly overhead?: number;
   /**
   * apply_threshold_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_threshold_strategy WorkloadScalingPolicy#apply_threshold_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_threshold_strategy WorkloadScalingPolicy#apply_threshold_strategy}
   */
   readonly applyThresholdStrategy?: WorkloadScalingPolicyCpuApplyThresholdStrategy;
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#limit WorkloadScalingPolicy#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#limit WorkloadScalingPolicy#limit}
   */
   readonly limit?: WorkloadScalingPolicyCpuLimit;
 }
@@ -1774,7 +1774,7 @@ export interface WorkloadScalingPolicyDownscaling {
   * 	- IMMEDIATE - pods are restarted immediately when new recommendation is generated.
   * 	- DEFERRED - pods are not restarted and recommendation values are applied during natural restarts only (new deployment, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
   */
   readonly applyType?: string;
 }
@@ -1860,7 +1860,7 @@ export interface WorkloadScalingPolicyMemoryApplyThresholdStrategy {
   /**
   * If denominator is close or equal to 0, the threshold will be much bigger for small values.For example when numerator, exponent is 1 and denominator is 0 the threshold for 0.5 req. CPU will be 200%.It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#denominator WorkloadScalingPolicy#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#denominator WorkloadScalingPolicy#denominator}
   */
   readonly denominator?: string;
   /**
@@ -1869,19 +1869,19 @@ export interface WorkloadScalingPolicyMemoryApplyThresholdStrategy {
   * 	- if numerator is 0, denominator is 1, and exponent is 0.8, for 50 CPU we will pick 4.3% threshold
   * 	It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#exponent WorkloadScalingPolicy#exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#exponent WorkloadScalingPolicy#exponent}
   */
   readonly exponent?: number;
   /**
   * The numerator affects vertical stretch of function used in adaptive threshold - smaller number will create smaller threshold.It must be defined for the CUSTOM_ADAPTIVE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#numerator WorkloadScalingPolicy#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#numerator WorkloadScalingPolicy#numerator}
   */
   readonly numerator?: number;
   /**
   * Percentage of a how much difference should there be between the current pod requests and the new recommendation. It must be defined for the PERCENTAGE strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#percentage WorkloadScalingPolicy#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#percentage WorkloadScalingPolicy#percentage}
   */
   readonly percentage?: number;
   /**
@@ -1891,7 +1891,7 @@ export interface WorkloadScalingPolicyMemoryApplyThresholdStrategy {
   *     - CUSTOM_ADAPTIVE - works in same way as DEFAULT_ADAPTIVE, but it allows to tweak parameters of adaptive threshold formula: percentage = numerator/(currentRequest + denominator)^exponent. This strategy is for advance use cases, we recommend to use DEFAULT_ADAPTIVE strategy.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
   */
   readonly type: string;
 }
@@ -2090,19 +2090,19 @@ export interface WorkloadScalingPolicyMemoryLimit {
   /**
   * Multiplier used to calculate the resource limit. It must be defined for the MULTIPLIER strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#multiplier WorkloadScalingPolicy#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#multiplier WorkloadScalingPolicy#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Apply the strategy only when the original resource has limits defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#only_if_original_exist WorkloadScalingPolicy#only_if_original_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#only_if_original_exist WorkloadScalingPolicy#only_if_original_exist}
   */
   readonly onlyIfOriginalExist?: boolean | cdktf.IResolvable;
   /**
   * Use the original resource limits if they are higher than recommended values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#only_if_original_lower WorkloadScalingPolicy#only_if_original_lower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#only_if_original_lower WorkloadScalingPolicy#only_if_original_lower}
   */
   readonly onlyIfOriginalLower?: boolean | cdktf.IResolvable;
   /**
@@ -2111,7 +2111,7 @@ export interface WorkloadScalingPolicyMemoryLimit {
   * 	- KEEP_LIMITS - keep existing resource limits. While limits provide stability predictability, they may restrict workloads that need to temporarily burst beyond their allocation.
   * 	- MULTIPLIER - used to calculate the resource limit. The final value is determined by multiplying the resource request by the specified factor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
   */
   readonly type: string;
 }
@@ -2281,61 +2281,61 @@ export interface WorkloadScalingPolicyMemory {
   /**
   * The threshold of when to apply the recommendation. Recommendation will be applied when diff of current requests and new recommendation is greater than set value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_threshold WorkloadScalingPolicy#apply_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_threshold WorkloadScalingPolicy#apply_threshold}
   */
   readonly applyThreshold?: number;
   /**
   * The arguments for the function - i.e. for `QUANTILE` this should be a [0, 1] float. `MAX` doesn't accept any args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#args WorkloadScalingPolicy#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#args WorkloadScalingPolicy#args}
   */
   readonly args?: string[];
   /**
   * The function used to calculate the resource recommendation. Supported values: `QUANTILE`, `MAX`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#function WorkloadScalingPolicy#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#function WorkloadScalingPolicy#function}
   */
   readonly function?: string;
   /**
   * The look back period in seconds for the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#look_back_period_seconds WorkloadScalingPolicy#look_back_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#look_back_period_seconds WorkloadScalingPolicy#look_back_period_seconds}
   */
   readonly lookBackPeriodSeconds?: number;
   /**
   * Disables management for a single resource when set to `READ_ONLY`. The resource will use its original workload template requests and limits. Supported value: `READ_ONLY`. Minimum required workload-autoscaler version: `v0.23.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#management_option WorkloadScalingPolicy#management_option}
   */
   readonly managementOption?: string;
   /**
   * Max values for the recommendation, applies to every container. For memory - this is in MiB, for CPU - this is in cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#max WorkloadScalingPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#max WorkloadScalingPolicy#max}
   */
   readonly max?: number;
   /**
   * Min values for the recommendation, applies to every container. For memory - this is in MiB, for CPU - this is in cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#min WorkloadScalingPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#min WorkloadScalingPolicy#min}
   */
   readonly min?: number;
   /**
   * Overhead for the recommendation, e.g. `0.1` will result in 10% higher recommendation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#overhead WorkloadScalingPolicy#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#overhead WorkloadScalingPolicy#overhead}
   */
   readonly overhead?: number;
   /**
   * apply_threshold_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_threshold_strategy WorkloadScalingPolicy#apply_threshold_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_threshold_strategy WorkloadScalingPolicy#apply_threshold_strategy}
   */
   readonly applyThresholdStrategy?: WorkloadScalingPolicyMemoryApplyThresholdStrategy;
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#limit WorkloadScalingPolicy#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#limit WorkloadScalingPolicy#limit}
   */
   readonly limit?: WorkloadScalingPolicyMemoryLimit;
 }
@@ -2684,7 +2684,7 @@ export interface WorkloadScalingPolicyMemoryEvent {
   * 	- IMMEDIATE - pods are restarted immediately when new recommendation is generated.
   * 	- DEFERRED - pods are not restarted and recommendation values are applied during natural restarts only (new deployment, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#apply_type WorkloadScalingPolicy#apply_type}
   */
   readonly applyType?: string;
 }
@@ -2770,7 +2770,7 @@ export interface WorkloadScalingPolicyPredictiveScalingCpu {
   /**
   * Defines if predictive scaling is enabled for resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#enabled WorkloadScalingPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#enabled WorkloadScalingPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2853,7 +2853,7 @@ export interface WorkloadScalingPolicyPredictiveScaling {
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#cpu WorkloadScalingPolicy#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#cpu WorkloadScalingPolicy#cpu}
   */
   readonly cpu?: WorkloadScalingPolicyPredictiveScalingCpu;
 }
@@ -2939,14 +2939,14 @@ export interface WorkloadScalingPolicyRolloutBehavior {
   /**
   * Defines if pods should be restarted one by one to avoid service disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#prefer_one_by_one WorkloadScalingPolicy#prefer_one_by_one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#prefer_one_by_one WorkloadScalingPolicy#prefer_one_by_one}
   */
   readonly preferOneByOne?: boolean | cdktf.IResolvable;
   /**
   * Defines the rollout type to be used when applying recommendations.
   * 	- NO_DISRUPTION - pods are restarted without causing service disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#type WorkloadScalingPolicy#type}
   */
   readonly type?: string;
 }
@@ -3063,7 +3063,7 @@ export interface WorkloadScalingPolicyStartup {
   * When set, recommendations will be adjusted to disregard resource spikes within this period.
   * If not specified, the workload will receive standard recommendations without startup considerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#period_seconds WorkloadScalingPolicy#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#period_seconds WorkloadScalingPolicy#period_seconds}
   */
   readonly periodSeconds?: number;
 }
@@ -3147,19 +3147,19 @@ export class WorkloadScalingPolicyStartupOutputReference extends cdktf.ComplexOb
 }
 export interface WorkloadScalingPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#create WorkloadScalingPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#create WorkloadScalingPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#delete WorkloadScalingPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#delete WorkloadScalingPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#read WorkloadScalingPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#read WorkloadScalingPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#update WorkloadScalingPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#update WorkloadScalingPolicy#update}
   */
   readonly update?: string;
 }
@@ -3340,7 +3340,7 @@ export class WorkloadScalingPolicyTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy castai_workload_scaling_policy}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy castai_workload_scaling_policy}
 */
 export class WorkloadScalingPolicy extends cdktf.TerraformResource {
 
@@ -3356,7 +3356,7 @@ export class WorkloadScalingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkloadScalingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkloadScalingPolicy to import
-  * @param importFromId The id of the existing WorkloadScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkloadScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkloadScalingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3368,7 +3368,7 @@ export class WorkloadScalingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/workload_scaling_policy castai_workload_scaling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/workload_scaling_policy castai_workload_scaling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3379,8 +3379,8 @@ export class WorkloadScalingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'castai_workload_scaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

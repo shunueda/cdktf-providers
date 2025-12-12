@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataYandexTrinoCatalogConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the Trino cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#cluster_id DataYandexTrinoCatalog#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#cluster_id DataYandexTrinoCatalog#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#id DataYandexTrinoCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#id DataYandexTrinoCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataYandexTrinoCatalogConfig extends cdktf.TerraformMetaArgumen
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#name DataYandexTrinoCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#name DataYandexTrinoCatalog#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#timeouts DataYandexTrinoCatalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#timeouts DataYandexTrinoCatalog#timeouts}
   */
   readonly timeouts?: DataYandexTrinoCatalogTimeouts;
 }
@@ -1431,6 +1431,197 @@ export class DataYandexTrinoCatalogIcebergOutputReference extends cdktf.ComplexO
     return this._metastore;
   }
 }
+export interface DataYandexTrinoCatalogMysqlConnectionManager {
+}
+
+export function dataYandexTrinoCatalogMysqlConnectionManagerToTerraform(struct?: DataYandexTrinoCatalogMysqlConnectionManager): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexTrinoCatalogMysqlConnectionManagerToHclTerraform(struct?: DataYandexTrinoCatalogMysqlConnectionManager): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexTrinoCatalogMysqlConnectionManagerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexTrinoCatalogMysqlConnectionManager | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexTrinoCatalogMysqlConnectionManager | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connection_id - computed: true, optional: false, required: false
+  public get connectionId() {
+    return this.getStringAttribute('connection_id');
+  }
+
+  // connection_properties - computed: true, optional: false, required: false
+  private _connectionProperties = new cdktf.StringMap(this, "connection_properties");
+  public get connectionProperties() {
+    return this._connectionProperties;
+  }
+}
+export interface DataYandexTrinoCatalogMysqlOnPremise {
+}
+
+export function dataYandexTrinoCatalogMysqlOnPremiseToTerraform(struct?: DataYandexTrinoCatalogMysqlOnPremise): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexTrinoCatalogMysqlOnPremiseToHclTerraform(struct?: DataYandexTrinoCatalogMysqlOnPremise): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexTrinoCatalogMysqlOnPremiseOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexTrinoCatalogMysqlOnPremise | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexTrinoCatalogMysqlOnPremise | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connection_url - computed: true, optional: false, required: false
+  public get connectionUrl() {
+    return this.getStringAttribute('connection_url');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // user_name - computed: true, optional: false, required: false
+  public get userName() {
+    return this.getStringAttribute('user_name');
+  }
+}
+export interface DataYandexTrinoCatalogMysql {
+}
+
+export function dataYandexTrinoCatalogMysqlToTerraform(struct?: DataYandexTrinoCatalogMysql): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexTrinoCatalogMysqlToHclTerraform(struct?: DataYandexTrinoCatalogMysql): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexTrinoCatalogMysqlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexTrinoCatalogMysql | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexTrinoCatalogMysql | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  private _additionalProperties = new cdktf.StringMap(this, "additional_properties");
+  public get additionalProperties() {
+    return this._additionalProperties;
+  }
+
+  // connection_manager - computed: true, optional: false, required: false
+  private _connectionManager = new DataYandexTrinoCatalogMysqlConnectionManagerOutputReference(this, "connection_manager");
+  public get connectionManager() {
+    return this._connectionManager;
+  }
+
+  // on_premise - computed: true, optional: false, required: false
+  private _onPremise = new DataYandexTrinoCatalogMysqlOnPremiseOutputReference(this, "on_premise");
+  public get onPremise() {
+    return this._onPremise;
+  }
+}
 export interface DataYandexTrinoCatalogOracleOnPremise {
 }
 
@@ -1991,7 +2182,7 @@ export interface DataYandexTrinoCatalogTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#read DataYandexTrinoCatalog#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#read DataYandexTrinoCatalog#read}
   */
   readonly read?: string;
 }
@@ -2085,7 +2276,7 @@ export class DataYandexTrinoCatalogTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog yandex_trino_catalog}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog yandex_trino_catalog}
 */
 export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
 
@@ -2101,7 +2292,7 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexTrinoCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexTrinoCatalog to import
-  * @param importFromId The id of the existing DataYandexTrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexTrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexTrinoCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2113,7 +2304,7 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/trino_catalog yandex_trino_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/trino_catalog yandex_trino_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2124,8 +2315,8 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_trino_catalog',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2213,6 +2404,12 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
   private _labels = new cdktf.StringMap(this, "labels");
   public get labels() {
     return this._labels;
+  }
+
+  // mysql - computed: true, optional: false, required: false
+  private _mysql = new DataYandexTrinoCatalogMysqlOutputReference(this, "mysql");
+  public get mysql() {
+    return this._mysql;
   }
 
   // name - computed: true, optional: true, required: false

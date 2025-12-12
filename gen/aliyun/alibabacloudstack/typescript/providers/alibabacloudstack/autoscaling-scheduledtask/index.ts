@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface AutoscalingScheduledtaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#description AutoscalingScheduledtask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#description AutoscalingScheduledtask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#id AutoscalingScheduledtask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#id AutoscalingScheduledtask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#launch_expiration_time AutoscalingScheduledtask#launch_expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#launch_expiration_time AutoscalingScheduledtask#launch_expiration_time}
   */
   readonly launchExpirationTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#launch_time AutoscalingScheduledtask#launch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#launch_time AutoscalingScheduledtask#launch_time}
   */
   readonly launchTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#recurrence_end_time AutoscalingScheduledtask#recurrence_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#recurrence_end_time AutoscalingScheduledtask#recurrence_end_time}
   */
   readonly recurrenceEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#recurrence_type AutoscalingScheduledtask#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#recurrence_type AutoscalingScheduledtask#recurrence_type}
   */
   readonly recurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#recurrence_value AutoscalingScheduledtask#recurrence_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#recurrence_value AutoscalingScheduledtask#recurrence_value}
   */
   readonly recurrenceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#scaling_group_id AutoscalingScheduledtask#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#scaling_group_id AutoscalingScheduledtask#scaling_group_id}
   */
   readonly scalingGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#scheduled_action AutoscalingScheduledtask#scheduled_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#scheduled_action AutoscalingScheduledtask#scheduled_action}
   */
   readonly scheduledAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#scheduled_task_name AutoscalingScheduledtask#scheduled_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#scheduled_task_name AutoscalingScheduledtask#scheduled_task_name}
   */
   readonly scheduledTaskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#task_enabled AutoscalingScheduledtask#task_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#task_enabled AutoscalingScheduledtask#task_enabled}
   */
   readonly taskEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask alibabacloudstack_autoscaling_scheduledtask}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask alibabacloudstack_autoscaling_scheduledtask}
 */
 export class AutoscalingScheduledtask extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class AutoscalingScheduledtask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoscalingScheduledtask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingScheduledtask to import
-  * @param importFromId The id of the existing AutoscalingScheduledtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingScheduledtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingScheduledtask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class AutoscalingScheduledtask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_scheduledtask alibabacloudstack_autoscaling_scheduledtask} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/autoscaling_scheduledtask alibabacloudstack_autoscaling_scheduledtask} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class AutoscalingScheduledtask extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_autoscaling_scheduledtask',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

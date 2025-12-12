@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackSlbLoadbalancersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#address DataAlibabacloudstackSlbLoadbalancers#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#address DataAlibabacloudstackSlbLoadbalancers#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#id DataAlibabacloudstackSlbLoadbalancers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#id DataAlibabacloudstackSlbLoadbalancers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#ids DataAlibabacloudstackSlbLoadbalancers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#ids DataAlibabacloudstackSlbLoadbalancers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#master_availability_zone DataAlibabacloudstackSlbLoadbalancers#master_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#master_availability_zone DataAlibabacloudstackSlbLoadbalancers#master_availability_zone}
   */
   readonly masterAvailabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#name_regex DataAlibabacloudstackSlbLoadbalancers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#name_regex DataAlibabacloudstackSlbLoadbalancers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#network_type DataAlibabacloudstackSlbLoadbalancers#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#network_type DataAlibabacloudstackSlbLoadbalancers#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#output_file DataAlibabacloudstackSlbLoadbalancers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#output_file DataAlibabacloudstackSlbLoadbalancers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#slave_availability_zone DataAlibabacloudstackSlbLoadbalancers#slave_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#slave_availability_zone DataAlibabacloudstackSlbLoadbalancers#slave_availability_zone}
   */
   readonly slaveAvailabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#tags DataAlibabacloudstackSlbLoadbalancers#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#tags DataAlibabacloudstackSlbLoadbalancers#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#vpc_id DataAlibabacloudstackSlbLoadbalancers#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#vpc_id DataAlibabacloudstackSlbLoadbalancers#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#vswitch_id DataAlibabacloudstackSlbLoadbalancers#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#vswitch_id DataAlibabacloudstackSlbLoadbalancers#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -183,7 +183,7 @@ export class DataAlibabacloudstackSlbLoadbalancersSlbsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers alibabacloudstack_slb_loadbalancers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers alibabacloudstack_slb_loadbalancers}
 */
 export class DataAlibabacloudstackSlbLoadbalancers extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataAlibabacloudstackSlbLoadbalancers extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlibabacloudstackSlbLoadbalancers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackSlbLoadbalancers to import
-  * @param importFromId The id of the existing DataAlibabacloudstackSlbLoadbalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackSlbLoadbalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackSlbLoadbalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataAlibabacloudstackSlbLoadbalancers extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_loadbalancers alibabacloudstack_slb_loadbalancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/slb_loadbalancers alibabacloudstack_slb_loadbalancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataAlibabacloudstackSlbLoadbalancers extends cdktf.TerraformDataSo
       terraformResourceType: 'alibabacloudstack_slb_loadbalancers',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

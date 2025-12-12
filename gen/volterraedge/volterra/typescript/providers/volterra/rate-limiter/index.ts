@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface RateLimiterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#annotations RateLimiter#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#annotations RateLimiter#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#description RateLimiter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#description RateLimiter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#disable RateLimiter#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#disable RateLimiter#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#id RateLimiter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#id RateLimiter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#labels RateLimiter#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#labels RateLimiter#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#name RateLimiter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#name RateLimiter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#namespace RateLimiter#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#namespace RateLimiter#namespace}
   */
   readonly namespace: string;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#limits RateLimiter#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#limits RateLimiter#limits}
   */
   readonly limits: RateLimiterLimits[] | cdktf.IResolvable;
   /**
   * user_identification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#user_identification RateLimiter#user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#user_identification RateLimiter#user_identification}
   */
   readonly userIdentification?: RateLimiterUserIdentification[] | cdktf.IResolvable;
 }
 export interface RateLimiterLimitsActionBlockHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#duration RateLimiter#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#duration RateLimiter#duration}
   */
   readonly duration?: number;
 }
@@ -137,7 +137,7 @@ export class RateLimiterLimitsActionBlockHoursOutputReference extends cdktf.Comp
 }
 export interface RateLimiterLimitsActionBlockMinutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#duration RateLimiter#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#duration RateLimiter#duration}
   */
   readonly duration?: number;
 }
@@ -221,7 +221,7 @@ export class RateLimiterLimitsActionBlockMinutesOutputReference extends cdktf.Co
 }
 export interface RateLimiterLimitsActionBlockSeconds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#duration RateLimiter#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#duration RateLimiter#duration}
   */
   readonly duration?: number;
 }
@@ -307,19 +307,19 @@ export interface RateLimiterLimitsActionBlock {
   /**
   * hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#hours RateLimiter#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#hours RateLimiter#hours}
   */
   readonly hours?: RateLimiterLimitsActionBlockHours;
   /**
   * minutes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#minutes RateLimiter#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#minutes RateLimiter#minutes}
   */
   readonly minutes?: RateLimiterLimitsActionBlockMinutes;
   /**
   * seconds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#seconds RateLimiter#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#seconds RateLimiter#seconds}
   */
   readonly seconds?: RateLimiterLimitsActionBlockSeconds;
 }
@@ -559,41 +559,41 @@ export class RateLimiterLimitsTokenBucketOutputReference extends cdktf.ComplexOb
 }
 export interface RateLimiterLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#burst_multiplier RateLimiter#burst_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#burst_multiplier RateLimiter#burst_multiplier}
   */
   readonly burstMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#disabled RateLimiter#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#disabled RateLimiter#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#period_multiplier RateLimiter#period_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#period_multiplier RateLimiter#period_multiplier}
   */
   readonly periodMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#total_number RateLimiter#total_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#total_number RateLimiter#total_number}
   */
   readonly totalNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#unit RateLimiter#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#unit RateLimiter#unit}
   */
   readonly unit: string;
   /**
   * action_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#action_block RateLimiter#action_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#action_block RateLimiter#action_block}
   */
   readonly actionBlock?: RateLimiterLimitsActionBlock;
   /**
   * leaky_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#leaky_bucket RateLimiter#leaky_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#leaky_bucket RateLimiter#leaky_bucket}
   */
   readonly leakyBucket?: RateLimiterLimitsLeakyBucket;
   /**
   * token_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#token_bucket RateLimiter#token_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#token_bucket RateLimiter#token_bucket}
   */
   readonly tokenBucket?: RateLimiterLimitsTokenBucket;
 }
@@ -906,15 +906,15 @@ export class RateLimiterLimitsList extends cdktf.ComplexList {
 }
 export interface RateLimiterUserIdentification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#name RateLimiter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#name RateLimiter#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#namespace RateLimiter#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#namespace RateLimiter#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#tenant RateLimiter#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#tenant RateLimiter#tenant}
   */
   readonly tenant?: string;
 }
@@ -1093,7 +1093,7 @@ export class RateLimiterUserIdentificationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter volterra_rate_limiter}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter volterra_rate_limiter}
 */
 export class RateLimiter extends cdktf.TerraformResource {
 
@@ -1109,7 +1109,7 @@ export class RateLimiter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RateLimiter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RateLimiter to import
-  * @param importFromId The id of the existing RateLimiter that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RateLimiter that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RateLimiter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1121,7 +1121,7 @@ export class RateLimiter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/rate_limiter volterra_rate_limiter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/rate_limiter volterra_rate_limiter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1132,8 +1132,8 @@ export class RateLimiter extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_rate_limiter',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

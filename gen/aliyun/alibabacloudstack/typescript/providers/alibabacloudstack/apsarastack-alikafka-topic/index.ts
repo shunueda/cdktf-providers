@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackAlikafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#compact_topic ApsarastackAlikafkaTopic#compact_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#compact_topic ApsarastackAlikafkaTopic#compact_topic}
   */
   readonly compactTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#id ApsarastackAlikafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#id ApsarastackAlikafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#instance_id ApsarastackAlikafkaTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#instance_id ApsarastackAlikafkaTopic#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#local_topic ApsarastackAlikafkaTopic#local_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#local_topic ApsarastackAlikafkaTopic#local_topic}
   */
   readonly localTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#partition_num ApsarastackAlikafkaTopic#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#partition_num ApsarastackAlikafkaTopic#partition_num}
   */
   readonly partitionNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#remark ApsarastackAlikafkaTopic#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#remark ApsarastackAlikafkaTopic#remark}
   */
   readonly remark: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#tags ApsarastackAlikafkaTopic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#tags ApsarastackAlikafkaTopic#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#topic ApsarastackAlikafkaTopic#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#topic ApsarastackAlikafkaTopic#topic}
   */
   readonly topic: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#timeouts ApsarastackAlikafkaTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#timeouts ApsarastackAlikafkaTopic#timeouts}
   */
   readonly timeouts?: ApsarastackAlikafkaTopicTimeouts;
 }
 export interface ApsarastackAlikafkaTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#create ApsarastackAlikafkaTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#create ApsarastackAlikafkaTopic#create}
   */
   readonly create?: string;
 }
@@ -145,7 +145,7 @@ export class ApsarastackAlikafkaTopicTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic apsarastack_alikafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic apsarastack_alikafka_topic}
 */
 export class ApsarastackAlikafkaTopic extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class ApsarastackAlikafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackAlikafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackAlikafkaTopic to import
-  * @param importFromId The id of the existing ApsarastackAlikafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackAlikafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackAlikafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class ApsarastackAlikafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_topic apsarastack_alikafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_topic apsarastack_alikafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class ApsarastackAlikafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_alikafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KubernetesMarketplaceHelmReleaseConfig extends cdktf.TerraformM
   /**
   * The ID of the Kubernetes cluster where the product will be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#cluster_id KubernetesMarketplaceHelmRelease#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#cluster_id KubernetesMarketplaceHelmRelease#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#name KubernetesMarketplaceHelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#name KubernetesMarketplaceHelmRelease#name}
   */
   readonly name: string;
   /**
   * The Kubernetes namespace where the product will be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#namespace KubernetesMarketplaceHelmRelease#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#namespace KubernetesMarketplaceHelmRelease#namespace}
   */
   readonly namespace: string;
   /**
   * The ID of the product version to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#product_version KubernetesMarketplaceHelmRelease#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#product_version KubernetesMarketplaceHelmRelease#product_version}
   */
   readonly productVersion: string;
   /**
@@ -36,13 +36,13 @@ export interface KubernetesMarketplaceHelmReleaseConfig extends cdktf.TerraformM
   * ~> `applicationName` and `namespace`, if provided in this block, override `name` and `namespace` arguments, respectively.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#user_values KubernetesMarketplaceHelmRelease#user_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#user_values KubernetesMarketplaceHelmRelease#user_values}
   */
   readonly userValues?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#timeouts KubernetesMarketplaceHelmRelease#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#timeouts KubernetesMarketplaceHelmRelease#timeouts}
   */
   readonly timeouts?: KubernetesMarketplaceHelmReleaseTimeouts;
 }
@@ -50,19 +50,19 @@ export interface KubernetesMarketplaceHelmReleaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#create KubernetesMarketplaceHelmRelease#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#create KubernetesMarketplaceHelmRelease#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#delete KubernetesMarketplaceHelmRelease#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#delete KubernetesMarketplaceHelmRelease#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#update KubernetesMarketplaceHelmRelease#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#update KubernetesMarketplaceHelmRelease#update}
   */
   readonly update?: string;
 }
@@ -214,7 +214,7 @@ export class KubernetesMarketplaceHelmReleaseTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release yandex_kubernetes_marketplace_helm_release}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release yandex_kubernetes_marketplace_helm_release}
 */
 export class KubernetesMarketplaceHelmRelease extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class KubernetesMarketplaceHelmRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesMarketplaceHelmRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesMarketplaceHelmRelease to import
-  * @param importFromId The id of the existing KubernetesMarketplaceHelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesMarketplaceHelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesMarketplaceHelmRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class KubernetesMarketplaceHelmRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_marketplace_helm_release yandex_kubernetes_marketplace_helm_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_marketplace_helm_release yandex_kubernetes_marketplace_helm_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class KubernetesMarketplaceHelmRelease extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kubernetes_marketplace_helm_release',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

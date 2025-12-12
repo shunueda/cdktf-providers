@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackOtsInstanceAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments#id DataApsarastackOtsInstanceAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments#id DataApsarastackOtsInstanceAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments#instance_name DataApsarastackOtsInstanceAttachments#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments#instance_name DataApsarastackOtsInstanceAttachments#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments#name_regex DataApsarastackOtsInstanceAttachments#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments#name_regex DataApsarastackOtsInstanceAttachments#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments#output_file DataApsarastackOtsInstanceAttachments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments#output_file DataApsarastackOtsInstanceAttachments#output_file}
   */
   readonly outputFile?: string;
 }
@@ -134,7 +134,7 @@ export class DataApsarastackOtsInstanceAttachmentsAttachmentsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments apsarastack_ots_instance_attachments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments apsarastack_ots_instance_attachments}
 */
 export class DataApsarastackOtsInstanceAttachments extends cdktf.TerraformDataSource {
 
@@ -150,7 +150,7 @@ export class DataApsarastackOtsInstanceAttachments extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataApsarastackOtsInstanceAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackOtsInstanceAttachments to import
-  * @param importFromId The id of the existing DataApsarastackOtsInstanceAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackOtsInstanceAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackOtsInstanceAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -162,7 +162,7 @@ export class DataApsarastackOtsInstanceAttachments extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ots_instance_attachments apsarastack_ots_instance_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ots_instance_attachments apsarastack_ots_instance_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -173,8 +173,8 @@ export class DataApsarastackOtsInstanceAttachments extends cdktf.TerraformDataSo
       terraformResourceType: 'apsarastack_ots_instance_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

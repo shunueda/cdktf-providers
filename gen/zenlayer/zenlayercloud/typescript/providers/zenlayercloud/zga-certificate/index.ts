@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZgaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The content of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#certificate ZgaCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#certificate ZgaCertificate#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#id ZgaCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#id ZgaCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ZgaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The key of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#key ZgaCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#key ZgaCertificate#key}
   */
   readonly key: string;
   /**
   * The label of the certificate. Modification is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#label ZgaCertificate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#label ZgaCertificate#label}
   */
   readonly label?: string;
   /**
   * The resource group id the certificate belongs to, default to Default Resource Group. Modification is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#resource_group_id ZgaCertificate#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#resource_group_id ZgaCertificate#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#timeouts ZgaCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#timeouts ZgaCertificate#timeouts}
   */
   readonly timeouts?: ZgaCertificateTimeouts;
 }
 export interface ZgaCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#create ZgaCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#create ZgaCertificate#create}
   */
   readonly create?: string;
 }
@@ -141,7 +141,7 @@ export class ZgaCertificateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate zenlayercloud_zga_certificate}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate zenlayercloud_zga_certificate}
 */
 export class ZgaCertificate extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class ZgaCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZgaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZgaCertificate to import
-  * @param importFromId The id of the existing ZgaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZgaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZgaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class ZgaCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zga_certificate zenlayercloud_zga_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zga_certificate zenlayercloud_zga_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class ZgaCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zga_certificate',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface PackBreakersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#description PackBreakers#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#description PackBreakers#description}
   */
   readonly description?: string;
   /**
   * group ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#group_id PackBreakers#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#group_id PackBreakers#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH for pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#id PackBreakers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#id PackBreakers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface PackBreakersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: "custom"; must be one of ["custom", "cribl-custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#lib PackBreakers#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#lib PackBreakers#lib}
   */
   readonly lib?: string;
   /**
   * The  minimum number of characters in _raw to determine which rule to use. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#min_raw_length PackBreakers#min_raw_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#min_raw_length PackBreakers#min_raw_length}
   */
   readonly minRawLength?: number;
   /**
   * pack ID to POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#pack PackBreakers#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#pack PackBreakers#pack}
   */
   readonly pack: string;
   /**
   * A list of rules that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#rules PackBreakers#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#rules PackBreakers#rules}
   */
   readonly rules?: PackBreakersRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#tags PackBreakers#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#tags PackBreakers#tags}
   */
   readonly tags?: string;
 }
@@ -438,13 +438,13 @@ export class PackBreakersItemsList extends cdktf.ComplexList {
 }
 export interface PackBreakersRulesFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#name PackBreakers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#name PackBreakers#name}
   */
   readonly name?: string;
   /**
   * The JavaScript expression used to compute the field's value (can be constant)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#value PackBreakers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#value PackBreakers#value}
   */
   readonly value: string;
 }
@@ -586,19 +586,19 @@ export class PackBreakersRulesFieldsList extends cdktf.ComplexList {
 }
 export interface PackBreakersRulesTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#format PackBreakers#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#format PackBreakers#format}
   */
   readonly format?: string;
   /**
   * Default: 150
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#length PackBreakers#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#length PackBreakers#length}
   */
   readonly length?: number;
   /**
   * Default: "auto"; must be one of ["auto", "format", "current"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#type PackBreakers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#type PackBreakers#type}
   */
   readonly type?: string;
 }
@@ -752,83 +752,83 @@ export interface PackBreakersRules {
   /**
   * JavaScript expression applied to the beginning of a file or object, to determine whether the rule applies to all contained events. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#condition PackBreakers#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#condition PackBreakers#condition}
   */
   readonly condition?: string;
   /**
   * Disable this breaker rule (enabled by default). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#disabled PackBreakers#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#disabled PackBreakers#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The regex to match before attempting event breaker extraction. Use $ (end-of-string anchor) to prevent extraction. Default: "/[\\\\n\\\\r]+(?!\\\\s)/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#event_breaker_regex PackBreakers#event_breaker_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#event_breaker_regex PackBreakers#event_breaker_regex}
   */
   readonly eventBreakerRegex?: string;
   /**
   * Key-value pairs to be added to each event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#fields PackBreakers#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#fields PackBreakers#fields}
   */
   readonly fields?: PackBreakersRulesFields[] | cdktf.IResolvable;
   /**
   * The maximum number of bytes in an event before it is flushed to the pipelines. Default: 51200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#max_event_bytes PackBreakers#max_event_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#max_event_bytes PackBreakers#max_event_bytes}
   */
   readonly maxEventBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#name PackBreakers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#name PackBreakers#name}
   */
   readonly name: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#parser_enabled PackBreakers#parser_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#parser_enabled PackBreakers#parser_enabled}
   */
   readonly parserEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to set an internal field on events indicating that the field in the data called _raw should be used. This can be useful for post processors that want to use that field for event._raw, instead of replacing it with the actual raw event. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#should_use_data_raw PackBreakers#should_use_data_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#should_use_data_raw PackBreakers#should_use_data_raw}
   */
   readonly shouldUseDataRaw?: boolean | cdktf.IResolvable;
   /**
   * Auto, manual format (strptime), or current time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#timestamp PackBreakers#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#timestamp PackBreakers#timestamp}
   */
   readonly timestamp: PackBreakersRulesTimestamp;
   /**
   * The regex to match before attempting timestamp extraction. Use $ (end-of-string anchor) to prevent extraction. Default: "/^/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#timestamp_anchor_regex PackBreakers#timestamp_anchor_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#timestamp_anchor_regex PackBreakers#timestamp_anchor_regex}
   */
   readonly timestampAnchorRegex?: string;
   /**
   * The earliest timestamp value allowed relative to now. Example: -42years. Parsed values prior to this date will be set to current time. Default: "-420weeks"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#timestamp_earliest PackBreakers#timestamp_earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#timestamp_earliest PackBreakers#timestamp_earliest}
   */
   readonly timestampEarliest?: string;
   /**
   * The latest timestamp value allowed relative to now. Example: +42days. Parsed values after this date will be set to current time. Default: "+1week"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#timestamp_latest PackBreakers#timestamp_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#timestamp_latest PackBreakers#timestamp_latest}
   */
   readonly timestampLatest?: string;
   /**
   * Timezone to assign to timestamps without timezone info. Default: "local"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#timestamp_timezone PackBreakers#timestamp_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#timestamp_timezone PackBreakers#timestamp_timezone}
   */
   readonly timestampTimezone?: string;
   /**
   * Default: "regex"; must be one of ["regex", "json", "json_array", "header", "timestamp", "csv", "aws_cloudtrail", "aws_vpcflow"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#type PackBreakers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#type PackBreakers#type}
   */
   readonly type?: string;
 }
@@ -1315,7 +1315,7 @@ export class PackBreakersRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers criblio_pack_breakers}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers criblio_pack_breakers}
 */
 export class PackBreakers extends cdktf.TerraformResource {
 
@@ -1331,7 +1331,7 @@ export class PackBreakers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackBreakers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackBreakers to import
-  * @param importFromId The id of the existing PackBreakers that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackBreakers that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackBreakers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1343,7 +1343,7 @@ export class PackBreakers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pack_breakers criblio_pack_breakers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pack_breakers criblio_pack_breakers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1354,8 +1354,8 @@ export class PackBreakers extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_breakers',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

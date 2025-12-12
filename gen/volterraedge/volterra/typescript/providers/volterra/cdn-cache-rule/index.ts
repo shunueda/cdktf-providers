@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CdnCacheRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#annotations CdnCacheRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#annotations CdnCacheRule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#description CdnCacheRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#description CdnCacheRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#disable CdnCacheRule#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#disable CdnCacheRule#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#id CdnCacheRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#id CdnCacheRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#labels CdnCacheRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#labels CdnCacheRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#namespace CdnCacheRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#namespace CdnCacheRule#namespace}
   */
   readonly namespace: string;
   /**
   * cache_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_rules CdnCacheRule#cache_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_rules CdnCacheRule#cache_rules}
   */
   readonly cacheRules?: CdnCacheRuleCacheRules;
 }
 export interface CdnCacheRuleCacheRulesEligibleForCacheSchemeProxyHostRequestUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_override CdnCacheRule#cache_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_override CdnCacheRule#cache_override}
   */
   readonly cacheOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_ttl CdnCacheRule#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_ttl CdnCacheRule#cache_ttl}
   */
   readonly cacheTtl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#ignore_response_cookie CdnCacheRule#ignore_response_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#ignore_response_cookie CdnCacheRule#ignore_response_cookie}
   */
   readonly ignoreResponseCookie?: boolean | cdktf.IResolvable;
 }
@@ -194,15 +194,15 @@ export class CdnCacheRuleCacheRulesEligibleForCacheSchemeProxyHostRequestUriOutp
 }
 export interface CdnCacheRuleCacheRulesEligibleForCacheSchemeProxyHostUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_override CdnCacheRule#cache_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_override CdnCacheRule#cache_override}
   */
   readonly cacheOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_ttl CdnCacheRule#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_ttl CdnCacheRule#cache_ttl}
   */
   readonly cacheTtl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#ignore_response_cookie CdnCacheRule#ignore_response_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#ignore_response_cookie CdnCacheRule#ignore_response_cookie}
   */
   readonly ignoreResponseCookie?: boolean | cdktf.IResolvable;
 }
@@ -343,13 +343,13 @@ export interface CdnCacheRuleCacheRulesEligibleForCache {
   /**
   * scheme_proxy_host_request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#scheme_proxy_host_request_uri CdnCacheRule#scheme_proxy_host_request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#scheme_proxy_host_request_uri CdnCacheRule#scheme_proxy_host_request_uri}
   */
   readonly schemeProxyHostRequestUri?: CdnCacheRuleCacheRulesEligibleForCacheSchemeProxyHostRequestUri;
   /**
   * scheme_proxy_host_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#scheme_proxy_host_uri CdnCacheRule#scheme_proxy_host_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#scheme_proxy_host_uri CdnCacheRule#scheme_proxy_host_uri}
   */
   readonly schemeProxyHostUri?: CdnCacheRuleCacheRulesEligibleForCacheSchemeProxyHostUri;
 }
@@ -462,39 +462,39 @@ export class CdnCacheRuleCacheRulesEligibleForCacheOutputReference extends cdktf
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHeadersOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
   */
   readonly doesNotContain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
   */
   readonly doesNotEndWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
   */
   readonly doesNotEqual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
   */
   readonly doesNotStartWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
   */
   readonly endswith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
   */
   readonly equalTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
   */
   readonly matchRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
   */
   readonly startswith?: string;
 }
@@ -810,13 +810,13 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHea
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
   */
   readonly name: string;
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
   */
   readonly operator?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHeadersOperator;
 }
@@ -958,39 +958,39 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHea
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMatcherOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
   */
   readonly doesNotContain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
   */
   readonly doesNotEndWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
   */
   readonly doesNotEqual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
   */
   readonly doesNotStartWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
   */
   readonly endswith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
   */
   readonly equalTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
   */
   readonly matchRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
   */
   readonly startswith?: string;
 }
@@ -1306,13 +1306,13 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMa
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#name CdnCacheRule#name}
   */
   readonly name: string;
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
   */
   readonly operator?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMatcherOperator;
 }
@@ -1454,39 +1454,39 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMa
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionPathMatchOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
   */
   readonly doesNotContain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
   */
   readonly doesNotEndWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
   */
   readonly doesNotEqual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
   */
   readonly doesNotStartWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
   */
   readonly endswith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
   */
   readonly equalTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
   */
   readonly matchRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
   */
   readonly startswith?: string;
 }
@@ -1804,7 +1804,7 @@ export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionPath
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
   */
   readonly operator?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionPathMatchOperator;
 }
@@ -1888,39 +1888,39 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionPathMatc
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionQueryParametersOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#contains CdnCacheRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_contain CdnCacheRule#does_not_contain}
   */
   readonly doesNotContain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_end_with CdnCacheRule#does_not_end_with}
   */
   readonly doesNotEndWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_equal CdnCacheRule#does_not_equal}
   */
   readonly doesNotEqual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#does_not_start_with CdnCacheRule#does_not_start_with}
   */
   readonly doesNotStartWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#endswith CdnCacheRule#endswith}
   */
   readonly endswith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#equals CdnCacheRule#equals}
   */
   readonly equalTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#match_regex CdnCacheRule#match_regex}
   */
   readonly matchRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#startswith CdnCacheRule#startswith}
   */
   readonly startswith?: string;
 }
@@ -2236,13 +2236,13 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionQueryPar
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionQueryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#key CdnCacheRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#key CdnCacheRule#key}
   */
   readonly key: string;
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#operator CdnCacheRule#operator}
   */
   readonly operator?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionQueryParametersOperator;
 }
@@ -2386,25 +2386,25 @@ export interface CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpression {
   /**
   * cache_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_headers CdnCacheRule#cache_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_headers CdnCacheRule#cache_headers}
   */
   readonly cacheHeaders?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCacheHeaders[] | cdktf.IResolvable;
   /**
   * cookie_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cookie_matcher CdnCacheRule#cookie_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cookie_matcher CdnCacheRule#cookie_matcher}
   */
   readonly cookieMatcher?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionCookieMatcher[] | cdktf.IResolvable;
   /**
   * path_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#path_match CdnCacheRule#path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#path_match CdnCacheRule#path_match}
   */
   readonly pathMatch?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionPathMatch;
   /**
   * query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#query_parameters CdnCacheRule#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#query_parameters CdnCacheRule#query_parameters}
   */
   readonly queryParameters?: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionQueryParameters[] | cdktf.IResolvable;
 }
@@ -2607,13 +2607,13 @@ export class CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpressionList ext
 }
 export interface CdnCacheRuleCacheRulesRuleExpressionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#expression_name CdnCacheRule#expression_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#expression_name CdnCacheRule#expression_name}
   */
   readonly expressionName: string;
   /**
   * cache_rule_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_rule_expression CdnCacheRule#cache_rule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_rule_expression CdnCacheRule#cache_rule_expression}
   */
   readonly cacheRuleExpression: CdnCacheRuleCacheRulesRuleExpressionListCacheRuleExpression[] | cdktf.IResolvable;
 }
@@ -2752,23 +2752,23 @@ export class CdnCacheRuleCacheRulesRuleExpressionListStructList extends cdktf.Co
 }
 export interface CdnCacheRuleCacheRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#cache_bypass CdnCacheRule#cache_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#cache_bypass CdnCacheRule#cache_bypass}
   */
   readonly cacheBypass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#rule_name CdnCacheRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#rule_name CdnCacheRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * eligible_for_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#eligible_for_cache CdnCacheRule#eligible_for_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#eligible_for_cache CdnCacheRule#eligible_for_cache}
   */
   readonly eligibleForCache?: CdnCacheRuleCacheRulesEligibleForCache;
   /**
   * rule_expression_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#rule_expression_list CdnCacheRule#rule_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#rule_expression_list CdnCacheRule#rule_expression_list}
   */
   readonly ruleExpressionList: CdnCacheRuleCacheRulesRuleExpressionListStruct[] | cdktf.IResolvable;
 }
@@ -2933,7 +2933,7 @@ export class CdnCacheRuleCacheRulesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule volterra_cdn_cache_rule}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule volterra_cdn_cache_rule}
 */
 export class CdnCacheRule extends cdktf.TerraformResource {
 
@@ -2949,7 +2949,7 @@ export class CdnCacheRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnCacheRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnCacheRule to import
-  * @param importFromId The id of the existing CdnCacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnCacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnCacheRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2961,7 +2961,7 @@ export class CdnCacheRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cdn_cache_rule volterra_cdn_cache_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cdn_cache_rule volterra_cdn_cache_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2972,8 +2972,8 @@ export class CdnCacheRule extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_cdn_cache_rule',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

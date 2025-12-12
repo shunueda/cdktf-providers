@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface TrinoAccessControlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Catalog session property access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog_session_properties TrinoAccessControl#catalog_session_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog_session_properties TrinoAccessControl#catalog_session_properties}
   */
   readonly catalogSessionProperties?: TrinoAccessControlCatalogSessionProperties[] | cdktf.IResolvable;
   /**
   * Catalog level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalogs TrinoAccessControl#catalogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalogs TrinoAccessControl#catalogs}
   */
   readonly catalogs?: TrinoAccessControlCatalogs[] | cdktf.IResolvable;
   /**
   * ID of the Trino cluster. Provided by the client when the Access Control is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#cluster_id TrinoAccessControl#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#cluster_id TrinoAccessControl#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Function level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#functions TrinoAccessControl#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#functions TrinoAccessControl#functions}
   */
   readonly functions?: TrinoAccessControlFunctions[] | cdktf.IResolvable;
   /**
   * Procedure level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#procedures TrinoAccessControl#procedures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#procedures TrinoAccessControl#procedures}
   */
   readonly procedures?: TrinoAccessControlProcedures[] | cdktf.IResolvable;
   /**
   * Query level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#queries TrinoAccessControl#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#queries TrinoAccessControl#queries}
   */
   readonly queries?: TrinoAccessControlQueries[] | cdktf.IResolvable;
   /**
   * Schema level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#schemas TrinoAccessControl#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#schemas TrinoAccessControl#schemas}
   */
   readonly schemas?: TrinoAccessControlSchemas[] | cdktf.IResolvable;
   /**
   * System session property access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#system_session_properties TrinoAccessControl#system_session_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#system_session_properties TrinoAccessControl#system_session_properties}
   */
   readonly systemSessionProperties?: TrinoAccessControlSystemSessionProperties[] | cdktf.IResolvable;
   /**
   * Table level access control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#tables TrinoAccessControl#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#tables TrinoAccessControl#tables}
   */
   readonly tables?: TrinoAccessControlTables[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#timeouts TrinoAccessControl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#timeouts TrinoAccessControl#timeouts}
   */
   readonly timeouts?: TrinoAccessControlTimeouts;
 }
@@ -72,13 +72,13 @@ export interface TrinoAccessControlCatalogSessionPropertiesCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -203,13 +203,13 @@ export interface TrinoAccessControlCatalogSessionPropertiesProperty {
   /**
   * Property name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Property names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -334,37 +334,37 @@ export interface TrinoAccessControlCatalogSessionProperties {
   /**
   * Whether the rule allows setting the property. Valid values: `NO`, `YES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#allow TrinoAccessControl#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#allow TrinoAccessControl#allow}
   */
   readonly allow: string;
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlCatalogSessionPropertiesCatalog;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Matcher specifying what properties the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#property TrinoAccessControl#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#property TrinoAccessControl#property}
   */
   readonly property?: TrinoAccessControlCatalogSessionPropertiesProperty;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -624,13 +624,13 @@ export interface TrinoAccessControlCatalogsCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -755,31 +755,31 @@ export interface TrinoAccessControlCatalogs {
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlCatalogsCatalog;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Permission granted by the rule. Valid values: `NONE`, `READ_ONLY`, `ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#permission TrinoAccessControl#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#permission TrinoAccessControl#permission}
   */
   readonly permission: string;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -1010,13 +1010,13 @@ export interface TrinoAccessControlFunctionsCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -1141,13 +1141,13 @@ export interface TrinoAccessControlFunctionsFunction {
   /**
   * Function name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Function names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -1272,13 +1272,13 @@ export interface TrinoAccessControlFunctionsSchema {
   /**
   * Schema name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Schema names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -1403,43 +1403,43 @@ export interface TrinoAccessControlFunctions {
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlFunctionsCatalog;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * Matcher specifying what functions the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#function TrinoAccessControl#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#function TrinoAccessControl#function}
   */
   readonly function?: TrinoAccessControlFunctionsFunction;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Privileges granted by the rule. Valid values: `EXECUTE`, `GRANT_EXECUTE`, `OWNERSHIP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
   */
   readonly privileges?: string[];
   /**
   * Matcher specifying what Schemas the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
   */
   readonly schema?: TrinoAccessControlFunctionsSchema;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -1731,13 +1731,13 @@ export interface TrinoAccessControlProceduresCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -1862,13 +1862,13 @@ export interface TrinoAccessControlProceduresProcedure {
   /**
   * Procedure name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Procedure names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -1993,13 +1993,13 @@ export interface TrinoAccessControlProceduresSchema {
   /**
   * Schema name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Schema names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -2124,43 +2124,43 @@ export interface TrinoAccessControlProcedures {
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlProceduresCatalog;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Privileges granted by the rule. Valid values: `EXECUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
   */
   readonly privileges?: string[];
   /**
   * Matcher specifying what procedures the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#procedure TrinoAccessControl#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#procedure TrinoAccessControl#procedure}
   */
   readonly procedure?: TrinoAccessControlProceduresProcedure;
   /**
   * Matcher specifying what Schemas the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
   */
   readonly schema?: TrinoAccessControlProceduresSchema;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -2452,31 +2452,31 @@ export interface TrinoAccessControlQueries {
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Privileges granted by the rule. Valid values: `VIEW`, `EXECUTE`, `KILL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
   */
   readonly privileges?: string[];
   /**
   * Owners of queries the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#query_owners TrinoAccessControl#query_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#query_owners TrinoAccessControl#query_owners}
   */
   readonly queryOwners?: string[];
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -2710,13 +2710,13 @@ export interface TrinoAccessControlSchemasCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -2841,13 +2841,13 @@ export interface TrinoAccessControlSchemasSchema {
   /**
   * Schema name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Schema names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -2972,37 +2972,37 @@ export interface TrinoAccessControlSchemas {
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlSchemasCatalog;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Ownership granted by the rule. Valid values: `NO`, `YES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#owner TrinoAccessControl#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#owner TrinoAccessControl#owner}
   */
   readonly owner: string;
   /**
   * Matcher specifying what schemas the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
   */
   readonly schema?: TrinoAccessControlSchemasSchema;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -3262,13 +3262,13 @@ export interface TrinoAccessControlSystemSessionPropertiesProperty {
   /**
   * Property name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Property names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -3393,31 +3393,31 @@ export interface TrinoAccessControlSystemSessionProperties {
   /**
   * Whether the rule allows setting the property. Valid values: `NO`, `YES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#allow TrinoAccessControl#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#allow TrinoAccessControl#allow}
   */
   readonly allow: string;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Matcher specifying what properties the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#property TrinoAccessControl#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#property TrinoAccessControl#property}
   */
   readonly property?: TrinoAccessControlSystemSessionPropertiesProperty;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -3648,13 +3648,13 @@ export interface TrinoAccessControlTablesCatalog {
   /**
   * Catalog IDs rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#ids TrinoAccessControl#ids}
   */
   readonly ids?: string[];
   /**
   * Catalog name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
 }
@@ -3779,19 +3779,19 @@ export interface TrinoAccessControlTablesColumns {
   /**
   * Column access mode. Valid values: `NONE`, `ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#access TrinoAccessControl#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#access TrinoAccessControl#access}
   */
   readonly access: string;
   /**
   * SQL expression mask to evaluate instead of original column values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#mask TrinoAccessControl#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#mask TrinoAccessControl#mask}
   */
   readonly mask?: string;
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name TrinoAccessControl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name TrinoAccessControl#name}
   */
   readonly name: string;
 }
@@ -3961,13 +3961,13 @@ export interface TrinoAccessControlTablesSchema {
   /**
   * Schema name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Schema names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -4092,13 +4092,13 @@ export interface TrinoAccessControlTablesTable {
   /**
   * Table name regexp the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#name_regexp TrinoAccessControl#name_regexp}
   */
   readonly nameRegexp?: string;
   /**
   * Table names rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#names TrinoAccessControl#names}
   */
   readonly names?: string[];
 }
@@ -4223,55 +4223,55 @@ export interface TrinoAccessControlTables {
   /**
   * Catalog matcher specifying what catalogs the rule is applied to. Exactly one of `name_regexp`, `ids` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#catalog TrinoAccessControl#catalog}
   */
   readonly catalog?: TrinoAccessControlTablesCatalog;
   /**
   * Column rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#columns TrinoAccessControl#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#columns TrinoAccessControl#columns}
   */
   readonly columns?: TrinoAccessControlTablesColumns[] | cdktf.IResolvable;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#description TrinoAccessControl#description}
   */
   readonly description?: string;
   /**
   * Boolean SQL expression to filter table rows for particular user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#filter TrinoAccessControl#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#filter TrinoAccessControl#filter}
   */
   readonly filter?: string;
   /**
   * IAM group IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#groups TrinoAccessControl#groups}
   */
   readonly groups?: string[];
   /**
   * Privileges granted by the rule. Valid values: `SELECT`, `INSERT`, `DELETE`, `UPDATE`, `OWNERSHIP`, `GRANT_SELECT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#privileges TrinoAccessControl#privileges}
   */
   readonly privileges?: string[];
   /**
   * Matcher specifying what Schemas the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#schema TrinoAccessControl#schema}
   */
   readonly schema?: TrinoAccessControlTablesSchema;
   /**
   * Matcher specifying what tables the rule is applied to. Exactly one of `name_regexp`, `names` attributes should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#table TrinoAccessControl#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#table TrinoAccessControl#table}
   */
   readonly table?: TrinoAccessControlTablesTable;
   /**
   * IAM user IDs the rule is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#users TrinoAccessControl#users}
   */
   readonly users?: string[];
 }
@@ -4621,19 +4621,19 @@ export interface TrinoAccessControlTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#create TrinoAccessControl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#create TrinoAccessControl#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#delete TrinoAccessControl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#delete TrinoAccessControl#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#update TrinoAccessControl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#update TrinoAccessControl#update}
   */
   readonly update?: string;
 }
@@ -4785,7 +4785,7 @@ export class TrinoAccessControlTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control yandex_trino_access_control}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control yandex_trino_access_control}
 */
 export class TrinoAccessControl extends cdktf.TerraformResource {
 
@@ -4801,7 +4801,7 @@ export class TrinoAccessControl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrinoAccessControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrinoAccessControl to import
-  * @param importFromId The id of the existing TrinoAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrinoAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrinoAccessControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4813,7 +4813,7 @@ export class TrinoAccessControl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/trino_access_control yandex_trino_access_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/trino_access_control yandex_trino_access_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4824,8 +4824,8 @@ export class TrinoAccessControl extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_trino_access_control',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

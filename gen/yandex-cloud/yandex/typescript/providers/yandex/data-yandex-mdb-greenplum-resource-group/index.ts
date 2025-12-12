@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexMdbGreenplumResourceGroupConfig extends cdktf.Terrafo
   /**
   * The ID of the cluster to which resource group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#cluster_id DataYandexMdbGreenplumResourceGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#cluster_id DataYandexMdbGreenplumResourceGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#name DataYandexMdbGreenplumResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#name DataYandexMdbGreenplumResourceGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#timeouts DataYandexMdbGreenplumResourceGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#timeouts DataYandexMdbGreenplumResourceGroup#timeouts}
   */
   readonly timeouts?: DataYandexMdbGreenplumResourceGroupTimeouts;
 }
@@ -28,19 +28,19 @@ export interface DataYandexMdbGreenplumResourceGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#create DataYandexMdbGreenplumResourceGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#create DataYandexMdbGreenplumResourceGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#delete DataYandexMdbGreenplumResourceGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#delete DataYandexMdbGreenplumResourceGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#update DataYandexMdbGreenplumResourceGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#update DataYandexMdbGreenplumResourceGroup#update}
   */
   readonly update?: string;
 }
@@ -192,7 +192,7 @@ export class DataYandexMdbGreenplumResourceGroupTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group}
 */
 export class DataYandexMdbGreenplumResourceGroup extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataYandexMdbGreenplumResourceGroup extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataYandexMdbGreenplumResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbGreenplumResourceGroup to import
-  * @param importFromId The id of the existing DataYandexMdbGreenplumResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbGreenplumResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbGreenplumResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataYandexMdbGreenplumResourceGroup extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataYandexMdbGreenplumResourceGroup extends cdktf.TerraformDataSour
       terraformResourceType: 'yandex_mdb_greenplum_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

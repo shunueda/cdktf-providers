@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalinggroupVserverGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#force EssScalinggroupVserverGroups#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#force EssScalinggroupVserverGroups#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#id EssScalinggroupVserverGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#id EssScalinggroupVserverGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#scaling_group_id EssScalinggroupVserverGroups#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#scaling_group_id EssScalinggroupVserverGroups#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
   * vserver_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#vserver_groups EssScalinggroupVserverGroups#vserver_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#vserver_groups EssScalinggroupVserverGroups#vserver_groups}
   */
   readonly vserverGroups: EssScalinggroupVserverGroupsVserverGroups[] | cdktf.IResolvable;
 }
 export interface EssScalinggroupVserverGroupsVserverGroupsVserverAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#port EssScalinggroupVserverGroups#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#port EssScalinggroupVserverGroups#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#vserver_group_id EssScalinggroupVserverGroups#vserver_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#vserver_group_id EssScalinggroupVserverGroups#vserver_group_id}
   */
   readonly vserverGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#weight EssScalinggroupVserverGroups#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#weight EssScalinggroupVserverGroups#weight}
   */
   readonly weight: number;
 }
@@ -204,13 +204,13 @@ export class EssScalinggroupVserverGroupsVserverGroupsVserverAttributesList exte
 }
 export interface EssScalinggroupVserverGroupsVserverGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#loadbalancer_id EssScalinggroupVserverGroups#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#loadbalancer_id EssScalinggroupVserverGroups#loadbalancer_id}
   */
   readonly loadbalancerId: string;
   /**
   * vserver_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#vserver_attributes EssScalinggroupVserverGroups#vserver_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#vserver_attributes EssScalinggroupVserverGroups#vserver_attributes}
   */
   readonly vserverAttributes: EssScalinggroupVserverGroupsVserverGroupsVserverAttributes[] | cdktf.IResolvable;
 }
@@ -349,7 +349,7 @@ export class EssScalinggroupVserverGroupsVserverGroupsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups alibabacloudstack_ess_scalinggroup_vserver_groups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups alibabacloudstack_ess_scalinggroup_vserver_groups}
 */
 export class EssScalinggroupVserverGroups extends cdktf.TerraformResource {
 
@@ -365,7 +365,7 @@ export class EssScalinggroupVserverGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalinggroupVserverGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalinggroupVserverGroups to import
-  * @param importFromId The id of the existing EssScalinggroupVserverGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalinggroupVserverGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalinggroupVserverGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class EssScalinggroupVserverGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scalinggroup_vserver_groups alibabacloudstack_ess_scalinggroup_vserver_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ess_scalinggroup_vserver_groups alibabacloudstack_ess_scalinggroup_vserver_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class EssScalinggroupVserverGroups extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ess_scalinggroup_vserver_groups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,164 +8,164 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackElasticsearchInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#action_auto_create_index ApsarastackElasticsearchInstance#action_auto_create_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#action_auto_create_index ApsarastackElasticsearchInstance#action_auto_create_index}
   */
   readonly actionAutoCreateIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#action_destructive_requires_name ApsarastackElasticsearchInstance#action_destructive_requires_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#action_destructive_requires_name ApsarastackElasticsearchInstance#action_destructive_requires_name}
   */
   readonly actionDestructiveRequiresName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#apack_accesslog_enabled ApsarastackElasticsearchInstance#apack_accesslog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#apack_accesslog_enabled ApsarastackElasticsearchInstance#apack_accesslog_enabled}
   */
   readonly apackAccesslogEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#apack_accesslog_search_enabled ApsarastackElasticsearchInstance#apack_accesslog_search_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#apack_accesslog_search_enabled ApsarastackElasticsearchInstance#apack_accesslog_search_enabled}
   */
   readonly apackAccesslogSearchEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#client_node_amount ApsarastackElasticsearchInstance#client_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#client_node_amount ApsarastackElasticsearchInstance#client_node_amount}
   */
   readonly clientNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#client_node_spec ApsarastackElasticsearchInstance#client_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#client_node_spec ApsarastackElasticsearchInstance#client_node_spec}
   */
   readonly clientNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_flood_stage ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_flood_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_flood_stage ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_flood_stage}
   */
   readonly clusterRoutingAllocationDiskWatermarkFloodStage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_high ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_high ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_high}
   */
   readonly clusterRoutingAllocationDiskWatermarkHigh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_low ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#cluster_routing_allocation_disk_watermark_low ApsarastackElasticsearchInstance#cluster_routing_allocation_disk_watermark_low}
   */
   readonly clusterRoutingAllocationDiskWatermarkLow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#cpu_type ApsarastackElasticsearchInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#cpu_type ApsarastackElasticsearchInstance#cpu_type}
   */
   readonly cpuType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#data_node_affinity ApsarastackElasticsearchInstance#data_node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#data_node_affinity ApsarastackElasticsearchInstance#data_node_affinity}
   */
   readonly dataNodeAffinity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#data_node_amount ApsarastackElasticsearchInstance#data_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#data_node_amount ApsarastackElasticsearchInstance#data_node_amount}
   */
   readonly dataNodeAmount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#data_node_disk_size ApsarastackElasticsearchInstance#data_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#data_node_disk_size ApsarastackElasticsearchInstance#data_node_disk_size}
   */
   readonly dataNodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#data_node_disk_type ApsarastackElasticsearchInstance#data_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#data_node_disk_type ApsarastackElasticsearchInstance#data_node_disk_type}
   */
   readonly dataNodeDiskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#data_node_spec ApsarastackElasticsearchInstance#data_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#data_node_spec ApsarastackElasticsearchInstance#data_node_spec}
   */
   readonly dataNodeSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#description ApsarastackElasticsearchInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#description ApsarastackElasticsearchInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#id ApsarastackElasticsearchInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#id ApsarastackElasticsearchInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#kibana_node_spec ApsarastackElasticsearchInstance#kibana_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#kibana_node_spec ApsarastackElasticsearchInstance#kibana_node_spec}
   */
   readonly kibanaNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#kibana_password ApsarastackElasticsearchInstance#kibana_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#kibana_password ApsarastackElasticsearchInstance#kibana_password}
   */
   readonly kibanaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#master_node_amount ApsarastackElasticsearchInstance#master_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#master_node_amount ApsarastackElasticsearchInstance#master_node_amount}
   */
   readonly masterNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#master_node_disk_size ApsarastackElasticsearchInstance#master_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#master_node_disk_size ApsarastackElasticsearchInstance#master_node_disk_size}
   */
   readonly masterNodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#master_node_disk_type ApsarastackElasticsearchInstance#master_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#master_node_disk_type ApsarastackElasticsearchInstance#master_node_disk_type}
   */
   readonly masterNodeDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#master_node_spec ApsarastackElasticsearchInstance#master_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#master_node_spec ApsarastackElasticsearchInstance#master_node_spec}
   */
   readonly masterNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#monitor_password ApsarastackElasticsearchInstance#monitor_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#monitor_password ApsarastackElasticsearchInstance#monitor_password}
   */
   readonly monitorPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#password ApsarastackElasticsearchInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#password ApsarastackElasticsearchInstance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#protocol ApsarastackElasticsearchInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#protocol ApsarastackElasticsearchInstance#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#scene ApsarastackElasticsearchInstance#scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#scene ApsarastackElasticsearchInstance#scene}
   */
   readonly scene: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#setting_config ApsarastackElasticsearchInstance#setting_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#setting_config ApsarastackElasticsearchInstance#setting_config}
   */
   readonly settingConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#thread_pool_search_queue_size ApsarastackElasticsearchInstance#thread_pool_search_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#thread_pool_search_queue_size ApsarastackElasticsearchInstance#thread_pool_search_queue_size}
   */
   readonly threadPoolSearchQueueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#thread_pool_write_queue_size ApsarastackElasticsearchInstance#thread_pool_write_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#thread_pool_write_queue_size ApsarastackElasticsearchInstance#thread_pool_write_queue_size}
   */
   readonly threadPoolWriteQueueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#version ApsarastackElasticsearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#version ApsarastackElasticsearchInstance#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#vswitch_id ApsarastackElasticsearchInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#vswitch_id ApsarastackElasticsearchInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#zone_id ApsarastackElasticsearchInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#zone_id ApsarastackElasticsearchInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#timeouts ApsarastackElasticsearchInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#timeouts ApsarastackElasticsearchInstance#timeouts}
   */
   readonly timeouts?: ApsarastackElasticsearchInstanceTimeouts;
   /**
   * vpc_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#vpc_whitelist ApsarastackElasticsearchInstance#vpc_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#vpc_whitelist ApsarastackElasticsearchInstance#vpc_whitelist}
   */
   readonly vpcWhitelist?: ApsarastackElasticsearchInstanceVpcWhitelistStruct[] | cdktf.IResolvable;
 }
 export interface ApsarastackElasticsearchInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#create ApsarastackElasticsearchInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#create ApsarastackElasticsearchInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#delete ApsarastackElasticsearchInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#delete ApsarastackElasticsearchInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#update ApsarastackElasticsearchInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#update ApsarastackElasticsearchInstance#update}
   */
   readonly update?: string;
 }
@@ -317,11 +317,11 @@ export class ApsarastackElasticsearchInstanceTimeoutsOutputReference extends cdk
 }
 export interface ApsarastackElasticsearchInstanceVpcWhitelistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#ips ApsarastackElasticsearchInstance#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#ips ApsarastackElasticsearchInstance#ips}
   */
   readonly ips?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#vpc_id ApsarastackElasticsearchInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#vpc_id ApsarastackElasticsearchInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -463,7 +463,7 @@ export class ApsarastackElasticsearchInstanceVpcWhitelistStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance apsarastack_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance apsarastack_elasticsearch_instance}
 */
 export class ApsarastackElasticsearchInstance extends cdktf.TerraformResource {
 
@@ -479,7 +479,7 @@ export class ApsarastackElasticsearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackElasticsearchInstance to import
-  * @param importFromId The id of the existing ApsarastackElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class ApsarastackElasticsearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_elasticsearch_instance apsarastack_elasticsearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_elasticsearch_instance apsarastack_elasticsearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,8 +502,8 @@ export class ApsarastackElasticsearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

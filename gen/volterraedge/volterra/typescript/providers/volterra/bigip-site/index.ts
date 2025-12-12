@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface BigipSiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#annotations BigipSite#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#annotations BigipSite#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#certified_hw BigipSite#certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#certified_hw BigipSite#certified_hw}
   */
   readonly certifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#description BigipSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#description BigipSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#disable BigipSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#disable BigipSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#id BigipSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#id BigipSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#labels BigipSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#labels BigipSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#logs_streaming_disabled BigipSite#logs_streaming_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#logs_streaming_disabled BigipSite#logs_streaming_disabled}
   */
   readonly logsStreamingDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#name BigipSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#name BigipSite#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#namespace BigipSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#namespace BigipSite#namespace}
   */
   readonly namespace: string;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#coordinates BigipSite#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#coordinates BigipSite#coordinates}
   */
   readonly coordinates?: BigipSiteCoordinates;
   /**
   * log_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#log_receiver BigipSite#log_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#log_receiver BigipSite#log_receiver}
   */
   readonly logReceiver?: BigipSiteLogReceiver;
   /**
   * master_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#master_nodes BigipSite#master_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#master_nodes BigipSite#master_nodes}
   */
   readonly masterNodes: BigipSiteMasterNodes[] | cdktf.IResolvable;
   /**
   * sw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#sw BigipSite#sw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#sw BigipSite#sw}
   */
   readonly sw?: BigipSiteSw;
 }
 export interface BigipSiteCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#latitude BigipSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#latitude BigipSite#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#longitude BigipSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#longitude BigipSite#longitude}
   */
   readonly longitude?: number;
 }
@@ -190,15 +190,15 @@ export class BigipSiteCoordinatesOutputReference extends cdktf.ComplexObject {
 }
 export interface BigipSiteLogReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#name BigipSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#name BigipSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#namespace BigipSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#namespace BigipSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#tenant BigipSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#tenant BigipSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -340,11 +340,11 @@ export class BigipSiteLogReceiverOutputReference extends cdktf.ComplexObject {
 }
 export interface BigipSiteMasterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#name BigipSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#name BigipSite#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#public_ip BigipSite#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#public_ip BigipSite#public_ip}
   */
   readonly publicIp?: string;
 }
@@ -486,11 +486,11 @@ export class BigipSiteMasterNodesList extends cdktf.ComplexList {
 }
 export interface BigipSiteSw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#default_sw_version BigipSite#default_sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#default_sw_version BigipSite#default_sw_version}
   */
   readonly defaultSwVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#volterra_software_version BigipSite#volterra_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#volterra_software_version BigipSite#volterra_software_version}
   */
   readonly volterraSoftwareVersion?: string;
 }
@@ -603,7 +603,7 @@ export class BigipSiteSwOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site volterra_bigip_site}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site volterra_bigip_site}
 */
 export class BigipSite extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class BigipSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BigipSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BigipSite to import
-  * @param importFromId The id of the existing BigipSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BigipSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BigipSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class BigipSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site volterra_bigip_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site volterra_bigip_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class BigipSite extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_bigip_site',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

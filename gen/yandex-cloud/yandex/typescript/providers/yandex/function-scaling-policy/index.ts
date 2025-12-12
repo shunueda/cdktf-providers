@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FunctionScalingPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Yandex Cloud Function id used to define function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#function_id FunctionScalingPolicy#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#function_id FunctionScalingPolicy#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#id FunctionScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#id FunctionScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface FunctionScalingPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#policy FunctionScalingPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#policy FunctionScalingPolicy#policy}
   */
   readonly policy?: FunctionScalingPolicyPolicy[] | cdktf.IResolvable;
 }
@@ -31,19 +31,19 @@ export interface FunctionScalingPolicyPolicy {
   /**
   * Yandex Cloud Function version tag for Yandex Cloud Function scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#tag FunctionScalingPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#tag FunctionScalingPolicy#tag}
   */
   readonly tag: string;
   /**
   * Max number of instances in one zone for Yandex Cloud Function with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#zone_instances_limit FunctionScalingPolicy#zone_instances_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#zone_instances_limit FunctionScalingPolicy#zone_instances_limit}
   */
   readonly zoneInstancesLimit?: number;
   /**
   * Max number of requests in one zone for Yandex Cloud Function with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#zone_requests_limit FunctionScalingPolicy#zone_requests_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#zone_requests_limit FunctionScalingPolicy#zone_requests_limit}
   */
   readonly zoneRequestsLimit?: number;
 }
@@ -214,7 +214,7 @@ export class FunctionScalingPolicyPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy yandex_function_scaling_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy yandex_function_scaling_policy}
 */
 export class FunctionScalingPolicy extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class FunctionScalingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionScalingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionScalingPolicy to import
-  * @param importFromId The id of the existing FunctionScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionScalingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class FunctionScalingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function_scaling_policy yandex_function_scaling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/function_scaling_policy yandex_function_scaling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class FunctionScalingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_function_scaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

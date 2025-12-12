@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEdasK8SApplicationScalingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#app_id ApsarastackEdasK8SApplicationScalingRule#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#app_id ApsarastackEdasK8SApplicationScalingRule#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#enabled ApsarastackEdasK8SApplicationScalingRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#enabled ApsarastackEdasK8SApplicationScalingRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#id ApsarastackEdasK8SApplicationScalingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#id ApsarastackEdasK8SApplicationScalingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#max_replicas ApsarastackEdasK8SApplicationScalingRule#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#max_replicas ApsarastackEdasK8SApplicationScalingRule#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#min_replicas ApsarastackEdasK8SApplicationScalingRule#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#min_replicas ApsarastackEdasK8SApplicationScalingRule#min_replicas}
   */
   readonly minReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_select_policy ApsarastackEdasK8SApplicationScalingRule#scale_down_select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_select_policy ApsarastackEdasK8SApplicationScalingRule#scale_down_select_policy}
   */
   readonly scaleDownSelectPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_stabilization_window_seconds ApsarastackEdasK8SApplicationScalingRule#scale_down_stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_stabilization_window_seconds ApsarastackEdasK8SApplicationScalingRule#scale_down_stabilization_window_seconds}
   */
   readonly scaleDownStabilizationWindowSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_select_policy ApsarastackEdasK8SApplicationScalingRule#scale_up_select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_select_policy ApsarastackEdasK8SApplicationScalingRule#scale_up_select_policy}
   */
   readonly scaleUpSelectPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_stabilization_window_seconds ApsarastackEdasK8SApplicationScalingRule#scale_up_stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_stabilization_window_seconds ApsarastackEdasK8SApplicationScalingRule#scale_up_stabilization_window_seconds}
   */
   readonly scaleUpStabilizationWindowSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scaling_rule_name ApsarastackEdasK8SApplicationScalingRule#scaling_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scaling_rule_name ApsarastackEdasK8SApplicationScalingRule#scaling_rule_name}
   */
   readonly scalingRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scaling_rule_type ApsarastackEdasK8SApplicationScalingRule#scaling_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scaling_rule_type ApsarastackEdasK8SApplicationScalingRule#scaling_rule_type}
   */
   readonly scalingRuleType: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#metrics ApsarastackEdasK8SApplicationScalingRule#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#metrics ApsarastackEdasK8SApplicationScalingRule#metrics}
   */
   readonly metrics?: ApsarastackEdasK8SApplicationScalingRuleMetrics[] | cdktf.IResolvable;
   /**
   * scale_down_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_policies ApsarastackEdasK8SApplicationScalingRule#scale_down_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_down_policies ApsarastackEdasK8SApplicationScalingRule#scale_down_policies}
   */
   readonly scaleDownPolicies?: ApsarastackEdasK8SApplicationScalingRuleScaleDownPolicies[] | cdktf.IResolvable;
   /**
   * scale_up_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_policies ApsarastackEdasK8SApplicationScalingRule#scale_up_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#scale_up_policies ApsarastackEdasK8SApplicationScalingRule#scale_up_policies}
   */
   readonly scaleUpPolicies?: ApsarastackEdasK8SApplicationScalingRuleScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#triggers ApsarastackEdasK8SApplicationScalingRule#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#triggers ApsarastackEdasK8SApplicationScalingRule#triggers}
   */
   readonly triggers?: ApsarastackEdasK8SApplicationScalingRuleTriggers[] | cdktf.IResolvable;
 }
 export interface ApsarastackEdasK8SApplicationScalingRuleMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#utilization ApsarastackEdasK8SApplicationScalingRule#utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#utilization ApsarastackEdasK8SApplicationScalingRule#utilization}
   */
   readonly utilization: number;
 }
@@ -224,15 +224,15 @@ export class ApsarastackEdasK8SApplicationScalingRuleMetricsList extends cdktf.C
 }
 export interface ApsarastackEdasK8SApplicationScalingRuleScaleDownPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period_seconds ApsarastackEdasK8SApplicationScalingRule#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period_seconds ApsarastackEdasK8SApplicationScalingRule#period_seconds}
   */
   readonly periodSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#value ApsarastackEdasK8SApplicationScalingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#value ApsarastackEdasK8SApplicationScalingRule#value}
   */
   readonly value: number;
 }
@@ -397,15 +397,15 @@ export class ApsarastackEdasK8SApplicationScalingRuleScaleDownPoliciesList exten
 }
 export interface ApsarastackEdasK8SApplicationScalingRuleScaleUpPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period_seconds ApsarastackEdasK8SApplicationScalingRule#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period_seconds ApsarastackEdasK8SApplicationScalingRule#period_seconds}
   */
   readonly periodSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#value ApsarastackEdasK8SApplicationScalingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#value ApsarastackEdasK8SApplicationScalingRule#value}
   */
   readonly value: number;
 }
@@ -572,15 +572,15 @@ export interface ApsarastackEdasK8SApplicationScalingRuleTriggersTimerInDay {
   /**
   * like '08:00'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#at_time ApsarastackEdasK8SApplicationScalingRule#at_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#at_time ApsarastackEdasK8SApplicationScalingRule#at_time}
   */
   readonly atTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#horizon_mode ApsarastackEdasK8SApplicationScalingRule#horizon_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#horizon_mode ApsarastackEdasK8SApplicationScalingRule#horizon_mode}
   */
   readonly horizonMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#replicas ApsarastackEdasK8SApplicationScalingRule#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#replicas ApsarastackEdasK8SApplicationScalingRule#replicas}
   */
   readonly replicas: number;
 }
@@ -748,29 +748,29 @@ export class ApsarastackEdasK8SApplicationScalingRuleTriggersTimerInDayList exte
 }
 export interface ApsarastackEdasK8SApplicationScalingRuleTriggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#name ApsarastackEdasK8SApplicationScalingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#name ApsarastackEdasK8SApplicationScalingRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period ApsarastackEdasK8SApplicationScalingRule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#period ApsarastackEdasK8SApplicationScalingRule#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_month ApsarastackEdasK8SApplicationScalingRule#timer_in_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_month ApsarastackEdasK8SApplicationScalingRule#timer_in_month}
   */
   readonly timerInMonth?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_week ApsarastackEdasK8SApplicationScalingRule#timer_in_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_week ApsarastackEdasK8SApplicationScalingRule#timer_in_week}
   */
   readonly timerInWeek?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#type ApsarastackEdasK8SApplicationScalingRule#type}
   */
   readonly type?: string;
   /**
   * timer_in_day block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_day ApsarastackEdasK8SApplicationScalingRule#timer_in_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#timer_in_day ApsarastackEdasK8SApplicationScalingRule#timer_in_day}
   */
   readonly timerInDay?: ApsarastackEdasK8SApplicationScalingRuleTriggersTimerInDay[] | cdktf.IResolvable;
 }
@@ -1031,7 +1031,7 @@ export class ApsarastackEdasK8SApplicationScalingRuleTriggersList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule apsarastack_edas_k8s_application_scaling_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule apsarastack_edas_k8s_application_scaling_rule}
 */
 export class ApsarastackEdasK8SApplicationScalingRule extends cdktf.TerraformResource {
 
@@ -1047,7 +1047,7 @@ export class ApsarastackEdasK8SApplicationScalingRule extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ApsarastackEdasK8SApplicationScalingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEdasK8SApplicationScalingRule to import
-  * @param importFromId The id of the existing ApsarastackEdasK8SApplicationScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEdasK8SApplicationScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEdasK8SApplicationScalingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1059,7 +1059,7 @@ export class ApsarastackEdasK8SApplicationScalingRule extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application_scaling_rule apsarastack_edas_k8s_application_scaling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application_scaling_rule apsarastack_edas_k8s_application_scaling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1070,8 +1070,8 @@ export class ApsarastackEdasK8SApplicationScalingRule extends cdktf.TerraformRes
       terraformResourceType: 'apsarastack_edas_k8s_application_scaling_rule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

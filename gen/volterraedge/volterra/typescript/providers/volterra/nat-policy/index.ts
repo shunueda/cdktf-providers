@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface NatPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#annotations NatPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#annotations NatPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#description NatPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#description NatPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#disable NatPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#disable NatPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#id NatPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#id NatPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#labels NatPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#labels NatPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#rules NatPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#rules NatPolicy#rules}
   */
   readonly rules: NatPolicyRules[] | cdktf.IResolvable;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site NatPolicy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#site NatPolicy#site}
   */
   readonly site?: NatPolicySite;
 }
 export interface NatPolicyRulesActionDynamicElasticIpsRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -242,7 +242,7 @@ export interface NatPolicyRulesActionDynamicElasticIps {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesActionDynamicElasticIpsRefs[] | cdktf.IResolvable;
 }
@@ -323,11 +323,11 @@ export class NatPolicyRulesActionDynamicElasticIpsOutputReference extends cdktf.
 }
 export interface NatPolicyRulesActionDynamicPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#ipv6_prefixes NatPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#ipv6_prefixes NatPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#prefixes NatPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#prefixes NatPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -442,13 +442,13 @@ export interface NatPolicyRulesActionDynamic {
   /**
   * elastic_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#elastic_ips NatPolicy#elastic_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#elastic_ips NatPolicy#elastic_ips}
   */
   readonly elasticIps?: NatPolicyRulesActionDynamicElasticIps;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#pools NatPolicy#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#pools NatPolicy#pools}
   */
   readonly pools?: NatPolicyRulesActionDynamicPools;
 }
@@ -561,13 +561,13 @@ export class NatPolicyRulesActionDynamicOutputReference extends cdktf.ComplexObj
 }
 export interface NatPolicyRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_cidr NatPolicy#virtual_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#virtual_cidr NatPolicy#virtual_cidr}
   */
   readonly virtualCidr?: string;
   /**
   * dynamic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#dynamic NatPolicy#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#dynamic NatPolicy#dynamic}
   */
   readonly dynamic?: NatPolicyRulesActionDynamic;
 }
@@ -680,15 +680,15 @@ export class NatPolicyRulesActionOutputReference extends cdktf.ComplexObject {
 }
 export interface NatPolicyRulesCloudConnectRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -869,7 +869,7 @@ export interface NatPolicyRulesCloudConnect {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesCloudConnectRefs[] | cdktf.IResolvable;
 }
@@ -950,15 +950,15 @@ export class NatPolicyRulesCloudConnectOutputReference extends cdktf.ComplexObje
 }
 export interface NatPolicyRulesCriteriaDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1100,15 +1100,15 @@ export class NatPolicyRulesCriteriaDestinationPortOutputReference extends cdktf.
 }
 export interface NatPolicyRulesCriteriaSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1287,15 +1287,15 @@ export class NatPolicyRulesCriteriaSegmentRefsList extends cdktf.ComplexList {
 }
 export interface NatPolicyRulesCriteriaSegmentVirtualNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1476,13 +1476,13 @@ export interface NatPolicyRulesCriteriaSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesCriteriaSegmentRefs[] | cdktf.IResolvable;
   /**
   * virtual_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
   */
   readonly virtualNetworks?: NatPolicyRulesCriteriaSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
@@ -1592,15 +1592,15 @@ export class NatPolicyRulesCriteriaSegmentOutputReference extends cdktf.ComplexO
 }
 export interface NatPolicyRulesCriteriaSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1742,15 +1742,15 @@ export class NatPolicyRulesCriteriaSourcePortOutputReference extends cdktf.Compl
 }
 export interface NatPolicyRulesCriteriaTcpDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1892,15 +1892,15 @@ export class NatPolicyRulesCriteriaTcpDestinationPortOutputReference extends cdk
 }
 export interface NatPolicyRulesCriteriaTcpSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -2044,13 +2044,13 @@ export interface NatPolicyRulesCriteriaTcp {
   /**
   * destination_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
   */
   readonly destinationPort?: NatPolicyRulesCriteriaTcpDestinationPort;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#source_port NatPolicy#source_port}
   */
   readonly sourcePort?: NatPolicyRulesCriteriaTcpSourcePort;
 }
@@ -2163,15 +2163,15 @@ export class NatPolicyRulesCriteriaTcpOutputReference extends cdktf.ComplexObjec
 }
 export interface NatPolicyRulesCriteriaUdpDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -2313,15 +2313,15 @@ export class NatPolicyRulesCriteriaUdpDestinationPortOutputReference extends cdk
 }
 export interface NatPolicyRulesCriteriaUdpSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -2465,13 +2465,13 @@ export interface NatPolicyRulesCriteriaUdp {
   /**
   * destination_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
   */
   readonly destinationPort?: NatPolicyRulesCriteriaUdpDestinationPort;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#source_port NatPolicy#source_port}
   */
   readonly sourcePort?: NatPolicyRulesCriteriaUdpSourcePort;
 }
@@ -2584,15 +2584,15 @@ export class NatPolicyRulesCriteriaUdpOutputReference extends cdktf.ComplexObjec
 }
 export interface NatPolicyRulesCriteriaVirtualNetworkRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2773,7 +2773,7 @@ export interface NatPolicyRulesCriteriaVirtualNetwork {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs?: NatPolicyRulesCriteriaVirtualNetworkRefs[] | cdktf.IResolvable;
 }
@@ -2857,67 +2857,67 @@ export class NatPolicyRulesCriteriaVirtualNetworkOutputReference extends cdktf.C
 }
 export interface NatPolicyRulesCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#any NatPolicy#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#any NatPolicy#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_cidr NatPolicy#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#destination_cidr NatPolicy#destination_cidr}
   */
   readonly destinationCidr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#icmp NatPolicy#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#icmp NatPolicy#icmp}
   */
   readonly icmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#protocol NatPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#protocol NatPolicy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site_local_inside_network NatPolicy#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#site_local_inside_network NatPolicy#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site_local_network NatPolicy#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#site_local_network NatPolicy#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_cidr NatPolicy#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#source_cidr NatPolicy#source_cidr}
   */
   readonly sourceCidr?: string[];
   /**
   * destination_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
   */
   readonly destinationPort?: NatPolicyRulesCriteriaDestinationPort;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#segment NatPolicy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#segment NatPolicy#segment}
   */
   readonly segment?: NatPolicyRulesCriteriaSegment;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#source_port NatPolicy#source_port}
   */
   readonly sourcePort?: NatPolicyRulesCriteriaSourcePort;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tcp NatPolicy#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tcp NatPolicy#tcp}
   */
   readonly tcp?: NatPolicyRulesCriteriaTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#udp NatPolicy#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#udp NatPolicy#udp}
   */
   readonly udp?: NatPolicyRulesCriteriaUdp;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
   */
   readonly virtualNetwork?: NatPolicyRulesCriteriaVirtualNetwork;
 }
@@ -3349,15 +3349,15 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
 }
 export interface NatPolicyRulesNetworkInterfaceRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3538,7 +3538,7 @@ export interface NatPolicyRulesNetworkInterface {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesNetworkInterfaceRefs[] | cdktf.IResolvable;
 }
@@ -3619,15 +3619,15 @@ export class NatPolicyRulesNetworkInterfaceOutputReference extends cdktf.Complex
 }
 export interface NatPolicyRulesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3806,13 +3806,13 @@ export class NatPolicyRulesNodeInterfaceListInterfaceList extends cdktf.ComplexL
 }
 export interface NatPolicyRulesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#node NatPolicy#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#node NatPolicy#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#interface NatPolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#interface NatPolicy#interface}
   */
   readonly interface?: NatPolicyRulesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -3959,7 +3959,7 @@ export interface NatPolicyRulesNodeInterface {
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#list NatPolicy#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#list NatPolicy#list}
   */
   readonly list?: NatPolicyRulesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -4043,15 +4043,15 @@ export class NatPolicyRulesNodeInterfaceOutputReference extends cdktf.ComplexObj
 }
 export interface NatPolicyRulesSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4230,15 +4230,15 @@ export class NatPolicyRulesSegmentRefsList extends cdktf.ComplexList {
 }
 export interface NatPolicyRulesSegmentVirtualNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4419,13 +4419,13 @@ export interface NatPolicyRulesSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesSegmentRefs[] | cdktf.IResolvable;
   /**
   * virtual_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
   */
   readonly virtualNetworks?: NatPolicyRulesSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
@@ -4535,15 +4535,15 @@ export class NatPolicyRulesSegmentOutputReference extends cdktf.ComplexObject {
 }
 export interface NatPolicyRulesVirtualNetworkRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4724,7 +4724,7 @@ export interface NatPolicyRulesVirtualNetwork {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs?: NatPolicyRulesVirtualNetworkRefs[] | cdktf.IResolvable;
 }
@@ -4808,57 +4808,57 @@ export class NatPolicyRulesVirtualNetworkOutputReference extends cdktf.ComplexOb
 }
 export interface NatPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#disable NatPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#disable NatPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#enable NatPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#enable NatPolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#action NatPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#action NatPolicy#action}
   */
   readonly action: NatPolicyRulesAction;
   /**
   * cloud_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#cloud_connect NatPolicy#cloud_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#cloud_connect NatPolicy#cloud_connect}
   */
   readonly cloudConnect?: NatPolicyRulesCloudConnect;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#criteria NatPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#criteria NatPolicy#criteria}
   */
   readonly criteria?: NatPolicyRulesCriteria;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#network_interface NatPolicy#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#network_interface NatPolicy#network_interface}
   */
   readonly networkInterface?: NatPolicyRulesNetworkInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#node_interface NatPolicy#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#node_interface NatPolicy#node_interface}
   */
   readonly nodeInterface?: NatPolicyRulesNodeInterface;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#segment NatPolicy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#segment NatPolicy#segment}
   */
   readonly segment?: NatPolicyRulesSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
   */
   readonly virtualNetwork?: NatPolicyRulesVirtualNetwork;
 }
@@ -5229,15 +5229,15 @@ export class NatPolicyRulesList extends cdktf.ComplexList {
 }
 export interface NatPolicySiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5418,7 +5418,7 @@ export interface NatPolicySite {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicySiteRefs[] | cdktf.IResolvable;
 }
@@ -5499,7 +5499,7 @@ export class NatPolicySiteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy volterra_nat_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy volterra_nat_policy}
 */
 export class NatPolicy extends cdktf.TerraformResource {
 
@@ -5515,7 +5515,7 @@ export class NatPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatPolicy to import
-  * @param importFromId The id of the existing NatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5527,7 +5527,7 @@ export class NatPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy volterra_nat_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nat_policy volterra_nat_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5538,8 +5538,8 @@ export class NatPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nat_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

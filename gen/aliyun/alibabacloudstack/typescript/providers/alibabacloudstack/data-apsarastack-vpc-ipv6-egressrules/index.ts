@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackVpcIpv6EgressrulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#id DataApsarastackVpcIpv6Egressrules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#id DataApsarastackVpcIpv6Egressrules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ids DataApsarastackVpcIpv6Egressrules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ids DataApsarastackVpcIpv6Egressrules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#instance_id DataApsarastackVpcIpv6Egressrules#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#instance_id DataApsarastackVpcIpv6Egressrules#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ipv6_egress_rule_name DataApsarastackVpcIpv6Egressrules#ipv6_egress_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ipv6_egress_rule_name DataApsarastackVpcIpv6Egressrules#ipv6_egress_rule_name}
   */
   readonly ipv6EgressRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ipv6_gateway_id DataApsarastackVpcIpv6Egressrules#ipv6_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#ipv6_gateway_id DataApsarastackVpcIpv6Egressrules#ipv6_gateway_id}
   */
   readonly ipv6GatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#name_regex DataApsarastackVpcIpv6Egressrules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#name_regex DataApsarastackVpcIpv6Egressrules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#output_file DataApsarastackVpcIpv6Egressrules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#output_file DataApsarastackVpcIpv6Egressrules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#status DataApsarastackVpcIpv6Egressrules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#status DataApsarastackVpcIpv6Egressrules#status}
   */
   readonly status?: string;
 }
@@ -155,7 +155,7 @@ export class DataApsarastackVpcIpv6EgressrulesRulesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules apsarastack_vpc_ipv6_egressrules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules apsarastack_vpc_ipv6_egressrules}
 */
 export class DataApsarastackVpcIpv6Egressrules extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataApsarastackVpcIpv6Egressrules extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataApsarastackVpcIpv6Egressrules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackVpcIpv6Egressrules to import
-  * @param importFromId The id of the existing DataApsarastackVpcIpv6Egressrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackVpcIpv6Egressrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackVpcIpv6Egressrules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataApsarastackVpcIpv6Egressrules extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_egressrules apsarastack_vpc_ipv6_egressrules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_egressrules apsarastack_vpc_ipv6_egressrules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataApsarastackVpcIpv6Egressrules extends cdktf.TerraformDataSource
       terraformResourceType: 'apsarastack_vpc_ipv6_egressrules',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface SlbAccesscontrollistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#acl_name SlbAccesscontrollist#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#acl_name SlbAccesscontrollist#acl_name}
   */
   readonly aclName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#address_ip_version SlbAccesscontrollist#address_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#address_ip_version SlbAccesscontrollist#address_ip_version}
   */
   readonly addressIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#id SlbAccesscontrollist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#id SlbAccesscontrollist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#ip_version SlbAccesscontrollist#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#ip_version SlbAccesscontrollist#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#name SlbAccesscontrollist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#name SlbAccesscontrollist#name}
   */
   readonly name?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#entry_list SlbAccesscontrollist#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#entry_list SlbAccesscontrollist#entry_list}
   */
   readonly entryList?: SlbAccesscontrollistEntryListStruct[] | cdktf.IResolvable;
 }
 export interface SlbAccesscontrollistEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#comment SlbAccesscontrollist#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#comment SlbAccesscontrollist#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#entry SlbAccesscontrollist#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#entry SlbAccesscontrollist#entry}
   */
   readonly entry: string;
 }
@@ -185,7 +185,7 @@ export class SlbAccesscontrollistEntryListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist alibabacloudstack_slb_accesscontrollist}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist alibabacloudstack_slb_accesscontrollist}
 */
 export class SlbAccesscontrollist extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class SlbAccesscontrollist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbAccesscontrollist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbAccesscontrollist to import
-  * @param importFromId The id of the existing SlbAccesscontrollist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbAccesscontrollist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbAccesscontrollist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class SlbAccesscontrollist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_accesscontrollist alibabacloudstack_slb_accesscontrollist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/slb_accesscontrollist alibabacloudstack_slb_accesscontrollist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class SlbAccesscontrollist extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_slb_accesscontrollist',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

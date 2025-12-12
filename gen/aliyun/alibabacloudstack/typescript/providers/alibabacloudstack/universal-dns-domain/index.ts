@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface UniversalDnsDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain#name UniversalDnsDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain#name UniversalDnsDomain#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain#remark UniversalDnsDomain#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain#remark UniversalDnsDomain#remark}
   */
   readonly remark?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain alibabacloudstack_universal_dns_domain}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain alibabacloudstack_universal_dns_domain}
 */
 export class UniversalDnsDomain extends cdktf.TerraformResource {
 
@@ -34,7 +34,7 @@ export class UniversalDnsDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UniversalDnsDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UniversalDnsDomain to import
-  * @param importFromId The id of the existing UniversalDnsDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UniversalDnsDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UniversalDnsDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class UniversalDnsDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_domain alibabacloudstack_universal_dns_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_domain alibabacloudstack_universal_dns_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class UniversalDnsDomain extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_universal_dns_domain',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

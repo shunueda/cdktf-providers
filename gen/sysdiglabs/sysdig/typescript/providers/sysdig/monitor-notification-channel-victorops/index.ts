@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorNotificationChannelVictoropsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#api_key MonitorNotificationChannelVictorops#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#api_key MonitorNotificationChannelVictorops#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#enabled MonitorNotificationChannelVictorops#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#enabled MonitorNotificationChannelVictorops#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#id MonitorNotificationChannelVictorops#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#id MonitorNotificationChannelVictorops#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#name MonitorNotificationChannelVictorops#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#name MonitorNotificationChannelVictorops#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#notify_when_ok MonitorNotificationChannelVictorops#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#notify_when_ok MonitorNotificationChannelVictorops#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#notify_when_resolved MonitorNotificationChannelVictorops#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#notify_when_resolved MonitorNotificationChannelVictorops#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#routing_key MonitorNotificationChannelVictorops#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#routing_key MonitorNotificationChannelVictorops#routing_key}
   */
   readonly routingKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#send_test_notification MonitorNotificationChannelVictorops#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#send_test_notification MonitorNotificationChannelVictorops#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#share_with_current_team MonitorNotificationChannelVictorops#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#share_with_current_team MonitorNotificationChannelVictorops#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#timeouts MonitorNotificationChannelVictorops#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#timeouts MonitorNotificationChannelVictorops#timeouts}
   */
   readonly timeouts?: MonitorNotificationChannelVictoropsTimeouts;
 }
 export interface MonitorNotificationChannelVictoropsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#create MonitorNotificationChannelVictorops#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#create MonitorNotificationChannelVictorops#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#delete MonitorNotificationChannelVictorops#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#delete MonitorNotificationChannelVictorops#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#read MonitorNotificationChannelVictorops#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#read MonitorNotificationChannelVictorops#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#update MonitorNotificationChannelVictorops#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#update MonitorNotificationChannelVictorops#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class MonitorNotificationChannelVictoropsTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops sysdig_monitor_notification_channel_victorops}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops sysdig_monitor_notification_channel_victorops}
 */
 export class MonitorNotificationChannelVictorops extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class MonitorNotificationChannelVictorops extends cdktf.TerraformResource
   * Generates CDKTF code for importing a MonitorNotificationChannelVictorops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorNotificationChannelVictorops to import
-  * @param importFromId The id of the existing MonitorNotificationChannelVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorNotificationChannelVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorNotificationChannelVictorops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class MonitorNotificationChannelVictorops extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_victorops sysdig_monitor_notification_channel_victorops} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_victorops sysdig_monitor_notification_channel_victorops} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class MonitorNotificationChannelVictorops extends cdktf.TerraformResource
       terraformResourceType: 'sysdig_monitor_notification_channel_victorops',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

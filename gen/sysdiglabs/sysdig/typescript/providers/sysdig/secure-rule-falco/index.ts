@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface SecureRuleFalcoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#append SecureRuleFalco#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#append SecureRuleFalco#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#condition SecureRuleFalco#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#condition SecureRuleFalco#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#description SecureRuleFalco#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#description SecureRuleFalco#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#id SecureRuleFalco#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#id SecureRuleFalco#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#minimum_engine_version SecureRuleFalco#minimum_engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#minimum_engine_version SecureRuleFalco#minimum_engine_version}
   */
   readonly minimumEngineVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#name SecureRuleFalco#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#name SecureRuleFalco#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#output SecureRuleFalco#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#output SecureRuleFalco#output}
   */
   readonly output?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#priority SecureRuleFalco#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#priority SecureRuleFalco#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#source SecureRuleFalco#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#source SecureRuleFalco#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#tags SecureRuleFalco#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#tags SecureRuleFalco#tags}
   */
   readonly tags?: string[];
   /**
   * exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#exceptions SecureRuleFalco#exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#exceptions SecureRuleFalco#exceptions}
   */
   readonly exceptions?: SecureRuleFalcoExceptions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#timeouts SecureRuleFalco#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#timeouts SecureRuleFalco#timeouts}
   */
   readonly timeouts?: SecureRuleFalcoTimeouts;
 }
 export interface SecureRuleFalcoExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#comps SecureRuleFalco#comps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#comps SecureRuleFalco#comps}
   */
   readonly comps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#fields SecureRuleFalco#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#fields SecureRuleFalco#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#name SecureRuleFalco#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#name SecureRuleFalco#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#values SecureRuleFalco#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#values SecureRuleFalco#values}
   */
   readonly values: string;
 }
@@ -274,19 +274,19 @@ export class SecureRuleFalcoExceptionsList extends cdktf.ComplexList {
 }
 export interface SecureRuleFalcoTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#create SecureRuleFalco#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#create SecureRuleFalco#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#delete SecureRuleFalco#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#delete SecureRuleFalco#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#read SecureRuleFalco#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#read SecureRuleFalco#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#update SecureRuleFalco#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#update SecureRuleFalco#update}
   */
   readonly update?: string;
 }
@@ -467,7 +467,7 @@ export class SecureRuleFalcoTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco sysdig_secure_rule_falco}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco sysdig_secure_rule_falco}
 */
 export class SecureRuleFalco extends cdktf.TerraformResource {
 
@@ -483,7 +483,7 @@ export class SecureRuleFalco extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureRuleFalco resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureRuleFalco to import
-  * @param importFromId The id of the existing SecureRuleFalco that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureRuleFalco that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureRuleFalco to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class SecureRuleFalco extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_falco sysdig_secure_rule_falco} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_rule_falco sysdig_secure_rule_falco} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,8 +506,8 @@ export class SecureRuleFalco extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_rule_falco',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

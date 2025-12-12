@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp
+// https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface CheckIcmpConfig extends cdktf.TerraformMetaArguments {
   * For hostnames: must start and end with alphanumeric characters. For IP addresses: supports 
   * both IPv4 (e.g., '192.168.1.1') and IPv6 (e.g., '2001:db8::1') formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#address CheckIcmp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#address CheckIcmp#address}
   */
   readonly address: string;
   /**
@@ -21,53 +21,53 @@ export interface CheckIcmpConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#contact_groups CheckIcmp#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#contact_groups CheckIcmp#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#include_in_global_metrics CheckIcmp#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#include_in_global_metrics CheckIcmp#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#interval CheckIcmp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#interval CheckIcmp#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#is_paused CheckIcmp#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#is_paused CheckIcmp#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#locations CheckIcmp#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#locations CheckIcmp#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#name CheckIcmp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#name CheckIcmp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#notes CheckIcmp#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#notes CheckIcmp#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#num_retries CheckIcmp#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#num_retries CheckIcmp#num_retries}
   */
   readonly numRetries?: number;
   /**
   * How many locations should be down before an alert is sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#sensitivity CheckIcmp#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#sensitivity CheckIcmp#sensitivity}
   */
   readonly sensitivity?: number;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#sla CheckIcmp#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#sla CheckIcmp#sla}
   */
   readonly sla?: CheckIcmpSla;
   /**
@@ -77,13 +77,13 @@ export interface CheckIcmpConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#tags CheckIcmp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#tags CheckIcmp#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to use IPv4 or IPv6 for the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#use_ip_version CheckIcmp#use_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#use_ip_version CheckIcmp#use_ip_version}
   */
   readonly useIpVersion?: string;
 }
@@ -91,13 +91,13 @@ export interface CheckIcmpSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#latency CheckIcmp#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#latency CheckIcmp#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#uptime CheckIcmp#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#uptime CheckIcmp#uptime}
   */
   readonly uptime?: string;
 }
@@ -220,7 +220,7 @@ export class CheckIcmpSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp uptime_check_icmp}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp uptime_check_icmp}
 */
 export class CheckIcmp extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class CheckIcmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckIcmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckIcmp to import
-  * @param importFromId The id of the existing CheckIcmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckIcmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckIcmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class CheckIcmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_icmp uptime_check_icmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_icmp uptime_check_icmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class CheckIcmp extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_icmp',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.21.0',
-        providerVersionConstraint: '2.21.0'
+        providerVersion: '2.22.0',
+        providerVersionConstraint: '2.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

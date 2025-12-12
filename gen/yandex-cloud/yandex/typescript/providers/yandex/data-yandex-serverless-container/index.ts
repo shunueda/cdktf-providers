@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexServerlessContainerConfig extends cdktf.TerraformMeta
   /**
   * Yandex Cloud Serverless Container ID used to define container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#container_id DataYandexServerlessContainer#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#container_id DataYandexServerlessContainer#container_id}
   */
   readonly containerId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#folder_id DataYandexServerlessContainer#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#folder_id DataYandexServerlessContainer#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#id DataYandexServerlessContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#id DataYandexServerlessContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataYandexServerlessContainerConfig extends cdktf.TerraformMeta
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#name DataYandexServerlessContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#name DataYandexServerlessContainer#name}
   */
   readonly name?: string;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#connectivity DataYandexServerlessContainer#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#connectivity DataYandexServerlessContainer#connectivity}
   */
   readonly connectivity?: DataYandexServerlessContainerConnectivity;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#metadata_options DataYandexServerlessContainer#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#metadata_options DataYandexServerlessContainer#metadata_options}
   */
   readonly metadataOptions?: DataYandexServerlessContainerMetadataOptions;
   /**
   * mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#mounts DataYandexServerlessContainer#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#mounts DataYandexServerlessContainer#mounts}
   */
   readonly mounts?: DataYandexServerlessContainerMounts[] | cdktf.IResolvable;
   /**
   * runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#runtime DataYandexServerlessContainer#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#runtime DataYandexServerlessContainer#runtime}
   */
   readonly runtime?: DataYandexServerlessContainerRuntime;
   /**
   * secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#secrets DataYandexServerlessContainer#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#secrets DataYandexServerlessContainer#secrets}
   */
   readonly secrets?: DataYandexServerlessContainerSecrets[] | cdktf.IResolvable;
   /**
   * storage_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#storage_mounts DataYandexServerlessContainer#storage_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#storage_mounts DataYandexServerlessContainer#storage_mounts}
   */
   readonly storageMounts?: DataYandexServerlessContainerStorageMounts[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export class DataYandexServerlessContainerLogOptionsList extends cdktf.ComplexLi
 }
 export interface DataYandexServerlessContainerConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#network_id DataYandexServerlessContainer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#network_id DataYandexServerlessContainer#network_id}
   */
   readonly networkId: string;
 }
@@ -418,11 +418,11 @@ export class DataYandexServerlessContainerConnectivityOutputReference extends cd
 }
 export interface DataYandexServerlessContainerMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#aws_v1_http_endpoint DataYandexServerlessContainer#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#aws_v1_http_endpoint DataYandexServerlessContainer#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#gce_http_endpoint DataYandexServerlessContainer#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#gce_http_endpoint DataYandexServerlessContainer#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
 }
@@ -535,11 +535,11 @@ export class DataYandexServerlessContainerMetadataOptionsOutputReference extends
 }
 export interface DataYandexServerlessContainerMountsEphemeralDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#block_size_kb DataYandexServerlessContainer#block_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#block_size_kb DataYandexServerlessContainer#block_size_kb}
   */
   readonly blockSizeKb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#size_gb DataYandexServerlessContainer#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#size_gb DataYandexServerlessContainer#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -649,11 +649,11 @@ export class DataYandexServerlessContainerMountsEphemeralDiskOutputReference ext
 }
 export interface DataYandexServerlessContainerMountsObjectStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#bucket DataYandexServerlessContainer#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#bucket DataYandexServerlessContainer#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#prefix DataYandexServerlessContainer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#prefix DataYandexServerlessContainer#prefix}
   */
   readonly prefix?: string;
 }
@@ -763,23 +763,23 @@ export class DataYandexServerlessContainerMountsObjectStorageOutputReference ext
 }
 export interface DataYandexServerlessContainerMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#mode DataYandexServerlessContainer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#mode DataYandexServerlessContainer#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#mount_point_path DataYandexServerlessContainer#mount_point_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#mount_point_path DataYandexServerlessContainer#mount_point_path}
   */
   readonly mountPointPath: string;
   /**
   * ephemeral_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#ephemeral_disk DataYandexServerlessContainer#ephemeral_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#ephemeral_disk DataYandexServerlessContainer#ephemeral_disk}
   */
   readonly ephemeralDisk?: DataYandexServerlessContainerMountsEphemeralDisk;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#object_storage DataYandexServerlessContainer#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#object_storage DataYandexServerlessContainer#object_storage}
   */
   readonly objectStorage?: DataYandexServerlessContainerMountsObjectStorage;
 }
@@ -979,7 +979,7 @@ export class DataYandexServerlessContainerMountsList extends cdktf.ComplexList {
 }
 export interface DataYandexServerlessContainerRuntime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#type DataYandexServerlessContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#type DataYandexServerlessContainer#type}
   */
   readonly type: string;
 }
@@ -1060,22 +1060,22 @@ export class DataYandexServerlessContainerRuntimeOutputReference extends cdktf.C
 }
 export interface DataYandexServerlessContainerSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#environment_variable DataYandexServerlessContainer#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#environment_variable DataYandexServerlessContainer#environment_variable}
   */
   readonly environmentVariable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#id DataYandexServerlessContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#id DataYandexServerlessContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#key DataYandexServerlessContainer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#key DataYandexServerlessContainer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#version_id DataYandexServerlessContainer#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#version_id DataYandexServerlessContainer#version_id}
   */
   readonly versionId: string;
 }
@@ -1266,19 +1266,19 @@ export class DataYandexServerlessContainerSecretsList extends cdktf.ComplexList 
 }
 export interface DataYandexServerlessContainerStorageMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#bucket DataYandexServerlessContainer#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#bucket DataYandexServerlessContainer#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#mount_point_path DataYandexServerlessContainer#mount_point_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#mount_point_path DataYandexServerlessContainer#mount_point_path}
   */
   readonly mountPointPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#prefix DataYandexServerlessContainer#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#prefix DataYandexServerlessContainer#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#read_only DataYandexServerlessContainer#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#read_only DataYandexServerlessContainer#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1475,7 +1475,7 @@ export class DataYandexServerlessContainerStorageMountsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container yandex_serverless_container}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container yandex_serverless_container}
 */
 export class DataYandexServerlessContainer extends cdktf.TerraformDataSource {
 
@@ -1491,7 +1491,7 @@ export class DataYandexServerlessContainer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexServerlessContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexServerlessContainer to import
-  * @param importFromId The id of the existing DataYandexServerlessContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexServerlessContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexServerlessContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1503,7 +1503,7 @@ export class DataYandexServerlessContainer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/serverless_container yandex_serverless_container} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/serverless_container yandex_serverless_container} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1514,8 +1514,8 @@ export class DataYandexServerlessContainer extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_serverless_container',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

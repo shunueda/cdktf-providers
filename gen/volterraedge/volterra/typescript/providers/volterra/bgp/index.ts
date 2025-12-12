@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface BgpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#annotations Bgp#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#annotations Bgp#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#description Bgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#description Bgp#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#id Bgp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#id Bgp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#labels Bgp#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#labels Bgp#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace: string;
   /**
   * bgp_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bgp_parameters Bgp#bgp_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bgp_parameters Bgp#bgp_parameters}
   */
   readonly bgpParameters: BgpBgpParameters;
   /**
   * peers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#peers Bgp#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#peers Bgp#peers}
   */
   readonly peers: BgpPeers[] | cdktf.IResolvable;
   /**
   * where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#where Bgp#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#where Bgp#where}
   */
   readonly where: BgpWhere;
 }
 export interface BgpBgpParametersBgpRouterIdIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#addr Bgp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#addr Bgp#addr}
   */
   readonly addr?: string;
 }
@@ -143,7 +143,7 @@ export class BgpBgpParametersBgpRouterIdIpv4OutputReference extends cdktf.Comple
 }
 export interface BgpBgpParametersBgpRouterIdIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#addr Bgp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#addr Bgp#addr}
   */
   readonly addr?: string;
 }
@@ -229,13 +229,13 @@ export interface BgpBgpParametersBgpRouterId {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#ipv4 Bgp#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#ipv4 Bgp#ipv4}
   */
   readonly ipv4?: BgpBgpParametersBgpRouterIdIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#ipv6 Bgp#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#ipv6 Bgp#ipv6}
   */
   readonly ipv6?: BgpBgpParametersBgpRouterIdIpv6;
 }
@@ -348,33 +348,33 @@ export class BgpBgpParametersBgpRouterIdOutputReference extends cdktf.ComplexObj
 }
 export interface BgpBgpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#asn Bgp#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#asn Bgp#asn}
   */
   readonly asn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bgp_router_id_key Bgp#bgp_router_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bgp_router_id_key Bgp#bgp_router_id_key}
   */
   readonly bgpRouterIdKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bgp_router_id_type Bgp#bgp_router_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bgp_router_id_type Bgp#bgp_router_id_type}
   */
   readonly bgpRouterIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#from_site Bgp#from_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#from_site Bgp#from_site}
   */
   readonly fromSite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#ip_address Bgp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#ip_address Bgp#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#local_address Bgp#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#local_address Bgp#local_address}
   */
   readonly localAddress?: boolean | cdktf.IResolvable;
   /**
   * bgp_router_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bgp_router_id Bgp#bgp_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bgp_router_id Bgp#bgp_router_id}
   */
   readonly bgpRouterId?: BgpBgpParametersBgpRouterId;
 }
@@ -629,15 +629,15 @@ export class BgpBgpParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpPeersBfdEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#multiplier Bgp#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#multiplier Bgp#multiplier}
   */
   readonly multiplier: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#receive_interval_milliseconds Bgp#receive_interval_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#receive_interval_milliseconds Bgp#receive_interval_milliseconds}
   */
   readonly receiveIntervalMilliseconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#transmit_interval_milliseconds Bgp#transmit_interval_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#transmit_interval_milliseconds Bgp#transmit_interval_milliseconds}
   */
   readonly transmitIntervalMilliseconds: number;
 }
@@ -770,11 +770,11 @@ export class BgpPeersBfdEnabledOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpPeersExternalFamilyInet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -887,11 +887,11 @@ export class BgpPeersExternalFamilyInetOutputReference extends cdktf.ComplexObje
 }
 export interface BgpPeersExternalFamilyInetV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1004,15 +1004,15 @@ export class BgpPeersExternalFamilyInetV6OutputReference extends cdktf.ComplexOb
 }
 export interface BgpPeersExternalInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -1154,15 +1154,15 @@ export class BgpPeersExternalInterfaceOutputReference extends cdktf.ComplexObjec
 }
 export interface BgpPeersExternalInterfaceListInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -1338,7 +1338,7 @@ export interface BgpPeersExternalInterfaceListStruct {
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#interfaces Bgp#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#interfaces Bgp#interfaces}
   */
   readonly interfaces: BgpPeersExternalInterfaceListInterfaces[] | cdktf.IResolvable;
 }
@@ -1419,103 +1419,103 @@ export class BgpPeersExternalInterfaceListStructOutputReference extends cdktf.Co
 }
 export interface BgpPeersExternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#address Bgp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#address Bgp#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#address_ipv6 Bgp#address_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#address_ipv6 Bgp#address_ipv6}
   */
   readonly addressIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#asn Bgp#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#asn Bgp#asn}
   */
   readonly asn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#default_gateway Bgp#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#default_gateway Bgp#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#default_gateway_v6 Bgp#default_gateway_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#default_gateway_v6 Bgp#default_gateway_v6}
   */
   readonly defaultGatewayV6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable_v6 Bgp#disable_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable_v6 Bgp#disable_v6}
   */
   readonly disableV6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#external_connector Bgp#external_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#external_connector Bgp#external_connector}
   */
   readonly externalConnector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#from_site Bgp#from_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#from_site Bgp#from_site}
   */
   readonly fromSite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#from_site_v6 Bgp#from_site_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#from_site_v6 Bgp#from_site_v6}
   */
   readonly fromSiteV6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#inside_interfaces Bgp#inside_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#inside_interfaces Bgp#inside_interfaces}
   */
   readonly insideInterfaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#md5_auth_key Bgp#md5_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#md5_auth_key Bgp#md5_auth_key}
   */
   readonly md5AuthKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#no_authentication Bgp#no_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#no_authentication Bgp#no_authentication}
   */
   readonly noAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#outside_interfaces Bgp#outside_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#outside_interfaces Bgp#outside_interfaces}
   */
   readonly outsideInterfaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#port Bgp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#port Bgp#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#subnet_begin_offset Bgp#subnet_begin_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#subnet_begin_offset Bgp#subnet_begin_offset}
   */
   readonly subnetBeginOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#subnet_begin_offset_v6 Bgp#subnet_begin_offset_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#subnet_begin_offset_v6 Bgp#subnet_begin_offset_v6}
   */
   readonly subnetBeginOffsetV6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#subnet_end_offset Bgp#subnet_end_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#subnet_end_offset Bgp#subnet_end_offset}
   */
   readonly subnetEndOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#subnet_end_offset_v6 Bgp#subnet_end_offset_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#subnet_end_offset_v6 Bgp#subnet_end_offset_v6}
   */
   readonly subnetEndOffsetV6?: number;
   /**
   * family_inet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_inet Bgp#family_inet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_inet Bgp#family_inet}
   */
   readonly familyInet?: BgpPeersExternalFamilyInet;
   /**
   * family_inet_v6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_inet_v6 Bgp#family_inet_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_inet_v6 Bgp#family_inet_v6}
   */
   readonly familyInetV6?: BgpPeersExternalFamilyInetV6;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#interface Bgp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#interface Bgp#interface}
   */
   readonly interface?: BgpPeersExternalInterface;
   /**
   * interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#interface_list Bgp#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#interface_list Bgp#interface_list}
   */
   readonly interfaceList?: BgpPeersExternalInterfaceListStruct;
 }
@@ -2234,11 +2234,11 @@ export class BgpPeersExternalOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpPeersInternalFamilyInet6Vpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2351,11 +2351,11 @@ export class BgpPeersInternalFamilyInet6VpnOutputReference extends cdktf.Complex
 }
 export interface BgpPeersInternalFamilyInetvpnEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2468,13 +2468,13 @@ export class BgpPeersInternalFamilyInetvpnEnableOutputReference extends cdktf.Co
 }
 export interface BgpPeersInternalFamilyInetvpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: BgpPeersInternalFamilyInetvpnEnable;
 }
@@ -2587,11 +2587,11 @@ export class BgpPeersInternalFamilyInetvpnOutputReference extends cdktf.ComplexO
 }
 export interface BgpPeersInternalFamilyRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2704,11 +2704,11 @@ export class BgpPeersInternalFamilyRtargetOutputReference extends cdktf.ComplexO
 }
 export interface BgpPeersInternalFamilyUuidvpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable Bgp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable Bgp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2821,51 +2821,51 @@ export class BgpPeersInternalFamilyUuidvpnOutputReference extends cdktf.ComplexO
 }
 export interface BgpPeersInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#address Bgp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#address Bgp#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable_mtls Bgp#disable_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable_mtls Bgp#disable_mtls}
   */
   readonly disableMtls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#dns_name Bgp#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#dns_name Bgp#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable_mtls Bgp#enable_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable_mtls Bgp#enable_mtls}
   */
   readonly enableMtls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#from_site Bgp#from_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#from_site Bgp#from_site}
   */
   readonly fromSite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#port Bgp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#port Bgp#port}
   */
   readonly port?: number;
   /**
   * family_inet6vpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_inet6vpn Bgp#family_inet6vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_inet6vpn Bgp#family_inet6vpn}
   */
   readonly familyInet6Vpn?: BgpPeersInternalFamilyInet6Vpn;
   /**
   * family_inetvpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_inetvpn Bgp#family_inetvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_inetvpn Bgp#family_inetvpn}
   */
   readonly familyInetvpn?: BgpPeersInternalFamilyInetvpn;
   /**
   * family_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_rtarget Bgp#family_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_rtarget Bgp#family_rtarget}
   */
   readonly familyRtarget?: BgpPeersInternalFamilyRtarget;
   /**
   * family_uuidvpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#family_uuidvpn Bgp#family_uuidvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#family_uuidvpn Bgp#family_uuidvpn}
   */
   readonly familyUuidvpn?: BgpPeersInternalFamilyUuidvpn;
 }
@@ -3210,15 +3210,15 @@ export class BgpPeersInternalOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpPeersMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#description Bgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#description Bgp#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name: string;
 }
@@ -3357,7 +3357,7 @@ export class BgpPeersMetadataOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpPeersRoutingPoliciesRoutePolicyNodeName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#node Bgp#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#node Bgp#node}
   */
   readonly nodeAttribute?: string[];
 }
@@ -3441,15 +3441,15 @@ export class BgpPeersRoutingPoliciesRoutePolicyNodeNameOutputReference extends c
 }
 export interface BgpPeersRoutingPoliciesRoutePolicyObjectRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -3628,27 +3628,27 @@ export class BgpPeersRoutingPoliciesRoutePolicyObjectRefsList extends cdktf.Comp
 }
 export interface BgpPeersRoutingPoliciesRoutePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#all_nodes Bgp#all_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#all_nodes Bgp#all_nodes}
   */
   readonly allNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#inbound Bgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#inbound Bgp#inbound}
   */
   readonly inbound?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#outbound Bgp#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#outbound Bgp#outbound}
   */
   readonly outbound?: boolean | cdktf.IResolvable;
   /**
   * node_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#node_name Bgp#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#node_name Bgp#node_name}
   */
   readonly nodeName?: BgpPeersRoutingPoliciesRoutePolicyNodeName;
   /**
   * object_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#object_refs Bgp#object_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#object_refs Bgp#object_refs}
   */
   readonly objectRefs: BgpPeersRoutingPoliciesRoutePolicyObjectRefs[] | cdktf.IResolvable;
 }
@@ -3879,7 +3879,7 @@ export interface BgpPeersRoutingPolicies {
   /**
   * route_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#route_policy Bgp#route_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#route_policy Bgp#route_policy}
   */
   readonly routePolicy?: BgpPeersRoutingPoliciesRoutePolicy[] | cdktf.IResolvable;
 }
@@ -3963,57 +3963,57 @@ export class BgpPeersRoutingPoliciesOutputReference extends cdktf.ComplexObject 
 }
 export interface BgpPeers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bfd_disabled Bgp#bfd_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bfd_disabled Bgp#bfd_disabled}
   */
   readonly bfdDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable Bgp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable Bgp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#label Bgp#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#label Bgp#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#passive_mode_disabled Bgp#passive_mode_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#passive_mode_disabled Bgp#passive_mode_disabled}
   */
   readonly passiveModeDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#passive_mode_enabled Bgp#passive_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#passive_mode_enabled Bgp#passive_mode_enabled}
   */
   readonly passiveModeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#target_service Bgp#target_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#target_service Bgp#target_service}
   */
   readonly targetService?: string;
   /**
   * bfd_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#bfd_enabled Bgp#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#bfd_enabled Bgp#bfd_enabled}
   */
   readonly bfdEnabled?: BgpPeersBfdEnabled;
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#external Bgp#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#external Bgp#external}
   */
   readonly external?: BgpPeersExternal;
   /**
   * internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#internal Bgp#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#internal Bgp#internal}
   */
   readonly internal?: BgpPeersInternal;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#metadata Bgp#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#metadata Bgp#metadata}
   */
   readonly metadata: BgpPeersMetadata;
   /**
   * routing_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#routing_policies Bgp#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#routing_policies Bgp#routing_policies}
   */
   readonly routingPolicies?: BgpPeersRoutingPolicies;
 }
@@ -4416,15 +4416,15 @@ export class BgpPeersList extends cdktf.ComplexList {
 }
 export interface BgpWhereSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -4603,15 +4603,15 @@ export class BgpWhereSiteRefList extends cdktf.ComplexList {
 }
 export interface BgpWhereSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -4790,27 +4790,27 @@ export class BgpWhereSiteRefsList extends cdktf.ComplexList {
 }
 export interface BgpWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable_internet_vip Bgp#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable_internet_vip Bgp#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable_internet_vip Bgp#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable_internet_vip Bgp#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#network_type Bgp#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#network_type Bgp#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#ref Bgp#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#ref Bgp#ref}
   */
   readonly ref: BgpWhereSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#refs Bgp#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#refs Bgp#refs}
   */
   readonly refs?: BgpWhereSiteRefs[] | cdktf.IResolvable;
 }
@@ -5007,15 +5007,15 @@ export class BgpWhereSiteOutputReference extends cdktf.ComplexObject {
 }
 export interface BgpWhereVirtualSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -5194,15 +5194,15 @@ export class BgpWhereVirtualSiteRefList extends cdktf.ComplexList {
 }
 export interface BgpWhereVirtualSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#name Bgp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#name Bgp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#namespace Bgp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#namespace Bgp#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#tenant Bgp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#tenant Bgp#tenant}
   */
   readonly tenant?: string;
 }
@@ -5381,27 +5381,27 @@ export class BgpWhereVirtualSiteRefsList extends cdktf.ComplexList {
 }
 export interface BgpWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#disable_internet_vip Bgp#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#disable_internet_vip Bgp#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#enable_internet_vip Bgp#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#enable_internet_vip Bgp#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#network_type Bgp#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#network_type Bgp#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#ref Bgp#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#ref Bgp#ref}
   */
   readonly ref: BgpWhereVirtualSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#refs Bgp#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#refs Bgp#refs}
   */
   readonly refs?: BgpWhereVirtualSiteRefs[] | cdktf.IResolvable;
 }
@@ -5600,13 +5600,13 @@ export interface BgpWhere {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#site Bgp#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#site Bgp#site}
   */
   readonly site?: BgpWhereSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#virtual_site Bgp#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#virtual_site Bgp#virtual_site}
   */
   readonly virtualSite?: BgpWhereVirtualSite;
 }
@@ -5719,7 +5719,7 @@ export class BgpWhereOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp volterra_bgp}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp volterra_bgp}
 */
 export class Bgp extends cdktf.TerraformResource {
 
@@ -5735,7 +5735,7 @@ export class Bgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bgp to import
-  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5747,7 +5747,7 @@ export class Bgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp volterra_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bgp volterra_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5758,8 +5758,8 @@ export class Bgp extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_bgp',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

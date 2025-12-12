@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackEcsDedicatedHostClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#dedicated_host_cluster_name DataApsarastackEcsDedicatedHostCluster#dedicated_host_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#dedicated_host_cluster_name DataApsarastackEcsDedicatedHostCluster#dedicated_host_cluster_name}
   */
   readonly dedicatedHostClusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#dedicated_host_cluster_name_regex DataApsarastackEcsDedicatedHostCluster#dedicated_host_cluster_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#dedicated_host_cluster_name_regex DataApsarastackEcsDedicatedHostCluster#dedicated_host_cluster_name_regex}
   */
   readonly dedicatedHostClusterNameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#id DataApsarastackEcsDedicatedHostCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#id DataApsarastackEcsDedicatedHostCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#ids DataApsarastackEcsDedicatedHostCluster#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#ids DataApsarastackEcsDedicatedHostCluster#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#output_file DataApsarastackEcsDedicatedHostCluster#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#output_file DataApsarastackEcsDedicatedHostCluster#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#zone_id DataApsarastackEcsDedicatedHostCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#zone_id DataApsarastackEcsDedicatedHostCluster#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -132,7 +132,7 @@ export class DataApsarastackEcsDedicatedHostClusterDedicatedHostClustersList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster apsarastack_ecs_dedicated_host_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster apsarastack_ecs_dedicated_host_cluster}
 */
 export class DataApsarastackEcsDedicatedHostCluster extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataApsarastackEcsDedicatedHostCluster extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataApsarastackEcsDedicatedHostCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackEcsDedicatedHostCluster to import
-  * @param importFromId The id of the existing DataApsarastackEcsDedicatedHostCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackEcsDedicatedHostCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackEcsDedicatedHostCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataApsarastackEcsDedicatedHostCluster extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ecs_dedicated_host_cluster apsarastack_ecs_dedicated_host_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ecs_dedicated_host_cluster apsarastack_ecs_dedicated_host_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataApsarastackEcsDedicatedHostCluster extends cdktf.TerraformDataS
       terraformResourceType: 'apsarastack_ecs_dedicated_host_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataOctopusdeployLibraryVariableSetsConfig extends cdktf.Terraf
   /**
   * A filter to search by content type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#content_type DataOctopusdeployLibraryVariableSets#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#content_type DataOctopusdeployLibraryVariableSets#content_type}
   */
   readonly contentType?: string;
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#ids DataOctopusdeployLibraryVariableSets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#ids DataOctopusdeployLibraryVariableSets#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#partial_name DataOctopusdeployLibraryVariableSets#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#partial_name DataOctopusdeployLibraryVariableSets#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#skip DataOctopusdeployLibraryVariableSets#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#skip DataOctopusdeployLibraryVariableSets#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this library variable set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#space_id DataOctopusdeployLibraryVariableSets#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#space_id DataOctopusdeployLibraryVariableSets#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#take DataOctopusdeployLibraryVariableSets#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#take DataOctopusdeployLibraryVariableSets#take}
   */
   readonly take?: number;
 }
@@ -254,7 +254,7 @@ export class DataOctopusdeployLibraryVariableSetsLibraryVariableSetsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets octopusdeploy_library_variable_sets}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets octopusdeploy_library_variable_sets}
 */
 export class DataOctopusdeployLibraryVariableSets extends cdktf.TerraformDataSource {
 
@@ -270,7 +270,7 @@ export class DataOctopusdeployLibraryVariableSets extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOctopusdeployLibraryVariableSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployLibraryVariableSets to import
-  * @param importFromId The id of the existing DataOctopusdeployLibraryVariableSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployLibraryVariableSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployLibraryVariableSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class DataOctopusdeployLibraryVariableSets extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/library_variable_sets octopusdeploy_library_variable_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/library_variable_sets octopusdeploy_library_variable_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class DataOctopusdeployLibraryVariableSets extends cdktf.TerraformDataSou
       terraformResourceType: 'octopusdeploy_library_variable_sets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

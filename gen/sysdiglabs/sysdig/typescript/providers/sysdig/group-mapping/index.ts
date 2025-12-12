@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface GroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#group_name GroupMapping#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#group_name GroupMapping#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#id GroupMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#id GroupMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#role GroupMapping#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#role GroupMapping#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#system_role GroupMapping#system_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#system_role GroupMapping#system_role}
   */
   readonly systemRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#weight GroupMapping#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#weight GroupMapping#weight}
   */
   readonly weight?: number;
   /**
   * team_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#team_map GroupMapping#team_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#team_map GroupMapping#team_map}
   */
   readonly teamMap: GroupMappingTeamMap;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#timeouts GroupMapping#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#timeouts GroupMapping#timeouts}
   */
   readonly timeouts?: GroupMappingTimeouts;
 }
 export interface GroupMappingTeamMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#all_teams GroupMapping#all_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#all_teams GroupMapping#all_teams}
   */
   readonly allTeams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#team_ids GroupMapping#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#team_ids GroupMapping#team_ids}
   */
   readonly teamIds?: number[];
 }
@@ -162,19 +162,19 @@ export class GroupMappingTeamMapOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupMappingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#create GroupMapping#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#create GroupMapping#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#delete GroupMapping#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#delete GroupMapping#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#read GroupMapping#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#read GroupMapping#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#update GroupMapping#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#update GroupMapping#update}
   */
   readonly update?: string;
 }
@@ -355,7 +355,7 @@ export class GroupMappingTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping sysdig_group_mapping}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping sysdig_group_mapping}
 */
 export class GroupMapping extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class GroupMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupMapping to import
-  * @param importFromId The id of the existing GroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class GroupMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/group_mapping sysdig_group_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/group_mapping sysdig_group_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class GroupMapping extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_group_mapping',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

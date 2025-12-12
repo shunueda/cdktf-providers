@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEssLifecycleHookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#default_result ApsarastackEssLifecycleHook#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#default_result ApsarastackEssLifecycleHook#default_result}
   */
   readonly defaultResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#heartbeat_timeout ApsarastackEssLifecycleHook#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#heartbeat_timeout ApsarastackEssLifecycleHook#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#id ApsarastackEssLifecycleHook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#id ApsarastackEssLifecycleHook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#lifecycle_hook_name ApsarastackEssLifecycleHook#lifecycle_hook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#lifecycle_hook_name ApsarastackEssLifecycleHook#lifecycle_hook_name}
   */
   readonly lifecycleHookName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#lifecycle_transition ApsarastackEssLifecycleHook#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#lifecycle_transition ApsarastackEssLifecycleHook#lifecycle_transition}
   */
   readonly lifecycleTransition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#name ApsarastackEssLifecycleHook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#name ApsarastackEssLifecycleHook#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#notification_arn ApsarastackEssLifecycleHook#notification_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#notification_arn ApsarastackEssLifecycleHook#notification_arn}
   */
   readonly notificationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#notification_metadata ApsarastackEssLifecycleHook#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#notification_metadata ApsarastackEssLifecycleHook#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#scaling_group_id ApsarastackEssLifecycleHook#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#scaling_group_id ApsarastackEssLifecycleHook#scaling_group_id}
   */
   readonly scalingGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook apsarastack_ess_lifecycle_hook}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook apsarastack_ess_lifecycle_hook}
 */
 export class ApsarastackEssLifecycleHook extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ApsarastackEssLifecycleHook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackEssLifecycleHook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEssLifecycleHook to import
-  * @param importFromId The id of the existing ApsarastackEssLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEssLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEssLifecycleHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ApsarastackEssLifecycleHook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ess_lifecycle_hook apsarastack_ess_lifecycle_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ess_lifecycle_hook apsarastack_ess_lifecycle_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ApsarastackEssLifecycleHook extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_ess_lifecycle_hook',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

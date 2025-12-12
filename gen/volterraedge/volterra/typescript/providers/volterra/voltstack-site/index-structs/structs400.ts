@@ -37,15 +37,15 @@ voltstackSiteCustomNetworkConfigSliConfigToHclTerraform,
 VoltstackSiteCustomNetworkConfigSliConfigOutputReference } from './structs0'
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -187,15 +187,15 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -374,13 +374,13 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -527,7 +527,7 @@ export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRo
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#list VoltstackSite#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#list VoltstackSite#list}
   */
   readonly list?: VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -611,31 +611,31 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
   */
   readonly nodeInterface?: VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutesNodeInterface;
 }
@@ -895,7 +895,7 @@ export interface VoltstackSiteCustomNetworkConfigSloConfigStaticV6Routes {
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes: VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable;
 }
@@ -976,43 +976,43 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticV6RoutesOutputRefere
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_dc_cluster_group VoltstackSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_dc_cluster_group VoltstackSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_static_routes VoltstackSite#no_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_static_routes VoltstackSite#no_static_routes}
   */
   readonly noStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_static_v6_routes VoltstackSite#no_static_v6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_static_v6_routes VoltstackSite#no_static_v6_routes}
   */
   readonly noStaticV6Routes?: boolean | cdktf.IResolvable;
   /**
   * dc_cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dc_cluster_group VoltstackSite#dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dc_cluster_group VoltstackSite#dc_cluster_group}
   */
   readonly dcClusterGroup?: VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroup;
   /**
   * dc_cluster_group_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dc_cluster_group_interface VoltstackSite#dc_cluster_group_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dc_cluster_group_interface VoltstackSite#dc_cluster_group_interface}
   */
   readonly dcClusterGroupInterface?: VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroupInterface[] | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes?: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutes;
   /**
   * static_v6_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_v6_routes VoltstackSite#static_v6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_v6_routes VoltstackSite#static_v6_routes}
   */
   readonly staticV6Routes?: VoltstackSiteCustomNetworkConfigSloConfigStaticV6Routes;
 }
@@ -1299,121 +1299,121 @@ export class VoltstackSiteCustomNetworkConfigSloConfigOutputReference extends cd
 }
 export interface VoltstackSiteCustomNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#bgp_peer_address VoltstackSite#bgp_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#bgp_peer_address VoltstackSite#bgp_peer_address}
   */
   readonly bgpPeerAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#bgp_peer_address_v6 VoltstackSite#bgp_peer_address_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#bgp_peer_address_v6 VoltstackSite#bgp_peer_address_v6}
   */
   readonly bgpPeerAddressV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#bgp_router_id VoltstackSite#bgp_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#bgp_router_id VoltstackSite#bgp_router_id}
   */
   readonly bgpRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_config VoltstackSite#default_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_config VoltstackSite#default_config}
   */
   readonly defaultConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_interface_config VoltstackSite#default_interface_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_interface_config VoltstackSite#default_interface_config}
   */
   readonly defaultInterfaceConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_sli_config VoltstackSite#default_sli_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_sli_config VoltstackSite#default_sli_config}
   */
   readonly defaultSliConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#forward_proxy_allow_all VoltstackSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#forward_proxy_allow_all VoltstackSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_forward_proxy VoltstackSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_forward_proxy VoltstackSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_global_network VoltstackSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_global_network VoltstackSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_network_policy VoltstackSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_network_policy VoltstackSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_nameserver VoltstackSite#outside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_nameserver VoltstackSite#outside_nameserver}
   */
   readonly outsideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_nameserver_v6 VoltstackSite#outside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_nameserver_v6 VoltstackSite#outside_nameserver_v6}
   */
   readonly outsideNameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_vip VoltstackSite#outside_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_vip VoltstackSite#outside_vip}
   */
   readonly outsideVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_vip_v6 VoltstackSite#outside_vip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_vip_v6 VoltstackSite#outside_vip_v6}
   */
   readonly outsideVipV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_to_site_tunnel_ip VoltstackSite#site_to_site_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_to_site_tunnel_ip VoltstackSite#site_to_site_tunnel_ip}
   */
   readonly siteToSiteTunnelIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#sm_connection_public_ip VoltstackSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#sm_connection_public_ip VoltstackSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#sm_connection_pvt_ip VoltstackSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#sm_connection_pvt_ip VoltstackSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tunnel_dead_timeout VoltstackSite#tunnel_dead_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tunnel_dead_timeout VoltstackSite#tunnel_dead_timeout}
   */
   readonly tunnelDeadTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vip_vrrp_mode VoltstackSite#vip_vrrp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vip_vrrp_mode VoltstackSite#vip_vrrp_mode}
   */
   readonly vipVrrpMode?: string;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#active_enhanced_firewall_policies VoltstackSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#active_enhanced_firewall_policies VoltstackSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: VoltstackSiteCustomNetworkConfigActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#active_forward_proxy_policies VoltstackSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#active_forward_proxy_policies VoltstackSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: VoltstackSiteCustomNetworkConfigActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#active_network_policies VoltstackSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#active_network_policies VoltstackSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: VoltstackSiteCustomNetworkConfigActiveNetworkPolicies;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#global_network_list VoltstackSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#global_network_list VoltstackSite#global_network_list}
   */
   readonly globalNetworkList?: VoltstackSiteCustomNetworkConfigGlobalNetworkListStruct;
   /**
   * interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_list VoltstackSite#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_list VoltstackSite#interface_list}
   */
   readonly interfaceList?: VoltstackSiteCustomNetworkConfigInterfaceListStruct;
   /**
   * sli_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#sli_config VoltstackSite#sli_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#sli_config VoltstackSite#sli_config}
   */
   readonly sliConfig?: VoltstackSiteCustomNetworkConfigSliConfig;
   /**
   * slo_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#slo_config VoltstackSite#slo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#slo_config VoltstackSite#slo_config}
   */
   readonly sloConfig?: VoltstackSiteCustomNetworkConfigSloConfig;
 }
@@ -2222,15 +2222,15 @@ export class VoltstackSiteCustomNetworkConfigOutputReference extends cdktf.Compl
 }
 export interface VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -2372,15 +2372,15 @@ export class VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesInterfaceOu
 }
 export interface VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -2559,13 +2559,13 @@ export class VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfa
 }
 export interface VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -2712,7 +2712,7 @@ export interface VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInt
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#list VoltstackSite#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#list VoltstackSite#list}
   */
   readonly list?: VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -2796,31 +2796,31 @@ export class VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterfa
 }
 export interface VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
   */
   readonly nodeInterface?: VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutesNodeInterface;
 }
@@ -3080,7 +3080,7 @@ export interface VoltstackSiteCustomStorageConfigStaticRoutes {
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes: VoltstackSiteCustomStorageConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable;
 }
@@ -3161,7 +3161,7 @@ export class VoltstackSiteCustomStorageConfigStaticRoutesOutputReference extends
 }
 export interface VoltstackSiteCustomStorageConfigStorageClassListStorageClassesCustomStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#yaml VoltstackSite#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#yaml VoltstackSite#yaml}
   */
   readonly yaml?: string;
 }
@@ -3245,67 +3245,67 @@ export class VoltstackSiteCustomStorageConfigStorageClassListStorageClassesCusto
 }
 export interface VoltstackSiteCustomStorageConfigStorageClassListStorageClassesHpeStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#allow_mutations VoltstackSite#allow_mutations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#allow_mutations VoltstackSite#allow_mutations}
   */
   readonly allowMutations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#allow_overrides VoltstackSite#allow_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#allow_overrides VoltstackSite#allow_overrides}
   */
   readonly allowOverrides?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dedupe_enabled VoltstackSite#dedupe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dedupe_enabled VoltstackSite#dedupe_enabled}
   */
   readonly dedupeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#description VoltstackSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#description VoltstackSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#destroy_on_delete VoltstackSite#destroy_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#destroy_on_delete VoltstackSite#destroy_on_delete}
   */
   readonly destroyOnDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#encrypted VoltstackSite#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#encrypted VoltstackSite#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#folder VoltstackSite#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#folder VoltstackSite#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_iops VoltstackSite#limit_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_iops VoltstackSite#limit_iops}
   */
   readonly limitIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_mbps VoltstackSite#limit_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_mbps VoltstackSite#limit_mbps}
   */
   readonly limitMbps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#performance_policy VoltstackSite#performance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#performance_policy VoltstackSite#performance_policy}
   */
   readonly performancePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool VoltstackSite#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool VoltstackSite#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#protection_template VoltstackSite#protection_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#protection_template VoltstackSite#protection_template}
   */
   readonly protectionTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_name VoltstackSite#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_name VoltstackSite#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_namespace VoltstackSite#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_namespace VoltstackSite#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#sync_on_detach VoltstackSite#sync_on_detach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#sync_on_detach VoltstackSite#sync_on_detach}
   */
   readonly syncOnDetach?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#thick VoltstackSite#thick}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#thick VoltstackSite#thick}
   */
   readonly thick?: boolean | cdktf.IResolvable;
 }
@@ -3824,11 +3824,11 @@ export class VoltstackSiteCustomStorageConfigStorageClassListStorageClassesHpeSt
 }
 export interface VoltstackSiteCustomStorageConfigStorageClassListStorageClassesNetappTrident {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#selector VoltstackSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#selector VoltstackSite#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_pools VoltstackSite#storage_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_pools VoltstackSite#storage_pools}
   */
   readonly storagePools?: string;
 }
@@ -3941,15 +3941,15 @@ export class VoltstackSiteCustomStorageConfigStorageClassListStorageClassesNetap
 }
 export interface VoltstackSiteCustomStorageConfigStorageClassListStorageClassesPureServiceOrchestrator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#backend VoltstackSite#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#backend VoltstackSite#backend}
   */
   readonly backend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#bandwidth_limit VoltstackSite#bandwidth_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#bandwidth_limit VoltstackSite#bandwidth_limit}
   */
   readonly bandwidthLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#iops_limit VoltstackSite#iops_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#iops_limit VoltstackSite#iops_limit}
   */
   readonly iopsLimit?: number;
 }
@@ -4091,55 +4091,55 @@ export class VoltstackSiteCustomStorageConfigStorageClassListStorageClassesPureS
 }
 export interface VoltstackSiteCustomStorageConfigStorageClassListStorageClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#advanced_storage_parameters VoltstackSite#advanced_storage_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#advanced_storage_parameters VoltstackSite#advanced_storage_parameters}
   */
   readonly advancedStorageParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#allow_volume_expansion VoltstackSite#allow_volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#allow_volume_expansion VoltstackSite#allow_volume_expansion}
   */
   readonly allowVolumeExpansion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_storage_class VoltstackSite#default_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_storage_class VoltstackSite#default_storage_class}
   */
   readonly defaultStorageClass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#description VoltstackSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#description VoltstackSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#reclaim_policy VoltstackSite#reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#reclaim_policy VoltstackSite#reclaim_policy}
   */
   readonly reclaimPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_class_name VoltstackSite#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_class_name VoltstackSite#storage_class_name}
   */
   readonly storageClassName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_device VoltstackSite#storage_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_device VoltstackSite#storage_device}
   */
   readonly storageDevice: string;
   /**
   * custom_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#custom_storage VoltstackSite#custom_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#custom_storage VoltstackSite#custom_storage}
   */
   readonly customStorage?: VoltstackSiteCustomStorageConfigStorageClassListStorageClassesCustomStorage;
   /**
   * hpe_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#hpe_storage VoltstackSite#hpe_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#hpe_storage VoltstackSite#hpe_storage}
   */
   readonly hpeStorage?: VoltstackSiteCustomStorageConfigStorageClassListStorageClassesHpeStorage;
   /**
   * netapp_trident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#netapp_trident VoltstackSite#netapp_trident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#netapp_trident VoltstackSite#netapp_trident}
   */
   readonly netappTrident?: VoltstackSiteCustomStorageConfigStorageClassListStorageClassesNetappTrident;
   /**
   * pure_service_orchestrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pure_service_orchestrator VoltstackSite#pure_service_orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pure_service_orchestrator VoltstackSite#pure_service_orchestrator}
   */
   readonly pureServiceOrchestrator?: VoltstackSiteCustomStorageConfigStorageClassListStorageClassesPureServiceOrchestrator;
 }
@@ -4541,7 +4541,7 @@ export interface VoltstackSiteCustomStorageConfigStorageClassListStruct {
   /**
   * storage_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_classes VoltstackSite#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_classes VoltstackSite#storage_classes}
   */
   readonly storageClasses?: VoltstackSiteCustomStorageConfigStorageClassListStorageClasses[] | cdktf.IResolvable;
 }
@@ -4625,15 +4625,15 @@ export class VoltstackSiteCustomStorageConfigStorageClassListStructOutputReferen
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4772,15 +4772,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4919,11 +4919,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -5033,23 +5033,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -5243,7 +5243,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -5324,37 +5324,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPasswordWingmanSecretInfo;
 }
@@ -5583,15 +5583,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5730,15 +5730,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5877,11 +5877,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -5991,23 +5991,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -6201,7 +6201,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -6282,37 +6282,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePasswordWingmanSecretInfo;
 }
@@ -6541,43 +6541,43 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#api_server_port VoltstackSite#api_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#api_server_port VoltstackSite#api_server_port}
   */
   readonly apiServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#csi_version VoltstackSite#csi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#csi_version VoltstackSite#csi_version}
   */
   readonly csiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#iscsi_chap_user VoltstackSite#iscsi_chap_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#iscsi_chap_user VoltstackSite#iscsi_chap_user}
   */
   readonly iscsiChapUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#log_level VoltstackSite#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#log_level VoltstackSite#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_server_ip_address VoltstackSite#storage_server_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_server_ip_address VoltstackSite#storage_server_ip_address}
   */
   readonly storageServerIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_server_name VoltstackSite#storage_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_server_name VoltstackSite#storage_server_name}
   */
   readonly storageServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#username VoltstackSite#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#username VoltstackSite#username}
   */
   readonly username: string;
   /**
   * iscsi_chap_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#iscsi_chap_password VoltstackSite#iscsi_chap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#iscsi_chap_password VoltstackSite#iscsi_chap_password}
   */
   readonly iscsiChapPassword?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorageIscsiChapPassword;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#password VoltstackSite#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#password VoltstackSite#password}
   */
   readonly password?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStoragePassword;
 }
@@ -6890,11 +6890,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeS
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasAutoExportCidrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ipv6_prefixes VoltstackSite#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ipv6_prefixes VoltstackSite#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#prefixes VoltstackSite#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#prefixes VoltstackSite#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -7007,15 +7007,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7154,15 +7154,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7301,11 +7301,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -7415,23 +7415,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -7625,7 +7625,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -7706,37 +7706,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKeyWingmanSecretInfo;
 }
@@ -7965,15 +7965,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8112,15 +8112,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8259,11 +8259,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -8373,23 +8373,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -8583,7 +8583,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -8664,37 +8664,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPasswordWingmanSecretInfo;
 }
@@ -8923,55 +8923,55 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasStorageVolumeDefaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
   */
   readonly adaptiveQosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
   */
   readonly noQos?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
   */
   readonly snapshotDir?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
   */
   readonly snapshotReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
   */
   readonly spaceReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
   */
   readonly splitOnClone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
   */
   readonly unixPermissions?: number;
 }
@@ -9403,17 +9403,17 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#zone VoltstackSite#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#zone VoltstackSite#zone}
   */
   readonly zone?: string;
   /**
   * volume_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
   */
   readonly volumeDefaults?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasStorageVolumeDefaults;
 }
@@ -9587,55 +9587,55 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasVolumeDefaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
   */
   readonly adaptiveQosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
   */
   readonly noQos?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
   */
   readonly snapshotDir?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
   */
   readonly snapshotReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
   */
   readonly spaceReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
   */
   readonly splitOnClone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
   */
   readonly unixPermissions?: number;
 }
@@ -10067,101 +10067,101 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#auto_export_policy VoltstackSite#auto_export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#auto_export_policy VoltstackSite#auto_export_policy}
   */
   readonly autoExportPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#backend_name VoltstackSite#backend_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#backend_name VoltstackSite#backend_name}
   */
   readonly backendName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#client_certificate VoltstackSite#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#client_certificate VoltstackSite#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#data_lif_dns_name VoltstackSite#data_lif_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#data_lif_dns_name VoltstackSite#data_lif_dns_name}
   */
   readonly dataLifDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#data_lif_ip VoltstackSite#data_lif_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#data_lif_ip VoltstackSite#data_lif_ip}
   */
   readonly dataLifIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_aggregate_usage VoltstackSite#limit_aggregate_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_aggregate_usage VoltstackSite#limit_aggregate_usage}
   */
   readonly limitAggregateUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_volume_size VoltstackSite#limit_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_volume_size VoltstackSite#limit_volume_size}
   */
   readonly limitVolumeSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#management_lif_dns_name VoltstackSite#management_lif_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#management_lif_dns_name VoltstackSite#management_lif_dns_name}
   */
   readonly managementLifDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#management_lif_ip VoltstackSite#management_lif_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#management_lif_ip VoltstackSite#management_lif_ip}
   */
   readonly managementLifIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#nfs_mount_options VoltstackSite#nfs_mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#nfs_mount_options VoltstackSite#nfs_mount_options}
   */
   readonly nfsMountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#region VoltstackSite#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#region VoltstackSite#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_driver_name VoltstackSite#storage_driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_driver_name VoltstackSite#storage_driver_name}
   */
   readonly storageDriverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_prefix VoltstackSite#storage_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_prefix VoltstackSite#storage_prefix}
   */
   readonly storagePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#svm VoltstackSite#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#svm VoltstackSite#svm}
   */
   readonly svm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#trusted_ca_certificate VoltstackSite#trusted_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#trusted_ca_certificate VoltstackSite#trusted_ca_certificate}
   */
   readonly trustedCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#username VoltstackSite#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#username VoltstackSite#username}
   */
   readonly username: string;
   /**
   * auto_export_cidrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#auto_export_cidrs VoltstackSite#auto_export_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#auto_export_cidrs VoltstackSite#auto_export_cidrs}
   */
   readonly autoExportCidrs?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasAutoExportCidrs;
   /**
   * client_private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#client_private_key VoltstackSite#client_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#client_private_key VoltstackSite#client_private_key}
   */
   readonly clientPrivateKey?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasClientPrivateKey;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#password VoltstackSite#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#password VoltstackSite#password}
   */
   readonly password?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasPassword;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage VoltstackSite#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage VoltstackSite#storage}
   */
   readonly storage?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasStorage[] | cdktf.IResolvable;
   /**
   * volume_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
   */
   readonly volumeDefaults?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNasVolumeDefaults;
 }
@@ -10848,15 +10848,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10995,15 +10995,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11142,11 +11142,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -11256,23 +11256,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -11466,7 +11466,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -11547,37 +11547,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKeyWingmanSecretInfo;
 }
@@ -11806,15 +11806,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11953,15 +11953,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -12100,11 +12100,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -12214,23 +12214,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -12424,7 +12424,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -12505,37 +12505,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPasswordWingmanSecretInfo;
 }
@@ -12764,55 +12764,55 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanStorageVolumeDefaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
   */
   readonly adaptiveQosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
   */
   readonly noQos?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
   */
   readonly snapshotDir?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
   */
   readonly snapshotReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
   */
   readonly spaceReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
   */
   readonly splitOnClone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
   */
   readonly unixPermissions?: number;
 }
@@ -13244,17 +13244,17 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#zone VoltstackSite#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#zone VoltstackSite#zone}
   */
   readonly zone?: string;
   /**
   * volume_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
   */
   readonly volumeDefaults?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanStorageVolumeDefaults;
 }
@@ -13428,15 +13428,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13575,15 +13575,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13722,11 +13722,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -13836,23 +13836,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -14046,7 +14046,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -14127,37 +14127,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecretWingmanSecretInfo;
 }
@@ -14386,15 +14386,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -14533,15 +14533,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -14680,11 +14680,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -14794,23 +14794,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -15004,7 +15004,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -15085,37 +15085,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecretWingmanSecretInfo;
 }
@@ -15344,23 +15344,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#chap_target_username VoltstackSite#chap_target_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#chap_target_username VoltstackSite#chap_target_username}
   */
   readonly chapTargetUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#chap_username VoltstackSite#chap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#chap_username VoltstackSite#chap_username}
   */
   readonly chapUsername?: string;
   /**
   * chap_initiator_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#chap_initiator_secret VoltstackSite#chap_initiator_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#chap_initiator_secret VoltstackSite#chap_initiator_secret}
   */
   readonly chapInitiatorSecret?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapInitiatorSecret;
   /**
   * chap_target_initiator_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#chap_target_initiator_secret VoltstackSite#chap_target_initiator_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#chap_target_initiator_secret VoltstackSite#chap_target_initiator_secret}
   */
   readonly chapTargetInitiatorSecret?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChapChapTargetInitiatorSecret;
 }
@@ -15531,55 +15531,55 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanVolumeDefaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#adaptive_qos_policy VoltstackSite#adaptive_qos_policy}
   */
   readonly adaptiveQosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#encryption VoltstackSite#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#export_policy VoltstackSite#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_qos VoltstackSite#no_qos}
   */
   readonly noQos?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#qos_policy VoltstackSite#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#security_style VoltstackSite#security_style}
   */
   readonly securityStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_dir VoltstackSite#snapshot_dir}
   */
   readonly snapshotDir?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_policy VoltstackSite#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#snapshot_reserve VoltstackSite#snapshot_reserve}
   */
   readonly snapshotReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#space_reserve VoltstackSite#space_reserve}
   */
   readonly spaceReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#split_on_clone VoltstackSite#split_on_clone}
   */
   readonly splitOnClone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tiering_policy VoltstackSite#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#unix_permissions VoltstackSite#unix_permissions}
   */
   readonly unixPermissions?: number;
 }
@@ -16011,97 +16011,97 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#client_certificate VoltstackSite#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#client_certificate VoltstackSite#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#data_lif_dns_name VoltstackSite#data_lif_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#data_lif_dns_name VoltstackSite#data_lif_dns_name}
   */
   readonly dataLifDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#data_lif_ip VoltstackSite#data_lif_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#data_lif_ip VoltstackSite#data_lif_ip}
   */
   readonly dataLifIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#igroup_name VoltstackSite#igroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#igroup_name VoltstackSite#igroup_name}
   */
   readonly igroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_aggregate_usage VoltstackSite#limit_aggregate_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_aggregate_usage VoltstackSite#limit_aggregate_usage}
   */
   readonly limitAggregateUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#limit_volume_size VoltstackSite#limit_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#limit_volume_size VoltstackSite#limit_volume_size}
   */
   readonly limitVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#management_lif_dns_name VoltstackSite#management_lif_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#management_lif_dns_name VoltstackSite#management_lif_dns_name}
   */
   readonly managementLifDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#management_lif_ip VoltstackSite#management_lif_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#management_lif_ip VoltstackSite#management_lif_ip}
   */
   readonly managementLifIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_chap VoltstackSite#no_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_chap VoltstackSite#no_chap}
   */
   readonly noChap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#region VoltstackSite#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#region VoltstackSite#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_driver_name VoltstackSite#storage_driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_driver_name VoltstackSite#storage_driver_name}
   */
   readonly storageDriverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_prefix VoltstackSite#storage_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_prefix VoltstackSite#storage_prefix}
   */
   readonly storagePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#svm VoltstackSite#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#svm VoltstackSite#svm}
   */
   readonly svm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#trusted_ca_certificate VoltstackSite#trusted_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#trusted_ca_certificate VoltstackSite#trusted_ca_certificate}
   */
   readonly trustedCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#username VoltstackSite#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#username VoltstackSite#username}
   */
   readonly username: string;
   /**
   * client_private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#client_private_key VoltstackSite#client_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#client_private_key VoltstackSite#client_private_key}
   */
   readonly clientPrivateKey?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanClientPrivateKey;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#password VoltstackSite#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#password VoltstackSite#password}
   */
   readonly password?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanPassword;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage VoltstackSite#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage VoltstackSite#storage}
   */
   readonly storage?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanStorage[] | cdktf.IResolvable;
   /**
   * use_chap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#use_chap VoltstackSite#use_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#use_chap VoltstackSite#use_chap}
   */
   readonly useChap?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanUseChap;
   /**
   * volume_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volume_defaults VoltstackSite#volume_defaults}
   */
   readonly volumeDefaults?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSanVolumeDefaults;
 }
@@ -16761,13 +16761,13 @@ export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevices
   /**
   * netapp_backend_ontap_nas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#netapp_backend_ontap_nas VoltstackSite#netapp_backend_ontap_nas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#netapp_backend_ontap_nas VoltstackSite#netapp_backend_ontap_nas}
   */
   readonly netappBackendOntapNas?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapNas;
   /**
   * netapp_backend_ontap_san block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#netapp_backend_ontap_san VoltstackSite#netapp_backend_ontap_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#netapp_backend_ontap_san VoltstackSite#netapp_backend_ontap_san}
   */
   readonly netappBackendOntapSan?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTridentNetappBackendOntapSan;
 }
@@ -16880,15 +16880,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNeta
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -17027,15 +17027,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -17174,11 +17174,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -17288,23 +17288,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -17498,7 +17498,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -17579,37 +17579,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiTokenWingmanSecretInfo;
 }
@@ -17838,21 +17838,21 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArrays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mgmt_dns_name VoltstackSite#mgmt_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mgmt_dns_name VoltstackSite#mgmt_dns_name}
   */
   readonly mgmtDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mgmt_ip VoltstackSite#mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mgmt_ip VoltstackSite#mgmt_ip}
   */
   readonly mgmtIp?: string;
   /**
   * api_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#api_token VoltstackSite#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#api_token VoltstackSite#api_token}
   */
   readonly apiToken?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArraysApiToken;
 }
@@ -18055,33 +18055,33 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_fs_opt VoltstackSite#default_fs_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_fs_opt VoltstackSite#default_fs_opt}
   */
   readonly defaultFsOpt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_fs_type VoltstackSite#default_fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_fs_type VoltstackSite#default_fs_type}
   */
   readonly defaultFsType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_mount_opts VoltstackSite#default_mount_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_mount_opts VoltstackSite#default_mount_opts}
   */
   readonly defaultMountOpts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#disable_preempt_attachments VoltstackSite#disable_preempt_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#disable_preempt_attachments VoltstackSite#disable_preempt_attachments}
   */
   readonly disablePreemptAttachments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#iscsi_login_timeout VoltstackSite#iscsi_login_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#iscsi_login_timeout VoltstackSite#iscsi_login_timeout}
   */
   readonly iscsiLoginTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#san_type VoltstackSite#san_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#san_type VoltstackSite#san_type}
   */
   readonly sanType: string;
   /**
   * flash_arrays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#flash_arrays VoltstackSite#flash_arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#flash_arrays VoltstackSite#flash_arrays}
   */
   readonly flashArrays: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArrayFlashArrays[] | cdktf.IResolvable;
 }
@@ -18327,15 +18327,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -18474,15 +18474,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -18621,11 +18621,11 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -18735,23 +18735,23 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -18945,7 +18945,7 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -19026,37 +19026,37 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiTokenWingmanSecretInfo;
 }
@@ -19285,29 +19285,29 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBlades {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#lables VoltstackSite#lables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#lables VoltstackSite#lables}
   */
   readonly lables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mgmt_dns_name VoltstackSite#mgmt_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mgmt_dns_name VoltstackSite#mgmt_dns_name}
   */
   readonly mgmtDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mgmt_ip VoltstackSite#mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mgmt_ip VoltstackSite#mgmt_ip}
   */
   readonly mgmtIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#nfs_endpoint_dns_name VoltstackSite#nfs_endpoint_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#nfs_endpoint_dns_name VoltstackSite#nfs_endpoint_dns_name}
   */
   readonly nfsEndpointDnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#nfs_endpoint_ip VoltstackSite#nfs_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#nfs_endpoint_ip VoltstackSite#nfs_endpoint_ip}
   */
   readonly nfsEndpointIp?: string;
   /**
   * api_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#api_token VoltstackSite#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#api_token VoltstackSite#api_token}
   */
   readonly apiToken?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBladesApiToken;
 }
@@ -19568,17 +19568,17 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_snapshot_directory VoltstackSite#enable_snapshot_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_snapshot_directory VoltstackSite#enable_snapshot_directory}
   */
   readonly enableSnapshotDirectory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#export_rules VoltstackSite#export_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#export_rules VoltstackSite#export_rules}
   */
   readonly exportRules?: string;
   /**
   * flash_blades block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#flash_blades VoltstackSite#flash_blades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#flash_blades VoltstackSite#flash_blades}
   */
   readonly flashBlades: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBladeFlashBlades[] | cdktf.IResolvable;
 }
@@ -19719,13 +19719,13 @@ export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevices
   /**
   * flash_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#flash_array VoltstackSite#flash_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#flash_array VoltstackSite#flash_array}
   */
   readonly flashArray?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashArray;
   /**
   * flash_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#flash_blade VoltstackSite#flash_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#flash_blade VoltstackSite#flash_blade}
   */
   readonly flashBlade?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArraysFlashBlade;
 }
@@ -19838,21 +19838,21 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestrator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_id VoltstackSite#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_id VoltstackSite#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_storage_topology VoltstackSite#enable_storage_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_storage_topology VoltstackSite#enable_storage_topology}
   */
   readonly enableStorageTopology?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_strict_topology VoltstackSite#enable_strict_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_strict_topology VoltstackSite#enable_strict_topology}
   */
   readonly enableStrictTopology?: boolean | cdktf.IResolvable;
   /**
   * arrays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#arrays VoltstackSite#arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#arrays VoltstackSite#arrays}
   */
   readonly arrays: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestratorArrays;
 }
@@ -20017,33 +20017,33 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPure
 }
 export interface VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#advanced_advanced_parameters VoltstackSite#advanced_advanced_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#advanced_advanced_parameters VoltstackSite#advanced_advanced_parameters}
   */
   readonly advancedAdvancedParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#custom_storage VoltstackSite#custom_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#custom_storage VoltstackSite#custom_storage}
   */
   readonly customStorage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_device VoltstackSite#storage_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_device VoltstackSite#storage_device}
   */
   readonly storageDevice: string;
   /**
   * hpe_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#hpe_storage VoltstackSite#hpe_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#hpe_storage VoltstackSite#hpe_storage}
   */
   readonly hpeStorage?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesHpeStorage;
   /**
   * netapp_trident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#netapp_trident VoltstackSite#netapp_trident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#netapp_trident VoltstackSite#netapp_trident}
   */
   readonly netappTrident?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesNetappTrident;
   /**
   * pure_service_orchestrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pure_service_orchestrator VoltstackSite#pure_service_orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pure_service_orchestrator VoltstackSite#pure_service_orchestrator}
   */
   readonly pureServiceOrchestrator?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevicesPureServiceOrchestrator;
 }
@@ -20303,7 +20303,7 @@ export interface VoltstackSiteCustomStorageConfigStorageDeviceListStruct {
   /**
   * storage_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_devices VoltstackSite#storage_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_devices VoltstackSite#storage_devices}
   */
   readonly storageDevices?: VoltstackSiteCustomStorageConfigStorageDeviceListStorageDevices[] | cdktf.IResolvable;
 }
@@ -20387,15 +20387,15 @@ export class VoltstackSiteCustomStorageConfigStorageDeviceListStructOutputRefere
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -20537,15 +20537,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
   */
   readonly startIp?: string;
 }
@@ -20719,43 +20719,43 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
   */
   readonly dgwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
   */
   readonly dnsAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
   */
   readonly poolSettings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
   */
   readonly sameAsDgw?: boolean | cdktf.IResolvable;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pools VoltstackSite#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pools VoltstackSite#pools}
   */
   readonly pools?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -21100,7 +21100,7 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -21184,31 +21184,31 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
   */
   readonly dhcpOption82Tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
   */
   readonly dhcpNetworks: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceDhcpServerInterfaceIpMap;
 }
@@ -21434,15 +21434,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceInsideNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -21584,7 +21584,7 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_list VoltstackSite#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_list VoltstackSite#dns_list}
   */
   readonly dnsList: string[];
 }
@@ -21665,15 +21665,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterDnsConfigLocalDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#configured_address VoltstackSite#configured_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#configured_address VoltstackSite#configured_address}
   */
   readonly configuredAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
 }
@@ -21817,13 +21817,13 @@ export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInte
   /**
   * configured_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#configured_list VoltstackSite#configured_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#configured_list VoltstackSite#configured_list}
   */
   readonly configuredList?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
   /**
   * local_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#local_dns VoltstackSite#local_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#local_dns VoltstackSite#local_dns}
   */
   readonly localDns?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterDnsConfigLocalDns;
 }
@@ -21936,15 +21936,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -22086,15 +22086,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
   */
   readonly startIp?: string;
 }
@@ -22268,23 +22268,23 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
   */
   readonly poolSettings: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pools VoltstackSite#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pools VoltstackSite#pools}
   */
   readonly pools?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -22484,7 +22484,7 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -22568,27 +22568,27 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStateful {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
   */
   readonly dhcpNetworks: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStatefulInterfaceIpMap;
 }
@@ -22785,19 +22785,19 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_config VoltstackSite#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_config VoltstackSite#dns_config}
   */
   readonly dnsConfig?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterDnsConfig;
   /**
   * stateful block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#stateful VoltstackSite#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#stateful VoltstackSite#stateful}
   */
   readonly stateful?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouterStateful;
 }
@@ -22939,13 +22939,13 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#host VoltstackSite#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#host VoltstackSite#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#router VoltstackSite#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#router VoltstackSite#router}
   */
   readonly router?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceIpv6AutoConfigRouter;
 }
@@ -23107,15 +23107,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceSegmentNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -23257,15 +23257,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceSrv6Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -23407,15 +23407,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -23554,13 +23554,13 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpClusterStaticIpInterfaceIpMapValue;
 }
@@ -23669,7 +23669,7 @@ export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInte
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpClusterStaticIpInterfaceIpMap;
 }
@@ -23753,15 +23753,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -23903,17 +23903,17 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator;
 }
@@ -24055,15 +24055,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -24204,19 +24204,19 @@ export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInte
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpNodeStaticIp;
 }
@@ -24358,15 +24358,15 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -24505,13 +24505,13 @@ export class VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfac
 }
 export interface VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomStorageConfigStorageInterfaceListStorageInterfacesStorageInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
 }

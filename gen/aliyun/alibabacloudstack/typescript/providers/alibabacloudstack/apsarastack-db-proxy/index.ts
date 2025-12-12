@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackDbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#causal_consist_read ApsarastackDbProxy#causal_consist_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#causal_consist_read ApsarastackDbProxy#causal_consist_read}
   */
   readonly causalConsistRead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#connection_persist ApsarastackDbProxy#connection_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#connection_persist ApsarastackDbProxy#connection_persist}
   */
   readonly connectionPersist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_instance_id ApsarastackDbProxy#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_instance_id ApsarastackDbProxy#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_connect_string ApsarastackDbProxy#db_proxy_connect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_connect_string ApsarastackDbProxy#db_proxy_connect_string}
   */
   readonly dbProxyConnectString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_connect_string_port ApsarastackDbProxy#db_proxy_connect_string_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_connect_string_port ApsarastackDbProxy#db_proxy_connect_string_port}
   */
   readonly dbProxyConnectStringPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_aliases ApsarastackDbProxy#db_proxy_endpoint_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_aliases ApsarastackDbProxy#db_proxy_endpoint_aliases}
   */
   readonly dbProxyEndpointAliases?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_name ApsarastackDbProxy#db_proxy_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_name ApsarastackDbProxy#db_proxy_endpoint_name}
   */
   readonly dbProxyEndpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_type ApsarastackDbProxy#db_proxy_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_endpoint_type ApsarastackDbProxy#db_proxy_endpoint_type}
   */
   readonly dbProxyEndpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_instance_num ApsarastackDbProxy#db_proxy_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_instance_num ApsarastackDbProxy#db_proxy_instance_num}
   */
   readonly dbProxyInstanceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_instance_status ApsarastackDbProxy#db_proxy_instance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_instance_status ApsarastackDbProxy#db_proxy_instance_status}
   */
   readonly dbProxyInstanceStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#db_proxy_read_write_mode ApsarastackDbProxy#db_proxy_read_write_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#db_proxy_read_write_mode ApsarastackDbProxy#db_proxy_read_write_mode}
   */
   readonly dbProxyReadWriteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#effective_specific_time ApsarastackDbProxy#effective_specific_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#effective_specific_time ApsarastackDbProxy#effective_specific_time}
   */
   readonly effectiveSpecificTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#effective_time ApsarastackDbProxy#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#effective_time ApsarastackDbProxy#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#id ApsarastackDbProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#id ApsarastackDbProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,21 +69,21 @@ export interface ApsarastackDbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#timeouts ApsarastackDbProxy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#timeouts ApsarastackDbProxy#timeouts}
   */
   readonly timeouts?: ApsarastackDbProxyTimeouts;
 }
 export interface ApsarastackDbProxyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#create ApsarastackDbProxy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#create ApsarastackDbProxy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#delete ApsarastackDbProxy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#delete ApsarastackDbProxy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#update ApsarastackDbProxy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#update ApsarastackDbProxy#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class ApsarastackDbProxyTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy apsarastack_db_proxy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy apsarastack_db_proxy}
 */
 export class ApsarastackDbProxy extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class ApsarastackDbProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackDbProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackDbProxy to import
-  * @param importFromId The id of the existing ApsarastackDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackDbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class ApsarastackDbProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_db_proxy apsarastack_db_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_db_proxy apsarastack_db_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class ApsarastackDbProxy extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_db_proxy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

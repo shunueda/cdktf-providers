@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackExpressconnectRouterinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#description ApsarastackExpressconnectRouterinterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#description ApsarastackExpressconnectRouterinterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#health_check_source_ip ApsarastackExpressconnectRouterinterface#health_check_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#health_check_source_ip ApsarastackExpressconnectRouterinterface#health_check_source_ip}
   */
   readonly healthCheckSourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#health_check_target_ip ApsarastackExpressconnectRouterinterface#health_check_target_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#health_check_target_ip ApsarastackExpressconnectRouterinterface#health_check_target_ip}
   */
   readonly healthCheckTargetIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#id ApsarastackExpressconnectRouterinterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#id ApsarastackExpressconnectRouterinterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#name ApsarastackExpressconnectRouterinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#name ApsarastackExpressconnectRouterinterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_access_point_id ApsarastackExpressconnectRouterinterface#opposite_access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_access_point_id ApsarastackExpressconnectRouterinterface#opposite_access_point_id}
   */
   readonly oppositeAccessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_interface_id ApsarastackExpressconnectRouterinterface#opposite_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_interface_id ApsarastackExpressconnectRouterinterface#opposite_interface_id}
   */
   readonly oppositeInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_interface_owner_id ApsarastackExpressconnectRouterinterface#opposite_interface_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_interface_owner_id ApsarastackExpressconnectRouterinterface#opposite_interface_owner_id}
   */
   readonly oppositeInterfaceOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_region ApsarastackExpressconnectRouterinterface#opposite_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_region ApsarastackExpressconnectRouterinterface#opposite_region}
   */
   readonly oppositeRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_router_id ApsarastackExpressconnectRouterinterface#opposite_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_router_id ApsarastackExpressconnectRouterinterface#opposite_router_id}
   */
   readonly oppositeRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#opposite_router_type ApsarastackExpressconnectRouterinterface#opposite_router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#opposite_router_type ApsarastackExpressconnectRouterinterface#opposite_router_type}
   */
   readonly oppositeRouterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#role ApsarastackExpressconnectRouterinterface#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#role ApsarastackExpressconnectRouterinterface#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#router_id ApsarastackExpressconnectRouterinterface#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#router_id ApsarastackExpressconnectRouterinterface#router_id}
   */
   readonly routerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#router_type ApsarastackExpressconnectRouterinterface#router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#router_type ApsarastackExpressconnectRouterinterface#router_type}
   */
   readonly routerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#specification ApsarastackExpressconnectRouterinterface#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#specification ApsarastackExpressconnectRouterinterface#specification}
   */
   readonly specification?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface apsarastack_expressconnect_routerinterface}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface apsarastack_expressconnect_routerinterface}
 */
 export class ApsarastackExpressconnectRouterinterface extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ApsarastackExpressconnectRouterinterface extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ApsarastackExpressconnectRouterinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackExpressconnectRouterinterface to import
-  * @param importFromId The id of the existing ApsarastackExpressconnectRouterinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackExpressconnectRouterinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackExpressconnectRouterinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ApsarastackExpressconnectRouterinterface extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_routerinterface apsarastack_expressconnect_routerinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_routerinterface apsarastack_expressconnect_routerinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ApsarastackExpressconnectRouterinterface extends cdktf.TerraformRes
       terraformResourceType: 'apsarastack_expressconnect_routerinterface',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

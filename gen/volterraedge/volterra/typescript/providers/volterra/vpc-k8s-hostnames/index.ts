@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface VpcK8SHostnamesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames#id VpcK8SHostnames#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames#id VpcK8SHostnames#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames#name VpcK8SHostnames#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames#name VpcK8SHostnames#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames#namespace VpcK8SHostnames#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames#namespace VpcK8SHostnames#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames#node_names VpcK8SHostnames#node_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames#node_names VpcK8SHostnames#node_names}
   */
   readonly nodeNames: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames volterra_vpc_k8s_hostnames}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames volterra_vpc_k8s_hostnames}
 */
 export class VpcK8SHostnames extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpcK8SHostnames extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcK8SHostnames resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcK8SHostnames to import
-  * @param importFromId The id of the existing VpcK8SHostnames that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcK8SHostnames that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcK8SHostnames to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpcK8SHostnames extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/vpc_k8s_hostnames volterra_vpc_k8s_hostnames} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/vpc_k8s_hostnames volterra_vpc_k8s_hostnames} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpcK8SHostnames extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_vpc_k8s_hostnames',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

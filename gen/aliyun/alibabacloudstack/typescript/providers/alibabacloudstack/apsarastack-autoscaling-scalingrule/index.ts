@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackAutoscalingScalingruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#adjustment_type ApsarastackAutoscalingScalingrule#adjustment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#adjustment_type ApsarastackAutoscalingScalingrule#adjustment_type}
   */
   readonly adjustmentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#adjustment_value ApsarastackAutoscalingScalingrule#adjustment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#adjustment_value ApsarastackAutoscalingScalingrule#adjustment_value}
   */
   readonly adjustmentValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#cooldown ApsarastackAutoscalingScalingrule#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#cooldown ApsarastackAutoscalingScalingrule#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#id ApsarastackAutoscalingScalingrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#id ApsarastackAutoscalingScalingrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#scaling_group_id ApsarastackAutoscalingScalingrule#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#scaling_group_id ApsarastackAutoscalingScalingrule#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#scaling_rule_name ApsarastackAutoscalingScalingrule#scaling_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#scaling_rule_name ApsarastackAutoscalingScalingrule#scaling_rule_name}
   */
   readonly scalingRuleName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule apsarastack_autoscaling_scalingrule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule apsarastack_autoscaling_scalingrule}
 */
 export class ApsarastackAutoscalingScalingrule extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ApsarastackAutoscalingScalingrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackAutoscalingScalingrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackAutoscalingScalingrule to import
-  * @param importFromId The id of the existing ApsarastackAutoscalingScalingrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackAutoscalingScalingrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackAutoscalingScalingrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ApsarastackAutoscalingScalingrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_autoscaling_scalingrule apsarastack_autoscaling_scalingrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_autoscaling_scalingrule apsarastack_autoscaling_scalingrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ApsarastackAutoscalingScalingrule extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_autoscaling_scalingrule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

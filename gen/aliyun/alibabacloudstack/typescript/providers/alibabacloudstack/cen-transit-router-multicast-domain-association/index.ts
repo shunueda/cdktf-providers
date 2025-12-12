@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterMulticastDomainAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association#id CenTransitRouterMulticastDomainAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association#id CenTransitRouterMulticastDomainAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association#transit_router_attachment_id CenTransitRouterMulticastDomainAssociation#transit_router_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association#transit_router_attachment_id CenTransitRouterMulticastDomainAssociation#transit_router_attachment_id}
   */
   readonly transitRouterAttachmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association#transit_router_multicast_domain_id CenTransitRouterMulticastDomainAssociation#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association#transit_router_multicast_domain_id CenTransitRouterMulticastDomainAssociation#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association#vswitch_id CenTransitRouterMulticastDomainAssociation#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association#vswitch_id CenTransitRouterMulticastDomainAssociation#vswitch_id}
   */
   readonly vswitchId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association alibabacloudstack_cen_transit_router_multicast_domain_association}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association alibabacloudstack_cen_transit_router_multicast_domain_association}
 */
 export class CenTransitRouterMulticastDomainAssociation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CenTransitRouterMulticastDomainAssociation extends cdktf.TerraformR
   * Generates CDKTF code for importing a CenTransitRouterMulticastDomainAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterMulticastDomainAssociation to import
-  * @param importFromId The id of the existing CenTransitRouterMulticastDomainAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterMulticastDomainAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterMulticastDomainAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CenTransitRouterMulticastDomainAssociation extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_multicast_domain_association alibabacloudstack_cen_transit_router_multicast_domain_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/cen_transit_router_multicast_domain_association alibabacloudstack_cen_transit_router_multicast_domain_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CenTransitRouterMulticastDomainAssociation extends cdktf.TerraformR
       terraformResourceType: 'alibabacloudstack_cen_transit_router_multicast_domain_association',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

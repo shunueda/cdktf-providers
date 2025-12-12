@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface TgwInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#id TgwInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#id TgwInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#name TgwInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#name TgwInfo#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#private_ips TgwInfo#private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#private_ips TgwInfo#private_ips}
   */
   readonly privateIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#public_ips TgwInfo#public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#public_ips TgwInfo#public_ips}
   */
   readonly publicIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#tgw_id TgwInfo#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#tgw_id TgwInfo#tgw_id}
   */
   readonly tgwId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#vpc_id TgwInfo#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#vpc_id TgwInfo#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#vpc_name TgwInfo#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#vpc_name TgwInfo#vpc_name}
   */
   readonly vpcName?: string;
   /**
   * direct_connect_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#direct_connect_info TgwInfo#direct_connect_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#direct_connect_info TgwInfo#direct_connect_info}
   */
   readonly directConnectInfo?: TgwInfoDirectConnectInfo[] | cdktf.IResolvable;
   /**
   * subnet_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#subnet_ids TgwInfo#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#subnet_ids TgwInfo#subnet_ids}
   */
   readonly subnetIds: TgwInfoSubnetIds[] | cdktf.IResolvable;
 }
 export interface TgwInfoDirectConnectInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#asn TgwInfo#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#asn TgwInfo#asn}
   */
   readonly asn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#direct_connect_gateway_id TgwInfo#direct_connect_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#direct_connect_gateway_id TgwInfo#direct_connect_gateway_id}
   */
   readonly directConnectGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#vgw_id TgwInfo#vgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#vgw_id TgwInfo#vgw_id}
   */
   readonly vgwId?: string;
 }
@@ -235,18 +235,18 @@ export class TgwInfoDirectConnectInfoList extends cdktf.ComplexList {
 }
 export interface TgwInfoSubnetIdsInsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#az_name TgwInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#az_name TgwInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#id TgwInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#id TgwInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -420,18 +420,18 @@ export class TgwInfoSubnetIdsInsideSubnetList extends cdktf.ComplexList {
 }
 export interface TgwInfoSubnetIdsOutsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#az_name TgwInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#az_name TgwInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#id TgwInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#id TgwInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -605,18 +605,18 @@ export class TgwInfoSubnetIdsOutsideSubnetList extends cdktf.ComplexList {
 }
 export interface TgwInfoSubnetIdsWorkloadSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#az_name TgwInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#az_name TgwInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#id TgwInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#id TgwInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#ipv4_prefix TgwInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -790,37 +790,37 @@ export class TgwInfoSubnetIdsWorkloadSubnetList extends cdktf.ComplexList {
 }
 export interface TgwInfoSubnetIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#az TgwInfo#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#az TgwInfo#az}
   */
   readonly az?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#inside_subnet_id TgwInfo#inside_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#inside_subnet_id TgwInfo#inside_subnet_id}
   */
   readonly insideSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#outside_subnet_id TgwInfo#outside_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#outside_subnet_id TgwInfo#outside_subnet_id}
   */
   readonly outsideSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#workload_subnet_id TgwInfo#workload_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#workload_subnet_id TgwInfo#workload_subnet_id}
   */
   readonly workloadSubnetId?: string;
   /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#inside_subnet TgwInfo#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#inside_subnet TgwInfo#inside_subnet}
   */
   readonly insideSubnet?: TgwInfoSubnetIdsInsideSubnet[] | cdktf.IResolvable;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#outside_subnet TgwInfo#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#outside_subnet TgwInfo#outside_subnet}
   */
   readonly outsideSubnet?: TgwInfoSubnetIdsOutsideSubnet[] | cdktf.IResolvable;
   /**
   * workload_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#workload_subnet TgwInfo#workload_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#workload_subnet TgwInfo#workload_subnet}
   */
   readonly workloadSubnet?: TgwInfoSubnetIdsWorkloadSubnet[] | cdktf.IResolvable;
 }
@@ -1110,7 +1110,7 @@ export class TgwInfoSubnetIdsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info volterra_tgw_info}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info volterra_tgw_info}
 */
 export class TgwInfo extends cdktf.TerraformResource {
 
@@ -1126,7 +1126,7 @@ export class TgwInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TgwInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TgwInfo to import
-  * @param importFromId The id of the existing TgwInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TgwInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TgwInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1138,7 +1138,7 @@ export class TgwInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_info volterra_tgw_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/tgw_info volterra_tgw_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1149,8 +1149,8 @@ export class TgwInfo extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_tgw_info',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

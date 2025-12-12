@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureNotificationChannelSlackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#enabled DataSysdigSecureNotificationChannelSlack#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#enabled DataSysdigSecureNotificationChannelSlack#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#id DataSysdigSecureNotificationChannelSlack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#id DataSysdigSecureNotificationChannelSlack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#name DataSysdigSecureNotificationChannelSlack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#name DataSysdigSecureNotificationChannelSlack#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#notify_when_ok DataSysdigSecureNotificationChannelSlack#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#notify_when_ok DataSysdigSecureNotificationChannelSlack#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#notify_when_resolved DataSysdigSecureNotificationChannelSlack#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#notify_when_resolved DataSysdigSecureNotificationChannelSlack#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#send_test_notification DataSysdigSecureNotificationChannelSlack#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#send_test_notification DataSysdigSecureNotificationChannelSlack#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#share_with_current_team DataSysdigSecureNotificationChannelSlack#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#share_with_current_team DataSysdigSecureNotificationChannelSlack#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#timeouts DataSysdigSecureNotificationChannelSlack#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#timeouts DataSysdigSecureNotificationChannelSlack#timeouts}
   */
   readonly timeouts?: DataSysdigSecureNotificationChannelSlackTimeouts;
 }
 export interface DataSysdigSecureNotificationChannelSlackTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#read DataSysdigSecureNotificationChannelSlack#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#read DataSysdigSecureNotificationChannelSlack#read}
   */
   readonly read?: string;
 }
@@ -141,7 +141,7 @@ export class DataSysdigSecureNotificationChannelSlackTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack sysdig_secure_notification_channel_slack}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack sysdig_secure_notification_channel_slack}
 */
 export class DataSysdigSecureNotificationChannelSlack extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataSysdigSecureNotificationChannelSlack extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataSysdigSecureNotificationChannelSlack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureNotificationChannelSlack to import
-  * @param importFromId The id of the existing DataSysdigSecureNotificationChannelSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureNotificationChannelSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureNotificationChannelSlack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataSysdigSecureNotificationChannelSlack extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_notification_channel_slack sysdig_secure_notification_channel_slack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_notification_channel_slack sysdig_secure_notification_channel_slack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataSysdigSecureNotificationChannelSlack extends cdktf.TerraformDat
       terraformResourceType: 'sysdig_secure_notification_channel_slack',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

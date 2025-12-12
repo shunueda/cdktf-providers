@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TenantCommonVariableConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the library variable set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#library_variable_set_id TenantCommonVariable#library_variable_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#library_variable_set_id TenantCommonVariable#library_variable_set_id}
   */
   readonly libraryVariableSetId: string;
   /**
   * The space ID associated with this Tenant Common Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#space_id TenantCommonVariable#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#space_id TenantCommonVariable#space_id}
   */
   readonly spaceId?: string;
   /**
   * The ID of the variable template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#template_id TenantCommonVariable#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#template_id TenantCommonVariable#template_id}
   */
   readonly templateId: string;
   /**
   * The ID of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#tenant_id TenantCommonVariable#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#tenant_id TenantCommonVariable#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#value TenantCommonVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#value TenantCommonVariable#value}
   */
   readonly value?: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#scope TenantCommonVariable#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#scope TenantCommonVariable#scope}
   */
   readonly scope?: TenantCommonVariableScope[] | cdktf.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface TenantCommonVariableScope {
   /**
   * A set of environment IDs to scope this variable to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#environment_ids TenantCommonVariable#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#environment_ids TenantCommonVariable#environment_ids}
   */
   readonly environmentIds?: string[];
 }
@@ -164,7 +164,7 @@ export class TenantCommonVariableScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable octopusdeploy_tenant_common_variable}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable octopusdeploy_tenant_common_variable}
 */
 export class TenantCommonVariable extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class TenantCommonVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantCommonVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantCommonVariable to import
-  * @param importFromId The id of the existing TenantCommonVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantCommonVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantCommonVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class TenantCommonVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/tenant_common_variable octopusdeploy_tenant_common_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tenant_common_variable octopusdeploy_tenant_common_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class TenantCommonVariable extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tenant_common_variable',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

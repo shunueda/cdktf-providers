@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface FastAclConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#annotations FastAcl#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#annotations FastAcl#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#disable FastAcl#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#id FastAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#id FastAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#labels FastAcl#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#labels FastAcl#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace: string;
   /**
   * legacy_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#legacy_acl FastAcl#legacy_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#legacy_acl FastAcl#legacy_acl}
   */
   readonly legacyAcl?: FastAclLegacyAcl;
   /**
   * protocol_policer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer FastAcl#protocol_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#protocol_policer FastAcl#protocol_policer}
   */
   readonly protocolPolicer?: FastAclProtocolPolicer;
   /**
   * re_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#re_acl FastAcl#re_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#re_acl FastAcl#re_acl}
   */
   readonly reAcl?: FastAclReAcl;
   /**
   * site_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_acl FastAcl#site_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#site_acl FastAcl#site_acl}
   */
   readonly siteAcl?: FastAclSiteAcl;
 }
 export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#addr FastAcl#addr}
   */
   readonly addr?: string;
 }
@@ -149,7 +149,7 @@ export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4Outpu
 }
 export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#addr FastAcl#addr}
   */
   readonly addr?: string;
 }
@@ -235,13 +235,13 @@ export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
   */
   readonly ipv4?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
   */
   readonly ipv6?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6;
 }
@@ -386,15 +386,15 @@ export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressList exte
 }
 export interface FastAclLegacyAclDestinationTypeDestinationIpAddressPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all FastAcl#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#dns FastAcl#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#user_defined FastAcl#user_defined}
   */
   readonly userDefined?: number;
 }
@@ -568,19 +568,19 @@ export class FastAclLegacyAclDestinationTypeDestinationIpAddressPortsList extend
 }
 export interface FastAclLegacyAclDestinationTypeDestinationIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol FastAcl#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#protocol FastAcl#protocol}
   */
   readonly protocol?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#address FastAcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#address FastAcl#address}
   */
   readonly address?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ports FastAcl#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ports FastAcl#ports}
   */
   readonly ports: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts[] | cdktf.IResolvable;
 }
@@ -719,7 +719,7 @@ export class FastAclLegacyAclDestinationTypeDestinationIpAddressOutputReference 
 }
 export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#addr FastAcl#addr}
   */
   readonly addr?: string;
 }
@@ -803,7 +803,7 @@ export class FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4OutputR
 }
 export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#addr FastAcl#addr}
   */
   readonly addr?: string;
 }
@@ -889,13 +889,13 @@ export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
   */
   readonly ipv4?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
   */
   readonly ipv6?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6;
 }
@@ -1042,7 +1042,7 @@ export interface FastAclLegacyAclDestinationTypeSelectedVipAddress {
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#address FastAcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#address FastAcl#address}
   */
   readonly address?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress[] | cdktf.IResolvable;
 }
@@ -1126,35 +1126,35 @@ export class FastAclLegacyAclDestinationTypeSelectedVipAddressOutputReference ex
 }
 export interface FastAclLegacyAclDestinationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_services FastAcl#all_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all_services FastAcl#all_services}
   */
   readonly allServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#interface_services FastAcl#interface_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#interface_services FastAcl#interface_services}
   */
   readonly interfaceServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#shared_vip_services FastAcl#shared_vip_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#shared_vip_services FastAcl#shared_vip_services}
   */
   readonly sharedVipServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vhost FastAcl#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#vhost FastAcl#vhost}
   */
   readonly vhost?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vip_services FastAcl#vip_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#vip_services FastAcl#vip_services}
   */
   readonly vipServices?: boolean | cdktf.IResolvable;
   /**
   * destination_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#destination_ip_address FastAcl#destination_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#destination_ip_address FastAcl#destination_ip_address}
   */
   readonly destinationIpAddress?: FastAclLegacyAclDestinationTypeDestinationIpAddress;
   /**
   * selected_vip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#selected_vip_address FastAcl#selected_vip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#selected_vip_address FastAcl#selected_vip_address}
   */
   readonly selectedVipAddress?: FastAclLegacyAclDestinationTypeSelectedVipAddress;
 }
@@ -1412,15 +1412,15 @@ export class FastAclLegacyAclDestinationTypeOutputReference extends cdktf.Comple
 }
 export interface FastAclLegacyAclNetworkType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#public FastAcl#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#public FastAcl#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_local FastAcl#site_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#site_local FastAcl#site_local}
   */
   readonly siteLocal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_local_inside FastAcl#site_local_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#site_local_inside FastAcl#site_local_inside}
   */
   readonly siteLocalInside?: boolean | cdktf.IResolvable;
 }
@@ -1562,15 +1562,15 @@ export class FastAclLegacyAclNetworkTypeOutputReference extends cdktf.ComplexObj
 }
 export interface FastAclLegacyAclSourceRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -1746,19 +1746,19 @@ export interface FastAclLegacyAcl {
   /**
   * destination_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#destination_type FastAcl#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#destination_type FastAcl#destination_type}
   */
   readonly destinationType: FastAclLegacyAclDestinationType;
   /**
   * network_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#network_type FastAcl#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#network_type FastAcl#network_type}
   */
   readonly networkType: FastAclLegacyAclNetworkType;
   /**
   * source_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#source_rules FastAcl#source_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#source_rules FastAcl#source_rules}
   */
   readonly sourceRules?: FastAclLegacyAclSourceRules[] | cdktf.IResolvable;
 }
@@ -1894,15 +1894,15 @@ export class FastAclLegacyAclOutputReference extends cdktf.ComplexObject {
 }
 export interface FastAclProtocolPolicer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2044,15 +2044,15 @@ export class FastAclProtocolPolicerOutputReference extends cdktf.ComplexObject {
 }
 export interface FastAclReAclFastAclRulesActionPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2233,7 +2233,7 @@ export interface FastAclReAclFastAclRulesActionPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesActionPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -2317,15 +2317,15 @@ export class FastAclReAclFastAclRulesActionPolicerActionOutputReference extends 
 }
 export interface FastAclReAclFastAclRulesActionProtocolPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2506,7 +2506,7 @@ export interface FastAclReAclFastAclRulesActionProtocolPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesActionProtocolPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -2590,19 +2590,19 @@ export class FastAclReAclFastAclRulesActionProtocolPolicerActionOutputReference 
 }
 export interface FastAclReAclFastAclRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#simple_action FastAcl#simple_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#simple_action FastAcl#simple_action}
   */
   readonly simpleAction?: string;
   /**
   * policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#policer_action FastAcl#policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#policer_action FastAcl#policer_action}
   */
   readonly policerAction?: FastAclReAclFastAclRulesActionPolicerAction;
   /**
   * protocol_policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
   */
   readonly protocolPolicerAction?: FastAclReAclFastAclRulesActionProtocolPolicerAction;
 }
@@ -2744,15 +2744,15 @@ export class FastAclReAclFastAclRulesActionOutputReference extends cdktf.Complex
 }
 export interface FastAclReAclFastAclRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2933,7 +2933,7 @@ export interface FastAclReAclFastAclRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -3017,15 +3017,15 @@ export class FastAclReAclFastAclRulesIpPrefixSetOutputReference extends cdktf.Co
 }
 export interface FastAclReAclFastAclRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#disable FastAcl#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
 }
@@ -3164,15 +3164,15 @@ export class FastAclReAclFastAclRulesMetadataOutputReference extends cdktf.Compl
 }
 export interface FastAclReAclFastAclRulesPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all FastAcl#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#dns FastAcl#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#user_defined FastAcl#user_defined}
   */
   readonly userDefined?: number;
 }
@@ -3346,11 +3346,11 @@ export class FastAclReAclFastAclRulesPortList extends cdktf.ComplexList {
 }
 export interface FastAclReAclFastAclRulesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: string[];
 }
@@ -3463,37 +3463,37 @@ export class FastAclReAclFastAclRulesPrefixOutputReference extends cdktf.Complex
 }
 export interface FastAclReAclFastAclRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#action FastAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#action FastAcl#action}
   */
   readonly action: FastAclReAclFastAclRulesAction;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
   */
   readonly ipPrefixSet?: FastAclReAclFastAclRulesIpPrefixSet;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#metadata FastAcl#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#metadata FastAcl#metadata}
   */
   readonly metadata: FastAclReAclFastAclRulesMetadata;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#port FastAcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#port FastAcl#port}
   */
   readonly port?: FastAclReAclFastAclRulesPort[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: FastAclReAclFastAclRulesPrefix;
 }
@@ -3748,15 +3748,15 @@ export class FastAclReAclFastAclRulesList extends cdktf.ComplexList {
 }
 export interface FastAclReAclSelectedTenantVipPublicIpRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -3930,13 +3930,13 @@ export class FastAclReAclSelectedTenantVipPublicIpRefsList extends cdktf.Complex
 }
 export interface FastAclReAclSelectedTenantVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
   */
   readonly defaultTenantVip?: boolean | cdktf.IResolvable;
   /**
   * public_ip_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#public_ip_refs FastAcl#public_ip_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#public_ip_refs FastAcl#public_ip_refs}
   */
   readonly publicIpRefs: FastAclReAclSelectedTenantVipPublicIpRefs[] | cdktf.IResolvable;
 }
@@ -4046,23 +4046,23 @@ export class FastAclReAclSelectedTenantVipOutputReference extends cdktf.ComplexO
 }
 export interface FastAclReAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_public_vips FastAcl#all_public_vips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all_public_vips FastAcl#all_public_vips}
   */
   readonly allPublicVips?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
   */
   readonly defaultTenantVip?: boolean | cdktf.IResolvable;
   /**
   * fast_acl_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
   */
   readonly fastAclRules?: FastAclReAclFastAclRules[] | cdktf.IResolvable;
   /**
   * selected_tenant_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#selected_tenant_vip FastAcl#selected_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#selected_tenant_vip FastAcl#selected_tenant_vip}
   */
   readonly selectedTenantVip?: FastAclReAclSelectedTenantVip;
 }
@@ -4233,15 +4233,15 @@ export class FastAclReAclOutputReference extends cdktf.ComplexObject {
 }
 export interface FastAclSiteAclFastAclRulesActionPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -4422,7 +4422,7 @@ export interface FastAclSiteAclFastAclRulesActionPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesActionPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -4506,15 +4506,15 @@ export class FastAclSiteAclFastAclRulesActionPolicerActionOutputReference extend
 }
 export interface FastAclSiteAclFastAclRulesActionProtocolPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -4695,7 +4695,7 @@ export interface FastAclSiteAclFastAclRulesActionProtocolPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesActionProtocolPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -4779,19 +4779,19 @@ export class FastAclSiteAclFastAclRulesActionProtocolPolicerActionOutputReferenc
 }
 export interface FastAclSiteAclFastAclRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#simple_action FastAcl#simple_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#simple_action FastAcl#simple_action}
   */
   readonly simpleAction?: string;
   /**
   * policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#policer_action FastAcl#policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#policer_action FastAcl#policer_action}
   */
   readonly policerAction?: FastAclSiteAclFastAclRulesActionPolicerAction;
   /**
   * protocol_policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
   */
   readonly protocolPolicerAction?: FastAclSiteAclFastAclRulesActionProtocolPolicerAction;
 }
@@ -4933,15 +4933,15 @@ export class FastAclSiteAclFastAclRulesActionOutputReference extends cdktf.Compl
 }
 export interface FastAclSiteAclFastAclRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -5122,7 +5122,7 @@ export interface FastAclSiteAclFastAclRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -5206,15 +5206,15 @@ export class FastAclSiteAclFastAclRulesIpPrefixSetOutputReference extends cdktf.
 }
 export interface FastAclSiteAclFastAclRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#disable FastAcl#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
 }
@@ -5353,15 +5353,15 @@ export class FastAclSiteAclFastAclRulesMetadataOutputReference extends cdktf.Com
 }
 export interface FastAclSiteAclFastAclRulesPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all FastAcl#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#dns FastAcl#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#user_defined FastAcl#user_defined}
   */
   readonly userDefined?: number;
 }
@@ -5535,11 +5535,11 @@ export class FastAclSiteAclFastAclRulesPortList extends cdktf.ComplexList {
 }
 export interface FastAclSiteAclFastAclRulesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: string[];
 }
@@ -5652,37 +5652,37 @@ export class FastAclSiteAclFastAclRulesPrefixOutputReference extends cdktf.Compl
 }
 export interface FastAclSiteAclFastAclRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#action FastAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#action FastAcl#action}
   */
   readonly action: FastAclSiteAclFastAclRulesAction;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
   */
   readonly ipPrefixSet?: FastAclSiteAclFastAclRulesIpPrefixSet;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#metadata FastAcl#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#metadata FastAcl#metadata}
   */
   readonly metadata: FastAclSiteAclFastAclRulesMetadata;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#port FastAcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#port FastAcl#port}
   */
   readonly port?: FastAclSiteAclFastAclRulesPort[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: FastAclSiteAclFastAclRulesPrefix;
 }
@@ -5937,29 +5937,29 @@ export class FastAclSiteAclFastAclRulesList extends cdktf.ComplexList {
 }
 export interface FastAclSiteAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_services FastAcl#all_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#all_services FastAcl#all_services}
   */
   readonly allServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#inside_network FastAcl#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#inside_network FastAcl#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#interface_services FastAcl#interface_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#interface_services FastAcl#interface_services}
   */
   readonly interfaceServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#outside_network FastAcl#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#outside_network FastAcl#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vip_services FastAcl#vip_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#vip_services FastAcl#vip_services}
   */
   readonly vipServices?: boolean | cdktf.IResolvable;
   /**
   * fast_acl_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
   */
   readonly fastAclRules?: FastAclSiteAclFastAclRules[] | cdktf.IResolvable;
 }
@@ -6188,7 +6188,7 @@ export class FastAclSiteAclOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl volterra_fast_acl}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl volterra_fast_acl}
 */
 export class FastAcl extends cdktf.TerraformResource {
 
@@ -6204,7 +6204,7 @@ export class FastAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FastAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastAcl to import
-  * @param importFromId The id of the existing FastAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6216,7 +6216,7 @@ export class FastAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl volterra_fast_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/fast_acl volterra_fast_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6227,8 +6227,8 @@ export class FastAcl extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_fast_acl',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

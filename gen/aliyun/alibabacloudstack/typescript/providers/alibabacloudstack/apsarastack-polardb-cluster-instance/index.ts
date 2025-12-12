@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackPolardbClusterInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#cpu_type ApsarastackPolardbClusterInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#cpu_type ApsarastackPolardbClusterInstance#cpu_type}
   */
   readonly cpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#db_cluster_description ApsarastackPolardbClusterInstance#db_cluster_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#db_cluster_description ApsarastackPolardbClusterInstance#db_cluster_description}
   */
   readonly dbClusterDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#db_node_class ApsarastackPolardbClusterInstance#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#db_node_class ApsarastackPolardbClusterInstance#db_node_class}
   */
   readonly dbNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#db_type ApsarastackPolardbClusterInstance#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#db_type ApsarastackPolardbClusterInstance#db_type}
   */
   readonly dbType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#db_version ApsarastackPolardbClusterInstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#db_version ApsarastackPolardbClusterInstance#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#deletion_lock ApsarastackPolardbClusterInstance#deletion_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#deletion_lock ApsarastackPolardbClusterInstance#deletion_lock}
   */
   readonly deletionLock?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#encrypt_algorithm ApsarastackPolardbClusterInstance#encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#encrypt_algorithm ApsarastackPolardbClusterInstance#encrypt_algorithm}
   */
   readonly encryptAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#encryption_key ApsarastackPolardbClusterInstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#encryption_key ApsarastackPolardbClusterInstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#hot_standby_cluster ApsarastackPolardbClusterInstance#hot_standby_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#hot_standby_cluster ApsarastackPolardbClusterInstance#hot_standby_cluster}
   */
   readonly hotStandbyCluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#id ApsarastackPolardbClusterInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#id ApsarastackPolardbClusterInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#maintain_time ApsarastackPolardbClusterInstance#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#maintain_time ApsarastackPolardbClusterInstance#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#readonly_node_num ApsarastackPolardbClusterInstance#readonly_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#readonly_node_num ApsarastackPolardbClusterInstance#readonly_node_num}
   */
   readonly readonlyNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#role_arn ApsarastackPolardbClusterInstance#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#role_arn ApsarastackPolardbClusterInstance#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#security_groups ApsarastackPolardbClusterInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#security_groups ApsarastackPolardbClusterInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#security_ips_groups ApsarastackPolardbClusterInstance#security_ips_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#security_ips_groups ApsarastackPolardbClusterInstance#security_ips_groups}
   */
   readonly securityIpsGroups?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#ssl_enabled ApsarastackPolardbClusterInstance#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#ssl_enabled ApsarastackPolardbClusterInstance#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#storage_space ApsarastackPolardbClusterInstance#storage_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#storage_space ApsarastackPolardbClusterInstance#storage_space}
   */
   readonly storageSpace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#storage_type ApsarastackPolardbClusterInstance#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#storage_type ApsarastackPolardbClusterInstance#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#sub_category ApsarastackPolardbClusterInstance#sub_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#sub_category ApsarastackPolardbClusterInstance#sub_category}
   */
   readonly subCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#tags ApsarastackPolardbClusterInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#tags ApsarastackPolardbClusterInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#tde_enabled ApsarastackPolardbClusterInstance#tde_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#tde_enabled ApsarastackPolardbClusterInstance#tde_enabled}
   */
   readonly tdeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#vswitch_id ApsarastackPolardbClusterInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#vswitch_id ApsarastackPolardbClusterInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#zone_id ApsarastackPolardbClusterInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#zone_id ApsarastackPolardbClusterInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#parameters ApsarastackPolardbClusterInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#parameters ApsarastackPolardbClusterInstance#parameters}
   */
   readonly parameters?: ApsarastackPolardbClusterInstanceParameters[] | cdktf.IResolvable;
 }
@@ -251,11 +251,11 @@ export class ApsarastackPolardbClusterInstanceDbNodesList extends cdktf.ComplexL
 }
 export interface ApsarastackPolardbClusterInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#name ApsarastackPolardbClusterInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#name ApsarastackPolardbClusterInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#value ApsarastackPolardbClusterInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#value ApsarastackPolardbClusterInstance#value}
   */
   readonly value: string;
 }
@@ -394,7 +394,7 @@ export class ApsarastackPolardbClusterInstanceParametersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance apsarastack_polardb_cluster_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance apsarastack_polardb_cluster_instance}
 */
 export class ApsarastackPolardbClusterInstance extends cdktf.TerraformResource {
 
@@ -410,7 +410,7 @@ export class ApsarastackPolardbClusterInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackPolardbClusterInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackPolardbClusterInstance to import
-  * @param importFromId The id of the existing ApsarastackPolardbClusterInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackPolardbClusterInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackPolardbClusterInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -422,7 +422,7 @@ export class ApsarastackPolardbClusterInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_instance apsarastack_polardb_cluster_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_instance apsarastack_polardb_cluster_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,8 +433,8 @@ export class ApsarastackPolardbClusterInstance extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_polardb_cluster_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

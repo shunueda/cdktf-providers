@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,28 +10,28 @@ export interface DataApsarastackCenRouteMapsConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the cen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#cen_id DataApsarastackCenRouteMaps#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#cen_id DataApsarastackCenRouteMaps#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#description_regex DataApsarastackCenRouteMaps#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#description_regex DataApsarastackCenRouteMaps#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#id DataApsarastackCenRouteMaps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#id DataApsarastackCenRouteMaps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#ids DataApsarastackCenRouteMaps#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#ids DataApsarastackCenRouteMaps#ids}
   */
   readonly ids?: string[];
   /**
   * ID of the route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#transit_router_route_table_id DataApsarastackCenRouteMaps#transit_router_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#transit_router_route_table_id DataApsarastackCenRouteMaps#transit_router_route_table_id}
   */
   readonly transitRouterRouteTableId: string;
 }
@@ -152,7 +152,7 @@ export class DataApsarastackCenRouteMapsRouteMapsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps apsarastack_cen_route_maps}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps apsarastack_cen_route_maps}
 */
 export class DataApsarastackCenRouteMaps extends cdktf.TerraformDataSource {
 
@@ -168,7 +168,7 @@ export class DataApsarastackCenRouteMaps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApsarastackCenRouteMaps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackCenRouteMaps to import
-  * @param importFromId The id of the existing DataApsarastackCenRouteMaps that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackCenRouteMaps that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackCenRouteMaps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -180,7 +180,7 @@ export class DataApsarastackCenRouteMaps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_route_maps apsarastack_cen_route_maps} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_route_maps apsarastack_cen_route_maps} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -191,8 +191,8 @@ export class DataApsarastackCenRouteMaps extends cdktf.TerraformDataSource {
       terraformResourceType: 'apsarastack_cen_route_maps',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

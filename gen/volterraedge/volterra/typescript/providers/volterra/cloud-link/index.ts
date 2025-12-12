@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface CloudLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#annotations CloudLink#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#annotations CloudLink#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#description CloudLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#description CloudLink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#disable CloudLink#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#disable CloudLink#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#disabled CloudLink#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#disabled CloudLink#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#id CloudLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#id CloudLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#labels CloudLink#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#labels CloudLink#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#namespace CloudLink#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#namespace CloudLink#namespace}
   */
   readonly namespace: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#aws CloudLink#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#aws CloudLink#aws}
   */
   readonly aws?: CloudLinkAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#azure CloudLink#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#azure CloudLink#azure}
   */
   readonly azure?: CloudLinkAzure;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#enabled CloudLink#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#enabled CloudLink#enabled}
   */
   readonly enabled?: CloudLinkEnabled;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#gcp CloudLink#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#gcp CloudLink#gcp}
   */
   readonly gcp?: CloudLinkGcp;
 }
 export interface CloudLinkAwsAwsCred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#namespace CloudLink#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#namespace CloudLink#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#tenant CloudLink#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#tenant CloudLink#tenant}
   */
   readonly tenant?: string;
 }
@@ -219,15 +219,15 @@ export class CloudLinkAwsAwsCredOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#decryption_provider CloudLink#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#decryption_provider CloudLink#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#location CloudLink#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#location CloudLink#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#store_provider CloudLink#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#store_provider CloudLink#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -366,15 +366,15 @@ export class CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfoOutputReferenc
 }
 export interface CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#decryption_provider CloudLink#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#decryption_provider CloudLink#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#location CloudLink#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#location CloudLink#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#store_provider CloudLink#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#store_provider CloudLink#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -513,11 +513,11 @@ export class CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfoInternalOutput
 }
 export interface CloudLinkAwsByocConnectionsAuthKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#provider CloudLink#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#provider CloudLink#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#url CloudLink#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#url CloudLink#url}
   */
   readonly url: string;
 }
@@ -627,23 +627,23 @@ export class CloudLinkAwsByocConnectionsAuthKeyClearSecretInfoOutputReference ex
 }
 export interface CloudLinkAwsByocConnectionsAuthKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#key CloudLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#key CloudLink#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#location CloudLink#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#location CloudLink#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#provider CloudLink#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#provider CloudLink#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#secret_encoding CloudLink#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#secret_encoding CloudLink#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#version CloudLink#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#version CloudLink#version}
   */
   readonly version?: number;
 }
@@ -837,7 +837,7 @@ export class CloudLinkAwsByocConnectionsAuthKeyVaultSecretInfoOutputReference ex
 }
 export interface CloudLinkAwsByocConnectionsAuthKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name: string;
 }
@@ -918,37 +918,37 @@ export class CloudLinkAwsByocConnectionsAuthKeyWingmanSecretInfoOutputReference 
 }
 export interface CloudLinkAwsByocConnectionsAuthKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#secret_encoding_type CloudLink#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#secret_encoding_type CloudLink#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#blindfold_secret_info CloudLink#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#blindfold_secret_info CloudLink#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#blindfold_secret_info_internal CloudLink#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#blindfold_secret_info_internal CloudLink#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CloudLinkAwsByocConnectionsAuthKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#clear_secret_info CloudLink#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#clear_secret_info CloudLink#clear_secret_info}
   */
   readonly clearSecretInfo?: CloudLinkAwsByocConnectionsAuthKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#vault_secret_info CloudLink#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#vault_secret_info CloudLink#vault_secret_info}
   */
   readonly vaultSecretInfo?: CloudLinkAwsByocConnectionsAuthKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#wingman_secret_info CloudLink#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#wingman_secret_info CloudLink#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CloudLinkAwsByocConnectionsAuthKeyWingmanSecretInfo;
 }
@@ -1177,11 +1177,11 @@ export class CloudLinkAwsByocConnectionsAuthKeyOutputReference extends cdktf.Com
 }
 export interface CloudLinkAwsByocConnectionsCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#latitude CloudLink#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#latitude CloudLink#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#longitude CloudLink#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#longitude CloudLink#longitude}
   */
   readonly longitude?: number;
 }
@@ -1294,11 +1294,11 @@ export class CloudLinkAwsByocConnectionsCoordinatesOutputReference extends cdktf
 }
 export interface CloudLinkAwsByocConnectionsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#aws_router_peer_address CloudLink#aws_router_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#aws_router_peer_address CloudLink#aws_router_peer_address}
   */
   readonly awsRouterPeerAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#router_peer_address CloudLink#router_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#router_peer_address CloudLink#router_peer_address}
   */
   readonly routerPeerAddress: string;
 }
@@ -1454,15 +1454,15 @@ export class CloudLinkAwsByocConnectionsIpv6OutputReference extends cdktf.Comple
 }
 export interface CloudLinkAwsByocConnectionsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#description CloudLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#description CloudLink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#disable CloudLink#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#disable CloudLink#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name: string;
 }
@@ -1601,73 +1601,73 @@ export class CloudLinkAwsByocConnectionsMetadataOutputReference extends cdktf.Co
 }
 export interface CloudLinkAwsByocConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#bgp_asn CloudLink#bgp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#bgp_asn CloudLink#bgp_asn}
   */
   readonly bgpAsn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#connection_id CloudLink#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#connection_id CloudLink#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#enable_sitelink CloudLink#enable_sitelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#enable_sitelink CloudLink#enable_sitelink}
   */
   readonly enableSitelink?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#jumbo_mtu CloudLink#jumbo_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#jumbo_mtu CloudLink#jumbo_mtu}
   */
   readonly jumboMtu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#region CloudLink#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#region CloudLink#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#system_generated_name CloudLink#system_generated_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#system_generated_name CloudLink#system_generated_name}
   */
   readonly systemGeneratedName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#tags CloudLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#tags CloudLink#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#user_assigned_name CloudLink#user_assigned_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#user_assigned_name CloudLink#user_assigned_name}
   */
   readonly userAssignedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#virtual_interface_type CloudLink#virtual_interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#virtual_interface_type CloudLink#virtual_interface_type}
   */
   readonly virtualInterfaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#vlan CloudLink#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#vlan CloudLink#vlan}
   */
   readonly vlan: number;
   /**
   * auth_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#auth_key CloudLink#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#auth_key CloudLink#auth_key}
   */
   readonly authKey: CloudLinkAwsByocConnectionsAuthKey;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#coordinates CloudLink#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#coordinates CloudLink#coordinates}
   */
   readonly coordinates?: CloudLinkAwsByocConnectionsCoordinates;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#ipv4 CloudLink#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#ipv4 CloudLink#ipv4}
   */
   readonly ipv4?: CloudLinkAwsByocConnectionsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#ipv6 CloudLink#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#ipv6 CloudLink#ipv6}
   */
   readonly ipv6?: CloudLinkAwsByocConnectionsIpv6;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#metadata CloudLink#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#metadata CloudLink#metadata}
   */
   readonly metadata: CloudLinkAwsByocConnectionsMetadata;
 }
@@ -2173,7 +2173,7 @@ export interface CloudLinkAwsByoc {
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#connections CloudLink#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#connections CloudLink#connections}
   */
   readonly connections: CloudLinkAwsByocConnections[] | cdktf.IResolvable;
 }
@@ -2303,29 +2303,29 @@ export class CloudLinkAwsF5XcManagedOutputReference extends cdktf.ComplexObject 
 }
 export interface CloudLinkAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#auto CloudLink#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#auto CloudLink#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#custom_asn CloudLink#custom_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#custom_asn CloudLink#custom_asn}
   */
   readonly customAsn?: number;
   /**
   * aws_cred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#aws_cred CloudLink#aws_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#aws_cred CloudLink#aws_cred}
   */
   readonly awsCred: CloudLinkAwsAwsCred;
   /**
   * byoc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#byoc CloudLink#byoc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#byoc CloudLink#byoc}
   */
   readonly byoc?: CloudLinkAwsByoc;
   /**
   * f5xc_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#f5xc_managed CloudLink#f5xc_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#f5xc_managed CloudLink#f5xc_managed}
   */
   readonly f5XcManaged?: CloudLinkAwsF5XcManaged;
 }
@@ -2571,7 +2571,7 @@ export class CloudLinkAzureOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudLinkEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#cloudlink_network_name CloudLink#cloudlink_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#cloudlink_network_name CloudLink#cloudlink_network_name}
   */
   readonly cloudlinkNetworkName: string;
 }
@@ -2652,11 +2652,11 @@ export class CloudLinkEnabledOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudLinkGcpByocConnectionsCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#latitude CloudLink#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#latitude CloudLink#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#longitude CloudLink#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#longitude CloudLink#longitude}
   */
   readonly longitude?: number;
 }
@@ -2769,15 +2769,15 @@ export class CloudLinkGcpByocConnectionsCoordinatesOutputReference extends cdktf
 }
 export interface CloudLinkGcpByocConnectionsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#description CloudLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#description CloudLink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#disable CloudLink#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#disable CloudLink#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name: string;
 }
@@ -2916,31 +2916,31 @@ export class CloudLinkGcpByocConnectionsMetadataOutputReference extends cdktf.Co
 }
 export interface CloudLinkGcpByocConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#interconnect_attachment_name CloudLink#interconnect_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#interconnect_attachment_name CloudLink#interconnect_attachment_name}
   */
   readonly interconnectAttachmentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#project CloudLink#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#project CloudLink#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#region CloudLink#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#region CloudLink#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#same_as_credential CloudLink#same_as_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#same_as_credential CloudLink#same_as_credential}
   */
   readonly sameAsCredential?: boolean | cdktf.IResolvable;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#coordinates CloudLink#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#coordinates CloudLink#coordinates}
   */
   readonly coordinates?: CloudLinkGcpByocConnectionsCoordinates;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#metadata CloudLink#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#metadata CloudLink#metadata}
   */
   readonly metadata: CloudLinkGcpByocConnectionsMetadata;
 }
@@ -3194,7 +3194,7 @@ export interface CloudLinkGcpByoc {
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#connections CloudLink#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#connections CloudLink#connections}
   */
   readonly connections: CloudLinkGcpByocConnections[] | cdktf.IResolvable;
 }
@@ -3275,15 +3275,15 @@ export class CloudLinkGcpByocOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudLinkGcpGcpCred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#name CloudLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#name CloudLink#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#namespace CloudLink#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#namespace CloudLink#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#tenant CloudLink#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#tenant CloudLink#tenant}
   */
   readonly tenant?: string;
 }
@@ -3427,13 +3427,13 @@ export interface CloudLinkGcp {
   /**
   * byoc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#byoc CloudLink#byoc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#byoc CloudLink#byoc}
   */
   readonly byoc?: CloudLinkGcpByoc;
   /**
   * gcp_cred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#gcp_cred CloudLink#gcp_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#gcp_cred CloudLink#gcp_cred}
   */
   readonly gcpCred: CloudLinkGcpGcpCred;
 }
@@ -3543,7 +3543,7 @@ export class CloudLinkGcpOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link volterra_cloud_link}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link volterra_cloud_link}
 */
 export class CloudLink extends cdktf.TerraformResource {
 
@@ -3559,7 +3559,7 @@ export class CloudLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudLink to import
-  * @param importFromId The id of the existing CloudLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3571,7 +3571,7 @@ export class CloudLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_link volterra_cloud_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_link volterra_cloud_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3582,8 +3582,8 @@ export class CloudLink extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_cloud_link',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

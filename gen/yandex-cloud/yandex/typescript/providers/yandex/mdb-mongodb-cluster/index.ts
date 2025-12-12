@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface MdbMongodbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#cluster_id MdbMongodbCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cluster_id MdbMongodbCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#deletion_protection MdbMongodbCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#deletion_protection MdbMongodbCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#description MdbMongodbCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#description MdbMongodbCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_encryption_key_id MdbMongodbCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_encryption_key_id MdbMongodbCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * Deployment environment of the MongoDB cluster. Can be either `PRESTABLE` or `PRODUCTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#environment MdbMongodbCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#environment MdbMongodbCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#folder_id MdbMongodbCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#folder_id MdbMongodbCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#id MdbMongodbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#id MdbMongodbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,121 +53,121 @@ export interface MdbMongodbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#labels MdbMongodbCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#labels MdbMongodbCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#network_id MdbMongodbCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#network_id MdbMongodbCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#security_group_ids MdbMongodbCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#security_group_ids MdbMongodbCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#cluster_config MdbMongodbCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cluster_config MdbMongodbCluster#cluster_config}
   */
   readonly clusterConfig: MdbMongodbClusterClusterConfig;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#database MdbMongodbCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#database MdbMongodbCluster#database}
   */
   readonly database?: MdbMongodbClusterDatabase[] | cdktf.IResolvable;
   /**
   * disk_size_autoscaling_mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongocfg MdbMongodbCluster#disk_size_autoscaling_mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongocfg MdbMongodbCluster#disk_size_autoscaling_mongocfg}
   */
   readonly diskSizeAutoscalingMongocfg?: MdbMongodbClusterDiskSizeAutoscalingMongocfg;
   /**
   * disk_size_autoscaling_mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongod MdbMongodbCluster#disk_size_autoscaling_mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongod MdbMongodbCluster#disk_size_autoscaling_mongod}
   */
   readonly diskSizeAutoscalingMongod?: MdbMongodbClusterDiskSizeAutoscalingMongod;
   /**
   * disk_size_autoscaling_mongoinfra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongoinfra MdbMongodbCluster#disk_size_autoscaling_mongoinfra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongoinfra MdbMongodbCluster#disk_size_autoscaling_mongoinfra}
   */
   readonly diskSizeAutoscalingMongoinfra?: MdbMongodbClusterDiskSizeAutoscalingMongoinfra;
   /**
   * disk_size_autoscaling_mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongos MdbMongodbCluster#disk_size_autoscaling_mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongos MdbMongodbCluster#disk_size_autoscaling_mongos}
   */
   readonly diskSizeAutoscalingMongos?: MdbMongodbClusterDiskSizeAutoscalingMongos;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#host MdbMongodbCluster#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#host MdbMongodbCluster#host}
   */
   readonly host: MdbMongodbClusterHost[] | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#maintenance_window MdbMongodbCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#maintenance_window MdbMongodbCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MdbMongodbClusterMaintenanceWindow;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resources MdbMongodbCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resources MdbMongodbCluster#resources}
   */
   readonly resources?: MdbMongodbClusterResources;
   /**
   * resources_mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resources_mongocfg MdbMongodbCluster#resources_mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resources_mongocfg MdbMongodbCluster#resources_mongocfg}
   */
   readonly resourcesMongocfg?: MdbMongodbClusterResourcesMongocfg;
   /**
   * resources_mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resources_mongod MdbMongodbCluster#resources_mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resources_mongod MdbMongodbCluster#resources_mongod}
   */
   readonly resourcesMongod?: MdbMongodbClusterResourcesMongod;
   /**
   * resources_mongoinfra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resources_mongoinfra MdbMongodbCluster#resources_mongoinfra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resources_mongoinfra MdbMongodbCluster#resources_mongoinfra}
   */
   readonly resourcesMongoinfra?: MdbMongodbClusterResourcesMongoinfra;
   /**
   * resources_mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resources_mongos MdbMongodbCluster#resources_mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resources_mongos MdbMongodbCluster#resources_mongos}
   */
   readonly resourcesMongos?: MdbMongodbClusterResourcesMongos;
   /**
   * restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#restore MdbMongodbCluster#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#restore MdbMongodbCluster#restore}
   */
   readonly restore?: MdbMongodbClusterRestore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#timeouts MdbMongodbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#timeouts MdbMongodbCluster#timeouts}
   */
   readonly timeouts?: MdbMongodbClusterTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#user MdbMongodbCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#user MdbMongodbCluster#user}
   */
   readonly user?: MdbMongodbClusterUser[] | cdktf.IResolvable;
 }
@@ -175,19 +175,19 @@ export interface MdbMongodbClusterClusterConfigAccess {
   /**
   * Allow access for [Yandex DataLens](https://yandex.cloud/services/datalens).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#data_lens MdbMongodbCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#data_lens MdbMongodbCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#data_transfer MdbMongodbCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#data_transfer MdbMongodbCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [WebSQL](https://yandex.cloud/ru/docs/websql/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#web_sql MdbMongodbCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#web_sql MdbMongodbCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -331,13 +331,13 @@ export interface MdbMongodbClusterClusterConfigBackupWindowStart {
   /**
   * The hour at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#hours MdbMongodbCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#hours MdbMongodbCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#minutes MdbMongodbCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#minutes MdbMongodbCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -448,11 +448,97 @@ export class MdbMongodbClusterClusterConfigBackupWindowStartOutputReference exte
     return this._minutes;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongocfgAuditLog {
+  /**
+  * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  */
+  readonly filter?: string;
+}
+
+export function mdbMongodbClusterClusterConfigMongocfgAuditLogToTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgAuditLogOutputReference | MdbMongodbClusterClusterConfigMongocfgAuditLog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    filter: cdktf.stringToTerraform(struct!.filter),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongocfgAuditLogToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgAuditLogOutputReference | MdbMongodbClusterClusterConfigMongocfgAuditLog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    filter: {
+      value: cdktf.stringToHclTerraform(struct!.filter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongocfgAuditLogOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongocfgAuditLog | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._filter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filter = this._filter;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongocfgAuditLog | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._filter = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._filter = value.filter;
+    }
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter?: string; 
+  public get filter() {
+    return this.getStringAttribute('filter');
+  }
+  public set filter(value: string) {
+    this._filter = value;
+  }
+  public resetFilter() {
+    this._filter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter;
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongocfgNet {
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -538,13 +624,13 @@ export interface MdbMongodbClusterClusterConfigMongocfgOperationProfiling {
   /**
   * Specifies which operations should be profiled. The following profiler levels are available: off, slow_op, all. For more information, see the [operationProfiling.mode](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.mode) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
   */
   readonly mode?: string;
   /**
   * The slow operation time threshold, in milliseconds. Operations that run for longer than this threshold are considered slow. For more information, see the [operationProfiling.slowOpThresholdMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpThresholdMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
   */
   readonly slowOpThreshold?: number;
 }
@@ -655,11 +741,291 @@ export class MdbMongodbClusterClusterConfigMongocfgOperationProfilingOutputRefer
     return this._slowOpThreshold;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongocfgOplog {
+  /**
+  * The maximum size of the oplog, as a percentage of the total storage size. For more information, see the [oplog.oplogSizeMB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
+  */
+  readonly maxSizePercent?: number;
+  /**
+  * The minimum number of hours to preserve an oplog entry, where decimal values represent the fractions of an hour. For more information, see the [oplog.minRetentionHours](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
+  */
+  readonly minRetentionHours?: number;
+}
+
+export function mdbMongodbClusterClusterConfigMongocfgOplogToTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgOplogOutputReference | MdbMongodbClusterClusterConfigMongocfgOplog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_size_percent: cdktf.numberToTerraform(struct!.maxSizePercent),
+    min_retention_hours: cdktf.numberToTerraform(struct!.minRetentionHours),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongocfgOplogToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgOplogOutputReference | MdbMongodbClusterClusterConfigMongocfgOplog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_size_percent: {
+      value: cdktf.numberToHclTerraform(struct!.maxSizePercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_retention_hours: {
+      value: cdktf.numberToHclTerraform(struct!.minRetentionHours),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongocfgOplogOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongocfgOplog | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSizePercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSizePercent = this._maxSizePercent;
+    }
+    if (this._minRetentionHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minRetentionHours = this._minRetentionHours;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongocfgOplog | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSizePercent = undefined;
+      this._minRetentionHours = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSizePercent = value.maxSizePercent;
+      this._minRetentionHours = value.minRetentionHours;
+    }
+  }
+
+  // max_size_percent - computed: false, optional: true, required: false
+  private _maxSizePercent?: number; 
+  public get maxSizePercent() {
+    return this.getNumberAttribute('max_size_percent');
+  }
+  public set maxSizePercent(value: number) {
+    this._maxSizePercent = value;
+  }
+  public resetMaxSizePercent() {
+    this._maxSizePercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSizePercentInput() {
+    return this._maxSizePercent;
+  }
+
+  // min_retention_hours - computed: false, optional: true, required: false
+  private _minRetentionHours?: number; 
+  public get minRetentionHours() {
+    return this.getNumberAttribute('min_retention_hours');
+  }
+  public set minRetentionHours(value: number) {
+    this._minRetentionHours = value;
+  }
+  public resetMinRetentionHours() {
+    this._minRetentionHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minRetentionHoursInput() {
+    return this._minRetentionHours;
+  }
+}
+export interface MdbMongodbClusterClusterConfigMongocfgSetParameter {
+  /**
+  * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  */
+  readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
+  /**
+  * Enables the flow control. Can be either true or false. For more information, see the [enableFlowControl](https://www.mongodb.com/docs/rapid/reference/parameters/#mongodb-parameter-param.enableFlowControl) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
+  */
+  readonly enableFlowControl?: boolean | cdktf.IResolvable;
+}
+
+export function mdbMongodbClusterClusterConfigMongocfgSetParameterToTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgSetParameter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    audit_authorization_success: cdktf.booleanToTerraform(struct!.auditAuthorizationSuccess),
+    enable_flow_control: cdktf.booleanToTerraform(struct!.enableFlowControl),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongocfgSetParameterToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongocfgSetParameter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    audit_authorization_success: {
+      value: cdktf.booleanToHclTerraform(struct!.auditAuthorizationSuccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_flow_control: {
+      value: cdktf.booleanToHclTerraform(struct!.enableFlowControl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongocfgSetParameterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongocfgSetParameter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._auditAuthorizationSuccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.auditAuthorizationSuccess = this._auditAuthorizationSuccess;
+    }
+    if (this._enableFlowControl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableFlowControl = this._enableFlowControl;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongocfgSetParameter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._auditAuthorizationSuccess = undefined;
+      this._enableFlowControl = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._auditAuthorizationSuccess = value.auditAuthorizationSuccess;
+      this._enableFlowControl = value.enableFlowControl;
+    }
+  }
+
+  // audit_authorization_success - computed: false, optional: true, required: false
+  private _auditAuthorizationSuccess?: boolean | cdktf.IResolvable; 
+  public get auditAuthorizationSuccess() {
+    return this.getBooleanAttribute('audit_authorization_success');
+  }
+  public set auditAuthorizationSuccess(value: boolean | cdktf.IResolvable) {
+    this._auditAuthorizationSuccess = value;
+  }
+  public resetAuditAuthorizationSuccess() {
+    this._auditAuthorizationSuccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get auditAuthorizationSuccessInput() {
+    return this._auditAuthorizationSuccess;
+  }
+
+  // enable_flow_control - computed: false, optional: true, required: false
+  private _enableFlowControl?: boolean | cdktf.IResolvable; 
+  public get enableFlowControl() {
+    return this.getBooleanAttribute('enable_flow_control');
+  }
+  public set enableFlowControl(value: boolean | cdktf.IResolvable) {
+    this._enableFlowControl = value;
+  }
+  public resetEnableFlowControl() {
+    this._enableFlowControl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableFlowControlInput() {
+    return this._enableFlowControl;
+  }
+}
+
+export class MdbMongodbClusterClusterConfigMongocfgSetParameterList extends cdktf.ComplexList {
+  public internalValue? : MdbMongodbClusterClusterConfigMongocfgSetParameter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MdbMongodbClusterClusterConfigMongocfgSetParameterOutputReference {
+    return new MdbMongodbClusterClusterConfigMongocfgSetParameterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger {
+  /**
+  * Defines the maximum size of the internal cache that WiredTiger will use for all data in percents. For more information, see the [storage.wiredTiger.engineConfig.cacheSize](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizePct) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
+  */
+  readonly cacheSize?: number;
   /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data. For more information, see the [storage.wiredTiger.engineConfig.cacheSizeGB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizeGB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
   */
   readonly cacheSizeGb?: number;
 }
@@ -670,6 +1036,7 @@ export function mdbMongodbClusterClusterConfigMongocfgStorageWiredTigerToTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    cache_size: cdktf.numberToTerraform(struct!.cacheSize),
     cache_size_gb: cdktf.numberToTerraform(struct!.cacheSizeGb),
   }
 }
@@ -681,6 +1048,12 @@ export function mdbMongodbClusterClusterConfigMongocfgStorageWiredTigerToHclTerr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    cache_size: {
+      value: cdktf.numberToHclTerraform(struct!.cacheSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     cache_size_gb: {
       value: cdktf.numberToHclTerraform(struct!.cacheSizeGb),
       isBlock: false,
@@ -707,6 +1080,10 @@ export class MdbMongodbClusterClusterConfigMongocfgStorageWiredTigerOutputRefere
   public get internalValue(): MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._cacheSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheSize = this._cacheSize;
+    }
     if (this._cacheSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.cacheSizeGb = this._cacheSizeGb;
@@ -717,12 +1094,30 @@ export class MdbMongodbClusterClusterConfigMongocfgStorageWiredTigerOutputRefere
   public set internalValue(value: MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._cacheSize = undefined;
       this._cacheSizeGb = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._cacheSize = value.cacheSize;
       this._cacheSizeGb = value.cacheSizeGb;
     }
+  }
+
+  // cache_size - computed: false, optional: true, required: false
+  private _cacheSize?: number; 
+  public get cacheSize() {
+    return this.getNumberAttribute('cache_size');
+  }
+  public set cacheSize(value: number) {
+    this._cacheSize = value;
+  }
+  public resetCacheSize() {
+    this._cacheSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheSizeInput() {
+    return this._cacheSize;
   }
 
   // cache_size_gb - computed: false, optional: true, required: false
@@ -745,7 +1140,7 @@ export interface MdbMongodbClusterClusterConfigMongocfgStorage {
   /**
   * wired_tiger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
   */
   readonly wiredTiger?: MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger;
 }
@@ -829,21 +1224,45 @@ export class MdbMongodbClusterClusterConfigMongocfgStorageOutputReference extend
 }
 export interface MdbMongodbClusterClusterConfigMongocfg {
   /**
+  * Chained replication setting. For more information, see the [chainingAllowed](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-chainingAllowed) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
+  */
+  readonly chainingAllowed?: boolean | cdktf.IResolvable;
+  /**
+  * audit_log block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  */
+  readonly auditLog?: MdbMongodbClusterClusterConfigMongocfgAuditLog;
+  /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongocfgNet;
   /**
   * operation_profiling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
   */
   readonly operationProfiling?: MdbMongodbClusterClusterConfigMongocfgOperationProfiling;
   /**
+  * oplog block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
+  */
+  readonly oplog?: MdbMongodbClusterClusterConfigMongocfgOplog;
+  /**
+  * set_parameter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  */
+  readonly setParameter?: MdbMongodbClusterClusterConfigMongocfgSetParameter[] | cdktf.IResolvable;
+  /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
   */
   readonly storage?: MdbMongodbClusterClusterConfigMongocfgStorage;
 }
@@ -854,8 +1273,12 @@ export function mdbMongodbClusterClusterConfigMongocfgToTerraform(struct?: MdbMo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    chaining_allowed: cdktf.booleanToTerraform(struct!.chainingAllowed),
+    audit_log: mdbMongodbClusterClusterConfigMongocfgAuditLogToTerraform(struct!.auditLog),
     net: mdbMongodbClusterClusterConfigMongocfgNetToTerraform(struct!.net),
     operation_profiling: mdbMongodbClusterClusterConfigMongocfgOperationProfilingToTerraform(struct!.operationProfiling),
+    oplog: mdbMongodbClusterClusterConfigMongocfgOplogToTerraform(struct!.oplog),
+    set_parameter: cdktf.listMapper(mdbMongodbClusterClusterConfigMongocfgSetParameterToTerraform, true)(struct!.setParameter),
     storage: mdbMongodbClusterClusterConfigMongocfgStorageToTerraform(struct!.storage),
   }
 }
@@ -867,6 +1290,18 @@ export function mdbMongodbClusterClusterConfigMongocfgToHclTerraform(struct?: Md
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    chaining_allowed: {
+      value: cdktf.booleanToHclTerraform(struct!.chainingAllowed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    audit_log: {
+      value: mdbMongodbClusterClusterConfigMongocfgAuditLogToHclTerraform(struct!.auditLog),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongocfgAuditLogList",
+    },
     net: {
       value: mdbMongodbClusterClusterConfigMongocfgNetToHclTerraform(struct!.net),
       isBlock: true,
@@ -878,6 +1313,18 @@ export function mdbMongodbClusterClusterConfigMongocfgToHclTerraform(struct?: Md
       isBlock: true,
       type: "list",
       storageClassType: "MdbMongodbClusterClusterConfigMongocfgOperationProfilingList",
+    },
+    oplog: {
+      value: mdbMongodbClusterClusterConfigMongocfgOplogToHclTerraform(struct!.oplog),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongocfgOplogList",
+    },
+    set_parameter: {
+      value: cdktf.listMapperHcl(mdbMongodbClusterClusterConfigMongocfgSetParameterToHclTerraform, true)(struct!.setParameter),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongocfgSetParameterList",
     },
     storage: {
       value: mdbMongodbClusterClusterConfigMongocfgStorageToHclTerraform(struct!.storage),
@@ -905,6 +1352,14 @@ export class MdbMongodbClusterClusterConfigMongocfgOutputReference extends cdktf
   public get internalValue(): MdbMongodbClusterClusterConfigMongocfg | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._chainingAllowed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chainingAllowed = this._chainingAllowed;
+    }
+    if (this._auditLog?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.auditLog = this._auditLog?.internalValue;
+    }
     if (this._net?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.net = this._net?.internalValue;
@@ -912,6 +1367,14 @@ export class MdbMongodbClusterClusterConfigMongocfgOutputReference extends cdktf
     if (this._operationProfiling?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.operationProfiling = this._operationProfiling?.internalValue;
+    }
+    if (this._oplog?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oplog = this._oplog?.internalValue;
+    }
+    if (this._setParameter?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.setParameter = this._setParameter?.internalValue;
     }
     if (this._storage?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -923,16 +1386,56 @@ export class MdbMongodbClusterClusterConfigMongocfgOutputReference extends cdktf
   public set internalValue(value: MdbMongodbClusterClusterConfigMongocfg | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._chainingAllowed = undefined;
+      this._auditLog.internalValue = undefined;
       this._net.internalValue = undefined;
       this._operationProfiling.internalValue = undefined;
+      this._oplog.internalValue = undefined;
+      this._setParameter.internalValue = undefined;
       this._storage.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._chainingAllowed = value.chainingAllowed;
+      this._auditLog.internalValue = value.auditLog;
       this._net.internalValue = value.net;
       this._operationProfiling.internalValue = value.operationProfiling;
+      this._oplog.internalValue = value.oplog;
+      this._setParameter.internalValue = value.setParameter;
       this._storage.internalValue = value.storage;
     }
+  }
+
+  // chaining_allowed - computed: false, optional: true, required: false
+  private _chainingAllowed?: boolean | cdktf.IResolvable; 
+  public get chainingAllowed() {
+    return this.getBooleanAttribute('chaining_allowed');
+  }
+  public set chainingAllowed(value: boolean | cdktf.IResolvable) {
+    this._chainingAllowed = value;
+  }
+  public resetChainingAllowed() {
+    this._chainingAllowed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chainingAllowedInput() {
+    return this._chainingAllowed;
+  }
+
+  // audit_log - computed: false, optional: true, required: false
+  private _auditLog = new MdbMongodbClusterClusterConfigMongocfgAuditLogOutputReference(this, "audit_log");
+  public get auditLog() {
+    return this._auditLog;
+  }
+  public putAuditLog(value: MdbMongodbClusterClusterConfigMongocfgAuditLog) {
+    this._auditLog.internalValue = value;
+  }
+  public resetAuditLog() {
+    this._auditLog.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get auditLogInput() {
+    return this._auditLog.internalValue;
   }
 
   // net - computed: false, optional: true, required: false
@@ -967,6 +1470,38 @@ export class MdbMongodbClusterClusterConfigMongocfgOutputReference extends cdktf
     return this._operationProfiling.internalValue;
   }
 
+  // oplog - computed: false, optional: true, required: false
+  private _oplog = new MdbMongodbClusterClusterConfigMongocfgOplogOutputReference(this, "oplog");
+  public get oplog() {
+    return this._oplog;
+  }
+  public putOplog(value: MdbMongodbClusterClusterConfigMongocfgOplog) {
+    this._oplog.internalValue = value;
+  }
+  public resetOplog() {
+    this._oplog.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oplogInput() {
+    return this._oplog.internalValue;
+  }
+
+  // set_parameter - computed: false, optional: true, required: false
+  private _setParameter = new MdbMongodbClusterClusterConfigMongocfgSetParameterList(this, "set_parameter", false);
+  public get setParameter() {
+    return this._setParameter;
+  }
+  public putSetParameter(value: MdbMongodbClusterClusterConfigMongocfgSetParameter[] | cdktf.IResolvable) {
+    this._setParameter.internalValue = value;
+  }
+  public resetSetParameter() {
+    this._setParameter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get setParameterInput() {
+    return this._setParameter.internalValue;
+  }
+
   // storage - computed: false, optional: true, required: false
   private _storage = new MdbMongodbClusterClusterConfigMongocfgStorageOutputReference(this, "storage");
   public get storage() {
@@ -987,13 +1522,13 @@ export interface MdbMongodbClusterClusterConfigMongodAuditLog {
   /**
   * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
   */
   readonly filter?: string;
   /**
   * Specifies if a node allows runtime configuration of audit filters and the auditAuthorizationSuccess variable. For more information see [auditLog.runtimeConfiguration](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.runtimeConfiguration) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#runtime_configuration MdbMongodbCluster#runtime_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#runtime_configuration MdbMongodbCluster#runtime_configuration}
   */
   readonly runtimeConfiguration?: boolean | cdktf.IResolvable;
 }
@@ -1108,13 +1643,13 @@ export interface MdbMongodbClusterClusterConfigMongodNet {
   /**
   * Specifies the default compressor(s) to use for communication between this mongod or mongos. Accepts array of compressors. Order matters. Available compressors: snappy, zlib, zstd, disabled. To disable network compression, make `disabled` the only value. For more information, see the [net.Compression.Compressors](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.compression.compressors) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
   */
   readonly compressors?: string[];
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -1229,19 +1764,19 @@ export interface MdbMongodbClusterClusterConfigMongodOperationProfiling {
   /**
   * Specifies which operations should be profiled. The following profiler levels are available: off, slow_op, all. For more information, see the [operationProfiling.mode](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.mode) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
   */
   readonly mode?: string;
   /**
   * The fraction of slow operations that should be profiled or logged. Accepts values between 0 and 1, inclusive. For more information, see the [operationProfiling.slowOpSampleRate](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpSampleRate) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#slow_op_sample_rate MdbMongodbCluster#slow_op_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#slow_op_sample_rate MdbMongodbCluster#slow_op_sample_rate}
   */
   readonly slowOpSampleRate?: number;
   /**
   * The slow operation time threshold, in milliseconds. Operations that run for longer than this threshold are considered slow. For more information, see the [operationProfiling.slowOpThresholdMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpThresholdMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
   */
   readonly slowOpThreshold?: number;
 }
@@ -1381,35 +1916,156 @@ export class MdbMongodbClusterClusterConfigMongodOperationProfilingOutputReferen
     return this._slowOpThreshold;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongodOplog {
+  /**
+  * The maximum size of the oplog, as a percentage of the total storage size. For more information, see the [oplog.oplogSizeMB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
+  */
+  readonly maxSizePercent?: number;
+  /**
+  * The minimum number of hours to preserve an oplog entry, where decimal values represent the fractions of an hour. For more information, see the [oplog.minRetentionHours](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
+  */
+  readonly minRetentionHours?: number;
+}
+
+export function mdbMongodbClusterClusterConfigMongodOplogToTerraform(struct?: MdbMongodbClusterClusterConfigMongodOplogOutputReference | MdbMongodbClusterClusterConfigMongodOplog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_size_percent: cdktf.numberToTerraform(struct!.maxSizePercent),
+    min_retention_hours: cdktf.numberToTerraform(struct!.minRetentionHours),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongodOplogToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongodOplogOutputReference | MdbMongodbClusterClusterConfigMongodOplog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_size_percent: {
+      value: cdktf.numberToHclTerraform(struct!.maxSizePercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_retention_hours: {
+      value: cdktf.numberToHclTerraform(struct!.minRetentionHours),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongodOplogOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongodOplog | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSizePercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSizePercent = this._maxSizePercent;
+    }
+    if (this._minRetentionHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minRetentionHours = this._minRetentionHours;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongodOplog | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSizePercent = undefined;
+      this._minRetentionHours = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSizePercent = value.maxSizePercent;
+      this._minRetentionHours = value.minRetentionHours;
+    }
+  }
+
+  // max_size_percent - computed: false, optional: true, required: false
+  private _maxSizePercent?: number; 
+  public get maxSizePercent() {
+    return this.getNumberAttribute('max_size_percent');
+  }
+  public set maxSizePercent(value: number) {
+    this._maxSizePercent = value;
+  }
+  public resetMaxSizePercent() {
+    this._maxSizePercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSizePercentInput() {
+    return this._maxSizePercent;
+  }
+
+  // min_retention_hours - computed: false, optional: true, required: false
+  private _minRetentionHours?: number; 
+  public get minRetentionHours() {
+    return this.getNumberAttribute('min_retention_hours');
+  }
+  public set minRetentionHours(value: number) {
+    this._minRetentionHours = value;
+  }
+  public resetMinRetentionHours() {
+    this._minRetentionHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minRetentionHoursInput() {
+    return this._minRetentionHours;
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongodSecurityKmip {
   /**
   * String containing the client certificate used for authenticating MongoDB to the KMIP server. For more information see [security.kmip.clientCertificateFile](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.clientCertificateFile) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#client_certificate MdbMongodbCluster#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#client_certificate MdbMongodbCluster#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Unique KMIP identifier for an existing key within the KMIP server. For more information see [security.kmip.keyIdentifier](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.keyIdentifier) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#key_identifier MdbMongodbCluster#key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#key_identifier MdbMongodbCluster#key_identifier}
   */
   readonly keyIdentifier?: string;
   /**
   * Port number to use to communicate with the KMIP server. Default: 5696 For more information see [security.kmip.port](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.port) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#port MdbMongodbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#port MdbMongodbCluster#port}
   */
   readonly port?: number;
   /**
   * Path to CA File. Used for validating secure client connection to KMIP server. For more information see [security.kmip.serverCAFile](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.serverCAFile) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#server_ca MdbMongodbCluster#server_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#server_ca MdbMongodbCluster#server_ca}
   */
   readonly serverCa?: string;
   /**
   * Hostname or IP address of the KMIP server to connect to. For more information see [security.kmip.serverName](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.serverName) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#server_name MdbMongodbCluster#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#server_name MdbMongodbCluster#server_name}
   */
   readonly serverName?: string;
 }
@@ -1611,13 +2267,13 @@ export interface MdbMongodbClusterClusterConfigMongodSecurity {
   /**
   * Enables the encryption for the WiredTiger storage engine. Can be either true or false. For more information see [security.enableEncryption](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.enableEncryption) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#enable_encryption MdbMongodbCluster#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#enable_encryption MdbMongodbCluster#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * kmip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#kmip MdbMongodbCluster#kmip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#kmip MdbMongodbCluster#kmip}
   */
   readonly kmip?: MdbMongodbClusterClusterConfigMongodSecurityKmip;
 }
@@ -1728,25 +2384,200 @@ export class MdbMongodbClusterClusterConfigMongodSecurityOutputReference extends
     return this._kmip.internalValue;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads {
+  /**
+  * The maximum time in milliseconds for the mirrored reads. For more information see [mirrorReads.maxTimeMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.mirrorReads) description in the official documentation
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_time_ms MdbMongodbCluster#max_time_ms}
+  */
+  readonly maxTimeMs?: number;
+  /**
+  * The sampling rate used to mirror a subset of operations that support mirroring. For more information see [mirrorReads.samplingRate](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.mirrorReads) description in the official documentation
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sampling_rate MdbMongodbCluster#sampling_rate}
+  */
+  readonly samplingRate?: number;
+}
+
+export function mdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsToTerraform(struct?: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsOutputReference | MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_time_ms: cdktf.numberToTerraform(struct!.maxTimeMs),
+    sampling_rate: cdktf.numberToTerraform(struct!.samplingRate),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsOutputReference | MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_time_ms: {
+      value: cdktf.numberToHclTerraform(struct!.maxTimeMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sampling_rate: {
+      value: cdktf.numberToHclTerraform(struct!.samplingRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxTimeMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTimeMs = this._maxTimeMs;
+    }
+    if (this._samplingRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samplingRate = this._samplingRate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxTimeMs = undefined;
+      this._samplingRate = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxTimeMs = value.maxTimeMs;
+      this._samplingRate = value.samplingRate;
+    }
+  }
+
+  // max_time_ms - computed: false, optional: true, required: false
+  private _maxTimeMs?: number; 
+  public get maxTimeMs() {
+    return this.getNumberAttribute('max_time_ms');
+  }
+  public set maxTimeMs(value: number) {
+    this._maxTimeMs = value;
+  }
+  public resetMaxTimeMs() {
+    this._maxTimeMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTimeMsInput() {
+    return this._maxTimeMs;
+  }
+
+  // sampling_rate - computed: false, optional: true, required: false
+  private _samplingRate?: number; 
+  public get samplingRate() {
+    return this.getNumberAttribute('sampling_rate');
+  }
+  public set samplingRate(value: number) {
+    this._samplingRate = value;
+  }
+  public resetSamplingRate() {
+    this._samplingRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingRateInput() {
+    return this._samplingRate;
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongodSetParameter {
   /**
   * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
   */
   readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
   /**
   * Enables the flow control. Can be either true or false. For more information, see the [enableFlowControl](https://www.mongodb.com/docs/rapid/reference/parameters/#mongodb-parameter-param.enableFlowControl) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
   */
   readonly enableFlowControl?: boolean | cdktf.IResolvable;
   /**
+  * The target maximum majority committed lag when running with flow control. For more information, see the [flowControlTargetLagSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.flowControlTargetLagSeconds) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#flow_control_target_lag_seconds MdbMongodbCluster#flow_control_target_lag_seconds}
+  */
+  readonly flowControlTargetLagSeconds?: number;
+  /**
+  * The amount of time to wait to log a warning once the flow control mechanism detects the majority commit point has not moved. For more information, see the [flowControlWarnThresholdSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.flowControlWarnThresholdSeconds) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#flow_control_warn_threshold_seconds MdbMongodbCluster#flow_control_warn_threshold_seconds}
+  */
+  readonly flowControlWarnThresholdSeconds?: number;
+  /**
+  * Time in milliseconds to wait between batches of insertions during cloning step of the migration process. For more information, see the [migrateCloneInsertionBatchDelayMs](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.migrateCloneInsertionBatchDelayMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_delay_ms MdbMongodbCluster#migrate_clone_insertion_batch_delay_ms}
+  */
+  readonly migrateCloneInsertionBatchDelayMs?: number;
+  /**
+  * The maximum number of documents to insert in a single batch during the cloning step of the migration process. For more information, see the [migrateCloneInsertionBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.migrateCloneInsertionBatchSize) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_size MdbMongodbCluster#migrate_clone_insertion_batch_size}
+  */
+  readonly migrateCloneInsertionBatchSize?: number;
+  /**
   * The minimum time window in seconds for which the storage engine keeps the snapshot history. For more information, see the [minSnapshotHistoryWindowInSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.minSnapshotHistoryWindowInSeconds) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#min_snapshot_history_window_in_seconds MdbMongodbCluster#min_snapshot_history_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#min_snapshot_history_window_in_seconds MdbMongodbCluster#min_snapshot_history_window_in_seconds}
   */
   readonly minSnapshotHistoryWindowInSeconds?: number;
+  /**
+  * Minimum delay before a migrated chunk is deleted from the source shard. For more information, see the [orphanCleanupDelaySecs](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.orphanCleanupDelaySecs) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#orphan_cleanup_delay_secs MdbMongodbCluster#orphan_cleanup_delay_secs}
+  */
+  readonly orphanCleanupDelaySecs?: number;
+  /**
+  * Specifies the maximum batch size used for updating the persisted chunk cache. For more information, see the [persistedChunkCacheUpdateMaxBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.persistedChunkCacheUpdateMaxBatchSize) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#persisted_chunk_cache_update_max_batch_size MdbMongodbCluster#persisted_chunk_cache_update_max_batch_size}
+  */
+  readonly persistedChunkCacheUpdateMaxBatchSize?: number;
+  /**
+  * The amount of time in milliseconds to wait before the next batch of deletion during the cleanup stage of chunk migration (or the cleanupOrphaned command). For more information, see the [rangeDeleterBatchDelayMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.rangeDeleterBatchDelayMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_delay_ms MdbMongodbCluster#range_deleter_batch_delay_ms}
+  */
+  readonly rangeDeleterBatchDelayMs?: number;
+  /**
+  * The maximum number of documents in each batch to delete during the cleanup stage of chunk migration (or the cleanupOrphaned command). For more information, see the [rangeDeleterBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.rangeDeleterBatchSize) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_size MdbMongodbCluster#range_deleter_batch_size}
+  */
+  readonly rangeDeleterBatchSize?: number;
+  /**
+  * mirror_reads block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mirror_reads MdbMongodbCluster#mirror_reads}
+  */
+  readonly mirrorReads?: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads;
 }
 
 export function mdbMongodbClusterClusterConfigMongodSetParameterToTerraform(struct?: MdbMongodbClusterClusterConfigMongodSetParameterOutputReference | MdbMongodbClusterClusterConfigMongodSetParameter): any {
@@ -1757,7 +2588,16 @@ export function mdbMongodbClusterClusterConfigMongodSetParameterToTerraform(stru
   return {
     audit_authorization_success: cdktf.booleanToTerraform(struct!.auditAuthorizationSuccess),
     enable_flow_control: cdktf.booleanToTerraform(struct!.enableFlowControl),
+    flow_control_target_lag_seconds: cdktf.numberToTerraform(struct!.flowControlTargetLagSeconds),
+    flow_control_warn_threshold_seconds: cdktf.numberToTerraform(struct!.flowControlWarnThresholdSeconds),
+    migrate_clone_insertion_batch_delay_ms: cdktf.numberToTerraform(struct!.migrateCloneInsertionBatchDelayMs),
+    migrate_clone_insertion_batch_size: cdktf.numberToTerraform(struct!.migrateCloneInsertionBatchSize),
     min_snapshot_history_window_in_seconds: cdktf.numberToTerraform(struct!.minSnapshotHistoryWindowInSeconds),
+    orphan_cleanup_delay_secs: cdktf.numberToTerraform(struct!.orphanCleanupDelaySecs),
+    persisted_chunk_cache_update_max_batch_size: cdktf.numberToTerraform(struct!.persistedChunkCacheUpdateMaxBatchSize),
+    range_deleter_batch_delay_ms: cdktf.numberToTerraform(struct!.rangeDeleterBatchDelayMs),
+    range_deleter_batch_size: cdktf.numberToTerraform(struct!.rangeDeleterBatchSize),
+    mirror_reads: mdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsToTerraform(struct!.mirrorReads),
   }
 }
 
@@ -1780,11 +2620,65 @@ export function mdbMongodbClusterClusterConfigMongodSetParameterToHclTerraform(s
       type: "simple",
       storageClassType: "boolean",
     },
+    flow_control_target_lag_seconds: {
+      value: cdktf.numberToHclTerraform(struct!.flowControlTargetLagSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    flow_control_warn_threshold_seconds: {
+      value: cdktf.numberToHclTerraform(struct!.flowControlWarnThresholdSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    migrate_clone_insertion_batch_delay_ms: {
+      value: cdktf.numberToHclTerraform(struct!.migrateCloneInsertionBatchDelayMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    migrate_clone_insertion_batch_size: {
+      value: cdktf.numberToHclTerraform(struct!.migrateCloneInsertionBatchSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     min_snapshot_history_window_in_seconds: {
       value: cdktf.numberToHclTerraform(struct!.minSnapshotHistoryWindowInSeconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    orphan_cleanup_delay_secs: {
+      value: cdktf.numberToHclTerraform(struct!.orphanCleanupDelaySecs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    persisted_chunk_cache_update_max_batch_size: {
+      value: cdktf.numberToHclTerraform(struct!.persistedChunkCacheUpdateMaxBatchSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    range_deleter_batch_delay_ms: {
+      value: cdktf.numberToHclTerraform(struct!.rangeDeleterBatchDelayMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    range_deleter_batch_size: {
+      value: cdktf.numberToHclTerraform(struct!.rangeDeleterBatchSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    mirror_reads: {
+      value: mdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsToHclTerraform(struct!.mirrorReads),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsList",
     },
   };
 
@@ -1814,9 +2708,45 @@ export class MdbMongodbClusterClusterConfigMongodSetParameterOutputReference ext
       hasAnyValues = true;
       internalValueResult.enableFlowControl = this._enableFlowControl;
     }
+    if (this._flowControlTargetLagSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.flowControlTargetLagSeconds = this._flowControlTargetLagSeconds;
+    }
+    if (this._flowControlWarnThresholdSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.flowControlWarnThresholdSeconds = this._flowControlWarnThresholdSeconds;
+    }
+    if (this._migrateCloneInsertionBatchDelayMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.migrateCloneInsertionBatchDelayMs = this._migrateCloneInsertionBatchDelayMs;
+    }
+    if (this._migrateCloneInsertionBatchSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.migrateCloneInsertionBatchSize = this._migrateCloneInsertionBatchSize;
+    }
     if (this._minSnapshotHistoryWindowInSeconds !== undefined) {
       hasAnyValues = true;
       internalValueResult.minSnapshotHistoryWindowInSeconds = this._minSnapshotHistoryWindowInSeconds;
+    }
+    if (this._orphanCleanupDelaySecs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.orphanCleanupDelaySecs = this._orphanCleanupDelaySecs;
+    }
+    if (this._persistedChunkCacheUpdateMaxBatchSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.persistedChunkCacheUpdateMaxBatchSize = this._persistedChunkCacheUpdateMaxBatchSize;
+    }
+    if (this._rangeDeleterBatchDelayMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rangeDeleterBatchDelayMs = this._rangeDeleterBatchDelayMs;
+    }
+    if (this._rangeDeleterBatchSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rangeDeleterBatchSize = this._rangeDeleterBatchSize;
+    }
+    if (this._mirrorReads?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mirrorReads = this._mirrorReads?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1826,13 +2756,31 @@ export class MdbMongodbClusterClusterConfigMongodSetParameterOutputReference ext
       this.isEmptyObject = false;
       this._auditAuthorizationSuccess = undefined;
       this._enableFlowControl = undefined;
+      this._flowControlTargetLagSeconds = undefined;
+      this._flowControlWarnThresholdSeconds = undefined;
+      this._migrateCloneInsertionBatchDelayMs = undefined;
+      this._migrateCloneInsertionBatchSize = undefined;
       this._minSnapshotHistoryWindowInSeconds = undefined;
+      this._orphanCleanupDelaySecs = undefined;
+      this._persistedChunkCacheUpdateMaxBatchSize = undefined;
+      this._rangeDeleterBatchDelayMs = undefined;
+      this._rangeDeleterBatchSize = undefined;
+      this._mirrorReads.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._auditAuthorizationSuccess = value.auditAuthorizationSuccess;
       this._enableFlowControl = value.enableFlowControl;
+      this._flowControlTargetLagSeconds = value.flowControlTargetLagSeconds;
+      this._flowControlWarnThresholdSeconds = value.flowControlWarnThresholdSeconds;
+      this._migrateCloneInsertionBatchDelayMs = value.migrateCloneInsertionBatchDelayMs;
+      this._migrateCloneInsertionBatchSize = value.migrateCloneInsertionBatchSize;
       this._minSnapshotHistoryWindowInSeconds = value.minSnapshotHistoryWindowInSeconds;
+      this._orphanCleanupDelaySecs = value.orphanCleanupDelaySecs;
+      this._persistedChunkCacheUpdateMaxBatchSize = value.persistedChunkCacheUpdateMaxBatchSize;
+      this._rangeDeleterBatchDelayMs = value.rangeDeleterBatchDelayMs;
+      this._rangeDeleterBatchSize = value.rangeDeleterBatchSize;
+      this._mirrorReads.internalValue = value.mirrorReads;
     }
   }
 
@@ -1868,6 +2816,70 @@ export class MdbMongodbClusterClusterConfigMongodSetParameterOutputReference ext
     return this._enableFlowControl;
   }
 
+  // flow_control_target_lag_seconds - computed: false, optional: true, required: false
+  private _flowControlTargetLagSeconds?: number; 
+  public get flowControlTargetLagSeconds() {
+    return this.getNumberAttribute('flow_control_target_lag_seconds');
+  }
+  public set flowControlTargetLagSeconds(value: number) {
+    this._flowControlTargetLagSeconds = value;
+  }
+  public resetFlowControlTargetLagSeconds() {
+    this._flowControlTargetLagSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowControlTargetLagSecondsInput() {
+    return this._flowControlTargetLagSeconds;
+  }
+
+  // flow_control_warn_threshold_seconds - computed: false, optional: true, required: false
+  private _flowControlWarnThresholdSeconds?: number; 
+  public get flowControlWarnThresholdSeconds() {
+    return this.getNumberAttribute('flow_control_warn_threshold_seconds');
+  }
+  public set flowControlWarnThresholdSeconds(value: number) {
+    this._flowControlWarnThresholdSeconds = value;
+  }
+  public resetFlowControlWarnThresholdSeconds() {
+    this._flowControlWarnThresholdSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowControlWarnThresholdSecondsInput() {
+    return this._flowControlWarnThresholdSeconds;
+  }
+
+  // migrate_clone_insertion_batch_delay_ms - computed: false, optional: true, required: false
+  private _migrateCloneInsertionBatchDelayMs?: number; 
+  public get migrateCloneInsertionBatchDelayMs() {
+    return this.getNumberAttribute('migrate_clone_insertion_batch_delay_ms');
+  }
+  public set migrateCloneInsertionBatchDelayMs(value: number) {
+    this._migrateCloneInsertionBatchDelayMs = value;
+  }
+  public resetMigrateCloneInsertionBatchDelayMs() {
+    this._migrateCloneInsertionBatchDelayMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get migrateCloneInsertionBatchDelayMsInput() {
+    return this._migrateCloneInsertionBatchDelayMs;
+  }
+
+  // migrate_clone_insertion_batch_size - computed: false, optional: true, required: false
+  private _migrateCloneInsertionBatchSize?: number; 
+  public get migrateCloneInsertionBatchSize() {
+    return this.getNumberAttribute('migrate_clone_insertion_batch_size');
+  }
+  public set migrateCloneInsertionBatchSize(value: number) {
+    this._migrateCloneInsertionBatchSize = value;
+  }
+  public resetMigrateCloneInsertionBatchSize() {
+    this._migrateCloneInsertionBatchSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get migrateCloneInsertionBatchSizeInput() {
+    return this._migrateCloneInsertionBatchSize;
+  }
+
   // min_snapshot_history_window_in_seconds - computed: false, optional: true, required: false
   private _minSnapshotHistoryWindowInSeconds?: number; 
   public get minSnapshotHistoryWindowInSeconds() {
@@ -1883,12 +2895,92 @@ export class MdbMongodbClusterClusterConfigMongodSetParameterOutputReference ext
   public get minSnapshotHistoryWindowInSecondsInput() {
     return this._minSnapshotHistoryWindowInSeconds;
   }
+
+  // orphan_cleanup_delay_secs - computed: false, optional: true, required: false
+  private _orphanCleanupDelaySecs?: number; 
+  public get orphanCleanupDelaySecs() {
+    return this.getNumberAttribute('orphan_cleanup_delay_secs');
+  }
+  public set orphanCleanupDelaySecs(value: number) {
+    this._orphanCleanupDelaySecs = value;
+  }
+  public resetOrphanCleanupDelaySecs() {
+    this._orphanCleanupDelaySecs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orphanCleanupDelaySecsInput() {
+    return this._orphanCleanupDelaySecs;
+  }
+
+  // persisted_chunk_cache_update_max_batch_size - computed: false, optional: true, required: false
+  private _persistedChunkCacheUpdateMaxBatchSize?: number; 
+  public get persistedChunkCacheUpdateMaxBatchSize() {
+    return this.getNumberAttribute('persisted_chunk_cache_update_max_batch_size');
+  }
+  public set persistedChunkCacheUpdateMaxBatchSize(value: number) {
+    this._persistedChunkCacheUpdateMaxBatchSize = value;
+  }
+  public resetPersistedChunkCacheUpdateMaxBatchSize() {
+    this._persistedChunkCacheUpdateMaxBatchSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistedChunkCacheUpdateMaxBatchSizeInput() {
+    return this._persistedChunkCacheUpdateMaxBatchSize;
+  }
+
+  // range_deleter_batch_delay_ms - computed: false, optional: true, required: false
+  private _rangeDeleterBatchDelayMs?: number; 
+  public get rangeDeleterBatchDelayMs() {
+    return this.getNumberAttribute('range_deleter_batch_delay_ms');
+  }
+  public set rangeDeleterBatchDelayMs(value: number) {
+    this._rangeDeleterBatchDelayMs = value;
+  }
+  public resetRangeDeleterBatchDelayMs() {
+    this._rangeDeleterBatchDelayMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rangeDeleterBatchDelayMsInput() {
+    return this._rangeDeleterBatchDelayMs;
+  }
+
+  // range_deleter_batch_size - computed: false, optional: true, required: false
+  private _rangeDeleterBatchSize?: number; 
+  public get rangeDeleterBatchSize() {
+    return this.getNumberAttribute('range_deleter_batch_size');
+  }
+  public set rangeDeleterBatchSize(value: number) {
+    this._rangeDeleterBatchSize = value;
+  }
+  public resetRangeDeleterBatchSize() {
+    this._rangeDeleterBatchSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rangeDeleterBatchSizeInput() {
+    return this._rangeDeleterBatchSize;
+  }
+
+  // mirror_reads - computed: false, optional: true, required: false
+  private _mirrorReads = new MdbMongodbClusterClusterConfigMongodSetParameterMirrorReadsOutputReference(this, "mirror_reads");
+  public get mirrorReads() {
+    return this._mirrorReads;
+  }
+  public putMirrorReads(value: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads) {
+    this._mirrorReads.internalValue = value;
+  }
+  public resetMirrorReads() {
+    this._mirrorReads.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mirrorReadsInput() {
+    return this._mirrorReads.internalValue;
+  }
 }
 export interface MdbMongodbClusterClusterConfigMongodStorageJournal {
   /**
   * The maximum amount of time in milliseconds that the mongod process allows between journal operations. For more information, see the [storage.journal.commitIntervalMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.journal.commitIntervalMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#commit_interval MdbMongodbCluster#commit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#commit_interval MdbMongodbCluster#commit_interval}
   */
   readonly commitInterval?: number;
 }
@@ -1974,19 +3066,25 @@ export interface MdbMongodbClusterClusterConfigMongodStorageWiredTiger {
   /**
   * Specifies the default compression for collection data. You can override this on a per-collection basis when creating collections. Available compressors are: none, snappy, zlib, zstd. This setting available only on `mongod` hosts. For more information, see the [storage.wiredTiger.collectionConfig.blockCompressor](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.collectionConfig.blockCompressor) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#block_compressor MdbMongodbCluster#block_compressor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#block_compressor MdbMongodbCluster#block_compressor}
   */
   readonly blockCompressor?: string;
   /**
+  * Defines the maximum size of the internal cache that WiredTiger will use for all data in percents. For more information, see the [storage.wiredTiger.engineConfig.cacheSize](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizePct) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
+  */
+  readonly cacheSize?: number;
+  /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data. For more information, see the [storage.wiredTiger.engineConfig.cacheSizeGB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizeGB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
   */
   readonly cacheSizeGb?: number;
   /**
   * Enables or disables prefix compression for index data. Сan be either true or false. For more information, see the [storage.wiredTiger.indexConfig.prefixCompression](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.indexConfig.prefixCompression) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#prefix_compression MdbMongodbCluster#prefix_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#prefix_compression MdbMongodbCluster#prefix_compression}
   */
   readonly prefixCompression?: boolean | cdktf.IResolvable;
 }
@@ -1998,6 +3096,7 @@ export function mdbMongodbClusterClusterConfigMongodStorageWiredTigerToTerraform
   }
   return {
     block_compressor: cdktf.stringToTerraform(struct!.blockCompressor),
+    cache_size: cdktf.numberToTerraform(struct!.cacheSize),
     cache_size_gb: cdktf.numberToTerraform(struct!.cacheSizeGb),
     prefix_compression: cdktf.booleanToTerraform(struct!.prefixCompression),
   }
@@ -2015,6 +3114,12 @@ export function mdbMongodbClusterClusterConfigMongodStorageWiredTigerToHclTerraf
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    cache_size: {
+      value: cdktf.numberToHclTerraform(struct!.cacheSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     cache_size_gb: {
       value: cdktf.numberToHclTerraform(struct!.cacheSizeGb),
@@ -2052,6 +3157,10 @@ export class MdbMongodbClusterClusterConfigMongodStorageWiredTigerOutputReferenc
       hasAnyValues = true;
       internalValueResult.blockCompressor = this._blockCompressor;
     }
+    if (this._cacheSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheSize = this._cacheSize;
+    }
     if (this._cacheSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.cacheSizeGb = this._cacheSizeGb;
@@ -2067,12 +3176,14 @@ export class MdbMongodbClusterClusterConfigMongodStorageWiredTigerOutputReferenc
     if (value === undefined) {
       this.isEmptyObject = false;
       this._blockCompressor = undefined;
+      this._cacheSize = undefined;
       this._cacheSizeGb = undefined;
       this._prefixCompression = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._blockCompressor = value.blockCompressor;
+      this._cacheSize = value.cacheSize;
       this._cacheSizeGb = value.cacheSizeGb;
       this._prefixCompression = value.prefixCompression;
     }
@@ -2092,6 +3203,22 @@ export class MdbMongodbClusterClusterConfigMongodStorageWiredTigerOutputReferenc
   // Temporarily expose input value. Use with caution.
   public get blockCompressorInput() {
     return this._blockCompressor;
+  }
+
+  // cache_size - computed: false, optional: true, required: false
+  private _cacheSize?: number; 
+  public get cacheSize() {
+    return this.getNumberAttribute('cache_size');
+  }
+  public set cacheSize(value: number) {
+    this._cacheSize = value;
+  }
+  public resetCacheSize() {
+    this._cacheSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheSizeInput() {
+    return this._cacheSize;
   }
 
   // cache_size_gb - computed: false, optional: true, required: false
@@ -2130,13 +3257,13 @@ export interface MdbMongodbClusterClusterConfigMongodStorage {
   /**
   * journal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#journal MdbMongodbCluster#journal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#journal MdbMongodbCluster#journal}
   */
   readonly journal?: MdbMongodbClusterClusterConfigMongodStorageJournal;
   /**
   * wired_tiger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
   */
   readonly wiredTiger?: MdbMongodbClusterClusterConfigMongodStorageWiredTiger;
 }
@@ -2249,39 +3376,51 @@ export class MdbMongodbClusterClusterConfigMongodStorageOutputReference extends 
 }
 export interface MdbMongodbClusterClusterConfigMongod {
   /**
+  * Chained replication setting. For more information, see the [chainingAllowed](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-chainingAllowed) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
+  */
+  readonly chainingAllowed?: boolean | cdktf.IResolvable;
+  /**
   * audit_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
   */
   readonly auditLog?: MdbMongodbClusterClusterConfigMongodAuditLog;
   /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongodNet;
   /**
   * operation_profiling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
   */
   readonly operationProfiling?: MdbMongodbClusterClusterConfigMongodOperationProfiling;
   /**
+  * oplog block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
+  */
+  readonly oplog?: MdbMongodbClusterClusterConfigMongodOplog;
+  /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#security MdbMongodbCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#security MdbMongodbCluster#security}
   */
   readonly security?: MdbMongodbClusterClusterConfigMongodSecurity;
   /**
   * set_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
   */
   readonly setParameter?: MdbMongodbClusterClusterConfigMongodSetParameter;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
   */
   readonly storage?: MdbMongodbClusterClusterConfigMongodStorage;
 }
@@ -2292,9 +3431,11 @@ export function mdbMongodbClusterClusterConfigMongodToTerraform(struct?: MdbMong
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    chaining_allowed: cdktf.booleanToTerraform(struct!.chainingAllowed),
     audit_log: mdbMongodbClusterClusterConfigMongodAuditLogToTerraform(struct!.auditLog),
     net: mdbMongodbClusterClusterConfigMongodNetToTerraform(struct!.net),
     operation_profiling: mdbMongodbClusterClusterConfigMongodOperationProfilingToTerraform(struct!.operationProfiling),
+    oplog: mdbMongodbClusterClusterConfigMongodOplogToTerraform(struct!.oplog),
     security: mdbMongodbClusterClusterConfigMongodSecurityToTerraform(struct!.security),
     set_parameter: mdbMongodbClusterClusterConfigMongodSetParameterToTerraform(struct!.setParameter),
     storage: mdbMongodbClusterClusterConfigMongodStorageToTerraform(struct!.storage),
@@ -2308,6 +3449,12 @@ export function mdbMongodbClusterClusterConfigMongodToHclTerraform(struct?: MdbM
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    chaining_allowed: {
+      value: cdktf.booleanToHclTerraform(struct!.chainingAllowed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     audit_log: {
       value: mdbMongodbClusterClusterConfigMongodAuditLogToHclTerraform(struct!.auditLog),
       isBlock: true,
@@ -2325,6 +3472,12 @@ export function mdbMongodbClusterClusterConfigMongodToHclTerraform(struct?: MdbM
       isBlock: true,
       type: "list",
       storageClassType: "MdbMongodbClusterClusterConfigMongodOperationProfilingList",
+    },
+    oplog: {
+      value: mdbMongodbClusterClusterConfigMongodOplogToHclTerraform(struct!.oplog),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongodOplogList",
     },
     security: {
       value: mdbMongodbClusterClusterConfigMongodSecurityToHclTerraform(struct!.security),
@@ -2364,6 +3517,10 @@ export class MdbMongodbClusterClusterConfigMongodOutputReference extends cdktf.C
   public get internalValue(): MdbMongodbClusterClusterConfigMongod | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._chainingAllowed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chainingAllowed = this._chainingAllowed;
+    }
     if (this._auditLog?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.auditLog = this._auditLog?.internalValue;
@@ -2375,6 +3532,10 @@ export class MdbMongodbClusterClusterConfigMongodOutputReference extends cdktf.C
     if (this._operationProfiling?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.operationProfiling = this._operationProfiling?.internalValue;
+    }
+    if (this._oplog?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oplog = this._oplog?.internalValue;
     }
     if (this._security?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2394,22 +3555,42 @@ export class MdbMongodbClusterClusterConfigMongodOutputReference extends cdktf.C
   public set internalValue(value: MdbMongodbClusterClusterConfigMongod | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._chainingAllowed = undefined;
       this._auditLog.internalValue = undefined;
       this._net.internalValue = undefined;
       this._operationProfiling.internalValue = undefined;
+      this._oplog.internalValue = undefined;
       this._security.internalValue = undefined;
       this._setParameter.internalValue = undefined;
       this._storage.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._chainingAllowed = value.chainingAllowed;
       this._auditLog.internalValue = value.auditLog;
       this._net.internalValue = value.net;
       this._operationProfiling.internalValue = value.operationProfiling;
+      this._oplog.internalValue = value.oplog;
       this._security.internalValue = value.security;
       this._setParameter.internalValue = value.setParameter;
       this._storage.internalValue = value.storage;
     }
+  }
+
+  // chaining_allowed - computed: false, optional: true, required: false
+  private _chainingAllowed?: boolean | cdktf.IResolvable; 
+  public get chainingAllowed() {
+    return this.getBooleanAttribute('chaining_allowed');
+  }
+  public set chainingAllowed(value: boolean | cdktf.IResolvable) {
+    this._chainingAllowed = value;
+  }
+  public resetChainingAllowed() {
+    this._chainingAllowed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chainingAllowedInput() {
+    return this._chainingAllowed;
   }
 
   // audit_log - computed: false, optional: true, required: false
@@ -2460,6 +3641,22 @@ export class MdbMongodbClusterClusterConfigMongodOutputReference extends cdktf.C
     return this._operationProfiling.internalValue;
   }
 
+  // oplog - computed: false, optional: true, required: false
+  private _oplog = new MdbMongodbClusterClusterConfigMongodOplogOutputReference(this, "oplog");
+  public get oplog() {
+    return this._oplog;
+  }
+  public putOplog(value: MdbMongodbClusterClusterConfigMongodOplog) {
+    this._oplog.internalValue = value;
+  }
+  public resetOplog() {
+    this._oplog.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oplogInput() {
+    return this._oplog.internalValue;
+  }
+
   // security - computed: false, optional: true, required: false
   private _security = new MdbMongodbClusterClusterConfigMongodSecurityOutputReference(this, "security");
   public get security() {
@@ -2508,17 +3705,103 @@ export class MdbMongodbClusterClusterConfigMongodOutputReference extends cdktf.C
     return this._storage.internalValue;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongosAuditLog {
+  /**
+  * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  */
+  readonly filter?: string;
+}
+
+export function mdbMongodbClusterClusterConfigMongosAuditLogToTerraform(struct?: MdbMongodbClusterClusterConfigMongosAuditLogOutputReference | MdbMongodbClusterClusterConfigMongosAuditLog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    filter: cdktf.stringToTerraform(struct!.filter),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongosAuditLogToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongosAuditLogOutputReference | MdbMongodbClusterClusterConfigMongosAuditLog): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    filter: {
+      value: cdktf.stringToHclTerraform(struct!.filter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongosAuditLogOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongosAuditLog | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._filter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filter = this._filter;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongosAuditLog | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._filter = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._filter = value.filter;
+    }
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter?: string; 
+  public get filter() {
+    return this.getStringAttribute('filter');
+  }
+  public set filter(value: string) {
+    this._filter = value;
+  }
+  public resetFilter() {
+    this._filter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter;
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongosNet {
   /**
   * Specifies the default compressor(s) to use for communication between this mongod or mongos. Accepts array of compressors. Order matters. Available compressors: snappy, zlib, zstd, disabled. To disable network compression, make `disabled` the only value. For more information, see the [net.Compression.Compressors](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.compression.compressors) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
   */
   readonly compressors?: string[];
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -2629,13 +3912,537 @@ export class MdbMongodbClusterClusterConfigMongosNetOutputReference extends cdkt
     return this._maxIncomingConnections;
   }
 }
+export interface MdbMongodbClusterClusterConfigMongosSetParameter {
+  /**
+  * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  */
+  readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether mongos supports hedged reads for those read operations whose read preference have enabled the hedged read option. For more information, see the [readHedgingMode](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.readHedgingMode) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#read_hedging_mode MdbMongodbCluster#read_hedging_mode}
+  */
+  readonly readHedgingMode?: string;
+  /**
+  * Maximum time that mongos goes without communication to a host before mongos drops all connections to the host. For more information, see the [shardingTaskExecutorPoolHostTimeoutMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolHostTimeoutMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_host_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_host_timeout_ms}
+  */
+  readonly shardingTaskExecutorPoolHostTimeoutMs?: number;
+  /**
+  * Maximum number of simultaneous initiating connections (including pending connections in setup/refresh state) each TaskExecutor connection pool can have to a mongod instance. For more information, see the [shardingTaskExecutorPoolMaxConnecting](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxConnecting) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_connecting MdbMongodbCluster#sharding_task_executor_pool_max_connecting}
+  */
+  readonly shardingTaskExecutorPoolMaxConnecting?: number;
+  /**
+  * Maximum number of outbound connections each TaskExecutor connection pool can open to any given mongod instance. For more information, see the [shardingTaskExecutorPoolMaxSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxSize) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size MdbMongodbCluster#sharding_task_executor_pool_max_size}
+  */
+  readonly shardingTaskExecutorPoolMaxSize?: number;
+  /**
+  * Optional override for ShardingTaskExecutorPoolMaxSize to set the maximum number of outbound connections each TaskExecutor connection pool can open to a configuration server. For more information, see the [shardingTaskExecutorPoolMaxSizeForConfigServers](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxSizeForConfigServers) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_max_size_for_config_servers}
+  */
+  readonly shardingTaskExecutorPoolMaxSizeForConfigServers?: number;
+  /**
+  * Minimum number of outbound connections each TaskExecutor connection pool can open to any given mongod instance. For more information, see the [shardingTaskExecutorPoolMinSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMinSize) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size MdbMongodbCluster#sharding_task_executor_pool_min_size}
+  */
+  readonly shardingTaskExecutorPoolMinSize?: number;
+  /**
+  * Optional override for ShardingTaskExecutorPoolMinSize to set the minimum number of outbound connections each TaskExecutor connection pool can open to a configuration server. For more information, see the [shardingTaskExecutorPoolMinSizeForConfigServers](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMinSizeForConfigServers) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_min_size_for_config_servers}
+  */
+  readonly shardingTaskExecutorPoolMinSizeForConfigServers?: number;
+  /**
+  * Maximum time the mongos waits before attempting to heartbeat an idle connection in the pool. For more information, see the [shardingTaskExecutorPoolRefreshRequirementMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolRefreshRequirementMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_requirement_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_requirement_ms}
+  */
+  readonly shardingTaskExecutorPoolRefreshRequirementMs?: number;
+  /**
+  * Maximum time the mongos waits for a heartbeat before timing out the heartbeat. For more information, see the [shardingTaskExecutorPoolRefreshTimeoutMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolRefreshTimeoutMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_timeout_ms}
+  */
+  readonly shardingTaskExecutorPoolRefreshTimeoutMs?: number;
+  /**
+  * On a mongos instance, this parameter sets the policy that determines the minimum size limit of its connection pools to nodes within replica sets. For more information, see the [shardingTaskExecutorPoolReplicaSetMatching](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolReplicaSetMatching) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_replica_set_matching MdbMongodbCluster#sharding_task_executor_pool_replica_set_matching}
+  */
+  readonly shardingTaskExecutorPoolReplicaSetMatching?: string;
+  /**
+  * Configures a mongos instance to prewarm its connection pool on startup. For more information, see the [warmMinConnectionsInShardingTaskExecutorPoolOnStartup](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.warmMinConnectionsInShardingTaskExecutorPoolOnStartup) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup}
+  */
+  readonly warmMinConnectionsInShardingTaskExecutorPoolOnStartup?: boolean | cdktf.IResolvable;
+  /**
+  * Sets the timeout threshold in milliseconds for a mongos to wait for ShardingTaskExecutorPoolMinSize connections to be established per shard host when using the warmMinConnectionsInShardingTaskExecutorPoolOnStartup parameter. For more information, see the [warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMS) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms}
+  */
+  readonly warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs?: number;
+}
+
+export function mdbMongodbClusterClusterConfigMongosSetParameterToTerraform(struct?: MdbMongodbClusterClusterConfigMongosSetParameterOutputReference | MdbMongodbClusterClusterConfigMongosSetParameter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    audit_authorization_success: cdktf.booleanToTerraform(struct!.auditAuthorizationSuccess),
+    read_hedging_mode: cdktf.stringToTerraform(struct!.readHedgingMode),
+    sharding_task_executor_pool_host_timeout_ms: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolHostTimeoutMs),
+    sharding_task_executor_pool_max_connecting: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolMaxConnecting),
+    sharding_task_executor_pool_max_size: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolMaxSize),
+    sharding_task_executor_pool_max_size_for_config_servers: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolMaxSizeForConfigServers),
+    sharding_task_executor_pool_min_size: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolMinSize),
+    sharding_task_executor_pool_min_size_for_config_servers: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolMinSizeForConfigServers),
+    sharding_task_executor_pool_refresh_requirement_ms: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolRefreshRequirementMs),
+    sharding_task_executor_pool_refresh_timeout_ms: cdktf.numberToTerraform(struct!.shardingTaskExecutorPoolRefreshTimeoutMs),
+    sharding_task_executor_pool_replica_set_matching: cdktf.stringToTerraform(struct!.shardingTaskExecutorPoolReplicaSetMatching),
+    warm_min_connections_in_sharding_task_executor_pool_on_startup: cdktf.booleanToTerraform(struct!.warmMinConnectionsInShardingTaskExecutorPoolOnStartup),
+    warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms: cdktf.numberToTerraform(struct!.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs),
+  }
+}
+
+
+export function mdbMongodbClusterClusterConfigMongosSetParameterToHclTerraform(struct?: MdbMongodbClusterClusterConfigMongosSetParameterOutputReference | MdbMongodbClusterClusterConfigMongosSetParameter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    audit_authorization_success: {
+      value: cdktf.booleanToHclTerraform(struct!.auditAuthorizationSuccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    read_hedging_mode: {
+      value: cdktf.stringToHclTerraform(struct!.readHedgingMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sharding_task_executor_pool_host_timeout_ms: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolHostTimeoutMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_max_connecting: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolMaxConnecting),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_max_size: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolMaxSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_max_size_for_config_servers: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolMaxSizeForConfigServers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_min_size: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolMinSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_min_size_for_config_servers: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolMinSizeForConfigServers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_refresh_requirement_ms: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolRefreshRequirementMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_refresh_timeout_ms: {
+      value: cdktf.numberToHclTerraform(struct!.shardingTaskExecutorPoolRefreshTimeoutMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sharding_task_executor_pool_replica_set_matching: {
+      value: cdktf.stringToHclTerraform(struct!.shardingTaskExecutorPoolReplicaSetMatching),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    warm_min_connections_in_sharding_task_executor_pool_on_startup: {
+      value: cdktf.booleanToHclTerraform(struct!.warmMinConnectionsInShardingTaskExecutorPoolOnStartup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms: {
+      value: cdktf.numberToHclTerraform(struct!.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MdbMongodbClusterClusterConfigMongosSetParameterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): MdbMongodbClusterClusterConfigMongosSetParameter | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._auditAuthorizationSuccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.auditAuthorizationSuccess = this._auditAuthorizationSuccess;
+    }
+    if (this._readHedgingMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.readHedgingMode = this._readHedgingMode;
+    }
+    if (this._shardingTaskExecutorPoolHostTimeoutMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolHostTimeoutMs = this._shardingTaskExecutorPoolHostTimeoutMs;
+    }
+    if (this._shardingTaskExecutorPoolMaxConnecting !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolMaxConnecting = this._shardingTaskExecutorPoolMaxConnecting;
+    }
+    if (this._shardingTaskExecutorPoolMaxSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolMaxSize = this._shardingTaskExecutorPoolMaxSize;
+    }
+    if (this._shardingTaskExecutorPoolMaxSizeForConfigServers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolMaxSizeForConfigServers = this._shardingTaskExecutorPoolMaxSizeForConfigServers;
+    }
+    if (this._shardingTaskExecutorPoolMinSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolMinSize = this._shardingTaskExecutorPoolMinSize;
+    }
+    if (this._shardingTaskExecutorPoolMinSizeForConfigServers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolMinSizeForConfigServers = this._shardingTaskExecutorPoolMinSizeForConfigServers;
+    }
+    if (this._shardingTaskExecutorPoolRefreshRequirementMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolRefreshRequirementMs = this._shardingTaskExecutorPoolRefreshRequirementMs;
+    }
+    if (this._shardingTaskExecutorPoolRefreshTimeoutMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolRefreshTimeoutMs = this._shardingTaskExecutorPoolRefreshTimeoutMs;
+    }
+    if (this._shardingTaskExecutorPoolReplicaSetMatching !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shardingTaskExecutorPoolReplicaSetMatching = this._shardingTaskExecutorPoolReplicaSetMatching;
+    }
+    if (this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.warmMinConnectionsInShardingTaskExecutorPoolOnStartup = this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup;
+    }
+    if (this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs = this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MdbMongodbClusterClusterConfigMongosSetParameter | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._auditAuthorizationSuccess = undefined;
+      this._readHedgingMode = undefined;
+      this._shardingTaskExecutorPoolHostTimeoutMs = undefined;
+      this._shardingTaskExecutorPoolMaxConnecting = undefined;
+      this._shardingTaskExecutorPoolMaxSize = undefined;
+      this._shardingTaskExecutorPoolMaxSizeForConfigServers = undefined;
+      this._shardingTaskExecutorPoolMinSize = undefined;
+      this._shardingTaskExecutorPoolMinSizeForConfigServers = undefined;
+      this._shardingTaskExecutorPoolRefreshRequirementMs = undefined;
+      this._shardingTaskExecutorPoolRefreshTimeoutMs = undefined;
+      this._shardingTaskExecutorPoolReplicaSetMatching = undefined;
+      this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup = undefined;
+      this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._auditAuthorizationSuccess = value.auditAuthorizationSuccess;
+      this._readHedgingMode = value.readHedgingMode;
+      this._shardingTaskExecutorPoolHostTimeoutMs = value.shardingTaskExecutorPoolHostTimeoutMs;
+      this._shardingTaskExecutorPoolMaxConnecting = value.shardingTaskExecutorPoolMaxConnecting;
+      this._shardingTaskExecutorPoolMaxSize = value.shardingTaskExecutorPoolMaxSize;
+      this._shardingTaskExecutorPoolMaxSizeForConfigServers = value.shardingTaskExecutorPoolMaxSizeForConfigServers;
+      this._shardingTaskExecutorPoolMinSize = value.shardingTaskExecutorPoolMinSize;
+      this._shardingTaskExecutorPoolMinSizeForConfigServers = value.shardingTaskExecutorPoolMinSizeForConfigServers;
+      this._shardingTaskExecutorPoolRefreshRequirementMs = value.shardingTaskExecutorPoolRefreshRequirementMs;
+      this._shardingTaskExecutorPoolRefreshTimeoutMs = value.shardingTaskExecutorPoolRefreshTimeoutMs;
+      this._shardingTaskExecutorPoolReplicaSetMatching = value.shardingTaskExecutorPoolReplicaSetMatching;
+      this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup = value.warmMinConnectionsInShardingTaskExecutorPoolOnStartup;
+      this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs = value.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs;
+    }
+  }
+
+  // audit_authorization_success - computed: false, optional: true, required: false
+  private _auditAuthorizationSuccess?: boolean | cdktf.IResolvable; 
+  public get auditAuthorizationSuccess() {
+    return this.getBooleanAttribute('audit_authorization_success');
+  }
+  public set auditAuthorizationSuccess(value: boolean | cdktf.IResolvable) {
+    this._auditAuthorizationSuccess = value;
+  }
+  public resetAuditAuthorizationSuccess() {
+    this._auditAuthorizationSuccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get auditAuthorizationSuccessInput() {
+    return this._auditAuthorizationSuccess;
+  }
+
+  // read_hedging_mode - computed: false, optional: true, required: false
+  private _readHedgingMode?: string; 
+  public get readHedgingMode() {
+    return this.getStringAttribute('read_hedging_mode');
+  }
+  public set readHedgingMode(value: string) {
+    this._readHedgingMode = value;
+  }
+  public resetReadHedgingMode() {
+    this._readHedgingMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readHedgingModeInput() {
+    return this._readHedgingMode;
+  }
+
+  // sharding_task_executor_pool_host_timeout_ms - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolHostTimeoutMs?: number; 
+  public get shardingTaskExecutorPoolHostTimeoutMs() {
+    return this.getNumberAttribute('sharding_task_executor_pool_host_timeout_ms');
+  }
+  public set shardingTaskExecutorPoolHostTimeoutMs(value: number) {
+    this._shardingTaskExecutorPoolHostTimeoutMs = value;
+  }
+  public resetShardingTaskExecutorPoolHostTimeoutMs() {
+    this._shardingTaskExecutorPoolHostTimeoutMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolHostTimeoutMsInput() {
+    return this._shardingTaskExecutorPoolHostTimeoutMs;
+  }
+
+  // sharding_task_executor_pool_max_connecting - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolMaxConnecting?: number; 
+  public get shardingTaskExecutorPoolMaxConnecting() {
+    return this.getNumberAttribute('sharding_task_executor_pool_max_connecting');
+  }
+  public set shardingTaskExecutorPoolMaxConnecting(value: number) {
+    this._shardingTaskExecutorPoolMaxConnecting = value;
+  }
+  public resetShardingTaskExecutorPoolMaxConnecting() {
+    this._shardingTaskExecutorPoolMaxConnecting = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolMaxConnectingInput() {
+    return this._shardingTaskExecutorPoolMaxConnecting;
+  }
+
+  // sharding_task_executor_pool_max_size - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolMaxSize?: number; 
+  public get shardingTaskExecutorPoolMaxSize() {
+    return this.getNumberAttribute('sharding_task_executor_pool_max_size');
+  }
+  public set shardingTaskExecutorPoolMaxSize(value: number) {
+    this._shardingTaskExecutorPoolMaxSize = value;
+  }
+  public resetShardingTaskExecutorPoolMaxSize() {
+    this._shardingTaskExecutorPoolMaxSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolMaxSizeInput() {
+    return this._shardingTaskExecutorPoolMaxSize;
+  }
+
+  // sharding_task_executor_pool_max_size_for_config_servers - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolMaxSizeForConfigServers?: number; 
+  public get shardingTaskExecutorPoolMaxSizeForConfigServers() {
+    return this.getNumberAttribute('sharding_task_executor_pool_max_size_for_config_servers');
+  }
+  public set shardingTaskExecutorPoolMaxSizeForConfigServers(value: number) {
+    this._shardingTaskExecutorPoolMaxSizeForConfigServers = value;
+  }
+  public resetShardingTaskExecutorPoolMaxSizeForConfigServers() {
+    this._shardingTaskExecutorPoolMaxSizeForConfigServers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolMaxSizeForConfigServersInput() {
+    return this._shardingTaskExecutorPoolMaxSizeForConfigServers;
+  }
+
+  // sharding_task_executor_pool_min_size - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolMinSize?: number; 
+  public get shardingTaskExecutorPoolMinSize() {
+    return this.getNumberAttribute('sharding_task_executor_pool_min_size');
+  }
+  public set shardingTaskExecutorPoolMinSize(value: number) {
+    this._shardingTaskExecutorPoolMinSize = value;
+  }
+  public resetShardingTaskExecutorPoolMinSize() {
+    this._shardingTaskExecutorPoolMinSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolMinSizeInput() {
+    return this._shardingTaskExecutorPoolMinSize;
+  }
+
+  // sharding_task_executor_pool_min_size_for_config_servers - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolMinSizeForConfigServers?: number; 
+  public get shardingTaskExecutorPoolMinSizeForConfigServers() {
+    return this.getNumberAttribute('sharding_task_executor_pool_min_size_for_config_servers');
+  }
+  public set shardingTaskExecutorPoolMinSizeForConfigServers(value: number) {
+    this._shardingTaskExecutorPoolMinSizeForConfigServers = value;
+  }
+  public resetShardingTaskExecutorPoolMinSizeForConfigServers() {
+    this._shardingTaskExecutorPoolMinSizeForConfigServers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolMinSizeForConfigServersInput() {
+    return this._shardingTaskExecutorPoolMinSizeForConfigServers;
+  }
+
+  // sharding_task_executor_pool_refresh_requirement_ms - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolRefreshRequirementMs?: number; 
+  public get shardingTaskExecutorPoolRefreshRequirementMs() {
+    return this.getNumberAttribute('sharding_task_executor_pool_refresh_requirement_ms');
+  }
+  public set shardingTaskExecutorPoolRefreshRequirementMs(value: number) {
+    this._shardingTaskExecutorPoolRefreshRequirementMs = value;
+  }
+  public resetShardingTaskExecutorPoolRefreshRequirementMs() {
+    this._shardingTaskExecutorPoolRefreshRequirementMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolRefreshRequirementMsInput() {
+    return this._shardingTaskExecutorPoolRefreshRequirementMs;
+  }
+
+  // sharding_task_executor_pool_refresh_timeout_ms - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolRefreshTimeoutMs?: number; 
+  public get shardingTaskExecutorPoolRefreshTimeoutMs() {
+    return this.getNumberAttribute('sharding_task_executor_pool_refresh_timeout_ms');
+  }
+  public set shardingTaskExecutorPoolRefreshTimeoutMs(value: number) {
+    this._shardingTaskExecutorPoolRefreshTimeoutMs = value;
+  }
+  public resetShardingTaskExecutorPoolRefreshTimeoutMs() {
+    this._shardingTaskExecutorPoolRefreshTimeoutMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolRefreshTimeoutMsInput() {
+    return this._shardingTaskExecutorPoolRefreshTimeoutMs;
+  }
+
+  // sharding_task_executor_pool_replica_set_matching - computed: false, optional: true, required: false
+  private _shardingTaskExecutorPoolReplicaSetMatching?: string; 
+  public get shardingTaskExecutorPoolReplicaSetMatching() {
+    return this.getStringAttribute('sharding_task_executor_pool_replica_set_matching');
+  }
+  public set shardingTaskExecutorPoolReplicaSetMatching(value: string) {
+    this._shardingTaskExecutorPoolReplicaSetMatching = value;
+  }
+  public resetShardingTaskExecutorPoolReplicaSetMatching() {
+    this._shardingTaskExecutorPoolReplicaSetMatching = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shardingTaskExecutorPoolReplicaSetMatchingInput() {
+    return this._shardingTaskExecutorPoolReplicaSetMatching;
+  }
+
+  // warm_min_connections_in_sharding_task_executor_pool_on_startup - computed: false, optional: true, required: false
+  private _warmMinConnectionsInShardingTaskExecutorPoolOnStartup?: boolean | cdktf.IResolvable; 
+  public get warmMinConnectionsInShardingTaskExecutorPoolOnStartup() {
+    return this.getBooleanAttribute('warm_min_connections_in_sharding_task_executor_pool_on_startup');
+  }
+  public set warmMinConnectionsInShardingTaskExecutorPoolOnStartup(value: boolean | cdktf.IResolvable) {
+    this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup = value;
+  }
+  public resetWarmMinConnectionsInShardingTaskExecutorPoolOnStartup() {
+    this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warmMinConnectionsInShardingTaskExecutorPoolOnStartupInput() {
+    return this._warmMinConnectionsInShardingTaskExecutorPoolOnStartup;
+  }
+
+  // warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms - computed: false, optional: true, required: false
+  private _warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs?: number; 
+  public get warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs() {
+    return this.getNumberAttribute('warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms');
+  }
+  public set warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs(value: number) {
+    this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs = value;
+  }
+  public resetWarmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs() {
+    this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMsInput() {
+    return this._warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs;
+  }
+}
 export interface MdbMongodbClusterClusterConfigMongos {
+  /**
+  * The size of the chunk, in bytes. For more information, see the [chunkSize](https://www.mongodb.com/docs/manual/tutorial/modify-chunk-size-in-sharded-cluster) description in the official documentation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#chunk_size MdbMongodbCluster#chunk_size}
+  */
+  readonly chunkSize?: number;
+  /**
+  * audit_log block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  */
+  readonly auditLog?: MdbMongodbClusterClusterConfigMongosAuditLog;
   /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongosNet;
+  /**
+  * set_parameter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  */
+  readonly setParameter?: MdbMongodbClusterClusterConfigMongosSetParameter;
 }
 
 export function mdbMongodbClusterClusterConfigMongosToTerraform(struct?: MdbMongodbClusterClusterConfigMongosOutputReference | MdbMongodbClusterClusterConfigMongos): any {
@@ -2644,7 +4451,10 @@ export function mdbMongodbClusterClusterConfigMongosToTerraform(struct?: MdbMong
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    chunk_size: cdktf.numberToTerraform(struct!.chunkSize),
+    audit_log: mdbMongodbClusterClusterConfigMongosAuditLogToTerraform(struct!.auditLog),
     net: mdbMongodbClusterClusterConfigMongosNetToTerraform(struct!.net),
+    set_parameter: mdbMongodbClusterClusterConfigMongosSetParameterToTerraform(struct!.setParameter),
   }
 }
 
@@ -2655,11 +4465,29 @@ export function mdbMongodbClusterClusterConfigMongosToHclTerraform(struct?: MdbM
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    chunk_size: {
+      value: cdktf.numberToHclTerraform(struct!.chunkSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    audit_log: {
+      value: mdbMongodbClusterClusterConfigMongosAuditLogToHclTerraform(struct!.auditLog),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongosAuditLogList",
+    },
     net: {
       value: mdbMongodbClusterClusterConfigMongosNetToHclTerraform(struct!.net),
       isBlock: true,
       type: "list",
       storageClassType: "MdbMongodbClusterClusterConfigMongosNetList",
+    },
+    set_parameter: {
+      value: mdbMongodbClusterClusterConfigMongosSetParameterToHclTerraform(struct!.setParameter),
+      isBlock: true,
+      type: "list",
+      storageClassType: "MdbMongodbClusterClusterConfigMongosSetParameterList",
     },
   };
 
@@ -2681,9 +4509,21 @@ export class MdbMongodbClusterClusterConfigMongosOutputReference extends cdktf.C
   public get internalValue(): MdbMongodbClusterClusterConfigMongos | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._chunkSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chunkSize = this._chunkSize;
+    }
+    if (this._auditLog?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.auditLog = this._auditLog?.internalValue;
+    }
     if (this._net?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.net = this._net?.internalValue;
+    }
+    if (this._setParameter?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.setParameter = this._setParameter?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2691,12 +4531,50 @@ export class MdbMongodbClusterClusterConfigMongosOutputReference extends cdktf.C
   public set internalValue(value: MdbMongodbClusterClusterConfigMongos | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._chunkSize = undefined;
+      this._auditLog.internalValue = undefined;
       this._net.internalValue = undefined;
+      this._setParameter.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._chunkSize = value.chunkSize;
+      this._auditLog.internalValue = value.auditLog;
       this._net.internalValue = value.net;
+      this._setParameter.internalValue = value.setParameter;
     }
+  }
+
+  // chunk_size - computed: false, optional: true, required: false
+  private _chunkSize?: number; 
+  public get chunkSize() {
+    return this.getNumberAttribute('chunk_size');
+  }
+  public set chunkSize(value: number) {
+    this._chunkSize = value;
+  }
+  public resetChunkSize() {
+    this._chunkSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chunkSizeInput() {
+    return this._chunkSize;
+  }
+
+  // audit_log - computed: false, optional: true, required: false
+  private _auditLog = new MdbMongodbClusterClusterConfigMongosAuditLogOutputReference(this, "audit_log");
+  public get auditLog() {
+    return this._auditLog;
+  }
+  public putAuditLog(value: MdbMongodbClusterClusterConfigMongosAuditLog) {
+    this._auditLog.internalValue = value;
+  }
+  public resetAuditLog() {
+    this._auditLog.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get auditLogInput() {
+    return this._auditLog.internalValue;
   }
 
   // net - computed: false, optional: true, required: false
@@ -2714,12 +4592,28 @@ export class MdbMongodbClusterClusterConfigMongosOutputReference extends cdktf.C
   public get netInput() {
     return this._net.internalValue;
   }
+
+  // set_parameter - computed: false, optional: true, required: false
+  private _setParameter = new MdbMongodbClusterClusterConfigMongosSetParameterOutputReference(this, "set_parameter");
+  public get setParameter() {
+    return this._setParameter;
+  }
+  public putSetParameter(value: MdbMongodbClusterClusterConfigMongosSetParameter) {
+    this._setParameter.internalValue = value;
+  }
+  public resetSetParameter() {
+    this._setParameter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get setParameterInput() {
+    return this._setParameter.internalValue;
+  }
 }
 export interface MdbMongodbClusterClusterConfigPerformanceDiagnostics {
   /**
   * Enable or disable performance diagnostics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#enabled MdbMongodbCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#enabled MdbMongodbCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2805,55 +4699,55 @@ export interface MdbMongodbClusterClusterConfig {
   /**
   * Retain period of automatically created backup in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#backup_retain_period_days MdbMongodbCluster#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#backup_retain_period_days MdbMongodbCluster#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * Feature compatibility version of MongoDB. If not provided version is taken. Can be either `6.0`, `5.0`, `4.4` and `4.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#feature_compatibility_version MdbMongodbCluster#feature_compatibility_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#feature_compatibility_version MdbMongodbCluster#feature_compatibility_version}
   */
   readonly featureCompatibilityVersion?: string;
   /**
   * Version of the MongoDB server software. Can be either `4.2`, `4.4`, `4.4-enterprise`, `5.0`, `5.0-enterprise`, `6.0` and `6.0-enterprise`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#version MdbMongodbCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#version MdbMongodbCluster#version}
   */
   readonly version: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#access MdbMongodbCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#access MdbMongodbCluster#access}
   */
   readonly access?: MdbMongodbClusterClusterConfigAccess;
   /**
   * backup_window_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#backup_window_start MdbMongodbCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#backup_window_start MdbMongodbCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbMongodbClusterClusterConfigBackupWindowStart;
   /**
   * mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#mongocfg MdbMongodbCluster#mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mongocfg MdbMongodbCluster#mongocfg}
   */
   readonly mongocfg?: MdbMongodbClusterClusterConfigMongocfg;
   /**
   * mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#mongod MdbMongodbCluster#mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mongod MdbMongodbCluster#mongod}
   */
   readonly mongod?: MdbMongodbClusterClusterConfigMongod;
   /**
   * mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#mongos MdbMongodbCluster#mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#mongos MdbMongodbCluster#mongos}
   */
   readonly mongos?: MdbMongodbClusterClusterConfigMongos;
   /**
   * performance_diagnostics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#performance_diagnostics MdbMongodbCluster#performance_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#performance_diagnostics MdbMongodbCluster#performance_diagnostics}
   */
   readonly performanceDiagnostics?: MdbMongodbClusterClusterConfigPerformanceDiagnostics;
 }
@@ -3168,7 +5062,7 @@ export interface MdbMongodbClusterDatabase {
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
 }
@@ -3283,19 +5177,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongocfg {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -3436,19 +5330,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongod {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -3589,19 +5483,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongoinfra {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -3742,19 +5636,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongos {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -3895,25 +5789,25 @@ export interface MdbMongodbClusterHostHostParameters {
   /**
   * Should this host be hidden in replicaset. Can be either `true` of `false`. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.hidden).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#hidden MdbMongodbCluster#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#hidden MdbMongodbCluster#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
   * A floating point number that indicates the relative likelihood of a replica set member to become the primary. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.priority).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#priority MdbMongodbCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#priority MdbMongodbCluster#priority}
   */
   readonly priority?: number;
   /**
   * The number of seconds `behind` the primary that this replica set member should `lag`. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.secondaryDelaySecs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#secondary_delay_secs MdbMongodbCluster#secondary_delay_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#secondary_delay_secs MdbMongodbCluster#secondary_delay_secs}
   */
   readonly secondaryDelaySecs?: number;
   /**
   * A set of key/value pairs to assign for the replica set member. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.tags).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#tags MdbMongodbCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#tags MdbMongodbCluster#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4086,43 +5980,43 @@ export interface MdbMongodbClusterHost {
   /**
   * Should this host have assigned public IP assigned. Can be either `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#assign_public_ip MdbMongodbCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#assign_public_ip MdbMongodbCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * The role of the cluster (either PRIMARY or SECONDARY).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#role MdbMongodbCluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#role MdbMongodbCluster#role}
   */
   readonly role?: string;
   /**
   * The name of the shard to which the host belongs. Only for sharded cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#shard_name MdbMongodbCluster#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#shard_name MdbMongodbCluster#shard_name}
   */
   readonly shardName?: string;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#subnet_id MdbMongodbCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#subnet_id MdbMongodbCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Type of Mongo daemon which runs on this host (mongod, mongos, mongocfg, mongoinfra). Defaults to `mongod`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
   */
   readonly type?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#zone_id MdbMongodbCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#zone_id MdbMongodbCluster#zone_id}
   */
   readonly zoneId: string;
   /**
   * host_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#host_parameters MdbMongodbCluster#host_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#host_parameters MdbMongodbCluster#host_parameters}
   */
   readonly hostParameters?: MdbMongodbClusterHostHostParameters;
 }
@@ -4418,19 +6312,19 @@ export interface MdbMongodbClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window if window type is weekly. Possible values: `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#day MdbMongodbCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#day MdbMongodbCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window if window type is weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#hour MdbMongodbCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#hour MdbMongodbCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
   */
   readonly type: string;
 }
@@ -4571,19 +6465,19 @@ export interface MdbMongodbClusterResources {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -4718,19 +6612,19 @@ export interface MdbMongodbClusterResourcesMongocfg {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -4865,19 +6759,19 @@ export interface MdbMongodbClusterResourcesMongod {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -5012,19 +6906,19 @@ export interface MdbMongodbClusterResourcesMongoinfra {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -5159,19 +7053,19 @@ export interface MdbMongodbClusterResourcesMongos {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -5306,13 +7200,13 @@ export interface MdbMongodbClusterRestore {
   /**
   * Backup ID. The cluster will be created from the specified backup. [How to get a list of PostgreSQL backups](https://yandex.cloud/docs/managed-mongodb/operations/cluster-backups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#backup_id MdbMongodbCluster#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#backup_id MdbMongodbCluster#backup_id}
   */
   readonly backupId: string;
   /**
   * Timestamp of the moment to which the MongoDB cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#time MdbMongodbCluster#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#time MdbMongodbCluster#time}
   */
   readonly time?: string;
 }
@@ -5422,15 +7316,15 @@ export class MdbMongodbClusterRestoreOutputReference extends cdktf.ComplexObject
 }
 export interface MdbMongodbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#create MdbMongodbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#create MdbMongodbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#delete MdbMongodbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#delete MdbMongodbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#update MdbMongodbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#update MdbMongodbCluster#update}
   */
   readonly update?: string;
 }
@@ -5584,13 +7478,13 @@ export interface MdbMongodbClusterUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#database_name MdbMongodbCluster#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#database_name MdbMongodbCluster#database_name}
   */
   readonly databaseName: string;
   /**
   * The roles of the user in this database. For more information see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts/users-and-roles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#roles MdbMongodbCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#roles MdbMongodbCluster#roles}
   */
   readonly roles?: string[];
 }
@@ -5734,19 +7628,19 @@ export interface MdbMongodbClusterUser {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#password MdbMongodbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#password MdbMongodbCluster#password}
   */
   readonly password: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#permission MdbMongodbCluster#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#permission MdbMongodbCluster#permission}
   */
   readonly permission?: MdbMongodbClusterUserPermission[] | cdktf.IResolvable;
 }
@@ -5914,7 +7808,7 @@ export class MdbMongodbClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster}
 */
 export class MdbMongodbCluster extends cdktf.TerraformResource {
 
@@ -5930,7 +7824,7 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMongodbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMongodbCluster to import
-  * @param importFromId The id of the existing MdbMongodbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMongodbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMongodbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5942,7 +7836,7 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5953,8 +7847,8 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mongodb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

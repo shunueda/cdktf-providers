@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorAlertV2EventConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#description MonitorAlertV2Event#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#description MonitorAlertV2Event#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#enabled MonitorAlertV2Event#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#enabled MonitorAlertV2Event#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#filter MonitorAlertV2Event#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#filter MonitorAlertV2Event#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#group MonitorAlertV2Event#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#group MonitorAlertV2Event#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#group_by MonitorAlertV2Event#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#group_by MonitorAlertV2Event#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#labels MonitorAlertV2Event#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#labels MonitorAlertV2Event#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#name MonitorAlertV2Event#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#name MonitorAlertV2Event#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#operator MonitorAlertV2Event#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#operator MonitorAlertV2Event#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#range_seconds MonitorAlertV2Event#range_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#range_seconds MonitorAlertV2Event#range_seconds}
   */
   readonly rangeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#severity MonitorAlertV2Event#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#severity MonitorAlertV2Event#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#sources MonitorAlertV2Event#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#sources MonitorAlertV2Event#sources}
   */
   readonly sources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#threshold MonitorAlertV2Event#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#threshold MonitorAlertV2Event#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#warning_threshold MonitorAlertV2Event#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#warning_threshold MonitorAlertV2Event#warning_threshold}
   */
   readonly warningThreshold?: string;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#capture MonitorAlertV2Event#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#capture MonitorAlertV2Event#capture}
   */
   readonly capture?: MonitorAlertV2EventCapture;
   /**
   * custom_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#custom_notification MonitorAlertV2Event#custom_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#custom_notification MonitorAlertV2Event#custom_notification}
   */
   readonly customNotification?: MonitorAlertV2EventCustomNotification;
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#link MonitorAlertV2Event#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#link MonitorAlertV2Event#link}
   */
   readonly link?: MonitorAlertV2EventLink[] | cdktf.IResolvable;
   /**
   * notification_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#notification_channels MonitorAlertV2Event#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#notification_channels MonitorAlertV2Event#notification_channels}
   */
   readonly notificationChannels?: MonitorAlertV2EventNotificationChannels[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#scope MonitorAlertV2Event#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#scope MonitorAlertV2Event#scope}
   */
   readonly scope?: MonitorAlertV2EventScope[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#timeouts MonitorAlertV2Event#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#timeouts MonitorAlertV2Event#timeouts}
   */
   readonly timeouts?: MonitorAlertV2EventTimeouts;
 }
 export interface MonitorAlertV2EventCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#duration_seconds MonitorAlertV2Event#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#duration_seconds MonitorAlertV2Event#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#enabled MonitorAlertV2Event#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#enabled MonitorAlertV2Event#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#filename MonitorAlertV2Event#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#filename MonitorAlertV2Event#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#filter MonitorAlertV2Event#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#filter MonitorAlertV2Event#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#storage MonitorAlertV2Event#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#storage MonitorAlertV2Event#storage}
   */
   readonly storage?: string;
 }
@@ -318,11 +318,11 @@ export class MonitorAlertV2EventCaptureOutputReference extends cdktf.ComplexObje
 }
 export interface MonitorAlertV2EventCustomNotificationAdditionalField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#name MonitorAlertV2Event#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#name MonitorAlertV2Event#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#value MonitorAlertV2Event#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#value MonitorAlertV2Event#value}
   */
   readonly value: string;
 }
@@ -461,21 +461,21 @@ export class MonitorAlertV2EventCustomNotificationAdditionalFieldList extends cd
 }
 export interface MonitorAlertV2EventCustomNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#append MonitorAlertV2Event#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#append MonitorAlertV2Event#append}
   */
   readonly append?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#prepend MonitorAlertV2Event#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#prepend MonitorAlertV2Event#prepend}
   */
   readonly prepend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#subject MonitorAlertV2Event#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#subject MonitorAlertV2Event#subject}
   */
   readonly subject?: string;
   /**
   * additional_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#additional_field MonitorAlertV2Event#additional_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#additional_field MonitorAlertV2Event#additional_field}
   */
   readonly additionalField?: MonitorAlertV2EventCustomNotificationAdditionalField[] | cdktf.IResolvable;
 }
@@ -646,18 +646,18 @@ export class MonitorAlertV2EventCustomNotificationOutputReference extends cdktf.
 }
 export interface MonitorAlertV2EventLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#href MonitorAlertV2Event#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#href MonitorAlertV2Event#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#type MonitorAlertV2Event#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#type MonitorAlertV2Event#type}
   */
   readonly type: string;
 }
@@ -828,26 +828,26 @@ export class MonitorAlertV2EventLinkList extends cdktf.ComplexList {
 }
 export interface MonitorAlertV2EventNotificationChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#id MonitorAlertV2Event#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#main_threshold MonitorAlertV2Event#main_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#main_threshold MonitorAlertV2Event#main_threshold}
   */
   readonly mainThreshold?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#notify_on_resolve MonitorAlertV2Event#notify_on_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#notify_on_resolve MonitorAlertV2Event#notify_on_resolve}
   */
   readonly notifyOnResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#renotify_every_minutes MonitorAlertV2Event#renotify_every_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#renotify_every_minutes MonitorAlertV2Event#renotify_every_minutes}
   */
   readonly renotifyEveryMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#warning_threshold MonitorAlertV2Event#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#warning_threshold MonitorAlertV2Event#warning_threshold}
   */
   readonly warningThreshold?: boolean | cdktf.IResolvable;
 }
@@ -1076,15 +1076,15 @@ export class MonitorAlertV2EventNotificationChannelsList extends cdktf.ComplexLi
 }
 export interface MonitorAlertV2EventScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#label MonitorAlertV2Event#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#label MonitorAlertV2Event#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#operator MonitorAlertV2Event#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#operator MonitorAlertV2Event#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#values MonitorAlertV2Event#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#values MonitorAlertV2Event#values}
   */
   readonly values: string[];
 }
@@ -1249,19 +1249,19 @@ export class MonitorAlertV2EventScopeList extends cdktf.ComplexList {
 }
 export interface MonitorAlertV2EventTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#create MonitorAlertV2Event#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#create MonitorAlertV2Event#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#delete MonitorAlertV2Event#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#delete MonitorAlertV2Event#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#read MonitorAlertV2Event#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#read MonitorAlertV2Event#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#update MonitorAlertV2Event#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#update MonitorAlertV2Event#update}
   */
   readonly update?: string;
 }
@@ -1442,7 +1442,7 @@ export class MonitorAlertV2EventTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event sysdig_monitor_alert_v2_event}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event sysdig_monitor_alert_v2_event}
 */
 export class MonitorAlertV2Event extends cdktf.TerraformResource {
 
@@ -1458,7 +1458,7 @@ export class MonitorAlertV2Event extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorAlertV2Event resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorAlertV2Event to import
-  * @param importFromId The id of the existing MonitorAlertV2Event that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorAlertV2Event that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorAlertV2Event to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1470,7 +1470,7 @@ export class MonitorAlertV2Event extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_event sysdig_monitor_alert_v2_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_event sysdig_monitor_alert_v2_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1481,8 +1481,8 @@ export class MonitorAlertV2Event extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_alert_v2_event',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

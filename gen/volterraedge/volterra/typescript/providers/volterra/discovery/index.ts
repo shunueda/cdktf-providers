@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#annotations Discovery#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#annotations Discovery#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cluster_id Discovery#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cluster_id Discovery#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#description Discovery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#description Discovery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable Discovery#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable Discovery#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#id Discovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#id Discovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#labels Discovery#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#labels Discovery#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#no_cluster_id Discovery#no_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#no_cluster_id Discovery#no_cluster_id}
   */
   readonly noClusterId?: boolean | cdktf.IResolvable;
   /**
   * discovery_cbip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discovery_cbip Discovery#discovery_cbip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discovery_cbip Discovery#discovery_cbip}
   */
   readonly discoveryCbip?: DiscoveryDiscoveryCbip;
   /**
   * discovery_consul block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discovery_consul Discovery#discovery_consul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discovery_consul Discovery#discovery_consul}
   */
   readonly discoveryConsul?: DiscoveryDiscoveryConsul;
   /**
   * discovery_k8s block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discovery_k8s Discovery#discovery_k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discovery_k8s Discovery#discovery_k8s}
   */
   readonly discoveryK8S?: DiscoveryDiscoveryK8S;
   /**
   * discovery_third_party block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discovery_third_party Discovery#discovery_third_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discovery_third_party Discovery#discovery_third_party}
   */
   readonly discoveryThirdParty?: DiscoveryDiscoveryThirdParty;
   /**
   * where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#where Discovery#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#where Discovery#where}
   */
   readonly where: DiscoveryWhere;
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -226,15 +226,15 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfold
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -373,11 +373,11 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfold
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -487,23 +487,23 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordClearSecr
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -697,7 +697,7 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordVaultSecr
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -778,37 +778,37 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordWingmanSe
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordWingmanSecretInfo;
 }
@@ -1037,13 +1037,13 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPasswordOutputRef
 }
 export interface DiscoveryDiscoveryCbipCbipClustersAdminCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#username Discovery#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#username Discovery#username}
   */
   readonly username: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#password Discovery#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#password Discovery#password}
   */
   readonly password: DiscoveryDiscoveryCbipCbipClustersAdminCredentialsPassword;
 }
@@ -1150,15 +1150,15 @@ export class DiscoveryDiscoveryCbipCbipClustersAdminCredentialsOutputReference e
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthorityTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -1300,13 +1300,13 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthorityTrustedCa
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#skip_server_verification Discovery#skip_server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#skip_server_verification Discovery#skip_server_verification}
   */
   readonly skipServerVerification?: boolean | cdktf.IResolvable;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#trusted_ca Discovery#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#trusted_ca Discovery#trusted_ca}
   */
   readonly trustedCa?: DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthorityTrustedCa;
 }
@@ -1419,15 +1419,15 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthorityOutputRef
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1566,15 +1566,15 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1713,11 +1713,11 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -1827,23 +1827,23 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -2037,7 +2037,7 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -2118,37 +2118,37 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswordWingmanSecretInfo;
 }
@@ -2377,13 +2377,13 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPasswo
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#username Discovery#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#username Discovery#username}
   */
   readonly username: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#password Discovery#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#password Discovery#password}
   */
   readonly password: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsPassword;
 }
@@ -2490,15 +2490,15 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentialsOutput
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthorityTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -2640,13 +2640,13 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthori
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#skip_server_verification Discovery#skip_server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#skip_server_verification Discovery#skip_server_verification}
   */
   readonly skipServerVerification?: boolean | cdktf.IResolvable;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#trusted_ca Discovery#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#trusted_ca Discovery#trusted_ca}
   */
   readonly trustedCa?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthorityTrustedCa;
 }
@@ -2759,11 +2759,11 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthori
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesNamespaceMappingItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#partition_regex Discovery#partition_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#partition_regex Discovery#partition_regex}
   */
   readonly partitionRegex?: string;
 }
@@ -2910,7 +2910,7 @@ export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesNamespaceMapping {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#items Discovery#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#items Discovery#items}
   */
   readonly items: DiscoveryDiscoveryCbipCbipClustersCbipDevicesNamespaceMappingItems[] | cdktf.IResolvable;
 }
@@ -2991,23 +2991,23 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesNamespaceMappingOutput
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevicesVirtualServerFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#description_regex Discovery#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#description_regex Discovery#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discover_disabled_virtual_servers Discovery#discover_disabled_virtual_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discover_disabled_virtual_servers Discovery#discover_disabled_virtual_servers}
   */
   readonly discoverDisabledVirtualServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name_regex Discovery#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name_regex Discovery#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#port_ranges Discovery#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#port_ranges Discovery#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#protocols Discovery#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#protocols Discovery#protocols}
   */
   readonly protocols?: string[];
 }
@@ -3207,35 +3207,35 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesVirtualServerFilterOut
 }
 export interface DiscoveryDiscoveryCbipCbipClustersCbipDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_mgmt_ip Discovery#cbip_mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_mgmt_ip Discovery#cbip_mgmt_ip}
   */
   readonly cbipMgmtIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#default_all Discovery#default_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#default_all Discovery#default_all}
   */
   readonly defaultAll?: boolean | cdktf.IResolvable;
   /**
   * admin_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#admin_credentials Discovery#admin_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#admin_credentials Discovery#admin_credentials}
   */
   readonly adminCredentials: DiscoveryDiscoveryCbipCbipClustersCbipDevicesAdminCredentials;
   /**
   * cbip_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_certificate_authority Discovery#cbip_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_certificate_authority Discovery#cbip_certificate_authority}
   */
   readonly cbipCertificateAuthority: DiscoveryDiscoveryCbipCbipClustersCbipDevicesCbipCertificateAuthority;
   /**
   * namespace_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
   */
   readonly namespaceMapping?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesNamespaceMapping;
   /**
   * virtual_server_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#virtual_server_filter Discovery#virtual_server_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#virtual_server_filter Discovery#virtual_server_filter}
   */
   readonly virtualServerFilter?: DiscoveryDiscoveryCbipCbipClustersCbipDevicesVirtualServerFilter;
 }
@@ -3487,15 +3487,15 @@ export class DiscoveryDiscoveryCbipCbipClustersCbipDevicesList extends cdktf.Com
 }
 export interface DiscoveryDiscoveryCbipCbipClustersMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#description Discovery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#description Discovery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable Discovery#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable Discovery#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -3634,7 +3634,7 @@ export class DiscoveryDiscoveryCbipCbipClustersMetadataOutputReference extends c
 }
 export interface DiscoveryDiscoveryCbipCbipClustersMgmtPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#port Discovery#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#port Discovery#port}
   */
   readonly port?: number;
 }
@@ -3718,11 +3718,11 @@ export class DiscoveryDiscoveryCbipCbipClustersMgmtPortOutputReference extends c
 }
 export interface DiscoveryDiscoveryCbipCbipClustersNamespaceMappingItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#partition_regex Discovery#partition_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#partition_regex Discovery#partition_regex}
   */
   readonly partitionRegex?: string;
 }
@@ -3869,7 +3869,7 @@ export interface DiscoveryDiscoveryCbipCbipClustersNamespaceMapping {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#items Discovery#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#items Discovery#items}
   */
   readonly items: DiscoveryDiscoveryCbipCbipClustersNamespaceMappingItems[] | cdktf.IResolvable;
 }
@@ -3950,23 +3950,23 @@ export class DiscoveryDiscoveryCbipCbipClustersNamespaceMappingOutputReference e
 }
 export interface DiscoveryDiscoveryCbipCbipClustersVirtualServerFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#description_regex Discovery#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#description_regex Discovery#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#discover_disabled_virtual_servers Discovery#discover_disabled_virtual_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#discover_disabled_virtual_servers Discovery#discover_disabled_virtual_servers}
   */
   readonly discoverDisabledVirtualServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name_regex Discovery#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name_regex Discovery#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#port_ranges Discovery#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#port_ranges Discovery#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#protocols Discovery#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#protocols Discovery#protocols}
   */
   readonly protocols?: string[];
 }
@@ -4166,53 +4166,53 @@ export class DiscoveryDiscoveryCbipCbipClustersVirtualServerFilterOutputReferenc
 }
 export interface DiscoveryDiscoveryCbipCbipClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_mgmt_ips Discovery#cbip_mgmt_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_mgmt_ips Discovery#cbip_mgmt_ips}
   */
   readonly cbipMgmtIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#default_all Discovery#default_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#default_all Discovery#default_all}
   */
   readonly defaultAll?: boolean | cdktf.IResolvable;
   /**
   * admin_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#admin_credentials Discovery#admin_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#admin_credentials Discovery#admin_credentials}
   */
   readonly adminCredentials: DiscoveryDiscoveryCbipCbipClustersAdminCredentials;
   /**
   * cbip_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_certificate_authority Discovery#cbip_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_certificate_authority Discovery#cbip_certificate_authority}
   */
   readonly cbipCertificateAuthority: DiscoveryDiscoveryCbipCbipClustersCbipCertificateAuthority;
   /**
   * cbip_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_devices Discovery#cbip_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_devices Discovery#cbip_devices}
   */
   readonly cbipDevices: DiscoveryDiscoveryCbipCbipClustersCbipDevices[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#metadata Discovery#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#metadata Discovery#metadata}
   */
   readonly metadata: DiscoveryDiscoveryCbipCbipClustersMetadata;
   /**
   * mgmt_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#mgmt_port Discovery#mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#mgmt_port Discovery#mgmt_port}
   */
   readonly mgmtPort?: DiscoveryDiscoveryCbipCbipClustersMgmtPort;
   /**
   * namespace_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
   */
   readonly namespaceMapping?: DiscoveryDiscoveryCbipCbipClustersNamespaceMapping;
   /**
   * virtual_server_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#virtual_server_filter Discovery#virtual_server_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#virtual_server_filter Discovery#virtual_server_filter}
   */
   readonly virtualServerFilter?: DiscoveryDiscoveryCbipCbipClustersVirtualServerFilter;
 }
@@ -4545,15 +4545,15 @@ export class DiscoveryDiscoveryCbipCbipClustersList extends cdktf.ComplexList {
 }
 export interface DiscoveryDiscoveryCbipServerCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -4732,19 +4732,19 @@ export class DiscoveryDiscoveryCbipServerCaList extends cdktf.ComplexList {
 }
 export interface DiscoveryDiscoveryCbip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#internal_lb_domain Discovery#internal_lb_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#internal_lb_domain Discovery#internal_lb_domain}
   */
   readonly internalLbDomain?: string;
   /**
   * cbip_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#cbip_clusters Discovery#cbip_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#cbip_clusters Discovery#cbip_clusters}
   */
   readonly cbipClusters: DiscoveryDiscoveryCbipCbipClusters[] | cdktf.IResolvable;
   /**
   * server_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#server_ca Discovery#server_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#server_ca Discovery#server_ca}
   */
   readonly serverCa?: DiscoveryDiscoveryCbipServerCa[] | cdktf.IResolvable;
 }
@@ -4883,15 +4883,15 @@ export class DiscoveryDiscoveryCbipOutputReference extends cdktf.ComplexObject {
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5030,15 +5030,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5177,11 +5177,11 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -5291,23 +5291,23 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -5501,7 +5501,7 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -5582,37 +5582,37 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrlWingmanSecretInfo;
 }
@@ -5841,15 +5841,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificat
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5988,15 +5988,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6135,11 +6135,11 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -6249,23 +6249,23 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -6459,7 +6459,7 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -6540,37 +6540,37 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrlWingmanSecretInfo;
 }
@@ -6799,15 +6799,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateU
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6946,15 +6946,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindf
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7093,11 +7093,11 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindf
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -7207,23 +7207,23 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlClearS
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -7417,7 +7417,7 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlVaultS
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -7498,37 +7498,37 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlWingma
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlWingmanSecretInfo;
 }
@@ -7757,33 +7757,33 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrlOutput
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#certificate Discovery#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#certificate Discovery#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#server_name Discovery#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#server_name Discovery#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#trusted_ca_url Discovery#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#trusted_ca_url Discovery#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
   * ca_certificate_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#ca_certificate_url Discovery#ca_certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#ca_certificate_url Discovery#ca_certificate_url}
   */
   readonly caCertificateUrl?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCaCertificateUrl;
   /**
   * certificate_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#certificate_url Discovery#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#certificate_url Discovery#certificate_url}
   */
   readonly certificateUrl?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoCertificateUrl;
   /**
   * key_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key_url Discovery#key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key_url Discovery#key_url}
   */
   readonly keyUrl?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoKeyUrl;
 }
@@ -8012,13 +8012,13 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfoOutputRefere
 }
 export interface DiscoveryDiscoveryConsulAccessInfoConnectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#api_server Discovery#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#api_server Discovery#api_server}
   */
   readonly apiServer: string;
   /**
   * tls_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tls_info Discovery#tls_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tls_info Discovery#tls_info}
   */
   readonly tlsInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfoTlsInfo;
 }
@@ -8128,15 +8128,15 @@ export class DiscoveryDiscoveryConsulAccessInfoConnectionInfoOutputReference ext
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8275,15 +8275,15 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfo
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8422,11 +8422,11 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfo
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -8536,23 +8536,23 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlClearSe
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -8746,7 +8746,7 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlVaultSe
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -8827,37 +8827,37 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlWingman
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlWingmanSecretInfo;
 }
@@ -9086,13 +9086,13 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrlOutputR
 }
 export interface DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#user_name Discovery#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#user_name Discovery#user_name}
   */
   readonly userName?: string;
   /**
   * passwd_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#passwd_url Discovery#passwd_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#passwd_url Discovery#passwd_url}
   */
   readonly passwdUrl?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoPasswdUrl;
 }
@@ -9205,19 +9205,19 @@ export class DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfoOutputReference 
 }
 export interface DiscoveryDiscoveryConsulAccessInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#scheme Discovery#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#scheme Discovery#scheme}
   */
   readonly scheme?: string;
   /**
   * connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#connection_info Discovery#connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#connection_info Discovery#connection_info}
   */
   readonly connectionInfo?: DiscoveryDiscoveryConsulAccessInfoConnectionInfo;
   /**
   * http_basic_auth_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#http_basic_auth_info Discovery#http_basic_auth_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#http_basic_auth_info Discovery#http_basic_auth_info}
   */
   readonly httpBasicAuthInfo?: DiscoveryDiscoveryConsulAccessInfoHttpBasicAuthInfo;
 }
@@ -9359,11 +9359,11 @@ export class DiscoveryDiscoveryConsulAccessInfoOutputReference extends cdktf.Com
 }
 export interface DiscoveryDiscoveryConsulNamespaceMappingItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_regex Discovery#namespace_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_regex Discovery#namespace_regex}
   */
   readonly namespaceRegex?: string;
 }
@@ -9510,7 +9510,7 @@ export interface DiscoveryDiscoveryConsulNamespaceMapping {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#items Discovery#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#items Discovery#items}
   */
   readonly items: DiscoveryDiscoveryConsulNamespaceMappingItems[] | cdktf.IResolvable;
 }
@@ -9591,11 +9591,11 @@ export class DiscoveryDiscoveryConsulNamespaceMappingOutputReference extends cdk
 }
 export interface DiscoveryDiscoveryConsulPublishInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable Discovery#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable Discovery#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#publish Discovery#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#publish Discovery#publish}
   */
   readonly publish?: boolean | cdktf.IResolvable;
 }
@@ -9708,25 +9708,25 @@ export class DiscoveryDiscoveryConsulPublishInfoOutputReference extends cdktf.Co
 }
 export interface DiscoveryDiscoveryConsul {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#default_all Discovery#default_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#default_all Discovery#default_all}
   */
   readonly defaultAll?: boolean | cdktf.IResolvable;
   /**
   * access_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#access_info Discovery#access_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#access_info Discovery#access_info}
   */
   readonly accessInfo: DiscoveryDiscoveryConsulAccessInfo;
   /**
   * namespace_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
   */
   readonly namespaceMapping?: DiscoveryDiscoveryConsulNamespaceMapping;
   /**
   * publish_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#publish_info Discovery#publish_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#publish_info Discovery#publish_info}
   */
   readonly publishInfo: DiscoveryDiscoveryConsulPublishInfo;
 }
@@ -9891,15 +9891,15 @@ export class DiscoveryDiscoveryConsulOutputReference extends cdktf.ComplexObject
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10038,15 +10038,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10185,11 +10185,11 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -10299,23 +10299,23 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -10509,7 +10509,7 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -10590,37 +10590,37 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrlWingmanSecretInfo;
 }
@@ -10849,15 +10849,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10996,15 +10996,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlB
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11143,11 +11143,11 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlB
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -11257,23 +11257,23 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlC
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -11467,7 +11467,7 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlV
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -11548,37 +11548,37 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlW
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlWingmanSecretInfo;
 }
@@ -11807,15 +11807,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrlO
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11954,15 +11954,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfold
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -12101,11 +12101,11 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfold
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -12215,23 +12215,23 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlClearSecr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -12425,7 +12425,7 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlVaultSecr
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -12506,37 +12506,37 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlWingmanSe
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlWingmanSecretInfo;
 }
@@ -12765,33 +12765,33 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrlOutputRef
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#certificate Discovery#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#certificate Discovery#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#server_name Discovery#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#server_name Discovery#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#trusted_ca_url Discovery#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#trusted_ca_url Discovery#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
   * ca_certificate_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#ca_certificate_url Discovery#ca_certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#ca_certificate_url Discovery#ca_certificate_url}
   */
   readonly caCertificateUrl?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCaCertificateUrl;
   /**
   * certificate_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#certificate_url Discovery#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#certificate_url Discovery#certificate_url}
   */
   readonly certificateUrl?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoCertificateUrl;
   /**
   * key_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key_url Discovery#key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key_url Discovery#key_url}
   */
   readonly keyUrl?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoKeyUrl;
 }
@@ -13020,13 +13020,13 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfoOutputReference
 }
 export interface DiscoveryDiscoveryK8SAccessInfoConnectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#api_server Discovery#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#api_server Discovery#api_server}
   */
   readonly apiServer: string;
   /**
   * tls_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tls_info Discovery#tls_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tls_info Discovery#tls_info}
   */
   readonly tlsInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfoTlsInfo;
 }
@@ -13136,15 +13136,15 @@ export class DiscoveryDiscoveryK8SAccessInfoConnectionInfoOutputReference extend
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13283,15 +13283,15 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfoOutp
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#decryption_provider Discovery#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#store_provider Discovery#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#store_provider Discovery#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13430,11 +13430,11 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfoInte
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#url Discovery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#url Discovery#url}
   */
   readonly url: string;
 }
@@ -13544,23 +13544,23 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlClearSecretInfoOutputRe
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#key Discovery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#key Discovery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#location Discovery#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#location Discovery#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#provider Discovery#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#provider Discovery#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding Discovery#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#version Discovery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#version Discovery#version}
   */
   readonly version?: number;
 }
@@ -13754,7 +13754,7 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlVaultSecretInfoOutputRe
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name: string;
 }
@@ -13835,37 +13835,37 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlWingmanSecretInfoOutput
 }
 export interface DiscoveryDiscoveryK8SAccessInfoKubeconfigUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#secret_encoding_type Discovery#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info Discovery#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#blindfold_secret_info_internal Discovery#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#clear_secret_info Discovery#clear_secret_info}
   */
   readonly clearSecretInfo?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#vault_secret_info Discovery#vault_secret_info}
   */
   readonly vaultSecretInfo?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#wingman_secret_info Discovery#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlWingmanSecretInfo;
 }
@@ -14094,27 +14094,27 @@ export class DiscoveryDiscoveryK8SAccessInfoKubeconfigUrlOutputReference extends
 }
 export interface DiscoveryDiscoveryK8SAccessInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#in_cluster Discovery#in_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#in_cluster Discovery#in_cluster}
   */
   readonly inCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#isolated Discovery#isolated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#isolated Discovery#isolated}
   */
   readonly isolated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#reachable Discovery#reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#reachable Discovery#reachable}
   */
   readonly reachable?: boolean | cdktf.IResolvable;
   /**
   * connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#connection_info Discovery#connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#connection_info Discovery#connection_info}
   */
   readonly connectionInfo?: DiscoveryDiscoveryK8SAccessInfoConnectionInfo;
   /**
   * kubeconfig_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#kubeconfig_url Discovery#kubeconfig_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#kubeconfig_url Discovery#kubeconfig_url}
   */
   readonly kubeconfigUrl?: DiscoveryDiscoveryK8SAccessInfoKubeconfigUrl;
 }
@@ -14314,11 +14314,11 @@ export class DiscoveryDiscoveryK8SAccessInfoOutputReference extends cdktf.Comple
 }
 export interface DiscoveryDiscoveryK8SNamespaceMappingItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_regex Discovery#namespace_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_regex Discovery#namespace_regex}
   */
   readonly namespaceRegex?: string;
 }
@@ -14465,7 +14465,7 @@ export interface DiscoveryDiscoveryK8SNamespaceMapping {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#items Discovery#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#items Discovery#items}
   */
   readonly items: DiscoveryDiscoveryK8SNamespaceMappingItems[] | cdktf.IResolvable;
 }
@@ -14546,11 +14546,11 @@ export class DiscoveryDiscoveryK8SNamespaceMappingOutputReference extends cdktf.
 }
 export interface DiscoveryDiscoveryK8SPublishInfoDnsDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#dns_mode Discovery#dns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#dns_mode Discovery#dns_mode}
   */
   readonly dnsMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#subdomain Discovery#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#subdomain Discovery#subdomain}
   */
   readonly subdomain: string;
 }
@@ -14657,7 +14657,7 @@ export class DiscoveryDiscoveryK8SPublishInfoDnsDelegationOutputReference extend
 }
 export interface DiscoveryDiscoveryK8SPublishInfoPublish {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace: string;
 }
@@ -14738,23 +14738,23 @@ export class DiscoveryDiscoveryK8SPublishInfoPublishOutputReference extends cdkt
 }
 export interface DiscoveryDiscoveryK8SPublishInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable Discovery#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable Discovery#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#publish_fqdns Discovery#publish_fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#publish_fqdns Discovery#publish_fqdns}
   */
   readonly publishFqdns?: boolean | cdktf.IResolvable;
   /**
   * dns_delegation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#dns_delegation Discovery#dns_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#dns_delegation Discovery#dns_delegation}
   */
   readonly dnsDelegation?: DiscoveryDiscoveryK8SPublishInfoDnsDelegation;
   /**
   * publish block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#publish Discovery#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#publish Discovery#publish}
   */
   readonly publish?: DiscoveryDiscoveryK8SPublishInfoPublish;
 }
@@ -14925,25 +14925,25 @@ export class DiscoveryDiscoveryK8SPublishInfoOutputReference extends cdktf.Compl
 }
 export interface DiscoveryDiscoveryK8S {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#default_all Discovery#default_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#default_all Discovery#default_all}
   */
   readonly defaultAll?: boolean | cdktf.IResolvable;
   /**
   * access_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#access_info Discovery#access_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#access_info Discovery#access_info}
   */
   readonly accessInfo: DiscoveryDiscoveryK8SAccessInfo;
   /**
   * namespace_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace_mapping Discovery#namespace_mapping}
   */
   readonly namespaceMapping?: DiscoveryDiscoveryK8SNamespaceMapping;
   /**
   * publish_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#publish_info Discovery#publish_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#publish_info Discovery#publish_info}
   */
   readonly publishInfo: DiscoveryDiscoveryK8SPublishInfo;
 }
@@ -15108,15 +15108,15 @@ export class DiscoveryDiscoveryK8SOutputReference extends cdktf.ComplexObject {
 }
 export interface DiscoveryDiscoveryThirdParty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#applications Discovery#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#applications Discovery#applications}
   */
   readonly applications: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#expiration_timestamp Discovery#expiration_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#expiration_timestamp Discovery#expiration_timestamp}
   */
   readonly expirationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#source_cidr Discovery#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#source_cidr Discovery#source_cidr}
   */
   readonly sourceCidr: string[];
 }
@@ -15252,15 +15252,15 @@ export class DiscoveryDiscoveryThirdPartyOutputReference extends cdktf.ComplexOb
 }
 export interface DiscoveryWhereSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -15439,15 +15439,15 @@ export class DiscoveryWhereSiteRefList extends cdktf.ComplexList {
 }
 export interface DiscoveryWhereSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -15626,27 +15626,27 @@ export class DiscoveryWhereSiteRefsList extends cdktf.ComplexList {
 }
 export interface DiscoveryWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable_internet_vip Discovery#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable_internet_vip Discovery#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#enable_internet_vip Discovery#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#enable_internet_vip Discovery#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#network_type Discovery#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#network_type Discovery#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#ref Discovery#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#ref Discovery#ref}
   */
   readonly ref: DiscoveryWhereSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#refs Discovery#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#refs Discovery#refs}
   */
   readonly refs?: DiscoveryWhereSiteRefs[] | cdktf.IResolvable;
 }
@@ -15843,15 +15843,15 @@ export class DiscoveryWhereSiteOutputReference extends cdktf.ComplexObject {
 }
 export interface DiscoveryWhereVirtualNetworkRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -16032,7 +16032,7 @@ export interface DiscoveryWhereVirtualNetwork {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#ref Discovery#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#ref Discovery#ref}
   */
   readonly ref: DiscoveryWhereVirtualNetworkRef[] | cdktf.IResolvable;
 }
@@ -16113,15 +16113,15 @@ export class DiscoveryWhereVirtualNetworkOutputReference extends cdktf.ComplexOb
 }
 export interface DiscoveryWhereVirtualSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -16300,15 +16300,15 @@ export class DiscoveryWhereVirtualSiteRefList extends cdktf.ComplexList {
 }
 export interface DiscoveryWhereVirtualSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#name Discovery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#name Discovery#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#namespace Discovery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#namespace Discovery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#tenant Discovery#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#tenant Discovery#tenant}
   */
   readonly tenant?: string;
 }
@@ -16487,27 +16487,27 @@ export class DiscoveryWhereVirtualSiteRefsList extends cdktf.ComplexList {
 }
 export interface DiscoveryWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#disable_internet_vip Discovery#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#disable_internet_vip Discovery#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#enable_internet_vip Discovery#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#enable_internet_vip Discovery#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#network_type Discovery#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#network_type Discovery#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#ref Discovery#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#ref Discovery#ref}
   */
   readonly ref: DiscoveryWhereVirtualSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#refs Discovery#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#refs Discovery#refs}
   */
   readonly refs?: DiscoveryWhereVirtualSiteRefs[] | cdktf.IResolvable;
 }
@@ -16706,19 +16706,19 @@ export interface DiscoveryWhere {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#site Discovery#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#site Discovery#site}
   */
   readonly site?: DiscoveryWhereSite;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#virtual_network Discovery#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#virtual_network Discovery#virtual_network}
   */
   readonly virtualNetwork?: DiscoveryWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#virtual_site Discovery#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#virtual_site Discovery#virtual_site}
   */
   readonly virtualSite?: DiscoveryWhereVirtualSite;
 }
@@ -16860,7 +16860,7 @@ export class DiscoveryWhereOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery volterra_discovery}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery volterra_discovery}
 */
 export class Discovery extends cdktf.TerraformResource {
 
@@ -16876,7 +16876,7 @@ export class Discovery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Discovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Discovery to import
-  * @param importFromId The id of the existing Discovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Discovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Discovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16888,7 +16888,7 @@ export class Discovery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/discovery volterra_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/discovery volterra_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16899,8 +16899,8 @@ export class Discovery extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_discovery',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioSubscriptionConfig extends cdktf.TerraformMetaArgume
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription#group_id DataCriblioSubscription#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription#group_id DataCriblioSubscription#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription#id DataCriblioSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription#id DataCriblioSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCriblioSubscriptionConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription criblio_subscription}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription criblio_subscription}
 */
 export class DataCriblioSubscription extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataCriblioSubscription extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSubscription to import
-  * @param importFromId The id of the existing DataCriblioSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataCriblioSubscription extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/subscription criblio_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/subscription criblio_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataCriblioSubscription extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_subscription',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackVpngatewayVpngatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#business_status DataApsarastackVpngatewayVpngateways#business_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#business_status DataApsarastackVpngatewayVpngateways#business_status}
   */
   readonly businessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#id DataApsarastackVpngatewayVpngateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#id DataApsarastackVpngatewayVpngateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#ids DataApsarastackVpngatewayVpngateways#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#ids DataApsarastackVpngatewayVpngateways#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#name_regex DataApsarastackVpngatewayVpngateways#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#name_regex DataApsarastackVpngatewayVpngateways#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#output_file DataApsarastackVpngatewayVpngateways#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#output_file DataApsarastackVpngatewayVpngateways#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#status DataApsarastackVpngatewayVpngateways#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#status DataApsarastackVpngatewayVpngateways#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#vpc_id DataApsarastackVpngatewayVpngateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#vpc_id DataApsarastackVpngatewayVpngateways#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -181,7 +181,7 @@ export class DataApsarastackVpngatewayVpngatewaysGatewaysList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways apsarastack_vpngateway_vpngateways}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways apsarastack_vpngateway_vpngateways}
 */
 export class DataApsarastackVpngatewayVpngateways extends cdktf.TerraformDataSource {
 
@@ -197,7 +197,7 @@ export class DataApsarastackVpngatewayVpngateways extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataApsarastackVpngatewayVpngateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackVpngatewayVpngateways to import
-  * @param importFromId The id of the existing DataApsarastackVpngatewayVpngateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackVpngatewayVpngateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackVpngatewayVpngateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DataApsarastackVpngatewayVpngateways extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpngateway_vpngateways apsarastack_vpngateway_vpngateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpngateway_vpngateways apsarastack_vpngateway_vpngateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DataApsarastackVpngatewayVpngateways extends cdktf.TerraformDataSou
       terraformResourceType: 'apsarastack_vpngateway_vpngateways',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

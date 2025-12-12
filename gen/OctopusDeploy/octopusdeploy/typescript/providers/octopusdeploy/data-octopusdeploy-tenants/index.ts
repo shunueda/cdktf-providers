@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DataOctopusdeployTenantsConfig extends cdktf.TerraformMetaArgum
   /**
   * A filter to search for a cloned tenant by its ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#cloned_from_tenant_id DataOctopusdeployTenants#cloned_from_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#cloned_from_tenant_id DataOctopusdeployTenants#cloned_from_tenant_id}
   */
   readonly clonedFromTenantId?: string;
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#ids DataOctopusdeployTenants#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#ids DataOctopusdeployTenants#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search for cloned resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#is_clone DataOctopusdeployTenants#is_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#is_clone DataOctopusdeployTenants#is_clone}
   */
   readonly isClone?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by the disabled status of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#is_disabled DataOctopusdeployTenants#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#is_disabled DataOctopusdeployTenants#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#name DataOctopusdeployTenants#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#name DataOctopusdeployTenants#name}
   */
   readonly name?: string;
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#partial_name DataOctopusdeployTenants#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#partial_name DataOctopusdeployTenants#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to search by a project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#project_id DataOctopusdeployTenants#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#project_id DataOctopusdeployTenants#project_id}
   */
   readonly projectId?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#skip DataOctopusdeployTenants#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#skip DataOctopusdeployTenants#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#space_id DataOctopusdeployTenants#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#space_id DataOctopusdeployTenants#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to search by a list of tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#tags DataOctopusdeployTenants#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#tags DataOctopusdeployTenants#tags}
   */
   readonly tags?: string[];
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#take DataOctopusdeployTenants#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#take DataOctopusdeployTenants#take}
   */
   readonly take?: number;
 }
@@ -181,7 +181,7 @@ export class DataOctopusdeployTenantsTenantsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants octopusdeploy_tenants}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants octopusdeploy_tenants}
 */
 export class DataOctopusdeployTenants extends cdktf.TerraformDataSource {
 
@@ -197,7 +197,7 @@ export class DataOctopusdeployTenants extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployTenants resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployTenants to import
-  * @param importFromId The id of the existing DataOctopusdeployTenants that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployTenants that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployTenants to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DataOctopusdeployTenants extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/tenants octopusdeploy_tenants} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/tenants octopusdeploy_tenants} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DataOctopusdeployTenants extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_tenants',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

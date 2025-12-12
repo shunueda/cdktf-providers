@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface EcsDedicatedhostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#action_on_maintenance EcsDedicatedhost#action_on_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#action_on_maintenance EcsDedicatedhost#action_on_maintenance}
   */
   readonly actionOnMaintenance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#auto_placement EcsDedicatedhost#auto_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#auto_placement EcsDedicatedhost#auto_placement}
   */
   readonly autoPlacement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#auto_release_time EcsDedicatedhost#auto_release_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#auto_release_time EcsDedicatedhost#auto_release_time}
   */
   readonly autoReleaseTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#auto_renew EcsDedicatedhost#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#auto_renew EcsDedicatedhost#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#auto_renew_period EcsDedicatedhost#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#auto_renew_period EcsDedicatedhost#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#cpu_over_commit_ratio EcsDedicatedhost#cpu_over_commit_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#cpu_over_commit_ratio EcsDedicatedhost#cpu_over_commit_ratio}
   */
   readonly cpuOverCommitRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#dedicated_host_cluster_id EcsDedicatedhost#dedicated_host_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#dedicated_host_cluster_id EcsDedicatedhost#dedicated_host_cluster_id}
   */
   readonly dedicatedHostClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#dedicated_host_name EcsDedicatedhost#dedicated_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#dedicated_host_name EcsDedicatedhost#dedicated_host_name}
   */
   readonly dedicatedHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#dedicated_host_type EcsDedicatedhost#dedicated_host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#dedicated_host_type EcsDedicatedhost#dedicated_host_type}
   */
   readonly dedicatedHostType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#description EcsDedicatedhost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#description EcsDedicatedhost#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#detail_fee EcsDedicatedhost#detail_fee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#detail_fee EcsDedicatedhost#detail_fee}
   */
   readonly detailFee?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#dry_run EcsDedicatedhost#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#dry_run EcsDedicatedhost#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#expired_time EcsDedicatedhost#expired_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#expired_time EcsDedicatedhost#expired_time}
   */
   readonly expiredTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#id EcsDedicatedhost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#id EcsDedicatedhost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#min_quantity EcsDedicatedhost#min_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#min_quantity EcsDedicatedhost#min_quantity}
   */
   readonly minQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#payment_type EcsDedicatedhost#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#payment_type EcsDedicatedhost#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#resource_group_id EcsDedicatedhost#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#resource_group_id EcsDedicatedhost#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#sale_cycle EcsDedicatedhost#sale_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#sale_cycle EcsDedicatedhost#sale_cycle}
   */
   readonly saleCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#tags EcsDedicatedhost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#tags EcsDedicatedhost#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#zone_id EcsDedicatedhost#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#zone_id EcsDedicatedhost#zone_id}
   */
   readonly zoneId?: string;
   /**
   * network_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#network_attributes EcsDedicatedhost#network_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#network_attributes EcsDedicatedhost#network_attributes}
   */
   readonly networkAttributes?: EcsDedicatedhostNetworkAttributes;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#timeouts EcsDedicatedhost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#timeouts EcsDedicatedhost#timeouts}
   */
   readonly timeouts?: EcsDedicatedhostTimeouts;
 }
 export interface EcsDedicatedhostNetworkAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#slb_udp_timeout EcsDedicatedhost#slb_udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#slb_udp_timeout EcsDedicatedhost#slb_udp_timeout}
   */
   readonly slbUdpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#udp_timeout EcsDedicatedhost#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#udp_timeout EcsDedicatedhost#udp_timeout}
   */
   readonly udpTimeout?: number;
 }
@@ -222,15 +222,15 @@ export class EcsDedicatedhostNetworkAttributesOutputReference extends cdktf.Comp
 }
 export interface EcsDedicatedhostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#create EcsDedicatedhost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#create EcsDedicatedhost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#delete EcsDedicatedhost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#delete EcsDedicatedhost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#update EcsDedicatedhost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#update EcsDedicatedhost#update}
   */
   readonly update?: string;
 }
@@ -382,7 +382,7 @@ export class EcsDedicatedhostTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost alibabacloudstack_ecs_dedicatedhost}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost alibabacloudstack_ecs_dedicatedhost}
 */
 export class EcsDedicatedhost extends cdktf.TerraformResource {
 
@@ -398,7 +398,7 @@ export class EcsDedicatedhost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsDedicatedhost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsDedicatedhost to import
-  * @param importFromId The id of the existing EcsDedicatedhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsDedicatedhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsDedicatedhost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class EcsDedicatedhost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_dedicatedhost alibabacloudstack_ecs_dedicatedhost} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ecs_dedicatedhost alibabacloudstack_ecs_dedicatedhost} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class EcsDedicatedhost extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ecs_dedicatedhost',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

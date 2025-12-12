@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexYdbDatabaseDedicatedConfig extends cdktf.TerraformMet
   /**
   * ID of the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#database_id DataYandexYdbDatabaseDedicated#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#database_id DataYandexYdbDatabaseDedicated#database_id}
   */
   readonly databaseId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#deletion_protection DataYandexYdbDatabaseDedicated#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#deletion_protection DataYandexYdbDatabaseDedicated#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#folder_id DataYandexYdbDatabaseDedicated#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#folder_id DataYandexYdbDatabaseDedicated#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#id DataYandexYdbDatabaseDedicated#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#id DataYandexYdbDatabaseDedicated#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataYandexYdbDatabaseDedicatedConfig extends cdktf.TerraformMet
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#name DataYandexYdbDatabaseDedicated#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#name DataYandexYdbDatabaseDedicated#name}
   */
   readonly name?: string;
 }
@@ -590,7 +590,7 @@ export class DataYandexYdbDatabaseDedicatedStorageConfigList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated yandex_ydb_database_dedicated}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated yandex_ydb_database_dedicated}
 */
 export class DataYandexYdbDatabaseDedicated extends cdktf.TerraformDataSource {
 
@@ -606,7 +606,7 @@ export class DataYandexYdbDatabaseDedicated extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexYdbDatabaseDedicated resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexYdbDatabaseDedicated to import
-  * @param importFromId The id of the existing DataYandexYdbDatabaseDedicated that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexYdbDatabaseDedicated that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexYdbDatabaseDedicated to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class DataYandexYdbDatabaseDedicated extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ydb_database_dedicated yandex_ydb_database_dedicated} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ydb_database_dedicated yandex_ydb_database_dedicated} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class DataYandexYdbDatabaseDedicated extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_ydb_database_dedicated',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

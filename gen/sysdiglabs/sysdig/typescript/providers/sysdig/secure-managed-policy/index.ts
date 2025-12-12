@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface SecureManagedPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#disabled_rules SecureManagedPolicy#disabled_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#disabled_rules SecureManagedPolicy#disabled_rules}
   */
   readonly disabledRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#enabled SecureManagedPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#enabled SecureManagedPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#id SecureManagedPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#id SecureManagedPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#name SecureManagedPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#name SecureManagedPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#notification_channels SecureManagedPolicy#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#notification_channels SecureManagedPolicy#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#runbook SecureManagedPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#runbook SecureManagedPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#scope SecureManagedPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#scope SecureManagedPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#type SecureManagedPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#type SecureManagedPolicy#type}
   */
   readonly type?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#actions SecureManagedPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#actions SecureManagedPolicy#actions}
   */
   readonly actions?: SecureManagedPolicyActions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#timeouts SecureManagedPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#timeouts SecureManagedPolicy#timeouts}
   */
   readonly timeouts?: SecureManagedPolicyTimeouts;
 }
 export interface SecureManagedPolicyActionsCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#bucket_name SecureManagedPolicy#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#bucket_name SecureManagedPolicy#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#filter SecureManagedPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#filter SecureManagedPolicy#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#folder SecureManagedPolicy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#folder SecureManagedPolicy#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#name SecureManagedPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#name SecureManagedPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#seconds_after_event SecureManagedPolicy#seconds_after_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#seconds_after_event SecureManagedPolicy#seconds_after_event}
   */
   readonly secondsAfterEvent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#seconds_before_event SecureManagedPolicy#seconds_before_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#seconds_before_event SecureManagedPolicy#seconds_before_event}
   */
   readonly secondsBeforeEvent: number;
 }
@@ -329,17 +329,17 @@ export class SecureManagedPolicyActionsCaptureList extends cdktf.ComplexList {
 }
 export interface SecureManagedPolicyActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#container SecureManagedPolicy#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#container SecureManagedPolicy#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#kill_process SecureManagedPolicy#kill_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#kill_process SecureManagedPolicy#kill_process}
   */
   readonly killProcess?: boolean | cdktf.IResolvable;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#capture SecureManagedPolicy#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#capture SecureManagedPolicy#capture}
   */
   readonly capture?: SecureManagedPolicyActionsCapture[] | cdktf.IResolvable;
 }
@@ -513,19 +513,19 @@ export class SecureManagedPolicyActionsList extends cdktf.ComplexList {
 }
 export interface SecureManagedPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#create SecureManagedPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#create SecureManagedPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#delete SecureManagedPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#delete SecureManagedPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#read SecureManagedPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#read SecureManagedPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#update SecureManagedPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#update SecureManagedPolicy#update}
   */
   readonly update?: string;
 }
@@ -706,7 +706,7 @@ export class SecureManagedPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy sysdig_secure_managed_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy sysdig_secure_managed_policy}
 */
 export class SecureManagedPolicy extends cdktf.TerraformResource {
 
@@ -722,7 +722,7 @@ export class SecureManagedPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureManagedPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureManagedPolicy to import
-  * @param importFromId The id of the existing SecureManagedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureManagedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureManagedPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class SecureManagedPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_policy sysdig_secure_managed_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_managed_policy sysdig_secure_managed_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,8 +745,8 @@ export class SecureManagedPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_managed_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

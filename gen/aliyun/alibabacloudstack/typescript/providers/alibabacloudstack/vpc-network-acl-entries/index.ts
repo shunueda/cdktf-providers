@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface VpcNetworkAclEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#id VpcNetworkAclEntries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#id VpcNetworkAclEntries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#network_acl_id VpcNetworkAclEntries#network_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#network_acl_id VpcNetworkAclEntries#network_acl_id}
   */
   readonly networkAclId: string;
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#egress VpcNetworkAclEntries#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#egress VpcNetworkAclEntries#egress}
   */
   readonly egress?: VpcNetworkAclEntriesEgress[] | cdktf.IResolvable;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#ingress VpcNetworkAclEntries#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#ingress VpcNetworkAclEntries#ingress}
   */
   readonly ingress?: VpcNetworkAclEntriesIngress[] | cdktf.IResolvable;
 }
 export interface VpcNetworkAclEntriesEgress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#description VpcNetworkAclEntries#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#description VpcNetworkAclEntries#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#destination_cidr_ip VpcNetworkAclEntries#destination_cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#destination_cidr_ip VpcNetworkAclEntries#destination_cidr_ip}
   */
   readonly destinationCidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#entry_type VpcNetworkAclEntries#entry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#entry_type VpcNetworkAclEntries#entry_type}
   */
   readonly entryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#name VpcNetworkAclEntries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#name VpcNetworkAclEntries#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#policy VpcNetworkAclEntries#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#policy VpcNetworkAclEntries#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#port VpcNetworkAclEntries#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#port VpcNetworkAclEntries#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#protocol VpcNetworkAclEntries#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#protocol VpcNetworkAclEntries#protocol}
   */
   readonly protocol?: string;
 }
@@ -347,31 +347,31 @@ export class VpcNetworkAclEntriesEgressList extends cdktf.ComplexList {
 }
 export interface VpcNetworkAclEntriesIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#description VpcNetworkAclEntries#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#description VpcNetworkAclEntries#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#entry_type VpcNetworkAclEntries#entry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#entry_type VpcNetworkAclEntries#entry_type}
   */
   readonly entryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#name VpcNetworkAclEntries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#name VpcNetworkAclEntries#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#policy VpcNetworkAclEntries#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#policy VpcNetworkAclEntries#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#port VpcNetworkAclEntries#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#port VpcNetworkAclEntries#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#protocol VpcNetworkAclEntries#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#protocol VpcNetworkAclEntries#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#source_cidr_ip VpcNetworkAclEntries#source_cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#source_cidr_ip VpcNetworkAclEntries#source_cidr_ip}
   */
   readonly sourceCidrIp?: string;
 }
@@ -661,7 +661,7 @@ export class VpcNetworkAclEntriesIngressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries alibabacloudstack_vpc_network_acl_entries}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries alibabacloudstack_vpc_network_acl_entries}
 */
 export class VpcNetworkAclEntries extends cdktf.TerraformResource {
 
@@ -677,7 +677,7 @@ export class VpcNetworkAclEntries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcNetworkAclEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcNetworkAclEntries to import
-  * @param importFromId The id of the existing VpcNetworkAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcNetworkAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcNetworkAclEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -689,7 +689,7 @@ export class VpcNetworkAclEntries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_network_acl_entries alibabacloudstack_vpc_network_acl_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpc_network_acl_entries alibabacloudstack_vpc_network_acl_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,8 +700,8 @@ export class VpcNetworkAclEntries extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpc_network_acl_entries',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ZecEipAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the instance to associate with the EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#associated_id ZecEipAssociation#associated_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#associated_id ZecEipAssociation#associated_id}
   */
   readonly associatedId: string;
   /**
   * Type of the associated instance. Valid values: LB(Load balancer.), NIC(vNic), NAT(NAT gateway).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#associated_type ZecEipAssociation#associated_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#associated_type ZecEipAssociation#associated_type}
   */
   readonly associatedType: string;
   /**
   * Elastic IP bind type. Effective when the elastic IP is assigned to a vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#bind_type ZecEipAssociation#bind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#bind_type ZecEipAssociation#bind_type}
   */
   readonly bindType?: string;
   /**
   * ID of the elastic IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#eip_id ZecEipAssociation#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#eip_id ZecEipAssociation#eip_id}
   */
   readonly eipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#id ZecEipAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#id ZecEipAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface ZecEipAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Private IP address of the instance. Required if associated_type is `Nic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#private_ip_address ZecEipAssociation#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#private_ip_address ZecEipAssociation#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association zenlayercloud_zec_eip_association}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association zenlayercloud_zec_eip_association}
 */
 export class ZecEipAssociation extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ZecEipAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecEipAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecEipAssociation to import
-  * @param importFromId The id of the existing ZecEipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecEipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecEipAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ZecEipAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_eip_association zenlayercloud_zec_eip_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_eip_association zenlayercloud_zec_eip_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ZecEipAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_eip_association',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecurePosturePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#id DataSysdigSecurePosturePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#id DataSysdigSecurePosturePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface DataSysdigSecurePosturePolicyConfig extends cdktf.TerraformMeta
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#group DataSysdigSecurePosturePolicy#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#group DataSysdigSecurePosturePolicy#group}
   */
   readonly group?: DataSysdigSecurePosturePolicyGroup[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#timeouts DataSysdigSecurePosturePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#timeouts DataSysdigSecurePosturePolicy#timeouts}
   */
   readonly timeouts?: DataSysdigSecurePosturePolicyTimeouts;
 }
 export interface DataSysdigSecurePosturePolicyGroupRequirementControl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#enabled DataSysdigSecurePosturePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#enabled DataSysdigSecurePosturePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
   */
   readonly name: string;
 }
@@ -175,17 +175,17 @@ export class DataSysdigSecurePosturePolicyGroupRequirementControlList extends cd
 }
 export interface DataSysdigSecurePosturePolicyGroupRequirement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#description DataSysdigSecurePosturePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#description DataSysdigSecurePosturePolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
   */
   readonly name: string;
   /**
   * control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#control DataSysdigSecurePosturePolicy#control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#control DataSysdigSecurePosturePolicy#control}
   */
   readonly control?: DataSysdigSecurePosturePolicyGroupRequirementControl[] | cdktf.IResolvable;
 }
@@ -358,23 +358,23 @@ export class DataSysdigSecurePosturePolicyGroupRequirementList extends cdktf.Com
 }
 export interface DataSysdigSecurePosturePolicyGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#description DataSysdigSecurePosturePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#description DataSysdigSecurePosturePolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#name DataSysdigSecurePosturePolicy#name}
   */
   readonly name: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#group DataSysdigSecurePosturePolicy#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#group DataSysdigSecurePosturePolicy#group}
   */
   readonly group?: DataSysdigSecurePosturePolicyGroup[] | cdktf.IResolvable;
   /**
   * requirement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#requirement DataSysdigSecurePosturePolicy#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#requirement DataSysdigSecurePosturePolicy#requirement}
   */
   readonly requirement?: DataSysdigSecurePosturePolicyGroupRequirement[] | cdktf.IResolvable;
 }
@@ -576,7 +576,7 @@ export class DataSysdigSecurePosturePolicyGroupList extends cdktf.ComplexList {
 }
 export interface DataSysdigSecurePosturePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#read DataSysdigSecurePosturePolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#read DataSysdigSecurePosturePolicy#read}
   */
   readonly read?: string;
 }
@@ -670,7 +670,7 @@ export class DataSysdigSecurePosturePolicyTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy sysdig_secure_posture_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy sysdig_secure_posture_policy}
 */
 export class DataSysdigSecurePosturePolicy extends cdktf.TerraformDataSource {
 
@@ -686,7 +686,7 @@ export class DataSysdigSecurePosturePolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecurePosturePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecurePosturePolicy to import
-  * @param importFromId The id of the existing DataSysdigSecurePosturePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecurePosturePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecurePosturePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -698,7 +698,7 @@ export class DataSysdigSecurePosturePolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_posture_policy sysdig_secure_posture_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_posture_policy sysdig_secure_posture_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -709,8 +709,8 @@ export class DataSysdigSecurePosturePolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_posture_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

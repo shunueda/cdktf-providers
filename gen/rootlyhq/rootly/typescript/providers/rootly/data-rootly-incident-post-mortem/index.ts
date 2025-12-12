@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataRootlyIncidentPostMortemConfig extends cdktf.TerraformMetaA
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#created_at DataRootlyIncidentPostMortem#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#created_at DataRootlyIncidentPostMortem#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#mitigated_at DataRootlyIncidentPostMortem#mitigated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#mitigated_at DataRootlyIncidentPostMortem#mitigated_at}
   */
   readonly mitigatedAt?: { [key: string]: string };
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#resolved_at DataRootlyIncidentPostMortem#resolved_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#resolved_at DataRootlyIncidentPostMortem#resolved_at}
   */
   readonly resolvedAt?: { [key: string]: string };
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#started_at DataRootlyIncidentPostMortem#started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#started_at DataRootlyIncidentPostMortem#started_at}
   */
   readonly startedAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#status DataRootlyIncidentPostMortem#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#status DataRootlyIncidentPostMortem#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem rootly_incident_post_mortem}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem rootly_incident_post_mortem}
 */
 export class DataRootlyIncidentPostMortem extends cdktf.TerraformDataSource {
 
@@ -54,7 +54,7 @@ export class DataRootlyIncidentPostMortem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyIncidentPostMortem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyIncidentPostMortem to import
-  * @param importFromId The id of the existing DataRootlyIncidentPostMortem that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyIncidentPostMortem that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyIncidentPostMortem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class DataRootlyIncidentPostMortem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_post_mortem rootly_incident_post_mortem} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_post_mortem rootly_incident_post_mortem} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class DataRootlyIncidentPostMortem extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_incident_post_mortem',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

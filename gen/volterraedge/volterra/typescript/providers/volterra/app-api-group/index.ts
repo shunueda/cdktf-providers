@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface AppApiGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#annotations AppApiGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#annotations AppApiGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#description AppApiGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#description AppApiGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#disable AppApiGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#disable AppApiGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#generic AppApiGroup#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#generic AppApiGroup#generic}
   */
   readonly generic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#id AppApiGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#id AppApiGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#labels AppApiGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#labels AppApiGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#namespace AppApiGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#namespace AppApiGroup#namespace}
   */
   readonly namespace: string;
   /**
   * api_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#api_definition AppApiGroup#api_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#api_definition AppApiGroup#api_definition}
   */
   readonly apiDefinition?: AppApiGroupApiDefinition;
   /**
   * api_group_builder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#api_group_builder AppApiGroup#api_group_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#api_group_builder AppApiGroup#api_group_builder}
   */
   readonly apiGroupBuilder?: AppApiGroupApiGroupBuilder;
   /**
   * bigip_virtual_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#bigip_virtual_server AppApiGroup#bigip_virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#bigip_virtual_server AppApiGroup#bigip_virtual_server}
   */
   readonly bigipVirtualServer?: AppApiGroupBigipVirtualServer;
   /**
   * cdn_loadbalancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#cdn_loadbalancer AppApiGroup#cdn_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#cdn_loadbalancer AppApiGroup#cdn_loadbalancer}
   */
   readonly cdnLoadbalancer?: AppApiGroupCdnLoadbalancer;
   /**
   * elements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#elements AppApiGroup#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#elements AppApiGroup#elements}
   */
   readonly elements: AppApiGroupElements[] | cdktf.IResolvable;
   /**
   * http_loadbalancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#http_loadbalancer AppApiGroup#http_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#http_loadbalancer AppApiGroup#http_loadbalancer}
   */
   readonly httpLoadbalancer?: AppApiGroupHttpLoadbalancer;
 }
 export interface AppApiGroupApiDefinitionApiDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#namespace AppApiGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#namespace AppApiGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#tenant AppApiGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#tenant AppApiGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -233,7 +233,7 @@ export interface AppApiGroupApiDefinition {
   /**
   * api_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#api_definition AppApiGroup#api_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#api_definition AppApiGroup#api_definition}
   */
   readonly apiDefinition: AppApiGroupApiDefinitionApiDefinition;
 }
@@ -314,11 +314,11 @@ export class AppApiGroupApiDefinitionOutputReference extends cdktf.ComplexObject
 }
 export interface AppApiGroupApiGroupBuilderExcludedOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#method AppApiGroup#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#method AppApiGroup#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#path AppApiGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#path AppApiGroup#path}
   */
   readonly path: string;
 }
@@ -457,11 +457,11 @@ export class AppApiGroupApiGroupBuilderExcludedOperationsList extends cdktf.Comp
 }
 export interface AppApiGroupApiGroupBuilderIncludedOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#method AppApiGroup#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#method AppApiGroup#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#path AppApiGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#path AppApiGroup#path}
   */
   readonly path: string;
 }
@@ -600,7 +600,7 @@ export class AppApiGroupApiGroupBuilderIncludedOperationsList extends cdktf.Comp
 }
 export interface AppApiGroupApiGroupBuilderLabelFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#expressions AppApiGroup#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#expressions AppApiGroup#expressions}
   */
   readonly expressions: string[];
 }
@@ -681,15 +681,15 @@ export class AppApiGroupApiGroupBuilderLabelFilterOutputReference extends cdktf.
 }
 export interface AppApiGroupApiGroupBuilderMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#description AppApiGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#description AppApiGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#disable AppApiGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#disable AppApiGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name: string;
 }
@@ -828,31 +828,31 @@ export class AppApiGroupApiGroupBuilderMetadataOutputReference extends cdktf.Com
 }
 export interface AppApiGroupApiGroupBuilder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#path_filter AppApiGroup#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#path_filter AppApiGroup#path_filter}
   */
   readonly pathFilter?: string;
   /**
   * excluded_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#excluded_operations AppApiGroup#excluded_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#excluded_operations AppApiGroup#excluded_operations}
   */
   readonly excludedOperations?: AppApiGroupApiGroupBuilderExcludedOperations[] | cdktf.IResolvable;
   /**
   * included_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#included_operations AppApiGroup#included_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#included_operations AppApiGroup#included_operations}
   */
   readonly includedOperations?: AppApiGroupApiGroupBuilderIncludedOperations[] | cdktf.IResolvable;
   /**
   * label_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#label_filter AppApiGroup#label_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#label_filter AppApiGroup#label_filter}
   */
   readonly labelFilter?: AppApiGroupApiGroupBuilderLabelFilter;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#metadata AppApiGroup#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#metadata AppApiGroup#metadata}
   */
   readonly metadata?: AppApiGroupApiGroupBuilderMetadata;
 }
@@ -1052,15 +1052,15 @@ export class AppApiGroupApiGroupBuilderOutputReference extends cdktf.ComplexObje
 }
 export interface AppApiGroupBigipVirtualServerBigipVirtualServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#namespace AppApiGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#namespace AppApiGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#tenant AppApiGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#tenant AppApiGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1204,7 +1204,7 @@ export interface AppApiGroupBigipVirtualServer {
   /**
   * bigip_virtual_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#bigip_virtual_server AppApiGroup#bigip_virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#bigip_virtual_server AppApiGroup#bigip_virtual_server}
   */
   readonly bigipVirtualServer: AppApiGroupBigipVirtualServerBigipVirtualServer;
 }
@@ -1285,15 +1285,15 @@ export class AppApiGroupBigipVirtualServerOutputReference extends cdktf.ComplexO
 }
 export interface AppApiGroupCdnLoadbalancerCdnLoadbalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#namespace AppApiGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#namespace AppApiGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#tenant AppApiGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#tenant AppApiGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1437,7 +1437,7 @@ export interface AppApiGroupCdnLoadbalancer {
   /**
   * cdn_loadbalancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#cdn_loadbalancer AppApiGroup#cdn_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#cdn_loadbalancer AppApiGroup#cdn_loadbalancer}
   */
   readonly cdnLoadbalancer: AppApiGroupCdnLoadbalancerCdnLoadbalancer;
 }
@@ -1518,11 +1518,11 @@ export class AppApiGroupCdnLoadbalancerOutputReference extends cdktf.ComplexObje
 }
 export interface AppApiGroupElements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#methods AppApiGroup#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#methods AppApiGroup#methods}
   */
   readonly methods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#path_regex AppApiGroup#path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#path_regex AppApiGroup#path_regex}
   */
   readonly pathRegex: string;
 }
@@ -1661,15 +1661,15 @@ export class AppApiGroupElementsList extends cdktf.ComplexList {
 }
 export interface AppApiGroupHttpLoadbalancerHttpLoadbalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#name AppApiGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#name AppApiGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#namespace AppApiGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#namespace AppApiGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#tenant AppApiGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#tenant AppApiGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1813,7 +1813,7 @@ export interface AppApiGroupHttpLoadbalancer {
   /**
   * http_loadbalancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#http_loadbalancer AppApiGroup#http_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#http_loadbalancer AppApiGroup#http_loadbalancer}
   */
   readonly httpLoadbalancer: AppApiGroupHttpLoadbalancerHttpLoadbalancer;
 }
@@ -1894,7 +1894,7 @@ export class AppApiGroupHttpLoadbalancerOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group volterra_app_api_group}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group volterra_app_api_group}
 */
 export class AppApiGroup extends cdktf.TerraformResource {
 
@@ -1910,7 +1910,7 @@ export class AppApiGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppApiGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppApiGroup to import
-  * @param importFromId The id of the existing AppApiGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppApiGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppApiGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1922,7 +1922,7 @@ export class AppApiGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_api_group volterra_app_api_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_api_group volterra_app_api_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1933,8 +1933,8 @@ export class AppApiGroup extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_api_group',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackSlbVservergroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#delete_protection_validation ApsarastackSlbVservergroup#delete_protection_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#delete_protection_validation ApsarastackSlbVservergroup#delete_protection_validation}
   */
   readonly deleteProtectionValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#id ApsarastackSlbVservergroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#id ApsarastackSlbVservergroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#load_balancer_id ApsarastackSlbVservergroup#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#load_balancer_id ApsarastackSlbVservergroup#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#name ApsarastackSlbVservergroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#name ApsarastackSlbVservergroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#vserver_group_name ApsarastackSlbVservergroup#vserver_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#vserver_group_name ApsarastackSlbVservergroup#vserver_group_name}
   */
   readonly vserverGroupName?: string;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#servers ApsarastackSlbVservergroup#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#servers ApsarastackSlbVservergroup#servers}
   */
   readonly servers?: ApsarastackSlbVservergroupServers[] | cdktf.IResolvable;
 }
 export interface ApsarastackSlbVservergroupServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#port ApsarastackSlbVservergroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#port ApsarastackSlbVservergroup#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#server_ids ApsarastackSlbVservergroup#server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#server_ids ApsarastackSlbVservergroup#server_ids}
   */
   readonly serverIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#type ApsarastackSlbVservergroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#type ApsarastackSlbVservergroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#weight ApsarastackSlbVservergroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#weight ApsarastackSlbVservergroup#weight}
   */
   readonly weight?: number;
 }
@@ -248,7 +248,7 @@ export class ApsarastackSlbVservergroupServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup apsarastack_slb_vservergroup}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup apsarastack_slb_vservergroup}
 */
 export class ApsarastackSlbVservergroup extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class ApsarastackSlbVservergroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackSlbVservergroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackSlbVservergroup to import
-  * @param importFromId The id of the existing ApsarastackSlbVservergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackSlbVservergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackSlbVservergroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class ApsarastackSlbVservergroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_slb_vservergroup apsarastack_slb_vservergroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_slb_vservergroup apsarastack_slb_vservergroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class ApsarastackSlbVservergroup extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_slb_vservergroup',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCenTransitRouterRouteTableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#id ApsarastackCenTransitRouterRouteTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#id ApsarastackCenTransitRouterRouteTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ApsarastackCenTransitRouterRouteTableConfig extends cdktf.Terra
   /**
   * The ID of the transit router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_id ApsarastackCenTransitRouterRouteTable#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_id ApsarastackCenTransitRouterRouteTable#transit_router_id}
   */
   readonly transitRouterId: string;
   /**
   * The description of the route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_route_table_description ApsarastackCenTransitRouterRouteTable#transit_router_route_table_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_route_table_description ApsarastackCenTransitRouterRouteTable#transit_router_route_table_description}
   */
   readonly transitRouterRouteTableDescription?: string;
   /**
   * The name of the route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_route_table_name ApsarastackCenTransitRouterRouteTable#transit_router_route_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#transit_router_route_table_name ApsarastackCenTransitRouterRouteTable#transit_router_route_table_name}
   */
   readonly transitRouterRouteTableName?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#tags ApsarastackCenTransitRouterRouteTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#tags ApsarastackCenTransitRouterRouteTable#tags}
   */
   readonly tags?: ApsarastackCenTransitRouterRouteTableTags[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface ApsarastackCenTransitRouterRouteTableTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#tag_key ApsarastackCenTransitRouterRouteTable#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#tag_key ApsarastackCenTransitRouterRouteTable#tag_key}
   */
   readonly tagKey?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#tag_value ApsarastackCenTransitRouterRouteTable#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#tag_value ApsarastackCenTransitRouterRouteTable#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -194,7 +194,7 @@ export class ApsarastackCenTransitRouterRouteTableTagsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table apsarastack_cen_transit_router_route_table}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table apsarastack_cen_transit_router_route_table}
 */
 export class ApsarastackCenTransitRouterRouteTable extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class ApsarastackCenTransitRouterRouteTable extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackCenTransitRouterRouteTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCenTransitRouterRouteTable to import
-  * @param importFromId The id of the existing ApsarastackCenTransitRouterRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCenTransitRouterRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCenTransitRouterRouteTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class ApsarastackCenTransitRouterRouteTable extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_route_table apsarastack_cen_transit_router_route_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_route_table apsarastack_cen_transit_router_route_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class ApsarastackCenTransitRouterRouteTable extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_cen_transit_router_route_table',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

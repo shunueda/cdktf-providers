@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorTeamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#can_see_infrastructure_events MonitorTeam#can_see_infrastructure_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#can_see_infrastructure_events MonitorTeam#can_see_infrastructure_events}
   */
   readonly canSeeInfrastructureEvents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#can_use_agent_cli MonitorTeam#can_use_agent_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#can_use_agent_cli MonitorTeam#can_use_agent_cli}
   */
   readonly canUseAgentCli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#can_use_aws_data MonitorTeam#can_use_aws_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#can_use_aws_data MonitorTeam#can_use_aws_data}
   */
   readonly canUseAwsData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#can_use_sysdig_capture MonitorTeam#can_use_sysdig_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#can_use_sysdig_capture MonitorTeam#can_use_sysdig_capture}
   */
   readonly canUseSysdigCapture?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#default_team MonitorTeam#default_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#default_team MonitorTeam#default_team}
   */
   readonly defaultTeam?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#description MonitorTeam#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#description MonitorTeam#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#enable_ibm_platform_metrics MonitorTeam#enable_ibm_platform_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#enable_ibm_platform_metrics MonitorTeam#enable_ibm_platform_metrics}
   */
   readonly enableIbmPlatformMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#filter MonitorTeam#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#filter MonitorTeam#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#ibm_platform_metrics MonitorTeam#ibm_platform_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#ibm_platform_metrics MonitorTeam#ibm_platform_metrics}
   */
   readonly ibmPlatformMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#id MonitorTeam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#id MonitorTeam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#name MonitorTeam#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#name MonitorTeam#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#prometheus_remote_write_metrics_filter MonitorTeam#prometheus_remote_write_metrics_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#prometheus_remote_write_metrics_filter MonitorTeam#prometheus_remote_write_metrics_filter}
   */
   readonly prometheusRemoteWriteMetricsFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#scope_by MonitorTeam#scope_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#scope_by MonitorTeam#scope_by}
   */
   readonly scopeBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#theme MonitorTeam#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#theme MonitorTeam#theme}
   */
   readonly theme?: string;
   /**
   * entrypoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#entrypoint MonitorTeam#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#entrypoint MonitorTeam#entrypoint}
   */
   readonly entrypoint: MonitorTeamEntrypoint[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#timeouts MonitorTeam#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#timeouts MonitorTeam#timeouts}
   */
   readonly timeouts?: MonitorTeamTimeouts;
   /**
   * user_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#user_roles MonitorTeam#user_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#user_roles MonitorTeam#user_roles}
   */
   readonly userRoles?: MonitorTeamUserRoles[] | cdktf.IResolvable;
 }
 export interface MonitorTeamEntrypoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#selection MonitorTeam#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#selection MonitorTeam#selection}
   */
   readonly selection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#type MonitorTeam#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#type MonitorTeam#type}
   */
   readonly type: string;
 }
@@ -233,19 +233,19 @@ export class MonitorTeamEntrypointList extends cdktf.ComplexList {
 }
 export interface MonitorTeamTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#create MonitorTeam#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#create MonitorTeam#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#delete MonitorTeam#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#delete MonitorTeam#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#read MonitorTeam#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#read MonitorTeam#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#update MonitorTeam#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#update MonitorTeam#update}
   */
   readonly update?: string;
 }
@@ -426,11 +426,11 @@ export class MonitorTeamTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface MonitorTeamUserRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#email MonitorTeam#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#email MonitorTeam#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#role MonitorTeam#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#role MonitorTeam#role}
   */
   readonly role?: string;
 }
@@ -572,7 +572,7 @@ export class MonitorTeamUserRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team sysdig_monitor_team}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team sysdig_monitor_team}
 */
 export class MonitorTeam extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class MonitorTeam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTeam to import
-  * @param importFromId The id of the existing MonitorTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class MonitorTeam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_team sysdig_monitor_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_team sysdig_monitor_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class MonitorTeam extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_team',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

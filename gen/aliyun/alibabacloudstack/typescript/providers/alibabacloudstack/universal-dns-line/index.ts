@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface UniversalDnsLineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line#id UniversalDnsLine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line#id UniversalDnsLine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line#name UniversalDnsLine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line#name UniversalDnsLine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line#v4_addresses UniversalDnsLine#v4_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line#v4_addresses UniversalDnsLine#v4_addresses}
   */
   readonly v4Addresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line#v6_addresses UniversalDnsLine#v6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line#v6_addresses UniversalDnsLine#v6_addresses}
   */
   readonly v6Addresses?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line alibabacloudstack_universal_dns_line}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line alibabacloudstack_universal_dns_line}
 */
 export class UniversalDnsLine extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class UniversalDnsLine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UniversalDnsLine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UniversalDnsLine to import
-  * @param importFromId The id of the existing UniversalDnsLine that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UniversalDnsLine that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UniversalDnsLine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class UniversalDnsLine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/universal_dns_line alibabacloudstack_universal_dns_line} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/universal_dns_line alibabacloudstack_universal_dns_line} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class UniversalDnsLine extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_universal_dns_line',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

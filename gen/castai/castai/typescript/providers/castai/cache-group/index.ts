@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CacheGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable direct mode for the cache group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#direct_mode CacheGroup#direct_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#direct_mode CacheGroup#direct_mode}
   */
   readonly directMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#id CacheGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#id CacheGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface CacheGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name for the cache group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#name CacheGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#name CacheGroup#name}
   */
   readonly name: string;
   /**
   * Database protocol type. Valid values: MySQL or PostgreSQL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#protocol_type CacheGroup#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#protocol_type CacheGroup#protocol_type}
   */
   readonly protocolType: string;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#endpoints CacheGroup#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#endpoints CacheGroup#endpoints}
   */
   readonly endpoints?: CacheGroupEndpoints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#timeouts CacheGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#timeouts CacheGroup#timeouts}
   */
   readonly timeouts?: CacheGroupTimeouts;
 }
@@ -49,19 +49,19 @@ export interface CacheGroupEndpoints {
   /**
   * Database instance hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#hostname CacheGroup#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#hostname CacheGroup#hostname}
   */
   readonly hostname: string;
   /**
   * Name for the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#name CacheGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#name CacheGroup#name}
   */
   readonly name: string;
   /**
   * Database instance port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#port CacheGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#port CacheGroup#port}
   */
   readonly port: number;
 }
@@ -226,19 +226,19 @@ export class CacheGroupEndpointsList extends cdktf.ComplexList {
 }
 export interface CacheGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#create CacheGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#create CacheGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#delete CacheGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#delete CacheGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#read CacheGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#read CacheGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#update CacheGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#update CacheGroup#update}
   */
   readonly update?: string;
 }
@@ -419,7 +419,7 @@ export class CacheGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group castai_cache_group}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group castai_cache_group}
 */
 export class CacheGroup extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class CacheGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CacheGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CacheGroup to import
-  * @param importFromId The id of the existing CacheGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CacheGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CacheGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class CacheGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_group castai_cache_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/cache_group castai_cache_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class CacheGroup extends cdktf.TerraformResource {
       terraformResourceType: 'castai_cache_group',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

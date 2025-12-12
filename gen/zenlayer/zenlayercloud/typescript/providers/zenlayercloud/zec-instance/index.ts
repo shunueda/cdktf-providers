@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ZecInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of zone that the ZEC instance locates at. such as `asia-southeast-1a`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#availability_zone ZecInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#availability_zone ZecInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Indicate whether to disable QEMU Guest Agent (QGA). QGA is enabled by default. Changing `disable_qga_agent` will cause the ZEC instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#disable_qga_agent ZecInstance#disable_qga_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#disable_qga_agent ZecInstance#disable_qga_agent}
   */
   readonly disableQgaAgent?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether to enable IP forwarding. IP forwarding is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#enable_ip_forwarding ZecInstance#enable_ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#enable_ip_forwarding ZecInstance#enable_ip_forwarding}
   */
   readonly enableIpForwarding?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether to force delete the ZEC instance. Default is `true`. If set true, the ZEC instance will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#force_delete ZecInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#force_delete ZecInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#id ZecInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#id ZecInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,89 +41,89 @@ export interface ZecInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The image to use for the ZEC instance. Changing `image_id` will cause the ZEC instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#image_id ZecInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#image_id ZecInstance#image_id}
   */
   readonly imageId: string;
   /**
   * The name of the ZEC instance. The minimum length of instance name is `2`. The max length of instance_name is 63, and default value is `Terraform-ZEC-Instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#instance_name ZecInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#instance_name ZecInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The type of the ZEC instance. such as `z2a.cpu.4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#instance_type ZecInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#instance_type ZecInstance#instance_type}
   */
   readonly instanceType: string;
   /**
   * The key pair id to use for the ZEC instance. Changing `key_id` will cause the ZEC instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#key_id ZecInstance#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#key_id ZecInstance#key_id}
   */
   readonly keyId?: string;
   /**
   * Password for the ZEC instance.The password must be 8-16 characters, including letters, numbers, and special characters `~!@$^*-_=+|;:,.?`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#password ZecInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#password ZecInstance#password}
   */
   readonly password?: string;
   /**
   * The resource group id the ZEC instance belongs to, default to Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#resource_group_id ZecInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#resource_group_id ZecInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Set instance to running or stop. Default value is true, the instance will shutdown when this flag is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#running_flag ZecInstance#running_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#running_flag ZecInstance#running_flag}
   */
   readonly runningFlag?: boolean | cdktf.IResolvable;
   /**
   * The ID of a security group for primary vNIC of instance. If absent, the security group under VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#security_group_id ZecInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#security_group_id ZecInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * The ID of a VPC subnet. Note: The **IPv6 only** stack subnet is not support for instance creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#subnet_id ZecInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#subnet_id ZecInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Category of the system disk. Valid values: `Standard NVMe SSD`, `Basic NVMe SSD`, Default is `Standard NVMe SSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#system_disk_category ZecInstance#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#system_disk_category ZecInstance#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
   * Size of the system disk. unit is GiB. If modified, the ZEC instance may force stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#system_disk_size ZecInstance#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#system_disk_size ZecInstance#system_disk_size}
   */
   readonly systemDiskSize: number;
   /**
   * Time zone of instance. such as `America/Los_Angeles`. Default is `Asia/Shanghai`. Changing `time_zone` will cause the ZEC instance reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#time_zone ZecInstance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#time_zone ZecInstance#time_zone}
   */
   readonly timeZone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#timeouts ZecInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#timeouts ZecInstance#timeouts}
   */
   readonly timeouts?: ZecInstanceTimeouts;
 }
 export interface ZecInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#create ZecInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#create ZecInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#update ZecInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#update ZecInstance#update}
   */
   readonly update?: string;
 }
@@ -246,7 +246,7 @@ export class ZecInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance zenlayercloud_zec_instance}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance zenlayercloud_zec_instance}
 */
 export class ZecInstance extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class ZecInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecInstance to import
-  * @param importFromId The id of the existing ZecInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class ZecInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_instance zenlayercloud_zec_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_instance zenlayercloud_zec_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class ZecInstance extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_instance',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

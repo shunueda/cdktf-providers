@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskPublishIncidentConfig extends cdktf.TerraformMetaAr
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#enabled WorkflowTaskPublishIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#enabled WorkflowTaskPublishIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#id WorkflowTaskPublishIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#id WorkflowTaskPublishIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskPublishIncidentConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#name WorkflowTaskPublishIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#name WorkflowTaskPublishIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#position WorkflowTaskPublishIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#position WorkflowTaskPublishIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#skip_on_failure WorkflowTaskPublishIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#skip_on_failure WorkflowTaskPublishIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#workflow_id WorkflowTaskPublishIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#workflow_id WorkflowTaskPublishIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#task_params WorkflowTaskPublishIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#task_params WorkflowTaskPublishIncident#task_params}
   */
   readonly taskParams: WorkflowTaskPublishIncidentTaskParams;
 }
@@ -55,55 +55,55 @@ export interface WorkflowTaskPublishIncidentTaskParams {
   /**
   * Incident event description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#event WorkflowTaskPublishIncident#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#event WorkflowTaskPublishIncident#event}
   */
   readonly event?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#incident WorkflowTaskPublishIncident#incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#incident WorkflowTaskPublishIncident#incident}
   */
   readonly incident: { [key: string]: string };
   /**
   * Additional API Payload you can pass to statuspage.io for example. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#integration_payload WorkflowTaskPublishIncident#integration_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#integration_payload WorkflowTaskPublishIncident#integration_payload}
   */
   readonly integrationPayload?: string;
   /**
   * When true notifies subscribers of the status page by email/text. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#notify_subscribers WorkflowTaskPublishIncident#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#notify_subscribers WorkflowTaskPublishIncident#notify_subscribers}
   */
   readonly notifySubscribers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#public_title WorkflowTaskPublishIncident#public_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#public_title WorkflowTaskPublishIncident#public_title}
   */
   readonly publicTitle: string;
   /**
   * For Statuspage.io integrated pages auto publishes a tweet for your update. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#should_tweet WorkflowTaskPublishIncident#should_tweet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#should_tweet WorkflowTaskPublishIncident#should_tweet}
   */
   readonly shouldTweet?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of `investigating`, `identified`, `monitoring`, `resolved`, `scheduled`, `in_progress`, `completed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#status WorkflowTaskPublishIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#status WorkflowTaskPublishIncident#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#status_page_id WorkflowTaskPublishIncident#status_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#status_page_id WorkflowTaskPublishIncident#status_page_id}
   */
   readonly statusPageId: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#status_page_template WorkflowTaskPublishIncident#status_page_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#status_page_template WorkflowTaskPublishIncident#status_page_template}
   */
   readonly statusPageTemplate?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#task_type WorkflowTaskPublishIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#task_type WorkflowTaskPublishIncident#task_type}
   */
   readonly taskType?: string;
 }
@@ -436,7 +436,7 @@ export class WorkflowTaskPublishIncidentTaskParamsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident rootly_workflow_task_publish_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident rootly_workflow_task_publish_incident}
 */
 export class WorkflowTaskPublishIncident extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class WorkflowTaskPublishIncident extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskPublishIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskPublishIncident to import
-  * @param importFromId The id of the existing WorkflowTaskPublishIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskPublishIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskPublishIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class WorkflowTaskPublishIncident extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_publish_incident rootly_workflow_task_publish_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_publish_incident rootly_workflow_task_publish_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class WorkflowTaskPublishIncident extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_publish_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface EbsDiskreplicagroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#description EbsDiskreplicagroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#description EbsDiskreplicagroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#destination_region_id EbsDiskreplicagroup#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#destination_region_id EbsDiskreplicagroup#destination_region_id}
   */
   readonly destinationRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#destination_zone_id EbsDiskreplicagroup#destination_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#destination_zone_id EbsDiskreplicagroup#destination_zone_id}
   */
   readonly destinationZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#disk_replica_group_name EbsDiskreplicagroup#disk_replica_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#disk_replica_group_name EbsDiskreplicagroup#disk_replica_group_name}
   */
   readonly diskReplicaGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#id EbsDiskreplicagroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#id EbsDiskreplicagroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#last_recover_point EbsDiskreplicagroup#last_recover_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#last_recover_point EbsDiskreplicagroup#last_recover_point}
   */
   readonly lastRecoverPoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#region_id EbsDiskreplicagroup#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#region_id EbsDiskreplicagroup#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#rpo EbsDiskreplicagroup#rpo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#rpo EbsDiskreplicagroup#rpo}
   */
   readonly rpo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#site EbsDiskreplicagroup#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#site EbsDiskreplicagroup#site}
   */
   readonly site?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#source_region_id EbsDiskreplicagroup#source_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#source_region_id EbsDiskreplicagroup#source_region_id}
   */
   readonly sourceRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#source_zone_id EbsDiskreplicagroup#source_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#source_zone_id EbsDiskreplicagroup#source_zone_id}
   */
   readonly sourceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#status EbsDiskreplicagroup#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#status EbsDiskreplicagroup#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#tags EbsDiskreplicagroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#tags EbsDiskreplicagroup#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup alibabacloudstack_ebs_diskreplicagroup}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup alibabacloudstack_ebs_diskreplicagroup}
 */
 export class EbsDiskreplicagroup extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class EbsDiskreplicagroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbsDiskreplicagroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsDiskreplicagroup to import
-  * @param importFromId The id of the existing EbsDiskreplicagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsDiskreplicagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsDiskreplicagroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class EbsDiskreplicagroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ebs_diskreplicagroup alibabacloudstack_ebs_diskreplicagroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/ebs_diskreplicagroup alibabacloudstack_ebs_diskreplicagroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class EbsDiskreplicagroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ebs_diskreplicagroup',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

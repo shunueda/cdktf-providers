@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface AdvertisePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#address AdvertisePolicy#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#address AdvertisePolicy#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#annotations AdvertisePolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#annotations AdvertisePolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#description AdvertisePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#description AdvertisePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable AdvertisePolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#disable AdvertisePolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#id AdvertisePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#id AdvertisePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#labels AdvertisePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#labels AdvertisePolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#port AdvertisePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#port AdvertisePolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#port_ranges AdvertisePolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#port_ranges AdvertisePolicy#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#protocol AdvertisePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#protocol AdvertisePolicy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#skip_xff_append AdvertisePolicy#skip_xff_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#skip_xff_append AdvertisePolicy#skip_xff_append}
   */
   readonly skipXffAppend?: boolean | cdktf.IResolvable;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#public_ip AdvertisePolicy#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#public_ip AdvertisePolicy#public_ip}
   */
   readonly publicIp?: AdvertisePolicyPublicIp[] | cdktf.IResolvable;
   /**
   * tls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tls_parameters AdvertisePolicy#tls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tls_parameters AdvertisePolicy#tls_parameters}
   */
   readonly tlsParameters?: AdvertisePolicyTlsParameters;
   /**
   * where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#where AdvertisePolicy#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#where AdvertisePolicy#where}
   */
   readonly where?: AdvertisePolicyWhere;
 }
 export interface AdvertisePolicyPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -364,7 +364,7 @@ export class AdvertisePolicyTlsParametersClientCertificateRequiredOutputReferenc
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#hash_algorithms AdvertisePolicy#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#hash_algorithms AdvertisePolicy#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -494,15 +494,15 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesDisableOcspS
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#location AdvertisePolicy#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -641,15 +641,15 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBl
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#location AdvertisePolicy#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -788,11 +788,11 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBl
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#url AdvertisePolicy#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#url AdvertisePolicy#url}
   */
   readonly url: string;
 }
@@ -902,23 +902,23 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyCl
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#key AdvertisePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#key AdvertisePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#location AdvertisePolicy#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#secret_encoding AdvertisePolicy#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#secret_encoding AdvertisePolicy#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#version AdvertisePolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#version AdvertisePolicy#version}
   */
   readonly version?: number;
 }
@@ -1112,7 +1112,7 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVa
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name: string;
 }
@@ -1193,37 +1193,37 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWi
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#secret_encoding_type AdvertisePolicy#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#secret_encoding_type AdvertisePolicy#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#blindfold_secret_info AdvertisePolicy#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#blindfold_secret_info AdvertisePolicy#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#blindfold_secret_info_internal AdvertisePolicy#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#blindfold_secret_info_internal AdvertisePolicy#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#clear_secret_info AdvertisePolicy#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#clear_secret_info AdvertisePolicy#clear_secret_info}
   */
   readonly clearSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#vault_secret_info AdvertisePolicy#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#vault_secret_info AdvertisePolicy#vault_secret_info}
   */
   readonly vaultSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#wingman_secret_info AdvertisePolicy#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#wingman_secret_info AdvertisePolicy#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -1501,35 +1501,35 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesUseSystemDef
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#certificate_url AdvertisePolicy#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#certificate_url AdvertisePolicy#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#description AdvertisePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#description AdvertisePolicy#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#custom_hash_algorithms AdvertisePolicy#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#custom_hash_algorithms AdvertisePolicy#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_ocsp_stapling AdvertisePolicy#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#disable_ocsp_stapling AdvertisePolicy#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#private_key AdvertisePolicy#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#private_key AdvertisePolicy#private_key}
   */
   readonly privateKey: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#use_system_defaults AdvertisePolicy#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#use_system_defaults AdvertisePolicy#use_system_defaults}
   */
   readonly useSystemDefaults?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesUseSystemDefaults;
 }
@@ -1784,15 +1784,15 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesList extends
 }
 export interface AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1973,7 +1973,7 @@ export interface AdvertisePolicyTlsParametersCommonParamsValidationParamsTrusted
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_list AdvertisePolicy#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#trusted_ca_list AdvertisePolicy#trusted_ca_list}
   */
   readonly trustedCaList?: AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -2057,25 +2057,25 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaOu
 }
 export interface AdvertisePolicyTlsParametersCommonParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#skip_hostname_verification AdvertisePolicy#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#skip_hostname_verification AdvertisePolicy#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#use_volterra_trusted_ca_url AdvertisePolicy#use_volterra_trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#use_volterra_trusted_ca_url AdvertisePolicy#use_volterra_trusted_ca_url}
   */
   readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#verify_subject_alt_names AdvertisePolicy#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#verify_subject_alt_names AdvertisePolicy#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca AdvertisePolicy#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#trusted_ca AdvertisePolicy#trusted_ca}
   */
   readonly trustedCa?: AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCa;
 }
@@ -2275,31 +2275,31 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
 }
 export interface AdvertisePolicyTlsParametersCommonParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#cipher_suites AdvertisePolicy#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#cipher_suites AdvertisePolicy#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#maximum_protocol_version AdvertisePolicy#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#maximum_protocol_version AdvertisePolicy#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#minimum_protocol_version AdvertisePolicy#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#minimum_protocol_version AdvertisePolicy#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tls_certificates AdvertisePolicy#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tls_certificates AdvertisePolicy#tls_certificates}
   */
   readonly tlsCertificates?: AdvertisePolicyTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#validation_params AdvertisePolicy#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#validation_params AdvertisePolicy#validation_params}
   */
   readonly validationParams?: AdvertisePolicyTlsParametersCommonParamsValidationParams;
 }
@@ -2528,15 +2528,15 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
 }
 export interface AdvertisePolicyTlsParametersCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2764,41 +2764,41 @@ export class AdvertisePolicyTlsParametersNoClientCertificateOutputReference exte
 }
 export interface AdvertisePolicyTlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#require_client_certificate AdvertisePolicy#require_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#require_client_certificate AdvertisePolicy#require_client_certificate}
   */
   readonly requireClientCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#xfcc_header_elements AdvertisePolicy#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#xfcc_header_elements AdvertisePolicy#xfcc_header_elements}
   */
   readonly xfccHeaderElements?: string[];
   /**
   * client_certificate_optional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#client_certificate_optional AdvertisePolicy#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#client_certificate_optional AdvertisePolicy#client_certificate_optional}
   */
   readonly clientCertificateOptional?: AdvertisePolicyTlsParametersClientCertificateOptional;
   /**
   * client_certificate_required block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#client_certificate_required AdvertisePolicy#client_certificate_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#client_certificate_required AdvertisePolicy#client_certificate_required}
   */
   readonly clientCertificateRequired?: AdvertisePolicyTlsParametersClientCertificateRequired;
   /**
   * common_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#common_params AdvertisePolicy#common_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#common_params AdvertisePolicy#common_params}
   */
   readonly commonParams?: AdvertisePolicyTlsParametersCommonParams;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#crl AdvertisePolicy#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#crl AdvertisePolicy#crl}
   */
   readonly crl?: AdvertisePolicyTlsParametersCrl[] | cdktf.IResolvable;
   /**
   * no_client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#no_client_certificate AdvertisePolicy#no_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#no_client_certificate AdvertisePolicy#no_client_certificate}
   */
   readonly noClientCertificate?: AdvertisePolicyTlsParametersNoClientCertificate;
 }
@@ -3056,15 +3056,15 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
 }
 export interface AdvertisePolicyWhereSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3243,15 +3243,15 @@ export class AdvertisePolicyWhereSiteRefList extends cdktf.ComplexList {
 }
 export interface AdvertisePolicyWhereSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3430,27 +3430,27 @@ export class AdvertisePolicyWhereSiteRefsList extends cdktf.ComplexList {
 }
 export interface AdvertisePolicyWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
   */
   readonly refs?: AdvertisePolicyWhereSiteRefs[] | cdktf.IResolvable;
 }
@@ -3647,15 +3647,15 @@ export class AdvertisePolicyWhereSiteOutputReference extends cdktf.ComplexObject
 }
 export interface AdvertisePolicyWhereVirtualNetworkRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3836,7 +3836,7 @@ export interface AdvertisePolicyWhereVirtualNetwork {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereVirtualNetworkRef[] | cdktf.IResolvable;
 }
@@ -3917,15 +3917,15 @@ export class AdvertisePolicyWhereVirtualNetworkOutputReference extends cdktf.Com
 }
 export interface AdvertisePolicyWhereVirtualSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4104,15 +4104,15 @@ export class AdvertisePolicyWhereVirtualSiteRefList extends cdktf.ComplexList {
 }
 export interface AdvertisePolicyWhereVirtualSiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4291,27 +4291,27 @@ export class AdvertisePolicyWhereVirtualSiteRefsList extends cdktf.ComplexList {
 }
 export interface AdvertisePolicyWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereVirtualSiteRef[] | cdktf.IResolvable;
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
   */
   readonly refs?: AdvertisePolicyWhereVirtualSiteRefs[] | cdktf.IResolvable;
 }
@@ -4510,19 +4510,19 @@ export interface AdvertisePolicyWhere {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#site AdvertisePolicy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#site AdvertisePolicy#site}
   */
   readonly site?: AdvertisePolicyWhereSite;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#virtual_network AdvertisePolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#virtual_network AdvertisePolicy#virtual_network}
   */
   readonly virtualNetwork?: AdvertisePolicyWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#virtual_site AdvertisePolicy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#virtual_site AdvertisePolicy#virtual_site}
   */
   readonly virtualSite?: AdvertisePolicyWhereVirtualSite;
 }
@@ -4664,7 +4664,7 @@ export class AdvertisePolicyWhereOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy volterra_advertise_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy volterra_advertise_policy}
 */
 export class AdvertisePolicy extends cdktf.TerraformResource {
 
@@ -4680,7 +4680,7 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvertisePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvertisePolicy to import
-  * @param importFromId The id of the existing AdvertisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvertisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvertisePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4692,7 +4692,7 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy volterra_advertise_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/advertise_policy volterra_advertise_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4703,8 +4703,8 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_advertise_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

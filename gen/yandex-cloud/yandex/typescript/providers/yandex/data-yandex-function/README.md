@@ -1,3 +1,3 @@
 # `data_yandex_function`
 
-Refer to the Terraform Registry for docs: [`data_yandex_function`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function).
+Refer to the Terraform Registry for docs: [`data_yandex_function`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/function).

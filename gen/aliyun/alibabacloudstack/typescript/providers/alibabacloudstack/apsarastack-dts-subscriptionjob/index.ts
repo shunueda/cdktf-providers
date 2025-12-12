@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,178 +8,178 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackDtsSubscriptionjobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#checkpoint ApsarastackDtsSubscriptionjob#checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#checkpoint ApsarastackDtsSubscriptionjob#checkpoint}
   */
   readonly checkpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#compute_unit ApsarastackDtsSubscriptionjob#compute_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#compute_unit ApsarastackDtsSubscriptionjob#compute_unit}
   */
   readonly computeUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#database_count ApsarastackDtsSubscriptionjob#database_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#database_count ApsarastackDtsSubscriptionjob#database_count}
   */
   readonly databaseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#db_list ApsarastackDtsSubscriptionjob#db_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#db_list ApsarastackDtsSubscriptionjob#db_list}
   */
   readonly dbList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#delay_notice ApsarastackDtsSubscriptionjob#delay_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#delay_notice ApsarastackDtsSubscriptionjob#delay_notice}
   */
   readonly delayNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#delay_phone ApsarastackDtsSubscriptionjob#delay_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#delay_phone ApsarastackDtsSubscriptionjob#delay_phone}
   */
   readonly delayPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#delay_rule_time ApsarastackDtsSubscriptionjob#delay_rule_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#delay_rule_time ApsarastackDtsSubscriptionjob#delay_rule_time}
   */
   readonly delayRuleTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#destination_endpoint_engine_name ApsarastackDtsSubscriptionjob#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#destination_endpoint_engine_name ApsarastackDtsSubscriptionjob#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#destination_region ApsarastackDtsSubscriptionjob#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#destination_region ApsarastackDtsSubscriptionjob#destination_region}
   */
   readonly destinationRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#dts_instance_id ApsarastackDtsSubscriptionjob#dts_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#dts_instance_id ApsarastackDtsSubscriptionjob#dts_instance_id}
   */
   readonly dtsInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#dts_job_name ApsarastackDtsSubscriptionjob#dts_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#dts_job_name ApsarastackDtsSubscriptionjob#dts_job_name}
   */
   readonly dtsJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#error_notice ApsarastackDtsSubscriptionjob#error_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#error_notice ApsarastackDtsSubscriptionjob#error_notice}
   */
   readonly errorNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#error_phone ApsarastackDtsSubscriptionjob#error_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#error_phone ApsarastackDtsSubscriptionjob#error_phone}
   */
   readonly errorPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#id ApsarastackDtsSubscriptionjob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#id ApsarastackDtsSubscriptionjob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#instance_class ApsarastackDtsSubscriptionjob#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#instance_class ApsarastackDtsSubscriptionjob#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#payment_duration ApsarastackDtsSubscriptionjob#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#payment_duration ApsarastackDtsSubscriptionjob#payment_duration}
   */
   readonly paymentDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#payment_duration_unit ApsarastackDtsSubscriptionjob#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#payment_duration_unit ApsarastackDtsSubscriptionjob#payment_duration_unit}
   */
   readonly paymentDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#payment_type ApsarastackDtsSubscriptionjob#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#payment_type ApsarastackDtsSubscriptionjob#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#reserve ApsarastackDtsSubscriptionjob#reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#reserve ApsarastackDtsSubscriptionjob#reserve}
   */
   readonly reserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_database_name ApsarastackDtsSubscriptionjob#source_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_database_name ApsarastackDtsSubscriptionjob#source_endpoint_database_name}
   */
   readonly sourceEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_engine_name ApsarastackDtsSubscriptionjob#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_engine_name ApsarastackDtsSubscriptionjob#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_instance_id ApsarastackDtsSubscriptionjob#source_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_instance_id ApsarastackDtsSubscriptionjob#source_endpoint_instance_id}
   */
   readonly sourceEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_instance_type ApsarastackDtsSubscriptionjob#source_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_instance_type ApsarastackDtsSubscriptionjob#source_endpoint_instance_type}
   */
   readonly sourceEndpointInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_ip ApsarastackDtsSubscriptionjob#source_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_ip ApsarastackDtsSubscriptionjob#source_endpoint_ip}
   */
   readonly sourceEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_oracle_sid ApsarastackDtsSubscriptionjob#source_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_oracle_sid ApsarastackDtsSubscriptionjob#source_endpoint_oracle_sid}
   */
   readonly sourceEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_owner_id ApsarastackDtsSubscriptionjob#source_endpoint_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_owner_id ApsarastackDtsSubscriptionjob#source_endpoint_owner_id}
   */
   readonly sourceEndpointOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_password ApsarastackDtsSubscriptionjob#source_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_password ApsarastackDtsSubscriptionjob#source_endpoint_password}
   */
   readonly sourceEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_port ApsarastackDtsSubscriptionjob#source_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_port ApsarastackDtsSubscriptionjob#source_endpoint_port}
   */
   readonly sourceEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_region ApsarastackDtsSubscriptionjob#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_region ApsarastackDtsSubscriptionjob#source_endpoint_region}
   */
   readonly sourceEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_role ApsarastackDtsSubscriptionjob#source_endpoint_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_role ApsarastackDtsSubscriptionjob#source_endpoint_role}
   */
   readonly sourceEndpointRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_user_name ApsarastackDtsSubscriptionjob#source_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#source_endpoint_user_name ApsarastackDtsSubscriptionjob#source_endpoint_user_name}
   */
   readonly sourceEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#status ApsarastackDtsSubscriptionjob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#status ApsarastackDtsSubscriptionjob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#subscription_data_type_ddl ApsarastackDtsSubscriptionjob#subscription_data_type_ddl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#subscription_data_type_ddl ApsarastackDtsSubscriptionjob#subscription_data_type_ddl}
   */
   readonly subscriptionDataTypeDdl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#subscription_data_type_dml ApsarastackDtsSubscriptionjob#subscription_data_type_dml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#subscription_data_type_dml ApsarastackDtsSubscriptionjob#subscription_data_type_dml}
   */
   readonly subscriptionDataTypeDml?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_network_type ApsarastackDtsSubscriptionjob#subscription_instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_network_type ApsarastackDtsSubscriptionjob#subscription_instance_network_type}
   */
   readonly subscriptionInstanceNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_vpc_id ApsarastackDtsSubscriptionjob#subscription_instance_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_vpc_id ApsarastackDtsSubscriptionjob#subscription_instance_vpc_id}
   */
   readonly subscriptionInstanceVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_vswitch_id ApsarastackDtsSubscriptionjob#subscription_instance_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#subscription_instance_vswitch_id ApsarastackDtsSubscriptionjob#subscription_instance_vswitch_id}
   */
   readonly subscriptionInstanceVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#sync_architecture ApsarastackDtsSubscriptionjob#sync_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#sync_architecture ApsarastackDtsSubscriptionjob#sync_architecture}
   */
   readonly syncArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#synchronization_direction ApsarastackDtsSubscriptionjob#synchronization_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#synchronization_direction ApsarastackDtsSubscriptionjob#synchronization_direction}
   */
   readonly synchronizationDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#tags ApsarastackDtsSubscriptionjob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#tags ApsarastackDtsSubscriptionjob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#timeouts ApsarastackDtsSubscriptionjob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#timeouts ApsarastackDtsSubscriptionjob#timeouts}
   */
   readonly timeouts?: ApsarastackDtsSubscriptionjobTimeouts;
 }
 export interface ApsarastackDtsSubscriptionjobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#update ApsarastackDtsSubscriptionjob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#update ApsarastackDtsSubscriptionjob#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class ApsarastackDtsSubscriptionjobTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob apsarastack_dts_subscriptionjob}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob apsarastack_dts_subscriptionjob}
 */
 export class ApsarastackDtsSubscriptionjob extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ApsarastackDtsSubscriptionjob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackDtsSubscriptionjob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackDtsSubscriptionjob to import
-  * @param importFromId The id of the existing ApsarastackDtsSubscriptionjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackDtsSubscriptionjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackDtsSubscriptionjob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ApsarastackDtsSubscriptionjob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_subscriptionjob apsarastack_dts_subscriptionjob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_subscriptionjob apsarastack_dts_subscriptionjob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ApsarastackDtsSubscriptionjob extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_dts_subscriptionjob',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZenlayercloudBmcInstancesConfig extends cdktf.TerraformMeta
   /**
   * The ID of zone that the bmc instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#availability_zone DataZenlayercloudBmcInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#availability_zone DataZenlayercloudBmcInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The hostname of the instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#hostname DataZenlayercloudBmcInstances#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#hostname DataZenlayercloudBmcInstances#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#id DataZenlayercloudBmcInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#id DataZenlayercloudBmcInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface DataZenlayercloudBmcInstancesConfig extends cdktf.TerraformMeta
   /**
   * The image of the instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#image_id DataZenlayercloudBmcInstances#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#image_id DataZenlayercloudBmcInstances#image_id}
   */
   readonly imageId?: string;
   /**
   * IDs of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#instance_ids DataZenlayercloudBmcInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#instance_ids DataZenlayercloudBmcInstances#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * Name of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#instance_name DataZenlayercloudBmcInstances#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#instance_name DataZenlayercloudBmcInstances#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Status of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#instance_status DataZenlayercloudBmcInstances#instance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#instance_status DataZenlayercloudBmcInstances#instance_status}
   */
   readonly instanceStatus?: string;
   /**
   * Instance type, such as `M6C`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#instance_type_id DataZenlayercloudBmcInstances#instance_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#instance_type_id DataZenlayercloudBmcInstances#instance_type_id}
   */
   readonly instanceTypeId?: string;
   /**
   * The private ip of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#private_ipv4 DataZenlayercloudBmcInstances#private_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#private_ipv4 DataZenlayercloudBmcInstances#private_ipv4}
   */
   readonly privateIpv4?: string;
   /**
   * The public ipv4 of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#public_ipv4 DataZenlayercloudBmcInstances#public_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#public_ipv4 DataZenlayercloudBmcInstances#public_ipv4}
   */
   readonly publicIpv4?: string;
   /**
   * The ID of resource group that the instance grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#resource_group_id DataZenlayercloudBmcInstances#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#resource_group_id DataZenlayercloudBmcInstances#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#result_output_file DataZenlayercloudBmcInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#result_output_file DataZenlayercloudBmcInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The ID of vpc subnetwork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#subnet_id DataZenlayercloudBmcInstances#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#subnet_id DataZenlayercloudBmcInstances#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -461,7 +461,7 @@ export class DataZenlayercloudBmcInstancesInstanceListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances zenlayercloud_bmc_instances}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances zenlayercloud_bmc_instances}
 */
 export class DataZenlayercloudBmcInstances extends cdktf.TerraformDataSource {
 
@@ -477,7 +477,7 @@ export class DataZenlayercloudBmcInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudBmcInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudBmcInstances to import
-  * @param importFromId The id of the existing DataZenlayercloudBmcInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudBmcInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudBmcInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class DataZenlayercloudBmcInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/bmc_instances zenlayercloud_bmc_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/bmc_instances zenlayercloud_bmc_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,8 +500,8 @@ export class DataZenlayercloudBmcInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_bmc_instances',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface StepTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action type of the step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#action_type StepTemplate#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#action_type StepTemplate#action_type}
   */
   readonly actionType: string;
   /**
   * The description of this step_template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#description StepTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#description StepTemplate#description}
   */
   readonly description?: string;
   /**
   * List of Git dependencies for the step template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#git_dependencies StepTemplate#git_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#git_dependencies StepTemplate#git_dependencies}
   */
   readonly gitDependencies?: StepTemplateGitDependencies[] | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#name StepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#name StepTemplate#name}
   */
   readonly name: string;
   /**
   * Package information for the step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#packages StepTemplate#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#packages StepTemplate#packages}
   */
   readonly packages: StepTemplatePackages[] | cdktf.IResolvable;
   /**
   * List of parameters that can be used in step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#parameters StepTemplate#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#parameters StepTemplate#parameters}
   */
   readonly parameters: StepTemplateParameters[] | cdktf.IResolvable;
   /**
   * Properties for the step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#properties StepTemplate#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#properties StepTemplate#properties}
   */
   readonly properties: { [key: string]: string };
   /**
   * The space ID associated with this step_template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#space_id StepTemplate#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#space_id StepTemplate#space_id}
   */
   readonly spaceId?: string;
   /**
   * The ID of the step package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#step_package_id StepTemplate#step_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#step_package_id StepTemplate#step_package_id}
   */
   readonly stepPackageId: string;
 }
@@ -66,37 +66,37 @@ export interface StepTemplateGitDependencies {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#default_branch StepTemplate#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#default_branch StepTemplate#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#file_path_filters StepTemplate#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#file_path_filters StepTemplate#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#git_credential_id StepTemplate#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#git_credential_id StepTemplate#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#git_credential_type StepTemplate#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#git_credential_type StepTemplate#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The name of the Git dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#name StepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#name StepTemplate#name}
   */
   readonly name?: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#repository_uri StepTemplate#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#repository_uri StepTemplate#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -350,25 +350,25 @@ export interface StepTemplatePackagesProperties {
   /**
   * If the package should extract.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#extract StepTemplate#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#extract StepTemplate#extract}
   */
   readonly extract?: string;
   /**
   * The name of the package parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#package_parameter_name StepTemplate#package_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#package_parameter_name StepTemplate#package_parameter_name}
   */
   readonly packageParameterName?: string;
   /**
   * The purpose of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#purpose StepTemplate#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#purpose StepTemplate#purpose}
   */
   readonly purpose?: string;
   /**
   * The selection mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#selection_mode StepTemplate#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#selection_mode StepTemplate#selection_mode}
   */
   readonly selectionMode: string;
 }
@@ -548,31 +548,31 @@ export interface StepTemplatePackages {
   /**
   * Acquisition location for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#acquisition_location StepTemplate#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#acquisition_location StepTemplate#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * ID of the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#feed_id StepTemplate#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#feed_id StepTemplate#feed_id}
   */
   readonly feedId: string;
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#name StepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#name StepTemplate#name}
   */
   readonly name: string;
   /**
   * The ID of the package to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#package_id StepTemplate#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#package_id StepTemplate#package_id}
   */
   readonly packageId?: string;
   /**
   * Properties for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#properties StepTemplate#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#properties StepTemplate#properties}
   */
   readonly properties: StepTemplatePackagesProperties;
 }
@@ -802,31 +802,31 @@ export interface StepTemplateParameters {
   /**
   * Use this attribute to set a sensitive default value for the parameter when display settings are set to 'Sensitive'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#default_sensitive_value StepTemplate#default_sensitive_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#default_sensitive_value StepTemplate#default_sensitive_value}
   */
   readonly defaultSensitiveValue?: string;
   /**
   * A default value for the parameter, if applicable. This can be a hard-coded value or a variable reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#default_value StepTemplate#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#default_value StepTemplate#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The display settings for the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#display_settings StepTemplate#display_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#display_settings StepTemplate#display_settings}
   */
   readonly displaySettings?: { [key: string]: string };
   /**
   * The help presented alongside the parameter input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#help_text StepTemplate#help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#help_text StepTemplate#help_text}
   */
   readonly helpText?: string;
   /**
   * The id for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#id StepTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#id StepTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -835,13 +835,13 @@ export interface StepTemplateParameters {
   /**
   * The label shown beside the parameter when presented in the deployment process. Example: `Server name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#label StepTemplate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#label StepTemplate#label}
   */
   readonly label?: string;
   /**
   * The name of the variable set by the parameter. The name can contain letters, digits, dashes and periods. Example: `ServerName`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#name StepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#name StepTemplate#name}
   */
   readonly name: string;
 }
@@ -1125,7 +1125,7 @@ export class StepTemplateParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template octopusdeploy_step_template}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template octopusdeploy_step_template}
 */
 export class StepTemplate extends cdktf.TerraformResource {
 
@@ -1141,7 +1141,7 @@ export class StepTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StepTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StepTemplate to import
-  * @param importFromId The id of the existing StepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StepTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1153,7 +1153,7 @@ export class StepTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/step_template octopusdeploy_step_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/step_template octopusdeploy_step_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1164,8 +1164,8 @@ export class StepTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_step_template',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface NotificationTargetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of this notification target instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#pager_duty_target NotificationTarget#pager_duty_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#pager_duty_target NotificationTarget#pager_duty_target}
   */
   readonly pagerDutyTarget?: NotificationTargetPagerDutyTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#slack_target NotificationTarget#slack_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#slack_target NotificationTarget#slack_target}
   */
   readonly slackTarget?: NotificationTargetSlackTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#smtp_target NotificationTarget#smtp_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#smtp_target NotificationTarget#smtp_target}
   */
   readonly smtpTarget?: NotificationTargetSmtpTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#sns_target NotificationTarget#sns_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#sns_target NotificationTarget#sns_target}
   */
   readonly snsTarget?: NotificationTargetSnsTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#webhook_target NotificationTarget#webhook_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#webhook_target NotificationTarget#webhook_target}
   */
   readonly webhookTarget?: NotificationTargetWebhookTarget;
 }
@@ -41,25 +41,25 @@ export interface NotificationTargetPagerDutyTarget {
   /**
   * Optional, default class value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#class NotificationTarget#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#class NotificationTarget#class}
   */
   readonly class?: string;
   /**
   * Optional, default component value. Default: "logstream"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#component NotificationTarget#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#component NotificationTarget#component}
   */
   readonly component?: string;
   /**
   * Optional, default group value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#group NotificationTarget#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#group NotificationTarget#group}
   */
   readonly group?: string;
   /**
   * Unique ID for this notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,25 +68,25 @@ export interface NotificationTargetPagerDutyTarget {
   /**
   * 32-character integration key for an integration on a service or global ruleset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#routing_key NotificationTarget#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#routing_key NotificationTarget#routing_key}
   */
   readonly routingKey: string;
   /**
   * Default value for message severity. Defaults to info. The __severity value, if set, will overwrite this. Default: "info"; must be one of ["info", "warning", "error", "critical"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#severity NotificationTarget#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#severity NotificationTarget#severity}
   */
   readonly severity?: string;
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "pager_duty"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#type NotificationTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#type NotificationTarget#type}
   */
   readonly type: string;
 }
@@ -376,7 +376,7 @@ export interface NotificationTargetSlackTarget {
   /**
   * Unique ID for this notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -385,19 +385,19 @@ export interface NotificationTargetSlackTarget {
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "slack"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#type NotificationTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#type NotificationTarget#type}
   */
   readonly type: string;
   /**
   * Slack's Incoming Webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#url NotificationTarget#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#url NotificationTarget#url}
   */
   readonly url: string;
 }
@@ -571,19 +571,19 @@ export interface NotificationTargetSmtpTargetTls {
   /**
   * Maximum TLS version to accept. Default: "TLSv1.3"; must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#max_version NotificationTarget#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#max_version NotificationTarget#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum TLS version to accept. Default: "TLSv1.2"; must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#min_version NotificationTarget#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#min_version NotificationTarget#min_version}
   */
   readonly minVersion?: string;
   /**
   * Whether to reject unauthorized certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#reject_unauthorized NotificationTarget#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#reject_unauthorized NotificationTarget#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
 }
@@ -737,25 +737,25 @@ export interface NotificationTargetSmtpTarget {
   /**
   * Encryption method for SMTP. Default: "NONE"; must be one of ["NONE", "STARTTLS", "SSL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#encryption_option NotificationTarget#encryption_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#encryption_option NotificationTarget#encryption_option}
   */
   readonly encryptionOption?: string;
   /**
   * Email address to send from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#from NotificationTarget#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#from NotificationTarget#from}
   */
   readonly from: string;
   /**
   * SMTP server hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#host NotificationTarget#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#host NotificationTarget#host}
   */
   readonly host: string;
   /**
   * Unique ID for this notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -764,37 +764,37 @@ export interface NotificationTargetSmtpTarget {
   /**
   * SMTP authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#password NotificationTarget#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#password NotificationTarget#password}
   */
   readonly password?: string;
   /**
   * SMTP server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#port NotificationTarget#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#port NotificationTarget#port}
   */
   readonly port: number;
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * TLS configuration options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#tls NotificationTarget#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#tls NotificationTarget#tls}
   */
   readonly tls?: NotificationTargetSmtpTargetTls;
   /**
   * must be "smtp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#type NotificationTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#type NotificationTarget#type}
   */
   readonly type: string;
   /**
   * SMTP authentication username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#username NotificationTarget#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#username NotificationTarget#username}
   */
   readonly username?: string;
 }
@@ -1136,55 +1136,55 @@ export interface NotificationTargetSnsTarget {
   /**
   * Wildcard list of allowed phone numbers. This is not enforced if the notification is sent to topic. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#allowlist NotificationTarget#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#allowlist NotificationTarget#allowlist}
   */
   readonly allowlist?: string[];
   /**
   * ARN of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#assume_role_arn NotificationTarget#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#assume_role_arn NotificationTarget#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID for role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#assume_role_external_id NotificationTarget#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#assume_role_external_id NotificationTarget#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#aws_api_key NotificationTarget#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#aws_api_key NotificationTarget#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS authentication method. must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#aws_authentication_method NotificationTarget#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#aws_authentication_method NotificationTarget#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * AWS secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#aws_secret_key NotificationTarget#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#aws_secret_key NotificationTarget#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * The type of destination to send notifications to. Default: "topic"; must be one of ["phoneNumber", "topic"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#destination_type NotificationTarget#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#destination_type NotificationTarget#destination_type}
   */
   readonly destinationType?: string;
   /**
   * SNS endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#endpoint NotificationTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#endpoint NotificationTarget#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique ID for this notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1193,43 +1193,43 @@ export interface NotificationTargetSnsTarget {
   /**
   * Message group ID for FIFO topics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#message_group_id NotificationTarget#message_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#message_group_id NotificationTarget#message_group_id}
   */
   readonly messageGroupId?: string;
   /**
   * The default phone number to send the notification to. This value can be overridden by the notification event __phoneNumber field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#phone_number NotificationTarget#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#phone_number NotificationTarget#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#region NotificationTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#region NotificationTarget#region}
   */
   readonly region: string;
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * The default ARN of the SNS topic to send notifications to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#topic_arn NotificationTarget#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#topic_arn NotificationTarget#topic_arn}
   */
   readonly topicArn?: string;
   /**
   * Type of the topic selected in AWS SNS. Default: "fifo"; must be one of ["standard", "fifo"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#topic_type NotificationTarget#topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#topic_type NotificationTarget#topic_type}
   */
   readonly topicType?: string;
   /**
   * must be "sns"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#type NotificationTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#type NotificationTarget#type}
   */
   readonly type: string;
 }
@@ -1751,19 +1751,19 @@ export interface NotificationTargetWebhookTarget {
   /**
   * Authentication method for the webhook. Default: "none"; must be one of ["none", "token", "basic"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#auth_type NotificationTarget#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#auth_type NotificationTarget#auth_type}
   */
   readonly authType?: string;
   /**
   * Format of the webhook payload. must be one of ["ndjson", "json_array", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#format NotificationTarget#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#format NotificationTarget#format}
   */
   readonly format: string;
   /**
   * Unique ID for this notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#id NotificationTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#id NotificationTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1772,43 +1772,43 @@ export interface NotificationTargetWebhookTarget {
   /**
   * HTTP method to use for the webhook. must be one of ["POST", "PATCH", "PUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#method NotificationTarget#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#method NotificationTarget#method}
   */
   readonly method: string;
   /**
   * Basic authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#password NotificationTarget#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#password NotificationTarget#password}
   */
   readonly password?: string;
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#system_fields NotificationTarget#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Authentication token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#token NotificationTarget#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#token NotificationTarget#token}
   */
   readonly token?: string;
   /**
   * must be "webhook"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#type NotificationTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#type NotificationTarget#type}
   */
   readonly type: string;
   /**
   * URL to send the webhook to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#url NotificationTarget#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#url NotificationTarget#url}
   */
   readonly url: string;
   /**
   * Basic authentication username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#username NotificationTarget#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#username NotificationTarget#username}
   */
   readonly username?: string;
 }
@@ -2148,7 +2148,7 @@ export class NotificationTargetWebhookTargetOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target criblio_notification_target}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target criblio_notification_target}
 */
 export class NotificationTarget extends cdktf.TerraformResource {
 
@@ -2164,7 +2164,7 @@ export class NotificationTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationTarget to import
-  * @param importFromId The id of the existing NotificationTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2176,7 +2176,7 @@ export class NotificationTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target criblio_notification_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target criblio_notification_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2187,8 +2187,8 @@ export class NotificationTarget extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_notification_target',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

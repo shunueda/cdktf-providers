@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorNotificationChannelCustomWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#additional_headers MonitorNotificationChannelCustomWebhook#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#additional_headers MonitorNotificationChannelCustomWebhook#additional_headers}
   */
   readonly additionalHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#allow_insecure_connections MonitorNotificationChannelCustomWebhook#allow_insecure_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#allow_insecure_connections MonitorNotificationChannelCustomWebhook#allow_insecure_connections}
   */
   readonly allowInsecureConnections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#enabled MonitorNotificationChannelCustomWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#enabled MonitorNotificationChannelCustomWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#http_method MonitorNotificationChannelCustomWebhook#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#http_method MonitorNotificationChannelCustomWebhook#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#id MonitorNotificationChannelCustomWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#id MonitorNotificationChannelCustomWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#name MonitorNotificationChannelCustomWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#name MonitorNotificationChannelCustomWebhook#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#notify_when_ok MonitorNotificationChannelCustomWebhook#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#notify_when_ok MonitorNotificationChannelCustomWebhook#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#notify_when_resolved MonitorNotificationChannelCustomWebhook#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#notify_when_resolved MonitorNotificationChannelCustomWebhook#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#send_test_notification MonitorNotificationChannelCustomWebhook#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#send_test_notification MonitorNotificationChannelCustomWebhook#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#share_with_current_team MonitorNotificationChannelCustomWebhook#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#share_with_current_team MonitorNotificationChannelCustomWebhook#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#template MonitorNotificationChannelCustomWebhook#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#template MonitorNotificationChannelCustomWebhook#template}
   */
   readonly template: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#url MonitorNotificationChannelCustomWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#url MonitorNotificationChannelCustomWebhook#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#timeouts MonitorNotificationChannelCustomWebhook#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#timeouts MonitorNotificationChannelCustomWebhook#timeouts}
   */
   readonly timeouts?: MonitorNotificationChannelCustomWebhookTimeouts;
 }
 export interface MonitorNotificationChannelCustomWebhookTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#create MonitorNotificationChannelCustomWebhook#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#create MonitorNotificationChannelCustomWebhook#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#delete MonitorNotificationChannelCustomWebhook#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#delete MonitorNotificationChannelCustomWebhook#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#read MonitorNotificationChannelCustomWebhook#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#read MonitorNotificationChannelCustomWebhook#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#update MonitorNotificationChannelCustomWebhook#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#update MonitorNotificationChannelCustomWebhook#update}
   */
   readonly update?: string;
 }
@@ -260,7 +260,7 @@ export class MonitorNotificationChannelCustomWebhookTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook sysdig_monitor_notification_channel_custom_webhook}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook sysdig_monitor_notification_channel_custom_webhook}
 */
 export class MonitorNotificationChannelCustomWebhook extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class MonitorNotificationChannelCustomWebhook extends cdktf.TerraformReso
   * Generates CDKTF code for importing a MonitorNotificationChannelCustomWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorNotificationChannelCustomWebhook to import
-  * @param importFromId The id of the existing MonitorNotificationChannelCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorNotificationChannelCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorNotificationChannelCustomWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class MonitorNotificationChannelCustomWebhook extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_custom_webhook sysdig_monitor_notification_channel_custom_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_custom_webhook sysdig_monitor_notification_channel_custom_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class MonitorNotificationChannelCustomWebhook extends cdktf.TerraformReso
       terraformResourceType: 'sysdig_monitor_notification_channel_custom_webhook',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

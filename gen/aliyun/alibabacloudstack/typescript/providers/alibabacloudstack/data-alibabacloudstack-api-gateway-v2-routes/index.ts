@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackApiGatewayV2RoutesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#gw_instance_id DataAlibabacloudstackApiGatewayV2Routes#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#gw_instance_id DataAlibabacloudstackApiGatewayV2Routes#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#id DataAlibabacloudstackApiGatewayV2Routes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#id DataAlibabacloudstackApiGatewayV2Routes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#ids DataAlibabacloudstackApiGatewayV2Routes#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#ids DataAlibabacloudstackApiGatewayV2Routes#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#is_source_route DataAlibabacloudstackApiGatewayV2Routes#is_source_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#is_source_route DataAlibabacloudstackApiGatewayV2Routes#is_source_route}
   */
   readonly isSourceRoute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#name_regex DataAlibabacloudstackApiGatewayV2Routes#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#name_regex DataAlibabacloudstackApiGatewayV2Routes#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -153,7 +153,7 @@ export class DataAlibabacloudstackApiGatewayV2RoutesRoutesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes alibabacloudstack_api_gateway_v2_routes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes alibabacloudstack_api_gateway_v2_routes}
 */
 export class DataAlibabacloudstackApiGatewayV2Routes extends cdktf.TerraformDataSource {
 
@@ -169,7 +169,7 @@ export class DataAlibabacloudstackApiGatewayV2Routes extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAlibabacloudstackApiGatewayV2Routes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackApiGatewayV2Routes to import
-  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Routes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Routes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackApiGatewayV2Routes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DataAlibabacloudstackApiGatewayV2Routes extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_routes alibabacloudstack_api_gateway_v2_routes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_routes alibabacloudstack_api_gateway_v2_routes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class DataAlibabacloudstackApiGatewayV2Routes extends cdktf.TerraformData
       terraformResourceType: 'alibabacloudstack_api_gateway_v2_routes',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -125,276 +125,276 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface SecuremeshSiteV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#annotations SecuremeshSiteV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#annotations SecuremeshSiteV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#block_all_services SecuremeshSiteV2#block_all_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#block_all_services SecuremeshSiteV2#block_all_services}
   */
   readonly blockAllServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#disable SecuremeshSiteV2#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#disable SecuremeshSiteV2#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#disable_ha SecuremeshSiteV2#disable_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#disable_ha SecuremeshSiteV2#disable_ha}
   */
   readonly disableHa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#disable_url_categorization SecuremeshSiteV2#disable_url_categorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#disable_url_categorization SecuremeshSiteV2#disable_url_categorization}
   */
   readonly disableUrlCategorization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#enable_ha SecuremeshSiteV2#enable_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#enable_ha SecuremeshSiteV2#enable_ha}
   */
   readonly enableHa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#enable_url_categorization SecuremeshSiteV2#enable_url_categorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#enable_url_categorization SecuremeshSiteV2#enable_url_categorization}
   */
   readonly enableUrlCategorization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#f5_proxy SecuremeshSiteV2#f5_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#f5_proxy SecuremeshSiteV2#f5_proxy}
   */
   readonly f5Proxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#id SecuremeshSiteV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#id SecuremeshSiteV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#logs_streaming_disabled SecuremeshSiteV2#logs_streaming_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#logs_streaming_disabled SecuremeshSiteV2#logs_streaming_disabled}
   */
   readonly logsStreamingDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_forward_proxy SecuremeshSiteV2#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#no_forward_proxy SecuremeshSiteV2#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_network_policy SecuremeshSiteV2#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#no_network_policy SecuremeshSiteV2#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_proxy_bypass SecuremeshSiteV2#no_proxy_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#no_proxy_bypass SecuremeshSiteV2#no_proxy_bypass}
   */
   readonly noProxyBypass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_s2s_connectivity_sli SecuremeshSiteV2#no_s2s_connectivity_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#no_s2s_connectivity_sli SecuremeshSiteV2#no_s2s_connectivity_sli}
   */
   readonly noS2SConnectivitySli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_s2s_connectivity_slo SecuremeshSiteV2#no_s2s_connectivity_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#no_s2s_connectivity_slo SecuremeshSiteV2#no_s2s_connectivity_slo}
   */
   readonly noS2SConnectivitySlo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tunnel_dead_timeout SecuremeshSiteV2#tunnel_dead_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#tunnel_dead_timeout SecuremeshSiteV2#tunnel_dead_timeout}
   */
   readonly tunnelDeadTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tunnel_type SecuremeshSiteV2#tunnel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#tunnel_type SecuremeshSiteV2#tunnel_type}
   */
   readonly tunnelType?: string;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#active_enhanced_firewall_policies SecuremeshSiteV2#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#active_enhanced_firewall_policies SecuremeshSiteV2#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: SecuremeshSiteV2ActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#active_forward_proxy_policies SecuremeshSiteV2#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#active_forward_proxy_policies SecuremeshSiteV2#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: SecuremeshSiteV2ActiveForwardProxyPolicies;
   /**
   * admin_user_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#admin_user_credentials SecuremeshSiteV2#admin_user_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#admin_user_credentials SecuremeshSiteV2#admin_user_credentials}
   */
   readonly adminUserCredentials?: SecuremeshSiteV2AdminUserCredentials;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#aws SecuremeshSiteV2#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#aws SecuremeshSiteV2#aws}
   */
   readonly aws?: SecuremeshSiteV2Aws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#azure SecuremeshSiteV2#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#azure SecuremeshSiteV2#azure}
   */
   readonly azure?: SecuremeshSiteV2Azure;
   /**
   * baremetal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#baremetal SecuremeshSiteV2#baremetal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#baremetal SecuremeshSiteV2#baremetal}
   */
   readonly baremetal?: SecuremeshSiteV2Baremetal;
   /**
   * blocked_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#blocked_services SecuremeshSiteV2#blocked_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#blocked_services SecuremeshSiteV2#blocked_services}
   */
   readonly blockedServices?: SecuremeshSiteV2BlockedServices;
   /**
   * custom_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#custom_proxy SecuremeshSiteV2#custom_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#custom_proxy SecuremeshSiteV2#custom_proxy}
   */
   readonly customProxy?: SecuremeshSiteV2CustomProxy;
   /**
   * custom_proxy_bypass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#custom_proxy_bypass SecuremeshSiteV2#custom_proxy_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#custom_proxy_bypass SecuremeshSiteV2#custom_proxy_bypass}
   */
   readonly customProxyBypass?: SecuremeshSiteV2CustomProxyBypass;
   /**
   * dc_cluster_group_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dc_cluster_group_sli SecuremeshSiteV2#dc_cluster_group_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#dc_cluster_group_sli SecuremeshSiteV2#dc_cluster_group_sli}
   */
   readonly dcClusterGroupSli?: SecuremeshSiteV2DcClusterGroupSli;
   /**
   * dc_cluster_group_slo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dc_cluster_group_slo SecuremeshSiteV2#dc_cluster_group_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#dc_cluster_group_slo SecuremeshSiteV2#dc_cluster_group_slo}
   */
   readonly dcClusterGroupSlo?: SecuremeshSiteV2DcClusterGroupSlo;
   /**
   * dns_ntp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_ntp_config SecuremeshSiteV2#dns_ntp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#dns_ntp_config SecuremeshSiteV2#dns_ntp_config}
   */
   readonly dnsNtpConfig?: SecuremeshSiteV2DnsNtpConfig;
   /**
   * equinix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#equinix SecuremeshSiteV2#equinix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#equinix SecuremeshSiteV2#equinix}
   */
   readonly equinix?: SecuremeshSiteV2Equinix;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#gcp SecuremeshSiteV2#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#gcp SecuremeshSiteV2#gcp}
   */
   readonly gcp?: SecuremeshSiteV2Gcp;
   /**
   * kvm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#kvm SecuremeshSiteV2#kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#kvm SecuremeshSiteV2#kvm}
   */
   readonly kvm?: SecuremeshSiteV2Kvm;
   /**
   * load_balancing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#load_balancing SecuremeshSiteV2#load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#load_balancing SecuremeshSiteV2#load_balancing}
   */
   readonly loadBalancing?: SecuremeshSiteV2LoadBalancing;
   /**
   * local_vrf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#local_vrf SecuremeshSiteV2#local_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#local_vrf SecuremeshSiteV2#local_vrf}
   */
   readonly localVrf?: SecuremeshSiteV2LocalVrf;
   /**
   * log_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#log_receiver SecuremeshSiteV2#log_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#log_receiver SecuremeshSiteV2#log_receiver}
   */
   readonly logReceiver?: SecuremeshSiteV2LogReceiver;
   /**
   * nutanix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#nutanix SecuremeshSiteV2#nutanix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#nutanix SecuremeshSiteV2#nutanix}
   */
   readonly nutanix?: SecuremeshSiteV2Nutanix;
   /**
   * oci block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#oci SecuremeshSiteV2#oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#oci SecuremeshSiteV2#oci}
   */
   readonly oci?: SecuremeshSiteV2Oci;
   /**
   * offline_survivability_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#offline_survivability_mode SecuremeshSiteV2#offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#offline_survivability_mode SecuremeshSiteV2#offline_survivability_mode}
   */
   readonly offlineSurvivabilityMode?: SecuremeshSiteV2OfflineSurvivabilityMode;
   /**
   * openstack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#openstack SecuremeshSiteV2#openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#openstack SecuremeshSiteV2#openstack}
   */
   readonly openstack?: SecuremeshSiteV2Openstack;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#performance_enhancement_mode SecuremeshSiteV2#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#performance_enhancement_mode SecuremeshSiteV2#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: SecuremeshSiteV2PerformanceEnhancementMode;
   /**
   * re_select block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#re_select SecuremeshSiteV2#re_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#re_select SecuremeshSiteV2#re_select}
   */
   readonly reSelect?: SecuremeshSiteV2ReSelect;
   /**
   * rseries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#rseries SecuremeshSiteV2#rseries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#rseries SecuremeshSiteV2#rseries}
   */
   readonly rseries?: SecuremeshSiteV2Rseries;
   /**
   * segment_vrf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#segment_vrf SecuremeshSiteV2#segment_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#segment_vrf SecuremeshSiteV2#segment_vrf}
   */
   readonly segmentVrf?: SecuremeshSiteV2SegmentVrf[] | cdktf.IResolvable;
   /**
   * site_mesh_group_on_slo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_mesh_group_on_slo SecuremeshSiteV2#site_mesh_group_on_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#site_mesh_group_on_slo SecuremeshSiteV2#site_mesh_group_on_slo}
   */
   readonly siteMeshGroupOnSlo?: SecuremeshSiteV2SiteMeshGroupOnSlo;
   /**
   * software_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#software_settings SecuremeshSiteV2#software_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#software_settings SecuremeshSiteV2#software_settings}
   */
   readonly softwareSettings?: SecuremeshSiteV2SoftwareSettings;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#upgrade_settings SecuremeshSiteV2#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#upgrade_settings SecuremeshSiteV2#upgrade_settings}
   */
   readonly upgradeSettings?: SecuremeshSiteV2UpgradeSettings;
   /**
   * vmware block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vmware SecuremeshSiteV2#vmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#vmware SecuremeshSiteV2#vmware}
   */
   readonly vmware?: SecuremeshSiteV2Vmware;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2 volterra_securemesh_site_v2}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2 volterra_securemesh_site_v2}
 */
 export class SecuremeshSiteV2 extends cdktf.TerraformResource {
 
@@ -410,7 +410,7 @@ export class SecuremeshSiteV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecuremeshSiteV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecuremeshSiteV2 to import
-  * @param importFromId The id of the existing SecuremeshSiteV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecuremeshSiteV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecuremeshSiteV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -422,7 +422,7 @@ export class SecuremeshSiteV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2 volterra_securemesh_site_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site_v2 volterra_securemesh_site_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,8 +433,8 @@ export class SecuremeshSiteV2 extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_securemesh_site_v2',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

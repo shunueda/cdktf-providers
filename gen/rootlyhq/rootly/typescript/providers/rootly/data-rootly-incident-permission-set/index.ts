@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface DataRootlyIncidentPermissionSetConfig extends cdktf.TerraformMe
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set#created_at DataRootlyIncidentPermissionSet#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set#created_at DataRootlyIncidentPermissionSet#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set#name DataRootlyIncidentPermissionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set#name DataRootlyIncidentPermissionSet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set#slug DataRootlyIncidentPermissionSet#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set#slug DataRootlyIncidentPermissionSet#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set rootly_incident_permission_set}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set rootly_incident_permission_set}
 */
 export class DataRootlyIncidentPermissionSet extends cdktf.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataRootlyIncidentPermissionSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyIncidentPermissionSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyIncidentPermissionSet to import
-  * @param importFromId The id of the existing DataRootlyIncidentPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyIncidentPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyIncidentPermissionSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataRootlyIncidentPermissionSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/incident_permission_set rootly_incident_permission_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_permission_set rootly_incident_permission_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class DataRootlyIncidentPermissionSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_incident_permission_set',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

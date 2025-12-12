@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AutoscalerConfig extends cdktf.TerraformMetaArguments {
   /**
   * autoscaler policies JSON string to override current autoscaler settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#autoscaler_policies_json Autoscaler#autoscaler_policies_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#autoscaler_policies_json Autoscaler#autoscaler_policies_json}
   */
   readonly autoscalerPoliciesJson?: string;
   /**
   * CAST AI cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cluster_id Autoscaler#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cluster_id Autoscaler#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#id Autoscaler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#id Autoscaler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface AutoscalerConfig extends cdktf.TerraformMetaArguments {
   /**
   * autoscaler_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#autoscaler_settings Autoscaler#autoscaler_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#autoscaler_settings Autoscaler#autoscaler_settings}
   */
   readonly autoscalerSettings?: AutoscalerAutoscalerSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#timeouts Autoscaler#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#timeouts Autoscaler#timeouts}
   */
   readonly timeouts?: AutoscalerTimeouts;
 }
@@ -43,13 +43,13 @@ export interface AutoscalerAutoscalerSettingsClusterLimitsCpu {
   /**
   * defines the maximum allowed amount of vCPUs in the whole cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#max_cores Autoscaler#max_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#max_cores Autoscaler#max_cores}
   */
   readonly maxCores?: number;
   /**
   * defines the minimum allowed amount of CPUs in the whole cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#min_cores Autoscaler#min_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#min_cores Autoscaler#min_cores}
   */
   readonly minCores?: number;
 }
@@ -164,13 +164,13 @@ export interface AutoscalerAutoscalerSettingsClusterLimits {
   /**
   * enable/disable cluster size limits policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cpu Autoscaler#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cpu Autoscaler#cpu}
   */
   readonly cpu?: AutoscalerAutoscalerSettingsClusterLimitsCpu;
 }
@@ -285,13 +285,13 @@ export interface AutoscalerAutoscalerSettingsNodeDownscalerEmptyNodes {
   /**
   * period (in seconds) to wait before removing the node. Might be useful to control the aggressiveness of the downscaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#delay_seconds Autoscaler#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#delay_seconds Autoscaler#delay_seconds}
   */
   readonly delaySeconds?: number;
   /**
   * enable/disable the empty worker nodes policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -406,49 +406,49 @@ export interface AutoscalerAutoscalerSettingsNodeDownscalerEvictor {
   /**
   * enable/disable aggressive mode. By default, Evictor does not target nodes that are running unreplicated pods. This mode will make the Evictor start considering application with just a single replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#aggressive_mode Autoscaler#aggressive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#aggressive_mode Autoscaler#aggressive_mode}
   */
   readonly aggressiveMode?: boolean | cdktf.IResolvable;
   /**
   * configure the interval duration between Evictor operations. This property can be used to lower or raise the frequency of the Evictor's find-and-drain operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cycle_interval Autoscaler#cycle_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cycle_interval Autoscaler#cycle_interval}
   */
   readonly cycleInterval?: string;
   /**
   * enable/disable dry-run. This property allows you to prevent the Evictor from carrying any operations out and preview the actions it would take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#dry_run Autoscaler#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#dry_run Autoscaler#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * enable/disable the Evictor policy. This will either install or uninstall the Evictor component in your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * if enabled then Evictor will attempt to evict pods that have pod disruption budgets configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#ignore_pod_disruption_budgets Autoscaler#ignore_pod_disruption_budgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#ignore_pod_disruption_budgets Autoscaler#ignore_pod_disruption_budgets}
   */
   readonly ignorePodDisruptionBudgets?: boolean | cdktf.IResolvable;
   /**
   * configure the node grace period which controls the duration which must pass after a node has been created before Evictor starts considering that node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#node_grace_period_minutes Autoscaler#node_grace_period_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#node_grace_period_minutes Autoscaler#node_grace_period_minutes}
   */
   readonly nodeGracePeriodMinutes?: number;
   /**
   * configure the pod eviction failure back off interval. If pod eviction fails then Evictor will attempt to evict it again after the amount of time specified here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#pod_eviction_failure_back_off_interval Autoscaler#pod_eviction_failure_back_off_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#pod_eviction_failure_back_off_interval Autoscaler#pod_eviction_failure_back_off_interval}
   */
   readonly podEvictionFailureBackOffInterval?: string;
   /**
   * enable/disable scoped mode. By default, Evictor targets all nodes in the cluster. This mode will constrain it to just the nodes which were created by CAST AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#scoped_mode Autoscaler#scoped_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#scoped_mode Autoscaler#scoped_mode}
   */
   readonly scopedMode?: boolean | cdktf.IResolvable;
 }
@@ -737,19 +737,19 @@ export interface AutoscalerAutoscalerSettingsNodeDownscaler {
   /**
   * enable/disable node downscaler policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * empty_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#empty_nodes Autoscaler#empty_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#empty_nodes Autoscaler#empty_nodes}
   */
   readonly emptyNodes?: AutoscalerAutoscalerSettingsNodeDownscalerEmptyNodes;
   /**
   * evictor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#evictor Autoscaler#evictor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#evictor Autoscaler#evictor}
   */
   readonly evictor?: AutoscalerAutoscalerSettingsNodeDownscalerEvictor;
 }
@@ -893,13 +893,13 @@ export interface AutoscalerAutoscalerSettingsSpotInstancesSpotBackups {
   /**
   * enable/disable spot backups policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * defines interval on how often spot backups restore to real spot should occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_backup_restore_rate_seconds Autoscaler#spot_backup_restore_rate_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_backup_restore_rate_seconds Autoscaler#spot_backup_restore_rate_seconds}
   */
   readonly spotBackupRestoreRateSeconds?: number;
 }
@@ -1014,13 +1014,13 @@ export interface AutoscalerAutoscalerSettingsSpotInstancesSpotInterruptionPredic
   /**
   * enable/disable spot interruption predictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * define the type of the spot interruption prediction to handle. Allowed values are AWSRebalanceRecommendations, CASTAIInterruptionPredictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_interruption_predictions_type Autoscaler#spot_interruption_predictions_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_interruption_predictions_type Autoscaler#spot_interruption_predictions_type}
   */
   readonly spotInterruptionPredictionsType?: string;
 }
@@ -1135,37 +1135,37 @@ export interface AutoscalerAutoscalerSettingsSpotInstances {
   /**
   * enable/disable spot instances policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * max allowed reclaim rate when choosing spot instance type. E.g. if the value is 10%, instance types having 10% or higher reclaim rate will not be considered. Set to zero to use all instance types regardless of reclaim rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#max_reclaim_rate Autoscaler#max_reclaim_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#max_reclaim_rate Autoscaler#max_reclaim_rate}
   */
   readonly maxReclaimRate?: number;
   /**
   * enable/disable spot diversity policy. When enabled, autoscaler will try to balance between diverse and cost optimal instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_diversity_enabled Autoscaler#spot_diversity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_diversity_enabled Autoscaler#spot_diversity_enabled}
   */
   readonly spotDiversityEnabled?: boolean | cdktf.IResolvable;
   /**
   * allowed node configuration price increase when diversifying instance types. E.g. if the value is 10%, then the overall price of diversified instance types can be 10% higher than the price of the optimal configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_diversity_price_increase_limit Autoscaler#spot_diversity_price_increase_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_diversity_price_increase_limit Autoscaler#spot_diversity_price_increase_limit}
   */
   readonly spotDiversityPriceIncreaseLimit?: number;
   /**
   * spot_backups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_backups Autoscaler#spot_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_backups Autoscaler#spot_backups}
   */
   readonly spotBackups?: AutoscalerAutoscalerSettingsSpotInstancesSpotBackups;
   /**
   * spot_interruption_predictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_interruption_predictions Autoscaler#spot_interruption_predictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_interruption_predictions Autoscaler#spot_interruption_predictions}
   */
   readonly spotInterruptionPredictions?: AutoscalerAutoscalerSettingsSpotInstancesSpotInterruptionPredictions;
 }
@@ -1396,19 +1396,19 @@ export interface AutoscalerAutoscalerSettingsUnschedulablePodsHeadroom {
   /**
   * defines percentage of additional CPU capacity to be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cpu_percentage Autoscaler#cpu_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cpu_percentage Autoscaler#cpu_percentage}
   */
   readonly cpuPercentage?: number;
   /**
   * enable/disable headroom policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * defines percentage of additional memory capacity to be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#memory_percentage Autoscaler#memory_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#memory_percentage Autoscaler#memory_percentage}
   */
   readonly memoryPercentage?: number;
 }
@@ -1552,19 +1552,19 @@ export interface AutoscalerAutoscalerSettingsUnschedulablePodsHeadroomSpot {
   /**
   * defines percentage of additional CPU capacity to be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cpu_percentage Autoscaler#cpu_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cpu_percentage Autoscaler#cpu_percentage}
   */
   readonly cpuPercentage?: number;
   /**
   * enable/disable headroom_spot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * defines percentage of additional memory capacity to be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#memory_percentage Autoscaler#memory_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#memory_percentage Autoscaler#memory_percentage}
   */
   readonly memoryPercentage?: number;
 }
@@ -1708,31 +1708,31 @@ export interface AutoscalerAutoscalerSettingsUnschedulablePodsNodeConstraints {
   /**
   * enable/disable node constraints policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * defines max CPU cores for the node to pick.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#max_cpu_cores Autoscaler#max_cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#max_cpu_cores Autoscaler#max_cpu_cores}
   */
   readonly maxCpuCores?: number;
   /**
   * defines max RAM in MiB for the node to pick.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#max_ram_mib Autoscaler#max_ram_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#max_ram_mib Autoscaler#max_ram_mib}
   */
   readonly maxRamMib?: number;
   /**
   * defines min CPU cores for the node to pick.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#min_cpu_cores Autoscaler#min_cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#min_cpu_cores Autoscaler#min_cpu_cores}
   */
   readonly minCpuCores?: number;
   /**
   * defines min RAM in MiB for the node to pick.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#min_ram_mib Autoscaler#min_ram_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#min_ram_mib Autoscaler#min_ram_mib}
   */
   readonly minRamMib?: number;
 }
@@ -1934,7 +1934,7 @@ export interface AutoscalerAutoscalerSettingsUnschedulablePodsPodPinner {
   /**
   * enable/disable the Pod Pinner component's automatic management in your cluster. Default: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2020,37 +2020,37 @@ export interface AutoscalerAutoscalerSettingsUnschedulablePods {
   /**
   * enable/disable custom instances policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#custom_instances_enabled Autoscaler#custom_instances_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#custom_instances_enabled Autoscaler#custom_instances_enabled}
   */
   readonly customInstancesEnabled?: boolean | cdktf.IResolvable;
   /**
   * enable/disable unschedulable pods detection policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#headroom Autoscaler#headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#headroom Autoscaler#headroom}
   */
   readonly headroom?: AutoscalerAutoscalerSettingsUnschedulablePodsHeadroom;
   /**
   * headroom_spot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#headroom_spot Autoscaler#headroom_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#headroom_spot Autoscaler#headroom_spot}
   */
   readonly headroomSpot?: AutoscalerAutoscalerSettingsUnschedulablePodsHeadroomSpot;
   /**
   * node_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#node_constraints Autoscaler#node_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#node_constraints Autoscaler#node_constraints}
   */
   readonly nodeConstraints?: AutoscalerAutoscalerSettingsUnschedulablePodsNodeConstraints;
   /**
   * pod_pinner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#pod_pinner Autoscaler#pod_pinner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#pod_pinner Autoscaler#pod_pinner}
   */
   readonly podPinner?: AutoscalerAutoscalerSettingsUnschedulablePodsPodPinner;
 }
@@ -2281,43 +2281,43 @@ export interface AutoscalerAutoscalerSettings {
   /**
   * enable/disable autoscaler policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#enabled Autoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * run autoscaler in scoped mode. Only marked pods and nodes will be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#is_scoped_mode Autoscaler#is_scoped_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#is_scoped_mode Autoscaler#is_scoped_mode}
   */
   readonly isScopedMode?: boolean | cdktf.IResolvable;
   /**
   * marks whether partial matching should be used when deciding which custom node template to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#node_templates_partial_matching_enabled Autoscaler#node_templates_partial_matching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#node_templates_partial_matching_enabled Autoscaler#node_templates_partial_matching_enabled}
   */
   readonly nodeTemplatesPartialMatchingEnabled?: boolean | cdktf.IResolvable;
   /**
   * cluster_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#cluster_limits Autoscaler#cluster_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#cluster_limits Autoscaler#cluster_limits}
   */
   readonly clusterLimits?: AutoscalerAutoscalerSettingsClusterLimits;
   /**
   * node_downscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#node_downscaler Autoscaler#node_downscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#node_downscaler Autoscaler#node_downscaler}
   */
   readonly nodeDownscaler?: AutoscalerAutoscalerSettingsNodeDownscaler;
   /**
   * spot_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#spot_instances Autoscaler#spot_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#spot_instances Autoscaler#spot_instances}
   */
   readonly spotInstances?: AutoscalerAutoscalerSettingsSpotInstances;
   /**
   * unschedulable_pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#unschedulable_pods Autoscaler#unschedulable_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#unschedulable_pods Autoscaler#unschedulable_pods}
   */
   readonly unschedulablePods?: AutoscalerAutoscalerSettingsUnschedulablePods;
 }
@@ -2575,11 +2575,11 @@ export class AutoscalerAutoscalerSettingsOutputReference extends cdktf.ComplexOb
 }
 export interface AutoscalerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#create Autoscaler#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#create Autoscaler#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#update Autoscaler#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#update Autoscaler#update}
   */
   readonly update?: string;
 }
@@ -2702,7 +2702,7 @@ export class AutoscalerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler castai_autoscaler}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler castai_autoscaler}
 */
 export class Autoscaler extends cdktf.TerraformResource {
 
@@ -2718,7 +2718,7 @@ export class Autoscaler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Autoscaler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Autoscaler to import
-  * @param importFromId The id of the existing Autoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Autoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Autoscaler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2730,7 +2730,7 @@ export class Autoscaler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/autoscaler castai_autoscaler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/autoscaler castai_autoscaler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2741,8 +2741,8 @@ export class Autoscaler extends cdktf.TerraformResource {
       terraformResourceType: 'castai_autoscaler',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

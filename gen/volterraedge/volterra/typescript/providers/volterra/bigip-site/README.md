@@ -1,3 +1,3 @@
 # `volterra_bigip_site`
 
-Refer to the Terraform Registry for docs: [`volterra_bigip_site`](https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bigip_site).
+Refer to the Terraform Registry for docs: [`volterra_bigip_site`](https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bigip_site).

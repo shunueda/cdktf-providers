@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront
+// https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IntegrationWavefrontConfig extends cdktf.TerraformMetaArguments
   /**
   * Wavefront API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront#api_token IntegrationWavefront#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront#api_token IntegrationWavefront#api_token}
   */
   readonly apiToken: string;
   /**
@@ -19,23 +19,23 @@ export interface IntegrationWavefrontConfig extends cdktf.TerraformMetaArguments
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront#contact_groups IntegrationWavefront#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront#contact_groups IntegrationWavefront#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront#name IntegrationWavefront#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront#name IntegrationWavefront#name}
   */
   readonly name: string;
   /**
   * Wavefront instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront#wavefront_url IntegrationWavefront#wavefront_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront#wavefront_url IntegrationWavefront#wavefront_url}
   */
   readonly wavefrontUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront uptime_integration_wavefront}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront uptime_integration_wavefront}
 */
 export class IntegrationWavefront extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IntegrationWavefront extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationWavefront resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationWavefront to import
-  * @param importFromId The id of the existing IntegrationWavefront that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationWavefront that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationWavefront to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IntegrationWavefront extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/integration_wavefront uptime_integration_wavefront} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/integration_wavefront uptime_integration_wavefront} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IntegrationWavefront extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_wavefront',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.21.0',
-        providerVersionConstraint: '2.21.0'
+        providerVersion: '2.22.0',
+        providerVersionConstraint: '2.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface IpPrefixSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#annotations IpPrefixSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#annotations IpPrefixSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#description IpPrefixSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#description IpPrefixSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#disable IpPrefixSet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#disable IpPrefixSet#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#id IpPrefixSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#id IpPrefixSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#ipv6_prefix IpPrefixSet#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#ipv6_prefix IpPrefixSet#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#labels IpPrefixSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#labels IpPrefixSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#name IpPrefixSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#name IpPrefixSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#namespace IpPrefixSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#namespace IpPrefixSet#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#prefix IpPrefixSet#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#prefix IpPrefixSet#prefix}
   */
   readonly prefix?: string[];
   /**
   * ipv4_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#ipv4_prefixes IpPrefixSet#ipv4_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#ipv4_prefixes IpPrefixSet#ipv4_prefixes}
   */
   readonly ipv4Prefixes?: IpPrefixSetIpv4Prefixes[] | cdktf.IResolvable;
   /**
   * ipv6_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#ipv6_prefixes IpPrefixSet#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#ipv6_prefixes IpPrefixSet#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: IpPrefixSetIpv6Prefixes[] | cdktf.IResolvable;
 }
 export interface IpPrefixSetIpv4Prefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#description IpPrefixSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#description IpPrefixSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#ipv4_prefix IpPrefixSet#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#ipv4_prefix IpPrefixSet#ipv4_prefix}
   */
   readonly ipv4Prefix: string;
 }
@@ -207,11 +207,11 @@ export class IpPrefixSetIpv4PrefixesList extends cdktf.ComplexList {
 }
 export interface IpPrefixSetIpv6Prefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#description IpPrefixSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#description IpPrefixSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#ipv6_prefix IpPrefixSet#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#ipv6_prefix IpPrefixSet#ipv6_prefix}
   */
   readonly ipv6Prefix: string;
 }
@@ -353,7 +353,7 @@ export class IpPrefixSetIpv6PrefixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set volterra_ip_prefix_set}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set volterra_ip_prefix_set}
 */
 export class IpPrefixSet extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class IpPrefixSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpPrefixSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpPrefixSet to import
-  * @param importFromId The id of the existing IpPrefixSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpPrefixSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpPrefixSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class IpPrefixSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ip_prefix_set volterra_ip_prefix_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ip_prefix_set volterra_ip_prefix_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class IpPrefixSet extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ip_prefix_set',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

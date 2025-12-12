@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEdasSlbattachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#app_id ApsarastackEdasSlbattachment#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#app_id ApsarastackEdasSlbattachment#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#id ApsarastackEdasSlbattachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#id ApsarastackEdasSlbattachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#listener_port ApsarastackEdasSlbattachment#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#listener_port ApsarastackEdasSlbattachment#listener_port}
   */
   readonly listenerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#slb_id ApsarastackEdasSlbattachment#slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#slb_id ApsarastackEdasSlbattachment#slb_id}
   */
   readonly slbId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#slb_ip ApsarastackEdasSlbattachment#slb_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#slb_ip ApsarastackEdasSlbattachment#slb_ip}
   */
   readonly slbIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#type ApsarastackEdasSlbattachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#type ApsarastackEdasSlbattachment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#vserver_group_id ApsarastackEdasSlbattachment#vserver_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#vserver_group_id ApsarastackEdasSlbattachment#vserver_group_id}
   */
   readonly vserverGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment apsarastack_edas_slbattachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment apsarastack_edas_slbattachment}
 */
 export class ApsarastackEdasSlbattachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApsarastackEdasSlbattachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackEdasSlbattachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEdasSlbattachment to import
-  * @param importFromId The id of the existing ApsarastackEdasSlbattachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEdasSlbattachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEdasSlbattachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApsarastackEdasSlbattachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_slbattachment apsarastack_edas_slbattachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_slbattachment apsarastack_edas_slbattachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApsarastackEdasSlbattachment extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_edas_slbattachment',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

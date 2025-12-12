@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface LogReceiverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#annotations LogReceiver#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#annotations LogReceiver#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#description LogReceiver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#description LogReceiver#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#disable LogReceiver#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#disable LogReceiver#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#id LogReceiver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#id LogReceiver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#labels LogReceiver#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#labels LogReceiver#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#namespace LogReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#namespace LogReceiver#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#site_local LogReceiver#site_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#site_local LogReceiver#site_local}
   */
   readonly siteLocal?: boolean | cdktf.IResolvable;
   /**
   * data_dog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#data_dog LogReceiver#data_dog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#data_dog LogReceiver#data_dog}
   */
   readonly dataDog?: LogReceiverDataDog;
   /**
   * log_receiver_sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#log_receiver_sites LogReceiver#log_receiver_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#log_receiver_sites LogReceiver#log_receiver_sites}
   */
   readonly logReceiverSites?: LogReceiverLogReceiverSites;
   /**
   * splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#splunk LogReceiver#splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#splunk LogReceiver#splunk}
   */
   readonly splunk?: LogReceiverSplunk;
   /**
   * syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#syslog LogReceiver#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#syslog LogReceiver#syslog}
   */
   readonly syslog?: LogReceiverSyslog;
 }
 export interface LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -216,15 +216,15 @@ export class LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfoOutputReference e
 }
 export interface LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -363,11 +363,11 @@ export class LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfoInternalOutputRef
 }
 export interface LogReceiverDataDogDatadogApiKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#url LogReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#url LogReceiver#url}
   */
   readonly url: string;
 }
@@ -477,23 +477,23 @@ export class LogReceiverDataDogDatadogApiKeyClearSecretInfoOutputReference exten
 }
 export interface LogReceiverDataDogDatadogApiKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key LogReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key LogReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#version LogReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#version LogReceiver#version}
   */
   readonly version?: number;
 }
@@ -687,7 +687,7 @@ export class LogReceiverDataDogDatadogApiKeyVaultSecretInfoOutputReference exten
 }
 export interface LogReceiverDataDogDatadogApiKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name: string;
 }
@@ -768,37 +768,37 @@ export class LogReceiverDataDogDatadogApiKeyWingmanSecretInfoOutputReference ext
 }
 export interface LogReceiverDataDogDatadogApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: LogReceiverDataDogDatadogApiKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: LogReceiverDataDogDatadogApiKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: LogReceiverDataDogDatadogApiKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: LogReceiverDataDogDatadogApiKeyWingmanSecretInfo;
 }
@@ -1027,41 +1027,41 @@ export class LogReceiverDataDogDatadogApiKeyOutputReference extends cdktf.Comple
 }
 export interface LogReceiverDataDog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#compression_disabled LogReceiver#compression_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#compression_disabled LogReceiver#compression_disabled}
   */
   readonly compressionDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#compression_enabled LogReceiver#compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#compression_enabled LogReceiver#compression_enabled}
   */
   readonly compressionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#datadog_default_server LogReceiver#datadog_default_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#datadog_default_server LogReceiver#datadog_default_server}
   */
   readonly datadogDefaultServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#default_port LogReceiver#default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#default_port LogReceiver#default_port}
   */
   readonly defaultPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
   */
   readonly volterraCa?: boolean | cdktf.IResolvable;
   /**
   * datadog_api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#datadog_api_key LogReceiver#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#datadog_api_key LogReceiver#datadog_api_key}
   */
   readonly datadogApiKey?: LogReceiverDataDogDatadogApiKey;
 }
@@ -1377,15 +1377,15 @@ export class LogReceiverDataDogOutputReference extends cdktf.ComplexObject {
 }
 export interface LogReceiverLogReceiverSitesSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#namespace LogReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#namespace LogReceiver#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#tenant LogReceiver#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#tenant LogReceiver#tenant}
   */
   readonly tenant?: string;
 }
@@ -1559,13 +1559,13 @@ export class LogReceiverLogReceiverSitesSiteList extends cdktf.ComplexList {
 }
 export interface LogReceiverLogReceiverSites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#network LogReceiver#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#network LogReceiver#network}
   */
   readonly network: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#site LogReceiver#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#site LogReceiver#site}
   */
   readonly site: LogReceiverLogReceiverSitesSite[] | cdktf.IResolvable;
 }
@@ -1672,15 +1672,15 @@ export class LogReceiverLogReceiverSitesOutputReference extends cdktf.ComplexObj
 }
 export interface LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1819,15 +1819,15 @@ export class LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfoOutputReference e
 }
 export interface LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1966,11 +1966,11 @@ export class LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfoInternalOutputRef
 }
 export interface LogReceiverSplunkSplunkHecTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#url LogReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#url LogReceiver#url}
   */
   readonly url: string;
 }
@@ -2080,23 +2080,23 @@ export class LogReceiverSplunkSplunkHecTokenClearSecretInfoOutputReference exten
 }
 export interface LogReceiverSplunkSplunkHecTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key LogReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key LogReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#version LogReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#version LogReceiver#version}
   */
   readonly version?: number;
 }
@@ -2290,7 +2290,7 @@ export class LogReceiverSplunkSplunkHecTokenVaultSecretInfoOutputReference exten
 }
 export interface LogReceiverSplunkSplunkHecTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name: string;
 }
@@ -2371,37 +2371,37 @@ export class LogReceiverSplunkSplunkHecTokenWingmanSecretInfoOutputReference ext
 }
 export interface LogReceiverSplunkSplunkHecToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: LogReceiverSplunkSplunkHecTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: LogReceiverSplunkSplunkHecTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: LogReceiverSplunkSplunkHecTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: LogReceiverSplunkSplunkHecTokenWingmanSecretInfo;
 }
@@ -2630,11 +2630,11 @@ export class LogReceiverSplunkSplunkHecTokenOutputReference extends cdktf.Comple
 }
 export interface LogReceiverSplunkSplunkServerIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#ip_address LogReceiver#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#ip_address LogReceiver#ip_address}
   */
   readonly ipAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port: number;
 }
@@ -2741,11 +2741,11 @@ export class LogReceiverSplunkSplunkServerIpOutputReference extends cdktf.Comple
 }
 export interface LogReceiverSplunkSplunkServerName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName: string;
 }
@@ -2852,15 +2852,15 @@ export class LogReceiverSplunkSplunkServerNameOutputReference extends cdktf.Comp
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2999,15 +2999,15 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfo
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3146,11 +3146,11 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfo
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#url LogReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#url LogReceiver#url}
   */
   readonly url: string;
 }
@@ -3260,23 +3260,23 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlClearSecretInfoOutp
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key LogReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key LogReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#version LogReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#version LogReceiver#version}
   */
   readonly version?: number;
 }
@@ -3470,7 +3470,7 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlVaultSecretInfoOutp
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name: string;
 }
@@ -3551,37 +3551,37 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlWingmanSecretInfoOu
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlWingmanSecretInfo;
 }
@@ -3810,13 +3810,13 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrlOutputReference ext
 }
 export interface LogReceiverSplunkSplunkServerTlsMtlsEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#certificate LogReceiver#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#certificate LogReceiver#certificate}
   */
   readonly certificate?: string;
   /**
   * key_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key_url LogReceiver#key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key_url LogReceiver#key_url}
   */
   readonly keyUrl?: LogReceiverSplunkSplunkServerTlsMtlsEnableKeyUrl;
 }
@@ -3929,37 +3929,37 @@ export class LogReceiverSplunkSplunkServerTlsMtlsEnableOutputReference extends c
 }
 export interface LogReceiverSplunkSplunkServerTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#default_https_port LogReceiver#default_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#default_https_port LogReceiver#default_https_port}
   */
   readonly defaultHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#default_syslog_tls_port LogReceiver#default_syslog_tls_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#default_syslog_tls_port LogReceiver#default_syslog_tls_port}
   */
   readonly defaultSyslogTlsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#mtls_disabled LogReceiver#mtls_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#mtls_disabled LogReceiver#mtls_disabled}
   */
   readonly mtlsDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
   */
   readonly volterraCa?: boolean | cdktf.IResolvable;
   /**
   * mtls_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#mtls_enable LogReceiver#mtls_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#mtls_enable LogReceiver#mtls_enable}
   */
   readonly mtlsEnable?: LogReceiverSplunkSplunkServerTlsMtlsEnable;
 }
@@ -4245,25 +4245,25 @@ export interface LogReceiverSplunk {
   /**
   * splunk_hec_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#splunk_hec_token LogReceiver#splunk_hec_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#splunk_hec_token LogReceiver#splunk_hec_token}
   */
   readonly splunkHecToken?: LogReceiverSplunkSplunkHecToken;
   /**
   * splunk_server_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#splunk_server_ip LogReceiver#splunk_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#splunk_server_ip LogReceiver#splunk_server_ip}
   */
   readonly splunkServerIp?: LogReceiverSplunkSplunkServerIp;
   /**
   * splunk_server_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#splunk_server_name LogReceiver#splunk_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#splunk_server_name LogReceiver#splunk_server_name}
   */
   readonly splunkServerName?: LogReceiverSplunkSplunkServerName;
   /**
   * splunk_server_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#splunk_server_tls LogReceiver#splunk_server_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#splunk_server_tls LogReceiver#splunk_server_tls}
   */
   readonly splunkServerTls?: LogReceiverSplunkSplunkServerTls;
 }
@@ -4434,11 +4434,11 @@ export class LogReceiverSplunkOutputReference extends cdktf.ComplexObject {
 }
 export interface LogReceiverSyslogTcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName: string;
 }
@@ -4545,15 +4545,15 @@ export class LogReceiverSyslogTcpServerOutputReference extends cdktf.ComplexObje
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4692,15 +4692,15 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfoOutput
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#decryption_provider LogReceiver#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#store_provider LogReceiver#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4839,11 +4839,11 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfoIntern
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrlClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#url LogReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#url LogReceiver#url}
   */
   readonly url: string;
 }
@@ -4953,23 +4953,23 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlClearSecretInfoOutputRefe
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrlVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key LogReceiver#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key LogReceiver#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#location LogReceiver#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#location LogReceiver#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#provider LogReceiver#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#provider LogReceiver#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding LogReceiver#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#version LogReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#version LogReceiver#version}
   */
   readonly version?: number;
 }
@@ -5163,7 +5163,7 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlVaultSecretInfoOutputRefe
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrlWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#name LogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#name LogReceiver#name}
   */
   readonly name: string;
 }
@@ -5244,37 +5244,37 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlWingmanSecretInfoOutputRe
 }
 export interface LogReceiverSyslogTlsServerMtlsEnableKeyUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#secret_encoding_type LogReceiver#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info LogReceiver#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#blindfold_secret_info_internal LogReceiver#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: LogReceiverSyslogTlsServerMtlsEnableKeyUrlBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#clear_secret_info LogReceiver#clear_secret_info}
   */
   readonly clearSecretInfo?: LogReceiverSyslogTlsServerMtlsEnableKeyUrlClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#vault_secret_info LogReceiver#vault_secret_info}
   */
   readonly vaultSecretInfo?: LogReceiverSyslogTlsServerMtlsEnableKeyUrlVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#wingman_secret_info LogReceiver#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: LogReceiverSyslogTlsServerMtlsEnableKeyUrlWingmanSecretInfo;
 }
@@ -5503,13 +5503,13 @@ export class LogReceiverSyslogTlsServerMtlsEnableKeyUrlOutputReference extends c
 }
 export interface LogReceiverSyslogTlsServerMtlsEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#certificate LogReceiver#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#certificate LogReceiver#certificate}
   */
   readonly certificate?: string;
   /**
   * key_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#key_url LogReceiver#key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#key_url LogReceiver#key_url}
   */
   readonly keyUrl?: LogReceiverSyslogTlsServerMtlsEnableKeyUrl;
 }
@@ -5622,37 +5622,37 @@ export class LogReceiverSyslogTlsServerMtlsEnableOutputReference extends cdktf.C
 }
 export interface LogReceiverSyslogTlsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#default_https_port LogReceiver#default_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#default_https_port LogReceiver#default_https_port}
   */
   readonly defaultHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#default_syslog_tls_port LogReceiver#default_syslog_tls_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#default_syslog_tls_port LogReceiver#default_syslog_tls_port}
   */
   readonly defaultSyslogTlsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#mtls_disabled LogReceiver#mtls_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#mtls_disabled LogReceiver#mtls_disabled}
   */
   readonly mtlsDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#trusted_ca_url LogReceiver#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#volterra_ca LogReceiver#volterra_ca}
   */
   readonly volterraCa?: boolean | cdktf.IResolvable;
   /**
   * mtls_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#mtls_enable LogReceiver#mtls_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#mtls_enable LogReceiver#mtls_enable}
   */
   readonly mtlsEnable?: LogReceiverSyslogTlsServerMtlsEnable;
 }
@@ -5936,11 +5936,11 @@ export class LogReceiverSyslogTlsServerOutputReference extends cdktf.ComplexObje
 }
 export interface LogReceiverSyslogUdpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#port LogReceiver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#port LogReceiver#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#server_name LogReceiver#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#server_name LogReceiver#server_name}
   */
   readonly serverName: string;
 }
@@ -6047,29 +6047,29 @@ export class LogReceiverSyslogUdpServerOutputReference extends cdktf.ComplexObje
 }
 export interface LogReceiverSyslog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#syslog_rfc3164 LogReceiver#syslog_rfc3164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#syslog_rfc3164 LogReceiver#syslog_rfc3164}
   */
   readonly syslogRfc3164?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#syslog_rfc5424 LogReceiver#syslog_rfc5424}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#syslog_rfc5424 LogReceiver#syslog_rfc5424}
   */
   readonly syslogRfc5424?: number;
   /**
   * tcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#tcp_server LogReceiver#tcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#tcp_server LogReceiver#tcp_server}
   */
   readonly tcpServer?: LogReceiverSyslogTcpServer;
   /**
   * tls_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#tls_server LogReceiver#tls_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#tls_server LogReceiver#tls_server}
   */
   readonly tlsServer?: LogReceiverSyslogTlsServer;
   /**
   * udp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#udp_server LogReceiver#udp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#udp_server LogReceiver#udp_server}
   */
   readonly udpServer?: LogReceiverSyslogUdpServer;
 }
@@ -6269,7 +6269,7 @@ export class LogReceiverSyslogOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver volterra_log_receiver}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver volterra_log_receiver}
 */
 export class LogReceiver extends cdktf.TerraformResource {
 
@@ -6285,7 +6285,7 @@ export class LogReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogReceiver to import
-  * @param importFromId The id of the existing LogReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6297,7 +6297,7 @@ export class LogReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/log_receiver volterra_log_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/log_receiver volterra_log_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6308,8 +6308,8 @@ export class LogReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_log_receiver',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

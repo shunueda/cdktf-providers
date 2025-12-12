@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackExpressConnectVirtualBorderRoutersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#id DataApsarastackExpressConnectVirtualBorderRouters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#id DataApsarastackExpressConnectVirtualBorderRouters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#ids DataApsarastackExpressConnectVirtualBorderRouters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#ids DataApsarastackExpressConnectVirtualBorderRouters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#name_regex DataApsarastackExpressConnectVirtualBorderRouters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#name_regex DataApsarastackExpressConnectVirtualBorderRouters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#output_file DataApsarastackExpressConnectVirtualBorderRouters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#output_file DataApsarastackExpressConnectVirtualBorderRouters#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#status DataApsarastackExpressConnectVirtualBorderRouters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#status DataApsarastackExpressConnectVirtualBorderRouters#status}
   */
   readonly status?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#filter DataApsarastackExpressConnectVirtualBorderRouters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#filter DataApsarastackExpressConnectVirtualBorderRouters#filter}
   */
   readonly filter?: DataApsarastackExpressConnectVirtualBorderRoutersFilter[] | cdktf.IResolvable;
 }
@@ -269,11 +269,11 @@ export class DataApsarastackExpressConnectVirtualBorderRoutersRoutersList extend
 }
 export interface DataApsarastackExpressConnectVirtualBorderRoutersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#key DataApsarastackExpressConnectVirtualBorderRouters#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#key DataApsarastackExpressConnectVirtualBorderRouters#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#values DataApsarastackExpressConnectVirtualBorderRouters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#values DataApsarastackExpressConnectVirtualBorderRouters#values}
   */
   readonly values?: string[];
 }
@@ -418,7 +418,7 @@ export class DataApsarastackExpressConnectVirtualBorderRoutersFilterList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers apsarastack_express_connect_virtual_border_routers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers apsarastack_express_connect_virtual_border_routers}
 */
 export class DataApsarastackExpressConnectVirtualBorderRouters extends cdktf.TerraformDataSource {
 
@@ -434,7 +434,7 @@ export class DataApsarastackExpressConnectVirtualBorderRouters extends cdktf.Ter
   * Generates CDKTF code for importing a DataApsarastackExpressConnectVirtualBorderRouters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackExpressConnectVirtualBorderRouters to import
-  * @param importFromId The id of the existing DataApsarastackExpressConnectVirtualBorderRouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackExpressConnectVirtualBorderRouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackExpressConnectVirtualBorderRouters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class DataApsarastackExpressConnectVirtualBorderRouters extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_express_connect_virtual_border_routers apsarastack_express_connect_virtual_border_routers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_express_connect_virtual_border_routers apsarastack_express_connect_virtual_border_routers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class DataApsarastackExpressConnectVirtualBorderRouters extends cdktf.Ter
       terraformResourceType: 'apsarastack_express_connect_virtual_border_routers',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

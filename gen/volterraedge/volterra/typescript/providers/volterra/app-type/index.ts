@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface AppTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#annotations AppType#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#annotations AppType#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#description AppType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#description AppType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#disable AppType#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#disable AppType#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#id AppType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#id AppType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#labels AppType#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#labels AppType#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#name AppType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#name AppType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#namespace AppType#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#namespace AppType#namespace}
   */
   readonly namespace: string;
   /**
   * business_logic_markup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#business_logic_markup_setting AppType#business_logic_markup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#business_logic_markup_setting AppType#business_logic_markup_setting}
   */
   readonly businessLogicMarkupSetting?: AppTypeBusinessLogicMarkupSetting;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#features AppType#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#features AppType#features}
   */
   readonly features?: AppTypeFeatures[] | cdktf.IResolvable;
 }
 export interface AppTypeBusinessLogicMarkupSettingDiscoveredApiSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#purge_duration_for_inactive_discovered_apis AppType#purge_duration_for_inactive_discovered_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#purge_duration_for_inactive_discovered_apis AppType#purge_duration_for_inactive_discovered_apis}
   */
   readonly purgeDurationForInactiveDiscoveredApis?: number;
 }
@@ -137,15 +137,15 @@ export class AppTypeBusinessLogicMarkupSettingDiscoveredApiSettingsOutputReferen
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#description AppType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#description AppType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#disable AppType#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#disable AppType#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#name AppType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#name AppType#name}
   */
   readonly name: string;
 }
@@ -284,11 +284,11 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigApiEndpointTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#api_endpoint_path AppType#api_endpoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#api_endpoint_path AppType#api_endpoint_path}
   */
   readonly apiEndpointPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#methods AppType#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#methods AppType#methods}
   */
   readonly methods: string[];
 }
@@ -395,7 +395,7 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigCustomSections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#custom_sections AppType#custom_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#custom_sections AppType#custom_sections}
   */
   readonly customSections: string[];
 }
@@ -476,11 +476,11 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#exact_value AppType#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#exact_value AppType#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#regex_value AppType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#regex_value AppType#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -593,11 +593,11 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#exact_value AppType#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#exact_value AppType#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#regex_value AppType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#regex_value AppType#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -710,11 +710,11 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#exact_value AppType#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#exact_value AppType#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#regex_value AppType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#regex_value AppType#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -829,13 +829,13 @@ export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCus
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#key_pattern AppType#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#key_pattern AppType#key_pattern}
   */
   readonly keyPattern: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternKeyPattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#value_pattern AppType#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#value_pattern AppType#value_pattern}
   */
   readonly valuePattern: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePatternValuePattern;
 }
@@ -942,11 +942,11 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#exact_value AppType#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#exact_value AppType#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#regex_value AppType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#regex_value AppType#regex_value}
   */
   readonly regexValue?: string;
 }
@@ -1059,65 +1059,65 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#all_request_sections AppType#all_request_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#all_request_sections AppType#all_request_sections}
   */
   readonly allRequestSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#all_response_sections AppType#all_response_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#all_response_sections AppType#all_response_sections}
   */
   readonly allResponseSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#all_sections AppType#all_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#all_sections AppType#all_sections}
   */
   readonly allSections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#any_domain AppType#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#any_domain AppType#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#any_target AppType#any_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#any_target AppType#any_target}
   */
   readonly anyTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#api_group AppType#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#api_group AppType#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#base_path AppType#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#base_path AppType#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#specific_domain AppType#specific_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#specific_domain AppType#specific_domain}
   */
   readonly specificDomain?: string;
   /**
   * api_endpoint_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#api_endpoint_target AppType#api_endpoint_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#api_endpoint_target AppType#api_endpoint_target}
   */
   readonly apiEndpointTarget?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigApiEndpointTarget;
   /**
   * custom_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#custom_sections AppType#custom_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#custom_sections AppType#custom_sections}
   */
   readonly customSections?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigCustomSections;
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#key_pattern AppType#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#key_pattern AppType#key_pattern}
   */
   readonly keyPattern?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyPattern;
   /**
   * key_value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#key_value_pattern AppType#key_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#key_value_pattern AppType#key_value_pattern}
   */
   readonly keyValuePattern?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigKeyValuePattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#value_pattern AppType#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#value_pattern AppType#value_pattern}
   */
   readonly valuePattern?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfigValuePattern;
 }
@@ -1549,7 +1549,7 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#type AppType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#type AppType#type}
   */
   readonly type: string;
 }
@@ -1632,19 +1632,19 @@ export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCus
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#metadata AppType#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#metadata AppType#metadata}
   */
   readonly metadata: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesMetadata;
   /**
   * sensitive_data_detection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#sensitive_data_detection_config AppType#sensitive_data_detection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#sensitive_data_detection_config AppType#sensitive_data_detection_config}
   */
   readonly sensitiveDataDetectionConfig: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataDetectionConfig;
   /**
   * sensitive_data_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#sensitive_data_type AppType#sensitive_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#sensitive_data_type AppType#sensitive_data_type}
   */
   readonly sensitiveDataType: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRulesSensitiveDataType;
 }
@@ -1809,7 +1809,7 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomS
 }
 export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesDisabledBuiltInRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#name AppType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#name AppType#name}
   */
   readonly name: string;
 }
@@ -1924,13 +1924,13 @@ export interface AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRules {
   /**
   * custom_sensitive_data_detection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#custom_sensitive_data_detection_rules AppType#custom_sensitive_data_detection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#custom_sensitive_data_detection_rules AppType#custom_sensitive_data_detection_rules}
   */
   readonly customSensitiveDataDetectionRules?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesCustomSensitiveDataDetectionRules[] | cdktf.IResolvable;
   /**
   * disabled_built_in_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#disabled_built_in_rules AppType#disabled_built_in_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#disabled_built_in_rules AppType#disabled_built_in_rules}
   */
   readonly disabledBuiltInRules?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesDisabledBuiltInRules[] | cdktf.IResolvable;
 }
@@ -2043,23 +2043,23 @@ export class AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRulesOutputR
 }
 export interface AppTypeBusinessLogicMarkupSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#disable AppType#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#disable AppType#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#enable AppType#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#enable AppType#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * discovered_api_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#discovered_api_settings AppType#discovered_api_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#discovered_api_settings AppType#discovered_api_settings}
   */
   readonly discoveredApiSettings?: AppTypeBusinessLogicMarkupSettingDiscoveredApiSettings;
   /**
   * sensitive_data_detection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#sensitive_data_detection_rules AppType#sensitive_data_detection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#sensitive_data_detection_rules AppType#sensitive_data_detection_rules}
   */
   readonly sensitiveDataDetectionRules?: AppTypeBusinessLogicMarkupSettingSensitiveDataDetectionRules;
 }
@@ -2230,7 +2230,7 @@ export class AppTypeBusinessLogicMarkupSettingOutputReference extends cdktf.Comp
 }
 export interface AppTypeFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#type AppType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#type AppType#type}
   */
   readonly type: string;
 }
@@ -2343,7 +2343,7 @@ export class AppTypeFeaturesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type volterra_app_type}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type volterra_app_type}
 */
 export class AppType extends cdktf.TerraformResource {
 
@@ -2359,7 +2359,7 @@ export class AppType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppType to import
-  * @param importFromId The id of the existing AppType that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppType that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2371,7 +2371,7 @@ export class AppType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_type volterra_app_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_type volterra_app_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2382,8 +2382,8 @@ export class AppType extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_type',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

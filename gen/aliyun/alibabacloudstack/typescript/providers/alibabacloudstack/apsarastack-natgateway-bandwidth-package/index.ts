@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackNatgatewayBandwidthPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#bandwidth ApsarastackNatgatewayBandwidthPackage#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#bandwidth ApsarastackNatgatewayBandwidthPackage#bandwidth}
   */
   readonly bandwidth: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#description ApsarastackNatgatewayBandwidthPackage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#description ApsarastackNatgatewayBandwidthPackage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#id ApsarastackNatgatewayBandwidthPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#id ApsarastackNatgatewayBandwidthPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#ip_count ApsarastackNatgatewayBandwidthPackage#ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#ip_count ApsarastackNatgatewayBandwidthPackage#ip_count}
   */
   readonly ipCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#name ApsarastackNatgatewayBandwidthPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#name ApsarastackNatgatewayBandwidthPackage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#natgateway_id ApsarastackNatgatewayBandwidthPackage#natgateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#natgateway_id ApsarastackNatgatewayBandwidthPackage#natgateway_id}
   */
   readonly natgatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#status ApsarastackNatgatewayBandwidthPackage#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#status ApsarastackNatgatewayBandwidthPackage#status}
   */
   readonly status?: string;
 }
@@ -121,7 +121,7 @@ export class ApsarastackNatgatewayBandwidthPackagePublicIpAddressesList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package apsarastack_natgateway_bandwidth_package}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package apsarastack_natgateway_bandwidth_package}
 */
 export class ApsarastackNatgatewayBandwidthPackage extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class ApsarastackNatgatewayBandwidthPackage extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackNatgatewayBandwidthPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackNatgatewayBandwidthPackage to import
-  * @param importFromId The id of the existing ApsarastackNatgatewayBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackNatgatewayBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackNatgatewayBandwidthPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class ApsarastackNatgatewayBandwidthPackage extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_bandwidth_package apsarastack_natgateway_bandwidth_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_bandwidth_package apsarastack_natgateway_bandwidth_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class ApsarastackNatgatewayBandwidthPackage extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_natgateway_bandwidth_package',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

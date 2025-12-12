@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackApiGatewayV2CascadeLinksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#cascade_instance_name DataApsarastackApiGatewayV2CascadeLinks#cascade_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#cascade_instance_name DataApsarastackApiGatewayV2CascadeLinks#cascade_instance_name}
   */
   readonly cascadeInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#id DataApsarastackApiGatewayV2CascadeLinks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#id DataApsarastackApiGatewayV2CascadeLinks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#ids DataApsarastackApiGatewayV2CascadeLinks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#ids DataApsarastackApiGatewayV2CascadeLinks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#name_regex DataApsarastackApiGatewayV2CascadeLinks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#name_regex DataApsarastackApiGatewayV2CascadeLinks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#source_instance_name DataApsarastackApiGatewayV2CascadeLinks#source_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#source_instance_name DataApsarastackApiGatewayV2CascadeLinks#source_instance_name}
   */
   readonly sourceInstanceName?: string;
 }
@@ -148,7 +148,7 @@ export class DataApsarastackApiGatewayV2CascadeLinksLinksList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links apsarastack_api_gateway_v2_cascade_links}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links apsarastack_api_gateway_v2_cascade_links}
 */
 export class DataApsarastackApiGatewayV2CascadeLinks extends cdktf.TerraformDataSource {
 
@@ -164,7 +164,7 @@ export class DataApsarastackApiGatewayV2CascadeLinks extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataApsarastackApiGatewayV2CascadeLinks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackApiGatewayV2CascadeLinks to import
-  * @param importFromId The id of the existing DataApsarastackApiGatewayV2CascadeLinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackApiGatewayV2CascadeLinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackApiGatewayV2CascadeLinks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class DataApsarastackApiGatewayV2CascadeLinks extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_api_gateway_v2_cascade_links apsarastack_api_gateway_v2_cascade_links} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_api_gateway_v2_cascade_links apsarastack_api_gateway_v2_cascade_links} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class DataApsarastackApiGatewayV2CascadeLinks extends cdktf.TerraformData
       terraformResourceType: 'apsarastack_api_gateway_v2_cascade_links',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

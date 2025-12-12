@@ -1,3 +1,3 @@
 # `yandex_compute_snapshot`
 
-Refer to the Terraform Registry for docs: [`yandex_compute_snapshot`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_snapshot).
+Refer to the Terraform Registry for docs: [`yandex_compute_snapshot`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_snapshot).

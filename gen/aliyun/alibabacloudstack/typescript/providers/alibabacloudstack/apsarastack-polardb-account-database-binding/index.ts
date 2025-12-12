@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackPolardbAccountDatabaseBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#account_name ApsarastackPolardbAccountDatabaseBinding#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#account_name ApsarastackPolardbAccountDatabaseBinding#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#db_instance_id ApsarastackPolardbAccountDatabaseBinding#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#db_instance_id ApsarastackPolardbAccountDatabaseBinding#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#id ApsarastackPolardbAccountDatabaseBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#id ApsarastackPolardbAccountDatabaseBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface ApsarastackPolardbAccountDatabaseBindingConfig extends cdktf.Te
   /**
   * database_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#database_privileges ApsarastackPolardbAccountDatabaseBinding#database_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#database_privileges ApsarastackPolardbAccountDatabaseBinding#database_privileges}
   */
   readonly databasePrivileges?: ApsarastackPolardbAccountDatabaseBindingDatabasePrivileges[] | cdktf.IResolvable;
 }
 export interface ApsarastackPolardbAccountDatabaseBindingDatabasePrivileges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#db_name ApsarastackPolardbAccountDatabaseBinding#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#db_name ApsarastackPolardbAccountDatabaseBinding#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#privilege ApsarastackPolardbAccountDatabaseBinding#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#privilege ApsarastackPolardbAccountDatabaseBinding#privilege}
   */
   readonly privilege?: string;
 }
@@ -180,7 +180,7 @@ export class ApsarastackPolardbAccountDatabaseBindingDatabasePrivilegesList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding apsarastack_polardb_account_database_binding}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding apsarastack_polardb_account_database_binding}
 */
 export class ApsarastackPolardbAccountDatabaseBinding extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class ApsarastackPolardbAccountDatabaseBinding extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ApsarastackPolardbAccountDatabaseBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackPolardbAccountDatabaseBinding to import
-  * @param importFromId The id of the existing ApsarastackPolardbAccountDatabaseBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackPolardbAccountDatabaseBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackPolardbAccountDatabaseBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class ApsarastackPolardbAccountDatabaseBinding extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_account_database_binding apsarastack_polardb_account_database_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_account_database_binding apsarastack_polardb_account_database_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class ApsarastackPolardbAccountDatabaseBinding extends cdktf.TerraformRes
       terraformResourceType: 'apsarastack_polardb_account_database_binding',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

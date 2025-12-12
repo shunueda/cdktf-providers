@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateOpsgenieIncidentConfig extends cdktf.Terrafor
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#enabled WorkflowTaskUpdateOpsgenieIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#enabled WorkflowTaskUpdateOpsgenieIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#id WorkflowTaskUpdateOpsgenieIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#id WorkflowTaskUpdateOpsgenieIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateOpsgenieIncidentConfig extends cdktf.Terrafor
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#name WorkflowTaskUpdateOpsgenieIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#name WorkflowTaskUpdateOpsgenieIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#position WorkflowTaskUpdateOpsgenieIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#position WorkflowTaskUpdateOpsgenieIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#skip_on_failure WorkflowTaskUpdateOpsgenieIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#skip_on_failure WorkflowTaskUpdateOpsgenieIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#workflow_id WorkflowTaskUpdateOpsgenieIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#workflow_id WorkflowTaskUpdateOpsgenieIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#task_params WorkflowTaskUpdateOpsgenieIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#task_params WorkflowTaskUpdateOpsgenieIncident#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateOpsgenieIncidentTaskParams;
 }
@@ -55,35 +55,35 @@ export interface WorkflowTaskUpdateOpsgenieIncidentTaskParams {
   /**
   * Description field of the alert that is generally used to provide a detailed information about the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#description WorkflowTaskUpdateOpsgenieIncident#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#description WorkflowTaskUpdateOpsgenieIncident#description}
   */
   readonly description?: string;
   /**
   * Message of the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#message WorkflowTaskUpdateOpsgenieIncident#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#message WorkflowTaskUpdateOpsgenieIncident#message}
   */
   readonly message?: string;
   /**
   * The Opsgenie incident ID, this can also be a Rootly incident variable 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#opsgenie_incident_id WorkflowTaskUpdateOpsgenieIncident#opsgenie_incident_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#opsgenie_incident_id WorkflowTaskUpdateOpsgenieIncident#opsgenie_incident_id}
   */
   readonly opsgenieIncidentId: string;
   /**
   * Value must be one of `P1`, `P2`, `P3`, `P4`, `P5`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#priority WorkflowTaskUpdateOpsgenieIncident#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#priority WorkflowTaskUpdateOpsgenieIncident#priority}
   */
   readonly priority?: string;
   /**
   * Value must be one of `resolve`, `open`, `close`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#status WorkflowTaskUpdateOpsgenieIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#status WorkflowTaskUpdateOpsgenieIncident#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#task_type WorkflowTaskUpdateOpsgenieIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#task_type WorkflowTaskUpdateOpsgenieIncident#task_type}
   */
   readonly taskType?: string;
 }
@@ -309,7 +309,7 @@ export class WorkflowTaskUpdateOpsgenieIncidentTaskParamsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident rootly_workflow_task_update_opsgenie_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident rootly_workflow_task_update_opsgenie_incident}
 */
 export class WorkflowTaskUpdateOpsgenieIncident extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class WorkflowTaskUpdateOpsgenieIncident extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a WorkflowTaskUpdateOpsgenieIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateOpsgenieIncident to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateOpsgenieIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateOpsgenieIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateOpsgenieIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class WorkflowTaskUpdateOpsgenieIncident extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_incident rootly_workflow_task_update_opsgenie_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_incident rootly_workflow_task_update_opsgenie_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class WorkflowTaskUpdateOpsgenieIncident extends cdktf.TerraformResource 
       terraformResourceType: 'rootly_workflow_task_update_opsgenie_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

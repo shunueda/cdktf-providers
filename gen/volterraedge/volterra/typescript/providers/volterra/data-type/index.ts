@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DataTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#annotations DataType#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#annotations DataType#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#compliances DataType#compliances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#compliances DataType#compliances}
   */
   readonly compliances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#description DataType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#description DataType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#disable DataType#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#disable DataType#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#id DataType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#id DataType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#is_pii DataType#is_pii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#is_pii DataType#is_pii}
   */
   readonly isPii?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#is_sensitive_data DataType#is_sensitive_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#is_sensitive_data DataType#is_sensitive_data}
   */
   readonly isSensitiveData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#labels DataType#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#labels DataType#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#name DataType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#name DataType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#namespace DataType#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#namespace DataType#namespace}
   */
   readonly namespace: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#rules DataType#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#rules DataType#rules}
   */
   readonly rules: DataTypeRules[] | cdktf.IResolvable;
 }
 export interface DataTypeRulesKeyPatternExactValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues: string[];
 }
@@ -140,17 +140,17 @@ export class DataTypeRulesKeyPatternExactValuesOutputReference extends cdktf.Com
 }
 export interface DataTypeRulesKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#regex_value DataType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#regex_value DataType#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#substring_value DataType#substring_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#substring_value DataType#substring_value}
   */
   readonly substringValue?: string;
   /**
   * exact_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues?: DataTypeRulesKeyPatternExactValues;
 }
@@ -292,7 +292,7 @@ export class DataTypeRulesKeyPatternOutputReference extends cdktf.ComplexObject 
 }
 export interface DataTypeRulesKeyValuePatternKeyPatternExactValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues: string[];
 }
@@ -373,17 +373,17 @@ export class DataTypeRulesKeyValuePatternKeyPatternExactValuesOutputReference ex
 }
 export interface DataTypeRulesKeyValuePatternKeyPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#regex_value DataType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#regex_value DataType#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#substring_value DataType#substring_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#substring_value DataType#substring_value}
   */
   readonly substringValue?: string;
   /**
   * exact_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues?: DataTypeRulesKeyValuePatternKeyPatternExactValues;
 }
@@ -525,7 +525,7 @@ export class DataTypeRulesKeyValuePatternKeyPatternOutputReference extends cdktf
 }
 export interface DataTypeRulesKeyValuePatternValuePatternExactValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues: string[];
 }
@@ -606,17 +606,17 @@ export class DataTypeRulesKeyValuePatternValuePatternExactValuesOutputReference 
 }
 export interface DataTypeRulesKeyValuePatternValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#regex_value DataType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#regex_value DataType#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#substring_value DataType#substring_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#substring_value DataType#substring_value}
   */
   readonly substringValue?: string;
   /**
   * exact_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues?: DataTypeRulesKeyValuePatternValuePatternExactValues;
 }
@@ -760,13 +760,13 @@ export interface DataTypeRulesKeyValuePattern {
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#key_pattern DataType#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#key_pattern DataType#key_pattern}
   */
   readonly keyPattern: DataTypeRulesKeyValuePatternKeyPattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#value_pattern DataType#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#value_pattern DataType#value_pattern}
   */
   readonly valuePattern: DataTypeRulesKeyValuePatternValuePattern;
 }
@@ -873,7 +873,7 @@ export class DataTypeRulesKeyValuePatternOutputReference extends cdktf.ComplexOb
 }
 export interface DataTypeRulesValuePatternExactValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues: string[];
 }
@@ -954,17 +954,17 @@ export class DataTypeRulesValuePatternExactValuesOutputReference extends cdktf.C
 }
 export interface DataTypeRulesValuePattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#regex_value DataType#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#regex_value DataType#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#substring_value DataType#substring_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#substring_value DataType#substring_value}
   */
   readonly substringValue?: string;
   /**
   * exact_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#exact_values DataType#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#exact_values DataType#exact_values}
   */
   readonly exactValues?: DataTypeRulesValuePatternExactValues;
 }
@@ -1108,19 +1108,19 @@ export interface DataTypeRules {
   /**
   * key_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#key_pattern DataType#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#key_pattern DataType#key_pattern}
   */
   readonly keyPattern?: DataTypeRulesKeyPattern;
   /**
   * key_value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#key_value_pattern DataType#key_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#key_value_pattern DataType#key_value_pattern}
   */
   readonly keyValuePattern?: DataTypeRulesKeyValuePattern;
   /**
   * value_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#value_pattern DataType#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#value_pattern DataType#value_pattern}
   */
   readonly valuePattern?: DataTypeRulesValuePattern;
 }
@@ -1294,7 +1294,7 @@ export class DataTypeRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type volterra_data_type}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type volterra_data_type}
 */
 export class DataType extends cdktf.TerraformResource {
 
@@ -1310,7 +1310,7 @@ export class DataType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataType to import
-  * @param importFromId The id of the existing DataType that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataType that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1322,7 +1322,7 @@ export class DataType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/data_type volterra_data_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/data_type volterra_data_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1333,8 +1333,8 @@ export class DataType extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_data_type',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

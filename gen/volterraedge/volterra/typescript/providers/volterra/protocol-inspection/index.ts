@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ProtocolInspectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#action ProtocolInspection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#action ProtocolInspection#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#annotations ProtocolInspection#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#annotations ProtocolInspection#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#description ProtocolInspection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#description ProtocolInspection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#disable ProtocolInspection#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#disable ProtocolInspection#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#id ProtocolInspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#id ProtocolInspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#labels ProtocolInspection#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#labels ProtocolInspection#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#name ProtocolInspection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#name ProtocolInspection#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#namespace ProtocolInspection#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#namespace ProtocolInspection#namespace}
   */
   readonly namespace: string;
   /**
   * enable_disable_compliance_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#enable_disable_compliance_checks ProtocolInspection#enable_disable_compliance_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#enable_disable_compliance_checks ProtocolInspection#enable_disable_compliance_checks}
   */
   readonly enableDisableComplianceChecks: ProtocolInspectionEnableDisableComplianceChecks;
   /**
   * enable_disable_signatures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#enable_disable_signatures ProtocolInspection#enable_disable_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#enable_disable_signatures ProtocolInspection#enable_disable_signatures}
   */
   readonly enableDisableSignatures: ProtocolInspectionEnableDisableSignatures;
 }
 export interface ProtocolInspectionEnableDisableComplianceChecksEnableComplianceChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#name ProtocolInspection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#name ProtocolInspection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#namespace ProtocolInspection#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#namespace ProtocolInspection#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#tenant ProtocolInspection#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#tenant ProtocolInspection#tenant}
   */
   readonly tenant?: string;
 }
@@ -207,13 +207,13 @@ export class ProtocolInspectionEnableDisableComplianceChecksEnableComplianceChec
 }
 export interface ProtocolInspectionEnableDisableComplianceChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#disable_compliance_checks ProtocolInspection#disable_compliance_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#disable_compliance_checks ProtocolInspection#disable_compliance_checks}
   */
   readonly disableComplianceChecks?: boolean | cdktf.IResolvable;
   /**
   * enable_compliance_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#enable_compliance_checks ProtocolInspection#enable_compliance_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#enable_compliance_checks ProtocolInspection#enable_compliance_checks}
   */
   readonly enableComplianceChecks?: ProtocolInspectionEnableDisableComplianceChecksEnableComplianceChecks;
 }
@@ -326,11 +326,11 @@ export class ProtocolInspectionEnableDisableComplianceChecksOutputReference exte
 }
 export interface ProtocolInspectionEnableDisableSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#disable_signature ProtocolInspection#disable_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#disable_signature ProtocolInspection#disable_signature}
   */
   readonly disableSignature?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#enable_signature ProtocolInspection#enable_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#enable_signature ProtocolInspection#enable_signature}
   */
   readonly enableSignature?: boolean | cdktf.IResolvable;
 }
@@ -443,7 +443,7 @@ export class ProtocolInspectionEnableDisableSignaturesOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection volterra_protocol_inspection}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection volterra_protocol_inspection}
 */
 export class ProtocolInspection extends cdktf.TerraformResource {
 
@@ -459,7 +459,7 @@ export class ProtocolInspection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolInspection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolInspection to import
-  * @param importFromId The id of the existing ProtocolInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolInspection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -471,7 +471,7 @@ export class ProtocolInspection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_inspection volterra_protocol_inspection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protocol_inspection volterra_protocol_inspection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -482,8 +482,8 @@ export class ProtocolInspection extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_protocol_inspection',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

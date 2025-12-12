@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackVpnCustomerGatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways#id DataAlibabacloudstackVpnCustomerGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways#id DataAlibabacloudstackVpnCustomerGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways#ids DataAlibabacloudstackVpnCustomerGateways#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways#ids DataAlibabacloudstackVpnCustomerGateways#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways#name_regex DataAlibabacloudstackVpnCustomerGateways#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways#name_regex DataAlibabacloudstackVpnCustomerGateways#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways#output_file DataAlibabacloudstackVpnCustomerGateways#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways#output_file DataAlibabacloudstackVpnCustomerGateways#output_file}
   */
   readonly outputFile?: string;
 }
@@ -124,7 +124,7 @@ export class DataAlibabacloudstackVpnCustomerGatewaysGatewaysList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways alibabacloudstack_vpn_customer_gateways}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways alibabacloudstack_vpn_customer_gateways}
 */
 export class DataAlibabacloudstackVpnCustomerGateways extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataAlibabacloudstackVpnCustomerGateways extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataAlibabacloudstackVpnCustomerGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackVpnCustomerGateways to import
-  * @param importFromId The id of the existing DataAlibabacloudstackVpnCustomerGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackVpnCustomerGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackVpnCustomerGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataAlibabacloudstackVpnCustomerGateways extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpn_customer_gateways alibabacloudstack_vpn_customer_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpn_customer_gateways alibabacloudstack_vpn_customer_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataAlibabacloudstackVpnCustomerGateways extends cdktf.TerraformDat
       terraformResourceType: 'alibabacloudstack_vpn_customer_gateways',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface SecureCustomPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#description SecureCustomPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#description SecureCustomPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#enabled SecureCustomPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#enabled SecureCustomPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#id SecureCustomPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#id SecureCustomPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#notification_channels SecureCustomPolicy#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#notification_channels SecureCustomPolicy#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#runbook SecureCustomPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#runbook SecureCustomPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#scope SecureCustomPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#scope SecureCustomPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#severity SecureCustomPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#severity SecureCustomPolicy#severity}
   */
   readonly severity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#type SecureCustomPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#type SecureCustomPolicy#type}
   */
   readonly type?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#actions SecureCustomPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#actions SecureCustomPolicy#actions}
   */
   readonly actions?: SecureCustomPolicyActions[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#rules SecureCustomPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#rules SecureCustomPolicy#rules}
   */
   readonly rules?: SecureCustomPolicyRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#timeouts SecureCustomPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#timeouts SecureCustomPolicy#timeouts}
   */
   readonly timeouts?: SecureCustomPolicyTimeouts;
 }
 export interface SecureCustomPolicyActionsCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#bucket_name SecureCustomPolicy#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#bucket_name SecureCustomPolicy#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#filter SecureCustomPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#filter SecureCustomPolicy#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#folder SecureCustomPolicy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#folder SecureCustomPolicy#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#seconds_after_event SecureCustomPolicy#seconds_after_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#seconds_after_event SecureCustomPolicy#seconds_after_event}
   */
   readonly secondsAfterEvent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#seconds_before_event SecureCustomPolicy#seconds_before_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#seconds_before_event SecureCustomPolicy#seconds_before_event}
   */
   readonly secondsBeforeEvent: number;
 }
@@ -339,17 +339,17 @@ export class SecureCustomPolicyActionsCaptureList extends cdktf.ComplexList {
 }
 export interface SecureCustomPolicyActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#container SecureCustomPolicy#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#container SecureCustomPolicy#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#kill_process SecureCustomPolicy#kill_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#kill_process SecureCustomPolicy#kill_process}
   */
   readonly killProcess?: boolean | cdktf.IResolvable;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#capture SecureCustomPolicy#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#capture SecureCustomPolicy#capture}
   */
   readonly capture?: SecureCustomPolicyActionsCapture[] | cdktf.IResolvable;
 }
@@ -523,11 +523,11 @@ export class SecureCustomPolicyActionsList extends cdktf.ComplexList {
 }
 export interface SecureCustomPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#enabled SecureCustomPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#enabled SecureCustomPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#name SecureCustomPolicy#name}
   */
   readonly name: string;
 }
@@ -669,19 +669,19 @@ export class SecureCustomPolicyRulesList extends cdktf.ComplexList {
 }
 export interface SecureCustomPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#create SecureCustomPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#create SecureCustomPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#delete SecureCustomPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#delete SecureCustomPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#read SecureCustomPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#read SecureCustomPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#update SecureCustomPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#update SecureCustomPolicy#update}
   */
   readonly update?: string;
 }
@@ -862,7 +862,7 @@ export class SecureCustomPolicyTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy sysdig_secure_custom_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy sysdig_secure_custom_policy}
 */
 export class SecureCustomPolicy extends cdktf.TerraformResource {
 
@@ -878,7 +878,7 @@ export class SecureCustomPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureCustomPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureCustomPolicy to import
-  * @param importFromId The id of the existing SecureCustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureCustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureCustomPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -890,7 +890,7 @@ export class SecureCustomPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_custom_policy sysdig_secure_custom_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_custom_policy sysdig_secure_custom_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -901,8 +901,8 @@ export class SecureCustomPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_custom_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

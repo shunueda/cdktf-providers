@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface UnifiedPolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#annotations UnifiedPolicyGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#annotations UnifiedPolicyGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#description UnifiedPolicyGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#description UnifiedPolicyGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#disable UnifiedPolicyGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#disable UnifiedPolicyGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#id UnifiedPolicyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#id UnifiedPolicyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#labels UnifiedPolicyGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#labels UnifiedPolicyGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace: string;
   /**
   * east_west_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#east_west_policy UnifiedPolicyGroup#east_west_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#east_west_policy UnifiedPolicyGroup#east_west_policy}
   */
   readonly eastWestPolicy?: UnifiedPolicyGroupEastWestPolicy;
   /**
   * internet_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#internet_policy UnifiedPolicyGroup#internet_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#internet_policy UnifiedPolicyGroup#internet_policy}
   */
   readonly internetPolicy?: UnifiedPolicyGroupInternetPolicy;
 }
 export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -237,7 +237,7 @@ export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveEnhancedFirewallP
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#enhanced_firewall_policies UnifiedPolicyGroup#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#enhanced_firewall_policies UnifiedPolicyGroup#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: UnifiedPolicyGroupEastWestPolicyPoliciesActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -318,15 +318,15 @@ export class UnifiedPolicyGroupEastWestPolicyPoliciesActiveEnhancedFirewallPolic
 }
 export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -502,7 +502,7 @@ export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveForwardProxyPolic
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#forward_proxy_policies UnifiedPolicyGroup#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#forward_proxy_policies UnifiedPolicyGroup#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: UnifiedPolicyGroupEastWestPolicyPoliciesActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -583,15 +583,15 @@ export class UnifiedPolicyGroupEastWestPolicyPoliciesActiveForwardProxyPoliciesO
 }
 export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveServicePoliciesServicePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -767,7 +767,7 @@ export interface UnifiedPolicyGroupEastWestPolicyPoliciesActiveServicePolicies {
   /**
   * service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#service_policies UnifiedPolicyGroup#service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#service_policies UnifiedPolicyGroup#service_policies}
   */
   readonly servicePolicies?: UnifiedPolicyGroupEastWestPolicyPoliciesActiveServicePoliciesServicePolicies[] | cdktf.IResolvable;
 }
@@ -851,29 +851,29 @@ export class UnifiedPolicyGroupEastWestPolicyPoliciesActiveServicePoliciesOutput
 }
 export interface UnifiedPolicyGroupEastWestPolicyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#no_firewall_policy UnifiedPolicyGroup#no_firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#no_firewall_policy UnifiedPolicyGroup#no_firewall_policy}
   */
   readonly noFirewallPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#no_forward_proxy UnifiedPolicyGroup#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#no_forward_proxy UnifiedPolicyGroup#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_enhanced_firewall_policies UnifiedPolicyGroup#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_enhanced_firewall_policies UnifiedPolicyGroup#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: UnifiedPolicyGroupEastWestPolicyPoliciesActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_forward_proxy_policies UnifiedPolicyGroup#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_forward_proxy_policies UnifiedPolicyGroup#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: UnifiedPolicyGroupEastWestPolicyPoliciesActiveForwardProxyPolicies;
   /**
   * active_service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_service_policies UnifiedPolicyGroup#active_service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_service_policies UnifiedPolicyGroup#active_service_policies}
   */
   readonly activeServicePolicies?: UnifiedPolicyGroupEastWestPolicyPoliciesActiveServicePolicies;
 }
@@ -1075,7 +1075,7 @@ export interface UnifiedPolicyGroupEastWestPolicy {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#policies UnifiedPolicyGroup#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#policies UnifiedPolicyGroup#policies}
   */
   readonly policies?: UnifiedPolicyGroupEastWestPolicyPolicies;
 }
@@ -1159,15 +1159,15 @@ export class UnifiedPolicyGroupEastWestPolicyOutputReference extends cdktf.Compl
 }
 export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1343,7 +1343,7 @@ export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveEnhancedFirewallP
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#enhanced_firewall_policies UnifiedPolicyGroup#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#enhanced_firewall_policies UnifiedPolicyGroup#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: UnifiedPolicyGroupInternetPolicyPoliciesActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -1424,15 +1424,15 @@ export class UnifiedPolicyGroupInternetPolicyPoliciesActiveEnhancedFirewallPolic
 }
 export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1608,7 +1608,7 @@ export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveForwardProxyPolic
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#forward_proxy_policies UnifiedPolicyGroup#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#forward_proxy_policies UnifiedPolicyGroup#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: UnifiedPolicyGroupInternetPolicyPoliciesActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -1689,15 +1689,15 @@ export class UnifiedPolicyGroupInternetPolicyPoliciesActiveForwardProxyPoliciesO
 }
 export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveServicePoliciesServicePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#name UnifiedPolicyGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#namespace UnifiedPolicyGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#tenant UnifiedPolicyGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -1873,7 +1873,7 @@ export interface UnifiedPolicyGroupInternetPolicyPoliciesActiveServicePolicies {
   /**
   * service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#service_policies UnifiedPolicyGroup#service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#service_policies UnifiedPolicyGroup#service_policies}
   */
   readonly servicePolicies?: UnifiedPolicyGroupInternetPolicyPoliciesActiveServicePoliciesServicePolicies[] | cdktf.IResolvable;
 }
@@ -1957,29 +1957,29 @@ export class UnifiedPolicyGroupInternetPolicyPoliciesActiveServicePoliciesOutput
 }
 export interface UnifiedPolicyGroupInternetPolicyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#no_firewall_policy UnifiedPolicyGroup#no_firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#no_firewall_policy UnifiedPolicyGroup#no_firewall_policy}
   */
   readonly noFirewallPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#no_forward_proxy UnifiedPolicyGroup#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#no_forward_proxy UnifiedPolicyGroup#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_enhanced_firewall_policies UnifiedPolicyGroup#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_enhanced_firewall_policies UnifiedPolicyGroup#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: UnifiedPolicyGroupInternetPolicyPoliciesActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_forward_proxy_policies UnifiedPolicyGroup#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_forward_proxy_policies UnifiedPolicyGroup#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: UnifiedPolicyGroupInternetPolicyPoliciesActiveForwardProxyPolicies;
   /**
   * active_service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#active_service_policies UnifiedPolicyGroup#active_service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#active_service_policies UnifiedPolicyGroup#active_service_policies}
   */
   readonly activeServicePolicies?: UnifiedPolicyGroupInternetPolicyPoliciesActiveServicePolicies;
 }
@@ -2181,7 +2181,7 @@ export interface UnifiedPolicyGroupInternetPolicy {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#policies UnifiedPolicyGroup#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#policies UnifiedPolicyGroup#policies}
   */
   readonly policies?: UnifiedPolicyGroupInternetPolicyPolicies;
 }
@@ -2265,7 +2265,7 @@ export class UnifiedPolicyGroupInternetPolicyOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group volterra_unified_policy_group}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group volterra_unified_policy_group}
 */
 export class UnifiedPolicyGroup extends cdktf.TerraformResource {
 
@@ -2281,7 +2281,7 @@ export class UnifiedPolicyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnifiedPolicyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnifiedPolicyGroup to import
-  * @param importFromId The id of the existing UnifiedPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnifiedPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnifiedPolicyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2293,7 +2293,7 @@ export class UnifiedPolicyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/unified_policy_group volterra_unified_policy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/unified_policy_group volterra_unified_policy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2304,8 +2304,8 @@ export class UnifiedPolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_unified_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

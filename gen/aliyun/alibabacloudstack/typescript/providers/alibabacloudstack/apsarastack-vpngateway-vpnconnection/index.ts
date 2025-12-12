@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackVpngatewayVpnconnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#customer_gateway_id ApsarastackVpngatewayVpnconnection#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#customer_gateway_id ApsarastackVpngatewayVpnconnection#customer_gateway_id}
   */
   readonly customerGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#effect_immediately ApsarastackVpngatewayVpnconnection#effect_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#effect_immediately ApsarastackVpngatewayVpnconnection#effect_immediately}
   */
   readonly effectImmediately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#id ApsarastackVpngatewayVpnconnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#id ApsarastackVpngatewayVpnconnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#local_subnet ApsarastackVpngatewayVpnconnection#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#local_subnet ApsarastackVpngatewayVpnconnection#local_subnet}
   */
   readonly localSubnet: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#name ApsarastackVpngatewayVpnconnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#name ApsarastackVpngatewayVpnconnection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#remote_subnet ApsarastackVpngatewayVpnconnection#remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#remote_subnet ApsarastackVpngatewayVpnconnection#remote_subnet}
   */
   readonly remoteSubnet: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#vpn_connection_name ApsarastackVpngatewayVpnconnection#vpn_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#vpn_connection_name ApsarastackVpngatewayVpnconnection#vpn_connection_name}
   */
   readonly vpnConnectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#vpn_gateway_id ApsarastackVpngatewayVpnconnection#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#vpn_gateway_id ApsarastackVpngatewayVpnconnection#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
   /**
   * ike_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_config ApsarastackVpngatewayVpnconnection#ike_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_config ApsarastackVpngatewayVpnconnection#ike_config}
   */
   readonly ikeConfig?: ApsarastackVpngatewayVpnconnectionIkeConfig[] | cdktf.IResolvable;
   /**
   * ipsec_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_config ApsarastackVpngatewayVpnconnection#ipsec_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_config ApsarastackVpngatewayVpnconnection#ipsec_config}
   */
   readonly ipsecConfig?: ApsarastackVpngatewayVpnconnectionIpsecConfig[] | cdktf.IResolvable;
 }
 export interface ApsarastackVpngatewayVpnconnectionIkeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_auth_alg ApsarastackVpngatewayVpnconnection#ike_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_auth_alg ApsarastackVpngatewayVpnconnection#ike_auth_alg}
   */
   readonly ikeAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_enc_alg ApsarastackVpngatewayVpnconnection#ike_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_enc_alg ApsarastackVpngatewayVpnconnection#ike_enc_alg}
   */
   readonly ikeEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_lifetime ApsarastackVpngatewayVpnconnection#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_lifetime ApsarastackVpngatewayVpnconnection#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_local_id ApsarastackVpngatewayVpnconnection#ike_local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_local_id ApsarastackVpngatewayVpnconnection#ike_local_id}
   */
   readonly ikeLocalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_mode ApsarastackVpngatewayVpnconnection#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_mode ApsarastackVpngatewayVpnconnection#ike_mode}
   */
   readonly ikeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_pfs ApsarastackVpngatewayVpnconnection#ike_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_pfs ApsarastackVpngatewayVpnconnection#ike_pfs}
   */
   readonly ikePfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_remote_id ApsarastackVpngatewayVpnconnection#ike_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_remote_id ApsarastackVpngatewayVpnconnection#ike_remote_id}
   */
   readonly ikeRemoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ike_version ApsarastackVpngatewayVpnconnection#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ike_version ApsarastackVpngatewayVpnconnection#ike_version}
   */
   readonly ikeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#psk ApsarastackVpngatewayVpnconnection#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#psk ApsarastackVpngatewayVpnconnection#psk}
   */
   readonly psk?: string;
 }
@@ -437,19 +437,19 @@ export class ApsarastackVpngatewayVpnconnectionIkeConfigList extends cdktf.Compl
 }
 export interface ApsarastackVpngatewayVpnconnectionIpsecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_auth_alg ApsarastackVpngatewayVpnconnection#ipsec_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_auth_alg ApsarastackVpngatewayVpnconnection#ipsec_auth_alg}
   */
   readonly ipsecAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_enc_alg ApsarastackVpngatewayVpnconnection#ipsec_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_enc_alg ApsarastackVpngatewayVpnconnection#ipsec_enc_alg}
   */
   readonly ipsecEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_lifetime ApsarastackVpngatewayVpnconnection#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_lifetime ApsarastackVpngatewayVpnconnection#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_pfs ApsarastackVpngatewayVpnconnection#ipsec_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#ipsec_pfs ApsarastackVpngatewayVpnconnection#ipsec_pfs}
   */
   readonly ipsecPfs?: string;
 }
@@ -652,7 +652,7 @@ export class ApsarastackVpngatewayVpnconnectionIpsecConfigList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection apsarastack_vpngateway_vpnconnection}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection apsarastack_vpngateway_vpnconnection}
 */
 export class ApsarastackVpngatewayVpnconnection extends cdktf.TerraformResource {
 
@@ -668,7 +668,7 @@ export class ApsarastackVpngatewayVpnconnection extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApsarastackVpngatewayVpnconnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackVpngatewayVpnconnection to import
-  * @param importFromId The id of the existing ApsarastackVpngatewayVpnconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackVpngatewayVpnconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackVpngatewayVpnconnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -680,7 +680,7 @@ export class ApsarastackVpngatewayVpnconnection extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_vpnconnection apsarastack_vpngateway_vpnconnection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_vpnconnection apsarastack_vpngateway_vpnconnection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -691,8 +691,8 @@ export class ApsarastackVpngatewayVpnconnection extends cdktf.TerraformResource 
       terraformResourceType: 'apsarastack_vpngateway_vpnconnection',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

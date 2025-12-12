@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackNasZonesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones#id DataApsarastackNasZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#file_system_type DataApsarastackNasZones#file_system_type}
+  */
+  readonly fileSystemType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#id DataApsarastackNasZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones#output_file DataApsarastackNasZones#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#output_file DataApsarastackNasZones#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones#protocol DataApsarastackNasZones#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#protocol DataApsarastackNasZones#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones#zone_id DataApsarastackNasZones#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#zone_id DataApsarastackNasZones#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -286,7 +290,7 @@ export class DataApsarastackNasZonesZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones apsarastack_nas_zones}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones apsarastack_nas_zones}
 */
 export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
 
@@ -302,7 +306,7 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApsarastackNasZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackNasZones to import
-  * @param importFromId The id of the existing DataApsarastackNasZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackNasZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackNasZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +318,7 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_nas_zones apsarastack_nas_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_nas_zones apsarastack_nas_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +329,8 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'apsarastack_nas_zones',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -336,6 +340,7 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._fileSystemType = config.fileSystemType;
     this._id = config.id;
     this._outputFile = config.outputFile;
     this._protocol = config.protocol;
@@ -345,6 +350,22 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // file_system_type - computed: false, optional: true, required: false
+  private _fileSystemType?: string; 
+  public get fileSystemType() {
+    return this.getStringAttribute('file_system_type');
+  }
+  public set fileSystemType(value: string) {
+    this._fileSystemType = value;
+  }
+  public resetFileSystemType() {
+    this._fileSystemType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileSystemTypeInput() {
+    return this._fileSystemType;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -422,6 +443,7 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      file_system_type: cdktf.stringToTerraform(this._fileSystemType),
       id: cdktf.stringToTerraform(this._id),
       output_file: cdktf.stringToTerraform(this._outputFile),
       protocol: cdktf.stringToTerraform(this._protocol),
@@ -431,6 +453,12 @@ export class DataApsarastackNasZones extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      file_system_type: {
+        value: cdktf.stringToHclTerraform(this._fileSystemType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

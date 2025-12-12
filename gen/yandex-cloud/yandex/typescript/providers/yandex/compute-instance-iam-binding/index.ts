@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ComputeInstanceIamBindingConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the compute `instance` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding#instance_id ComputeInstanceIamBinding#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding#instance_id ComputeInstanceIamBinding#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -29,25 +29,25 @@ export interface ComputeInstanceIamBindingConfig extends cdktf.TerraformMetaArgu
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding#members ComputeInstanceIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding#members ComputeInstanceIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_compute_instance_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding#role ComputeInstanceIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding#role ComputeInstanceIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding#sleep_after ComputeInstanceIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding#sleep_after ComputeInstanceIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding yandex_compute_instance_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding yandex_compute_instance_iam_binding}
 */
 export class ComputeInstanceIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ComputeInstanceIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstanceIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstanceIamBinding to import
-  * @param importFromId The id of the existing ComputeInstanceIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstanceIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstanceIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ComputeInstanceIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_iam_binding yandex_compute_instance_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_instance_iam_binding yandex_compute_instance_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ComputeInstanceIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_instance_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

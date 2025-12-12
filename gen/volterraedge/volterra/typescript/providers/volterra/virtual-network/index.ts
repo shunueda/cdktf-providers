@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#annotations VirtualNetwork#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#annotations VirtualNetwork#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#description VirtualNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#description VirtualNetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#disable VirtualNetwork#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#disable VirtualNetwork#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#global_network VirtualNetwork#global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#global_network VirtualNetwork#global_network}
   */
   readonly globalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#id VirtualNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#id VirtualNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#labels VirtualNetwork#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#labels VirtualNetwork#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#legacy_type VirtualNetwork#legacy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#legacy_type VirtualNetwork#legacy_type}
   */
   readonly legacyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#site_local_inside_network VirtualNetwork#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#site_local_inside_network VirtualNetwork#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#site_local_network VirtualNetwork#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#site_local_network VirtualNetwork#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * srv6_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#srv6_network VirtualNetwork#srv6_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#srv6_network VirtualNetwork#srv6_network}
   */
   readonly srv6Network?: VirtualNetworkSrv6Network;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#static_routes VirtualNetwork#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#static_routes VirtualNetwork#static_routes}
   */
   readonly staticRoutes?: VirtualNetworkStaticRoutes[] | cdktf.IResolvable;
   /**
   * static_v6_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#static_v6_routes VirtualNetwork#static_v6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#static_v6_routes VirtualNetwork#static_v6_routes}
   */
   readonly staticV6Routes?: VirtualNetworkStaticV6Routes[] | cdktf.IResolvable;
 }
 export interface VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn2ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -186,11 +186,11 @@ export class VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn2ByteRtargetOutput
 }
 export interface VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn4ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -297,11 +297,11 @@ export class VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn4ByteRtargetOutput
 }
 export interface VirtualNetworkSrv6NetworkAccessNetworkRtargetsIpv4AddrRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#address VirtualNetwork#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#address VirtualNetwork#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -410,19 +410,19 @@ export interface VirtualNetworkSrv6NetworkAccessNetworkRtargets {
   /**
   * asn2byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
   */
   readonly asn2ByteRtarget?: VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn2ByteRtarget;
   /**
   * asn4byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
   */
   readonly asn4ByteRtarget?: VirtualNetworkSrv6NetworkAccessNetworkRtargetsAsn4ByteRtarget;
   /**
   * ipv4_addr_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
   */
   readonly ipv4AddrRtarget?: VirtualNetworkSrv6NetworkAccessNetworkRtargetsIpv4AddrRtarget;
 }
@@ -596,11 +596,11 @@ export class VirtualNetworkSrv6NetworkAccessNetworkRtargetsList extends cdktf.Co
 }
 export interface VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn2ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -707,11 +707,11 @@ export class VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn2ByteRtargetOu
 }
 export interface VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn4ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -818,11 +818,11 @@ export class VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn4ByteRtargetOu
 }
 export interface VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsIpv4AddrRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#address VirtualNetwork#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#address VirtualNetwork#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -931,19 +931,19 @@ export interface VirtualNetworkSrv6NetworkEnterpriseNetworkRtargets {
   /**
   * asn2byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
   */
   readonly asn2ByteRtarget?: VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn2ByteRtarget;
   /**
   * asn4byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
   */
   readonly asn4ByteRtarget?: VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsAsn4ByteRtarget;
   /**
   * ipv4_addr_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
   */
   readonly ipv4AddrRtarget?: VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsIpv4AddrRtarget;
 }
@@ -1117,11 +1117,11 @@ export class VirtualNetworkSrv6NetworkEnterpriseNetworkRtargetsList extends cdkt
 }
 export interface VirtualNetworkSrv6NetworkExportRtargetsAsn2ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -1228,11 +1228,11 @@ export class VirtualNetworkSrv6NetworkExportRtargetsAsn2ByteRtargetOutputReferen
 }
 export interface VirtualNetworkSrv6NetworkExportRtargetsAsn4ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -1339,11 +1339,11 @@ export class VirtualNetworkSrv6NetworkExportRtargetsAsn4ByteRtargetOutputReferen
 }
 export interface VirtualNetworkSrv6NetworkExportRtargetsIpv4AddrRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#address VirtualNetwork#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#address VirtualNetwork#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -1452,19 +1452,19 @@ export interface VirtualNetworkSrv6NetworkExportRtargets {
   /**
   * asn2byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
   */
   readonly asn2ByteRtarget?: VirtualNetworkSrv6NetworkExportRtargetsAsn2ByteRtarget;
   /**
   * asn4byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
   */
   readonly asn4ByteRtarget?: VirtualNetworkSrv6NetworkExportRtargetsAsn4ByteRtarget;
   /**
   * ipv4_addr_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
   */
   readonly ipv4AddrRtarget?: VirtualNetworkSrv6NetworkExportRtargetsIpv4AddrRtarget;
 }
@@ -1638,15 +1638,15 @@ export class VirtualNetworkSrv6NetworkExportRtargetsList extends cdktf.ComplexLi
 }
 export interface VirtualNetworkSrv6NetworkFleetSnatPoolSnatPoolAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -1790,7 +1790,7 @@ export interface VirtualNetworkSrv6NetworkFleetSnatPool {
   /**
   * snat_pool_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#snat_pool_allocator VirtualNetwork#snat_pool_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#snat_pool_allocator VirtualNetwork#snat_pool_allocator}
   */
   readonly snatPoolAllocator: VirtualNetworkSrv6NetworkFleetSnatPoolSnatPoolAllocator;
 }
@@ -1871,15 +1871,15 @@ export class VirtualNetworkSrv6NetworkFleetSnatPoolOutputReference extends cdktf
 }
 export interface VirtualNetworkSrv6NetworkFleetVipVipAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -2023,7 +2023,7 @@ export interface VirtualNetworkSrv6NetworkFleetVip {
   /**
   * vip_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#vip_allocator VirtualNetwork#vip_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#vip_allocator VirtualNetwork#vip_allocator}
   */
   readonly vipAllocator: VirtualNetworkSrv6NetworkFleetVipVipAllocator;
 }
@@ -2104,15 +2104,15 @@ export class VirtualNetworkSrv6NetworkFleetVipOutputReference extends cdktf.Comp
 }
 export interface VirtualNetworkSrv6NetworkFleets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -2286,11 +2286,11 @@ export class VirtualNetworkSrv6NetworkFleetsList extends cdktf.ComplexList {
 }
 export interface VirtualNetworkSrv6NetworkInternetRtargetsAsn2ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -2397,11 +2397,11 @@ export class VirtualNetworkSrv6NetworkInternetRtargetsAsn2ByteRtargetOutputRefer
 }
 export interface VirtualNetworkSrv6NetworkInternetRtargetsAsn4ByteRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#as_number VirtualNetwork#as_number}
   */
   readonly asNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -2508,11 +2508,11 @@ export class VirtualNetworkSrv6NetworkInternetRtargetsAsn4ByteRtargetOutputRefer
 }
 export interface VirtualNetworkSrv6NetworkInternetRtargetsIpv4AddrRtarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#address VirtualNetwork#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#address VirtualNetwork#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: number;
 }
@@ -2621,19 +2621,19 @@ export interface VirtualNetworkSrv6NetworkInternetRtargets {
   /**
   * asn2byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn2byte_rtarget VirtualNetwork#asn2byte_rtarget}
   */
   readonly asn2ByteRtarget?: VirtualNetworkSrv6NetworkInternetRtargetsAsn2ByteRtarget;
   /**
   * asn4byte_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#asn4byte_rtarget VirtualNetwork#asn4byte_rtarget}
   */
   readonly asn4ByteRtarget?: VirtualNetworkSrv6NetworkInternetRtargetsAsn4ByteRtarget;
   /**
   * ipv4_addr_rtarget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv4_addr_rtarget VirtualNetwork#ipv4_addr_rtarget}
   */
   readonly ipv4AddrRtarget?: VirtualNetworkSrv6NetworkInternetRtargetsIpv4AddrRtarget;
 }
@@ -2807,11 +2807,11 @@ export class VirtualNetworkSrv6NetworkInternetRtargetsList extends cdktf.Complex
 }
 export interface VirtualNetworkSrv6NetworkSiteSnatPoolNodeSnatPoolValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv4_prefixes VirtualNetwork#ipv4_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv4_prefixes VirtualNetwork#ipv4_prefixes}
   */
   readonly ipv4Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ipv6_prefixes VirtualNetwork#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ipv6_prefixes VirtualNetwork#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -2924,13 +2924,13 @@ export class VirtualNetworkSrv6NetworkSiteSnatPoolNodeSnatPoolValueOutputReferen
 }
 export interface VirtualNetworkSrv6NetworkSiteSnatPoolNodeSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#value VirtualNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#value VirtualNetwork#value}
   */
   readonly value: VirtualNetworkSrv6NetworkSiteSnatPoolNodeSnatPoolValue;
 }
@@ -3039,7 +3039,7 @@ export interface VirtualNetworkSrv6NetworkSiteSnatPool {
   /**
   * node_snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#node_snat_pool VirtualNetwork#node_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#node_snat_pool VirtualNetwork#node_snat_pool}
   */
   readonly nodeSnatPool: VirtualNetworkSrv6NetworkSiteSnatPoolNodeSnatPool;
 }
@@ -3120,15 +3120,15 @@ export class VirtualNetworkSrv6NetworkSiteSnatPoolOutputReference extends cdktf.
 }
 export interface VirtualNetworkSrv6NetworkSlice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -3270,7 +3270,7 @@ export class VirtualNetworkSrv6NetworkSliceOutputReference extends cdktf.Complex
 }
 export interface VirtualNetworkSrv6NetworkSrv6NetworkNsParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace: string;
 }
@@ -3351,83 +3351,83 @@ export class VirtualNetworkSrv6NetworkSrv6NetworkNsParamsOutputReference extends
 }
 export interface VirtualNetworkSrv6Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#anycast_vip VirtualNetwork#anycast_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#anycast_vip VirtualNetwork#anycast_vip}
   */
   readonly anycastVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface_ip_snat_pool VirtualNetwork#interface_ip_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface_ip_snat_pool VirtualNetwork#interface_ip_snat_pool}
   */
   readonly interfaceIpSnatPool?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface_ip_vip VirtualNetwork#interface_ip_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface_ip_vip VirtualNetwork#interface_ip_vip}
   */
   readonly interfaceIpVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#no_namespace_network VirtualNetwork#no_namespace_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#no_namespace_network VirtualNetwork#no_namespace_network}
   */
   readonly noNamespaceNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#remote_sid_stats_plen VirtualNetwork#remote_sid_stats_plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#remote_sid_stats_plen VirtualNetwork#remote_sid_stats_plen}
   */
   readonly remoteSidStatsPlen?: number;
   /**
   * access_network_rtargets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#access_network_rtargets VirtualNetwork#access_network_rtargets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#access_network_rtargets VirtualNetwork#access_network_rtargets}
   */
   readonly accessNetworkRtargets?: VirtualNetworkSrv6NetworkAccessNetworkRtargets[] | cdktf.IResolvable;
   /**
   * enterprise_network_rtargets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#enterprise_network_rtargets VirtualNetwork#enterprise_network_rtargets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#enterprise_network_rtargets VirtualNetwork#enterprise_network_rtargets}
   */
   readonly enterpriseNetworkRtargets?: VirtualNetworkSrv6NetworkEnterpriseNetworkRtargets[] | cdktf.IResolvable;
   /**
   * export_rtargets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#export_rtargets VirtualNetwork#export_rtargets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#export_rtargets VirtualNetwork#export_rtargets}
   */
   readonly exportRtargets?: VirtualNetworkSrv6NetworkExportRtargets[] | cdktf.IResolvable;
   /**
   * fleet_snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#fleet_snat_pool VirtualNetwork#fleet_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#fleet_snat_pool VirtualNetwork#fleet_snat_pool}
   */
   readonly fleetSnatPool?: VirtualNetworkSrv6NetworkFleetSnatPool;
   /**
   * fleet_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#fleet_vip VirtualNetwork#fleet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#fleet_vip VirtualNetwork#fleet_vip}
   */
   readonly fleetVip?: VirtualNetworkSrv6NetworkFleetVip;
   /**
   * fleets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#fleets VirtualNetwork#fleets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#fleets VirtualNetwork#fleets}
   */
   readonly fleets?: VirtualNetworkSrv6NetworkFleets[] | cdktf.IResolvable;
   /**
   * internet_rtargets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#internet_rtargets VirtualNetwork#internet_rtargets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#internet_rtargets VirtualNetwork#internet_rtargets}
   */
   readonly internetRtargets?: VirtualNetworkSrv6NetworkInternetRtargets[] | cdktf.IResolvable;
   /**
   * site_snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#site_snat_pool VirtualNetwork#site_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#site_snat_pool VirtualNetwork#site_snat_pool}
   */
   readonly siteSnatPool?: VirtualNetworkSrv6NetworkSiteSnatPool;
   /**
   * slice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#slice VirtualNetwork#slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#slice VirtualNetwork#slice}
   */
   readonly slice: VirtualNetworkSrv6NetworkSlice;
   /**
   * srv6_network_ns_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#srv6_network_ns_params VirtualNetwork#srv6_network_ns_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#srv6_network_ns_params VirtualNetwork#srv6_network_ns_params}
   */
   readonly srv6NetworkNsParams?: VirtualNetworkSrv6NetworkSrv6NetworkNsParams;
 }
@@ -3914,15 +3914,15 @@ export class VirtualNetworkSrv6NetworkOutputReference extends cdktf.ComplexObjec
 }
 export interface VirtualNetworkStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -4064,15 +4064,15 @@ export class VirtualNetworkStaticRoutesInterfaceOutputReference extends cdktf.Co
 }
 export interface VirtualNetworkStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -4251,13 +4251,13 @@ export class VirtualNetworkStaticRoutesNodeInterfaceListInterfaceList extends cd
 }
 export interface VirtualNetworkStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#node VirtualNetwork#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#node VirtualNetwork#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface VirtualNetwork#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface VirtualNetwork#interface}
   */
   readonly interface?: VirtualNetworkStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -4404,7 +4404,7 @@ export interface VirtualNetworkStaticRoutesNodeInterface {
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#list VirtualNetwork#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#list VirtualNetwork#list}
   */
   readonly list?: VirtualNetworkStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -4488,31 +4488,31 @@ export class VirtualNetworkStaticRoutesNodeInterfaceOutputReference extends cdkt
 }
 export interface VirtualNetworkStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#attrs VirtualNetwork#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#attrs VirtualNetwork#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#default_gateway VirtualNetwork#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#default_gateway VirtualNetwork#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ip_address VirtualNetwork#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ip_address VirtualNetwork#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ip_prefixes VirtualNetwork#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ip_prefixes VirtualNetwork#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface VirtualNetwork#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface VirtualNetwork#interface}
   */
   readonly interface?: VirtualNetworkStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#node_interface VirtualNetwork#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#node_interface VirtualNetwork#node_interface}
   */
   readonly nodeInterface?: VirtualNetworkStaticRoutesNodeInterface;
 }
@@ -4770,15 +4770,15 @@ export class VirtualNetworkStaticRoutesList extends cdktf.ComplexList {
 }
 export interface VirtualNetworkStaticV6RoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -4920,15 +4920,15 @@ export class VirtualNetworkStaticV6RoutesInterfaceOutputReference extends cdktf.
 }
 export interface VirtualNetworkStaticV6RoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#name VirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#name VirtualNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#namespace VirtualNetwork#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#tenant VirtualNetwork#tenant}
   */
   readonly tenant?: string;
 }
@@ -5107,13 +5107,13 @@ export class VirtualNetworkStaticV6RoutesNodeInterfaceListInterfaceList extends 
 }
 export interface VirtualNetworkStaticV6RoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#node VirtualNetwork#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#node VirtualNetwork#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface VirtualNetwork#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface VirtualNetwork#interface}
   */
   readonly interface?: VirtualNetworkStaticV6RoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -5260,7 +5260,7 @@ export interface VirtualNetworkStaticV6RoutesNodeInterface {
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#list VirtualNetwork#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#list VirtualNetwork#list}
   */
   readonly list?: VirtualNetworkStaticV6RoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -5344,31 +5344,31 @@ export class VirtualNetworkStaticV6RoutesNodeInterfaceOutputReference extends cd
 }
 export interface VirtualNetworkStaticV6Routes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#attrs VirtualNetwork#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#attrs VirtualNetwork#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#default_gateway VirtualNetwork#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#default_gateway VirtualNetwork#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ip_address VirtualNetwork#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ip_address VirtualNetwork#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#ip_prefixes VirtualNetwork#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#ip_prefixes VirtualNetwork#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#interface VirtualNetwork#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#interface VirtualNetwork#interface}
   */
   readonly interface?: VirtualNetworkStaticV6RoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#node_interface VirtualNetwork#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#node_interface VirtualNetwork#node_interface}
   */
   readonly nodeInterface?: VirtualNetworkStaticV6RoutesNodeInterface;
 }
@@ -5626,7 +5626,7 @@ export class VirtualNetworkStaticV6RoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network volterra_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network volterra_virtual_network}
 */
 export class VirtualNetwork extends cdktf.TerraformResource {
 
@@ -5642,7 +5642,7 @@ export class VirtualNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualNetwork to import
-  * @param importFromId The id of the existing VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5654,7 +5654,7 @@ export class VirtualNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_network volterra_virtual_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/virtual_network volterra_virtual_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5665,8 +5665,8 @@ export class VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

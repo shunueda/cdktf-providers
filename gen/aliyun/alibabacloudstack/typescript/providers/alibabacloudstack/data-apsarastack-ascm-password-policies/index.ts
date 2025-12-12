@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackAscmPasswordPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#hard_expiry DataApsarastackAscmPasswordPolicies#hard_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#hard_expiry DataApsarastackAscmPasswordPolicies#hard_expiry}
   */
   readonly hardExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#id DataApsarastackAscmPasswordPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#id DataApsarastackAscmPasswordPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#ids DataApsarastackAscmPasswordPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#ids DataApsarastackAscmPasswordPolicies#ids}
   */
   readonly ids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#max_login_attempts DataApsarastackAscmPasswordPolicies#max_login_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#max_login_attempts DataApsarastackAscmPasswordPolicies#max_login_attempts}
   */
   readonly maxLoginAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#max_password_age DataApsarastackAscmPasswordPolicies#max_password_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#max_password_age DataApsarastackAscmPasswordPolicies#max_password_age}
   */
   readonly maxPasswordAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#minimum_password_length DataApsarastackAscmPasswordPolicies#minimum_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#minimum_password_length DataApsarastackAscmPasswordPolicies#minimum_password_length}
   */
   readonly minimumPasswordLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#output_file DataApsarastackAscmPasswordPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#output_file DataApsarastackAscmPasswordPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#password_reuse_prevention DataApsarastackAscmPasswordPolicies#password_reuse_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#password_reuse_prevention DataApsarastackAscmPasswordPolicies#password_reuse_prevention}
   */
   readonly passwordReusePrevention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#require_lowercase_characters DataApsarastackAscmPasswordPolicies#require_lowercase_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#require_lowercase_characters DataApsarastackAscmPasswordPolicies#require_lowercase_characters}
   */
   readonly requireLowercaseCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#require_numbers DataApsarastackAscmPasswordPolicies#require_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#require_numbers DataApsarastackAscmPasswordPolicies#require_numbers}
   */
   readonly requireNumbers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#require_symbols DataApsarastackAscmPasswordPolicies#require_symbols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#require_symbols DataApsarastackAscmPasswordPolicies#require_symbols}
   */
   readonly requireSymbols?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#require_uppercase_characters DataApsarastackAscmPasswordPolicies#require_uppercase_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#require_uppercase_characters DataApsarastackAscmPasswordPolicies#require_uppercase_characters}
   */
   readonly requireUppercaseCharacters?: boolean | cdktf.IResolvable;
 }
@@ -176,7 +176,7 @@ export class DataApsarastackAscmPasswordPoliciesPoliciesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies apsarastack_ascm_password_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies apsarastack_ascm_password_policies}
 */
 export class DataApsarastackAscmPasswordPolicies extends cdktf.TerraformDataSource {
 
@@ -192,7 +192,7 @@ export class DataApsarastackAscmPasswordPolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataApsarastackAscmPasswordPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackAscmPasswordPolicies to import
-  * @param importFromId The id of the existing DataApsarastackAscmPasswordPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackAscmPasswordPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackAscmPasswordPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class DataApsarastackAscmPasswordPolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_ascm_password_policies apsarastack_ascm_password_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_ascm_password_policies apsarastack_ascm_password_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class DataApsarastackAscmPasswordPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'apsarastack_ascm_password_policies',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackQuickBiWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#allow_publish ApsarastackQuickBiWorkspace#allow_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#allow_publish ApsarastackQuickBiWorkspace#allow_publish}
   */
   readonly allowPublish?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#allow_share ApsarastackQuickBiWorkspace#allow_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#allow_share ApsarastackQuickBiWorkspace#allow_share}
   */
   readonly allowShare?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#id ApsarastackQuickBiWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#id ApsarastackQuickBiWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#use_comment ApsarastackQuickBiWorkspace#use_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#use_comment ApsarastackQuickBiWorkspace#use_comment}
   */
   readonly useComment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#workspace_desc ApsarastackQuickBiWorkspace#workspace_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#workspace_desc ApsarastackQuickBiWorkspace#workspace_desc}
   */
   readonly workspaceDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#workspace_name ApsarastackQuickBiWorkspace#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#workspace_name ApsarastackQuickBiWorkspace#workspace_name}
   */
   readonly workspaceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace apsarastack_quick_bi_workspace}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace apsarastack_quick_bi_workspace}
 */
 export class ApsarastackQuickBiWorkspace extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ApsarastackQuickBiWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackQuickBiWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackQuickBiWorkspace to import
-  * @param importFromId The id of the existing ApsarastackQuickBiWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackQuickBiWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackQuickBiWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ApsarastackQuickBiWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_quick_bi_workspace apsarastack_quick_bi_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_quick_bi_workspace apsarastack_quick_bi_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ApsarastackQuickBiWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_quick_bi_workspace',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

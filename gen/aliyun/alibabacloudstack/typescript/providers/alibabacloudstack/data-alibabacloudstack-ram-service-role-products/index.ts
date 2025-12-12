@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackRamServiceRoleProductsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products#id DataAlibabacloudstackRamServiceRoleProducts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products#id DataAlibabacloudstackRamServiceRoleProducts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products#name_regex DataAlibabacloudstackRamServiceRoleProducts#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products#name_regex DataAlibabacloudstackRamServiceRoleProducts#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products#output_file DataAlibabacloudstackRamServiceRoleProducts#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products#output_file DataAlibabacloudstackRamServiceRoleProducts#output_file}
   */
   readonly outputFile?: string;
 }
@@ -110,7 +110,7 @@ export class DataAlibabacloudstackRamServiceRoleProductsProductsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products alibabacloudstack_ram_service_role_products}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products alibabacloudstack_ram_service_role_products}
 */
 export class DataAlibabacloudstackRamServiceRoleProducts extends cdktf.TerraformDataSource {
 
@@ -126,7 +126,7 @@ export class DataAlibabacloudstackRamServiceRoleProducts extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlibabacloudstackRamServiceRoleProducts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackRamServiceRoleProducts to import
-  * @param importFromId The id of the existing DataAlibabacloudstackRamServiceRoleProducts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackRamServiceRoleProducts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackRamServiceRoleProducts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class DataAlibabacloudstackRamServiceRoleProducts extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ram_service_role_products alibabacloudstack_ram_service_role_products} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ram_service_role_products alibabacloudstack_ram_service_role_products} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class DataAlibabacloudstackRamServiceRoleProducts extends cdktf.Terraform
       terraformResourceType: 'alibabacloudstack_ram_service_role_products',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackExpressconnectBgpNetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks#dst_cidr_block DataApsarastackExpressconnectBgpNetworks#dst_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks#dst_cidr_block DataApsarastackExpressconnectBgpNetworks#dst_cidr_block}
   */
   readonly dstCidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks#id DataApsarastackExpressconnectBgpNetworks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks#id DataApsarastackExpressconnectBgpNetworks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks#ids DataApsarastackExpressconnectBgpNetworks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks#ids DataApsarastackExpressconnectBgpNetworks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks#router_id DataApsarastackExpressconnectBgpNetworks#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks#router_id DataApsarastackExpressconnectBgpNetworks#router_id}
   */
   readonly routerId: string;
 }
@@ -119,7 +119,7 @@ export class DataApsarastackExpressconnectBgpNetworksBgpNetworksList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks apsarastack_expressconnect_bgp_networks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks apsarastack_expressconnect_bgp_networks}
 */
 export class DataApsarastackExpressconnectBgpNetworks extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataApsarastackExpressconnectBgpNetworks extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataApsarastackExpressconnectBgpNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackExpressconnectBgpNetworks to import
-  * @param importFromId The id of the existing DataApsarastackExpressconnectBgpNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackExpressconnectBgpNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackExpressconnectBgpNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataApsarastackExpressconnectBgpNetworks extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_bgp_networks apsarastack_expressconnect_bgp_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_bgp_networks apsarastack_expressconnect_bgp_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataApsarastackExpressconnectBgpNetworks extends cdktf.TerraformDat
       terraformResourceType: 'apsarastack_expressconnect_bgp_networks',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

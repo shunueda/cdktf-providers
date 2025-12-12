@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface AppFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#allow_all_response_codes AppFirewall#allow_all_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#allow_all_response_codes AppFirewall#allow_all_response_codes}
   */
   readonly allowAllResponseCodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#annotations AppFirewall#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#annotations AppFirewall#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#blocking AppFirewall#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#blocking AppFirewall#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_anonymization AppFirewall#default_anonymization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_anonymization AppFirewall#default_anonymization}
   */
   readonly defaultAnonymization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_bot_setting AppFirewall#default_bot_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_bot_setting AppFirewall#default_bot_setting}
   */
   readonly defaultBotSetting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_detection_settings AppFirewall#default_detection_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_detection_settings AppFirewall#default_detection_settings}
   */
   readonly defaultDetectionSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#description AppFirewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#description AppFirewall#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disable AppFirewall#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disable AppFirewall#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disable_anonymization AppFirewall#disable_anonymization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disable_anonymization AppFirewall#disable_anonymization}
   */
   readonly disableAnonymization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#id AppFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#id AppFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#labels AppFirewall#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#labels AppFirewall#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#monitoring AppFirewall#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#monitoring AppFirewall#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#name AppFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#name AppFirewall#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#namespace AppFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#namespace AppFirewall#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#use_default_blocking_page AppFirewall#use_default_blocking_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#use_default_blocking_page AppFirewall#use_default_blocking_page}
   */
   readonly useDefaultBlockingPage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#use_loadbalancer_setting AppFirewall#use_loadbalancer_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#use_loadbalancer_setting AppFirewall#use_loadbalancer_setting}
   */
   readonly useLoadbalancerSetting?: boolean | cdktf.IResolvable;
   /**
   * ai_risk_based_blocking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#ai_risk_based_blocking AppFirewall#ai_risk_based_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#ai_risk_based_blocking AppFirewall#ai_risk_based_blocking}
   */
   readonly aiRiskBasedBlocking?: AppFirewallAiRiskBasedBlocking;
   /**
   * allowed_response_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#allowed_response_codes AppFirewall#allowed_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#allowed_response_codes AppFirewall#allowed_response_codes}
   */
   readonly allowedResponseCodes?: AppFirewallAllowedResponseCodes;
   /**
   * blocking_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#blocking_page AppFirewall#blocking_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#blocking_page AppFirewall#blocking_page}
   */
   readonly blockingPage?: AppFirewallBlockingPage;
   /**
   * bot_protection_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#bot_protection_setting AppFirewall#bot_protection_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#bot_protection_setting AppFirewall#bot_protection_setting}
   */
   readonly botProtectionSetting?: AppFirewallBotProtectionSetting;
   /**
   * custom_anonymization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#custom_anonymization AppFirewall#custom_anonymization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#custom_anonymization AppFirewall#custom_anonymization}
   */
   readonly customAnonymization?: AppFirewallCustomAnonymization;
   /**
   * detection_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#detection_settings AppFirewall#detection_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#detection_settings AppFirewall#detection_settings}
   */
   readonly detectionSettings?: AppFirewallDetectionSettings;
 }
 export interface AppFirewallAiRiskBasedBlocking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#high_risk_action AppFirewall#high_risk_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#high_risk_action AppFirewall#high_risk_action}
   */
   readonly highRiskAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#low_risk_action AppFirewall#low_risk_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#low_risk_action AppFirewall#low_risk_action}
   */
   readonly lowRiskAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#medium_risk_action AppFirewall#medium_risk_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#medium_risk_action AppFirewall#medium_risk_action}
   */
   readonly mediumRiskAction: string;
 }
@@ -254,7 +254,7 @@ export class AppFirewallAiRiskBasedBlockingOutputReference extends cdktf.Complex
 }
 export interface AppFirewallAllowedResponseCodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#response_code AppFirewall#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#response_code AppFirewall#response_code}
   */
   readonly responseCode: number[];
 }
@@ -335,11 +335,11 @@ export class AppFirewallAllowedResponseCodesOutputReference extends cdktf.Comple
 }
 export interface AppFirewallBlockingPage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#blocking_page AppFirewall#blocking_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#blocking_page AppFirewall#blocking_page}
   */
   readonly blockingPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#response_code AppFirewall#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#response_code AppFirewall#response_code}
   */
   readonly responseCode?: string;
 }
@@ -452,15 +452,15 @@ export class AppFirewallBlockingPageOutputReference extends cdktf.ComplexObject 
 }
 export interface AppFirewallBotProtectionSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#good_bot_action AppFirewall#good_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#good_bot_action AppFirewall#good_bot_action}
   */
   readonly goodBotAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#malicious_bot_action AppFirewall#malicious_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#malicious_bot_action AppFirewall#malicious_bot_action}
   */
   readonly maliciousBotAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#suspicious_bot_action AppFirewall#suspicious_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#suspicious_bot_action AppFirewall#suspicious_bot_action}
   */
   readonly suspiciousBotAction?: string;
 }
@@ -602,7 +602,7 @@ export class AppFirewallBotProtectionSettingOutputReference extends cdktf.Comple
 }
 export interface AppFirewallCustomAnonymizationAnonymizationConfigCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#cookie_name AppFirewall#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#cookie_name AppFirewall#cookie_name}
   */
   readonly cookieName: string;
 }
@@ -683,7 +683,7 @@ export class AppFirewallCustomAnonymizationAnonymizationConfigCookieOutputRefere
 }
 export interface AppFirewallCustomAnonymizationAnonymizationConfigHttpHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#header_name AppFirewall#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#header_name AppFirewall#header_name}
   */
   readonly headerName: string;
 }
@@ -764,7 +764,7 @@ export class AppFirewallCustomAnonymizationAnonymizationConfigHttpHeaderOutputRe
 }
 export interface AppFirewallCustomAnonymizationAnonymizationConfigQueryParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#query_param_name AppFirewall#query_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#query_param_name AppFirewall#query_param_name}
   */
   readonly queryParamName: string;
 }
@@ -847,19 +847,19 @@ export interface AppFirewallCustomAnonymizationAnonymizationConfig {
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#cookie AppFirewall#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#cookie AppFirewall#cookie}
   */
   readonly cookie?: AppFirewallCustomAnonymizationAnonymizationConfigCookie;
   /**
   * http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#http_header AppFirewall#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#http_header AppFirewall#http_header}
   */
   readonly httpHeader?: AppFirewallCustomAnonymizationAnonymizationConfigHttpHeader;
   /**
   * query_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#query_parameter AppFirewall#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#query_parameter AppFirewall#query_parameter}
   */
   readonly queryParameter?: AppFirewallCustomAnonymizationAnonymizationConfigQueryParameter;
 }
@@ -1035,7 +1035,7 @@ export interface AppFirewallCustomAnonymization {
   /**
   * anonymization_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#anonymization_config AppFirewall#anonymization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#anonymization_config AppFirewall#anonymization_config}
   */
   readonly anonymizationConfig: AppFirewallCustomAnonymizationAnonymizationConfig[] | cdktf.IResolvable;
 }
@@ -1116,15 +1116,15 @@ export class AppFirewallCustomAnonymizationOutputReference extends cdktf.Complex
 }
 export interface AppFirewallDetectionSettingsBotProtectionSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#good_bot_action AppFirewall#good_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#good_bot_action AppFirewall#good_bot_action}
   */
   readonly goodBotAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#malicious_bot_action AppFirewall#malicious_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#malicious_bot_action AppFirewall#malicious_bot_action}
   */
   readonly maliciousBotAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#suspicious_bot_action AppFirewall#suspicious_bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#suspicious_bot_action AppFirewall#suspicious_bot_action}
   */
   readonly suspiciousBotAction?: string;
 }
@@ -1266,7 +1266,7 @@ export class AppFirewallDetectionSettingsBotProtectionSettingOutputReference ext
 }
 export interface AppFirewallDetectionSettingsSignatureSelectionSettingAttackTypeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disabled_attack_types AppFirewall#disabled_attack_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disabled_attack_types AppFirewall#disabled_attack_types}
   */
   readonly disabledAttackTypes: string[];
 }
@@ -1347,25 +1347,25 @@ export class AppFirewallDetectionSettingsSignatureSelectionSettingAttackTypeSett
 }
 export interface AppFirewallDetectionSettingsSignatureSelectionSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_attack_type_settings AppFirewall#default_attack_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_attack_type_settings AppFirewall#default_attack_type_settings}
   */
   readonly defaultAttackTypeSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#high_medium_accuracy_signatures AppFirewall#high_medium_accuracy_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#high_medium_accuracy_signatures AppFirewall#high_medium_accuracy_signatures}
   */
   readonly highMediumAccuracySignatures?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#high_medium_low_accuracy_signatures AppFirewall#high_medium_low_accuracy_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#high_medium_low_accuracy_signatures AppFirewall#high_medium_low_accuracy_signatures}
   */
   readonly highMediumLowAccuracySignatures?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#only_high_accuracy_signatures AppFirewall#only_high_accuracy_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#only_high_accuracy_signatures AppFirewall#only_high_accuracy_signatures}
   */
   readonly onlyHighAccuracySignatures?: boolean | cdktf.IResolvable;
   /**
   * attack_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#attack_type_settings AppFirewall#attack_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#attack_type_settings AppFirewall#attack_type_settings}
   */
   readonly attackTypeSettings?: AppFirewallDetectionSettingsSignatureSelectionSettingAttackTypeSettings;
 }
@@ -1565,7 +1565,7 @@ export class AppFirewallDetectionSettingsSignatureSelectionSettingOutputReferenc
 }
 export interface AppFirewallDetectionSettingsStageNewAndUpdatedSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#staging_period AppFirewall#staging_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#staging_period AppFirewall#staging_period}
   */
   readonly stagingPeriod: number;
 }
@@ -1646,7 +1646,7 @@ export class AppFirewallDetectionSettingsStageNewAndUpdatedSignaturesOutputRefer
 }
 export interface AppFirewallDetectionSettingsStageNewSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#staging_period AppFirewall#staging_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#staging_period AppFirewall#staging_period}
   */
   readonly stagingPeriod: number;
 }
@@ -1727,7 +1727,7 @@ export class AppFirewallDetectionSettingsStageNewSignaturesOutputReference exten
 }
 export interface AppFirewallDetectionSettingsViolationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disabled_violation_types AppFirewall#disabled_violation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disabled_violation_types AppFirewall#disabled_violation_types}
   */
   readonly disabledViolationTypes: string[];
 }
@@ -1808,61 +1808,61 @@ export class AppFirewallDetectionSettingsViolationSettingsOutputReference extend
 }
 export interface AppFirewallDetectionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_bot_setting AppFirewall#default_bot_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_bot_setting AppFirewall#default_bot_setting}
   */
   readonly defaultBotSetting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#default_violation_settings AppFirewall#default_violation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#default_violation_settings AppFirewall#default_violation_settings}
   */
   readonly defaultViolationSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disable_staging AppFirewall#disable_staging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disable_staging AppFirewall#disable_staging}
   */
   readonly disableStaging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disable_suppression AppFirewall#disable_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disable_suppression AppFirewall#disable_suppression}
   */
   readonly disableSuppression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#disable_threat_campaigns AppFirewall#disable_threat_campaigns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#disable_threat_campaigns AppFirewall#disable_threat_campaigns}
   */
   readonly disableThreatCampaigns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#enable_suppression AppFirewall#enable_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#enable_suppression AppFirewall#enable_suppression}
   */
   readonly enableSuppression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#enable_threat_campaigns AppFirewall#enable_threat_campaigns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#enable_threat_campaigns AppFirewall#enable_threat_campaigns}
   */
   readonly enableThreatCampaigns?: boolean | cdktf.IResolvable;
   /**
   * bot_protection_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#bot_protection_setting AppFirewall#bot_protection_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#bot_protection_setting AppFirewall#bot_protection_setting}
   */
   readonly botProtectionSetting?: AppFirewallDetectionSettingsBotProtectionSetting;
   /**
   * signature_selection_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#signature_selection_setting AppFirewall#signature_selection_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#signature_selection_setting AppFirewall#signature_selection_setting}
   */
   readonly signatureSelectionSetting?: AppFirewallDetectionSettingsSignatureSelectionSetting;
   /**
   * stage_new_and_updated_signatures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#stage_new_and_updated_signatures AppFirewall#stage_new_and_updated_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#stage_new_and_updated_signatures AppFirewall#stage_new_and_updated_signatures}
   */
   readonly stageNewAndUpdatedSignatures?: AppFirewallDetectionSettingsStageNewAndUpdatedSignatures;
   /**
   * stage_new_signatures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#stage_new_signatures AppFirewall#stage_new_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#stage_new_signatures AppFirewall#stage_new_signatures}
   */
   readonly stageNewSignatures?: AppFirewallDetectionSettingsStageNewSignatures;
   /**
   * violation_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#violation_settings AppFirewall#violation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#violation_settings AppFirewall#violation_settings}
   */
   readonly violationSettings?: AppFirewallDetectionSettingsViolationSettings;
 }
@@ -2265,7 +2265,7 @@ export class AppFirewallDetectionSettingsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall volterra_app_firewall}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall volterra_app_firewall}
 */
 export class AppFirewall extends cdktf.TerraformResource {
 
@@ -2281,7 +2281,7 @@ export class AppFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppFirewall to import
-  * @param importFromId The id of the existing AppFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2293,7 +2293,7 @@ export class AppFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_firewall volterra_app_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_firewall volterra_app_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2304,8 +2304,8 @@ export class AppFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_firewall',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

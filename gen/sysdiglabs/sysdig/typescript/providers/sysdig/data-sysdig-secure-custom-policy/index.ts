@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureCustomPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#name DataSysdigSecureCustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#name DataSysdigSecureCustomPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#runbook DataSysdigSecureCustomPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#runbook DataSysdigSecureCustomPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#type DataSysdigSecureCustomPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#type DataSysdigSecureCustomPolicy#type}
   */
   readonly type?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#actions DataSysdigSecureCustomPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#actions DataSysdigSecureCustomPolicy#actions}
   */
   readonly actions?: DataSysdigSecureCustomPolicyActions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#timeouts DataSysdigSecureCustomPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#timeouts DataSysdigSecureCustomPolicy#timeouts}
   */
   readonly timeouts?: DataSysdigSecureCustomPolicyTimeouts;
 }
@@ -225,17 +225,17 @@ export class DataSysdigSecureCustomPolicyActionsCaptureList extends cdktf.Comple
 }
 export interface DataSysdigSecureCustomPolicyActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#container DataSysdigSecureCustomPolicy#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#container DataSysdigSecureCustomPolicy#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#kill_process DataSysdigSecureCustomPolicy#kill_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#kill_process DataSysdigSecureCustomPolicy#kill_process}
   */
   readonly killProcess?: string;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#capture DataSysdigSecureCustomPolicy#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#capture DataSysdigSecureCustomPolicy#capture}
   */
   readonly capture?: DataSysdigSecureCustomPolicyActionsCapture[] | cdktf.IResolvable;
 }
@@ -409,7 +409,7 @@ export class DataSysdigSecureCustomPolicyActionsList extends cdktf.ComplexList {
 }
 export interface DataSysdigSecureCustomPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#read DataSysdigSecureCustomPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#read DataSysdigSecureCustomPolicy#read}
   */
   readonly read?: string;
 }
@@ -503,7 +503,7 @@ export class DataSysdigSecureCustomPolicyTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy sysdig_secure_custom_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy sysdig_secure_custom_policy}
 */
 export class DataSysdigSecureCustomPolicy extends cdktf.TerraformDataSource {
 
@@ -519,7 +519,7 @@ export class DataSysdigSecureCustomPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureCustomPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureCustomPolicy to import
-  * @param importFromId The id of the existing DataSysdigSecureCustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureCustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureCustomPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DataSysdigSecureCustomPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_custom_policy sysdig_secure_custom_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_custom_policy sysdig_secure_custom_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class DataSysdigSecureCustomPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_custom_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

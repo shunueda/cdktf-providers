@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface SecureOktaMlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#description SecureOktaMlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#description SecureOktaMlPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#enabled SecureOktaMlPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#enabled SecureOktaMlPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#id SecureOktaMlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#id SecureOktaMlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#name SecureOktaMlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#name SecureOktaMlPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#notification_channels SecureOktaMlPolicy#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#notification_channels SecureOktaMlPolicy#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#runbook SecureOktaMlPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#runbook SecureOktaMlPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#scope SecureOktaMlPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#scope SecureOktaMlPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#severity SecureOktaMlPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#severity SecureOktaMlPolicy#severity}
   */
   readonly severity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#type SecureOktaMlPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#type SecureOktaMlPolicy#type}
   */
   readonly type?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#rule SecureOktaMlPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#rule SecureOktaMlPolicy#rule}
   */
   readonly rule: SecureOktaMlPolicyRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#timeouts SecureOktaMlPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#timeouts SecureOktaMlPolicy#timeouts}
   */
   readonly timeouts?: SecureOktaMlPolicyTimeouts;
 }
 export interface SecureOktaMlPolicyRuleAnomalousConsoleLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#enabled SecureOktaMlPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#enabled SecureOktaMlPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#threshold SecureOktaMlPolicy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#threshold SecureOktaMlPolicy#threshold}
   */
   readonly threshold: number;
 }
@@ -175,13 +175,13 @@ export class SecureOktaMlPolicyRuleAnomalousConsoleLoginOutputReference extends 
 }
 export interface SecureOktaMlPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#description SecureOktaMlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#description SecureOktaMlPolicy#description}
   */
   readonly description: string;
   /**
   * anomalous_console_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#anomalous_console_login SecureOktaMlPolicy#anomalous_console_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#anomalous_console_login SecureOktaMlPolicy#anomalous_console_login}
   */
   readonly anomalousConsoleLogin?: SecureOktaMlPolicyRuleAnomalousConsoleLogin;
 }
@@ -343,19 +343,19 @@ export class SecureOktaMlPolicyRuleList extends cdktf.ComplexList {
 }
 export interface SecureOktaMlPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#create SecureOktaMlPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#create SecureOktaMlPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#delete SecureOktaMlPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#delete SecureOktaMlPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#read SecureOktaMlPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#read SecureOktaMlPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#update SecureOktaMlPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#update SecureOktaMlPolicy#update}
   */
   readonly update?: string;
 }
@@ -536,7 +536,7 @@ export class SecureOktaMlPolicyTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy sysdig_secure_okta_ml_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy sysdig_secure_okta_ml_policy}
 */
 export class SecureOktaMlPolicy extends cdktf.TerraformResource {
 
@@ -552,7 +552,7 @@ export class SecureOktaMlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureOktaMlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureOktaMlPolicy to import
-  * @param importFromId The id of the existing SecureOktaMlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureOktaMlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureOktaMlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class SecureOktaMlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_okta_ml_policy sysdig_secure_okta_ml_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_okta_ml_policy sysdig_secure_okta_ml_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class SecureOktaMlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_okta_ml_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

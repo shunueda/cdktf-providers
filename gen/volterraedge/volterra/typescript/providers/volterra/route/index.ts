@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface RouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#annotations Route#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#annotations Route#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#description Route#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#description Route#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable Route#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disable Route#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#id Route#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#id Route#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#labels Route#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#labels Route#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace: string;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#routes Route#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#routes Route#routes}
   */
   readonly routes: RouteRoutes[] | cdktf.IResolvable;
 }
 export interface RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_tag Route#javascript_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#javascript_tag Route#javascript_tag}
   */
   readonly javascriptTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tag_value Route#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tag_value Route#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -196,13 +196,13 @@ export class RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes
 }
 export interface RouteRoutesBotDefenseJavascriptInjectionJavascriptTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_url Route#javascript_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#javascript_url Route#javascript_url}
   */
   readonly javascriptUrl: string;
   /**
   * tag_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tag_attributes Route#tag_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tag_attributes Route#tag_attributes}
   */
   readonly tagAttributes?: RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes[] | cdktf.IResolvable;
 }
@@ -344,13 +344,13 @@ export class RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsList extends 
 }
 export interface RouteRoutesBotDefenseJavascriptInjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_location Route#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#javascript_location Route#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * javascript_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_tags Route#javascript_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#javascript_tags Route#javascript_tags}
   */
   readonly javascriptTags: RouteRoutesBotDefenseJavascriptInjectionJavascriptTags[] | cdktf.IResolvable;
 }
@@ -460,15 +460,15 @@ export class RouteRoutesBotDefenseJavascriptInjectionOutputReference extends cdk
 }
 export interface RouteRoutesBotDefenseJavascriptInjectionInlineMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#element_selector Route#element_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#element_selector Route#element_selector}
   */
   readonly elementSelector: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#insert_content Route#insert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#insert_content Route#insert_content}
   */
   readonly insertContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#position Route#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#position Route#position}
   */
   readonly position?: string;
 }
@@ -607,23 +607,23 @@ export class RouteRoutesBotDefenseJavascriptInjectionInlineModeOutputReference e
 }
 export interface RouteRoutesMatchHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#exact Route#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#exact Route#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#invert_match Route#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#invert_match Route#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#presence Route#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#presence Route#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -852,15 +852,15 @@ export class RouteRoutesMatchHeadersList extends cdktf.ComplexList {
 }
 export interface RouteRoutesMatchIncomingPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#no_port_match Route#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#no_port_match Route#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port Route#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#port Route#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port_ranges Route#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#port_ranges Route#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1002,15 +1002,15 @@ export class RouteRoutesMatchIncomingPortOutputReference extends cdktf.ComplexOb
 }
 export interface RouteRoutesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#path Route#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix Route#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#prefix Route#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -1152,15 +1152,15 @@ export class RouteRoutesMatchPathOutputReference extends cdktf.ComplexObject {
 }
 export interface RouteRoutesMatchQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#exact Route#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#exact Route#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#key Route#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -1331,31 +1331,31 @@ export class RouteRoutesMatchQueryParamsList extends cdktf.ComplexList {
 }
 export interface RouteRoutesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#http_method Route#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#http_method Route#http_method}
   */
   readonly httpMethod?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#headers Route#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#headers Route#headers}
   */
   readonly headers?: RouteRoutesMatchHeaders[] | cdktf.IResolvable;
   /**
   * incoming_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#incoming_port Route#incoming_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#incoming_port Route#incoming_port}
   */
   readonly incomingPort?: RouteRoutesMatchIncomingPort;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#path Route#path}
   */
   readonly path?: RouteRoutesMatchPath;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#query_params Route#query_params}
   */
   readonly queryParams?: RouteRoutesMatchQueryParams[] | cdktf.IResolvable;
 }
@@ -1587,15 +1587,15 @@ export class RouteRoutesMatchList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1734,15 +1734,15 @@ export class RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoOutputR
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1881,11 +1881,11 @@ export class RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInterna
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -1995,23 +1995,23 @@ export class RouteRoutesRequestCookiesToAddSecretValueClearSecretInfoOutputRefer
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#key Route#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding Route#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#version Route#version}
   */
   readonly version?: number;
 }
@@ -2205,7 +2205,7 @@ export class RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoOutputRefer
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
 }
@@ -2286,37 +2286,37 @@ export class RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoOutputRef
 }
 export interface RouteRoutesRequestCookiesToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#vault_secret_info Route#vault_secret_info}
   */
   readonly vaultSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo;
 }
@@ -2545,21 +2545,21 @@ export class RouteRoutesRequestCookiesToAddSecretValueOutputReference extends cd
 }
 export interface RouteRoutesRequestCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#overwrite Route#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#overwrite Route#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesRequestCookiesToAddSecretValue;
 }
@@ -2759,15 +2759,15 @@ export class RouteRoutesRequestCookiesToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2906,15 +2906,15 @@ export class RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoOutputR
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3053,11 +3053,11 @@ export class RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInterna
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -3167,23 +3167,23 @@ export class RouteRoutesRequestHeadersToAddSecretValueClearSecretInfoOutputRefer
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#key Route#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding Route#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#version Route#version}
   */
   readonly version?: number;
 }
@@ -3377,7 +3377,7 @@ export class RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoOutputRefer
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
 }
@@ -3458,37 +3458,37 @@ export class RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoOutputRef
 }
 export interface RouteRoutesRequestHeadersToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#vault_secret_info Route#vault_secret_info}
   */
   readonly vaultSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo;
 }
@@ -3717,21 +3717,21 @@ export class RouteRoutesRequestHeadersToAddSecretValueOutputReference extends cd
 }
 export interface RouteRoutesRequestHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#append Route#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#append Route#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesRequestHeadersToAddSecretValue;
 }
@@ -3931,15 +3931,15 @@ export class RouteRoutesRequestHeadersToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4078,15 +4078,15 @@ export class RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoOutput
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4225,11 +4225,11 @@ export class RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoIntern
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -4339,23 +4339,23 @@ export class RouteRoutesResponseCookiesToAddSecretValueClearSecretInfoOutputRefe
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#key Route#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding Route#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#version Route#version}
   */
   readonly version?: number;
 }
@@ -4549,7 +4549,7 @@ export class RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoOutputRefe
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
 }
@@ -4630,37 +4630,37 @@ export class RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoOutputRe
 }
 export interface RouteRoutesResponseCookiesToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#vault_secret_info Route#vault_secret_info}
   */
   readonly vaultSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo;
 }
@@ -4889,97 +4889,97 @@ export class RouteRoutesResponseCookiesToAddSecretValueOutputReference extends c
 }
 export interface RouteRoutesResponseCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_domain Route#add_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_domain Route#add_domain}
   */
   readonly addDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_expiry Route#add_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_expiry Route#add_expiry}
   */
   readonly addExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_httponly Route#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_httponly Route#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_partitioned Route#add_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_partitioned Route#add_partitioned}
   */
   readonly addPartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_path Route#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_path Route#add_path}
   */
   readonly addPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_secure Route#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_secure Route#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_domain Route#ignore_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_domain Route#ignore_domain}
   */
   readonly ignoreDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_expiry Route#ignore_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_expiry Route#ignore_expiry}
   */
   readonly ignoreExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_httponly Route#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_httponly Route#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_max_age Route#ignore_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_max_age Route#ignore_max_age}
   */
   readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_partitioned Route#ignore_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_partitioned Route#ignore_partitioned}
   */
   readonly ignorePartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_path Route#ignore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_path Route#ignore_path}
   */
   readonly ignorePath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_samesite Route#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_samesite Route#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_secure Route#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_secure Route#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_value Route#ignore_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_value Route#ignore_value}
   */
   readonly ignoreValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_age_value Route#max_age_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#max_age_value Route#max_age_value}
   */
   readonly maxAgeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#overwrite Route#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#overwrite Route#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_lax Route#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_lax Route#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_none Route#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_none Route#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_strict Route#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_strict Route#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesResponseCookiesToAddSecretValue;
 }
@@ -5730,15 +5730,15 @@ export class RouteRoutesResponseCookiesToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5877,15 +5877,15 @@ export class RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoOutput
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6024,11 +6024,11 @@ export class RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoIntern
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -6138,23 +6138,23 @@ export class RouteRoutesResponseHeadersToAddSecretValueClearSecretInfoOutputRefe
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#key Route#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#provider Route#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding Route#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#version Route#version}
   */
   readonly version?: number;
 }
@@ -6348,7 +6348,7 @@ export class RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoOutputRefe
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
 }
@@ -6429,37 +6429,37 @@ export class RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoOutputRe
 }
 export interface RouteRoutesResponseHeadersToAddSecretValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#vault_secret_info Route#vault_secret_info}
   */
   readonly vaultSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo;
 }
@@ -6688,21 +6688,21 @@ export class RouteRoutesResponseHeadersToAddSecretValueOutputReference extends c
 }
 export interface RouteRoutesResponseHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#append Route#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#append Route#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesResponseHeadersToAddSecretValue;
 }
@@ -6902,15 +6902,15 @@ export class RouteRoutesResponseHeadersToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRouteDestinationBufferPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_request_bytes Route#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#max_request_bytes Route#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_request_time Route#max_request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#max_request_time Route#max_request_time}
   */
   readonly maxRequestTime?: number;
 }
@@ -7052,39 +7052,39 @@ export class RouteRoutesRouteDestinationBufferPolicyOutputReference extends cdkt
 }
 export interface RouteRoutesRouteDestinationCorsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_credentials Route#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#allow_credentials Route#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_headers Route#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#allow_headers Route#allow_headers}
   */
   readonly allowHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_methods Route#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#allow_methods Route#allow_methods}
   */
   readonly allowMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_origin Route#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#allow_origin Route#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_origin_regex Route#allow_origin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#allow_origin_regex Route#allow_origin_regex}
   */
   readonly allowOriginRegex?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#expose_headers Route#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#expose_headers Route#expose_headers}
   */
   readonly exposeHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_age Route#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#max_age Route#max_age}
   */
   readonly maxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#maximum_age Route#maximum_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#maximum_age Route#maximum_age}
   */
   readonly maximumAge?: number;
 }
@@ -7400,7 +7400,7 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#domains Route#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#domains Route#domains}
   */
   readonly domains: string[];
 }
@@ -7481,17 +7481,17 @@ export class RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStructOutputRe
 }
 export interface RouteRoutesRouteDestinationCsrfPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#all_load_balancer_domains Route#all_load_balancer_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#all_load_balancer_domains Route#all_load_balancer_domains}
   */
   readonly allLoadBalancerDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * custom_domain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#custom_domain_list Route#custom_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#custom_domain_list Route#custom_domain_list}
   */
   readonly customDomainList?: RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStruct;
 }
@@ -7633,15 +7633,15 @@ export class RouteRoutesRouteDestinationCsrfPolicyOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationDestinationsCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -7820,21 +7820,21 @@ export class RouteRoutesRouteDestinationDestinationsClusterList extends cdktf.Co
 }
 export interface RouteRoutesRouteDestinationDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#priority Route#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#priority Route#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#weight Route#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#weight Route#weight}
   */
   readonly weight?: number;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cluster Route#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#cluster Route#cluster}
   */
   readonly cluster: RouteRoutesRouteDestinationDestinationsCluster[] | cdktf.IResolvable;
 }
@@ -8034,47 +8034,47 @@ export class RouteRoutesRouteDestinationDestinationsList extends cdktf.ComplexLi
 }
 export interface RouteRoutesRouteDestinationHashPolicyCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_httponly Route#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_httponly Route#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_secure Route#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#add_secure Route#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_httponly Route#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_httponly Route#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_samesite Route#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_samesite Route#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_secure Route#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ignore_secure Route#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#path Route#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_lax Route#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_lax Route#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_none Route#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_none Route#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_strict Route#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#samesite_strict Route#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ttl Route#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#ttl Route#ttl}
   */
   readonly ttl?: number;
 }
@@ -8445,21 +8445,21 @@ export class RouteRoutesRouteDestinationHashPolicyCookieOutputReference extends 
 }
 export interface RouteRoutesRouteDestinationHashPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#header_name Route#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#header_name Route#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#source_ip Route#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#source_ip Route#source_ip}
   */
   readonly sourceIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#terminal Route#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#terminal Route#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cookie Route#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#cookie Route#cookie}
   */
   readonly cookie?: RouteRoutesRouteDestinationHashPolicyCookie;
 }
@@ -8662,15 +8662,15 @@ export class RouteRoutesRouteDestinationHashPolicyList extends cdktf.ComplexList
 }
 export interface RouteRoutesRouteDestinationMirrorPolicyCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -8849,11 +8849,11 @@ export class RouteRoutesRouteDestinationMirrorPolicyClusterList extends cdktf.Co
 }
 export interface RouteRoutesRouteDestinationMirrorPolicyPercent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#denominator Route#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#denominator Route#denominator}
   */
   readonly denominator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#numerator Route#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#numerator Route#numerator}
   */
   readonly numerator: number;
 }
@@ -8962,13 +8962,13 @@ export interface RouteRoutesRouteDestinationMirrorPolicy {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cluster Route#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#cluster Route#cluster}
   */
   readonly cluster: RouteRoutesRouteDestinationMirrorPolicyCluster[] | cdktf.IResolvable;
   /**
   * percent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#percent Route#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#percent Route#percent}
   */
   readonly percent?: RouteRoutesRouteDestinationMirrorPolicyPercent;
 }
@@ -9078,15 +9078,15 @@ export class RouteRoutesRouteDestinationMirrorPolicyOutputReference extends cdkt
 }
 export interface RouteRoutesRouteDestinationQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#remove_all_params Route#remove_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#remove_all_params Route#remove_all_params}
   */
   readonly removeAllParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#replace_params Route#replace_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#replace_params Route#replace_params}
   */
   readonly replaceParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retain_all_params Route#retain_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retain_all_params Route#retain_all_params}
   */
   readonly retainAllParams?: boolean | cdktf.IResolvable;
 }
@@ -9228,11 +9228,11 @@ export class RouteRoutesRouteDestinationQueryParamsOutputReference extends cdktf
 }
 export interface RouteRoutesRouteDestinationRegexRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#pattern Route#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#pattern Route#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#substitution Route#substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#substitution Route#substitution}
   */
   readonly substitution?: string;
 }
@@ -9345,11 +9345,11 @@ export class RouteRoutesRouteDestinationRegexRewriteOutputReference extends cdkt
 }
 export interface RouteRoutesRouteDestinationRetryPolicyBackOff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#base_interval Route#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#base_interval Route#base_interval}
   */
   readonly baseInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_interval Route#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#max_interval Route#max_interval}
   */
   readonly maxInterval?: number;
 }
@@ -9462,29 +9462,29 @@ export class RouteRoutesRouteDestinationRetryPolicyBackOffOutputReference extend
 }
 export interface RouteRoutesRouteDestinationRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#num_retries Route#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#num_retries Route#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#per_try_timeout Route#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#per_try_timeout Route#per_try_timeout}
   */
   readonly perTryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retriable_status_codes Route#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retriable_status_codes Route#retriable_status_codes}
   */
   readonly retriableStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_condition Route#retry_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retry_condition Route#retry_condition}
   */
   readonly retryCondition: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_on Route#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retry_on Route#retry_on}
   */
   readonly retryOn?: string;
   /**
   * back_off block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#back_off Route#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#back_off Route#back_off}
   */
   readonly backOff?: RouteRoutesRouteDestinationRetryPolicyBackOff;
 }
@@ -9710,7 +9710,7 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
 }
 export interface RouteRoutesRouteDestinationSpdyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#use_spdy Route#use_spdy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#use_spdy Route#use_spdy}
   */
   readonly useSpdy?: boolean | cdktf.IResolvable;
 }
@@ -9794,7 +9794,7 @@ export class RouteRoutesRouteDestinationSpdyConfigOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationWebSocketConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#use_websocket Route#use_websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#use_websocket Route#use_websocket}
   */
   readonly useWebsocket?: boolean | cdktf.IResolvable;
 }
@@ -9878,101 +9878,101 @@ export class RouteRoutesRouteDestinationWebSocketConfigOutputReference extends c
 }
 export interface RouteRoutesRouteDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#auto_host_rewrite Route#auto_host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#auto_host_rewrite Route#auto_host_rewrite}
   */
   readonly autoHostRewrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#do_not_retract_cluster Route#do_not_retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#do_not_retract_cluster Route#do_not_retract_cluster}
   */
   readonly doNotRetractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#host_rewrite Route#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#host_rewrite Route#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#priority Route#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#priority Route#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retract_cluster Route#retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retract_cluster Route#retract_cluster}
   */
   readonly retractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#timeout Route#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#timeout Route#timeout}
   */
   readonly timeout?: number;
   /**
   * buffer_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#buffer_policy Route#buffer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#buffer_policy Route#buffer_policy}
   */
   readonly bufferPolicy?: RouteRoutesRouteDestinationBufferPolicy;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cors_policy Route#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#cors_policy Route#cors_policy}
   */
   readonly corsPolicy?: RouteRoutesRouteDestinationCorsPolicy;
   /**
   * csrf_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#csrf_policy Route#csrf_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#csrf_policy Route#csrf_policy}
   */
   readonly csrfPolicy?: RouteRoutesRouteDestinationCsrfPolicy;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#destinations Route#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#destinations Route#destinations}
   */
   readonly destinations: RouteRoutesRouteDestinationDestinations[] | cdktf.IResolvable;
   /**
   * hash_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#hash_policy Route#hash_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#hash_policy Route#hash_policy}
   */
   readonly hashPolicy?: RouteRoutesRouteDestinationHashPolicy[] | cdktf.IResolvable;
   /**
   * mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#mirror_policy Route#mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#mirror_policy Route#mirror_policy}
   */
   readonly mirrorPolicy?: RouteRoutesRouteDestinationMirrorPolicy;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#query_params Route#query_params}
   */
   readonly queryParams?: RouteRoutesRouteDestinationQueryParams;
   /**
   * regex_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex_rewrite Route#regex_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#regex_rewrite Route#regex_rewrite}
   */
   readonly regexRewrite?: RouteRoutesRouteDestinationRegexRewrite;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_policy Route#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retry_policy Route#retry_policy}
   */
   readonly retryPolicy?: RouteRoutesRouteDestinationRetryPolicy;
   /**
   * spdy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#spdy_config Route#spdy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#spdy_config Route#spdy_config}
   */
   readonly spdyConfig?: RouteRoutesRouteDestinationSpdyConfig;
   /**
   * web_socket_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#web_socket_config Route#web_socket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#web_socket_config Route#web_socket_config}
   */
   readonly webSocketConfig?: RouteRoutesRouteDestinationWebSocketConfig;
 }
@@ -10575,15 +10575,15 @@ export class RouteRoutesRouteDestinationOutputReference extends cdktf.ComplexObj
 }
 export interface RouteRoutesRouteDirectResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_body Route#response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_body Route#response_body}
   */
   readonly responseBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_body_encoded Route#response_body_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_body_encoded Route#response_body_encoded}
   */
   readonly responseBodyEncoded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_code Route#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_code Route#response_code}
   */
   readonly responseCode?: number;
 }
@@ -10725,7 +10725,7 @@ export class RouteRoutesRouteDirectResponseOutputReference extends cdktf.Complex
 }
 export interface RouteRoutesRouteRedirectStripQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#query_params Route#query_params}
   */
   readonly queryParams?: string[];
 }
@@ -10809,49 +10809,49 @@ export class RouteRoutesRouteRedirectStripQueryParamsOutputReference extends cdk
 }
 export interface RouteRoutesRouteRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#all_params Route#all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#all_params Route#all_params}
   */
   readonly allParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#host_redirect Route#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#host_redirect Route#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path_redirect Route#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#path_redirect Route#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port_redirect Route#port_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#port_redirect Route#port_redirect}
   */
   readonly portRedirect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#proto_redirect Route#proto_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#proto_redirect Route#proto_redirect}
   */
   readonly protoRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#remove_all_params Route#remove_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#remove_all_params Route#remove_all_params}
   */
   readonly removeAllParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#replace_params Route#replace_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#replace_params Route#replace_params}
   */
   readonly replaceParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_code Route#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_code Route#response_code}
   */
   readonly responseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retain_all_params Route#retain_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#retain_all_params Route#retain_all_params}
   */
   readonly retainAllParams?: boolean | cdktf.IResolvable;
   /**
   * strip_query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#strip_query_params Route#strip_query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#strip_query_params Route#strip_query_params}
   */
   readonly stripQueryParams?: RouteRoutesRouteRedirectStripQueryParams;
 }
@@ -11225,7 +11225,7 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
 }
 export interface RouteRoutesServicePolicyContextExtensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#context_extensions Route#context_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#context_extensions Route#context_extensions}
   */
   readonly contextExtensions?: { [key: string]: string };
 }
@@ -11309,13 +11309,13 @@ export class RouteRoutesServicePolicyContextExtensionsOutputReference extends cd
 }
 export interface RouteRoutesServicePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable Route#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disable Route#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * context_extensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#context_extensions Route#context_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#context_extensions Route#context_extensions}
   */
   readonly contextExtensions?: RouteRoutesServicePolicyContextExtensions;
 }
@@ -11428,15 +11428,15 @@ export class RouteRoutesServicePolicyOutputReference extends cdktf.ComplexObject
 }
 export interface RouteRoutesWafExclusionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -11578,15 +11578,15 @@ export class RouteRoutesWafExclusionPolicyOutputReference extends cdktf.ComplexO
 }
 export interface RouteRoutesWafExclusionServicePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -11765,15 +11765,15 @@ export class RouteRoutesWafExclusionServicePolicyList extends cdktf.ComplexList 
 }
 export interface RouteRoutesWafTypeAppFirewallAppFirewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -11954,7 +11954,7 @@ export interface RouteRoutesWafTypeAppFirewall {
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#app_firewall Route#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#app_firewall Route#app_firewall}
   */
   readonly appFirewall: RouteRoutesWafTypeAppFirewallAppFirewall[] | cdktf.IResolvable;
 }
@@ -12035,17 +12035,17 @@ export class RouteRoutesWafTypeAppFirewallOutputReference extends cdktf.ComplexO
 }
 export interface RouteRoutesWafType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_waf Route#disable_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disable_waf Route#disable_waf}
   */
   readonly disableWaf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherit_waf Route#inherit_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#inherit_waf Route#inherit_waf}
   */
   readonly inheritWaf?: boolean | cdktf.IResolvable;
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#app_firewall Route#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#app_firewall Route#app_firewall}
   */
   readonly appFirewall?: RouteRoutesWafTypeAppFirewall;
 }
@@ -12187,127 +12187,127 @@ export class RouteRoutesWafTypeOutputReference extends cdktf.ComplexObject {
 }
 export interface RouteRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_custom_script Route#disable_custom_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disable_custom_script Route#disable_custom_script}
   */
   readonly disableCustomScript?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_location_add Route#disable_location_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#disable_location_add Route#disable_location_add}
   */
   readonly disableLocationAdd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherited_bot_defense_javascript_injection Route#inherited_bot_defense_javascript_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#inherited_bot_defense_javascript_injection Route#inherited_bot_defense_javascript_injection}
   */
   readonly inheritedBotDefenseJavascriptInjection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherited_waf_exclusion Route#inherited_waf_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#inherited_waf_exclusion Route#inherited_waf_exclusion}
   */
   readonly inheritedWafExclusion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_cookies_to_remove Route#request_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#request_cookies_to_remove Route#request_cookies_to_remove}
   */
   readonly requestCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_headers_to_remove Route#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#request_headers_to_remove Route#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_cookies_to_remove Route#response_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_cookies_to_remove Route#response_cookies_to_remove}
   */
   readonly responseCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_headers_to_remove Route#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_headers_to_remove Route#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#skip_lb_override Route#skip_lb_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#skip_lb_override Route#skip_lb_override}
   */
   readonly skipLbOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#uuid Route#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#uuid Route#uuid}
   */
   readonly uuid?: string;
   /**
   * bot_defense_javascript_injection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#bot_defense_javascript_injection Route#bot_defense_javascript_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#bot_defense_javascript_injection Route#bot_defense_javascript_injection}
   */
   readonly botDefenseJavascriptInjection?: RouteRoutesBotDefenseJavascriptInjection;
   /**
   * bot_defense_javascript_injection_inline_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#bot_defense_javascript_injection_inline_mode Route#bot_defense_javascript_injection_inline_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#bot_defense_javascript_injection_inline_mode Route#bot_defense_javascript_injection_inline_mode}
   */
   readonly botDefenseJavascriptInjectionInlineMode?: RouteRoutesBotDefenseJavascriptInjectionInlineMode;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#match Route#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#match Route#match}
   */
   readonly match?: RouteRoutesMatch[] | cdktf.IResolvable;
   /**
   * request_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_cookies_to_add Route#request_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#request_cookies_to_add Route#request_cookies_to_add}
   */
   readonly requestCookiesToAdd?: RouteRoutesRequestCookiesToAdd[] | cdktf.IResolvable;
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_headers_to_add Route#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#request_headers_to_add Route#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: RouteRoutesRequestHeadersToAdd[] | cdktf.IResolvable;
   /**
   * response_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_cookies_to_add Route#response_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_cookies_to_add Route#response_cookies_to_add}
   */
   readonly responseCookiesToAdd?: RouteRoutesResponseCookiesToAdd[] | cdktf.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_headers_to_add Route#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#response_headers_to_add Route#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: RouteRoutesResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * route_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_destination Route#route_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#route_destination Route#route_destination}
   */
   readonly routeDestination?: RouteRoutesRouteDestination;
   /**
   * route_direct_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_direct_response Route#route_direct_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#route_direct_response Route#route_direct_response}
   */
   readonly routeDirectResponse?: RouteRoutesRouteDirectResponse;
   /**
   * route_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_redirect Route#route_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#route_redirect Route#route_redirect}
   */
   readonly routeRedirect?: RouteRoutesRouteRedirect;
   /**
   * service_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#service_policy Route#service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#service_policy Route#service_policy}
   */
   readonly servicePolicy?: RouteRoutesServicePolicy;
   /**
   * waf_exclusion_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_exclusion_policy Route#waf_exclusion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#waf_exclusion_policy Route#waf_exclusion_policy}
   */
   readonly wafExclusionPolicy: RouteRoutesWafExclusionPolicy;
   /**
   * waf_exclusion_service_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_exclusion_service_policy Route#waf_exclusion_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#waf_exclusion_service_policy Route#waf_exclusion_service_policy}
   */
   readonly wafExclusionServicePolicy?: RouteRoutesWafExclusionServicePolicy[] | cdktf.IResolvable;
   /**
   * waf_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_type Route#waf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#waf_type Route#waf_type}
   */
   readonly wafType?: RouteRoutesWafType;
 }
@@ -13087,7 +13087,7 @@ export class RouteRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route volterra_route}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route volterra_route}
 */
 export class Route extends cdktf.TerraformResource {
 
@@ -13103,7 +13103,7 @@ export class Route extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Route resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route to import
-  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13115,7 +13115,7 @@ export class Route extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route volterra_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/route volterra_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13126,8 +13126,8 @@ export class Route extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_route',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

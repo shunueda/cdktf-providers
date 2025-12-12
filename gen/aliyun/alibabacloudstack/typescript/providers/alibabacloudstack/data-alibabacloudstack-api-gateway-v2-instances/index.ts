@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackApiGatewayV2InstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#broker_engine_type DataAlibabacloudstackApiGatewayV2Instances#broker_engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#broker_engine_type DataAlibabacloudstackApiGatewayV2Instances#broker_engine_type}
   */
   readonly brokerEngineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#deploy_mode DataAlibabacloudstackApiGatewayV2Instances#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#deploy_mode DataAlibabacloudstackApiGatewayV2Instances#deploy_mode}
   */
   readonly deployMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#description_regex DataAlibabacloudstackApiGatewayV2Instances#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#description_regex DataAlibabacloudstackApiGatewayV2Instances#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#id DataAlibabacloudstackApiGatewayV2Instances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#id DataAlibabacloudstackApiGatewayV2Instances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#ids DataAlibabacloudstackApiGatewayV2Instances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#ids DataAlibabacloudstackApiGatewayV2Instances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#instance_id DataAlibabacloudstackApiGatewayV2Instances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#instance_id DataAlibabacloudstackApiGatewayV2Instances#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#name_regex DataAlibabacloudstackApiGatewayV2Instances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#name_regex DataAlibabacloudstackApiGatewayV2Instances#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -278,7 +278,7 @@ export class DataAlibabacloudstackApiGatewayV2InstancesInstancesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances alibabacloudstack_api_gateway_v2_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances alibabacloudstack_api_gateway_v2_instances}
 */
 export class DataAlibabacloudstackApiGatewayV2Instances extends cdktf.TerraformDataSource {
 
@@ -294,7 +294,7 @@ export class DataAlibabacloudstackApiGatewayV2Instances extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataAlibabacloudstackApiGatewayV2Instances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackApiGatewayV2Instances to import
-  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Instances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Instances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackApiGatewayV2Instances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class DataAlibabacloudstackApiGatewayV2Instances extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_instances alibabacloudstack_api_gateway_v2_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_instances alibabacloudstack_api_gateway_v2_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class DataAlibabacloudstackApiGatewayV2Instances extends cdktf.TerraformD
       terraformResourceType: 'alibabacloudstack_api_gateway_v2_instances',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

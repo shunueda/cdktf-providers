@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface UdpLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#advertise_on_public_default_vip UdpLoadbalancer#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#advertise_on_public_default_vip UdpLoadbalancer#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#annotations UdpLoadbalancer#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#annotations UdpLoadbalancer#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#description UdpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#description UdpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#disable UdpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#disable UdpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#dns_volterra_managed UdpLoadbalancer#dns_volterra_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#dns_volterra_managed UdpLoadbalancer#dns_volterra_managed}
   */
   readonly dnsVolterraManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#do_not_advertise UdpLoadbalancer#do_not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#do_not_advertise UdpLoadbalancer#do_not_advertise}
   */
   readonly doNotAdvertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#do_not_retract_cluster UdpLoadbalancer#do_not_retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#do_not_retract_cluster UdpLoadbalancer#do_not_retract_cluster}
   */
   readonly doNotRetractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#domains UdpLoadbalancer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#domains UdpLoadbalancer#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#enable_per_packet_load_balancing UdpLoadbalancer#enable_per_packet_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#enable_per_packet_load_balancing UdpLoadbalancer#enable_per_packet_load_balancing}
   */
   readonly enablePerPacketLoadBalancing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#hash_policy_choice_least_active UdpLoadbalancer#hash_policy_choice_least_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#hash_policy_choice_least_active UdpLoadbalancer#hash_policy_choice_least_active}
   */
   readonly hashPolicyChoiceLeastActive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#hash_policy_choice_random UdpLoadbalancer#hash_policy_choice_random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#hash_policy_choice_random UdpLoadbalancer#hash_policy_choice_random}
   */
   readonly hashPolicyChoiceRandom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#hash_policy_choice_round_robin UdpLoadbalancer#hash_policy_choice_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#hash_policy_choice_round_robin UdpLoadbalancer#hash_policy_choice_round_robin}
   */
   readonly hashPolicyChoiceRoundRobin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#hash_policy_choice_source_ip_stickiness UdpLoadbalancer#hash_policy_choice_source_ip_stickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#hash_policy_choice_source_ip_stickiness UdpLoadbalancer#hash_policy_choice_source_ip_stickiness}
   */
   readonly hashPolicyChoiceSourceIpStickiness?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#id UdpLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#id UdpLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#idle_timeout UdpLoadbalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#idle_timeout UdpLoadbalancer#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#labels UdpLoadbalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#labels UdpLoadbalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#listen_port UdpLoadbalancer#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#listen_port UdpLoadbalancer#listen_port}
   */
   readonly listenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#port_ranges UdpLoadbalancer#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#port_ranges UdpLoadbalancer#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#retract_cluster UdpLoadbalancer#retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#retract_cluster UdpLoadbalancer#retract_cluster}
   */
   readonly retractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#udp UdpLoadbalancer#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#udp UdpLoadbalancer#udp}
   */
   readonly udp?: boolean | cdktf.IResolvable;
   /**
   * advertise_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#advertise_custom UdpLoadbalancer#advertise_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#advertise_custom UdpLoadbalancer#advertise_custom}
   */
   readonly advertiseCustom?: UdpLoadbalancerAdvertiseCustom;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#advertise_on_public UdpLoadbalancer#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#advertise_on_public UdpLoadbalancer#advertise_on_public}
   */
   readonly advertiseOnPublic?: UdpLoadbalancerAdvertiseOnPublic;
   /**
   * origin_pools_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#origin_pools_weights UdpLoadbalancer#origin_pools_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#origin_pools_weights UdpLoadbalancer#origin_pools_weights}
   */
   readonly originPoolsWeights?: UdpLoadbalancerOriginPoolsWeights[] | cdktf.IResolvable;
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -276,7 +276,7 @@ export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#public_ip UdpLoadbalancer#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#public_ip UdpLoadbalancer#public_ip}
   */
   readonly publicIp: UdpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp;
 }
@@ -357,15 +357,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicOutput
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -512,15 +512,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEd
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -667,23 +667,23 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
   * cloud_edge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#cloud_edge UdpLoadbalancer#cloud_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#cloud_edge UdpLoadbalancer#cloud_edge}
   */
   readonly cloudEdge: UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
   */
   readonly segment: UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment;
 }
@@ -845,15 +845,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputR
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1000,17 +1000,17 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentOutputRef
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv4_vip UdpLoadbalancer#ipv4_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv4_vip UdpLoadbalancer#ipv4_vip}
   */
   readonly ipv4Vip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6_vip UdpLoadbalancer#ipv6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6_vip UdpLoadbalancer#ipv6_vip}
   */
   readonly ipv6Vip?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
   */
   readonly segment: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment;
 }
@@ -1146,15 +1146,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentOutputReference 
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1301,21 +1301,21 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSiteOutputReference
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
   */
   readonly site: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSite;
 }
@@ -1480,15 +1480,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteOutputReference ext
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1635,15 +1635,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegmentOutpu
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1790,23 +1790,23 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSiteOutputRe
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
   */
   readonly segment: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
   */
   readonly site: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSite;
 }
@@ -1968,15 +1968,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentOutputRefere
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2123,25 +2123,25 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNe
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#default_v6_vip UdpLoadbalancer#default_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#default_v6_vip UdpLoadbalancer#default_v6_vip}
   */
   readonly defaultV6Vip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#default_vip UdpLoadbalancer#default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#default_vip UdpLoadbalancer#default_vip}
   */
   readonly defaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#specific_v6_vip UdpLoadbalancer#specific_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#specific_v6_vip UdpLoadbalancer#specific_v6_vip}
   */
   readonly specificV6Vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#specific_vip UdpLoadbalancer#specific_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#specific_vip UdpLoadbalancer#specific_vip}
   */
   readonly specificVip?: string;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_network UdpLoadbalancer#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_network UdpLoadbalancer#virtual_network}
   */
   readonly virtualNetwork: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork;
 }
@@ -2338,15 +2338,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkOutputRef
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2493,13 +2493,13 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSiteO
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
   */
   readonly virtualSite: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite;
 }
@@ -2606,15 +2606,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteOutputRefere
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2761,15 +2761,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegme
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2916,23 +2916,23 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtu
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
   */
   readonly segment: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
   */
   readonly virtualSite: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite;
 }
@@ -3094,15 +3094,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentOutpu
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -3249,21 +3249,21 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtu
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ip UdpLoadbalancer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#ipv6 UdpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#network UdpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
   */
   readonly virtualSite: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite;
 }
@@ -3428,15 +3428,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipOutpu
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -3583,15 +3583,15 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSiteOutputRe
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -3740,13 +3740,13 @@ export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SService {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
   */
   readonly site?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
   */
   readonly virtualSite?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite;
 }
@@ -3859,75 +3859,75 @@ export class UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceOutputRefere
 }
 export interface UdpLoadbalancerAdvertiseCustomAdvertiseWhere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#port UdpLoadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#port UdpLoadbalancer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#port_ranges UdpLoadbalancer#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#port_ranges UdpLoadbalancer#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#use_default_port UdpLoadbalancer#use_default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#use_default_port UdpLoadbalancer#use_default_port}
   */
   readonly useDefaultPort?: boolean | cdktf.IResolvable;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#advertise_on_public UdpLoadbalancer#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#advertise_on_public UdpLoadbalancer#advertise_on_public}
   */
   readonly advertiseOnPublic?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublic;
   /**
   * cloud_edge_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#cloud_edge_segment UdpLoadbalancer#cloud_edge_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#cloud_edge_segment UdpLoadbalancer#cloud_edge_segment}
   */
   readonly cloudEdgeSegment?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#segment UdpLoadbalancer#segment}
   */
   readonly segment?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#site UdpLoadbalancer#site}
   */
   readonly site?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSite;
   /**
   * site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#site_segment UdpLoadbalancer#site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#site_segment UdpLoadbalancer#site_segment}
   */
   readonly siteSegment?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_network UdpLoadbalancer#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_network UdpLoadbalancer#virtual_network}
   */
   readonly virtualNetwork?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site UdpLoadbalancer#virtual_site}
   */
   readonly virtualSite?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSite;
   /**
   * virtual_site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site_segment UdpLoadbalancer#virtual_site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site_segment UdpLoadbalancer#virtual_site_segment}
   */
   readonly virtualSiteSegment?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegment;
   /**
   * virtual_site_with_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#virtual_site_with_vip UdpLoadbalancer#virtual_site_with_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#virtual_site_with_vip UdpLoadbalancer#virtual_site_with_vip}
   */
   readonly virtualSiteWithVip?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVip;
   /**
   * vk8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#vk8s_service UdpLoadbalancer#vk8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#vk8s_service UdpLoadbalancer#vk8s_service}
   */
   readonly vk8SService?: UdpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SService;
 }
@@ -4393,7 +4393,7 @@ export interface UdpLoadbalancerAdvertiseCustom {
   /**
   * advertise_where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#advertise_where UdpLoadbalancer#advertise_where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#advertise_where UdpLoadbalancer#advertise_where}
   */
   readonly advertiseWhere: UdpLoadbalancerAdvertiseCustomAdvertiseWhere[] | cdktf.IResolvable;
 }
@@ -4474,15 +4474,15 @@ export class UdpLoadbalancerAdvertiseCustomOutputReference extends cdktf.Complex
 }
 export interface UdpLoadbalancerAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4631,7 +4631,7 @@ export interface UdpLoadbalancerAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#public_ip UdpLoadbalancer#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#public_ip UdpLoadbalancer#public_ip}
   */
   readonly publicIp: UdpLoadbalancerAdvertiseOnPublicPublicIp;
 }
@@ -4712,15 +4712,15 @@ export class UdpLoadbalancerAdvertiseOnPublicOutputReference extends cdktf.Compl
 }
 export interface UdpLoadbalancerOriginPoolsWeightsCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4867,15 +4867,15 @@ export class UdpLoadbalancerOriginPoolsWeightsClusterOutputReference extends cdk
 }
 export interface UdpLoadbalancerOriginPoolsWeightsPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#name UdpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#namespace UdpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#tenant UdpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -5022,27 +5022,27 @@ export class UdpLoadbalancerOriginPoolsWeightsPoolOutputReference extends cdktf.
 }
 export interface UdpLoadbalancerOriginPoolsWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#endpoint_subsets UdpLoadbalancer#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#endpoint_subsets UdpLoadbalancer#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#priority UdpLoadbalancer#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#priority UdpLoadbalancer#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#weight UdpLoadbalancer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#weight UdpLoadbalancer#weight}
   */
   readonly weight?: number;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#cluster UdpLoadbalancer#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#cluster UdpLoadbalancer#cluster}
   */
   readonly cluster?: UdpLoadbalancerOriginPoolsWeightsCluster;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#pool UdpLoadbalancer#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#pool UdpLoadbalancer#pool}
   */
   readonly pool?: UdpLoadbalancerOriginPoolsWeightsPool;
 }
@@ -5274,7 +5274,7 @@ export class UdpLoadbalancerOriginPoolsWeightsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer volterra_udp_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer volterra_udp_loadbalancer}
 */
 export class UdpLoadbalancer extends cdktf.TerraformResource {
 
@@ -5290,7 +5290,7 @@ export class UdpLoadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UdpLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UdpLoadbalancer to import
-  * @param importFromId The id of the existing UdpLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UdpLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UdpLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5302,7 +5302,7 @@ export class UdpLoadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/udp_loadbalancer volterra_udp_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/udp_loadbalancer volterra_udp_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5313,8 +5313,8 @@ export class UdpLoadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_udp_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

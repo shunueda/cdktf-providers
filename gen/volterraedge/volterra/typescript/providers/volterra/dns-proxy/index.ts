@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface DnsProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#annotations DnsProxy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#annotations DnsProxy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#description DnsProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#description DnsProxy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#disable DnsProxy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#disable DnsProxy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#id DnsProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#id DnsProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#labels DnsProxy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#labels DnsProxy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#transport_type DnsProxy#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#transport_type DnsProxy#transport_type}
   */
   readonly transportType: string;
   /**
   * cache_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#cache_profile DnsProxy#cache_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#cache_profile DnsProxy#cache_profile}
   */
   readonly cacheProfile: DnsProxyCacheProfile;
   /**
   * ddos_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ddos_profile DnsProxy#ddos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ddos_profile DnsProxy#ddos_profile}
   */
   readonly ddosProfile: DnsProxyDdosProfile;
   /**
   * irules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#irules DnsProxy#irules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#irules DnsProxy#irules}
   */
   readonly irules?: DnsProxyIrules[] | cdktf.IResolvable;
   /**
   * lb_algorithm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#lb_algorithm DnsProxy#lb_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#lb_algorithm DnsProxy#lb_algorithm}
   */
   readonly lbAlgorithm?: DnsProxyLbAlgorithm;
   /**
   * origin_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#origin_servers DnsProxy#origin_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#origin_servers DnsProxy#origin_servers}
   */
   readonly originServers: DnsProxyOriginServers;
   /**
   * protocol_inspection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#protocol_inspection DnsProxy#protocol_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#protocol_inspection DnsProxy#protocol_inspection}
   */
   readonly protocolInspection?: DnsProxyProtocolInspection;
   /**
   * proxy_advertisement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#proxy_advertisement DnsProxy#proxy_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#proxy_advertisement DnsProxy#proxy_advertisement}
   */
   readonly proxyAdvertisement?: DnsProxyProxyAdvertisement;
 }
 export interface DnsProxyCacheProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#cache_size DnsProxy#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#cache_size DnsProxy#cache_size}
   */
   readonly cacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#disable_cache_profile DnsProxy#disable_cache_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#disable_cache_profile DnsProxy#disable_cache_profile}
   */
   readonly disableCacheProfile?: boolean | cdktf.IResolvable;
 }
@@ -204,11 +204,11 @@ export class DnsProxyCacheProfileOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsProxyDdosProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#disable_ddos_mitigation DnsProxy#disable_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#disable_ddos_mitigation DnsProxy#disable_ddos_mitigation}
   */
   readonly disableDdosMitigation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#enable_ddos_mitigation DnsProxy#enable_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#enable_ddos_mitigation DnsProxy#enable_ddos_mitigation}
   */
   readonly enableDdosMitigation?: boolean | cdktf.IResolvable;
 }
@@ -321,15 +321,15 @@ export class DnsProxyDdosProfileOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsProxyIrules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -503,7 +503,7 @@ export class DnsProxyIrulesList extends cdktf.ComplexList {
 }
 export interface DnsProxyLbAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#round_robin DnsProxy#round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#round_robin DnsProxy#round_robin}
   */
   readonly roundRobin?: boolean | cdktf.IResolvable;
 }
@@ -587,27 +587,27 @@ export class DnsProxyLbAlgorithmOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsProxyOriginServersHealthChecksHealthCheckDnsHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expected_rcode DnsProxy#expected_rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expected_rcode DnsProxy#expected_rcode}
   */
   readonly expectedRcode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expected_record_type DnsProxy#expected_record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expected_record_type DnsProxy#expected_record_type}
   */
   readonly expectedRecordType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#query_name DnsProxy#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#query_name DnsProxy#query_name}
   */
   readonly queryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#query_type DnsProxy#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#query_type DnsProxy#query_type}
   */
   readonly queryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#reverse DnsProxy#reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#reverse DnsProxy#reverse}
   */
   readonly reverse?: boolean | cdktf.IResolvable;
 }
@@ -821,11 +821,11 @@ export class DnsProxyOriginServersHealthChecksHealthCheckDnsHealthCheckOutputRef
 }
 export interface DnsProxyOriginServersHealthChecksHealthCheckTcpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#send_payload DnsProxy#send_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#send_payload DnsProxy#send_payload}
   */
   readonly sendPayload: string;
 }
@@ -932,11 +932,11 @@ export class DnsProxyOriginServersHealthChecksHealthCheckTcpHealthCheckOutputRef
 }
 export interface DnsProxyOriginServersHealthChecksHealthCheckUdpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expected_response DnsProxy#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#send_payload DnsProxy#send_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#send_payload DnsProxy#send_payload}
   */
   readonly sendPayload: string;
 }
@@ -1043,25 +1043,25 @@ export class DnsProxyOriginServersHealthChecksHealthCheckUdpHealthCheckOutputRef
 }
 export interface DnsProxyOriginServersHealthChecksHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#icmp_health_check DnsProxy#icmp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#icmp_health_check DnsProxy#icmp_health_check}
   */
   readonly icmpHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * dns_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#dns_health_check DnsProxy#dns_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#dns_health_check DnsProxy#dns_health_check}
   */
   readonly dnsHealthCheck?: DnsProxyOriginServersHealthChecksHealthCheckDnsHealthCheck;
   /**
   * tcp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tcp_health_check DnsProxy#tcp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tcp_health_check DnsProxy#tcp_health_check}
   */
   readonly tcpHealthCheck?: DnsProxyOriginServersHealthChecksHealthCheckTcpHealthCheck;
   /**
   * udp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#udp_health_check DnsProxy#udp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#udp_health_check DnsProxy#udp_health_check}
   */
   readonly udpHealthCheck?: DnsProxyOriginServersHealthChecksHealthCheckUdpHealthCheck;
 }
@@ -1264,33 +1264,33 @@ export class DnsProxyOriginServersHealthChecksHealthCheckList extends cdktf.Comp
 }
 export interface DnsProxyOriginServersHealthChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#healthy_threshold DnsProxy#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#healthy_threshold DnsProxy#healthy_threshold}
   */
   readonly healthyThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#interval DnsProxy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#interval DnsProxy#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#jitter DnsProxy#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#jitter DnsProxy#jitter}
   */
   readonly jitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#jitter_percent DnsProxy#jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#jitter_percent DnsProxy#jitter_percent}
   */
   readonly jitterPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#timeout DnsProxy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#timeout DnsProxy#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#unhealthy_threshold DnsProxy#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#unhealthy_threshold DnsProxy#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#health_check DnsProxy#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#health_check DnsProxy#health_check}
   */
   readonly healthCheck: DnsProxyOriginServersHealthChecksHealthCheck[] | cdktf.IResolvable;
 }
@@ -1533,7 +1533,7 @@ export class DnsProxyOriginServersHealthChecksOutputReference extends cdktf.Comp
 }
 export interface DnsProxyOriginServersOriginServersK8SServiceServiceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#expressions DnsProxy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#expressions DnsProxy#expressions}
   */
   readonly expressions: string[];
 }
@@ -1614,15 +1614,15 @@ export class DnsProxyOriginServersOriginServersK8SServiceServiceSelectorOutputRe
 }
 export interface DnsProxyOriginServersOriginServersK8SServiceSiteLocatorSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1769,15 +1769,15 @@ export class DnsProxyOriginServersOriginServersK8SServiceSiteLocatorSiteOutputRe
 }
 export interface DnsProxyOriginServersOriginServersK8SServiceSiteLocatorVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1926,13 +1926,13 @@ export interface DnsProxyOriginServersOriginServersK8SServiceSiteLocator {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site DnsProxy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site DnsProxy#site}
   */
   readonly site?: DnsProxyOriginServersOriginServersK8SServiceSiteLocatorSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite?: DnsProxyOriginServersOriginServersK8SServiceSiteLocatorVirtualSite;
 }
@@ -2045,11 +2045,11 @@ export class DnsProxyOriginServersOriginServersK8SServiceSiteLocatorOutputRefere
 }
 export interface DnsProxyOriginServersOriginServersK8SServiceSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6_prefixes DnsProxy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6_prefixes DnsProxy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#prefixes DnsProxy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#prefixes DnsProxy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -2162,13 +2162,13 @@ export class DnsProxyOriginServersOriginServersK8SServiceSnatPoolSnatPoolOutputR
 }
 export interface DnsProxyOriginServersOriginServersK8SServiceSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#no_snat_pool DnsProxy#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#no_snat_pool DnsProxy#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#snat_pool DnsProxy#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#snat_pool DnsProxy#snat_pool}
   */
   readonly snatPool?: DnsProxyOriginServersOriginServersK8SServiceSnatPoolSnatPool;
 }
@@ -2281,41 +2281,41 @@ export class DnsProxyOriginServersOriginServersK8SServiceSnatPoolOutputReference
 }
 export interface DnsProxyOriginServersOriginServersK8SService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#inside_network DnsProxy#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#inside_network DnsProxy#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#outside_network DnsProxy#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#outside_network DnsProxy#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#protocol DnsProxy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#protocol DnsProxy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#service_name DnsProxy#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#service_name DnsProxy#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#vk8s_networks DnsProxy#vk8s_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#vk8s_networks DnsProxy#vk8s_networks}
   */
   readonly vk8SNetworks?: boolean | cdktf.IResolvable;
   /**
   * service_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#service_selector DnsProxy#service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#service_selector DnsProxy#service_selector}
   */
   readonly serviceSelector?: DnsProxyOriginServersOriginServersK8SServiceServiceSelector;
   /**
   * site_locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site_locator DnsProxy#site_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site_locator DnsProxy#site_locator}
   */
   readonly siteLocator: DnsProxyOriginServersOriginServersK8SServiceSiteLocator;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#snat_pool DnsProxy#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#snat_pool DnsProxy#snat_pool}
   */
   readonly snatPool?: DnsProxyOriginServersOriginServersK8SServiceSnatPool;
 }
@@ -2599,11 +2599,11 @@ export class DnsProxyOriginServersOriginServersK8SServiceOutputReference extends
 }
 export interface DnsProxyOriginServersOriginServersPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2716,11 +2716,11 @@ export class DnsProxyOriginServersOriginServersPublicIpOutputReference extends c
 }
 export interface DnsProxyOriginServersOriginServersPublicName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#dns_name DnsProxy#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#dns_name DnsProxy#dns_name}
   */
   readonly dnsName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#refresh_interval DnsProxy#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#refresh_interval DnsProxy#refresh_interval}
   */
   readonly refreshInterval?: number;
 }
@@ -2830,15 +2830,15 @@ export class DnsProxyOriginServersOriginServersPublicNameOutputReference extends
 }
 export interface DnsProxyOriginServersOriginServersSitePreferencesRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3019,7 +3019,7 @@ export interface DnsProxyOriginServersOriginServersSitePreferences {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#refs DnsProxy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#refs DnsProxy#refs}
   */
   readonly refs?: DnsProxyOriginServersOriginServersSitePreferencesRefs[] | cdktf.IResolvable;
 }
@@ -3103,31 +3103,31 @@ export class DnsProxyOriginServersOriginServersSitePreferencesOutputReference ex
 }
 export interface DnsProxyOriginServersOriginServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#no_preference DnsProxy#no_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#no_preference DnsProxy#no_preference}
   */
   readonly noPreference?: boolean | cdktf.IResolvable;
   /**
   * k8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#k8s_service DnsProxy#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#k8s_service DnsProxy#k8s_service}
   */
   readonly k8SService?: DnsProxyOriginServersOriginServersK8SService;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
   */
   readonly publicIp?: DnsProxyOriginServersOriginServersPublicIp;
   /**
   * public_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#public_name DnsProxy#public_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#public_name DnsProxy#public_name}
   */
   readonly publicName?: DnsProxyOriginServersOriginServersPublicName;
   /**
   * site_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site_preferences DnsProxy#site_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site_preferences DnsProxy#site_preferences}
   */
   readonly sitePreferences?: DnsProxyOriginServersOriginServersSitePreferences;
 }
@@ -3361,13 +3361,13 @@ export interface DnsProxyOriginServers {
   /**
   * health_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#health_checks DnsProxy#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#health_checks DnsProxy#health_checks}
   */
   readonly healthChecks: DnsProxyOriginServersHealthChecks;
   /**
   * origin_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#origin_servers DnsProxy#origin_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#origin_servers DnsProxy#origin_servers}
   */
   readonly originServers: DnsProxyOriginServersOriginServers[] | cdktf.IResolvable;
 }
@@ -3474,15 +3474,15 @@ export class DnsProxyOriginServersOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsProxyProtocolInspection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3624,15 +3624,15 @@ export class DnsProxyProtocolInspectionOutputReference extends cdktf.ComplexObje
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3781,7 +3781,7 @@ export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertis
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
   */
   readonly publicIp: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp;
 }
@@ -3862,15 +3862,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnP
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4017,15 +4017,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSeg
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4172,23 +4172,23 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSeg
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
   /**
   * cloud_edge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#cloud_edge DnsProxy#cloud_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#cloud_edge DnsProxy#cloud_edge}
   */
   readonly cloudEdge: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#segment DnsProxy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#segment DnsProxy#segment}
   */
   readonly segment: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment;
 }
@@ -4350,15 +4350,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSeg
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4505,17 +4505,17 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegme
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv4_vip DnsProxy#ipv4_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv4_vip DnsProxy#ipv4_vip}
   */
   readonly ipv4Vip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6_vip DnsProxy#ipv6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6_vip DnsProxy#ipv6_vip}
   */
   readonly ipv6Vip?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#segment DnsProxy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#segment DnsProxy#segment}
   */
   readonly segment: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment;
 }
@@ -4651,15 +4651,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentOutpu
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -4806,21 +4806,21 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSiteOutp
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#network DnsProxy#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#network DnsProxy#network}
   */
   readonly network: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site DnsProxy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site DnsProxy#site}
   */
   readonly site: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSite;
 }
@@ -4985,15 +4985,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteOutputRe
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5140,15 +5140,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5295,23 +5295,23 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#segment DnsProxy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#segment DnsProxy#segment}
   */
   readonly segment: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site DnsProxy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site DnsProxy#site}
   */
   readonly site: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSite;
 }
@@ -5473,15 +5473,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentO
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5628,25 +5628,25 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwo
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#default_v6_vip DnsProxy#default_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#default_v6_vip DnsProxy#default_v6_vip}
   */
   readonly defaultV6Vip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#default_vip DnsProxy#default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#default_vip DnsProxy#default_vip}
   */
   readonly defaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#specific_v6_vip DnsProxy#specific_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#specific_v6_vip DnsProxy#specific_v6_vip}
   */
   readonly specificV6Vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#specific_vip DnsProxy#specific_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#specific_vip DnsProxy#specific_vip}
   */
   readonly specificVip?: string;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_network DnsProxy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_network DnsProxy#virtual_network}
   */
   readonly virtualNetwork: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork;
 }
@@ -5843,15 +5843,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwo
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5998,13 +5998,13 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteV
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#network DnsProxy#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#network DnsProxy#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite;
 }
@@ -6111,15 +6111,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteO
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6266,15 +6266,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6421,23 +6421,23 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#segment DnsProxy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#segment DnsProxy#segment}
   */
   readonly segment: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite;
 }
@@ -6599,15 +6599,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -6754,21 +6754,21 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteW
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ip DnsProxy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ip DnsProxy#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#ipv6 DnsProxy#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#network DnsProxy#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#network DnsProxy#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite;
 }
@@ -6933,15 +6933,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteW
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -7088,15 +7088,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceS
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -7245,13 +7245,13 @@ export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServ
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site DnsProxy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site DnsProxy#site}
   */
   readonly site?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite;
 }
@@ -7364,75 +7364,75 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceO
 }
 export interface DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#port DnsProxy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#port DnsProxy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#port_ranges DnsProxy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#port_ranges DnsProxy#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#use_default_port DnsProxy#use_default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#use_default_port DnsProxy#use_default_port}
   */
   readonly useDefaultPort?: boolean | cdktf.IResolvable;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#advertise_on_public DnsProxy#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#advertise_on_public DnsProxy#advertise_on_public}
   */
   readonly advertiseOnPublic?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublic;
   /**
   * cloud_edge_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#cloud_edge_segment DnsProxy#cloud_edge_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#cloud_edge_segment DnsProxy#cloud_edge_segment}
   */
   readonly cloudEdgeSegment?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#segment DnsProxy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#segment DnsProxy#segment}
   */
   readonly segment?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site DnsProxy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site DnsProxy#site}
   */
   readonly site?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSite;
   /**
   * site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#site_segment DnsProxy#site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#site_segment DnsProxy#site_segment}
   */
   readonly siteSegment?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_network DnsProxy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_network DnsProxy#virtual_network}
   */
   readonly virtualNetwork?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site DnsProxy#virtual_site}
   */
   readonly virtualSite?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSite;
   /**
   * virtual_site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site_segment DnsProxy#virtual_site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site_segment DnsProxy#virtual_site_segment}
   */
   readonly virtualSiteSegment?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegment;
   /**
   * virtual_site_with_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#virtual_site_with_vip DnsProxy#virtual_site_with_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#virtual_site_with_vip DnsProxy#virtual_site_with_vip}
   */
   readonly virtualSiteWithVip?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVip;
   /**
   * vk8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#vk8s_service DnsProxy#vk8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#vk8s_service DnsProxy#vk8s_service}
   */
   readonly vk8SService?: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SService;
 }
@@ -7898,7 +7898,7 @@ export interface DnsProxyProxyAdvertisementAdvertiseCustom {
   /**
   * advertise_where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#advertise_where DnsProxy#advertise_where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#advertise_where DnsProxy#advertise_where}
   */
   readonly advertiseWhere: DnsProxyProxyAdvertisementAdvertiseCustomAdvertiseWhere[] | cdktf.IResolvable;
 }
@@ -7979,15 +7979,15 @@ export class DnsProxyProxyAdvertisementAdvertiseCustomOutputReference extends cd
 }
 export interface DnsProxyProxyAdvertisementAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#namespace DnsProxy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#namespace DnsProxy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#tenant DnsProxy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#tenant DnsProxy#tenant}
   */
   readonly tenant?: string;
 }
@@ -8136,7 +8136,7 @@ export interface DnsProxyProxyAdvertisementAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#public_ip DnsProxy#public_ip}
   */
   readonly publicIp: DnsProxyProxyAdvertisementAdvertiseOnPublicPublicIp;
 }
@@ -8217,23 +8217,23 @@ export class DnsProxyProxyAdvertisementAdvertiseOnPublicOutputReference extends 
 }
 export interface DnsProxyProxyAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#advertise_on_public_default_vip DnsProxy#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#advertise_on_public_default_vip DnsProxy#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#do_not_advertise DnsProxy#do_not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#do_not_advertise DnsProxy#do_not_advertise}
   */
   readonly doNotAdvertise?: boolean | cdktf.IResolvable;
   /**
   * advertise_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#advertise_custom DnsProxy#advertise_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#advertise_custom DnsProxy#advertise_custom}
   */
   readonly advertiseCustom?: DnsProxyProxyAdvertisementAdvertiseCustom;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#advertise_on_public DnsProxy#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#advertise_on_public DnsProxy#advertise_on_public}
   */
   readonly advertiseOnPublic?: DnsProxyProxyAdvertisementAdvertiseOnPublic;
 }
@@ -8404,7 +8404,7 @@ export class DnsProxyProxyAdvertisementOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy volterra_dns_proxy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy volterra_dns_proxy}
 */
 export class DnsProxy extends cdktf.TerraformResource {
 
@@ -8420,7 +8420,7 @@ export class DnsProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsProxy to import
-  * @param importFromId The id of the existing DnsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8432,7 +8432,7 @@ export class DnsProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_proxy volterra_dns_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_proxy volterra_dns_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8443,8 +8443,8 @@ export class DnsProxy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_proxy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

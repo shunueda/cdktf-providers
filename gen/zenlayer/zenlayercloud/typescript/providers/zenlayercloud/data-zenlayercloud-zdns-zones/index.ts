@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZdnsZonesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#id DataZenlayercloudZdnsZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#id DataZenlayercloudZdnsZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataZenlayercloudZdnsZonesConfig extends cdktf.TerraformMetaArg
   /**
   * IDs of the private DNS zones to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#ids DataZenlayercloudZdnsZones#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#ids DataZenlayercloudZdnsZones#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to apply to the private DNS zone list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#name_regex DataZenlayercloudZdnsZones#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#name_regex DataZenlayercloudZdnsZones#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#resource_group_id DataZenlayercloudZdnsZones#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#resource_group_id DataZenlayercloudZdnsZones#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#result_output_file DataZenlayercloudZdnsZones#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#result_output_file DataZenlayercloudZdnsZones#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -232,7 +232,7 @@ export class DataZenlayercloudZdnsZonesZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones zenlayercloud_zdns_zones}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones zenlayercloud_zdns_zones}
 */
 export class DataZenlayercloudZdnsZones extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataZenlayercloudZdnsZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZdnsZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZdnsZones to import
-  * @param importFromId The id of the existing DataZenlayercloudZdnsZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZdnsZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZdnsZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataZenlayercloudZdnsZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zdns_zones zenlayercloud_zdns_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zdns_zones zenlayercloud_zdns_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataZenlayercloudZdnsZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zdns_zones',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

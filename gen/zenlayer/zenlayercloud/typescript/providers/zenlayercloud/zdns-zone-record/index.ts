@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZdnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#id ZdnsZoneRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#id ZdnsZoneRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface ZdnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resolver line. Default is `default`. Also valid for specified region, such as `asia-east-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#line ZdnsZoneRecord#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#line ZdnsZoneRecord#line}
   */
   readonly line?: string;
   /**
   * MX priority, which is required when the record type is `MX`. Range: [1, 99], default: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#priority ZdnsZoneRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#priority ZdnsZoneRecord#priority}
   */
   readonly priority?: number;
   /**
   * The name of the record. such as `www`, `@`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#record_name ZdnsZoneRecord#record_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#record_name ZdnsZoneRecord#record_name}
   */
   readonly recordName: string;
   /**
   * Remarks for the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#remark ZdnsZoneRecord#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#remark ZdnsZoneRecord#remark}
   */
   readonly remark?: string;
   /**
   * Record status. Valid values: `Enabled`, `Disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#status ZdnsZoneRecord#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#status ZdnsZoneRecord#status}
   */
   readonly status?: string;
   /**
   * The ttl of the Private Zone Record. Measured in second. Range: [5,86400], default: 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#ttl ZdnsZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#ttl ZdnsZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
@@ -60,31 +60,31 @@ export interface ZdnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   * 	- `PTR`: Maps an IP address to a domain name for reverse DNS lookup 
   * 	- `SRV`: Specifies servers providing specific services (format: [priority] [weight] [port] [target address], e.g., 0 5 5060 sipserver.example.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#type ZdnsZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#type ZdnsZoneRecord#type}
   */
   readonly type: string;
   /**
   * The value of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#value ZdnsZoneRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#value ZdnsZoneRecord#value}
   */
   readonly value: string;
   /**
   * Weight for the record. Only takes effect for type `A` or `AAAA`. Range: [1, 100], default: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#weight ZdnsZoneRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#weight ZdnsZoneRecord#weight}
   */
   readonly weight?: number;
   /**
   * The ID of the private zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#zone_id ZdnsZoneRecord#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#zone_id ZdnsZoneRecord#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record zenlayercloud_zdns_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record zenlayercloud_zdns_zone_record}
 */
 export class ZdnsZoneRecord extends cdktf.TerraformResource {
 
@@ -100,7 +100,7 @@ export class ZdnsZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZdnsZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZdnsZoneRecord to import
-  * @param importFromId The id of the existing ZdnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZdnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZdnsZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -112,7 +112,7 @@ export class ZdnsZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zdns_zone_record zenlayercloud_zdns_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zdns_zone_record zenlayercloud_zdns_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -123,8 +123,8 @@ export class ZdnsZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zdns_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

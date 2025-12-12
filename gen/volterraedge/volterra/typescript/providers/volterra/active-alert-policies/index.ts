@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface ActiveAlertPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#id ActiveAlertPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#id ActiveAlertPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#namespace ActiveAlertPolicies#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#namespace ActiveAlertPolicies#namespace}
   */
   readonly namespace: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#policies ActiveAlertPolicies#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#policies ActiveAlertPolicies#policies}
   */
   readonly policies: ActiveAlertPoliciesPolicies[] | cdktf.IResolvable;
 }
 export interface ActiveAlertPoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#name ActiveAlertPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#name ActiveAlertPolicies#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#namespace ActiveAlertPolicies#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#namespace ActiveAlertPolicies#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#tenant ActiveAlertPolicies#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#tenant ActiveAlertPolicies#tenant}
   */
   readonly tenant?: string;
 }
@@ -209,7 +209,7 @@ export class ActiveAlertPoliciesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies volterra_active_alert_policies}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies volterra_active_alert_policies}
 */
 export class ActiveAlertPolicies extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class ActiveAlertPolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiveAlertPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveAlertPolicies to import
-  * @param importFromId The id of the existing ActiveAlertPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveAlertPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveAlertPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class ActiveAlertPolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/active_alert_policies volterra_active_alert_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/active_alert_policies volterra_active_alert_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class ActiveAlertPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_active_alert_policies',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

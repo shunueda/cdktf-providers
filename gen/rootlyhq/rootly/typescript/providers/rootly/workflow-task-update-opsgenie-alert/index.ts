@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateOpsgenieAlertConfig extends cdktf.TerraformMe
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#enabled WorkflowTaskUpdateOpsgenieAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#enabled WorkflowTaskUpdateOpsgenieAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#id WorkflowTaskUpdateOpsgenieAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#id WorkflowTaskUpdateOpsgenieAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateOpsgenieAlertConfig extends cdktf.TerraformMe
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#name WorkflowTaskUpdateOpsgenieAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#name WorkflowTaskUpdateOpsgenieAlert#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#position WorkflowTaskUpdateOpsgenieAlert#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#position WorkflowTaskUpdateOpsgenieAlert#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#skip_on_failure WorkflowTaskUpdateOpsgenieAlert#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#skip_on_failure WorkflowTaskUpdateOpsgenieAlert#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#workflow_id WorkflowTaskUpdateOpsgenieAlert#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#workflow_id WorkflowTaskUpdateOpsgenieAlert#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#task_params WorkflowTaskUpdateOpsgenieAlert#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#task_params WorkflowTaskUpdateOpsgenieAlert#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateOpsgenieAlertTaskParams;
 }
@@ -55,35 +55,35 @@ export interface WorkflowTaskUpdateOpsgenieAlertTaskParams {
   /**
   * Opsgenie Alert ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#alert_id WorkflowTaskUpdateOpsgenieAlert#alert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#alert_id WorkflowTaskUpdateOpsgenieAlert#alert_id}
   */
   readonly alertId: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#completion WorkflowTaskUpdateOpsgenieAlert#completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#completion WorkflowTaskUpdateOpsgenieAlert#completion}
   */
   readonly completion: { [key: string]: string };
   /**
   * Description field of the alert that is generally used to provide a detailed information about the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#description WorkflowTaskUpdateOpsgenieAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#description WorkflowTaskUpdateOpsgenieAlert#description}
   */
   readonly description?: string;
   /**
   * Message of the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#message WorkflowTaskUpdateOpsgenieAlert#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#message WorkflowTaskUpdateOpsgenieAlert#message}
   */
   readonly message?: string;
   /**
   * Value must be one of `P1`, `P2`, `P3`, `P4`, `P5`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#priority WorkflowTaskUpdateOpsgenieAlert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#priority WorkflowTaskUpdateOpsgenieAlert#priority}
   */
   readonly priority: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#task_type WorkflowTaskUpdateOpsgenieAlert#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#task_type WorkflowTaskUpdateOpsgenieAlert#task_type}
   */
   readonly taskType?: string;
 }
@@ -303,7 +303,7 @@ export class WorkflowTaskUpdateOpsgenieAlertTaskParamsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert rootly_workflow_task_update_opsgenie_alert}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert rootly_workflow_task_update_opsgenie_alert}
 */
 export class WorkflowTaskUpdateOpsgenieAlert extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class WorkflowTaskUpdateOpsgenieAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateOpsgenieAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateOpsgenieAlert to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateOpsgenieAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateOpsgenieAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateOpsgenieAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class WorkflowTaskUpdateOpsgenieAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_opsgenie_alert rootly_workflow_task_update_opsgenie_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_opsgenie_alert rootly_workflow_task_update_opsgenie_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class WorkflowTaskUpdateOpsgenieAlert extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_opsgenie_alert',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

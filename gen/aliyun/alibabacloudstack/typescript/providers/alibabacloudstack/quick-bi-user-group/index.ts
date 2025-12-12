@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface QuickBiUserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#id QuickBiUserGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#id QuickBiUserGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#parent_user_group_id QuickBiUserGroup#parent_user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#parent_user_group_id QuickBiUserGroup#parent_user_group_id}
   */
   readonly parentUserGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#user_group_description QuickBiUserGroup#user_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#user_group_description QuickBiUserGroup#user_group_description}
   */
   readonly userGroupDescription: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#user_group_id QuickBiUserGroup#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#user_group_id QuickBiUserGroup#user_group_id}
   */
   readonly userGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#user_group_name QuickBiUserGroup#user_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#user_group_name QuickBiUserGroup#user_group_name}
   */
   readonly userGroupName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group alibabacloudstack_quick_bi_user_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group alibabacloudstack_quick_bi_user_group}
 */
 export class QuickBiUserGroup extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class QuickBiUserGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuickBiUserGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuickBiUserGroup to import
-  * @param importFromId The id of the existing QuickBiUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuickBiUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuickBiUserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class QuickBiUserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/quick_bi_user_group alibabacloudstack_quick_bi_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/quick_bi_user_group alibabacloudstack_quick_bi_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class QuickBiUserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_quick_bi_user_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

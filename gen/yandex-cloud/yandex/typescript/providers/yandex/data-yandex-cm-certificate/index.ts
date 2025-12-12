@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexCmCertificateConfig extends cdktf.TerraformMetaArgume
   /**
   * Certificate Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#certificate_id DataYandexCmCertificate#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#certificate_id DataYandexCmCertificate#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#description DataYandexCmCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#description DataYandexCmCertificate#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#folder_id DataYandexCmCertificate#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#folder_id DataYandexCmCertificate#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#id DataYandexCmCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#id DataYandexCmCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataYandexCmCertificateConfig extends cdktf.TerraformMetaArgume
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#labels DataYandexCmCertificate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#labels DataYandexCmCertificate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#name DataYandexCmCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#name DataYandexCmCertificate#name}
   */
   readonly name?: string;
   /**
   * If `true`, the operation won't be completed while the certificate is in `VALIDATING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#wait_validation DataYandexCmCertificate#wait_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#wait_validation DataYandexCmCertificate#wait_validation}
   */
   readonly waitValidation?: boolean | cdktf.IResolvable;
 }
@@ -173,7 +173,7 @@ export class DataYandexCmCertificateChallengesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate yandex_cm_certificate}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate yandex_cm_certificate}
 */
 export class DataYandexCmCertificate extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataYandexCmCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexCmCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexCmCertificate to import
-  * @param importFromId The id of the existing DataYandexCmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexCmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexCmCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataYandexCmCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cm_certificate yandex_cm_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cm_certificate yandex_cm_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataYandexCmCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_cm_certificate',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

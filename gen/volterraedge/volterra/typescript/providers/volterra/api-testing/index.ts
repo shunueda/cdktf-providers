@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ApiTestingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#annotations ApiTesting#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#annotations ApiTesting#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#custom_header_value ApiTesting#custom_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#custom_header_value ApiTesting#custom_header_value}
   */
   readonly customHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#description ApiTesting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#description ApiTesting#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#disable ApiTesting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#disable ApiTesting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_day ApiTesting#every_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#every_day ApiTesting#every_day}
   */
   readonly everyDay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_month ApiTesting#every_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#every_month ApiTesting#every_month}
   */
   readonly everyMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_week ApiTesting#every_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#every_week ApiTesting#every_week}
   */
   readonly everyWeek?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#id ApiTesting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#id ApiTesting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#labels ApiTesting#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#labels ApiTesting#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#namespace ApiTesting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#namespace ApiTesting#namespace}
   */
   readonly namespace: string;
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#domains ApiTesting#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#domains ApiTesting#domains}
   */
   readonly domains: ApiTestingDomains[] | cdktf.IResolvable;
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -210,15 +210,15 @@ export class ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoOutputRef
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -357,11 +357,11 @@ export class ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalO
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -471,23 +471,23 @@ export class ApiTestingDomainsCredentialsApiKeyValueClearSecretInfoOutputReferen
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#version ApiTesting#version}
   */
   readonly version?: number;
 }
@@ -681,7 +681,7 @@ export class ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoOutputReferen
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
 }
@@ -762,37 +762,37 @@ export class ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoOutputRefer
 }
 export interface ApiTestingDomainsCredentialsApiKeyValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
   */
   readonly vaultSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo;
 }
@@ -1021,13 +1021,13 @@ export class ApiTestingDomainsCredentialsApiKeyValueOutputReference extends cdkt
 }
 export interface ApiTestingDomainsCredentialsApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#value ApiTesting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#value ApiTesting#value}
   */
   readonly value: ApiTestingDomainsCredentialsApiKeyValue;
 }
@@ -1134,15 +1134,15 @@ export class ApiTestingDomainsCredentialsApiKeyOutputReference extends cdktf.Com
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1281,15 +1281,15 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoOut
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1428,11 +1428,11 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInt
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -1542,23 +1542,23 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoOutputR
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#version ApiTesting#version}
   */
   readonly version?: number;
 }
@@ -1752,7 +1752,7 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoOutputR
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
 }
@@ -1833,37 +1833,37 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoOutpu
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
   */
   readonly vaultSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo;
 }
@@ -2092,13 +2092,13 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference extend
 }
 export interface ApiTestingDomainsCredentialsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#user ApiTesting#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#user ApiTesting#user}
   */
   readonly user: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#password ApiTesting#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#password ApiTesting#password}
   */
   readonly password: ApiTestingDomainsCredentialsBasicAuthPassword;
 }
@@ -2205,15 +2205,15 @@ export class ApiTestingDomainsCredentialsBasicAuthOutputReference extends cdktf.
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2352,15 +2352,15 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoOutp
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2499,11 +2499,11 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInte
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -2613,23 +2613,23 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoOutputRe
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#version ApiTesting#version}
   */
   readonly version?: number;
 }
@@ -2823,7 +2823,7 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoOutputRe
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
 }
@@ -2904,37 +2904,37 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoOutput
 }
 export interface ApiTestingDomainsCredentialsBearerTokenToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
   */
   readonly vaultSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo;
 }
@@ -3165,7 +3165,7 @@ export interface ApiTestingDomainsCredentialsBearerToken {
   /**
   * token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#token ApiTesting#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#token ApiTesting#token}
   */
   readonly token: ApiTestingDomainsCredentialsBearerTokenToken;
 }
@@ -3246,15 +3246,15 @@ export class ApiTestingDomainsCredentialsBearerTokenOutputReference extends cdkt
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3393,15 +3393,15 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecret
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3540,11 +3540,11 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecret
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -3654,23 +3654,23 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#version ApiTesting#version}
   */
   readonly version?: number;
 }
@@ -3864,7 +3864,7 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
 }
@@ -3945,37 +3945,37 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretIn
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
   */
   readonly vaultSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo;
 }
@@ -4204,21 +4204,21 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference
 }
 export interface ApiTestingDomainsCredentialsLoginEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#method ApiTesting#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#method ApiTesting#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#path ApiTesting#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#path ApiTesting#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#token_response_key ApiTesting#token_response_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#token_response_key ApiTesting#token_response_key}
   */
   readonly tokenResponseKey: string;
   /**
   * json_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#json_payload ApiTesting#json_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#json_payload ApiTesting#json_payload}
   */
   readonly jsonPayload: ApiTestingDomainsCredentialsLoginEndpointJsonPayload;
 }
@@ -4377,39 +4377,39 @@ export class ApiTestingDomainsCredentialsLoginEndpointOutputReference extends cd
 }
 export interface ApiTestingDomainsCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#admin ApiTesting#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#admin ApiTesting#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#credential_name ApiTesting#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#credential_name ApiTesting#credential_name}
   */
   readonly credentialName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#standard ApiTesting#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#standard ApiTesting#standard}
   */
   readonly standard?: boolean | cdktf.IResolvable;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#api_key ApiTesting#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#api_key ApiTesting#api_key}
   */
   readonly apiKey?: ApiTestingDomainsCredentialsApiKey;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#basic_auth ApiTesting#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#basic_auth ApiTesting#basic_auth}
   */
   readonly basicAuth?: ApiTestingDomainsCredentialsBasicAuth;
   /**
   * bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#bearer_token ApiTesting#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#bearer_token ApiTesting#bearer_token}
   */
   readonly bearerToken?: ApiTestingDomainsCredentialsBearerToken;
   /**
   * login_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#login_endpoint ApiTesting#login_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#login_endpoint ApiTesting#login_endpoint}
   */
   readonly loginEndpoint?: ApiTestingDomainsCredentialsLoginEndpoint;
 }
@@ -4696,17 +4696,17 @@ export class ApiTestingDomainsCredentialsList extends cdktf.ComplexList {
 }
 export interface ApiTestingDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#allow_destructive_methods ApiTesting#allow_destructive_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#allow_destructive_methods ApiTesting#allow_destructive_methods}
   */
   readonly allowDestructiveMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#domain ApiTesting#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#domain ApiTesting#domain}
   */
   readonly domain: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#credentials ApiTesting#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#credentials ApiTesting#credentials}
   */
   readonly credentials: ApiTestingDomainsCredentials[] | cdktf.IResolvable;
 }
@@ -4874,7 +4874,7 @@ export class ApiTestingDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing volterra_api_testing}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing volterra_api_testing}
 */
 export class ApiTesting extends cdktf.TerraformResource {
 
@@ -4890,7 +4890,7 @@ export class ApiTesting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiTesting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiTesting to import
-  * @param importFromId The id of the existing ApiTesting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiTesting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiTesting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4902,7 +4902,7 @@ export class ApiTesting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing volterra_api_testing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_testing volterra_api_testing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4913,8 +4913,8 @@ export class ApiTesting extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_api_testing',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

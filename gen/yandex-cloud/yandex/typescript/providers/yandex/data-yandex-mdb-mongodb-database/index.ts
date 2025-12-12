@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexMdbMongodbDatabaseConfig extends cdktf.TerraformMetaA
   /**
   * The ID of MongoDB Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#cluster_id DataYandexMdbMongodbDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#cluster_id DataYandexMdbMongodbDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#name DataYandexMdbMongodbDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#name DataYandexMdbMongodbDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#timeouts DataYandexMdbMongodbDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#timeouts DataYandexMdbMongodbDatabase#timeouts}
   */
   readonly timeouts?: DataYandexMdbMongodbDatabaseTimeouts;
 }
@@ -28,13 +28,13 @@ export interface DataYandexMdbMongodbDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#create DataYandexMdbMongodbDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#create DataYandexMdbMongodbDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#delete DataYandexMdbMongodbDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#delete DataYandexMdbMongodbDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -157,7 +157,7 @@ export class DataYandexMdbMongodbDatabaseTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database yandex_mdb_mongodb_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database yandex_mdb_mongodb_database}
 */
 export class DataYandexMdbMongodbDatabase extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataYandexMdbMongodbDatabase extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbMongodbDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbMongodbDatabase to import
-  * @param importFromId The id of the existing DataYandexMdbMongodbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbMongodbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbMongodbDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataYandexMdbMongodbDatabase extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/mdb_mongodb_database yandex_mdb_mongodb_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mongodb_database yandex_mdb_mongodb_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataYandexMdbMongodbDatabase extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_mongodb_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

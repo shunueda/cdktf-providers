@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ApiCrawlerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#annotations ApiCrawler#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#annotations ApiCrawler#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#description ApiCrawler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#description ApiCrawler#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#disable ApiCrawler#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#disable ApiCrawler#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#id ApiCrawler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#id ApiCrawler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#labels ApiCrawler#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#labels ApiCrawler#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#name ApiCrawler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#name ApiCrawler#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#namespace ApiCrawler#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#namespace ApiCrawler#namespace}
   */
   readonly namespace: string;
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#domains ApiCrawler#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#domains ApiCrawler#domains}
   */
   readonly domains: ApiCrawlerDomains[] | cdktf.IResolvable;
 }
 export interface ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#decryption_provider ApiCrawler#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#decryption_provider ApiCrawler#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#location ApiCrawler#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#location ApiCrawler#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#store_provider ApiCrawler#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#store_provider ApiCrawler#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -194,15 +194,15 @@ export class ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfoOutputRefere
 }
 export interface ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#decryption_provider ApiCrawler#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#decryption_provider ApiCrawler#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#location ApiCrawler#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#location ApiCrawler#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#store_provider ApiCrawler#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#store_provider ApiCrawler#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -341,11 +341,11 @@ export class ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfoInternalOutp
 }
 export interface ApiCrawlerDomainsSimpleLoginPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#provider ApiCrawler#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#provider ApiCrawler#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#url ApiCrawler#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#url ApiCrawler#url}
   */
   readonly url: string;
 }
@@ -455,23 +455,23 @@ export class ApiCrawlerDomainsSimpleLoginPasswordClearSecretInfoOutputReference 
 }
 export interface ApiCrawlerDomainsSimpleLoginPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#key ApiCrawler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#key ApiCrawler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#location ApiCrawler#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#location ApiCrawler#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#provider ApiCrawler#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#provider ApiCrawler#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#secret_encoding ApiCrawler#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#secret_encoding ApiCrawler#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#version ApiCrawler#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#version ApiCrawler#version}
   */
   readonly version?: number;
 }
@@ -665,7 +665,7 @@ export class ApiCrawlerDomainsSimpleLoginPasswordVaultSecretInfoOutputReference 
 }
 export interface ApiCrawlerDomainsSimpleLoginPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#name ApiCrawler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#name ApiCrawler#name}
   */
   readonly name: string;
 }
@@ -746,37 +746,37 @@ export class ApiCrawlerDomainsSimpleLoginPasswordWingmanSecretInfoOutputReferenc
 }
 export interface ApiCrawlerDomainsSimpleLoginPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#secret_encoding_type ApiCrawler#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#secret_encoding_type ApiCrawler#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#blindfold_secret_info ApiCrawler#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#blindfold_secret_info ApiCrawler#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#blindfold_secret_info_internal ApiCrawler#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#blindfold_secret_info_internal ApiCrawler#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: ApiCrawlerDomainsSimpleLoginPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#clear_secret_info ApiCrawler#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#clear_secret_info ApiCrawler#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiCrawlerDomainsSimpleLoginPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#vault_secret_info ApiCrawler#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#vault_secret_info ApiCrawler#vault_secret_info}
   */
   readonly vaultSecretInfo?: ApiCrawlerDomainsSimpleLoginPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#wingman_secret_info ApiCrawler#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#wingman_secret_info ApiCrawler#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: ApiCrawlerDomainsSimpleLoginPasswordWingmanSecretInfo;
 }
@@ -1005,13 +1005,13 @@ export class ApiCrawlerDomainsSimpleLoginPasswordOutputReference extends cdktf.C
 }
 export interface ApiCrawlerDomainsSimpleLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#user ApiCrawler#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#user ApiCrawler#user}
   */
   readonly user?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#password ApiCrawler#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#password ApiCrawler#password}
   */
   readonly password?: ApiCrawlerDomainsSimpleLoginPassword;
 }
@@ -1124,13 +1124,13 @@ export class ApiCrawlerDomainsSimpleLoginOutputReference extends cdktf.ComplexOb
 }
 export interface ApiCrawlerDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#domain ApiCrawler#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#domain ApiCrawler#domain}
   */
   readonly domain: string;
   /**
   * simple_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#simple_login ApiCrawler#simple_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#simple_login ApiCrawler#simple_login}
   */
   readonly simpleLogin?: ApiCrawlerDomainsSimpleLogin;
 }
@@ -1272,7 +1272,7 @@ export class ApiCrawlerDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler volterra_api_crawler}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler volterra_api_crawler}
 */
 export class ApiCrawler extends cdktf.TerraformResource {
 
@@ -1288,7 +1288,7 @@ export class ApiCrawler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiCrawler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiCrawler to import
-  * @param importFromId The id of the existing ApiCrawler that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiCrawler that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiCrawler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class ApiCrawler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_crawler volterra_api_crawler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/api_crawler volterra_api_crawler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,8 +1311,8 @@ export class ApiCrawler extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_api_crawler',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

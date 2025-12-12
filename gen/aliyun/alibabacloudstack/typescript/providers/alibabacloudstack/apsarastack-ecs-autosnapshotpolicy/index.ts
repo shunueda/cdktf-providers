@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEcsAutosnapshotpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#auto_snapshot_policy_name ApsarastackEcsAutosnapshotpolicy#auto_snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#auto_snapshot_policy_name ApsarastackEcsAutosnapshotpolicy#auto_snapshot_policy_name}
   */
   readonly autoSnapshotPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#id ApsarastackEcsAutosnapshotpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#id ApsarastackEcsAutosnapshotpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#name ApsarastackEcsAutosnapshotpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#name ApsarastackEcsAutosnapshotpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#repeat_weekdays ApsarastackEcsAutosnapshotpolicy#repeat_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#repeat_weekdays ApsarastackEcsAutosnapshotpolicy#repeat_weekdays}
   */
   readonly repeatWeekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#retention_days ApsarastackEcsAutosnapshotpolicy#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#retention_days ApsarastackEcsAutosnapshotpolicy#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#tags ApsarastackEcsAutosnapshotpolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#tags ApsarastackEcsAutosnapshotpolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#time_points ApsarastackEcsAutosnapshotpolicy#time_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#time_points ApsarastackEcsAutosnapshotpolicy#time_points}
   */
   readonly timePoints: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy apsarastack_ecs_autosnapshotpolicy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy apsarastack_ecs_autosnapshotpolicy}
 */
 export class ApsarastackEcsAutosnapshotpolicy extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApsarastackEcsAutosnapshotpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackEcsAutosnapshotpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEcsAutosnapshotpolicy to import
-  * @param importFromId The id of the existing ApsarastackEcsAutosnapshotpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEcsAutosnapshotpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEcsAutosnapshotpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApsarastackEcsAutosnapshotpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ecs_autosnapshotpolicy apsarastack_ecs_autosnapshotpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ecs_autosnapshotpolicy apsarastack_ecs_autosnapshotpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApsarastackEcsAutosnapshotpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_ecs_autosnapshotpolicy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

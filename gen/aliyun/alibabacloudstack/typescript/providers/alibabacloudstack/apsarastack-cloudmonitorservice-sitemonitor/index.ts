@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCloudmonitorserviceSitemonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#address ApsarastackCloudmonitorserviceSitemonitor#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#address ApsarastackCloudmonitorserviceSitemonitor#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#alert_ids ApsarastackCloudmonitorserviceSitemonitor#alert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#alert_ids ApsarastackCloudmonitorserviceSitemonitor#alert_ids}
   */
   readonly alertIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#id ApsarastackCloudmonitorserviceSitemonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#id ApsarastackCloudmonitorserviceSitemonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#interval ApsarastackCloudmonitorserviceSitemonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#interval ApsarastackCloudmonitorserviceSitemonitor#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#options_json ApsarastackCloudmonitorserviceSitemonitor#options_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#options_json ApsarastackCloudmonitorserviceSitemonitor#options_json}
   */
   readonly optionsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#task_name ApsarastackCloudmonitorserviceSitemonitor#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#task_name ApsarastackCloudmonitorserviceSitemonitor#task_name}
   */
   readonly taskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#task_type ApsarastackCloudmonitorserviceSitemonitor#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#task_type ApsarastackCloudmonitorserviceSitemonitor#task_type}
   */
   readonly taskType: string;
   /**
   * isp_cities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#isp_cities ApsarastackCloudmonitorserviceSitemonitor#isp_cities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#isp_cities ApsarastackCloudmonitorserviceSitemonitor#isp_cities}
   */
   readonly ispCities?: ApsarastackCloudmonitorserviceSitemonitorIspCities[] | cdktf.IResolvable;
 }
 export interface ApsarastackCloudmonitorserviceSitemonitorIspCities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#city ApsarastackCloudmonitorserviceSitemonitor#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#city ApsarastackCloudmonitorserviceSitemonitor#city}
   */
   readonly city: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#isp ApsarastackCloudmonitorserviceSitemonitor#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#isp ApsarastackCloudmonitorserviceSitemonitor#isp}
   */
   readonly isp: string;
 }
@@ -190,7 +190,7 @@ export class ApsarastackCloudmonitorserviceSitemonitorIspCitiesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor apsarastack_cloudmonitorservice_sitemonitor}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor apsarastack_cloudmonitorservice_sitemonitor}
 */
 export class ApsarastackCloudmonitorserviceSitemonitor extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class ApsarastackCloudmonitorserviceSitemonitor extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ApsarastackCloudmonitorserviceSitemonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCloudmonitorserviceSitemonitor to import
-  * @param importFromId The id of the existing ApsarastackCloudmonitorserviceSitemonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCloudmonitorserviceSitemonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCloudmonitorserviceSitemonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class ApsarastackCloudmonitorserviceSitemonitor extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudmonitorservice_sitemonitor apsarastack_cloudmonitorservice_sitemonitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudmonitorservice_sitemonitor apsarastack_cloudmonitorservice_sitemonitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class ApsarastackCloudmonitorserviceSitemonitor extends cdktf.TerraformRe
       terraformResourceType: 'apsarastack_cloudmonitorservice_sitemonitor',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

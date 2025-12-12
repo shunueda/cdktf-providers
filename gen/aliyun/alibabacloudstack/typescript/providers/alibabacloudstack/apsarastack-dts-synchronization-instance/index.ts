@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackDtsSynchronizationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#compute_unit ApsarastackDtsSynchronizationInstance#compute_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#compute_unit ApsarastackDtsSynchronizationInstance#compute_unit}
   */
   readonly computeUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#database_count ApsarastackDtsSynchronizationInstance#database_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#database_count ApsarastackDtsSynchronizationInstance#database_count}
   */
   readonly databaseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#destination_endpoint_engine_name ApsarastackDtsSynchronizationInstance#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#destination_endpoint_engine_name ApsarastackDtsSynchronizationInstance#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#destination_endpoint_region ApsarastackDtsSynchronizationInstance#destination_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#destination_endpoint_region ApsarastackDtsSynchronizationInstance#destination_endpoint_region}
   */
   readonly destinationEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#id ApsarastackDtsSynchronizationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#id ApsarastackDtsSynchronizationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#instance_class ApsarastackDtsSynchronizationInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#instance_class ApsarastackDtsSynchronizationInstance#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#payment_duration ApsarastackDtsSynchronizationInstance#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#payment_duration ApsarastackDtsSynchronizationInstance#payment_duration}
   */
   readonly paymentDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#payment_duration_unit ApsarastackDtsSynchronizationInstance#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#payment_duration_unit ApsarastackDtsSynchronizationInstance#payment_duration_unit}
   */
   readonly paymentDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#payment_type ApsarastackDtsSynchronizationInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#payment_type ApsarastackDtsSynchronizationInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#quantity ApsarastackDtsSynchronizationInstance#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#quantity ApsarastackDtsSynchronizationInstance#quantity}
   */
   readonly quantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#source_endpoint_engine_name ApsarastackDtsSynchronizationInstance#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#source_endpoint_engine_name ApsarastackDtsSynchronizationInstance#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#source_endpoint_region ApsarastackDtsSynchronizationInstance#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#source_endpoint_region ApsarastackDtsSynchronizationInstance#source_endpoint_region}
   */
   readonly sourceEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#sync_architecture ApsarastackDtsSynchronizationInstance#sync_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#sync_architecture ApsarastackDtsSynchronizationInstance#sync_architecture}
   */
   readonly syncArchitecture?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance apsarastack_dts_synchronization_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance apsarastack_dts_synchronization_instance}
 */
 export class ApsarastackDtsSynchronizationInstance extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ApsarastackDtsSynchronizationInstance extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackDtsSynchronizationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackDtsSynchronizationInstance to import
-  * @param importFromId The id of the existing ApsarastackDtsSynchronizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackDtsSynchronizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackDtsSynchronizationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ApsarastackDtsSynchronizationInstance extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_dts_synchronization_instance apsarastack_dts_synchronization_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_dts_synchronization_instance apsarastack_dts_synchronization_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ApsarastackDtsSynchronizationInstance extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_dts_synchronization_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

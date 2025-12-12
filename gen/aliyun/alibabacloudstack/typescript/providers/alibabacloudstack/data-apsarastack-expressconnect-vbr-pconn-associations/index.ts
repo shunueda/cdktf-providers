@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackExpressconnectVbrPconnAssociationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#id DataApsarastackExpressconnectVbrPconnAssociations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#id DataApsarastackExpressconnectVbrPconnAssociations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#physical_connection_id DataApsarastackExpressconnectVbrPconnAssociations#physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#physical_connection_id DataApsarastackExpressconnectVbrPconnAssociations#physical_connection_id}
   */
   readonly physicalConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#vbr_id DataApsarastackExpressconnectVbrPconnAssociations#vbr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#vbr_id DataApsarastackExpressconnectVbrPconnAssociations#vbr_id}
   */
   readonly vbrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#vlan_id DataApsarastackExpressconnectVbrPconnAssociations#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#vlan_id DataApsarastackExpressconnectVbrPconnAssociations#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -159,7 +159,7 @@ export class DataApsarastackExpressconnectVbrPconnAssociationsVbrPconnAssociatio
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations apsarastack_expressconnect_vbr_pconn_associations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations apsarastack_expressconnect_vbr_pconn_associations}
 */
 export class DataApsarastackExpressconnectVbrPconnAssociations extends cdktf.TerraformDataSource {
 
@@ -175,7 +175,7 @@ export class DataApsarastackExpressconnectVbrPconnAssociations extends cdktf.Ter
   * Generates CDKTF code for importing a DataApsarastackExpressconnectVbrPconnAssociations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackExpressconnectVbrPconnAssociations to import
-  * @param importFromId The id of the existing DataApsarastackExpressconnectVbrPconnAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackExpressconnectVbrPconnAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackExpressconnectVbrPconnAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DataApsarastackExpressconnectVbrPconnAssociations extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations apsarastack_expressconnect_vbr_pconn_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_expressconnect_vbr_pconn_associations apsarastack_expressconnect_vbr_pconn_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DataApsarastackExpressconnectVbrPconnAssociations extends cdktf.Ter
       terraformResourceType: 'apsarastack_expressconnect_vbr_pconn_associations',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

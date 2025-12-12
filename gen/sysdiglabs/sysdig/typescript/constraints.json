@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "sysdig": "3.2.0"
+    "sysdig": "3.3.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackPolardbxInstanceTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#cpu DataApsarastackPolardbxInstanceTypes#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#cpu DataApsarastackPolardbxInstanceTypes#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#cpu_type DataApsarastackPolardbxInstanceTypes#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#cpu_type DataApsarastackPolardbxInstanceTypes#cpu_type}
   */
   readonly cpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#engine_version DataApsarastackPolardbxInstanceTypes#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#engine_version DataApsarastackPolardbxInstanceTypes#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#id DataApsarastackPolardbxInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#id DataApsarastackPolardbxInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#ids DataApsarastackPolardbxInstanceTypes#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#ids DataApsarastackPolardbxInstanceTypes#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#memory DataApsarastackPolardbxInstanceTypes#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#memory DataApsarastackPolardbxInstanceTypes#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#series DataApsarastackPolardbxInstanceTypes#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#series DataApsarastackPolardbxInstanceTypes#series}
   */
   readonly series?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#sorted_by DataApsarastackPolardbxInstanceTypes#sorted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#sorted_by DataApsarastackPolardbxInstanceTypes#sorted_by}
   */
   readonly sortedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#spec_series DataApsarastackPolardbxInstanceTypes#spec_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#spec_series DataApsarastackPolardbxInstanceTypes#spec_series}
   */
   readonly specSeries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#spec_type DataApsarastackPolardbxInstanceTypes#spec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#spec_type DataApsarastackPolardbxInstanceTypes#spec_type}
   */
   readonly specType?: string;
 }
@@ -138,7 +138,7 @@ export class DataApsarastackPolardbxInstanceTypesInstanceTypesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types apsarastack_polardbx_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types apsarastack_polardbx_instance_types}
 */
 export class DataApsarastackPolardbxInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataApsarastackPolardbxInstanceTypes extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataApsarastackPolardbxInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackPolardbxInstanceTypes to import
-  * @param importFromId The id of the existing DataApsarastackPolardbxInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackPolardbxInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackPolardbxInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataApsarastackPolardbxInstanceTypes extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_polardbx_instance_types apsarastack_polardbx_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_polardbx_instance_types apsarastack_polardbx_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataApsarastackPolardbxInstanceTypes extends cdktf.TerraformDataSou
       terraformResourceType: 'apsarastack_polardbx_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

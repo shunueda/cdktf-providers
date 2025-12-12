@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackApigatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#api_name ApsarastackApigatewayApi#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#api_name ApsarastackApigatewayApi#api_name}
   */
   readonly apiName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#auth_type ApsarastackApigatewayApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#auth_type ApsarastackApigatewayApi#auth_type}
   */
   readonly authType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#force_nonce_check ApsarastackApigatewayApi#force_nonce_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#force_nonce_check ApsarastackApigatewayApi#force_nonce_check}
   */
   readonly forceNonceCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#group_id ApsarastackApigatewayApi#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#group_id ApsarastackApigatewayApi#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#id ApsarastackApigatewayApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#id ApsarastackApigatewayApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#service_type ApsarastackApigatewayApi#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#service_type ApsarastackApigatewayApi#service_type}
   */
   readonly serviceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#stage_names ApsarastackApigatewayApi#stage_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#stage_names ApsarastackApigatewayApi#stage_names}
   */
   readonly stageNames?: string[];
   /**
   * constant_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#constant_parameters ApsarastackApigatewayApi#constant_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#constant_parameters ApsarastackApigatewayApi#constant_parameters}
   */
   readonly constantParameters?: ApsarastackApigatewayApiConstantParameters[] | cdktf.IResolvable;
   /**
   * fc_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#fc_service_config ApsarastackApigatewayApi#fc_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#fc_service_config ApsarastackApigatewayApi#fc_service_config}
   */
   readonly fcServiceConfig?: ApsarastackApigatewayApiFcServiceConfig;
   /**
   * http_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#http_service_config ApsarastackApigatewayApi#http_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#http_service_config ApsarastackApigatewayApi#http_service_config}
   */
   readonly httpServiceConfig?: ApsarastackApigatewayApiHttpServiceConfig;
   /**
   * http_vpc_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#http_vpc_service_config ApsarastackApigatewayApi#http_vpc_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#http_vpc_service_config ApsarastackApigatewayApi#http_vpc_service_config}
   */
   readonly httpVpcServiceConfig?: ApsarastackApigatewayApiHttpVpcServiceConfig;
   /**
   * mock_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#mock_service_config ApsarastackApigatewayApi#mock_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#mock_service_config ApsarastackApigatewayApi#mock_service_config}
   */
   readonly mockServiceConfig?: ApsarastackApigatewayApiMockServiceConfig;
   /**
   * request_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#request_config ApsarastackApigatewayApi#request_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#request_config ApsarastackApigatewayApi#request_config}
   */
   readonly requestConfig: ApsarastackApigatewayApiRequestConfig;
   /**
   * request_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#request_parameters ApsarastackApigatewayApi#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#request_parameters ApsarastackApigatewayApi#request_parameters}
   */
   readonly requestParameters?: ApsarastackApigatewayApiRequestParameters[] | cdktf.IResolvable;
   /**
   * system_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#system_parameters ApsarastackApigatewayApi#system_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#system_parameters ApsarastackApigatewayApi#system_parameters}
   */
   readonly systemParameters?: ApsarastackApigatewayApiSystemParameters[] | cdktf.IResolvable;
 }
 export interface ApsarastackApigatewayApiConstantParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#value ApsarastackApigatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#value ApsarastackApigatewayApi#value}
   */
   readonly value: string;
 }
@@ -303,23 +303,23 @@ export class ApsarastackApigatewayApiConstantParametersList extends cdktf.Comple
 }
 export interface ApsarastackApigatewayApiFcServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#arn_role ApsarastackApigatewayApi#arn_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#arn_role ApsarastackApigatewayApi#arn_role}
   */
   readonly arnRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#function_name ApsarastackApigatewayApi#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#function_name ApsarastackApigatewayApi#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#region ApsarastackApigatewayApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#region ApsarastackApigatewayApi#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#service_name ApsarastackApigatewayApi#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#service_name ApsarastackApigatewayApi#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
   */
   readonly timeout: number;
 }
@@ -507,23 +507,23 @@ export class ApsarastackApigatewayApiFcServiceConfigOutputReference extends cdkt
 }
 export interface ApsarastackApigatewayApiHttpServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#address ApsarastackApigatewayApi#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#address ApsarastackApigatewayApi#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
   */
   readonly timeout: number;
 }
@@ -711,23 +711,23 @@ export class ApsarastackApigatewayApiHttpServiceConfigOutputReference extends cd
 }
 export interface ApsarastackApigatewayApiHttpVpcServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#timeout ApsarastackApigatewayApi#timeout}
   */
   readonly timeout: number;
 }
@@ -915,11 +915,11 @@ export class ApsarastackApigatewayApiHttpVpcServiceConfigOutputReference extends
 }
 export interface ApsarastackApigatewayApiMockServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#aone_name ApsarastackApigatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#result ApsarastackApigatewayApi#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#result ApsarastackApigatewayApi#result}
   */
   readonly result: string;
 }
@@ -1029,23 +1029,23 @@ export class ApsarastackApigatewayApiMockServiceConfigOutputReference extends cd
 }
 export interface ApsarastackApigatewayApiRequestConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#body_format ApsarastackApigatewayApi#body_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#body_format ApsarastackApigatewayApi#body_format}
   */
   readonly bodyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#method ApsarastackApigatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#mode ApsarastackApigatewayApi#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#mode ApsarastackApigatewayApi#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#path ApsarastackApigatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#protocol ApsarastackApigatewayApi#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#protocol ApsarastackApigatewayApi#protocol}
   */
   readonly protocol: string;
 }
@@ -1233,35 +1233,35 @@ export class ApsarastackApigatewayApiRequestConfigOutputReference extends cdktf.
 }
 export interface ApsarastackApigatewayApiRequestParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#default_value ApsarastackApigatewayApi#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#default_value ApsarastackApigatewayApi#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#description ApsarastackApigatewayApi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#in_service ApsarastackApigatewayApi#in_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#in_service ApsarastackApigatewayApi#in_service}
   */
   readonly inService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name_service ApsarastackApigatewayApi#name_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name_service ApsarastackApigatewayApi#name_service}
   */
   readonly nameService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#required ApsarastackApigatewayApi#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#required ApsarastackApigatewayApi#required}
   */
   readonly required: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#type ApsarastackApigatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#type ApsarastackApigatewayApi#type}
   */
   readonly type: string;
 }
@@ -1562,15 +1562,15 @@ export class ApsarastackApigatewayApiRequestParametersList extends cdktf.Complex
 }
 export interface ApsarastackApigatewayApiSystemParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#in ApsarastackApigatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name ApsarastackApigatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#name_service ApsarastackApigatewayApi#name_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#name_service ApsarastackApigatewayApi#name_service}
   */
   readonly nameService: string;
 }
@@ -1735,7 +1735,7 @@ export class ApsarastackApigatewayApiSystemParametersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api apsarastack_apigateway_api}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api apsarastack_apigateway_api}
 */
 export class ApsarastackApigatewayApi extends cdktf.TerraformResource {
 
@@ -1751,7 +1751,7 @@ export class ApsarastackApigatewayApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackApigatewayApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackApigatewayApi to import
-  * @param importFromId The id of the existing ApsarastackApigatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackApigatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackApigatewayApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1763,7 +1763,7 @@ export class ApsarastackApigatewayApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_apigateway_api apsarastack_apigateway_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_apigateway_api apsarastack_apigateway_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1774,8 +1774,8 @@ export class ApsarastackApigatewayApi extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_apigateway_api',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

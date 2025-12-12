@@ -62,6 +62,7 @@ Object.defineProperty(exports, 'functionScalingPolicy', { get: function () { ret
 Object.defineProperty(exports, 'functionTrigger', { get: function () { return require('./function-trigger'); } });
 Object.defineProperty(exports, 'gitlabInstance', { get: function () { return require('./gitlab-instance'); } });
 Object.defineProperty(exports, 'iamOauthClient', { get: function () { return require('./iam-oauth-client'); } });
+Object.defineProperty(exports, 'iamOauthClientSecret', { get: function () { return require('./iam-oauth-client-secret'); } });
 Object.defineProperty(exports, 'iamServiceAccount', { get: function () { return require('./iam-service-account'); } });
 Object.defineProperty(exports, 'iamServiceAccountApiKey', { get: function () { return require('./iam-service-account-api-key'); } });
 Object.defineProperty(exports, 'iamServiceAccountIamBinding', { get: function () { return require('./iam-service-account-iam-binding'); } });
@@ -103,6 +104,7 @@ Object.defineProperty(exports, 'mdbClickhouseCluster', { get: function () { retu
 Object.defineProperty(exports, 'mdbClickhouseDatabase', { get: function () { return require('./mdb-clickhouse-database'); } });
 Object.defineProperty(exports, 'mdbClickhouseUser', { get: function () { return require('./mdb-clickhouse-user'); } });
 Object.defineProperty(exports, 'mdbGreenplumCluster', { get: function () { return require('./mdb-greenplum-cluster'); } });
+Object.defineProperty(exports, 'mdbGreenplumClusterV2', { get: function () { return require('./mdb-greenplum-cluster-v2'); } });
 Object.defineProperty(exports, 'mdbGreenplumResourceGroup', { get: function () { return require('./mdb-greenplum-resource-group'); } });
 Object.defineProperty(exports, 'mdbGreenplumUser', { get: function () { return require('./mdb-greenplum-user'); } });
 Object.defineProperty(exports, 'mdbKafkaCluster', { get: function () { return require('./mdb-kafka-cluster'); } });
@@ -139,6 +141,7 @@ Object.defineProperty(exports, 'organizationmanagerGroupMappingItem', { get: fun
 Object.defineProperty(exports, 'organizationmanagerGroupMembership', { get: function () { return require('./organizationmanager-group-membership'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpApplicationOauthApplication', { get: function () { return require('./organizationmanager-idp-application-oauth-application'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpApplicationSamlApplication', { get: function () { return require('./organizationmanager-idp-application-saml-application'); } });
+Object.defineProperty(exports, 'organizationmanagerIdpApplicationSamlSignatureCertificate', { get: function () { return require('./organizationmanager-idp-application-saml-signature-certificate'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUser', { get: function () { return require('./organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUserpool', { get: function () { return require('./organizationmanager-idp-userpool'); } });
 Object.defineProperty(exports, 'organizationmanagerOrganizationIamBinding', { get: function () { return require('./organizationmanager-organization-iam-binding'); } });
@@ -264,6 +267,7 @@ Object.defineProperty(exports, 'dataYandexMdbClickhouseCluster', { get: function
 Object.defineProperty(exports, 'dataYandexMdbClickhouseDatabase', { get: function () { return require('./data-yandex-mdb-clickhouse-database'); } });
 Object.defineProperty(exports, 'dataYandexMdbClickhouseUser', { get: function () { return require('./data-yandex-mdb-clickhouse-user'); } });
 Object.defineProperty(exports, 'dataYandexMdbGreenplumCluster', { get: function () { return require('./data-yandex-mdb-greenplum-cluster'); } });
+Object.defineProperty(exports, 'dataYandexMdbGreenplumClusterV2', { get: function () { return require('./data-yandex-mdb-greenplum-cluster-v2'); } });
 Object.defineProperty(exports, 'dataYandexMdbGreenplumResourceGroup', { get: function () { return require('./data-yandex-mdb-greenplum-resource-group'); } });
 Object.defineProperty(exports, 'dataYandexMdbGreenplumUser', { get: function () { return require('./data-yandex-mdb-greenplum-user'); } });
 Object.defineProperty(exports, 'dataYandexMdbKafkaCluster', { get: function () { return require('./data-yandex-mdb-kafka-cluster'); } });
@@ -290,6 +294,7 @@ Object.defineProperty(exports, 'dataYandexMonitoringDashboard', { get: function 
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerGroup', { get: function () { return require('./data-yandex-organizationmanager-group'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationOauthApplication', { get: function () { return require('./data-yandex-organizationmanager-idp-application-oauth-application'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationSamlApplication', { get: function () { return require('./data-yandex-organizationmanager-idp-application-saml-application'); } });
+Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate', { get: function () { return require('./data-yandex-organizationmanager-idp-application-saml-signature-certificate'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUser', { get: function () { return require('./data-yandex-organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUserpool', { get: function () { return require('./data-yandex-organizationmanager-idp-userpool'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerOsLoginSettings', { get: function () { return require('./data-yandex-organizationmanager-os-login-settings'); } });

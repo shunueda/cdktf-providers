@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateMicrosoftTeamsChannelConfig extends cdktf.Ter
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#enabled WorkflowTaskCreateMicrosoftTeamsChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#enabled WorkflowTaskCreateMicrosoftTeamsChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#id WorkflowTaskCreateMicrosoftTeamsChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#id WorkflowTaskCreateMicrosoftTeamsChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateMicrosoftTeamsChannelConfig extends cdktf.Ter
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#name WorkflowTaskCreateMicrosoftTeamsChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#name WorkflowTaskCreateMicrosoftTeamsChannel#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#position WorkflowTaskCreateMicrosoftTeamsChannel#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#position WorkflowTaskCreateMicrosoftTeamsChannel#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#skip_on_failure WorkflowTaskCreateMicrosoftTeamsChannel#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#skip_on_failure WorkflowTaskCreateMicrosoftTeamsChannel#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#workflow_id WorkflowTaskCreateMicrosoftTeamsChannel#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#workflow_id WorkflowTaskCreateMicrosoftTeamsChannel#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#task_params WorkflowTaskCreateMicrosoftTeamsChannel#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#task_params WorkflowTaskCreateMicrosoftTeamsChannel#task_params}
   */
   readonly taskParams: WorkflowTaskCreateMicrosoftTeamsChannelTaskParams;
 }
@@ -55,29 +55,29 @@ export interface WorkflowTaskCreateMicrosoftTeamsChannelTaskParams {
   /**
   * Microsoft Team channel description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#description WorkflowTaskCreateMicrosoftTeamsChannel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#description WorkflowTaskCreateMicrosoftTeamsChannel#description}
   */
   readonly description?: string;
   /**
   * Value must be one of `auto`, `true`, `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#private WorkflowTaskCreateMicrosoftTeamsChannel#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#private WorkflowTaskCreateMicrosoftTeamsChannel#private}
   */
   readonly private?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#task_type WorkflowTaskCreateMicrosoftTeamsChannel#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#task_type WorkflowTaskCreateMicrosoftTeamsChannel#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#team WorkflowTaskCreateMicrosoftTeamsChannel#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#team WorkflowTaskCreateMicrosoftTeamsChannel#team}
   */
   readonly team?: { [key: string]: string };
   /**
   * Microsoft Team channel title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#title WorkflowTaskCreateMicrosoftTeamsChannel#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#title WorkflowTaskCreateMicrosoftTeamsChannel#title}
   */
   readonly title: string;
 }
@@ -274,7 +274,7 @@ export class WorkflowTaskCreateMicrosoftTeamsChannelTaskParamsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel rootly_workflow_task_create_microsoft_teams_channel}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel rootly_workflow_task_create_microsoft_teams_channel}
 */
 export class WorkflowTaskCreateMicrosoftTeamsChannel extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class WorkflowTaskCreateMicrosoftTeamsChannel extends cdktf.TerraformReso
   * Generates CDKTF code for importing a WorkflowTaskCreateMicrosoftTeamsChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateMicrosoftTeamsChannel to import
-  * @param importFromId The id of the existing WorkflowTaskCreateMicrosoftTeamsChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateMicrosoftTeamsChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateMicrosoftTeamsChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class WorkflowTaskCreateMicrosoftTeamsChannel extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_microsoft_teams_channel rootly_workflow_task_create_microsoft_teams_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_microsoft_teams_channel rootly_workflow_task_create_microsoft_teams_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class WorkflowTaskCreateMicrosoftTeamsChannel extends cdktf.TerraformReso
       terraformResourceType: 'rootly_workflow_task_create_microsoft_teams_channel',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

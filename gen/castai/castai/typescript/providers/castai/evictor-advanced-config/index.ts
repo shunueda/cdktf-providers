@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EvictorAdvancedConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * CAST AI cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#cluster_id EvictorAdvancedConfig#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#cluster_id EvictorAdvancedConfig#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#id EvictorAdvancedConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#id EvictorAdvancedConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface EvictorAdvancedConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * evictor_advanced_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#evictor_advanced_config EvictorAdvancedConfig#evictor_advanced_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#evictor_advanced_config EvictorAdvancedConfig#evictor_advanced_config}
   */
   readonly evictorAdvancedConfig: EvictorAdvancedConfigEvictorAdvancedConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#timeouts EvictorAdvancedConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#timeouts EvictorAdvancedConfig#timeouts}
   */
   readonly timeouts?: EvictorAdvancedConfigTimeouts;
 }
 export interface EvictorAdvancedConfigEvictorAdvancedConfigNodeSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#key EvictorAdvancedConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#key EvictorAdvancedConfig#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#operator EvictorAdvancedConfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#operator EvictorAdvancedConfig#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#values EvictorAdvancedConfig#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#values EvictorAdvancedConfig#values}
   */
   readonly values?: string[];
 }
@@ -211,13 +211,13 @@ export class EvictorAdvancedConfigEvictorAdvancedConfigNodeSelectorMatchExpressi
 }
 export interface EvictorAdvancedConfigEvictorAdvancedConfigNodeSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#match_labels EvictorAdvancedConfig#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#match_labels EvictorAdvancedConfig#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#match_expressions EvictorAdvancedConfig#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#match_expressions EvictorAdvancedConfig#match_expressions}
   */
   readonly matchExpressions?: EvictorAdvancedConfigEvictorAdvancedConfigNodeSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -362,15 +362,15 @@ export class EvictorAdvancedConfigEvictorAdvancedConfigNodeSelectorList extends 
 }
 export interface EvictorAdvancedConfigEvictorAdvancedConfigPodSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#key EvictorAdvancedConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#key EvictorAdvancedConfig#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#operator EvictorAdvancedConfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#operator EvictorAdvancedConfig#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#values EvictorAdvancedConfig#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#values EvictorAdvancedConfig#values}
   */
   readonly values?: string[];
 }
@@ -538,21 +538,21 @@ export class EvictorAdvancedConfigEvictorAdvancedConfigPodSelectorMatchExpressio
 }
 export interface EvictorAdvancedConfigEvictorAdvancedConfigPodSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#kind EvictorAdvancedConfig#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#kind EvictorAdvancedConfig#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#match_labels EvictorAdvancedConfig#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#match_labels EvictorAdvancedConfig#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#namespace EvictorAdvancedConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#namespace EvictorAdvancedConfig#namespace}
   */
   readonly namespace?: string;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#match_expressions EvictorAdvancedConfig#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#match_expressions EvictorAdvancedConfig#match_expressions}
   */
   readonly matchExpressions?: EvictorAdvancedConfigEvictorAdvancedConfigPodSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -757,31 +757,31 @@ export interface EvictorAdvancedConfigEvictorAdvancedConfig {
   /**
   * Apply Aggressive mode to Evictor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#aggressive EvictorAdvancedConfig#aggressive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#aggressive EvictorAdvancedConfig#aggressive}
   */
   readonly aggressive?: boolean | cdktf.IResolvable;
   /**
   * Mark node as disposable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#disposable EvictorAdvancedConfig#disposable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#disposable EvictorAdvancedConfig#disposable}
   */
   readonly disposable?: boolean | cdktf.IResolvable;
   /**
   * Mark pods as removal disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#removal_disabled EvictorAdvancedConfig#removal_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#removal_disabled EvictorAdvancedConfig#removal_disabled}
   */
   readonly removalDisabled?: boolean | cdktf.IResolvable;
   /**
   * node_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#node_selector EvictorAdvancedConfig#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#node_selector EvictorAdvancedConfig#node_selector}
   */
   readonly nodeSelector?: EvictorAdvancedConfigEvictorAdvancedConfigNodeSelector[] | cdktf.IResolvable;
   /**
   * pod_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#pod_selector EvictorAdvancedConfig#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#pod_selector EvictorAdvancedConfig#pod_selector}
   */
   readonly podSelector?: EvictorAdvancedConfigEvictorAdvancedConfigPodSelector[] | cdktf.IResolvable;
 }
@@ -1013,11 +1013,11 @@ export class EvictorAdvancedConfigEvictorAdvancedConfigList extends cdktf.Comple
 }
 export interface EvictorAdvancedConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#create EvictorAdvancedConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#create EvictorAdvancedConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#update EvictorAdvancedConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#update EvictorAdvancedConfig#update}
   */
   readonly update?: string;
 }
@@ -1140,7 +1140,7 @@ export class EvictorAdvancedConfigTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config castai_evictor_advanced_config}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config castai_evictor_advanced_config}
 */
 export class EvictorAdvancedConfig extends cdktf.TerraformResource {
 
@@ -1156,7 +1156,7 @@ export class EvictorAdvancedConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EvictorAdvancedConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvictorAdvancedConfig to import
-  * @param importFromId The id of the existing EvictorAdvancedConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvictorAdvancedConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvictorAdvancedConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1168,7 +1168,7 @@ export class EvictorAdvancedConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/evictor_advanced_config castai_evictor_advanced_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/evictor_advanced_config castai_evictor_advanced_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1179,8 +1179,8 @@ export class EvictorAdvancedConfig extends cdktf.TerraformResource {
       terraformResourceType: 'castai_evictor_advanced_config',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

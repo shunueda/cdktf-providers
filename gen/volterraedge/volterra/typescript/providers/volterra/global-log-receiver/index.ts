@@ -61,152 +61,152 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface GlobalLogReceiverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#annotations GlobalLogReceiver#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#annotations GlobalLogReceiver#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#audit_logs GlobalLogReceiver#audit_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#audit_logs GlobalLogReceiver#audit_logs}
   */
   readonly auditLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#description GlobalLogReceiver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#description GlobalLogReceiver#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#disable GlobalLogReceiver#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#disable GlobalLogReceiver#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#dns_logs GlobalLogReceiver#dns_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#dns_logs GlobalLogReceiver#dns_logs}
   */
   readonly dnsLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#id GlobalLogReceiver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#id GlobalLogReceiver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#labels GlobalLogReceiver#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#labels GlobalLogReceiver#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#name GlobalLogReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#name GlobalLogReceiver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#namespace GlobalLogReceiver#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#namespace GlobalLogReceiver#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#ns_all GlobalLogReceiver#ns_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#ns_all GlobalLogReceiver#ns_all}
   */
   readonly nsAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#ns_current GlobalLogReceiver#ns_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#ns_current GlobalLogReceiver#ns_current}
   */
   readonly nsCurrent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#ns_system GlobalLogReceiver#ns_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#ns_system GlobalLogReceiver#ns_system}
   */
   readonly nsSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#request_logs GlobalLogReceiver#request_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#request_logs GlobalLogReceiver#request_logs}
   */
   readonly requestLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#security_events GlobalLogReceiver#security_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#security_events GlobalLogReceiver#security_events}
   */
   readonly securityEvents?: boolean | cdktf.IResolvable;
   /**
   * aws_cloud_watch_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#aws_cloud_watch_receiver GlobalLogReceiver#aws_cloud_watch_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#aws_cloud_watch_receiver GlobalLogReceiver#aws_cloud_watch_receiver}
   */
   readonly awsCloudWatchReceiver?: GlobalLogReceiverAwsCloudWatchReceiver;
   /**
   * azure_event_hubs_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#azure_event_hubs_receiver GlobalLogReceiver#azure_event_hubs_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#azure_event_hubs_receiver GlobalLogReceiver#azure_event_hubs_receiver}
   */
   readonly azureEventHubsReceiver?: GlobalLogReceiverAzureEventHubsReceiver;
   /**
   * azure_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#azure_receiver GlobalLogReceiver#azure_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#azure_receiver GlobalLogReceiver#azure_receiver}
   */
   readonly azureReceiver?: GlobalLogReceiverAzureReceiver;
   /**
   * datadog_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#datadog_receiver GlobalLogReceiver#datadog_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#datadog_receiver GlobalLogReceiver#datadog_receiver}
   */
   readonly datadogReceiver?: GlobalLogReceiverDatadogReceiver;
   /**
   * elastic_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#elastic_receiver GlobalLogReceiver#elastic_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#elastic_receiver GlobalLogReceiver#elastic_receiver}
   */
   readonly elasticReceiver?: GlobalLogReceiverElasticReceiver;
   /**
   * gcp_bucket_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#gcp_bucket_receiver GlobalLogReceiver#gcp_bucket_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#gcp_bucket_receiver GlobalLogReceiver#gcp_bucket_receiver}
   */
   readonly gcpBucketReceiver?: GlobalLogReceiverGcpBucketReceiver;
   /**
   * http_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#http_receiver GlobalLogReceiver#http_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#http_receiver GlobalLogReceiver#http_receiver}
   */
   readonly httpReceiver?: GlobalLogReceiverHttpReceiver;
   /**
   * kafka_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#kafka_receiver GlobalLogReceiver#kafka_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#kafka_receiver GlobalLogReceiver#kafka_receiver}
   */
   readonly kafkaReceiver?: GlobalLogReceiverKafkaReceiver;
   /**
   * new_relic_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#new_relic_receiver GlobalLogReceiver#new_relic_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#new_relic_receiver GlobalLogReceiver#new_relic_receiver}
   */
   readonly newRelicReceiver?: GlobalLogReceiverNewRelicReceiver;
   /**
   * ns_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#ns_list GlobalLogReceiver#ns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#ns_list GlobalLogReceiver#ns_list}
   */
   readonly nsList?: GlobalLogReceiverNsListStruct;
   /**
   * qradar_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#qradar_receiver GlobalLogReceiver#qradar_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#qradar_receiver GlobalLogReceiver#qradar_receiver}
   */
   readonly qradarReceiver?: GlobalLogReceiverQradarReceiver;
   /**
   * s3_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#s3_receiver GlobalLogReceiver#s3_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#s3_receiver GlobalLogReceiver#s3_receiver}
   */
   readonly s3Receiver?: GlobalLogReceiverS3Receiver;
   /**
   * splunk_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#splunk_receiver GlobalLogReceiver#splunk_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#splunk_receiver GlobalLogReceiver#splunk_receiver}
   */
   readonly splunkReceiver?: GlobalLogReceiverSplunkReceiver;
   /**
   * sumo_logic_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#sumo_logic_receiver GlobalLogReceiver#sumo_logic_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#sumo_logic_receiver GlobalLogReceiver#sumo_logic_receiver}
   */
   readonly sumoLogicReceiver?: GlobalLogReceiverSumoLogicReceiver;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver volterra_global_log_receiver}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver volterra_global_log_receiver}
 */
 export class GlobalLogReceiver extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class GlobalLogReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalLogReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalLogReceiver to import
-  * @param importFromId The id of the existing GlobalLogReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalLogReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalLogReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class GlobalLogReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/global_log_receiver volterra_global_log_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/global_log_receiver volterra_global_log_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class GlobalLogReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_global_log_receiver',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

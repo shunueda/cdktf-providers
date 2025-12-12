@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/destinations
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/destinations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioDestinationsConfig extends cdktf.TerraformMetaArgume
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/destinations#group_id DataCriblioDestinations#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/destinations#group_id DataCriblioDestinations#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/destinations criblio_destinations}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/destinations criblio_destinations}
 */
 export class DataCriblioDestinations extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCriblioDestinations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioDestinations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioDestinations to import
-  * @param importFromId The id of the existing DataCriblioDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/destinations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/destinations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioDestinations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCriblioDestinations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/destinations criblio_destinations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/destinations criblio_destinations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCriblioDestinations extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_destinations',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

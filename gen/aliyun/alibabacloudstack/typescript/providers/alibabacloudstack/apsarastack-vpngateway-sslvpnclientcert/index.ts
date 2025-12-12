@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackVpngatewaySslvpnclientcertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert#id ApsarastackVpngatewaySslvpnclientcert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert#id ApsarastackVpngatewaySslvpnclientcert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert#ssl_vpn_client_cert_name ApsarastackVpngatewaySslvpnclientcert#ssl_vpn_client_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert#ssl_vpn_client_cert_name ApsarastackVpngatewaySslvpnclientcert#ssl_vpn_client_cert_name}
   */
   readonly sslVpnClientCertName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert#ssl_vpn_server_id ApsarastackVpngatewaySslvpnclientcert#ssl_vpn_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert#ssl_vpn_server_id ApsarastackVpngatewaySslvpnclientcert#ssl_vpn_server_id}
   */
   readonly sslVpnServerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert#vpn_gateway_id ApsarastackVpngatewaySslvpnclientcert#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert#vpn_gateway_id ApsarastackVpngatewaySslvpnclientcert#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert apsarastack_vpngateway_sslvpnclientcert}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert apsarastack_vpngateway_sslvpnclientcert}
 */
 export class ApsarastackVpngatewaySslvpnclientcert extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ApsarastackVpngatewaySslvpnclientcert extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackVpngatewaySslvpnclientcert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackVpngatewaySslvpnclientcert to import
-  * @param importFromId The id of the existing ApsarastackVpngatewaySslvpnclientcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackVpngatewaySslvpnclientcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackVpngatewaySslvpnclientcert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ApsarastackVpngatewaySslvpnclientcert extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpngateway_sslvpnclientcert apsarastack_vpngateway_sslvpnclientcert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpngateway_sslvpnclientcert apsarastack_vpngateway_sslvpnclientcert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ApsarastackVpngatewaySslvpnclientcert extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_vpngateway_sslvpnclientcert',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

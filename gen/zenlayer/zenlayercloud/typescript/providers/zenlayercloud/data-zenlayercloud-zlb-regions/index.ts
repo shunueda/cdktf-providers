@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZenlayercloudZlbRegionsConfig extends cdktf.TerraformMetaAr
   /**
   * The code of the city where the region is located to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions#city_code DataZenlayercloudZlbRegions#city_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions#city_code DataZenlayercloudZlbRegions#city_code}
   */
   readonly cityCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions#id DataZenlayercloudZlbRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions#id DataZenlayercloudZlbRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataZenlayercloudZlbRegionsConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of region that the load balancer locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions#region_id DataZenlayercloudZlbRegions#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions#region_id DataZenlayercloudZlbRegions#region_id}
   */
   readonly regionId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions#result_output_file DataZenlayercloudZlbRegions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions#result_output_file DataZenlayercloudZlbRegions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -120,7 +120,7 @@ export class DataZenlayercloudZlbRegionsRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions zenlayercloud_zlb_regions}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions zenlayercloud_zlb_regions}
 */
 export class DataZenlayercloudZlbRegions extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataZenlayercloudZlbRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZlbRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZlbRegions to import
-  * @param importFromId The id of the existing DataZenlayercloudZlbRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZlbRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZlbRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataZenlayercloudZlbRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zlb_regions zenlayercloud_zlb_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zlb_regions zenlayercloud_zlb_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataZenlayercloudZlbRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zlb_regions',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

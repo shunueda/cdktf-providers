@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,142 +8,142 @@ import * as cdktf from 'cdktf';
 
 export interface K8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#annotations K8SCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#annotations K8SCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_scoped_access_deny K8SCluster#cluster_scoped_access_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_scoped_access_deny K8SCluster#cluster_scoped_access_deny}
   */
   readonly clusterScopedAccessDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_scoped_access_permit K8SCluster#cluster_scoped_access_permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_scoped_access_permit K8SCluster#cluster_scoped_access_permit}
   */
   readonly clusterScopedAccessPermit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#description K8SCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#description K8SCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#disable K8SCluster#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#disable K8SCluster#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#global_access_enable K8SCluster#global_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#global_access_enable K8SCluster#global_access_enable}
   */
   readonly globalAccessEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#id K8SCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#id K8SCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#labels K8SCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#labels K8SCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_cluster_wide_apps K8SCluster#no_cluster_wide_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#no_cluster_wide_apps K8SCluster#no_cluster_wide_apps}
   */
   readonly noClusterWideApps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_global_access K8SCluster#no_global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#no_global_access K8SCluster#no_global_access}
   */
   readonly noGlobalAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_insecure_registries K8SCluster#no_insecure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#no_insecure_registries K8SCluster#no_insecure_registries}
   */
   readonly noInsecureRegistries?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_local_access K8SCluster#no_local_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#no_local_access K8SCluster#no_local_access}
   */
   readonly noLocalAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_cluster_role_bindings K8SCluster#use_default_cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_default_cluster_role_bindings K8SCluster#use_default_cluster_role_bindings}
   */
   readonly useDefaultClusterRoleBindings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_cluster_roles K8SCluster#use_default_cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_default_cluster_roles K8SCluster#use_default_cluster_roles}
   */
   readonly useDefaultClusterRoles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_pod_security_admission K8SCluster#use_default_pod_security_admission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_default_pod_security_admission K8SCluster#use_default_pod_security_admission}
   */
   readonly useDefaultPodSecurityAdmission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_psp K8SCluster#use_default_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_default_psp K8SCluster#use_default_psp}
   */
   readonly useDefaultPsp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vk8s_namespace_access_deny K8SCluster#vk8s_namespace_access_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#vk8s_namespace_access_deny K8SCluster#vk8s_namespace_access_deny}
   */
   readonly vk8SNamespaceAccessDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vk8s_namespace_access_permit K8SCluster#vk8s_namespace_access_permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#vk8s_namespace_access_permit K8SCluster#vk8s_namespace_access_permit}
   */
   readonly vk8SNamespaceAccessPermit?: boolean | cdktf.IResolvable;
   /**
   * cluster_wide_app_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_wide_app_list K8SCluster#cluster_wide_app_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_wide_app_list K8SCluster#cluster_wide_app_list}
   */
   readonly clusterWideAppList?: K8SClusterClusterWideAppListStruct;
   /**
   * insecure_registry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#insecure_registry_list K8SCluster#insecure_registry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#insecure_registry_list K8SCluster#insecure_registry_list}
   */
   readonly insecureRegistryList?: K8SClusterInsecureRegistryListStruct;
   /**
   * local_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_access_config K8SCluster#local_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#local_access_config K8SCluster#local_access_config}
   */
   readonly localAccessConfig?: K8SClusterLocalAccessConfig;
   /**
   * use_custom_cluster_role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_cluster_role_bindings K8SCluster#use_custom_cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_custom_cluster_role_bindings K8SCluster#use_custom_cluster_role_bindings}
   */
   readonly useCustomClusterRoleBindings?: K8SClusterUseCustomClusterRoleBindings;
   /**
   * use_custom_cluster_role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_cluster_role_list K8SCluster#use_custom_cluster_role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_custom_cluster_role_list K8SCluster#use_custom_cluster_role_list}
   */
   readonly useCustomClusterRoleList?: K8SClusterUseCustomClusterRoleListStruct;
   /**
   * use_custom_pod_security_admission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_pod_security_admission K8SCluster#use_custom_pod_security_admission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_custom_pod_security_admission K8SCluster#use_custom_pod_security_admission}
   */
   readonly useCustomPodSecurityAdmission?: K8SClusterUseCustomPodSecurityAdmission;
   /**
   * use_custom_psp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_psp_list K8SCluster#use_custom_psp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#use_custom_psp_list K8SCluster#use_custom_psp_list}
   */
   readonly useCustomPspList?: K8SClusterUseCustomPspListStruct;
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#location K8SCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -282,15 +282,15 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#location K8SCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -429,11 +429,11 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#provider K8SCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#provider K8SCluster#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#url K8SCluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#url K8SCluster#url}
   */
   readonly url: string;
 }
@@ -543,23 +543,23 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#key K8SCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#key K8SCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#location K8SCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#provider K8SCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#provider K8SCluster#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#secret_encoding K8SCluster#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#secret_encoding K8SCluster#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#version K8SCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#version K8SCluster#version}
   */
   readonly version?: number;
 }
@@ -753,7 +753,7 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name: string;
 }
@@ -834,37 +834,37 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#secret_encoding_type K8SCluster#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#secret_encoding_type K8SCluster#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#blindfold_secret_info K8SCluster#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#blindfold_secret_info K8SCluster#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#blindfold_secret_info_internal K8SCluster#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#blindfold_secret_info_internal K8SCluster#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#clear_secret_info K8SCluster#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#clear_secret_info K8SCluster#clear_secret_info}
   */
   readonly clearSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vault_secret_info K8SCluster#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#vault_secret_info K8SCluster#vault_secret_info}
   */
   readonly vaultSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#wingman_secret_info K8SCluster#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#wingman_secret_info K8SCluster#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo;
 }
@@ -1093,21 +1093,21 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
   */
   readonly defaultPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#port K8SCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#port K8SCluster#port}
   */
   readonly port?: number;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#password K8SCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#password K8SCluster#password}
   */
   readonly password: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword;
 }
@@ -1272,13 +1272,13 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainOutputR
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
   */
   readonly generatedYaml?: string;
   /**
   * local_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomain;
 }
@@ -1391,7 +1391,7 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdOutputReference ex
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsDashboard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
   */
   readonly generatedYaml?: string;
 }
@@ -1475,7 +1475,7 @@ export class K8SClusterClusterWideAppListClusterWideAppsDashboardOutputReference
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsMetricsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
   */
   readonly generatedYaml?: string;
 }
@@ -1559,7 +1559,7 @@ export class K8SClusterClusterWideAppListClusterWideAppsMetricsServerOutputRefer
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
   */
   readonly generatedYaml?: string;
 }
@@ -1645,25 +1645,25 @@ export interface K8SClusterClusterWideAppListClusterWideApps {
   /**
   * argo_cd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#argo_cd K8SCluster#argo_cd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#argo_cd K8SCluster#argo_cd}
   */
   readonly argoCd?: K8SClusterClusterWideAppListClusterWideAppsArgoCd;
   /**
   * dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#dashboard K8SCluster#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#dashboard K8SCluster#dashboard}
   */
   readonly dashboard?: K8SClusterClusterWideAppListClusterWideAppsDashboard;
   /**
   * metrics_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#metrics_server K8SCluster#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#metrics_server K8SCluster#metrics_server}
   */
   readonly metricsServer?: K8SClusterClusterWideAppListClusterWideAppsMetricsServer;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#prometheus K8SCluster#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#prometheus K8SCluster#prometheus}
   */
   readonly prometheus?: K8SClusterClusterWideAppListClusterWideAppsPrometheus;
 }
@@ -1868,7 +1868,7 @@ export interface K8SClusterClusterWideAppListStruct {
   /**
   * cluster_wide_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_wide_apps K8SCluster#cluster_wide_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_wide_apps K8SCluster#cluster_wide_apps}
   */
   readonly clusterWideApps: K8SClusterClusterWideAppListClusterWideApps[] | cdktf.IResolvable;
 }
@@ -1949,7 +1949,7 @@ export class K8SClusterClusterWideAppListStructOutputReference extends cdktf.Com
 }
 export interface K8SClusterInsecureRegistryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#insecure_registries K8SCluster#insecure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#insecure_registries K8SCluster#insecure_registries}
   */
   readonly insecureRegistries: string[];
 }
@@ -2030,15 +2030,15 @@ export class K8SClusterInsecureRegistryListStructOutputReference extends cdktf.C
 }
 export interface K8SClusterLocalAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
   */
   readonly defaultPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#port K8SCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#port K8SCluster#port}
   */
   readonly port?: number;
 }
@@ -2177,15 +2177,15 @@ export class K8SClusterLocalAccessConfigOutputReference extends cdktf.ComplexObj
 }
 export interface K8SClusterUseCustomClusterRoleBindingsClusterRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -2361,7 +2361,7 @@ export interface K8SClusterUseCustomClusterRoleBindings {
   /**
   * cluster_role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_role_bindings K8SCluster#cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_role_bindings K8SCluster#cluster_role_bindings}
   */
   readonly clusterRoleBindings: K8SClusterUseCustomClusterRoleBindingsClusterRoleBindings[] | cdktf.IResolvable;
 }
@@ -2442,15 +2442,15 @@ export class K8SClusterUseCustomClusterRoleBindingsOutputReference extends cdktf
 }
 export interface K8SClusterUseCustomClusterRoleListClusterRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -2626,7 +2626,7 @@ export interface K8SClusterUseCustomClusterRoleListStruct {
   /**
   * cluster_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_roles K8SCluster#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#cluster_roles K8SCluster#cluster_roles}
   */
   readonly clusterRoles: K8SClusterUseCustomClusterRoleListClusterRoles[] | cdktf.IResolvable;
 }
@@ -2707,15 +2707,15 @@ export class K8SClusterUseCustomClusterRoleListStructOutputReference extends cdk
 }
 export interface K8SClusterUseCustomPodSecurityAdmission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -2857,15 +2857,15 @@ export class K8SClusterUseCustomPodSecurityAdmissionOutputReference extends cdkt
 }
 export interface K8SClusterUseCustomPspListPodSecurityPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -3041,7 +3041,7 @@ export interface K8SClusterUseCustomPspListStruct {
   /**
   * pod_security_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#pod_security_policies K8SCluster#pod_security_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#pod_security_policies K8SCluster#pod_security_policies}
   */
   readonly podSecurityPolicies: K8SClusterUseCustomPspListPodSecurityPolicies[] | cdktf.IResolvable;
 }
@@ -3122,7 +3122,7 @@ export class K8SClusterUseCustomPspListStructOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster volterra_k8s_cluster}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster volterra_k8s_cluster}
 */
 export class K8SCluster extends cdktf.TerraformResource {
 
@@ -3138,7 +3138,7 @@ export class K8SCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SCluster to import
-  * @param importFromId The id of the existing K8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3150,7 +3150,7 @@ export class K8SCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster volterra_k8s_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_cluster volterra_k8s_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3161,8 +3161,8 @@ export class K8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

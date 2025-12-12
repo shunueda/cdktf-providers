@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface DnsLbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#annotations DnsLbPool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#annotations DnsLbPool#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#description DnsLbPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#description DnsLbPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#id DnsLbPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#id DnsLbPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#labels DnsLbPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#labels DnsLbPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#load_balancing_mode DnsLbPool#load_balancing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#load_balancing_mode DnsLbPool#load_balancing_mode}
   */
   readonly loadBalancingMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#namespace DnsLbPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#namespace DnsLbPool#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ttl DnsLbPool#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ttl DnsLbPool#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#use_rrset_ttl DnsLbPool#use_rrset_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#use_rrset_ttl DnsLbPool#use_rrset_ttl}
   */
   readonly useRrsetTtl?: boolean | cdktf.IResolvable;
   /**
   * a_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#a_pool DnsLbPool#a_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#a_pool DnsLbPool#a_pool}
   */
   readonly aPool?: DnsLbPoolAPool;
   /**
   * aaaa_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#aaaa_pool DnsLbPool#aaaa_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#aaaa_pool DnsLbPool#aaaa_pool}
   */
   readonly aaaaPool?: DnsLbPoolAaaaPool;
   /**
   * cname_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#cname_pool DnsLbPool#cname_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#cname_pool DnsLbPool#cname_pool}
   */
   readonly cnamePool?: DnsLbPoolCnamePool;
   /**
   * mx_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#mx_pool DnsLbPool#mx_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#mx_pool DnsLbPool#mx_pool}
   */
   readonly mxPool?: DnsLbPoolMxPool;
   /**
   * srv_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#srv_pool DnsLbPool#srv_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#srv_pool DnsLbPool#srv_pool}
   */
   readonly srvPool?: DnsLbPoolSrvPool;
 }
 export interface DnsLbPoolAPoolHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#namespace DnsLbPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#namespace DnsLbPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#tenant DnsLbPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#tenant DnsLbPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -233,23 +233,23 @@ export class DnsLbPoolAPoolHealthCheckOutputReference extends cdktf.ComplexObjec
 }
 export interface DnsLbPoolAPoolMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ip_endpoint DnsLbPool#ip_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ip_endpoint DnsLbPool#ip_endpoint}
   */
   readonly ipEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
   */
   readonly ratio?: number;
 }
@@ -478,23 +478,23 @@ export class DnsLbPoolAPoolMembersList extends cdktf.ComplexList {
 }
 export interface DnsLbPoolAPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#disable_health_check DnsLbPool#disable_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#disable_health_check DnsLbPool#disable_health_check}
   */
   readonly disableHealthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
   */
   readonly maxAnswers: number;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#health_check DnsLbPool#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#health_check DnsLbPool#health_check}
   */
   readonly healthCheck?: DnsLbPoolAPoolHealthCheck;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#members DnsLbPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#members DnsLbPool#members}
   */
   readonly members: DnsLbPoolAPoolMembers[] | cdktf.IResolvable;
 }
@@ -659,23 +659,23 @@ export class DnsLbPoolAPoolOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsLbPoolAaaaPoolMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#disable DnsLbPool#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ip_endpoint DnsLbPool#ip_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ip_endpoint DnsLbPool#ip_endpoint}
   */
   readonly ipEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
   */
   readonly ratio?: number;
 }
@@ -904,13 +904,13 @@ export class DnsLbPoolAaaaPoolMembersList extends cdktf.ComplexList {
 }
 export interface DnsLbPoolAaaaPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
   */
   readonly maxAnswers: number;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#members DnsLbPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#members DnsLbPool#members}
   */
   readonly members: DnsLbPoolAaaaPoolMembers[] | cdktf.IResolvable;
 }
@@ -1017,19 +1017,19 @@ export class DnsLbPoolAaaaPoolOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsLbPoolCnamePoolMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#domain DnsLbPool#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#domain DnsLbPool#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#final_translation DnsLbPool#final_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#final_translation DnsLbPool#final_translation}
   */
   readonly finalTranslation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
   */
   readonly ratio?: number;
 }
@@ -1231,7 +1231,7 @@ export interface DnsLbPoolCnamePool {
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#members DnsLbPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#members DnsLbPool#members}
   */
   readonly members: DnsLbPoolCnamePoolMembers[] | cdktf.IResolvable;
 }
@@ -1312,19 +1312,19 @@ export class DnsLbPoolCnamePoolOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsLbPoolMxPoolMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#domain DnsLbPool#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#domain DnsLbPool#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
   */
   readonly ratio?: number;
 }
@@ -1524,13 +1524,13 @@ export class DnsLbPoolMxPoolMembersList extends cdktf.ComplexList {
 }
 export interface DnsLbPoolMxPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
   */
   readonly maxAnswers: number;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#members DnsLbPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#members DnsLbPool#members}
   */
   readonly members: DnsLbPoolMxPoolMembers[] | cdktf.IResolvable;
 }
@@ -1637,31 +1637,31 @@ export class DnsLbPoolMxPoolOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsLbPoolSrvPoolMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#final_translation DnsLbPool#final_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#final_translation DnsLbPool#final_translation}
   */
   readonly finalTranslation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#name DnsLbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#name DnsLbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#port DnsLbPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#port DnsLbPool#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#priority DnsLbPool#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#ratio DnsLbPool#ratio}
   */
   readonly ratio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#target DnsLbPool#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#target DnsLbPool#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#weight DnsLbPool#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#weight DnsLbPool#weight}
   */
   readonly weight: number;
 }
@@ -1939,13 +1939,13 @@ export class DnsLbPoolSrvPoolMembersList extends cdktf.ComplexList {
 }
 export interface DnsLbPoolSrvPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#max_answers DnsLbPool#max_answers}
   */
   readonly maxAnswers: number;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#members DnsLbPool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#members DnsLbPool#members}
   */
   readonly members: DnsLbPoolSrvPoolMembers[] | cdktf.IResolvable;
 }
@@ -2052,7 +2052,7 @@ export class DnsLbPoolSrvPoolOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool volterra_dns_lb_pool}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool volterra_dns_lb_pool}
 */
 export class DnsLbPool extends cdktf.TerraformResource {
 
@@ -2068,7 +2068,7 @@ export class DnsLbPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsLbPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsLbPool to import
-  * @param importFromId The id of the existing DnsLbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsLbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsLbPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2080,7 +2080,7 @@ export class DnsLbPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_pool volterra_dns_lb_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_pool volterra_dns_lb_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2091,8 +2091,8 @@ export class DnsLbPool extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_lb_pool',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

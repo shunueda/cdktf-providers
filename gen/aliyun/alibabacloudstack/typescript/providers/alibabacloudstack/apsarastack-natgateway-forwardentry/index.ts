@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackNatgatewayForwardentryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#external_ip ApsarastackNatgatewayForwardentry#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#external_ip ApsarastackNatgatewayForwardentry#external_ip}
   */
   readonly externalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#external_port ApsarastackNatgatewayForwardentry#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#external_port ApsarastackNatgatewayForwardentry#external_port}
   */
   readonly externalPort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#forward_entry_name ApsarastackNatgatewayForwardentry#forward_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#forward_entry_name ApsarastackNatgatewayForwardentry#forward_entry_name}
   */
   readonly forwardEntryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#forward_table_id ApsarastackNatgatewayForwardentry#forward_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#forward_table_id ApsarastackNatgatewayForwardentry#forward_table_id}
   */
   readonly forwardTableId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#id ApsarastackNatgatewayForwardentry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#id ApsarastackNatgatewayForwardentry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#internal_ip ApsarastackNatgatewayForwardentry#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#internal_ip ApsarastackNatgatewayForwardentry#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#internal_port ApsarastackNatgatewayForwardentry#internal_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#internal_port ApsarastackNatgatewayForwardentry#internal_port}
   */
   readonly internalPort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#ip_protocol ApsarastackNatgatewayForwardentry#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#ip_protocol ApsarastackNatgatewayForwardentry#ip_protocol}
   */
   readonly ipProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#name ApsarastackNatgatewayForwardentry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#name ApsarastackNatgatewayForwardentry#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry apsarastack_natgateway_forwardentry}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry apsarastack_natgateway_forwardentry}
 */
 export class ApsarastackNatgatewayForwardentry extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ApsarastackNatgatewayForwardentry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackNatgatewayForwardentry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackNatgatewayForwardentry to import
-  * @param importFromId The id of the existing ApsarastackNatgatewayForwardentry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackNatgatewayForwardentry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackNatgatewayForwardentry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ApsarastackNatgatewayForwardentry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_natgateway_forwardentry apsarastack_natgateway_forwardentry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_natgateway_forwardentry apsarastack_natgateway_forwardentry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ApsarastackNatgatewayForwardentry extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_natgateway_forwardentry',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackExpressconnectVirtualborderrouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#associated_physical_connections ApsarastackExpressconnectVirtualborderrouter#associated_physical_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#associated_physical_connections ApsarastackExpressconnectVirtualborderrouter#associated_physical_connections}
   */
   readonly associatedPhysicalConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#bandwidth ApsarastackExpressconnectVirtualborderrouter#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#bandwidth ApsarastackExpressconnectVirtualborderrouter#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#circuit_code ApsarastackExpressconnectVirtualborderrouter#circuit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#circuit_code ApsarastackExpressconnectVirtualborderrouter#circuit_code}
   */
   readonly circuitCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#description ApsarastackExpressconnectVirtualborderrouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#description ApsarastackExpressconnectVirtualborderrouter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#detect_multiplier ApsarastackExpressconnectVirtualborderrouter#detect_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#detect_multiplier ApsarastackExpressconnectVirtualborderrouter#detect_multiplier}
   */
   readonly detectMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#enable_ipv6 ApsarastackExpressconnectVirtualborderrouter#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#enable_ipv6 ApsarastackExpressconnectVirtualborderrouter#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#id ApsarastackExpressconnectVirtualborderrouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#id ApsarastackExpressconnectVirtualborderrouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#local_gateway_ip ApsarastackExpressconnectVirtualborderrouter#local_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#local_gateway_ip ApsarastackExpressconnectVirtualborderrouter#local_gateway_ip}
   */
   readonly localGatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#local_ipv6_gateway_ip ApsarastackExpressconnectVirtualborderrouter#local_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#local_ipv6_gateway_ip ApsarastackExpressconnectVirtualborderrouter#local_ipv6_gateway_ip}
   */
   readonly localIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#min_rx_interval ApsarastackExpressconnectVirtualborderrouter#min_rx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#min_rx_interval ApsarastackExpressconnectVirtualborderrouter#min_rx_interval}
   */
   readonly minRxInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#min_tx_interval ApsarastackExpressconnectVirtualborderrouter#min_tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#min_tx_interval ApsarastackExpressconnectVirtualborderrouter#min_tx_interval}
   */
   readonly minTxInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#peer_gateway_ip ApsarastackExpressconnectVirtualborderrouter#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#peer_gateway_ip ApsarastackExpressconnectVirtualborderrouter#peer_gateway_ip}
   */
   readonly peerGatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#peer_ipv6_gateway_ip ApsarastackExpressconnectVirtualborderrouter#peer_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#peer_ipv6_gateway_ip ApsarastackExpressconnectVirtualborderrouter#peer_ipv6_gateway_ip}
   */
   readonly peerIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#peering_ipv6_subnet_mask ApsarastackExpressconnectVirtualborderrouter#peering_ipv6_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#peering_ipv6_subnet_mask ApsarastackExpressconnectVirtualborderrouter#peering_ipv6_subnet_mask}
   */
   readonly peeringIpv6SubnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#peering_subnet_mask ApsarastackExpressconnectVirtualborderrouter#peering_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#peering_subnet_mask ApsarastackExpressconnectVirtualborderrouter#peering_subnet_mask}
   */
   readonly peeringSubnetMask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#physical_connection_id ApsarastackExpressconnectVirtualborderrouter#physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#physical_connection_id ApsarastackExpressconnectVirtualborderrouter#physical_connection_id}
   */
   readonly physicalConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#status ApsarastackExpressconnectVirtualborderrouter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#status ApsarastackExpressconnectVirtualborderrouter#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#vbr_owner_id ApsarastackExpressconnectVirtualborderrouter#vbr_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#vbr_owner_id ApsarastackExpressconnectVirtualborderrouter#vbr_owner_id}
   */
   readonly vbrOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#virtual_border_router_name ApsarastackExpressconnectVirtualborderrouter#virtual_border_router_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#virtual_border_router_name ApsarastackExpressconnectVirtualborderrouter#virtual_border_router_name}
   */
   readonly virtualBorderRouterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#vlan_id ApsarastackExpressconnectVirtualborderrouter#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#vlan_id ApsarastackExpressconnectVirtualborderrouter#vlan_id}
   */
   readonly vlanId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#timeouts ApsarastackExpressconnectVirtualborderrouter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#timeouts ApsarastackExpressconnectVirtualborderrouter#timeouts}
   */
   readonly timeouts?: ApsarastackExpressconnectVirtualborderrouterTimeouts;
 }
 export interface ApsarastackExpressconnectVirtualborderrouterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#update ApsarastackExpressconnectVirtualborderrouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#update ApsarastackExpressconnectVirtualborderrouter#update}
   */
   readonly update?: string;
 }
@@ -193,7 +193,7 @@ export class ApsarastackExpressconnectVirtualborderrouterTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter apsarastack_expressconnect_virtualborderrouter}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter apsarastack_expressconnect_virtualborderrouter}
 */
 export class ApsarastackExpressconnectVirtualborderrouter extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class ApsarastackExpressconnectVirtualborderrouter extends cdktf.Terrafor
   * Generates CDKTF code for importing a ApsarastackExpressconnectVirtualborderrouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackExpressconnectVirtualborderrouter to import
-  * @param importFromId The id of the existing ApsarastackExpressconnectVirtualborderrouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackExpressconnectVirtualborderrouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackExpressconnectVirtualborderrouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class ApsarastackExpressconnectVirtualborderrouter extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_expressconnect_virtualborderrouter apsarastack_expressconnect_virtualborderrouter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_expressconnect_virtualborderrouter apsarastack_expressconnect_virtualborderrouter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class ApsarastackExpressconnectVirtualborderrouter extends cdktf.Terrafor
       terraformResourceType: 'apsarastack_expressconnect_virtualborderrouter',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

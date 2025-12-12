@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#conf Pipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#conf Pipeline#conf}
   */
   readonly conf: PipelineConf;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#group_id Pipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#group_id Pipeline#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,43 +31,43 @@ export interface PipelineConfFunctions {
   /**
   * Configuration object that varies based on the function type. Each function (eval, serde, code, drop, etc.) requires different configuration fields. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#conf Pipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#conf Pipeline#conf}
   */
   readonly conf?: { [key: string]: string };
   /**
   * Simple description of this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * If true, data will not be pushed through this function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter that selects data to be fed through this Function. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#filter Pipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#filter Pipeline#filter}
   */
   readonly filter?: string;
   /**
   * If enabled, stops the results of this Function from being passed to the downstream Functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#final Pipeline#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#final Pipeline#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#group_id Pipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#group_id Pipeline#group_id}
   */
   readonly groupId?: string;
   /**
   * Function ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -362,19 +362,19 @@ export interface PipelineConfGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
 }
@@ -548,33 +548,33 @@ export interface PipelineConf {
   /**
   * Time (in ms) to wait for an async function to complete processing of a data item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#async_func_timeout Pipeline#async_func_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#async_func_timeout Pipeline#async_func_timeout}
   */
   readonly asyncFuncTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * List of Functions to pass data through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#functions Pipeline#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#functions Pipeline#functions}
   */
   readonly functions?: PipelineConfFunctions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#groups Pipeline#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#groups Pipeline#groups}
   */
   readonly groups?: { [key: string]: PipelineConfGroups } | cdktf.IResolvable;
   /**
   * The output destination for events processed by this Pipeline. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#output Pipeline#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#output Pipeline#output}
   */
   readonly output?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#streamtags Pipeline#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#streamtags Pipeline#streamtags}
   */
   readonly streamtags?: string[];
 }
@@ -813,7 +813,7 @@ export class PipelineConfOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline criblio_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline criblio_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -829,7 +829,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -841,7 +841,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/pipeline criblio_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/pipeline criblio_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -852,8 +852,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

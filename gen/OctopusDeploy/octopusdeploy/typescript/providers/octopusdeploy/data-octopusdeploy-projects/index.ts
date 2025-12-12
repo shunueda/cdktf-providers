@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataOctopusdeployProjectsConfig extends cdktf.TerraformMetaArgu
   /**
   * A filter to search for cloned resources by a project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#cloned_from_project_id DataOctopusdeployProjects#cloned_from_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#cloned_from_project_id DataOctopusdeployProjects#cloned_from_project_id}
   */
   readonly clonedFromProjectId?: string;
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#ids DataOctopusdeployProjects#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#ids DataOctopusdeployProjects#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search for cloned resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#is_clone DataOctopusdeployProjects#is_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#is_clone DataOctopusdeployProjects#is_clone}
   */
   readonly isClone?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#name DataOctopusdeployProjects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#name DataOctopusdeployProjects#name}
   */
   readonly name?: string;
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#partial_name DataOctopusdeployProjects#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#partial_name DataOctopusdeployProjects#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#skip DataOctopusdeployProjects#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#skip DataOctopusdeployProjects#skip}
   */
   readonly skip?: number;
   /**
   * A Space ID to filter by. Will revert what is specified on the provider if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#space_id DataOctopusdeployProjects#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#space_id DataOctopusdeployProjects#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#take DataOctopusdeployProjects#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#take DataOctopusdeployProjects#take}
   */
   readonly take?: number;
 }
@@ -1381,7 +1381,7 @@ export class DataOctopusdeployProjectsProjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects octopusdeploy_projects}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects octopusdeploy_projects}
 */
 export class DataOctopusdeployProjects extends cdktf.TerraformDataSource {
 
@@ -1397,7 +1397,7 @@ export class DataOctopusdeployProjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployProjects to import
-  * @param importFromId The id of the existing DataOctopusdeployProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1409,7 +1409,7 @@ export class DataOctopusdeployProjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/projects octopusdeploy_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/projects octopusdeploy_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1420,8 +1420,8 @@ export class DataOctopusdeployProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_projects',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

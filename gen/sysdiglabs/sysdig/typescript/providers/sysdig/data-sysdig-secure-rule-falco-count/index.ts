@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureRuleFalcoCountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#id DataSysdigSecureRuleFalcoCount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#id DataSysdigSecureRuleFalcoCount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#name DataSysdigSecureRuleFalcoCount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#name DataSysdigSecureRuleFalcoCount#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#source DataSysdigSecureRuleFalcoCount#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#source DataSysdigSecureRuleFalcoCount#source}
   */
   readonly source?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#timeouts DataSysdigSecureRuleFalcoCount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#timeouts DataSysdigSecureRuleFalcoCount#timeouts}
   */
   readonly timeouts?: DataSysdigSecureRuleFalcoCountTimeouts;
 }
 export interface DataSysdigSecureRuleFalcoCountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#read DataSysdigSecureRuleFalcoCount#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#read DataSysdigSecureRuleFalcoCount#read}
   */
   readonly read?: string;
 }
@@ -125,7 +125,7 @@ export class DataSysdigSecureRuleFalcoCountTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count sysdig_secure_rule_falco_count}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count sysdig_secure_rule_falco_count}
 */
 export class DataSysdigSecureRuleFalcoCount extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataSysdigSecureRuleFalcoCount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureRuleFalcoCount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureRuleFalcoCount to import
-  * @param importFromId The id of the existing DataSysdigSecureRuleFalcoCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureRuleFalcoCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureRuleFalcoCount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataSysdigSecureRuleFalcoCount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_falco_count sysdig_secure_rule_falco_count} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_falco_count sysdig_secure_rule_falco_count} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataSysdigSecureRuleFalcoCount extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_rule_falco_count',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

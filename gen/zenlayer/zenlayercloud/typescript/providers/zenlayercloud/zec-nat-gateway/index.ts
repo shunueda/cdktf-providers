@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ZecNatGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether ICMP replay is enabled. Default is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#enable_icmp_reply ZecNatGateway#enable_icmp_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#enable_icmp_reply ZecNatGateway#enable_icmp_reply}
   */
   readonly enableIcmpReply?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether to force delete the NAT gateway. Default is `true`. If set true, the NAT gateway will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#force_delete ZecNatGateway#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#force_delete ZecNatGateway#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#id ZecNatGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#id ZecNatGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface ZecNatGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether all the subnets of region is assigned to NAT gateway. This field is conflict with `subnet_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#is_all_subnets ZecNatGateway#is_all_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#is_all_subnets ZecNatGateway#is_all_subnets}
   */
   readonly isAllSubnets?: boolean | cdktf.IResolvable;
   /**
   * The name of the NAT gateway, the default value is 'Terraform-Subnet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#name ZecNatGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#name ZecNatGateway#name}
   */
   readonly name?: string;
   /**
   * The region that the NAT gateway locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#region_id ZecNatGateway#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#region_id ZecNatGateway#region_id}
   */
   readonly regionId: string;
   /**
   * The resource group id the NAT gateway belongs to, default to ID of Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#resource_group_id ZecNatGateway#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#resource_group_id ZecNatGateway#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * The ID of a security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#security_group_id ZecNatGateway#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#security_group_id ZecNatGateway#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * IDs of the subnets to be associated. The subnets must belong to the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#subnet_ids ZecNatGateway#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#subnet_ids ZecNatGateway#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * ID of the VPC to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#vpc_id ZecNatGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#vpc_id ZecNatGateway#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway zenlayercloud_zec_nat_gateway}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway zenlayercloud_zec_nat_gateway}
 */
 export class ZecNatGateway extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ZecNatGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecNatGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecNatGateway to import
-  * @param importFromId The id of the existing ZecNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecNatGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ZecNatGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_nat_gateway zenlayercloud_zec_nat_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_nat_gateway zenlayercloud_zec_nat_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ZecNatGateway extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_nat_gateway',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

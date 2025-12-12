@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CodeBaseIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#annotations CodeBaseIntegration#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#annotations CodeBaseIntegration#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#description CodeBaseIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#description CodeBaseIntegration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#disable CodeBaseIntegration#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#disable CodeBaseIntegration#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#id CodeBaseIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#id CodeBaseIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#labels CodeBaseIntegration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#labels CodeBaseIntegration#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#namespace CodeBaseIntegration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#namespace CodeBaseIntegration#namespace}
   */
   readonly namespace: string;
   /**
   * code_base_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#code_base_integration CodeBaseIntegration#code_base_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#code_base_integration CodeBaseIntegration#code_base_integration}
   */
   readonly codeBaseIntegration?: CodeBaseIntegrationCodeBaseIntegration;
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -194,15 +194,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfol
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -341,11 +341,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfol
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -455,23 +455,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenClearSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -665,7 +665,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenVaultSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -746,37 +746,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenWingmanS
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessTokenWingmanSecretInfo;
 }
@@ -1007,7 +1007,7 @@ export interface CodeBaseIntegrationCodeBaseIntegrationAzureRepos {
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
   */
   readonly accessToken: CodeBaseIntegrationCodeBaseIntegrationAzureReposAccessToken;
 }
@@ -1088,15 +1088,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationAzureReposOutputReference ext
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1235,15 +1235,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecre
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1382,11 +1382,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecre
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -1496,23 +1496,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdClearSecretInf
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -1706,7 +1706,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdVaultSecretInf
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -1787,37 +1787,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdWingmanSecretI
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdWingmanSecretInfo;
 }
@@ -2046,13 +2046,13 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswdOutputReferenc
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#username CodeBaseIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#username CodeBaseIntegration#username}
   */
   readonly username: string;
   /**
   * passwd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#passwd CodeBaseIntegration#passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#passwd CodeBaseIntegration#passwd}
   */
   readonly passwd: CodeBaseIntegrationCodeBaseIntegrationBitbucketPasswd;
 }
@@ -2159,15 +2159,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketOutputReference exte
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2306,15 +2306,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfol
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2453,11 +2453,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfol
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -2567,23 +2567,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdClearSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -2777,7 +2777,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdVaultSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -2858,37 +2858,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdWingmanS
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdWingmanSecretInfo;
 }
@@ -3117,21 +3117,21 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswdOutputRe
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationBitbucketServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#username CodeBaseIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#username CodeBaseIntegration#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#verify_ssl CodeBaseIntegration#verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#verify_ssl CodeBaseIntegration#verify_ssl}
   */
   readonly verifySsl?: boolean | cdktf.IResolvable;
   /**
   * passwd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#passwd CodeBaseIntegration#passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#passwd CodeBaseIntegration#passwd}
   */
   readonly passwd: CodeBaseIntegrationCodeBaseIntegrationBitbucketServerPasswd;
 }
@@ -3293,15 +3293,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationBitbucketServerOutputReferenc
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3440,15 +3440,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3587,11 +3587,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -3701,23 +3701,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenClearSecretI
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -3911,7 +3911,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenVaultSecretI
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -3992,37 +3992,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenWingmanSecre
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenWingmanSecretInfo;
 }
@@ -4251,17 +4251,17 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubAccessTokenOutputRefere
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#username CodeBaseIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#username CodeBaseIntegration#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#verify_ssl CodeBaseIntegration#verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#verify_ssl CodeBaseIntegration#verify_ssl}
   */
   readonly verifySsl?: boolean | cdktf.IResolvable;
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
   */
   readonly accessToken: CodeBaseIntegrationCodeBaseIntegrationGithubAccessToken;
 }
@@ -4397,15 +4397,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubOutputReference extends
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4544,15 +4544,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4691,11 +4691,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -4805,23 +4805,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenCl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -5015,7 +5015,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenVa
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -5096,37 +5096,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenWi
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenWingmanSecretInfo;
 }
@@ -5355,17 +5355,17 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessTokenOu
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGithubEnterprise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#hostname CodeBaseIntegration#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#hostname CodeBaseIntegration#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#username CodeBaseIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#username CodeBaseIntegration#username}
   */
   readonly username: string;
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
   */
   readonly accessToken: CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseAccessToken;
 }
@@ -5498,15 +5498,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGithubEnterpriseOutputReferen
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5645,15 +5645,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5792,11 +5792,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSec
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -5906,23 +5906,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenClearSecretI
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -6116,7 +6116,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenVaultSecretI
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -6197,37 +6197,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenWingmanSecre
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessTokenWingmanSecretInfo;
 }
@@ -6458,7 +6458,7 @@ export interface CodeBaseIntegrationCodeBaseIntegrationGitlab {
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
   */
   readonly accessToken: CodeBaseIntegrationCodeBaseIntegrationGitlabAccessToken;
 }
@@ -6539,15 +6539,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabOutputReference extends
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6686,15 +6686,15 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#decryption_provider CodeBaseIntegration#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#store_provider CodeBaseIntegration#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6833,11 +6833,11 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
 }
@@ -6947,23 +6947,23 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenCl
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#key CodeBaseIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#key CodeBaseIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#location CodeBaseIntegration#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#location CodeBaseIntegration#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#provider CodeBaseIntegration#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding CodeBaseIntegration#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#version CodeBaseIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#version CodeBaseIntegration#version}
   */
   readonly version?: number;
 }
@@ -7157,7 +7157,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenVa
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#name CodeBaseIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#name CodeBaseIntegration#name}
   */
   readonly name: string;
 }
@@ -7238,37 +7238,37 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenWi
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#secret_encoding_type CodeBaseIntegration#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info CodeBaseIntegration#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#blindfold_secret_info_internal CodeBaseIntegration#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#clear_secret_info CodeBaseIntegration#clear_secret_info}
   */
   readonly clearSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#vault_secret_info CodeBaseIntegration#vault_secret_info}
   */
   readonly vaultSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#wingman_secret_info CodeBaseIntegration#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenWingmanSecretInfo;
 }
@@ -7497,13 +7497,13 @@ export class CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessTokenOu
 }
 export interface CodeBaseIntegrationCodeBaseIntegrationGitlabEnterprise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#url CodeBaseIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#url CodeBaseIntegration#url}
   */
   readonly url: string;
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#access_token CodeBaseIntegration#access_token}
   */
   readonly accessToken: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterpriseAccessToken;
 }
@@ -7612,43 +7612,43 @@ export interface CodeBaseIntegrationCodeBaseIntegration {
   /**
   * azure_repos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#azure_repos CodeBaseIntegration#azure_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#azure_repos CodeBaseIntegration#azure_repos}
   */
   readonly azureRepos?: CodeBaseIntegrationCodeBaseIntegrationAzureRepos;
   /**
   * bitbucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#bitbucket CodeBaseIntegration#bitbucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#bitbucket CodeBaseIntegration#bitbucket}
   */
   readonly bitbucket?: CodeBaseIntegrationCodeBaseIntegrationBitbucket;
   /**
   * bitbucket_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#bitbucket_server CodeBaseIntegration#bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#bitbucket_server CodeBaseIntegration#bitbucket_server}
   */
   readonly bitbucketServer?: CodeBaseIntegrationCodeBaseIntegrationBitbucketServer;
   /**
   * github block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#github CodeBaseIntegration#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#github CodeBaseIntegration#github}
   */
   readonly github?: CodeBaseIntegrationCodeBaseIntegrationGithub;
   /**
   * github_enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#github_enterprise CodeBaseIntegration#github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#github_enterprise CodeBaseIntegration#github_enterprise}
   */
   readonly githubEnterprise?: CodeBaseIntegrationCodeBaseIntegrationGithubEnterprise;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#gitlab CodeBaseIntegration#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#gitlab CodeBaseIntegration#gitlab}
   */
   readonly gitlab?: CodeBaseIntegrationCodeBaseIntegrationGitlab;
   /**
   * gitlab_enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#gitlab_enterprise CodeBaseIntegration#gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#gitlab_enterprise CodeBaseIntegration#gitlab_enterprise}
   */
   readonly gitlabEnterprise?: CodeBaseIntegrationCodeBaseIntegrationGitlabEnterprise;
 }
@@ -7906,7 +7906,7 @@ export class CodeBaseIntegrationCodeBaseIntegrationOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration volterra_code_base_integration}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration volterra_code_base_integration}
 */
 export class CodeBaseIntegration extends cdktf.TerraformResource {
 
@@ -7922,7 +7922,7 @@ export class CodeBaseIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CodeBaseIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodeBaseIntegration to import
-  * @param importFromId The id of the existing CodeBaseIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodeBaseIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodeBaseIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7934,7 +7934,7 @@ export class CodeBaseIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/code_base_integration volterra_code_base_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/code_base_integration volterra_code_base_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7945,8 +7945,8 @@ export class CodeBaseIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_code_base_integration',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

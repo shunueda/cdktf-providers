@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsAlertContactGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group#alert_contact_group_name ArmsAlertContactGroup#alert_contact_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group#alert_contact_group_name ArmsAlertContactGroup#alert_contact_group_name}
   */
   readonly alertContactGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group#contact_ids ArmsAlertContactGroup#contact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group#contact_ids ArmsAlertContactGroup#contact_ids}
   */
   readonly contactIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group#id ArmsAlertContactGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group#id ArmsAlertContactGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface ArmsAlertContactGroupConfig extends cdktf.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group alibabacloudstack_arms_alert_contact_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group alibabacloudstack_arms_alert_contact_group}
 */
 export class ArmsAlertContactGroup extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class ArmsAlertContactGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsAlertContactGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsAlertContactGroup to import
-  * @param importFromId The id of the existing ArmsAlertContactGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsAlertContactGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsAlertContactGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class ArmsAlertContactGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact_group alibabacloudstack_arms_alert_contact_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/arms_alert_contact_group alibabacloudstack_arms_alert_contact_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class ArmsAlertContactGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_arms_alert_contact_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

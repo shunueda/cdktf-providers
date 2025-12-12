@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ExternalConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#annotations ExternalConnector#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#annotations ExternalConnector#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#description ExternalConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#description ExternalConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#disable ExternalConnector#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#disable ExternalConnector#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#id ExternalConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#id ExternalConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#labels ExternalConnector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#labels ExternalConnector#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace: string;
   /**
   * ce_site_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ce_site_reference ExternalConnector#ce_site_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ce_site_reference ExternalConnector#ce_site_reference}
   */
   readonly ceSiteReference: ExternalConnectorCeSiteReference;
   /**
   * direct_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#direct_connection ExternalConnector#direct_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#direct_connection ExternalConnector#direct_connection}
   */
   readonly directConnection?: ExternalConnectorDirectConnection;
   /**
   * gre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#gre ExternalConnector#gre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#gre ExternalConnector#gre}
   */
   readonly gre?: ExternalConnectorGre;
   /**
   * ipsec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipsec ExternalConnector#ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipsec ExternalConnector#ipsec}
   */
   readonly ipsec?: ExternalConnectorIpsec;
 }
 export interface ExternalConnectorCeSiteReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -264,7 +264,7 @@ export class ExternalConnectorDirectConnectionOutputReference extends cdktf.Comp
 }
 export interface ExternalConnectorGreGreParametersPeerIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -348,15 +348,15 @@ export class ExternalConnectorGreGreParametersPeerIpAddressOutputReference exten
 }
 export interface ExternalConnectorGreGreParametersSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -535,15 +535,15 @@ export class ExternalConnectorGreGreParametersSegmentRefsList extends cdktf.Comp
 }
 export interface ExternalConnectorGreGreParametersSegmentVirtualNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -724,13 +724,13 @@ export interface ExternalConnectorGreGreParametersSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#refs ExternalConnector#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#refs ExternalConnector#refs}
   */
   readonly refs: ExternalConnectorGreGreParametersSegmentRefs[] | cdktf.IResolvable;
   /**
   * virtual_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#virtual_networks ExternalConnector#virtual_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#virtual_networks ExternalConnector#virtual_networks}
   */
   readonly virtualNetworks?: ExternalConnectorGreGreParametersSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
@@ -840,19 +840,19 @@ export class ExternalConnectorGreGreParametersSegmentOutputReference extends cdk
 }
 export interface ExternalConnectorGreGreParametersTunnelEps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#interface ExternalConnector#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#interface ExternalConnector#interface}
   */
   readonly interface: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#local_tunnel_ip ExternalConnector#local_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#local_tunnel_ip ExternalConnector#local_tunnel_ip}
   */
   readonly localTunnelIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#node ExternalConnector#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#node ExternalConnector#node}
   */
   readonly nodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#remote_tunnel_ip ExternalConnector#remote_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#remote_tunnel_ip ExternalConnector#remote_tunnel_ip}
   */
   readonly remoteTunnelIp: string;
 }
@@ -1043,33 +1043,33 @@ export class ExternalConnectorGreGreParametersTunnelEpsList extends cdktf.Comple
 }
 export interface ExternalConnectorGreGreParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#site_local_inside_network ExternalConnector#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#site_local_inside_network ExternalConnector#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#site_local_network ExternalConnector#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#site_local_network ExternalConnector#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tunnel_mtu ExternalConnector#tunnel_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tunnel_mtu ExternalConnector#tunnel_mtu}
   */
   readonly tunnelMtu?: number;
   /**
   * peer_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#peer_ip_address ExternalConnector#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#peer_ip_address ExternalConnector#peer_ip_address}
   */
   readonly peerIpAddress?: ExternalConnectorGreGreParametersPeerIpAddress;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#segment ExternalConnector#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#segment ExternalConnector#segment}
   */
   readonly segment?: ExternalConnectorGreGreParametersSegment;
   /**
   * tunnel_eps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tunnel_eps ExternalConnector#tunnel_eps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tunnel_eps ExternalConnector#tunnel_eps}
   */
   readonly tunnelEps: ExternalConnectorGreGreParametersTunnelEps[] | cdktf.IResolvable;
 }
@@ -1297,7 +1297,7 @@ export interface ExternalConnectorGre {
   /**
   * gre_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#gre_parameters ExternalConnector#gre_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#gre_parameters ExternalConnector#gre_parameters}
   */
   readonly greParameters?: ExternalConnectorGreGreParameters;
 }
@@ -1381,7 +1381,7 @@ export class ExternalConnectorGreOutputReference extends cdktf.ComplexObject {
 }
 export interface ExternalConnectorIpsecIkeParametersDpdKeepAliveTimer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#timeout ExternalConnector#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#timeout ExternalConnector#timeout}
   */
   readonly timeout?: number;
 }
@@ -1465,15 +1465,15 @@ export class ExternalConnectorIpsecIkeParametersDpdKeepAliveTimerOutputReference
 }
 export interface ExternalConnectorIpsecIkeParametersIkePhase1Profile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -1615,15 +1615,15 @@ export class ExternalConnectorIpsecIkeParametersIkePhase1ProfileOutputReference 
 }
 export interface ExternalConnectorIpsecIkeParametersIkePhase2Profile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -1765,7 +1765,7 @@ export class ExternalConnectorIpsecIkeParametersIkePhase2ProfileOutputReference 
 }
 export interface ExternalConnectorIpsecIkeParametersLcIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -1849,7 +1849,7 @@ export class ExternalConnectorIpsecIkeParametersLcIpAddressIpv4OutputReference e
 }
 export interface ExternalConnectorIpsecIkeParametersLcIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -1935,13 +1935,13 @@ export interface ExternalConnectorIpsecIkeParametersLcIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipv4 ExternalConnector#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipv4 ExternalConnector#ipv4}
   */
   readonly ipv4?: ExternalConnectorIpsecIkeParametersLcIpAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipv6 ExternalConnector#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipv6 ExternalConnector#ipv6}
   */
   readonly ipv6?: ExternalConnectorIpsecIkeParametersLcIpAddressIpv6;
 }
@@ -2054,7 +2054,7 @@ export class ExternalConnectorIpsecIkeParametersLcIpAddressOutputReference exten
 }
 export interface ExternalConnectorIpsecIkeParametersRmIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -2138,7 +2138,7 @@ export class ExternalConnectorIpsecIkeParametersRmIpAddressIpv4OutputReference e
 }
 export interface ExternalConnectorIpsecIkeParametersRmIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -2224,13 +2224,13 @@ export interface ExternalConnectorIpsecIkeParametersRmIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipv4 ExternalConnector#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipv4 ExternalConnector#ipv4}
   */
   readonly ipv4?: ExternalConnectorIpsecIkeParametersRmIpAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipv6 ExternalConnector#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipv6 ExternalConnector#ipv6}
   */
   readonly ipv6?: ExternalConnectorIpsecIkeParametersRmIpAddressIpv6;
 }
@@ -2343,61 +2343,61 @@ export class ExternalConnectorIpsecIkeParametersRmIpAddressOutputReference exten
 }
 export interface ExternalConnectorIpsecIkeParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#dpd_disabled ExternalConnector#dpd_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#dpd_disabled ExternalConnector#dpd_disabled}
   */
   readonly dpdDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#initiator ExternalConnector#initiator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#initiator ExternalConnector#initiator}
   */
   readonly initiator?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#lc_hostname ExternalConnector#lc_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#lc_hostname ExternalConnector#lc_hostname}
   */
   readonly lcHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#responder ExternalConnector#responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#responder ExternalConnector#responder}
   */
   readonly responder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#rm_hostname ExternalConnector#rm_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#rm_hostname ExternalConnector#rm_hostname}
   */
   readonly rmHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#use_default_local_ike_id ExternalConnector#use_default_local_ike_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#use_default_local_ike_id ExternalConnector#use_default_local_ike_id}
   */
   readonly useDefaultLocalIkeId?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#use_default_remote_ike_id ExternalConnector#use_default_remote_ike_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#use_default_remote_ike_id ExternalConnector#use_default_remote_ike_id}
   */
   readonly useDefaultRemoteIkeId?: boolean | cdktf.IResolvable;
   /**
   * dpd_keep_alive_timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#dpd_keep_alive_timer ExternalConnector#dpd_keep_alive_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#dpd_keep_alive_timer ExternalConnector#dpd_keep_alive_timer}
   */
   readonly dpdKeepAliveTimer?: ExternalConnectorIpsecIkeParametersDpdKeepAliveTimer;
   /**
   * ike_phase1_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ike_phase1_profile ExternalConnector#ike_phase1_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ike_phase1_profile ExternalConnector#ike_phase1_profile}
   */
   readonly ikePhase1Profile: ExternalConnectorIpsecIkeParametersIkePhase1Profile;
   /**
   * ike_phase2_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ike_phase2_profile ExternalConnector#ike_phase2_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ike_phase2_profile ExternalConnector#ike_phase2_profile}
   */
   readonly ikePhase2Profile: ExternalConnectorIpsecIkeParametersIkePhase2Profile;
   /**
   * lc_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#lc_ip_address ExternalConnector#lc_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#lc_ip_address ExternalConnector#lc_ip_address}
   */
   readonly lcIpAddress?: ExternalConnectorIpsecIkeParametersLcIpAddress;
   /**
   * rm_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#rm_ip_address ExternalConnector#rm_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#rm_ip_address ExternalConnector#rm_ip_address}
   */
   readonly rmIpAddress?: ExternalConnectorIpsecIkeParametersRmIpAddress;
 }
@@ -2794,7 +2794,7 @@ export class ExternalConnectorIpsecIkeParametersOutputReference extends cdktf.Co
 }
 export interface ExternalConnectorIpsecIpsecTunnelParametersPeerIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#addr ExternalConnector#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#addr ExternalConnector#addr}
   */
   readonly addr?: string;
 }
@@ -2878,15 +2878,15 @@ export class ExternalConnectorIpsecIpsecTunnelParametersPeerIpAddressOutputRefer
 }
 export interface ExternalConnectorIpsecIpsecTunnelParametersSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -3065,15 +3065,15 @@ export class ExternalConnectorIpsecIpsecTunnelParametersSegmentRefsList extends 
 }
 export interface ExternalConnectorIpsecIpsecTunnelParametersSegmentVirtualNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#name ExternalConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#name ExternalConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#namespace ExternalConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#namespace ExternalConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tenant ExternalConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tenant ExternalConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -3254,13 +3254,13 @@ export interface ExternalConnectorIpsecIpsecTunnelParametersSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#refs ExternalConnector#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#refs ExternalConnector#refs}
   */
   readonly refs: ExternalConnectorIpsecIpsecTunnelParametersSegmentRefs[] | cdktf.IResolvable;
   /**
   * virtual_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#virtual_networks ExternalConnector#virtual_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#virtual_networks ExternalConnector#virtual_networks}
   */
   readonly virtualNetworks?: ExternalConnectorIpsecIpsecTunnelParametersSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
@@ -3370,19 +3370,19 @@ export class ExternalConnectorIpsecIpsecTunnelParametersSegmentOutputReference e
 }
 export interface ExternalConnectorIpsecIpsecTunnelParametersTunnelEps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#interface ExternalConnector#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#interface ExternalConnector#interface}
   */
   readonly interface: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#local_tunnel_ip ExternalConnector#local_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#local_tunnel_ip ExternalConnector#local_tunnel_ip}
   */
   readonly localTunnelIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#node ExternalConnector#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#node ExternalConnector#node}
   */
   readonly nodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#remote_tunnel_ip ExternalConnector#remote_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#remote_tunnel_ip ExternalConnector#remote_tunnel_ip}
   */
   readonly remoteTunnelIp: string;
 }
@@ -3573,37 +3573,37 @@ export class ExternalConnectorIpsecIpsecTunnelParametersTunnelEpsList extends cd
 }
 export interface ExternalConnectorIpsecIpsecTunnelParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#psk ExternalConnector#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#psk ExternalConnector#psk}
   */
   readonly psk: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#site_local_inside_network ExternalConnector#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#site_local_inside_network ExternalConnector#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#site_local_network ExternalConnector#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#site_local_network ExternalConnector#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tunnel_mtu ExternalConnector#tunnel_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tunnel_mtu ExternalConnector#tunnel_mtu}
   */
   readonly tunnelMtu: number;
   /**
   * peer_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#peer_ip_address ExternalConnector#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#peer_ip_address ExternalConnector#peer_ip_address}
   */
   readonly peerIpAddress: ExternalConnectorIpsecIpsecTunnelParametersPeerIpAddress;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#segment ExternalConnector#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#segment ExternalConnector#segment}
   */
   readonly segment?: ExternalConnectorIpsecIpsecTunnelParametersSegment;
   /**
   * tunnel_eps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#tunnel_eps ExternalConnector#tunnel_eps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#tunnel_eps ExternalConnector#tunnel_eps}
   */
   readonly tunnelEps: ExternalConnectorIpsecIpsecTunnelParametersTunnelEps[] | cdktf.IResolvable;
 }
@@ -3851,13 +3851,13 @@ export interface ExternalConnectorIpsec {
   /**
   * ike_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ike_parameters ExternalConnector#ike_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ike_parameters ExternalConnector#ike_parameters}
   */
   readonly ikeParameters: ExternalConnectorIpsecIkeParameters;
   /**
   * ipsec_tunnel_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#ipsec_tunnel_parameters ExternalConnector#ipsec_tunnel_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#ipsec_tunnel_parameters ExternalConnector#ipsec_tunnel_parameters}
   */
   readonly ipsecTunnelParameters: ExternalConnectorIpsecIpsecTunnelParameters;
 }
@@ -3964,7 +3964,7 @@ export class ExternalConnectorIpsecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector volterra_external_connector}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector volterra_external_connector}
 */
 export class ExternalConnector extends cdktf.TerraformResource {
 
@@ -3980,7 +3980,7 @@ export class ExternalConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalConnector to import
-  * @param importFromId The id of the existing ExternalConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3992,7 +3992,7 @@ export class ExternalConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/external_connector volterra_external_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/external_connector volterra_external_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4003,8 +4003,8 @@ export class ExternalConnector extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_external_connector',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

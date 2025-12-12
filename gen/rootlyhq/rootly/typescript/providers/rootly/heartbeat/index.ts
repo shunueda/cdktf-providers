@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,104 +10,104 @@ export interface HeartbeatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of alerts triggered when heartbeat expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#alert_description Heartbeat#alert_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#alert_description Heartbeat#alert_description}
   */
   readonly alertDescription?: string;
   /**
   * Summary of alerts triggered when heartbeat expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#alert_summary Heartbeat#alert_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#alert_summary Heartbeat#alert_summary}
   */
   readonly alertSummary: string;
   /**
   * Urgency of alerts triggered when heartbeat expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#alert_urgency_id Heartbeat#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#alert_urgency_id Heartbeat#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * The description of the heartbeat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#description Heartbeat#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#description Heartbeat#description}
   */
   readonly description?: string;
   /**
   * Email address to receive heartbeat pings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#email_address Heartbeat#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#email_address Heartbeat#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#enabled Heartbeat#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#enabled Heartbeat#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When heartbeat expires
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#expires_at Heartbeat#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#expires_at Heartbeat#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#id Heartbeat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#id Heartbeat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#interval Heartbeat#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#interval Heartbeat#interval}
   */
   readonly interval: number;
   /**
   * Value must be one of `seconds`, `minutes`, `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#interval_unit Heartbeat#interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#interval_unit Heartbeat#interval_unit}
   */
   readonly intervalUnit?: string;
   /**
   * When the heartbeat was last pinged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#last_pinged_at Heartbeat#last_pinged_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#last_pinged_at Heartbeat#last_pinged_at}
   */
   readonly lastPingedAt?: string;
   /**
   * The name of the heartbeat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#name Heartbeat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#name Heartbeat#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#notification_target_id Heartbeat#notification_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#notification_target_id Heartbeat#notification_target_id}
   */
   readonly notificationTargetId: string;
   /**
   * Value must be one of `User`, `Group`, `Service`, `EscalationPolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#notification_target_type Heartbeat#notification_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#notification_target_type Heartbeat#notification_target_type}
   */
   readonly notificationTargetType?: string;
   /**
   * URL to receive heartbeat pings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#ping_url Heartbeat#ping_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#ping_url Heartbeat#ping_url}
   */
   readonly pingUrl?: string;
   /**
   * Secret used as bearer token when pinging heartbeat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#secret Heartbeat#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#secret Heartbeat#secret}
   */
   readonly secret?: string;
   /**
   * Value must be one of `waiting`, `active`, `expired`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#status Heartbeat#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#status Heartbeat#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat rootly_heartbeat}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat rootly_heartbeat}
 */
 export class Heartbeat extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class Heartbeat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Heartbeat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Heartbeat to import
-  * @param importFromId The id of the existing Heartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Heartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Heartbeat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class Heartbeat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/heartbeat rootly_heartbeat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/heartbeat rootly_heartbeat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class Heartbeat extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_heartbeat',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectedApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#adobe_commerce_connector ProtectedApplication#adobe_commerce_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#adobe_commerce_connector ProtectedApplication#adobe_commerce_connector}
   */
   readonly adobeCommerceConnector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#annotations ProtectedApplication#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#annotations ProtectedApplication#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#big_ip_iapp ProtectedApplication#big_ip_iapp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#big_ip_iapp ProtectedApplication#big_ip_iapp}
   */
   readonly bigIpIapp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#custom_connector ProtectedApplication#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#custom_connector ProtectedApplication#custom_connector}
   */
   readonly customConnector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#f5_big_ip ProtectedApplication#f5_big_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#f5_big_ip ProtectedApplication#f5_big_ip}
   */
   readonly f5BigIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#id ProtectedApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#id ProtectedApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#labels ProtectedApplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#labels ProtectedApplication#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#namespace ProtectedApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#namespace ProtectedApplication#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#not_applicable_connector ProtectedApplication#not_applicable_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#not_applicable_connector ProtectedApplication#not_applicable_connector}
   */
   readonly notApplicableConnector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#region ProtectedApplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#region ProtectedApplication#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#salesforce_commerce_connector ProtectedApplication#salesforce_commerce_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#salesforce_commerce_connector ProtectedApplication#salesforce_commerce_connector}
   */
   readonly salesforceCommerceConnector?: boolean | cdktf.IResolvable;
   /**
   * cloudflare block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#cloudflare ProtectedApplication#cloudflare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#cloudflare ProtectedApplication#cloudflare}
   */
   readonly cloudflare?: ProtectedApplicationCloudflare;
   /**
   * cloudfront block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#cloudfront ProtectedApplication#cloudfront}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#cloudfront ProtectedApplication#cloudfront}
   */
   readonly cloudfront?: ProtectedApplicationCloudfront;
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
 }
@@ -198,15 +198,15 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesOutputReference exten
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -348,15 +348,15 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListDoma
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -495,15 +495,15 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListMeta
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -645,25 +645,25 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListPath
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListPath;
 }
@@ -860,17 +860,17 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListStru
 }
 export interface ProtectedApplicationCloudflareJsInsertAllPagesExcept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
   */
   readonly excludeList?: ProtectedApplicationCloudflareJsInsertAllPagesExceptExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -1012,15 +1012,15 @@ export class ProtectedApplicationCloudflareJsInsertAllPagesExceptOutputReference
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -1162,15 +1162,15 @@ export class ProtectedApplicationCloudflareJsInsertionRulesExcludeListDomainOutp
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -1309,15 +1309,15 @@ export class ProtectedApplicationCloudflareJsInsertionRulesExcludeListMetadataOu
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -1459,25 +1459,25 @@ export class ProtectedApplicationCloudflareJsInsertionRulesExcludeListPathOutput
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudflareJsInsertionRulesExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudflareJsInsertionRulesExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: ProtectedApplicationCloudflareJsInsertionRulesExcludeListPath;
 }
@@ -1674,15 +1674,15 @@ export class ProtectedApplicationCloudflareJsInsertionRulesExcludeListStructList
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesRulesDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -1824,15 +1824,15 @@ export class ProtectedApplicationCloudflareJsInsertionRulesRulesDomainOutputRefe
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -1971,31 +1971,31 @@ export class ProtectedApplicationCloudflareJsInsertionRulesRulesMetadataOutputRe
 }
 export interface ProtectedApplicationCloudflareJsInsertionRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_path ProtectedApplication#exact_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_path ProtectedApplication#exact_path}
   */
   readonly exactPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#glob ProtectedApplication#glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#glob ProtectedApplication#glob}
   */
   readonly glob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudflareJsInsertionRulesRulesDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudflareJsInsertionRulesRulesMetadata;
 }
@@ -2253,23 +2253,23 @@ export class ProtectedApplicationCloudflareJsInsertionRulesRulesList extends cdk
 }
 export interface ProtectedApplicationCloudflareJsInsertionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
   */
   readonly excludeList?: ProtectedApplicationCloudflareJsInsertionRulesExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#rules ProtectedApplication#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#rules ProtectedApplication#rules}
   */
   readonly rules: ProtectedApplicationCloudflareJsInsertionRulesRules[] | cdktf.IResolvable;
 }
@@ -2437,11 +2437,11 @@ export class ProtectedApplicationCloudflareJsInsertionRulesOutputReference exten
 }
 export interface ProtectedApplicationCloudflareManualJsInsert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
   */
   readonly javascriptMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
 }
@@ -2551,15 +2551,15 @@ export class ProtectedApplicationCloudflareManualJsInsertOutputReference extends
 }
 export interface ProtectedApplicationCloudflareMobileSdkConfigMobileIdentifierHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact ProtectedApplication#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact ProtectedApplication#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -2732,7 +2732,7 @@ export interface ProtectedApplicationCloudflareMobileSdkConfigMobileIdentifier {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#headers ProtectedApplication#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#headers ProtectedApplication#headers}
   */
   readonly headers?: ProtectedApplicationCloudflareMobileSdkConfigMobileIdentifierHeaders[] | cdktf.IResolvable;
 }
@@ -2818,7 +2818,7 @@ export interface ProtectedApplicationCloudflareMobileSdkConfig {
   /**
   * mobile_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_identifier ProtectedApplication#mobile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_identifier ProtectedApplication#mobile_identifier}
   */
   readonly mobileIdentifier?: ProtectedApplicationCloudflareMobileSdkConfigMobileIdentifier;
 }
@@ -2902,15 +2902,15 @@ export class ProtectedApplicationCloudflareMobileSdkConfigOutputReference extend
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -3052,15 +3052,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsDomainOutputReferen
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -3199,15 +3199,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsMetadataOutputRefer
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsMobileClientBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -3346,11 +3346,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsMobileClientBlockOu
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsMobileClientContinue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -3465,13 +3465,13 @@ export interface ProtectedApplicationCloudflareProtectedEndpointsMobileClient {
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block ProtectedApplication#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block ProtectedApplication#block}
   */
   readonly block?: ProtectedApplicationCloudflareProtectedEndpointsMobileClientBlock;
   /**
   * continue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue ProtectedApplication#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue ProtectedApplication#continue}
   */
   readonly continue?: ProtectedApplicationCloudflareProtectedEndpointsMobileClientContinue;
 }
@@ -3584,11 +3584,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsMobileClientOutputR
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#caseinsensitive ProtectedApplication#caseinsensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#caseinsensitive ProtectedApplication#caseinsensitive}
   */
   readonly caseinsensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: string;
 }
@@ -3698,15 +3698,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsPathOutputReference
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebClientBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -3845,11 +3845,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebClientBlockOutpu
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebClientContinue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -3962,11 +3962,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebClientContinueOu
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebClientRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#location ProtectedApplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#location ProtectedApplication#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -4075,19 +4075,19 @@ export interface ProtectedApplicationCloudflareProtectedEndpointsWebClient {
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block ProtectedApplication#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block ProtectedApplication#block}
   */
   readonly block?: ProtectedApplicationCloudflareProtectedEndpointsWebClientBlock;
   /**
   * continue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue ProtectedApplication#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue ProtectedApplication#continue}
   */
   readonly continue?: ProtectedApplicationCloudflareProtectedEndpointsWebClientContinue;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#redirect ProtectedApplication#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#redirect ProtectedApplication#redirect}
   */
   readonly redirect?: ProtectedApplicationCloudflareProtectedEndpointsWebClientRedirect;
 }
@@ -4229,15 +4229,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebClientOutputRefe
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBlockMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -4376,15 +4376,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBloc
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBlockWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -4523,11 +4523,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBloc
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientContinueMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -4640,11 +4640,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientCont
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientContinueWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -4757,11 +4757,11 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientCont
 }
 export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientRedirectWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#location ProtectedApplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#location ProtectedApplication#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -4870,31 +4870,31 @@ export interface ProtectedApplicationCloudflareProtectedEndpointsWebMobileClient
   /**
   * block_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block_mobile ProtectedApplication#block_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block_mobile ProtectedApplication#block_mobile}
   */
   readonly blockMobile?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBlockMobile;
   /**
   * block_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block_web ProtectedApplication#block_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block_web ProtectedApplication#block_web}
   */
   readonly blockWeb?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientBlockWeb;
   /**
   * continue_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_mobile ProtectedApplication#continue_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_mobile ProtectedApplication#continue_mobile}
   */
   readonly continueMobile?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientContinueMobile;
   /**
   * continue_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_web ProtectedApplication#continue_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_web ProtectedApplication#continue_web}
   */
   readonly continueWeb?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientContinueWeb;
   /**
   * redirect_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#redirect_web ProtectedApplication#redirect_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#redirect_web ProtectedApplication#redirect_web}
   */
   readonly redirectWeb?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientRedirectWeb;
 }
@@ -5094,51 +5094,51 @@ export class ProtectedApplicationCloudflareProtectedEndpointsWebMobileClientOutp
 }
 export interface ProtectedApplicationCloudflareProtectedEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#http_methods ProtectedApplication#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#http_methods ProtectedApplication#http_methods}
   */
   readonly httpMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#query ProtectedApplication#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#query ProtectedApplication#query}
   */
   readonly query?: string;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudflareProtectedEndpointsDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudflareProtectedEndpointsMetadata;
   /**
   * mobile_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_client ProtectedApplication#mobile_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_client ProtectedApplication#mobile_client}
   */
   readonly mobileClient?: ProtectedApplicationCloudflareProtectedEndpointsMobileClient;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: ProtectedApplicationCloudflareProtectedEndpointsPath;
   /**
   * web_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#web_client ProtectedApplication#web_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#web_client ProtectedApplication#web_client}
   */
   readonly webClient?: ProtectedApplicationCloudflareProtectedEndpointsWebClient;
   /**
   * web_mobile_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#web_mobile_client ProtectedApplication#web_mobile_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#web_mobile_client ProtectedApplication#web_mobile_client}
   */
   readonly webMobileClient?: ProtectedApplicationCloudflareProtectedEndpointsWebMobileClient;
 }
@@ -5477,15 +5477,15 @@ export class ProtectedApplicationCloudflareProtectedEndpointsList extends cdktf.
 }
 export interface ProtectedApplicationCloudflareTrustedClientsHttpHeaderHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact ProtectedApplication#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact ProtectedApplication#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -5658,7 +5658,7 @@ export interface ProtectedApplicationCloudflareTrustedClientsHttpHeader {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#headers ProtectedApplication#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#headers ProtectedApplication#headers}
   */
   readonly headers: ProtectedApplicationCloudflareTrustedClientsHttpHeaderHeaders[] | cdktf.IResolvable;
 }
@@ -5739,15 +5739,15 @@ export class ProtectedApplicationCloudflareTrustedClientsHttpHeaderOutputReferen
 }
 export interface ProtectedApplicationCloudflareTrustedClientsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -5886,19 +5886,19 @@ export class ProtectedApplicationCloudflareTrustedClientsMetadataOutputReference
 }
 export interface ProtectedApplicationCloudflareTrustedClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#ip_prefix ProtectedApplication#ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#ip_prefix ProtectedApplication#ip_prefix}
   */
   readonly ipPrefix?: string;
   /**
   * http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#http_header ProtectedApplication#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#http_header ProtectedApplication#http_header}
   */
   readonly httpHeader?: ProtectedApplicationCloudflareTrustedClientsHttpHeader;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudflareTrustedClientsMetadata;
 }
@@ -6069,65 +6069,65 @@ export class ProtectedApplicationCloudflareTrustedClientsList extends cdktf.Comp
 }
 export interface ProtectedApplicationCloudflare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_mitigation_action_hdr ProtectedApplication#continue_mitigation_action_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_mitigation_action_hdr ProtectedApplication#continue_mitigation_action_hdr}
   */
   readonly continueMitigationActionHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_js_insert ProtectedApplication#disable_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_js_insert ProtectedApplication#disable_js_insert}
   */
   readonly disableJsInsert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_mobile_sdk ProtectedApplication#disable_mobile_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_mobile_sdk ProtectedApplication#disable_mobile_sdk}
   */
   readonly disableMobileSdk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#loglevel ProtectedApplication#loglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#loglevel ProtectedApplication#loglevel}
   */
   readonly loglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#timeout ProtectedApplication#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#timeout ProtectedApplication#timeout}
   */
   readonly timeout?: number;
   /**
   * js_insert_all_pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insert_all_pages ProtectedApplication#js_insert_all_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insert_all_pages ProtectedApplication#js_insert_all_pages}
   */
   readonly jsInsertAllPages?: ProtectedApplicationCloudflareJsInsertAllPages;
   /**
   * js_insert_all_pages_except block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insert_all_pages_except ProtectedApplication#js_insert_all_pages_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insert_all_pages_except ProtectedApplication#js_insert_all_pages_except}
   */
   readonly jsInsertAllPagesExcept?: ProtectedApplicationCloudflareJsInsertAllPagesExcept;
   /**
   * js_insertion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insertion_rules ProtectedApplication#js_insertion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insertion_rules ProtectedApplication#js_insertion_rules}
   */
   readonly jsInsertionRules?: ProtectedApplicationCloudflareJsInsertionRules;
   /**
   * manual_js_insert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#manual_js_insert ProtectedApplication#manual_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#manual_js_insert ProtectedApplication#manual_js_insert}
   */
   readonly manualJsInsert?: ProtectedApplicationCloudflareManualJsInsert;
   /**
   * mobile_sdk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_sdk_config ProtectedApplication#mobile_sdk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_sdk_config ProtectedApplication#mobile_sdk_config}
   */
   readonly mobileSdkConfig?: ProtectedApplicationCloudflareMobileSdkConfig;
   /**
   * protected_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#protected_endpoints ProtectedApplication#protected_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#protected_endpoints ProtectedApplication#protected_endpoints}
   */
   readonly protectedEndpoints: ProtectedApplicationCloudflareProtectedEndpoints[] | cdktf.IResolvable;
   /**
   * trusted_clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#trusted_clients ProtectedApplication#trusted_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#trusted_clients ProtectedApplication#trusted_clients}
   */
   readonly trustedClients?: ProtectedApplicationCloudflareTrustedClients[] | cdktf.IResolvable;
 }
@@ -6527,7 +6527,7 @@ export class ProtectedApplicationCloudflareOutputReference extends cdktf.Complex
 }
 export interface ProtectedApplicationCloudfrontAwsConfigurationIdSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#ids ProtectedApplication#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#ids ProtectedApplication#ids}
   */
   readonly ids: string[];
 }
@@ -6608,7 +6608,7 @@ export class ProtectedApplicationCloudfrontAwsConfigurationIdSelectorOutputRefer
 }
 export interface ProtectedApplicationCloudfrontAwsConfigurationTagSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#tags ProtectedApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#tags ProtectedApplication#tags}
   */
   readonly tags: { [key: string]: string };
 }
@@ -6689,11 +6689,11 @@ export class ProtectedApplicationCloudfrontAwsConfigurationTagSelectorOutputRefe
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
 }
@@ -6806,15 +6806,15 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesOutputReference exten
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -6956,15 +6956,15 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListDoma
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -7103,15 +7103,15 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListMeta
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -7253,25 +7253,25 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListPath
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListPath;
 }
@@ -7468,17 +7468,17 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListStru
 }
 export interface ProtectedApplicationCloudfrontJsInsertAllPagesExcept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
   */
   readonly excludeList?: ProtectedApplicationCloudfrontJsInsertAllPagesExceptExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -7620,15 +7620,15 @@ export class ProtectedApplicationCloudfrontJsInsertAllPagesExceptOutputReference
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesExcludeListDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -7770,15 +7770,15 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesExcludeListDomainOutp
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesExcludeListMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -7917,15 +7917,15 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesExcludeListMetadataOu
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesExcludeListPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -8067,25 +8067,25 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesExcludeListPathOutput
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudfrontJsInsertionRulesExcludeListDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudfrontJsInsertionRulesExcludeListMetadata;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: ProtectedApplicationCloudfrontJsInsertionRulesExcludeListPath;
 }
@@ -8282,15 +8282,15 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesExcludeListStructList
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesRulesDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -8432,15 +8432,15 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesRulesDomainOutputRefe
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -8579,35 +8579,35 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesRulesMetadataOutputRe
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_path ProtectedApplication#exact_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_path ProtectedApplication#exact_path}
   */
   readonly exactPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#glob ProtectedApplication#glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#glob ProtectedApplication#glob}
   */
   readonly glob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#prefix ProtectedApplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#prefix ProtectedApplication#prefix}
   */
   readonly prefix?: string;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudfrontJsInsertionRulesRulesDomain;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudfrontJsInsertionRulesRulesMetadata;
 }
@@ -8894,27 +8894,27 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesRulesList extends cdk
 }
 export interface ProtectedApplicationCloudfrontJsInsertionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_location ProtectedApplication#javascript_location}
   */
   readonly javascriptLocation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
   */
   readonly javascriptMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exclude_list ProtectedApplication#exclude_list}
   */
   readonly excludeList?: ProtectedApplicationCloudfrontJsInsertionRulesExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#rules ProtectedApplication#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#rules ProtectedApplication#rules}
   */
   readonly rules: ProtectedApplicationCloudfrontJsInsertionRulesRules[] | cdktf.IResolvable;
 }
@@ -9105,11 +9105,11 @@ export class ProtectedApplicationCloudfrontJsInsertionRulesOutputReference exten
 }
 export interface ProtectedApplicationCloudfrontManualJsInsert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#javascript_mode ProtectedApplication#javascript_mode}
   */
   readonly javascriptMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
 }
@@ -9219,15 +9219,15 @@ export class ProtectedApplicationCloudfrontManualJsInsertOutputReference extends
 }
 export interface ProtectedApplicationCloudfrontMobileSdkConfigMobileIdentifierHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact ProtectedApplication#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact ProtectedApplication#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -9400,7 +9400,7 @@ export interface ProtectedApplicationCloudfrontMobileSdkConfigMobileIdentifier {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#headers ProtectedApplication#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#headers ProtectedApplication#headers}
   */
   readonly headers?: ProtectedApplicationCloudfrontMobileSdkConfigMobileIdentifierHeaders[] | cdktf.IResolvable;
 }
@@ -9486,7 +9486,7 @@ export interface ProtectedApplicationCloudfrontMobileSdkConfig {
   /**
   * mobile_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_identifier ProtectedApplication#mobile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_identifier ProtectedApplication#mobile_identifier}
   */
   readonly mobileIdentifier?: ProtectedApplicationCloudfrontMobileSdkConfigMobileIdentifier;
 }
@@ -9570,15 +9570,15 @@ export class ProtectedApplicationCloudfrontMobileSdkConfigOutputReference extend
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact_value ProtectedApplication#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_value ProtectedApplication#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#suffix_value ProtectedApplication#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -9720,11 +9720,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsDomainOutputReferen
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAccountManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#create ProtectedApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#create ProtectedApplication#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#password_reset ProtectedApplication#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#password_reset ProtectedApplication#password_reset}
   */
   readonly passwordReset?: boolean | cdktf.IResolvable;
 }
@@ -9837,15 +9837,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAccountMan
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLoginTransactionResultFailureConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_values ProtectedApplication#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_values ProtectedApplication#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -10016,15 +10016,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentica
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLoginTransactionResultSuccessConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex_values ProtectedApplication#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex_values ProtectedApplication#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -10197,13 +10197,13 @@ export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthen
   /**
   * failure_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#failure_conditions ProtectedApplication#failure_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#failure_conditions ProtectedApplication#failure_conditions}
   */
   readonly failureConditions?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLoginTransactionResultFailureConditions[] | cdktf.IResolvable;
   /**
   * success_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#success_conditions ProtectedApplication#success_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#success_conditions ProtectedApplication#success_conditions}
   */
   readonly successConditions?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLoginTransactionResultSuccessConditions[] | cdktf.IResolvable;
 }
@@ -10316,13 +10316,13 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentica
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_transaction_result ProtectedApplication#disable_transaction_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_transaction_result ProtectedApplication#disable_transaction_result}
   */
   readonly disableTransactionResult?: boolean | cdktf.IResolvable;
   /**
   * transaction_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#transaction_result ProtectedApplication#transaction_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#transaction_result ProtectedApplication#transaction_result}
   */
   readonly transactionResult?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLoginTransactionResult;
 }
@@ -10435,25 +10435,25 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentica
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#login_mfa ProtectedApplication#login_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#login_mfa ProtectedApplication#login_mfa}
   */
   readonly loginMfa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#login_partner ProtectedApplication#login_partner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#login_partner ProtectedApplication#login_partner}
   */
   readonly loginPartner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#logout ProtectedApplication#logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#logout ProtectedApplication#logout}
   */
   readonly logout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#token_refresh ProtectedApplication#token_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#token_refresh ProtectedApplication#token_refresh}
   */
   readonly tokenRefresh?: boolean | cdktf.IResolvable;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#login ProtectedApplication#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#login ProtectedApplication#login}
   */
   readonly login?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthenticationLogin;
 }
@@ -10653,11 +10653,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentica
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFinancialServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#apply ProtectedApplication#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#apply ProtectedApplication#apply}
   */
   readonly apply?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#money_transfer ProtectedApplication#money_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#money_transfer ProtectedApplication#money_transfer}
   */
   readonly moneyTransfer?: boolean | cdktf.IResolvable;
 }
@@ -10770,7 +10770,7 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFinancialS
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFlight {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#checkin ProtectedApplication#checkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#checkin ProtectedApplication#checkin}
   */
   readonly checkin?: boolean | cdktf.IResolvable;
 }
@@ -10854,15 +10854,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFlightOutp
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelProfileManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#create ProtectedApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#create ProtectedApplication#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#update ProtectedApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#update ProtectedApplication#update}
   */
   readonly update?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#view ProtectedApplication#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#view ProtectedApplication#view}
   */
   readonly view?: boolean | cdktf.IResolvable;
 }
@@ -11004,19 +11004,19 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelProfileMan
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#flight_search ProtectedApplication#flight_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#flight_search ProtectedApplication#flight_search}
   */
   readonly flightSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#product_search ProtectedApplication#product_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#product_search ProtectedApplication#product_search}
   */
   readonly productSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#reservation_search ProtectedApplication#reservation_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#reservation_search ProtectedApplication#reservation_search}
   */
   readonly reservationSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#room_search ProtectedApplication#room_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#room_search ProtectedApplication#room_search}
   */
   readonly roomSearch?: boolean | cdktf.IResolvable;
 }
@@ -11187,51 +11187,51 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelSearchOutp
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelShoppingGiftCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#gift_card_make_purchase_with_gift_card ProtectedApplication#gift_card_make_purchase_with_gift_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#gift_card_make_purchase_with_gift_card ProtectedApplication#gift_card_make_purchase_with_gift_card}
   */
   readonly giftCardMakePurchaseWithGiftCard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#gift_card_validation ProtectedApplication#gift_card_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#gift_card_validation ProtectedApplication#gift_card_validation}
   */
   readonly giftCardValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_add_to_cart ProtectedApplication#shop_add_to_cart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_add_to_cart ProtectedApplication#shop_add_to_cart}
   */
   readonly shopAddToCart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_checkout ProtectedApplication#shop_checkout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_checkout ProtectedApplication#shop_checkout}
   */
   readonly shopCheckout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_choose_seat ProtectedApplication#shop_choose_seat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_choose_seat ProtectedApplication#shop_choose_seat}
   */
   readonly shopChooseSeat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_enter_drawing_submission ProtectedApplication#shop_enter_drawing_submission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_enter_drawing_submission ProtectedApplication#shop_enter_drawing_submission}
   */
   readonly shopEnterDrawingSubmission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_make_payment ProtectedApplication#shop_make_payment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_make_payment ProtectedApplication#shop_make_payment}
   */
   readonly shopMakePayment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_order ProtectedApplication#shop_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_order ProtectedApplication#shop_order}
   */
   readonly shopOrder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_price_inquiry ProtectedApplication#shop_price_inquiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_price_inquiry ProtectedApplication#shop_price_inquiry}
   */
   readonly shopPriceInquiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_promo_code_validation ProtectedApplication#shop_promo_code_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_promo_code_validation ProtectedApplication#shop_promo_code_validation}
   */
   readonly shopPromoCodeValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_purchase_gift_card ProtectedApplication#shop_purchase_gift_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_purchase_gift_card ProtectedApplication#shop_purchase_gift_card}
   */
   readonly shopPurchaseGiftCard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shop_update_quantity ProtectedApplication#shop_update_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shop_update_quantity ProtectedApplication#shop_update_quantity}
   */
   readonly shopUpdateQuantity?: boolean | cdktf.IResolvable;
 }
@@ -11636,43 +11636,43 @@ export interface ProtectedApplicationCloudfrontProtectedEndpointsFlowLabel {
   /**
   * account_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#account_management ProtectedApplication#account_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#account_management ProtectedApplication#account_management}
   */
   readonly accountManagement?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAccountManagement;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#authentication ProtectedApplication#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#authentication ProtectedApplication#authentication}
   */
   readonly authentication?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelAuthentication;
   /**
   * financial_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#financial_services ProtectedApplication#financial_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#financial_services ProtectedApplication#financial_services}
   */
   readonly financialServices?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFinancialServices;
   /**
   * flight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#flight ProtectedApplication#flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#flight ProtectedApplication#flight}
   */
   readonly flight?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelFlight;
   /**
   * profile_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#profile_management ProtectedApplication#profile_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#profile_management ProtectedApplication#profile_management}
   */
   readonly profileManagement?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelProfileManagement;
   /**
   * search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#search ProtectedApplication#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#search ProtectedApplication#search}
   */
   readonly search?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelSearch;
   /**
   * shopping_gift_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#shopping_gift_cards ProtectedApplication#shopping_gift_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#shopping_gift_cards ProtectedApplication#shopping_gift_cards}
   */
   readonly shoppingGiftCards?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelShoppingGiftCards;
 }
@@ -11930,15 +11930,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsFlowLabelOutputRefe
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -12077,15 +12077,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsMetadataOutputRefer
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsMobileClientBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -12224,11 +12224,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsMobileClientBlockOu
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsMobileClientContinue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -12343,13 +12343,13 @@ export interface ProtectedApplicationCloudfrontProtectedEndpointsMobileClient {
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block ProtectedApplication#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block ProtectedApplication#block}
   */
   readonly block?: ProtectedApplicationCloudfrontProtectedEndpointsMobileClientBlock;
   /**
   * continue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue ProtectedApplication#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue ProtectedApplication#continue}
   */
   readonly continue?: ProtectedApplicationCloudfrontProtectedEndpointsMobileClientContinue;
 }
@@ -12462,15 +12462,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsMobileClientOutputR
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebClientBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -12609,11 +12609,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebClientBlockOutpu
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebClientContinue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -12726,11 +12726,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebClientContinueOu
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebClientRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#location ProtectedApplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#location ProtectedApplication#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -12839,19 +12839,19 @@ export interface ProtectedApplicationCloudfrontProtectedEndpointsWebClient {
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block ProtectedApplication#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block ProtectedApplication#block}
   */
   readonly block?: ProtectedApplicationCloudfrontProtectedEndpointsWebClientBlock;
   /**
   * continue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue ProtectedApplication#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue ProtectedApplication#continue}
   */
   readonly continue?: ProtectedApplicationCloudfrontProtectedEndpointsWebClientContinue;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#redirect ProtectedApplication#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#redirect ProtectedApplication#redirect}
   */
   readonly redirect?: ProtectedApplicationCloudfrontProtectedEndpointsWebClientRedirect;
 }
@@ -12993,15 +12993,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebClientOutputRefe
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBlockMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -13140,15 +13140,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBloc
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBlockWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#body ProtectedApplication#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#body ProtectedApplication#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#content_type ProtectedApplication#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#content_type ProtectedApplication#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -13287,11 +13287,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBloc
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientContinueMobile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -13404,11 +13404,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientCont
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientContinueWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#add_header ProtectedApplication#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#add_header ProtectedApplication#add_header}
   */
   readonly addHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#no_header ProtectedApplication#no_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#no_header ProtectedApplication#no_header}
   */
   readonly noHeader?: boolean | cdktf.IResolvable;
 }
@@ -13521,11 +13521,11 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientCont
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientRedirectWeb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#location ProtectedApplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#location ProtectedApplication#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#status ProtectedApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#status ProtectedApplication#status}
   */
   readonly status: string;
 }
@@ -13634,31 +13634,31 @@ export interface ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClient
   /**
   * block_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block_mobile ProtectedApplication#block_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block_mobile ProtectedApplication#block_mobile}
   */
   readonly blockMobile?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBlockMobile;
   /**
   * block_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#block_web ProtectedApplication#block_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#block_web ProtectedApplication#block_web}
   */
   readonly blockWeb?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientBlockWeb;
   /**
   * continue_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_mobile ProtectedApplication#continue_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_mobile ProtectedApplication#continue_mobile}
   */
   readonly continueMobile?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientContinueMobile;
   /**
   * continue_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_web ProtectedApplication#continue_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_web ProtectedApplication#continue_web}
   */
   readonly continueWeb?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientContinueWeb;
   /**
   * redirect_web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#redirect_web ProtectedApplication#redirect_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#redirect_web ProtectedApplication#redirect_web}
   */
   readonly redirectWeb?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientRedirectWeb;
 }
@@ -13858,59 +13858,59 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClientOutp
 }
 export interface ProtectedApplicationCloudfrontProtectedEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#any_domain ProtectedApplication#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#http_methods ProtectedApplication#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#http_methods ProtectedApplication#http_methods}
   */
   readonly httpMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#path ProtectedApplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#path ProtectedApplication#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#query ProtectedApplication#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#query ProtectedApplication#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#undefined_flow_label ProtectedApplication#undefined_flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#undefined_flow_label ProtectedApplication#undefined_flow_label}
   */
   readonly undefinedFlowLabel?: boolean | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#domain ProtectedApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#domain ProtectedApplication#domain}
   */
   readonly domain?: ProtectedApplicationCloudfrontProtectedEndpointsDomain;
   /**
   * flow_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#flow_label ProtectedApplication#flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#flow_label ProtectedApplication#flow_label}
   */
   readonly flowLabel?: ProtectedApplicationCloudfrontProtectedEndpointsFlowLabel;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudfrontProtectedEndpointsMetadata;
   /**
   * mobile_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_client ProtectedApplication#mobile_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_client ProtectedApplication#mobile_client}
   */
   readonly mobileClient?: ProtectedApplicationCloudfrontProtectedEndpointsMobileClient;
   /**
   * web_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#web_client ProtectedApplication#web_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#web_client ProtectedApplication#web_client}
   */
   readonly webClient?: ProtectedApplicationCloudfrontProtectedEndpointsWebClient;
   /**
   * web_mobile_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#web_mobile_client ProtectedApplication#web_mobile_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#web_mobile_client ProtectedApplication#web_mobile_client}
   */
   readonly webMobileClient?: ProtectedApplicationCloudfrontProtectedEndpointsWebMobileClient;
 }
@@ -14307,15 +14307,15 @@ export class ProtectedApplicationCloudfrontProtectedEndpointsList extends cdktf.
 }
 export interface ProtectedApplicationCloudfrontTrustedClientsHttpHeaderHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#exact ProtectedApplication#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#exact ProtectedApplication#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#regex ProtectedApplication#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#regex ProtectedApplication#regex}
   */
   readonly regex?: string;
 }
@@ -14488,7 +14488,7 @@ export interface ProtectedApplicationCloudfrontTrustedClientsHttpHeader {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#headers ProtectedApplication#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#headers ProtectedApplication#headers}
   */
   readonly headers: ProtectedApplicationCloudfrontTrustedClientsHttpHeaderHeaders[] | cdktf.IResolvable;
 }
@@ -14569,15 +14569,15 @@ export class ProtectedApplicationCloudfrontTrustedClientsHttpHeaderOutputReferen
 }
 export interface ProtectedApplicationCloudfrontTrustedClientsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#description ProtectedApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#description ProtectedApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable ProtectedApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable ProtectedApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#name ProtectedApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#name ProtectedApplication#name}
   */
   readonly name: string;
 }
@@ -14716,19 +14716,19 @@ export class ProtectedApplicationCloudfrontTrustedClientsMetadataOutputReference
 }
 export interface ProtectedApplicationCloudfrontTrustedClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#ip_prefix ProtectedApplication#ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#ip_prefix ProtectedApplication#ip_prefix}
   */
   readonly ipPrefix?: string;
   /**
   * http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#http_header ProtectedApplication#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#http_header ProtectedApplication#http_header}
   */
   readonly httpHeader?: ProtectedApplicationCloudfrontTrustedClientsHttpHeader;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#metadata ProtectedApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#metadata ProtectedApplication#metadata}
   */
   readonly metadata: ProtectedApplicationCloudfrontTrustedClientsMetadata;
 }
@@ -14899,93 +14899,93 @@ export class ProtectedApplicationCloudfrontTrustedClientsList extends cdktf.Comp
 }
 export interface ProtectedApplicationCloudfront {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#aws_account_no ProtectedApplication#aws_account_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#aws_account_no ProtectedApplication#aws_account_no}
   */
   readonly awsAccountNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#continue_mitigation_action_hdr ProtectedApplication#continue_mitigation_action_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#continue_mitigation_action_hdr ProtectedApplication#continue_mitigation_action_hdr}
   */
   readonly continueMitigationActionHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#data_sample ProtectedApplication#data_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#data_sample ProtectedApplication#data_sample}
   */
   readonly dataSample?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_aws_configuration ProtectedApplication#disable_aws_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_aws_configuration ProtectedApplication#disable_aws_configuration}
   */
   readonly disableAwsConfiguration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_js_insert ProtectedApplication#disable_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_js_insert ProtectedApplication#disable_js_insert}
   */
   readonly disableJsInsert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#disable_mobile_sdk ProtectedApplication#disable_mobile_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#disable_mobile_sdk ProtectedApplication#disable_mobile_sdk}
   */
   readonly disableMobileSdk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_download_path ProtectedApplication#js_download_path}
   */
   readonly jsDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#loglevel ProtectedApplication#loglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#loglevel ProtectedApplication#loglevel}
   */
   readonly loglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#timeout ProtectedApplication#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#timeout ProtectedApplication#timeout}
   */
   readonly timeout?: number;
   /**
   * aws_configuration_id_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#aws_configuration_id_selector ProtectedApplication#aws_configuration_id_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#aws_configuration_id_selector ProtectedApplication#aws_configuration_id_selector}
   */
   readonly awsConfigurationIdSelector?: ProtectedApplicationCloudfrontAwsConfigurationIdSelector;
   /**
   * aws_configuration_tag_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#aws_configuration_tag_selector ProtectedApplication#aws_configuration_tag_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#aws_configuration_tag_selector ProtectedApplication#aws_configuration_tag_selector}
   */
   readonly awsConfigurationTagSelector?: ProtectedApplicationCloudfrontAwsConfigurationTagSelector;
   /**
   * js_insert_all_pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insert_all_pages ProtectedApplication#js_insert_all_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insert_all_pages ProtectedApplication#js_insert_all_pages}
   */
   readonly jsInsertAllPages?: ProtectedApplicationCloudfrontJsInsertAllPages;
   /**
   * js_insert_all_pages_except block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insert_all_pages_except ProtectedApplication#js_insert_all_pages_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insert_all_pages_except ProtectedApplication#js_insert_all_pages_except}
   */
   readonly jsInsertAllPagesExcept?: ProtectedApplicationCloudfrontJsInsertAllPagesExcept;
   /**
   * js_insertion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#js_insertion_rules ProtectedApplication#js_insertion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#js_insertion_rules ProtectedApplication#js_insertion_rules}
   */
   readonly jsInsertionRules?: ProtectedApplicationCloudfrontJsInsertionRules;
   /**
   * manual_js_insert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#manual_js_insert ProtectedApplication#manual_js_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#manual_js_insert ProtectedApplication#manual_js_insert}
   */
   readonly manualJsInsert?: ProtectedApplicationCloudfrontManualJsInsert;
   /**
   * mobile_sdk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#mobile_sdk_config ProtectedApplication#mobile_sdk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#mobile_sdk_config ProtectedApplication#mobile_sdk_config}
   */
   readonly mobileSdkConfig?: ProtectedApplicationCloudfrontMobileSdkConfig;
   /**
   * protected_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#protected_endpoints ProtectedApplication#protected_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#protected_endpoints ProtectedApplication#protected_endpoints}
   */
   readonly protectedEndpoints: ProtectedApplicationCloudfrontProtectedEndpoints[] | cdktf.IResolvable;
   /**
   * trusted_clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#trusted_clients ProtectedApplication#trusted_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#trusted_clients ProtectedApplication#trusted_clients}
   */
   readonly trustedClients?: ProtectedApplicationCloudfrontTrustedClients[] | cdktf.IResolvable;
 }
@@ -15559,7 +15559,7 @@ export class ProtectedApplicationCloudfrontOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application volterra_protected_application}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application volterra_protected_application}
 */
 export class ProtectedApplication extends cdktf.TerraformResource {
 
@@ -15575,7 +15575,7 @@ export class ProtectedApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectedApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectedApplication to import
-  * @param importFromId The id of the existing ProtectedApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectedApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectedApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -15587,7 +15587,7 @@ export class ProtectedApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protected_application volterra_protected_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/protected_application volterra_protected_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15598,8 +15598,8 @@ export class ProtectedApplication extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_protected_application',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

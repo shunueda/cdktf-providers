@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group
+// https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AllocationGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of CAST AI cluster ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#cluster_ids AllocationGroup#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#cluster_ids AllocationGroup#cluster_ids}
   */
   readonly clusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#id AllocationGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#id AllocationGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface AllocationGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels used to select workloads to track
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#labels AllocationGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#labels AllocationGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -31,25 +31,25 @@ export interface AllocationGroupConfig extends cdktf.TerraformMetaArguments {
   * 	OR (default) - workload needs to have at least one label to be included
   * 	AND - workload needs to have all the labels to be included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#labels_operator AllocationGroup#labels_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#labels_operator AllocationGroup#labels_operator}
   */
   readonly labelsOperator?: string;
   /**
   * Allocation group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#name AllocationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#name AllocationGroup#name}
   */
   readonly name: string;
   /**
   * List of cluster namespaces to track
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#namespaces AllocationGroup#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#namespaces AllocationGroup#namespaces}
   */
   readonly namespaces?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group castai_allocation_group}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group castai_allocation_group}
 */
 export class AllocationGroup extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class AllocationGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllocationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllocationGroup to import
-  * @param importFromId The id of the existing AllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllocationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class AllocationGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/allocation_group castai_allocation_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.6.0/docs/resources/allocation_group castai_allocation_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class AllocationGroup extends cdktf.TerraformResource {
       terraformResourceType: 'castai_allocation_group',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

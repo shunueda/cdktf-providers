@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZecVnicsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#id DataZenlayercloudZecVnics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#id DataZenlayercloudZecVnics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataZenlayercloudZecVnicsConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the vNICs to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#ids DataZenlayercloudZecVnics#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#ids DataZenlayercloudZecVnics#ids}
   */
   readonly ids?: string[];
   /**
   * ID of the ZEC instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#instance_id DataZenlayercloudZecVnics#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#instance_id DataZenlayercloudZecVnics#instance_id}
   */
   readonly instanceId?: string;
   /**
   * A regex string to apply to the vNIC list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#name_regex DataZenlayercloudZecVnics#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#name_regex DataZenlayercloudZecVnics#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The region that the vNIC locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#region_id DataZenlayercloudZecVnics#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#region_id DataZenlayercloudZecVnics#region_id}
   */
   readonly regionId?: string;
   /**
   * The ID of resource group grouped VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#resource_group_id DataZenlayercloudZecVnics#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#resource_group_id DataZenlayercloudZecVnics#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#result_output_file DataZenlayercloudZecVnics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#result_output_file DataZenlayercloudZecVnics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#subnet_id DataZenlayercloudZecVnics#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#subnet_id DataZenlayercloudZecVnics#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the global VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#vpc_id DataZenlayercloudZecVnics#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#vpc_id DataZenlayercloudZecVnics#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -215,7 +215,7 @@ export class DataZenlayercloudZecVnicsVnicsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics zenlayercloud_zec_vnics}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics zenlayercloud_zec_vnics}
 */
 export class DataZenlayercloudZecVnics extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataZenlayercloudZecVnics extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecVnics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecVnics to import
-  * @param importFromId The id of the existing DataZenlayercloudZecVnics that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecVnics that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecVnics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataZenlayercloudZecVnics extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_vnics zenlayercloud_zec_vnics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_vnics zenlayercloud_zec_vnics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataZenlayercloudZecVnics extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_vnics',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAlibabacloudstackApiGatewayV2McpserversConfig extends cdktf
   /**
   * The ID of the API Gateway instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers#gw_instance_id DataAlibabacloudstackApiGatewayV2Mcpservers#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers#gw_instance_id DataAlibabacloudstackApiGatewayV2Mcpservers#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers#id DataAlibabacloudstackApiGatewayV2Mcpservers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers#id DataAlibabacloudstackApiGatewayV2Mcpservers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAlibabacloudstackApiGatewayV2McpserversConfig extends cdktf
   /**
   * A list of MCP server IDs to filter results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers#ids DataAlibabacloudstackApiGatewayV2Mcpservers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers#ids DataAlibabacloudstackApiGatewayV2Mcpservers#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to filter results by the MCP server name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers#name_regex DataAlibabacloudstackApiGatewayV2Mcpservers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers#name_regex DataAlibabacloudstackApiGatewayV2Mcpservers#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -433,7 +433,7 @@ export class DataAlibabacloudstackApiGatewayV2McpserversMcpServersList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers alibabacloudstack_api_gateway_v2_mcpservers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers alibabacloudstack_api_gateway_v2_mcpservers}
 */
 export class DataAlibabacloudstackApiGatewayV2Mcpservers extends cdktf.TerraformDataSource {
 
@@ -449,7 +449,7 @@ export class DataAlibabacloudstackApiGatewayV2Mcpservers extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlibabacloudstackApiGatewayV2Mcpservers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackApiGatewayV2Mcpservers to import
-  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Mcpservers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2Mcpservers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackApiGatewayV2Mcpservers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +461,7 @@ export class DataAlibabacloudstackApiGatewayV2Mcpservers extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_mcpservers alibabacloudstack_api_gateway_v2_mcpservers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_mcpservers alibabacloudstack_api_gateway_v2_mcpservers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +472,8 @@ export class DataAlibabacloudstackApiGatewayV2Mcpservers extends cdktf.Terraform
       terraformResourceType: 'alibabacloudstack_api_gateway_v2_mcpservers',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

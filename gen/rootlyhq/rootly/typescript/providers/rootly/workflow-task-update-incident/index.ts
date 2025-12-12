@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateIncidentConfig extends cdktf.TerraformMetaArg
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#enabled WorkflowTaskUpdateIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#enabled WorkflowTaskUpdateIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#id WorkflowTaskUpdateIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#id WorkflowTaskUpdateIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,127 +23,127 @@ export interface WorkflowTaskUpdateIncidentConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#name WorkflowTaskUpdateIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#name WorkflowTaskUpdateIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#position WorkflowTaskUpdateIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#position WorkflowTaskUpdateIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#skip_on_failure WorkflowTaskUpdateIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#skip_on_failure WorkflowTaskUpdateIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#workflow_id WorkflowTaskUpdateIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#workflow_id WorkflowTaskUpdateIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#task_params WorkflowTaskUpdateIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#task_params WorkflowTaskUpdateIncident#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateIncidentTaskParams;
 }
 export interface WorkflowTaskUpdateIncidentTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#acknowledged_at WorkflowTaskUpdateIncident#acknowledged_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#acknowledged_at WorkflowTaskUpdateIncident#acknowledged_at}
   */
   readonly acknowledgedAt?: string;
   /**
   * Value must be one of `id`, `slug`, `sequential_id`, `pagerduty_incident_id`, `opsgenie_incident_id`, `victor_ops_incident_id`, `jira_issue_id`, `asana_task_id`, `shortcut_task_id`, `linear_issue_id`, `zendesk_ticket_id`, `motion_task_id`, `trello_card_id`, `airtable_record_id`, `shortcut_story_id`, `github_issue_id`, `gitlab_issue_id`, `freshservice_ticket_id`, `freshservice_task_id`, `clickup_task_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#attribute_to_query_by WorkflowTaskUpdateIncident#attribute_to_query_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#attribute_to_query_by WorkflowTaskUpdateIncident#attribute_to_query_by}
   */
   readonly attributeToQueryBy?: string;
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON. Use 'services', 'functionalities', or 'groups' keys with arrays of names/slugs for name/slug lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#custom_fields_mapping WorkflowTaskUpdateIncident#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#custom_fields_mapping WorkflowTaskUpdateIncident#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#detected_at WorkflowTaskUpdateIncident#detected_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#detected_at WorkflowTaskUpdateIncident#detected_at}
   */
   readonly detectedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#environment_ids WorkflowTaskUpdateIncident#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#environment_ids WorkflowTaskUpdateIncident#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * Array of functionality UUIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#functionality_ids WorkflowTaskUpdateIncident#functionality_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#functionality_ids WorkflowTaskUpdateIncident#functionality_ids}
   */
   readonly functionalityIds?: string[];
   /**
   * Array of group/team UUIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#group_ids WorkflowTaskUpdateIncident#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#group_ids WorkflowTaskUpdateIncident#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * The incident id to update or id of any attribute on the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#incident_id WorkflowTaskUpdateIncident#incident_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#incident_id WorkflowTaskUpdateIncident#incident_id}
   */
   readonly incidentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#incident_type_ids WorkflowTaskUpdateIncident#incident_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#incident_type_ids WorkflowTaskUpdateIncident#incident_type_ids}
   */
   readonly incidentTypeIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#mitigated_at WorkflowTaskUpdateIncident#mitigated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#mitigated_at WorkflowTaskUpdateIncident#mitigated_at}
   */
   readonly mitigatedAt?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#private WorkflowTaskUpdateIncident#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#private WorkflowTaskUpdateIncident#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#resolved_at WorkflowTaskUpdateIncident#resolved_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#resolved_at WorkflowTaskUpdateIncident#resolved_at}
   */
   readonly resolvedAt?: string;
   /**
   * Array of service UUIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#service_ids WorkflowTaskUpdateIncident#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#service_ids WorkflowTaskUpdateIncident#service_ids}
   */
   readonly serviceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#severity_id WorkflowTaskUpdateIncident#severity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#severity_id WorkflowTaskUpdateIncident#severity_id}
   */
   readonly severityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#started_at WorkflowTaskUpdateIncident#started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#started_at WorkflowTaskUpdateIncident#started_at}
   */
   readonly startedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#status WorkflowTaskUpdateIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#status WorkflowTaskUpdateIncident#status}
   */
   readonly status?: string;
   /**
   * The incident summary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#summary WorkflowTaskUpdateIncident#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#summary WorkflowTaskUpdateIncident#summary}
   */
   readonly summary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#task_type WorkflowTaskUpdateIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#task_type WorkflowTaskUpdateIncident#task_type}
   */
   readonly taskType?: string;
   /**
   * The incident title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#title WorkflowTaskUpdateIncident#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#title WorkflowTaskUpdateIncident#title}
   */
   readonly title?: string;
 }
@@ -746,7 +746,7 @@ export class WorkflowTaskUpdateIncidentTaskParamsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident rootly_workflow_task_update_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident rootly_workflow_task_update_incident}
 */
 export class WorkflowTaskUpdateIncident extends cdktf.TerraformResource {
 
@@ -762,7 +762,7 @@ export class WorkflowTaskUpdateIncident extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateIncident to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -774,7 +774,7 @@ export class WorkflowTaskUpdateIncident extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_incident rootly_workflow_task_update_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_incident rootly_workflow_task_update_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -785,8 +785,8 @@ export class WorkflowTaskUpdateIncident extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

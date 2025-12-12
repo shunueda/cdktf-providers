@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface K8SPodSecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#annotations K8SPodSecurityPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#annotations K8SPodSecurityPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#description K8SPodSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#description K8SPodSecurityPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#disable K8SPodSecurityPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#disable K8SPodSecurityPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#id K8SPodSecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#id K8SPodSecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#labels K8SPodSecurityPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#labels K8SPodSecurityPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#name K8SPodSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#name K8SPodSecurityPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#namespace K8SPodSecurityPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#namespace K8SPodSecurityPolicy#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#yaml K8SPodSecurityPolicy#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#yaml K8SPodSecurityPolicy#yaml}
   */
   readonly yaml?: string;
   /**
   * psp_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#psp_spec K8SPodSecurityPolicy#psp_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#psp_spec K8SPodSecurityPolicy#psp_spec}
   */
   readonly pspSpec?: K8SPodSecurityPolicyPspSpec;
 }
 export interface K8SPodSecurityPolicyPspSpecAllowedCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
   */
   readonly capabilities: string[];
 }
@@ -132,11 +132,11 @@ export class K8SPodSecurityPolicyPspSpecAllowedCapabilitiesOutputReference exten
 }
 export interface K8SPodSecurityPolicyPspSpecAllowedHostPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#path_prefix K8SPodSecurityPolicy#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#path_prefix K8SPodSecurityPolicy#path_prefix}
   */
   readonly pathPrefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#read_only K8SPodSecurityPolicy#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#read_only K8SPodSecurityPolicy#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -278,7 +278,7 @@ export class K8SPodSecurityPolicyPspSpecAllowedHostPathsList extends cdktf.Compl
 }
 export interface K8SPodSecurityPolicyPspSpecDefaultCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
   */
   readonly capabilities: string[];
 }
@@ -359,7 +359,7 @@ export class K8SPodSecurityPolicyPspSpecDefaultCapabilitiesOutputReference exten
 }
 export interface K8SPodSecurityPolicyPspSpecDropCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#capabilities K8SPodSecurityPolicy#capabilities}
   */
   readonly capabilities: string[];
 }
@@ -440,11 +440,11 @@ export class K8SPodSecurityPolicyPspSpecDropCapabilitiesOutputReference extends 
 }
 export interface K8SPodSecurityPolicyPspSpecFsGroupStrategyOptionsIdRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
   */
   readonly maxId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
   */
   readonly minId: number;
 }
@@ -583,13 +583,13 @@ export class K8SPodSecurityPolicyPspSpecFsGroupStrategyOptionsIdRangesList exten
 }
 export interface K8SPodSecurityPolicyPspSpecFsGroupStrategyOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * id_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
   */
   readonly idRanges?: K8SPodSecurityPolicyPspSpecFsGroupStrategyOptionsIdRanges[] | cdktf.IResolvable;
 }
@@ -702,11 +702,11 @@ export class K8SPodSecurityPolicyPspSpecFsGroupStrategyOptionsOutputReference ex
 }
 export interface K8SPodSecurityPolicyPspSpecRunAsGroupIdRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
   */
   readonly maxId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
   */
   readonly minId: number;
 }
@@ -845,13 +845,13 @@ export class K8SPodSecurityPolicyPspSpecRunAsGroupIdRangesList extends cdktf.Com
 }
 export interface K8SPodSecurityPolicyPspSpecRunAsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * id_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
   */
   readonly idRanges?: K8SPodSecurityPolicyPspSpecRunAsGroupIdRanges[] | cdktf.IResolvable;
 }
@@ -964,11 +964,11 @@ export class K8SPodSecurityPolicyPspSpecRunAsGroupOutputReference extends cdktf.
 }
 export interface K8SPodSecurityPolicyPspSpecRunAsUserIdRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
   */
   readonly maxId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
   */
   readonly minId: number;
 }
@@ -1107,13 +1107,13 @@ export class K8SPodSecurityPolicyPspSpecRunAsUserIdRangesList extends cdktf.Comp
 }
 export interface K8SPodSecurityPolicyPspSpecRunAsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * id_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
   */
   readonly idRanges?: K8SPodSecurityPolicyPspSpecRunAsUserIdRanges[] | cdktf.IResolvable;
 }
@@ -1226,11 +1226,11 @@ export class K8SPodSecurityPolicyPspSpecRunAsUserOutputReference extends cdktf.C
 }
 export interface K8SPodSecurityPolicyPspSpecRuntimeClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_runtime_class_names K8SPodSecurityPolicy#allowed_runtime_class_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_runtime_class_names K8SPodSecurityPolicy#allowed_runtime_class_names}
   */
   readonly allowedRuntimeClassNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#default_runtime_class_name K8SPodSecurityPolicy#default_runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#default_runtime_class_name K8SPodSecurityPolicy#default_runtime_class_name}
   */
   readonly defaultRuntimeClassName?: string;
 }
@@ -1340,23 +1340,23 @@ export class K8SPodSecurityPolicyPspSpecRuntimeClassOutputReference extends cdkt
 }
 export interface K8SPodSecurityPolicyPspSpecSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#level K8SPodSecurityPolicy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#level K8SPodSecurityPolicy#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#role K8SPodSecurityPolicy#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#role K8SPodSecurityPolicy#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#type K8SPodSecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#type K8SPodSecurityPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#user K8SPodSecurityPolicy#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#user K8SPodSecurityPolicy#user}
   */
   readonly user?: string;
 }
@@ -1556,11 +1556,11 @@ export class K8SPodSecurityPolicyPspSpecSeLinuxOptionsOutputReference extends cd
 }
 export interface K8SPodSecurityPolicyPspSpecSupplementalGroupsIdRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#max_id K8SPodSecurityPolicy#max_id}
   */
   readonly maxId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#min_id K8SPodSecurityPolicy#min_id}
   */
   readonly minId: number;
 }
@@ -1699,13 +1699,13 @@ export class K8SPodSecurityPolicyPspSpecSupplementalGroupsIdRangesList extends c
 }
 export interface K8SPodSecurityPolicyPspSpecSupplementalGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#rule K8SPodSecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * id_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#id_ranges K8SPodSecurityPolicy#id_ranges}
   */
   readonly idRanges?: K8SPodSecurityPolicyPspSpecSupplementalGroupsIdRanges[] | cdktf.IResolvable;
 }
@@ -1818,155 +1818,155 @@ export class K8SPodSecurityPolicyPspSpecSupplementalGroupsOutputReference extend
 }
 export interface K8SPodSecurityPolicyPspSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allow_privilege_escalation K8SPodSecurityPolicy#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allow_privilege_escalation K8SPodSecurityPolicy#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_csi_drivers K8SPodSecurityPolicy#allowed_csi_drivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_csi_drivers K8SPodSecurityPolicy#allowed_csi_drivers}
   */
   readonly allowedCsiDrivers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_flex_volumes K8SPodSecurityPolicy#allowed_flex_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_flex_volumes K8SPodSecurityPolicy#allowed_flex_volumes}
   */
   readonly allowedFlexVolumes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_proc_mounts K8SPodSecurityPolicy#allowed_proc_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_proc_mounts K8SPodSecurityPolicy#allowed_proc_mounts}
   */
   readonly allowedProcMounts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_unsafe_sysctls K8SPodSecurityPolicy#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_unsafe_sysctls K8SPodSecurityPolicy#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#default_allow_privilege_escalation K8SPodSecurityPolicy#default_allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#default_allow_privilege_escalation K8SPodSecurityPolicy#default_allow_privilege_escalation}
   */
   readonly defaultAllowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#forbidden_sysctls K8SPodSecurityPolicy#forbidden_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#forbidden_sysctls K8SPodSecurityPolicy#forbidden_sysctls}
   */
   readonly forbiddenSysctls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#host_ipc K8SPodSecurityPolicy#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#host_ipc K8SPodSecurityPolicy#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#host_network K8SPodSecurityPolicy#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#host_network K8SPodSecurityPolicy#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#host_pid K8SPodSecurityPolicy#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#host_pid K8SPodSecurityPolicy#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#host_port_ranges K8SPodSecurityPolicy#host_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#host_port_ranges K8SPodSecurityPolicy#host_port_ranges}
   */
   readonly hostPortRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_allowed_capabilities K8SPodSecurityPolicy#no_allowed_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_allowed_capabilities K8SPodSecurityPolicy#no_allowed_capabilities}
   */
   readonly noAllowedCapabilities?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_default_capabilities K8SPodSecurityPolicy#no_default_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_default_capabilities K8SPodSecurityPolicy#no_default_capabilities}
   */
   readonly noDefaultCapabilities?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_drop_capabilities K8SPodSecurityPolicy#no_drop_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_drop_capabilities K8SPodSecurityPolicy#no_drop_capabilities}
   */
   readonly noDropCapabilities?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_fs_groups K8SPodSecurityPolicy#no_fs_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_fs_groups K8SPodSecurityPolicy#no_fs_groups}
   */
   readonly noFsGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_run_as_group K8SPodSecurityPolicy#no_run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_run_as_group K8SPodSecurityPolicy#no_run_as_group}
   */
   readonly noRunAsGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_run_as_user K8SPodSecurityPolicy#no_run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_run_as_user K8SPodSecurityPolicy#no_run_as_user}
   */
   readonly noRunAsUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_runtime_class K8SPodSecurityPolicy#no_runtime_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_runtime_class K8SPodSecurityPolicy#no_runtime_class}
   */
   readonly noRuntimeClass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_se_linux_options K8SPodSecurityPolicy#no_se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_se_linux_options K8SPodSecurityPolicy#no_se_linux_options}
   */
   readonly noSeLinuxOptions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#no_supplemental_groups K8SPodSecurityPolicy#no_supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#no_supplemental_groups K8SPodSecurityPolicy#no_supplemental_groups}
   */
   readonly noSupplementalGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#privileged K8SPodSecurityPolicy#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#privileged K8SPodSecurityPolicy#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#read_only_root_filesystem K8SPodSecurityPolicy#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#read_only_root_filesystem K8SPodSecurityPolicy#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#volumes K8SPodSecurityPolicy#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#volumes K8SPodSecurityPolicy#volumes}
   */
   readonly volumes?: string[];
   /**
   * allowed_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_capabilities K8SPodSecurityPolicy#allowed_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_capabilities K8SPodSecurityPolicy#allowed_capabilities}
   */
   readonly allowedCapabilities?: K8SPodSecurityPolicyPspSpecAllowedCapabilities;
   /**
   * allowed_host_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#allowed_host_paths K8SPodSecurityPolicy#allowed_host_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#allowed_host_paths K8SPodSecurityPolicy#allowed_host_paths}
   */
   readonly allowedHostPaths?: K8SPodSecurityPolicyPspSpecAllowedHostPaths[] | cdktf.IResolvable;
   /**
   * default_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#default_capabilities K8SPodSecurityPolicy#default_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#default_capabilities K8SPodSecurityPolicy#default_capabilities}
   */
   readonly defaultCapabilities?: K8SPodSecurityPolicyPspSpecDefaultCapabilities;
   /**
   * drop_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#drop_capabilities K8SPodSecurityPolicy#drop_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#drop_capabilities K8SPodSecurityPolicy#drop_capabilities}
   */
   readonly dropCapabilities?: K8SPodSecurityPolicyPspSpecDropCapabilities;
   /**
   * fs_group_strategy_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#fs_group_strategy_options K8SPodSecurityPolicy#fs_group_strategy_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#fs_group_strategy_options K8SPodSecurityPolicy#fs_group_strategy_options}
   */
   readonly fsGroupStrategyOptions?: K8SPodSecurityPolicyPspSpecFsGroupStrategyOptions;
   /**
   * run_as_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#run_as_group K8SPodSecurityPolicy#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#run_as_group K8SPodSecurityPolicy#run_as_group}
   */
   readonly runAsGroup?: K8SPodSecurityPolicyPspSpecRunAsGroup;
   /**
   * run_as_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#run_as_user K8SPodSecurityPolicy#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#run_as_user K8SPodSecurityPolicy#run_as_user}
   */
   readonly runAsUser?: K8SPodSecurityPolicyPspSpecRunAsUser;
   /**
   * runtime_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#runtime_class K8SPodSecurityPolicy#runtime_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#runtime_class K8SPodSecurityPolicy#runtime_class}
   */
   readonly runtimeClass?: K8SPodSecurityPolicyPspSpecRuntimeClass;
   /**
   * se_linux_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#se_linux_options K8SPodSecurityPolicy#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#se_linux_options K8SPodSecurityPolicy#se_linux_options}
   */
   readonly seLinuxOptions?: K8SPodSecurityPolicyPspSpecSeLinuxOptions;
   /**
   * supplemental_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#supplemental_groups K8SPodSecurityPolicy#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#supplemental_groups K8SPodSecurityPolicy#supplemental_groups}
   */
   readonly supplementalGroups?: K8SPodSecurityPolicyPspSpecSupplementalGroups;
 }
@@ -2978,7 +2978,7 @@ export class K8SPodSecurityPolicyPspSpecOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy volterra_k8s_pod_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy volterra_k8s_pod_security_policy}
 */
 export class K8SPodSecurityPolicy extends cdktf.TerraformResource {
 
@@ -2994,7 +2994,7 @@ export class K8SPodSecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SPodSecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SPodSecurityPolicy to import
-  * @param importFromId The id of the existing K8SPodSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SPodSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SPodSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3006,7 +3006,7 @@ export class K8SPodSecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_policy volterra_k8s_pod_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_policy volterra_k8s_pod_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3017,8 +3017,8 @@ export class K8SPodSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_pod_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

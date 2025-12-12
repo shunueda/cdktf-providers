@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "volterra": "0.11.45"
+    "volterra": "0.11.46"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,288 +8,288 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEdasK8SApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#application_descriotion ApsarastackEdasK8SApplication#application_descriotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#application_descriotion ApsarastackEdasK8SApplication#application_descriotion}
   */
   readonly applicationDescriotion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#application_description ApsarastackEdasK8SApplication#application_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#application_description ApsarastackEdasK8SApplication#application_description}
   */
   readonly applicationDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#application_name ApsarastackEdasK8SApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#application_name ApsarastackEdasK8SApplication#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#cluster_id ApsarastackEdasK8SApplication#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#cluster_id ApsarastackEdasK8SApplication#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#command ApsarastackEdasK8SApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#command ApsarastackEdasK8SApplication#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#command_args ApsarastackEdasK8SApplication#command_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#command_args ApsarastackEdasK8SApplication#command_args}
   */
   readonly commandArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#cr_ee_repo_id ApsarastackEdasK8SApplication#cr_ee_repo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#cr_ee_repo_id ApsarastackEdasK8SApplication#cr_ee_repo_id}
   */
   readonly crEeRepoId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#edas_container_version ApsarastackEdasK8SApplication#edas_container_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#edas_container_version ApsarastackEdasK8SApplication#edas_container_version}
   */
   readonly edasContainerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#envs ApsarastackEdasK8SApplication#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#envs ApsarastackEdasK8SApplication#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#id ApsarastackEdasK8SApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#id ApsarastackEdasK8SApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#image_url ApsarastackEdasK8SApplication#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#image_url ApsarastackEdasK8SApplication#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_external_traffic_policy ApsarastackEdasK8SApplication#internet_external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_external_traffic_policy ApsarastackEdasK8SApplication#internet_external_traffic_policy}
   */
   readonly internetExternalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_scheduler ApsarastackEdasK8SApplication#internet_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_scheduler ApsarastackEdasK8SApplication#internet_scheduler}
   */
   readonly internetScheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_slb_id ApsarastackEdasK8SApplication#internet_slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_slb_id ApsarastackEdasK8SApplication#internet_slb_id}
   */
   readonly internetSlbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_slb_port ApsarastackEdasK8SApplication#internet_slb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_slb_port ApsarastackEdasK8SApplication#internet_slb_port}
   */
   readonly internetSlbPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_slb_protocol ApsarastackEdasK8SApplication#internet_slb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_slb_protocol ApsarastackEdasK8SApplication#internet_slb_protocol}
   */
   readonly internetSlbProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_target_port ApsarastackEdasK8SApplication#internet_target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_target_port ApsarastackEdasK8SApplication#internet_target_port}
   */
   readonly internetTargetPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_external_traffic_policy ApsarastackEdasK8SApplication#intranet_external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_external_traffic_policy ApsarastackEdasK8SApplication#intranet_external_traffic_policy}
   */
   readonly intranetExternalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_scheduler ApsarastackEdasK8SApplication#intranet_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_scheduler ApsarastackEdasK8SApplication#intranet_scheduler}
   */
   readonly intranetScheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_slb_id ApsarastackEdasK8SApplication#intranet_slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_slb_id ApsarastackEdasK8SApplication#intranet_slb_id}
   */
   readonly intranetSlbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_slb_port ApsarastackEdasK8SApplication#intranet_slb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_slb_port ApsarastackEdasK8SApplication#intranet_slb_port}
   */
   readonly intranetSlbPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_slb_protocol ApsarastackEdasK8SApplication#intranet_slb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_slb_protocol ApsarastackEdasK8SApplication#intranet_slb_protocol}
   */
   readonly intranetSlbProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_target_port ApsarastackEdasK8SApplication#intranet_target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_target_port ApsarastackEdasK8SApplication#intranet_target_port}
   */
   readonly intranetTargetPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#jdk ApsarastackEdasK8SApplication#jdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#jdk ApsarastackEdasK8SApplication#jdk}
   */
   readonly jdk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#limit_m_cpu ApsarastackEdasK8SApplication#limit_m_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#limit_m_cpu ApsarastackEdasK8SApplication#limit_m_cpu}
   */
   readonly limitMCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#limit_mem ApsarastackEdasK8SApplication#limit_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#limit_mem ApsarastackEdasK8SApplication#limit_mem}
   */
   readonly limitMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#liveness ApsarastackEdasK8SApplication#liveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#liveness ApsarastackEdasK8SApplication#liveness}
   */
   readonly liveness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#logical_region_id ApsarastackEdasK8SApplication#logical_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#logical_region_id ApsarastackEdasK8SApplication#logical_region_id}
   */
   readonly logicalRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#mount_descs ApsarastackEdasK8SApplication#mount_descs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#mount_descs ApsarastackEdasK8SApplication#mount_descs}
   */
   readonly mountDescs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#namespace ApsarastackEdasK8SApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#namespace ApsarastackEdasK8SApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#nas_id ApsarastackEdasK8SApplication#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#nas_id ApsarastackEdasK8SApplication#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#package_type ApsarastackEdasK8SApplication#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#package_type ApsarastackEdasK8SApplication#package_type}
   */
   readonly packageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#package_url ApsarastackEdasK8SApplication#package_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#package_url ApsarastackEdasK8SApplication#package_url}
   */
   readonly packageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#package_version ApsarastackEdasK8SApplication#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#package_version ApsarastackEdasK8SApplication#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#post_start ApsarastackEdasK8SApplication#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#post_start ApsarastackEdasK8SApplication#post_start}
   */
   readonly postStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#pre_stop ApsarastackEdasK8SApplication#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#pre_stop ApsarastackEdasK8SApplication#pre_stop}
   */
   readonly preStop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#readiness ApsarastackEdasK8SApplication#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#readiness ApsarastackEdasK8SApplication#readiness}
   */
   readonly readiness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#replicas ApsarastackEdasK8SApplication#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#replicas ApsarastackEdasK8SApplication#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#requests_m_cpu ApsarastackEdasK8SApplication#requests_m_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#requests_m_cpu ApsarastackEdasK8SApplication#requests_m_cpu}
   */
   readonly requestsMCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#requests_mem ApsarastackEdasK8SApplication#requests_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#requests_mem ApsarastackEdasK8SApplication#requests_mem}
   */
   readonly requestsMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#update_batch ApsarastackEdasK8SApplication#update_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#update_batch ApsarastackEdasK8SApplication#update_batch}
   */
   readonly updateBatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#update_batch_wait_time ApsarastackEdasK8SApplication#update_batch_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#update_batch_wait_time ApsarastackEdasK8SApplication#update_batch_wait_time}
   */
   readonly updateBatchWaitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#update_gray ApsarastackEdasK8SApplication#update_gray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#update_gray ApsarastackEdasK8SApplication#update_gray}
   */
   readonly updateGray?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#update_release_type ApsarastackEdasK8SApplication#update_release_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#update_release_type ApsarastackEdasK8SApplication#update_release_type}
   */
   readonly updateReleaseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#update_type ApsarastackEdasK8SApplication#update_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#update_type ApsarastackEdasK8SApplication#update_type}
   */
   readonly updateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#web_container ApsarastackEdasK8SApplication#web_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#web_container ApsarastackEdasK8SApplication#web_container}
   */
   readonly webContainer?: string;
   /**
   * config_mount_descs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#config_mount_descs ApsarastackEdasK8SApplication#config_mount_descs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#config_mount_descs ApsarastackEdasK8SApplication#config_mount_descs}
   */
   readonly configMountDescs?: ApsarastackEdasK8SApplicationConfigMountDescs[] | cdktf.IResolvable;
   /**
   * custom_node_affinity_preferred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_node_affinity_preferred ApsarastackEdasK8SApplication#custom_node_affinity_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_node_affinity_preferred ApsarastackEdasK8SApplication#custom_node_affinity_preferred}
   */
   readonly customNodeAffinityPreferred?: ApsarastackEdasK8SApplicationCustomNodeAffinityPreferred[] | cdktf.IResolvable;
   /**
   * custom_node_affinity_require block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_node_affinity_require ApsarastackEdasK8SApplication#custom_node_affinity_require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_node_affinity_require ApsarastackEdasK8SApplication#custom_node_affinity_require}
   */
   readonly customNodeAffinityRequire?: ApsarastackEdasK8SApplicationCustomNodeAffinityRequire[] | cdktf.IResolvable;
   /**
   * custom_pod_affinity_preferred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_pod_affinity_preferred ApsarastackEdasK8SApplication#custom_pod_affinity_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_pod_affinity_preferred ApsarastackEdasK8SApplication#custom_pod_affinity_preferred}
   */
   readonly customPodAffinityPreferred?: ApsarastackEdasK8SApplicationCustomPodAffinityPreferred[] | cdktf.IResolvable;
   /**
   * custom_pod_affinity_require block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_pod_affinity_require ApsarastackEdasK8SApplication#custom_pod_affinity_require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_pod_affinity_require ApsarastackEdasK8SApplication#custom_pod_affinity_require}
   */
   readonly customPodAffinityRequire?: ApsarastackEdasK8SApplicationCustomPodAffinityRequire[] | cdktf.IResolvable;
   /**
   * custom_pod_ant_affinity_preferred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_pod_ant_affinity_preferred ApsarastackEdasK8SApplication#custom_pod_ant_affinity_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_pod_ant_affinity_preferred ApsarastackEdasK8SApplication#custom_pod_ant_affinity_preferred}
   */
   readonly customPodAntAffinityPreferred?: ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferred[] | cdktf.IResolvable;
   /**
   * custom_pod_ant_affinity_require block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_pod_ant_affinity_require ApsarastackEdasK8SApplication#custom_pod_ant_affinity_require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_pod_ant_affinity_require ApsarastackEdasK8SApplication#custom_pod_ant_affinity_require}
   */
   readonly customPodAntAffinityRequire?: ApsarastackEdasK8SApplicationCustomPodAntAffinityRequire[] | cdktf.IResolvable;
   /**
   * custom_tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#custom_tolerations ApsarastackEdasK8SApplication#custom_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#custom_tolerations ApsarastackEdasK8SApplication#custom_tolerations}
   */
   readonly customTolerations?: ApsarastackEdasK8SApplicationCustomTolerations[] | cdktf.IResolvable;
   /**
   * host_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#host_aliases ApsarastackEdasK8SApplication#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#host_aliases ApsarastackEdasK8SApplication#host_aliases}
   */
   readonly hostAliases?: ApsarastackEdasK8SApplicationHostAliases[] | cdktf.IResolvable;
   /**
   * internet_service_port_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#internet_service_port_infos ApsarastackEdasK8SApplication#internet_service_port_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#internet_service_port_infos ApsarastackEdasK8SApplication#internet_service_port_infos}
   */
   readonly internetServicePortInfos?: ApsarastackEdasK8SApplicationInternetServicePortInfos[] | cdktf.IResolvable;
   /**
   * intranet_service_port_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#intranet_service_port_infos ApsarastackEdasK8SApplication#intranet_service_port_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#intranet_service_port_infos ApsarastackEdasK8SApplication#intranet_service_port_infos}
   */
   readonly intranetServicePortInfos?: ApsarastackEdasK8SApplicationIntranetServicePortInfos[] | cdktf.IResolvable;
   /**
   * local_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#local_volume ApsarastackEdasK8SApplication#local_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#local_volume ApsarastackEdasK8SApplication#local_volume}
   */
   readonly localVolume?: ApsarastackEdasK8SApplicationLocalVolume[] | cdktf.IResolvable;
   /**
   * pvc_mount_descs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#pvc_mount_descs ApsarastackEdasK8SApplication#pvc_mount_descs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#pvc_mount_descs ApsarastackEdasK8SApplication#pvc_mount_descs}
   */
   readonly pvcMountDescs?: ApsarastackEdasK8SApplicationPvcMountDescs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#timeouts ApsarastackEdasK8SApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#timeouts ApsarastackEdasK8SApplication#timeouts}
   */
   readonly timeouts?: ApsarastackEdasK8SApplicationTimeouts;
 }
 export interface ApsarastackEdasK8SApplicationConfigMountDescs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#name ApsarastackEdasK8SApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#name ApsarastackEdasK8SApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#type ApsarastackEdasK8SApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#type ApsarastackEdasK8SApplication#type}
   */
   readonly type: string;
 }
@@ -454,15 +454,15 @@ export class ApsarastackEdasK8SApplicationConfigMountDescsList extends cdktf.Com
 }
 export interface ApsarastackEdasK8SApplicationCustomNodeAffinityPreferredMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -630,13 +630,13 @@ export class ApsarastackEdasK8SApplicationCustomNodeAffinityPreferredMatchExpres
 }
 export interface ApsarastackEdasK8SApplicationCustomNodeAffinityPreferred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
   */
   readonly weight?: number;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions: ApsarastackEdasK8SApplicationCustomNodeAffinityPreferredMatchExpressions[] | cdktf.IResolvable;
 }
@@ -778,15 +778,15 @@ export class ApsarastackEdasK8SApplicationCustomNodeAffinityPreferredList extend
 }
 export interface ApsarastackEdasK8SApplicationCustomNodeAffinityRequireMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -956,7 +956,7 @@ export interface ApsarastackEdasK8SApplicationCustomNodeAffinityRequire {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions: ApsarastackEdasK8SApplicationCustomNodeAffinityRequireMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1069,15 +1069,15 @@ export class ApsarastackEdasK8SApplicationCustomNodeAffinityRequireList extends 
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAffinityPreferredMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -1245,21 +1245,21 @@ export class ApsarastackEdasK8SApplicationCustomPodAffinityPreferredMatchExpress
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAffinityPreferred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
   */
   readonly k8SNamespace?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
   */
   readonly weight?: number;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions?: ApsarastackEdasK8SApplicationCustomPodAffinityPreferredMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1459,15 +1459,15 @@ export class ApsarastackEdasK8SApplicationCustomPodAffinityPreferredList extends
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAffinityRequireMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -1635,17 +1635,17 @@ export class ApsarastackEdasK8SApplicationCustomPodAffinityRequireMatchExpressio
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAffinityRequire {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
   */
   readonly k8SNamespace?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
   */
   readonly topologyKey: string;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions?: ApsarastackEdasK8SApplicationCustomPodAffinityRequireMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1816,15 +1816,15 @@ export class ApsarastackEdasK8SApplicationCustomPodAffinityRequireList extends c
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferredMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -1992,21 +1992,21 @@ export class ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferredMatchExpr
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
   */
   readonly k8SNamespace?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#weight ApsarastackEdasK8SApplication#weight}
   */
   readonly weight?: number;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions?: ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferredMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2206,15 +2206,15 @@ export class ApsarastackEdasK8SApplicationCustomPodAntAffinityPreferredList exte
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAntAffinityRequireMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#values ApsarastackEdasK8SApplication#values}
   */
   readonly values?: string[];
 }
@@ -2382,17 +2382,17 @@ export class ApsarastackEdasK8SApplicationCustomPodAntAffinityRequireMatchExpres
 }
 export interface ApsarastackEdasK8SApplicationCustomPodAntAffinityRequire {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#k8s_namespace ApsarastackEdasK8SApplication#k8s_namespace}
   */
   readonly k8SNamespace?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#topology_key ApsarastackEdasK8SApplication#topology_key}
   */
   readonly topologyKey: string;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#match_expressions ApsarastackEdasK8SApplication#match_expressions}
   */
   readonly matchExpressions?: ApsarastackEdasK8SApplicationCustomPodAntAffinityRequireMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2563,23 +2563,23 @@ export class ApsarastackEdasK8SApplicationCustomPodAntAffinityRequireList extend
 }
 export interface ApsarastackEdasK8SApplicationCustomTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#effect ApsarastackEdasK8SApplication#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#effect ApsarastackEdasK8SApplication#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#key ApsarastackEdasK8SApplication#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#operator ApsarastackEdasK8SApplication#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#toleration_seconds ApsarastackEdasK8SApplication#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#toleration_seconds ApsarastackEdasK8SApplication#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#value ApsarastackEdasK8SApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#value ApsarastackEdasK8SApplication#value}
   */
   readonly value?: string;
 }
@@ -2802,11 +2802,11 @@ export class ApsarastackEdasK8SApplicationCustomTolerationsList extends cdktf.Co
 }
 export interface ApsarastackEdasK8SApplicationHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#hostnames ApsarastackEdasK8SApplication#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#hostnames ApsarastackEdasK8SApplication#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#ip ApsarastackEdasK8SApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#ip ApsarastackEdasK8SApplication#ip}
   */
   readonly ip?: string;
 }
@@ -2951,15 +2951,15 @@ export class ApsarastackEdasK8SApplicationHostAliasesList extends cdktf.ComplexL
 }
 export interface ApsarastackEdasK8SApplicationInternetServicePortInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#port ApsarastackEdasK8SApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#port ApsarastackEdasK8SApplication#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#protocol ApsarastackEdasK8SApplication#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#protocol ApsarastackEdasK8SApplication#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#target_port ApsarastackEdasK8SApplication#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#target_port ApsarastackEdasK8SApplication#target_port}
   */
   readonly targetPort: number;
 }
@@ -3124,15 +3124,15 @@ export class ApsarastackEdasK8SApplicationInternetServicePortInfosList extends c
 }
 export interface ApsarastackEdasK8SApplicationIntranetServicePortInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#port ApsarastackEdasK8SApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#port ApsarastackEdasK8SApplication#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#protocol ApsarastackEdasK8SApplication#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#protocol ApsarastackEdasK8SApplication#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#target_port ApsarastackEdasK8SApplication#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#target_port ApsarastackEdasK8SApplication#target_port}
   */
   readonly targetPort: number;
 }
@@ -3297,15 +3297,15 @@ export class ApsarastackEdasK8SApplicationIntranetServicePortInfosList extends c
 }
 export interface ApsarastackEdasK8SApplicationLocalVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#node_path ApsarastackEdasK8SApplication#node_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#node_path ApsarastackEdasK8SApplication#node_path}
   */
   readonly nodePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#type ApsarastackEdasK8SApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#type ApsarastackEdasK8SApplication#type}
   */
   readonly type: string;
 }
@@ -3470,11 +3470,11 @@ export class ApsarastackEdasK8SApplicationLocalVolumeList extends cdktf.ComplexL
 }
 export interface ApsarastackEdasK8SApplicationPvcMountDescsMountPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#mount_path ApsarastackEdasK8SApplication#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#read_only ApsarastackEdasK8SApplication#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#read_only ApsarastackEdasK8SApplication#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -3616,13 +3616,13 @@ export class ApsarastackEdasK8SApplicationPvcMountDescsMountPathsList extends cd
 }
 export interface ApsarastackEdasK8SApplicationPvcMountDescs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#pvc_name ApsarastackEdasK8SApplication#pvc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#pvc_name ApsarastackEdasK8SApplication#pvc_name}
   */
   readonly pvcName: string;
   /**
   * mount_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#mount_paths ApsarastackEdasK8SApplication#mount_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#mount_paths ApsarastackEdasK8SApplication#mount_paths}
   */
   readonly mountPaths: ApsarastackEdasK8SApplicationPvcMountDescsMountPaths[] | cdktf.IResolvable;
 }
@@ -3761,11 +3761,11 @@ export class ApsarastackEdasK8SApplicationPvcMountDescsList extends cdktf.Comple
 }
 export interface ApsarastackEdasK8SApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#create ApsarastackEdasK8SApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#create ApsarastackEdasK8SApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#delete ApsarastackEdasK8SApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#delete ApsarastackEdasK8SApplication#delete}
   */
   readonly delete?: string;
 }
@@ -3888,7 +3888,7 @@ export class ApsarastackEdasK8SApplicationTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application apsarastack_edas_k8s_application}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application apsarastack_edas_k8s_application}
 */
 export class ApsarastackEdasK8SApplication extends cdktf.TerraformResource {
 
@@ -3904,7 +3904,7 @@ export class ApsarastackEdasK8SApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackEdasK8SApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEdasK8SApplication to import
-  * @param importFromId The id of the existing ApsarastackEdasK8SApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEdasK8SApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEdasK8SApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3916,7 +3916,7 @@ export class ApsarastackEdasK8SApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_edas_k8s_application apsarastack_edas_k8s_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_edas_k8s_application apsarastack_edas_k8s_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3927,8 +3927,8 @@ export class ApsarastackEdasK8SApplication extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_edas_k8s_application',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

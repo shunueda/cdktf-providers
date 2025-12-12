@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ForwardProxyPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#allow_all ForwardProxyPolicy#allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#allow_all ForwardProxyPolicy#allow_all}
   */
   readonly allowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#annotations ForwardProxyPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#annotations ForwardProxyPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#any_proxy ForwardProxyPolicy#any_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#any_proxy ForwardProxyPolicy#any_proxy}
   */
   readonly anyProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#description ForwardProxyPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#description ForwardProxyPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#disable ForwardProxyPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#disable ForwardProxyPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#drp_http_connect ForwardProxyPolicy#drp_http_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#drp_http_connect ForwardProxyPolicy#drp_http_connect}
   */
   readonly drpHttpConnect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#id ForwardProxyPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#id ForwardProxyPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#labels ForwardProxyPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#labels ForwardProxyPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#allow_list ForwardProxyPolicy#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#allow_list ForwardProxyPolicy#allow_list}
   */
   readonly allowList?: ForwardProxyPolicyAllowListStruct;
   /**
   * deny_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#deny_list ForwardProxyPolicy#deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#deny_list ForwardProxyPolicy#deny_list}
   */
   readonly denyList?: ForwardProxyPolicyDenyListStruct;
   /**
   * network_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#network_connector ForwardProxyPolicy#network_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#network_connector ForwardProxyPolicy#network_connector}
   */
   readonly networkConnector?: ForwardProxyPolicyNetworkConnector;
   /**
   * proxy_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#proxy_label_selector ForwardProxyPolicy#proxy_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#proxy_label_selector ForwardProxyPolicy#proxy_label_selector}
   */
   readonly proxyLabelSelector?: ForwardProxyPolicyProxyLabelSelector;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#rule_list ForwardProxyPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#rule_list ForwardProxyPolicy#rule_list}
   */
   readonly ruleList?: ForwardProxyPolicyRuleListStruct;
   /**
   * segment_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#segment_policy ForwardProxyPolicy#segment_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#segment_policy ForwardProxyPolicy#segment_policy}
   */
   readonly segmentPolicy?: ForwardProxyPolicySegmentPolicy;
 }
 export interface ForwardProxyPolicyAllowListDestListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#port_ranges ForwardProxyPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#port_ranges ForwardProxyPolicy#port_ranges}
   */
   readonly portRanges: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -268,31 +268,31 @@ export class ForwardProxyPolicyAllowListDestListStructList extends cdktf.Complex
 }
 export interface ForwardProxyPolicyAllowListHttpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
   */
   readonly anyPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
   */
   readonly pathExactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
   */
   readonly pathPrefixValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
   */
   readonly pathRegexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -582,15 +582,15 @@ export class ForwardProxyPolicyAllowListHttpListStructList extends cdktf.Complex
 }
 export interface ForwardProxyPolicyAllowListTlsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -764,33 +764,33 @@ export class ForwardProxyPolicyAllowListTlsListStructList extends cdktf.ComplexL
 }
 export interface ForwardProxyPolicyAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_allow ForwardProxyPolicy#default_action_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_allow ForwardProxyPolicy#default_action_allow}
   */
   readonly defaultActionAllow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_deny ForwardProxyPolicy#default_action_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_deny ForwardProxyPolicy#default_action_deny}
   */
   readonly defaultActionDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_next_policy ForwardProxyPolicy#default_action_next_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_next_policy ForwardProxyPolicy#default_action_next_policy}
   */
   readonly defaultActionNextPolicy?: boolean | cdktf.IResolvable;
   /**
   * dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dest_list ForwardProxyPolicy#dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dest_list ForwardProxyPolicy#dest_list}
   */
   readonly destList?: ForwardProxyPolicyAllowListDestListStruct[] | cdktf.IResolvable;
   /**
   * http_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
   */
   readonly httpList?: ForwardProxyPolicyAllowListHttpListStruct[] | cdktf.IResolvable;
   /**
   * tls_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
   */
   readonly tlsList?: ForwardProxyPolicyAllowListTlsListStruct[] | cdktf.IResolvable;
 }
@@ -1019,15 +1019,15 @@ export class ForwardProxyPolicyAllowListStructOutputReference extends cdktf.Comp
 }
 export interface ForwardProxyPolicyDenyListDestListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#port_ranges ForwardProxyPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#port_ranges ForwardProxyPolicy#port_ranges}
   */
   readonly portRanges: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -1198,31 +1198,31 @@ export class ForwardProxyPolicyDenyListDestListStructList extends cdktf.ComplexL
 }
 export interface ForwardProxyPolicyDenyListHttpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
   */
   readonly anyPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
   */
   readonly pathExactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
   */
   readonly pathPrefixValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
   */
   readonly pathRegexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -1512,15 +1512,15 @@ export class ForwardProxyPolicyDenyListHttpListStructList extends cdktf.ComplexL
 }
 export interface ForwardProxyPolicyDenyListTlsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -1694,33 +1694,33 @@ export class ForwardProxyPolicyDenyListTlsListStructList extends cdktf.ComplexLi
 }
 export interface ForwardProxyPolicyDenyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_allow ForwardProxyPolicy#default_action_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_allow ForwardProxyPolicy#default_action_allow}
   */
   readonly defaultActionAllow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_deny ForwardProxyPolicy#default_action_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_deny ForwardProxyPolicy#default_action_deny}
   */
   readonly defaultActionDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#default_action_next_policy ForwardProxyPolicy#default_action_next_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#default_action_next_policy ForwardProxyPolicy#default_action_next_policy}
   */
   readonly defaultActionNextPolicy?: boolean | cdktf.IResolvable;
   /**
   * dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dest_list ForwardProxyPolicy#dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dest_list ForwardProxyPolicy#dest_list}
   */
   readonly destList?: ForwardProxyPolicyDenyListDestListStruct[] | cdktf.IResolvable;
   /**
   * http_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
   */
   readonly httpList?: ForwardProxyPolicyDenyListHttpListStruct[] | cdktf.IResolvable;
   /**
   * tls_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
   */
   readonly tlsList?: ForwardProxyPolicyDenyListTlsListStruct[] | cdktf.IResolvable;
 }
@@ -1949,15 +1949,15 @@ export class ForwardProxyPolicyDenyListStructOutputReference extends cdktf.Compl
 }
 export interface ForwardProxyPolicyNetworkConnector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2099,7 +2099,7 @@ export class ForwardProxyPolicyNetworkConnectorOutputReference extends cdktf.Com
 }
 export interface ForwardProxyPolicyProxyLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -2180,7 +2180,7 @@ export class ForwardProxyPolicyProxyLabelSelectorOutputReference extends cdktf.C
 }
 export interface ForwardProxyPolicyRuleListRulesDstAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#as_numbers ForwardProxyPolicy#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#as_numbers ForwardProxyPolicy#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -2261,15 +2261,15 @@ export class ForwardProxyPolicyRuleListRulesDstAsnListStructOutputReference exte
 }
 export interface ForwardProxyPolicyRuleListRulesDstAsnSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2411,15 +2411,15 @@ export class ForwardProxyPolicyRuleListRulesDstAsnSetOutputReference extends cdk
 }
 export interface ForwardProxyPolicyRuleListRulesDstIpPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2561,7 +2561,7 @@ export class ForwardProxyPolicyRuleListRulesDstIpPrefixSetOutputReference extend
 }
 export interface ForwardProxyPolicyRuleListRulesDstLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -2642,11 +2642,11 @@ export class ForwardProxyPolicyRuleListRulesDstLabelSelectorOutputReference exte
 }
 export interface ForwardProxyPolicyRuleListRulesDstPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -2759,31 +2759,31 @@ export class ForwardProxyPolicyRuleListRulesDstPrefixListStructOutputReference e
 }
 export interface ForwardProxyPolicyRuleListRulesHttpListHttpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#any_path ForwardProxyPolicy#any_path}
   */
   readonly anyPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_exact_value ForwardProxyPolicy#path_exact_value}
   */
   readonly pathExactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_prefix_value ForwardProxyPolicy#path_prefix_value}
   */
   readonly pathPrefixValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#path_regex_value ForwardProxyPolicy#path_regex_value}
   */
   readonly pathRegexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -3075,7 +3075,7 @@ export interface ForwardProxyPolicyRuleListRulesHttpListStruct {
   /**
   * http_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
   */
   readonly httpList?: ForwardProxyPolicyRuleListRulesHttpListHttpListStruct[] | cdktf.IResolvable;
 }
@@ -3159,15 +3159,15 @@ export class ForwardProxyPolicyRuleListRulesHttpListStructOutputReference extend
 }
 export interface ForwardProxyPolicyRuleListRulesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3309,15 +3309,15 @@ export class ForwardProxyPolicyRuleListRulesInterfaceOutputReference extends cdk
 }
 export interface ForwardProxyPolicyRuleListRulesIpPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3459,7 +3459,7 @@ export class ForwardProxyPolicyRuleListRulesIpPrefixSetOutputReference extends c
 }
 export interface ForwardProxyPolicyRuleListRulesLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#expressions ForwardProxyPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -3540,15 +3540,15 @@ export class ForwardProxyPolicyRuleListRulesLabelSelectorOutputReference extends
 }
 export interface ForwardProxyPolicyRuleListRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#description ForwardProxyPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#description ForwardProxyPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#disable ForwardProxyPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#disable ForwardProxyPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name: string;
 }
@@ -3687,11 +3687,11 @@ export class ForwardProxyPolicyRuleListRulesMetadataOutputReference extends cdkt
 }
 export interface ForwardProxyPolicyRuleListRulesPortMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#invert_matcher ForwardProxyPolicy#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#invert_matcher ForwardProxyPolicy#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ports ForwardProxyPolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ports ForwardProxyPolicy#ports}
   */
   readonly ports: string[];
 }
@@ -3801,11 +3801,11 @@ export class ForwardProxyPolicyRuleListRulesPortMatcherOutputReference extends c
 }
 export interface ForwardProxyPolicyRuleListRulesPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ipv6_prefixes ForwardProxyPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#prefixes ForwardProxyPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -3918,15 +3918,15 @@ export class ForwardProxyPolicyRuleListRulesPrefixListStructOutputReference exte
 }
 export interface ForwardProxyPolicyRuleListRulesTlsListTlsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#exact_value ForwardProxyPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#regex_value ForwardProxyPolicy#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#suffix_value ForwardProxyPolicy#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -4102,7 +4102,7 @@ export interface ForwardProxyPolicyRuleListRulesTlsListStruct {
   /**
   * tls_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
   */
   readonly tlsList?: ForwardProxyPolicyRuleListRulesTlsListTlsListStruct[] | cdktf.IResolvable;
 }
@@ -4186,7 +4186,7 @@ export class ForwardProxyPolicyRuleListRulesTlsListStructOutputReference extends
 }
 export interface ForwardProxyPolicyRuleListRulesUrlCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#url_categories ForwardProxyPolicy#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#url_categories ForwardProxyPolicy#url_categories}
   */
   readonly urlCategories: string[];
 }
@@ -4267,119 +4267,119 @@ export class ForwardProxyPolicyRuleListRulesUrlCategoryListStructOutputReference
 }
 export interface ForwardProxyPolicyRuleListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#action ForwardProxyPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#action ForwardProxyPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#all_destinations ForwardProxyPolicy#all_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#all_destinations ForwardProxyPolicy#all_destinations}
   */
   readonly allDestinations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#all_sources ForwardProxyPolicy#all_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#all_sources ForwardProxyPolicy#all_sources}
   */
   readonly allSources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#inside_sources ForwardProxyPolicy#inside_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#inside_sources ForwardProxyPolicy#inside_sources}
   */
   readonly insideSources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#no_http_connect_port ForwardProxyPolicy#no_http_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#no_http_connect_port ForwardProxyPolicy#no_http_connect_port}
   */
   readonly noHttpConnectPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#rule_description ForwardProxyPolicy#rule_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#rule_description ForwardProxyPolicy#rule_description}
   */
   readonly ruleDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#rule_name ForwardProxyPolicy#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#rule_name ForwardProxyPolicy#rule_name}
   */
   readonly ruleName?: string;
   /**
   * dst_asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_asn_list ForwardProxyPolicy#dst_asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_asn_list ForwardProxyPolicy#dst_asn_list}
   */
   readonly dstAsnList?: ForwardProxyPolicyRuleListRulesDstAsnListStruct;
   /**
   * dst_asn_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_asn_set ForwardProxyPolicy#dst_asn_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_asn_set ForwardProxyPolicy#dst_asn_set}
   */
   readonly dstAsnSet?: ForwardProxyPolicyRuleListRulesDstAsnSet;
   /**
   * dst_ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_ip_prefix_set ForwardProxyPolicy#dst_ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_ip_prefix_set ForwardProxyPolicy#dst_ip_prefix_set}
   */
   readonly dstIpPrefixSet?: ForwardProxyPolicyRuleListRulesDstIpPrefixSet;
   /**
   * dst_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_label_selector ForwardProxyPolicy#dst_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_label_selector ForwardProxyPolicy#dst_label_selector}
   */
   readonly dstLabelSelector?: ForwardProxyPolicyRuleListRulesDstLabelSelector;
   /**
   * dst_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_prefix_list ForwardProxyPolicy#dst_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_prefix_list ForwardProxyPolicy#dst_prefix_list}
   */
   readonly dstPrefixList?: ForwardProxyPolicyRuleListRulesDstPrefixListStruct;
   /**
   * http_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#http_list ForwardProxyPolicy#http_list}
   */
   readonly httpList?: ForwardProxyPolicyRuleListRulesHttpListStruct;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#interface ForwardProxyPolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#interface ForwardProxyPolicy#interface}
   */
   readonly interface?: ForwardProxyPolicyRuleListRulesInterface;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#ip_prefix_set ForwardProxyPolicy#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#ip_prefix_set ForwardProxyPolicy#ip_prefix_set}
   */
   readonly ipPrefixSet?: ForwardProxyPolicyRuleListRulesIpPrefixSet;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#label_selector ForwardProxyPolicy#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#label_selector ForwardProxyPolicy#label_selector}
   */
   readonly labelSelector?: ForwardProxyPolicyRuleListRulesLabelSelector;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#metadata ForwardProxyPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#metadata ForwardProxyPolicy#metadata}
   */
   readonly metadata: ForwardProxyPolicyRuleListRulesMetadata;
   /**
   * port_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#port_matcher ForwardProxyPolicy#port_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#port_matcher ForwardProxyPolicy#port_matcher}
   */
   readonly portMatcher?: ForwardProxyPolicyRuleListRulesPortMatcher;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#prefix_list ForwardProxyPolicy#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#prefix_list ForwardProxyPolicy#prefix_list}
   */
   readonly prefixList?: ForwardProxyPolicyRuleListRulesPrefixListStruct;
   /**
   * tls_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tls_list ForwardProxyPolicy#tls_list}
   */
   readonly tlsList?: ForwardProxyPolicyRuleListRulesTlsListStruct;
   /**
   * url_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#url_category_list ForwardProxyPolicy#url_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#url_category_list ForwardProxyPolicy#url_category_list}
   */
   readonly urlCategoryList?: ForwardProxyPolicyRuleListRulesUrlCategoryListStruct;
 }
@@ -5100,7 +5100,7 @@ export interface ForwardProxyPolicyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#rules ForwardProxyPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#rules ForwardProxyPolicy#rules}
   */
   readonly rules: ForwardProxyPolicyRuleListRules[] | cdktf.IResolvable;
 }
@@ -5181,15 +5181,15 @@ export class ForwardProxyPolicyRuleListStructOutputReference extends cdktf.Compl
 }
 export interface ForwardProxyPolicySegmentPolicyDstSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5370,7 +5370,7 @@ export interface ForwardProxyPolicySegmentPolicyDstSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#segments ForwardProxyPolicy#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#segments ForwardProxyPolicy#segments}
   */
   readonly segments: ForwardProxyPolicySegmentPolicyDstSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -5451,15 +5451,15 @@ export class ForwardProxyPolicySegmentPolicyDstSegmentsOutputReference extends c
 }
 export interface ForwardProxyPolicySegmentPolicySrcSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#name ForwardProxyPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#namespace ForwardProxyPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#tenant ForwardProxyPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -5640,7 +5640,7 @@ export interface ForwardProxyPolicySegmentPolicySrcSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#segments ForwardProxyPolicy#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#segments ForwardProxyPolicy#segments}
   */
   readonly segments: ForwardProxyPolicySegmentPolicySrcSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -5721,27 +5721,27 @@ export class ForwardProxyPolicySegmentPolicySrcSegmentsOutputReference extends c
 }
 export interface ForwardProxyPolicySegmentPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_any ForwardProxyPolicy#dst_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_any ForwardProxyPolicy#dst_any}
   */
   readonly dstAny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#intra_segment ForwardProxyPolicy#intra_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#intra_segment ForwardProxyPolicy#intra_segment}
   */
   readonly intraSegment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#src_any ForwardProxyPolicy#src_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#src_any ForwardProxyPolicy#src_any}
   */
   readonly srcAny?: boolean | cdktf.IResolvable;
   /**
   * dst_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#dst_segments ForwardProxyPolicy#dst_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#dst_segments ForwardProxyPolicy#dst_segments}
   */
   readonly dstSegments?: ForwardProxyPolicySegmentPolicyDstSegments;
   /**
   * src_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#src_segments ForwardProxyPolicy#src_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#src_segments ForwardProxyPolicy#src_segments}
   */
   readonly srcSegments?: ForwardProxyPolicySegmentPolicySrcSegments;
 }
@@ -5941,7 +5941,7 @@ export class ForwardProxyPolicySegmentPolicyOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy volterra_forward_proxy_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy volterra_forward_proxy_policy}
 */
 export class ForwardProxyPolicy extends cdktf.TerraformResource {
 
@@ -5957,7 +5957,7 @@ export class ForwardProxyPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardProxyPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardProxyPolicy to import
-  * @param importFromId The id of the existing ForwardProxyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardProxyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardProxyPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5969,7 +5969,7 @@ export class ForwardProxyPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/forward_proxy_policy volterra_forward_proxy_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/forward_proxy_policy volterra_forward_proxy_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5980,8 +5980,8 @@ export class ForwardProxyPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_forward_proxy_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

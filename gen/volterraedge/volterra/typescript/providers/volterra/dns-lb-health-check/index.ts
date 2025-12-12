@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DnsLbHealthCheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#annotations DnsLbHealthCheck#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#annotations DnsLbHealthCheck#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#description DnsLbHealthCheck#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#description DnsLbHealthCheck#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#disable DnsLbHealthCheck#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#disable DnsLbHealthCheck#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#icmp_health_check DnsLbHealthCheck#icmp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#icmp_health_check DnsLbHealthCheck#icmp_health_check}
   */
   readonly icmpHealthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#id DnsLbHealthCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#id DnsLbHealthCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#labels DnsLbHealthCheck#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#labels DnsLbHealthCheck#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#name DnsLbHealthCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#name DnsLbHealthCheck#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#namespace DnsLbHealthCheck#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#namespace DnsLbHealthCheck#namespace}
   */
   readonly namespace: string;
   /**
   * http_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#http_health_check DnsLbHealthCheck#http_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#http_health_check DnsLbHealthCheck#http_health_check}
   */
   readonly httpHealthCheck?: DnsLbHealthCheckHttpHealthCheck;
   /**
   * https_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#https_health_check DnsLbHealthCheck#https_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#https_health_check DnsLbHealthCheck#https_health_check}
   */
   readonly httpsHealthCheck?: DnsLbHealthCheckHttpsHealthCheck;
   /**
   * tcp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#tcp_health_check DnsLbHealthCheck#tcp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#tcp_health_check DnsLbHealthCheck#tcp_health_check}
   */
   readonly tcpHealthCheck?: DnsLbHealthCheckTcpHealthCheck;
   /**
   * tcp_hex_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#tcp_hex_health_check DnsLbHealthCheck#tcp_hex_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#tcp_hex_health_check DnsLbHealthCheck#tcp_hex_health_check}
   */
   readonly tcpHexHealthCheck?: DnsLbHealthCheckTcpHexHealthCheck;
   /**
   * udp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#udp_health_check DnsLbHealthCheck#udp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#udp_health_check DnsLbHealthCheck#udp_health_check}
   */
   readonly udpHealthCheck?: DnsLbHealthCheckUdpHealthCheck;
 }
 export interface DnsLbHealthCheckHttpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
   */
   readonly healthCheckPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
   */
   readonly healthCheckSecondaryPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
   */
   readonly send?: string;
 }
@@ -255,19 +255,19 @@ export class DnsLbHealthCheckHttpHealthCheckOutputReference extends cdktf.Comple
 }
 export interface DnsLbHealthCheckHttpsHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
   */
   readonly healthCheckPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
   */
   readonly healthCheckSecondaryPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
   */
   readonly send?: string;
 }
@@ -435,19 +435,19 @@ export class DnsLbHealthCheckHttpsHealthCheckOutputReference extends cdktf.Compl
 }
 export interface DnsLbHealthCheckTcpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
   */
   readonly healthCheckPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
   */
   readonly healthCheckSecondaryPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
   */
   readonly send?: string;
 }
@@ -615,19 +615,19 @@ export class DnsLbHealthCheckTcpHealthCheckOutputReference extends cdktf.Complex
 }
 export interface DnsLbHealthCheckTcpHexHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
   */
   readonly healthCheckPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
   */
   readonly healthCheckSecondaryPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
   */
   readonly send?: string;
 }
@@ -795,19 +795,19 @@ export class DnsLbHealthCheckTcpHexHealthCheckOutputReference extends cdktf.Comp
 }
 export interface DnsLbHealthCheckUdpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_port DnsLbHealthCheck#health_check_port}
   */
   readonly healthCheckPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#health_check_secondary_port DnsLbHealthCheck#health_check_secondary_port}
   */
   readonly healthCheckSecondaryPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#receive DnsLbHealthCheck#receive}
   */
   readonly receive: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#send DnsLbHealthCheck#send}
   */
   readonly send: string;
 }
@@ -969,7 +969,7 @@ export class DnsLbHealthCheckUdpHealthCheckOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check volterra_dns_lb_health_check}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check volterra_dns_lb_health_check}
 */
 export class DnsLbHealthCheck extends cdktf.TerraformResource {
 
@@ -985,7 +985,7 @@ export class DnsLbHealthCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsLbHealthCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsLbHealthCheck to import
-  * @param importFromId The id of the existing DnsLbHealthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsLbHealthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsLbHealthCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -997,7 +997,7 @@ export class DnsLbHealthCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_lb_health_check volterra_dns_lb_health_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/dns_lb_health_check volterra_dns_lb_health_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1008,8 +1008,8 @@ export class DnsLbHealthCheck extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_lb_health_check',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

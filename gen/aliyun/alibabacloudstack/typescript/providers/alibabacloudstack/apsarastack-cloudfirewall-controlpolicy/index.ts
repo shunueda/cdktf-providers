@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCloudfirewallControlpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#acl_action ApsarastackCloudfirewallControlpolicy#acl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#acl_action ApsarastackCloudfirewallControlpolicy#acl_action}
   */
   readonly aclAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#application_name ApsarastackCloudfirewallControlpolicy#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#application_name ApsarastackCloudfirewallControlpolicy#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#description ApsarastackCloudfirewallControlpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#description ApsarastackCloudfirewallControlpolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port ApsarastackCloudfirewallControlpolicy#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port ApsarastackCloudfirewallControlpolicy#dest_port}
   */
   readonly destPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port_group ApsarastackCloudfirewallControlpolicy#dest_port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port_group ApsarastackCloudfirewallControlpolicy#dest_port_group}
   */
   readonly destPortGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port_type ApsarastackCloudfirewallControlpolicy#dest_port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#dest_port_type ApsarastackCloudfirewallControlpolicy#dest_port_type}
   */
   readonly destPortType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#destination ApsarastackCloudfirewallControlpolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#destination ApsarastackCloudfirewallControlpolicy#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#destination_type ApsarastackCloudfirewallControlpolicy#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#destination_type ApsarastackCloudfirewallControlpolicy#destination_type}
   */
   readonly destinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#direction ApsarastackCloudfirewallControlpolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#direction ApsarastackCloudfirewallControlpolicy#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#id ApsarastackCloudfirewallControlpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#id ApsarastackCloudfirewallControlpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#ip_version ApsarastackCloudfirewallControlpolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#ip_version ApsarastackCloudfirewallControlpolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#lang ApsarastackCloudfirewallControlpolicy#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#lang ApsarastackCloudfirewallControlpolicy#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#proto ApsarastackCloudfirewallControlpolicy#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#proto ApsarastackCloudfirewallControlpolicy#proto}
   */
   readonly proto: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#release ApsarastackCloudfirewallControlpolicy#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#release ApsarastackCloudfirewallControlpolicy#release}
   */
   readonly release?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#source ApsarastackCloudfirewallControlpolicy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#source ApsarastackCloudfirewallControlpolicy#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#source_ip ApsarastackCloudfirewallControlpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#source_ip ApsarastackCloudfirewallControlpolicy#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#source_type ApsarastackCloudfirewallControlpolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#source_type ApsarastackCloudfirewallControlpolicy#source_type}
   */
   readonly sourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy apsarastack_cloudfirewall_controlpolicy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy apsarastack_cloudfirewall_controlpolicy}
 */
 export class ApsarastackCloudfirewallControlpolicy extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class ApsarastackCloudfirewallControlpolicy extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackCloudfirewallControlpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCloudfirewallControlpolicy to import
-  * @param importFromId The id of the existing ApsarastackCloudfirewallControlpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCloudfirewallControlpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCloudfirewallControlpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class ApsarastackCloudfirewallControlpolicy extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cloudfirewall_controlpolicy apsarastack_cloudfirewall_controlpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cloudfirewall_controlpolicy apsarastack_cloudfirewall_controlpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class ApsarastackCloudfirewallControlpolicy extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_cloudfirewall_controlpolicy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

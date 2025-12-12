@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,87 +8,87 @@ import * as cdktf from 'cdktf';
 
 export interface SysdigProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#extra_headers SysdigProvider#extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#extra_headers SysdigProvider#extra_headers}
   */
   readonly extraHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_monitor_api_key SysdigProvider#ibm_monitor_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_monitor_api_key SysdigProvider#ibm_monitor_api_key}
   */
   readonly ibmMonitorApiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_monitor_iam_url SysdigProvider#ibm_monitor_iam_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_monitor_iam_url SysdigProvider#ibm_monitor_iam_url}
   */
   readonly ibmMonitorIamUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_monitor_instance_id SysdigProvider#ibm_monitor_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_monitor_instance_id SysdigProvider#ibm_monitor_instance_id}
   */
   readonly ibmMonitorInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_secure_api_key SysdigProvider#ibm_secure_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_secure_api_key SysdigProvider#ibm_secure_api_key}
   */
   readonly ibmSecureApiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_secure_iam_url SysdigProvider#ibm_secure_iam_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_secure_iam_url SysdigProvider#ibm_secure_iam_url}
   */
   readonly ibmSecureIamUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#ibm_secure_instance_id SysdigProvider#ibm_secure_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#ibm_secure_instance_id SysdigProvider#ibm_secure_instance_id}
   */
   readonly ibmSecureInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_monitor_api_token SysdigProvider#sysdig_monitor_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_monitor_api_token SysdigProvider#sysdig_monitor_api_token}
   */
   readonly sysdigMonitorApiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_monitor_insecure_tls SysdigProvider#sysdig_monitor_insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_monitor_insecure_tls SysdigProvider#sysdig_monitor_insecure_tls}
   */
   readonly sysdigMonitorInsecureTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_monitor_team_id SysdigProvider#sysdig_monitor_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_monitor_team_id SysdigProvider#sysdig_monitor_team_id}
   */
   readonly sysdigMonitorTeamId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_monitor_team_name SysdigProvider#sysdig_monitor_team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_monitor_team_name SysdigProvider#sysdig_monitor_team_name}
   */
   readonly sysdigMonitorTeamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_monitor_url SysdigProvider#sysdig_monitor_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_monitor_url SysdigProvider#sysdig_monitor_url}
   */
   readonly sysdigMonitorUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_api_token SysdigProvider#sysdig_secure_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_api_token SysdigProvider#sysdig_secure_api_token}
   */
   readonly sysdigSecureApiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_insecure_tls SysdigProvider#sysdig_secure_insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_insecure_tls SysdigProvider#sysdig_secure_insecure_tls}
   */
   readonly sysdigSecureInsecureTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_skip_policyv2msg SysdigProvider#sysdig_secure_skip_policyv2msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_skip_policyv2msg SysdigProvider#sysdig_secure_skip_policyv2msg}
   */
   readonly sysdigSecureSkipPolicyv2Msg?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_team_id SysdigProvider#sysdig_secure_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_team_id SysdigProvider#sysdig_secure_team_id}
   */
   readonly sysdigSecureTeamId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_team_name SysdigProvider#sysdig_secure_team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_team_name SysdigProvider#sysdig_secure_team_name}
   */
   readonly sysdigSecureTeamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#sysdig_secure_url SysdigProvider#sysdig_secure_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#sysdig_secure_url SysdigProvider#sysdig_secure_url}
   */
   readonly sysdigSecureUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#alias SysdigProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#alias SysdigProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs sysdig}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs sysdig}
 */
 export class SysdigProvider extends cdktf.TerraformProvider {
 
@@ -104,7 +104,7 @@ export class SysdigProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SysdigProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SysdigProvider to import
-  * @param importFromId The id of the existing SysdigProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SysdigProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SysdigProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class SysdigProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs sysdig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs sysdig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class SysdigProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sysdig',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       terraformProviderSource: 'sysdiglabs/sysdig'
     });

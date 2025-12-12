@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface HealthcheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#annotations Healthcheck#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#annotations Healthcheck#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#description Healthcheck#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#description Healthcheck#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#disable Healthcheck#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#disable Healthcheck#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#dns_proxy_icmp_health_check Healthcheck#dns_proxy_icmp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#dns_proxy_icmp_health_check Healthcheck#dns_proxy_icmp_health_check}
   */
   readonly dnsProxyIcmpHealthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#healthy_threshold Healthcheck#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#healthy_threshold Healthcheck#healthy_threshold}
   */
   readonly healthyThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#id Healthcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#id Healthcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#interval Healthcheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#interval Healthcheck#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#jitter_percent Healthcheck#jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#jitter_percent Healthcheck#jitter_percent}
   */
   readonly jitterPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#labels Healthcheck#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#labels Healthcheck#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#name Healthcheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#name Healthcheck#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#namespace Healthcheck#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#namespace Healthcheck#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#timeout Healthcheck#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#timeout Healthcheck#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#udp_icmp_health_check Healthcheck#udp_icmp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#udp_icmp_health_check Healthcheck#udp_icmp_health_check}
   */
   readonly udpIcmpHealthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#unhealthy_threshold Healthcheck#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#unhealthy_threshold Healthcheck#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
   /**
   * dns_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#dns_health_check Healthcheck#dns_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#dns_health_check Healthcheck#dns_health_check}
   */
   readonly dnsHealthCheck?: HealthcheckDnsHealthCheck;
   /**
   * dns_proxy_tcp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#dns_proxy_tcp_health_check Healthcheck#dns_proxy_tcp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#dns_proxy_tcp_health_check Healthcheck#dns_proxy_tcp_health_check}
   */
   readonly dnsProxyTcpHealthCheck?: HealthcheckDnsProxyTcpHealthCheck;
   /**
   * dns_proxy_udp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#dns_proxy_udp_health_check Healthcheck#dns_proxy_udp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#dns_proxy_udp_health_check Healthcheck#dns_proxy_udp_health_check}
   */
   readonly dnsProxyUdpHealthCheck?: HealthcheckDnsProxyUdpHealthCheck;
   /**
   * http_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#http_health_check Healthcheck#http_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#http_health_check Healthcheck#http_health_check}
   */
   readonly httpHealthCheck?: HealthcheckHttpHealthCheck;
   /**
   * tcp_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#tcp_health_check Healthcheck#tcp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#tcp_health_check Healthcheck#tcp_health_check}
   */
   readonly tcpHealthCheck?: HealthcheckTcpHealthCheck;
 }
 export interface HealthcheckDnsHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_rcode Healthcheck#expected_rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_rcode Healthcheck#expected_rcode}
   */
   readonly expectedRcode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_record_type Healthcheck#expected_record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_record_type Healthcheck#expected_record_type}
   */
   readonly expectedRecordType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#query_name Healthcheck#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#query_name Healthcheck#query_name}
   */
   readonly queryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#query_type Healthcheck#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#query_type Healthcheck#query_type}
   */
   readonly queryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#reverse Healthcheck#reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#reverse Healthcheck#reverse}
   */
   readonly reverse?: boolean | cdktf.IResolvable;
 }
@@ -333,11 +333,11 @@ export class HealthcheckDnsHealthCheckOutputReference extends cdktf.ComplexObjec
 }
 export interface HealthcheckDnsProxyTcpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
   */
   readonly sendPayload: string;
 }
@@ -444,11 +444,11 @@ export class HealthcheckDnsProxyTcpHealthCheckOutputReference extends cdktf.Comp
 }
 export interface HealthcheckDnsProxyUdpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
   */
   readonly expectedResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
   */
   readonly sendPayload: string;
 }
@@ -555,31 +555,31 @@ export class HealthcheckDnsProxyUdpHealthCheckOutputReference extends cdktf.Comp
 }
 export interface HealthcheckHttpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_status_codes Healthcheck#expected_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_status_codes Healthcheck#expected_status_codes}
   */
   readonly expectedStatusCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#headers Healthcheck#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#headers Healthcheck#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#host_header Healthcheck#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#host_header Healthcheck#host_header}
   */
   readonly hostHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#path Healthcheck#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#path Healthcheck#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#request_headers_to_remove Healthcheck#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#request_headers_to_remove Healthcheck#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#use_http2 Healthcheck#use_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#use_http2 Healthcheck#use_http2}
   */
   readonly useHttp2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#use_origin_server_name Healthcheck#use_origin_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#use_origin_server_name Healthcheck#use_origin_server_name}
   */
   readonly useOriginServerName?: boolean | cdktf.IResolvable;
 }
@@ -834,11 +834,11 @@ export class HealthcheckHttpHealthCheckOutputReference extends cdktf.ComplexObje
 }
 export interface HealthcheckTcpHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#expected_response Healthcheck#expected_response}
   */
   readonly expectedResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#send_payload Healthcheck#send_payload}
   */
   readonly sendPayload?: string;
 }
@@ -951,7 +951,7 @@ export class HealthcheckTcpHealthCheckOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck volterra_healthcheck}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck volterra_healthcheck}
 */
 export class Healthcheck extends cdktf.TerraformResource {
 
@@ -967,7 +967,7 @@ export class Healthcheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Healthcheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Healthcheck to import
-  * @param importFromId The id of the existing Healthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Healthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Healthcheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -979,7 +979,7 @@ export class Healthcheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/healthcheck volterra_healthcheck} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/healthcheck volterra_healthcheck} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -990,8 +990,8 @@ export class Healthcheck extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_healthcheck',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

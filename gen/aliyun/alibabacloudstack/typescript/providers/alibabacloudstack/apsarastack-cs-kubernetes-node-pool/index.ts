@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,188 +8,188 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCsKubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#auto_renew ApsarastackCsKubernetesNodePool#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#auto_renew ApsarastackCsKubernetesNodePool#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#auto_renew_period ApsarastackCsKubernetesNodePool#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#auto_renew_period ApsarastackCsKubernetesNodePool#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#cluster_id ApsarastackCsKubernetesNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#cluster_id ApsarastackCsKubernetesNodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#format_disk ApsarastackCsKubernetesNodePool#format_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#format_disk ApsarastackCsKubernetesNodePool#format_disk}
   */
   readonly formatDisk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#id ApsarastackCsKubernetesNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#id ApsarastackCsKubernetesNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#image_id ApsarastackCsKubernetesNodePool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#image_id ApsarastackCsKubernetesNodePool#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#install_cloud_monitor ApsarastackCsKubernetesNodePool#install_cloud_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#install_cloud_monitor ApsarastackCsKubernetesNodePool#install_cloud_monitor}
   */
   readonly installCloudMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_charge_type ApsarastackCsKubernetesNodePool#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_charge_type ApsarastackCsKubernetesNodePool#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_types ApsarastackCsKubernetesNodePool#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_types ApsarastackCsKubernetesNodePool#instance_types}
   */
   readonly instanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#instances ApsarastackCsKubernetesNodePool#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#instances ApsarastackCsKubernetesNodePool#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#internet_charge_type ApsarastackCsKubernetesNodePool#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#internet_charge_type ApsarastackCsKubernetesNodePool#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#internet_max_bandwidth_out ApsarastackCsKubernetesNodePool#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#internet_max_bandwidth_out ApsarastackCsKubernetesNodePool#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#keep_instance_name ApsarastackCsKubernetesNodePool#keep_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#keep_instance_name ApsarastackCsKubernetesNodePool#keep_instance_name}
   */
   readonly keepInstanceName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#key_name ApsarastackCsKubernetesNodePool#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#key_name ApsarastackCsKubernetesNodePool#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#kms_encrypted_password ApsarastackCsKubernetesNodePool#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#kms_encrypted_password ApsarastackCsKubernetesNodePool#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#name ApsarastackCsKubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#name ApsarastackCsKubernetesNodePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#node_count ApsarastackCsKubernetesNodePool#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#node_count ApsarastackCsKubernetesNodePool#node_count}
   */
   readonly nodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#node_name_mode ApsarastackCsKubernetesNodePool#node_name_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#node_name_mode ApsarastackCsKubernetesNodePool#node_name_mode}
   */
   readonly nodeNameMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#password ApsarastackCsKubernetesNodePool#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#password ApsarastackCsKubernetesNodePool#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#period ApsarastackCsKubernetesNodePool#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#period ApsarastackCsKubernetesNodePool#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#period_unit ApsarastackCsKubernetesNodePool#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#period_unit ApsarastackCsKubernetesNodePool#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#platform ApsarastackCsKubernetesNodePool#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#platform ApsarastackCsKubernetesNodePool#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#resource_group_id ApsarastackCsKubernetesNodePool#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#resource_group_id ApsarastackCsKubernetesNodePool#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#scaling_policy ApsarastackCsKubernetesNodePool#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#scaling_policy ApsarastackCsKubernetesNodePool#scaling_policy}
   */
   readonly scalingPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#security_group_id ApsarastackCsKubernetesNodePool#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#security_group_id ApsarastackCsKubernetesNodePool#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#spot_strategy ApsarastackCsKubernetesNodePool#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#spot_strategy ApsarastackCsKubernetesNodePool#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_category ApsarastackCsKubernetesNodePool#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_category ApsarastackCsKubernetesNodePool#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_performance_level ApsarastackCsKubernetesNodePool#system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_performance_level ApsarastackCsKubernetesNodePool#system_disk_performance_level}
   */
   readonly systemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_size ApsarastackCsKubernetesNodePool#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#system_disk_size ApsarastackCsKubernetesNodePool#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#tags ApsarastackCsKubernetesNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#tags ApsarastackCsKubernetesNodePool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#unschedulable ApsarastackCsKubernetesNodePool#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#unschedulable ApsarastackCsKubernetesNodePool#unschedulable}
   */
   readonly unschedulable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#user_data ApsarastackCsKubernetesNodePool#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#user_data ApsarastackCsKubernetesNodePool#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#vswitch_ids ApsarastackCsKubernetesNodePool#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#vswitch_ids ApsarastackCsKubernetesNodePool#vswitch_ids}
   */
   readonly vswitchIds: string[];
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#data_disks ApsarastackCsKubernetesNodePool#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#data_disks ApsarastackCsKubernetesNodePool#data_disks}
   */
   readonly dataDisks?: ApsarastackCsKubernetesNodePoolDataDisks[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#labels ApsarastackCsKubernetesNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#labels ApsarastackCsKubernetesNodePool#labels}
   */
   readonly labels?: ApsarastackCsKubernetesNodePoolLabels[] | cdktf.IResolvable;
   /**
   * scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#scaling_config ApsarastackCsKubernetesNodePool#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#scaling_config ApsarastackCsKubernetesNodePool#scaling_config}
   */
   readonly scalingConfig?: ApsarastackCsKubernetesNodePoolScalingConfig;
   /**
   * spot_price_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#spot_price_limit ApsarastackCsKubernetesNodePool#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#spot_price_limit ApsarastackCsKubernetesNodePool#spot_price_limit}
   */
   readonly spotPriceLimit?: ApsarastackCsKubernetesNodePoolSpotPriceLimit[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#taints ApsarastackCsKubernetesNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#taints ApsarastackCsKubernetesNodePool#taints}
   */
   readonly taints?: ApsarastackCsKubernetesNodePoolTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#timeouts ApsarastackCsKubernetesNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#timeouts ApsarastackCsKubernetesNodePool#timeouts}
   */
   readonly timeouts?: ApsarastackCsKubernetesNodePoolTimeouts;
 }
 export interface ApsarastackCsKubernetesNodePoolDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#category ApsarastackCsKubernetesNodePool#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#category ApsarastackCsKubernetesNodePool#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#encrypted ApsarastackCsKubernetesNodePool#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#encrypted ApsarastackCsKubernetesNodePool#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#size ApsarastackCsKubernetesNodePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#size ApsarastackCsKubernetesNodePool#size}
   */
   readonly size?: number;
 }
@@ -363,11 +363,11 @@ export class ApsarastackCsKubernetesNodePoolDataDisksList extends cdktf.ComplexL
 }
 export interface ApsarastackCsKubernetesNodePoolLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#key ApsarastackCsKubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#key ApsarastackCsKubernetesNodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#value ApsarastackCsKubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#value ApsarastackCsKubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -509,27 +509,27 @@ export class ApsarastackCsKubernetesNodePoolLabelsList extends cdktf.ComplexList
 }
 export interface ApsarastackCsKubernetesNodePoolScalingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#eip_bandwidth ApsarastackCsKubernetesNodePool#eip_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#eip_bandwidth ApsarastackCsKubernetesNodePool#eip_bandwidth}
   */
   readonly eipBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#eip_internet_charge_type ApsarastackCsKubernetesNodePool#eip_internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#eip_internet_charge_type ApsarastackCsKubernetesNodePool#eip_internet_charge_type}
   */
   readonly eipInternetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#is_bond_eip ApsarastackCsKubernetesNodePool#is_bond_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#is_bond_eip ApsarastackCsKubernetesNodePool#is_bond_eip}
   */
   readonly isBondEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#max_size ApsarastackCsKubernetesNodePool#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#max_size ApsarastackCsKubernetesNodePool#max_size}
   */
   readonly maxSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#min_size ApsarastackCsKubernetesNodePool#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#min_size ApsarastackCsKubernetesNodePool#min_size}
   */
   readonly minSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#type ApsarastackCsKubernetesNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#type ApsarastackCsKubernetesNodePool#type}
   */
   readonly type?: string;
 }
@@ -752,11 +752,11 @@ export class ApsarastackCsKubernetesNodePoolScalingConfigOutputReference extends
 }
 export interface ApsarastackCsKubernetesNodePoolSpotPriceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_type ApsarastackCsKubernetesNodePool#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#instance_type ApsarastackCsKubernetesNodePool#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#price_limit ApsarastackCsKubernetesNodePool#price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#price_limit ApsarastackCsKubernetesNodePool#price_limit}
   */
   readonly priceLimit?: string;
 }
@@ -901,15 +901,15 @@ export class ApsarastackCsKubernetesNodePoolSpotPriceLimitList extends cdktf.Com
 }
 export interface ApsarastackCsKubernetesNodePoolTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#effect ApsarastackCsKubernetesNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#effect ApsarastackCsKubernetesNodePool#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#key ApsarastackCsKubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#key ApsarastackCsKubernetesNodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#value ApsarastackCsKubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#value ApsarastackCsKubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -1080,15 +1080,15 @@ export class ApsarastackCsKubernetesNodePoolTaintsList extends cdktf.ComplexList
 }
 export interface ApsarastackCsKubernetesNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#create ApsarastackCsKubernetesNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#create ApsarastackCsKubernetesNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#delete ApsarastackCsKubernetesNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#delete ApsarastackCsKubernetesNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#update ApsarastackCsKubernetesNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#update ApsarastackCsKubernetesNodePool#update}
   */
   readonly update?: string;
 }
@@ -1240,7 +1240,7 @@ export class ApsarastackCsKubernetesNodePoolTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool apsarastack_cs_kubernetes_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool apsarastack_cs_kubernetes_node_pool}
 */
 export class ApsarastackCsKubernetesNodePool extends cdktf.TerraformResource {
 
@@ -1256,7 +1256,7 @@ export class ApsarastackCsKubernetesNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackCsKubernetesNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCsKubernetesNodePool to import
-  * @param importFromId The id of the existing ApsarastackCsKubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCsKubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCsKubernetesNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1268,7 +1268,7 @@ export class ApsarastackCsKubernetesNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cs_kubernetes_node_pool apsarastack_cs_kubernetes_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cs_kubernetes_node_pool apsarastack_cs_kubernetes_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1279,8 +1279,8 @@ export class ApsarastackCsKubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_cs_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

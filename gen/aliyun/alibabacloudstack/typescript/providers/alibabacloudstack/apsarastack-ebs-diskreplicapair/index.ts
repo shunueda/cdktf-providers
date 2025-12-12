@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackEbsDiskreplicapairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#description ApsarastackEbsDiskreplicapair#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#description ApsarastackEbsDiskreplicapair#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#destination_disk_id ApsarastackEbsDiskreplicapair#destination_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#destination_disk_id ApsarastackEbsDiskreplicapair#destination_disk_id}
   */
   readonly destinationDiskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#destination_region_id ApsarastackEbsDiskreplicapair#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#destination_region_id ApsarastackEbsDiskreplicapair#destination_region_id}
   */
   readonly destinationRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#destination_zone_id ApsarastackEbsDiskreplicapair#destination_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#destination_zone_id ApsarastackEbsDiskreplicapair#destination_zone_id}
   */
   readonly destinationZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#disk_replica_pair_name ApsarastackEbsDiskreplicapair#disk_replica_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#disk_replica_pair_name ApsarastackEbsDiskreplicapair#disk_replica_pair_name}
   */
   readonly diskReplicaPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#id ApsarastackEbsDiskreplicapair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#id ApsarastackEbsDiskreplicapair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#last_recover_point ApsarastackEbsDiskreplicapair#last_recover_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#last_recover_point ApsarastackEbsDiskreplicapair#last_recover_point}
   */
   readonly lastRecoverPoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#one_shot ApsarastackEbsDiskreplicapair#one_shot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#one_shot ApsarastackEbsDiskreplicapair#one_shot}
   */
   readonly oneShot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#replica_group_id ApsarastackEbsDiskreplicapair#replica_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#replica_group_id ApsarastackEbsDiskreplicapair#replica_group_id}
   */
   readonly replicaGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#rpo ApsarastackEbsDiskreplicapair#rpo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#rpo ApsarastackEbsDiskreplicapair#rpo}
   */
   readonly rpo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#source_disk_id ApsarastackEbsDiskreplicapair#source_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#source_disk_id ApsarastackEbsDiskreplicapair#source_disk_id}
   */
   readonly sourceDiskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#source_region_id ApsarastackEbsDiskreplicapair#source_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#source_region_id ApsarastackEbsDiskreplicapair#source_region_id}
   */
   readonly sourceRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#source_zone_id ApsarastackEbsDiskreplicapair#source_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#source_zone_id ApsarastackEbsDiskreplicapair#source_zone_id}
   */
   readonly sourceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#status ApsarastackEbsDiskreplicapair#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#status ApsarastackEbsDiskreplicapair#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair apsarastack_ebs_diskreplicapair}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair apsarastack_ebs_diskreplicapair}
 */
 export class ApsarastackEbsDiskreplicapair extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class ApsarastackEbsDiskreplicapair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackEbsDiskreplicapair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackEbsDiskreplicapair to import
-  * @param importFromId The id of the existing ApsarastackEbsDiskreplicapair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackEbsDiskreplicapair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackEbsDiskreplicapair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class ApsarastackEbsDiskreplicapair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_ebs_diskreplicapair apsarastack_ebs_diskreplicapair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_ebs_diskreplicapair apsarastack_ebs_diskreplicapair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class ApsarastackEbsDiskreplicapair extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_ebs_diskreplicapair',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

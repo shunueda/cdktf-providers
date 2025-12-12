@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,136 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorAlertV2GroupOutlierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#algorithm MonitorAlertV2GroupOutlier#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#algorithm MonitorAlertV2GroupOutlier#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#dbscan_tolerance MonitorAlertV2GroupOutlier#dbscan_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#dbscan_tolerance MonitorAlertV2GroupOutlier#dbscan_tolerance}
   */
   readonly dbscanTolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#description MonitorAlertV2GroupOutlier#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#description MonitorAlertV2GroupOutlier#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#enabled MonitorAlertV2GroupOutlier#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#enabled MonitorAlertV2GroupOutlier#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#group MonitorAlertV2GroupOutlier#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#group MonitorAlertV2GroupOutlier#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#group_aggregation MonitorAlertV2GroupOutlier#group_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#group_aggregation MonitorAlertV2GroupOutlier#group_aggregation}
   */
   readonly groupAggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#group_by MonitorAlertV2GroupOutlier#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#group_by MonitorAlertV2GroupOutlier#group_by}
   */
   readonly groupBy: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#labels MonitorAlertV2GroupOutlier#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#labels MonitorAlertV2GroupOutlier#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#mad_threshold MonitorAlertV2GroupOutlier#mad_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#mad_threshold MonitorAlertV2GroupOutlier#mad_threshold}
   */
   readonly madThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#mad_tolerance MonitorAlertV2GroupOutlier#mad_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#mad_tolerance MonitorAlertV2GroupOutlier#mad_tolerance}
   */
   readonly madTolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#metric MonitorAlertV2GroupOutlier#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#metric MonitorAlertV2GroupOutlier#metric}
   */
   readonly metric: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#name MonitorAlertV2GroupOutlier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#name MonitorAlertV2GroupOutlier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#no_data_behaviour MonitorAlertV2GroupOutlier#no_data_behaviour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#no_data_behaviour MonitorAlertV2GroupOutlier#no_data_behaviour}
   */
   readonly noDataBehaviour?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#observation_window_minutes MonitorAlertV2GroupOutlier#observation_window_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#observation_window_minutes MonitorAlertV2GroupOutlier#observation_window_minutes}
   */
   readonly observationWindowMinutes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#severity MonitorAlertV2GroupOutlier#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#severity MonitorAlertV2GroupOutlier#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#time_aggregation MonitorAlertV2GroupOutlier#time_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#time_aggregation MonitorAlertV2GroupOutlier#time_aggregation}
   */
   readonly timeAggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#unreported_alert_notifications_retention_seconds MonitorAlertV2GroupOutlier#unreported_alert_notifications_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#unreported_alert_notifications_retention_seconds MonitorAlertV2GroupOutlier#unreported_alert_notifications_retention_seconds}
   */
   readonly unreportedAlertNotificationsRetentionSeconds?: number;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#capture MonitorAlertV2GroupOutlier#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#capture MonitorAlertV2GroupOutlier#capture}
   */
   readonly capture?: MonitorAlertV2GroupOutlierCapture;
   /**
   * custom_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#custom_notification MonitorAlertV2GroupOutlier#custom_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#custom_notification MonitorAlertV2GroupOutlier#custom_notification}
   */
   readonly customNotification?: MonitorAlertV2GroupOutlierCustomNotification;
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#link MonitorAlertV2GroupOutlier#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#link MonitorAlertV2GroupOutlier#link}
   */
   readonly link?: MonitorAlertV2GroupOutlierLink[] | cdktf.IResolvable;
   /**
   * notification_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#notification_channels MonitorAlertV2GroupOutlier#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#notification_channels MonitorAlertV2GroupOutlier#notification_channels}
   */
   readonly notificationChannels?: MonitorAlertV2GroupOutlierNotificationChannels[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#scope MonitorAlertV2GroupOutlier#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#scope MonitorAlertV2GroupOutlier#scope}
   */
   readonly scope?: MonitorAlertV2GroupOutlierScope[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#timeouts MonitorAlertV2GroupOutlier#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#timeouts MonitorAlertV2GroupOutlier#timeouts}
   */
   readonly timeouts?: MonitorAlertV2GroupOutlierTimeouts;
 }
 export interface MonitorAlertV2GroupOutlierCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#duration_seconds MonitorAlertV2GroupOutlier#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#duration_seconds MonitorAlertV2GroupOutlier#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#enabled MonitorAlertV2GroupOutlier#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#enabled MonitorAlertV2GroupOutlier#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#filename MonitorAlertV2GroupOutlier#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#filename MonitorAlertV2GroupOutlier#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#filter MonitorAlertV2GroupOutlier#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#filter MonitorAlertV2GroupOutlier#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#storage MonitorAlertV2GroupOutlier#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#storage MonitorAlertV2GroupOutlier#storage}
   */
   readonly storage?: string;
 }
@@ -334,11 +334,11 @@ export class MonitorAlertV2GroupOutlierCaptureOutputReference extends cdktf.Comp
 }
 export interface MonitorAlertV2GroupOutlierCustomNotificationAdditionalField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#name MonitorAlertV2GroupOutlier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#name MonitorAlertV2GroupOutlier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#value MonitorAlertV2GroupOutlier#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#value MonitorAlertV2GroupOutlier#value}
   */
   readonly value: string;
 }
@@ -477,21 +477,21 @@ export class MonitorAlertV2GroupOutlierCustomNotificationAdditionalFieldList ext
 }
 export interface MonitorAlertV2GroupOutlierCustomNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#append MonitorAlertV2GroupOutlier#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#append MonitorAlertV2GroupOutlier#append}
   */
   readonly append?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#prepend MonitorAlertV2GroupOutlier#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#prepend MonitorAlertV2GroupOutlier#prepend}
   */
   readonly prepend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#subject MonitorAlertV2GroupOutlier#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#subject MonitorAlertV2GroupOutlier#subject}
   */
   readonly subject?: string;
   /**
   * additional_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#additional_field MonitorAlertV2GroupOutlier#additional_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#additional_field MonitorAlertV2GroupOutlier#additional_field}
   */
   readonly additionalField?: MonitorAlertV2GroupOutlierCustomNotificationAdditionalField[] | cdktf.IResolvable;
 }
@@ -662,18 +662,18 @@ export class MonitorAlertV2GroupOutlierCustomNotificationOutputReference extends
 }
 export interface MonitorAlertV2GroupOutlierLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#href MonitorAlertV2GroupOutlier#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#href MonitorAlertV2GroupOutlier#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#type MonitorAlertV2GroupOutlier#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#type MonitorAlertV2GroupOutlier#type}
   */
   readonly type: string;
 }
@@ -844,26 +844,26 @@ export class MonitorAlertV2GroupOutlierLinkList extends cdktf.ComplexList {
 }
 export interface MonitorAlertV2GroupOutlierNotificationChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#id MonitorAlertV2GroupOutlier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#main_threshold MonitorAlertV2GroupOutlier#main_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#main_threshold MonitorAlertV2GroupOutlier#main_threshold}
   */
   readonly mainThreshold?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#notify_on_resolve MonitorAlertV2GroupOutlier#notify_on_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#notify_on_resolve MonitorAlertV2GroupOutlier#notify_on_resolve}
   */
   readonly notifyOnResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#renotify_every_minutes MonitorAlertV2GroupOutlier#renotify_every_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#renotify_every_minutes MonitorAlertV2GroupOutlier#renotify_every_minutes}
   */
   readonly renotifyEveryMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#warning_threshold MonitorAlertV2GroupOutlier#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#warning_threshold MonitorAlertV2GroupOutlier#warning_threshold}
   */
   readonly warningThreshold?: boolean | cdktf.IResolvable;
 }
@@ -1092,15 +1092,15 @@ export class MonitorAlertV2GroupOutlierNotificationChannelsList extends cdktf.Co
 }
 export interface MonitorAlertV2GroupOutlierScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#label MonitorAlertV2GroupOutlier#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#label MonitorAlertV2GroupOutlier#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#operator MonitorAlertV2GroupOutlier#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#operator MonitorAlertV2GroupOutlier#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#values MonitorAlertV2GroupOutlier#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#values MonitorAlertV2GroupOutlier#values}
   */
   readonly values: string[];
 }
@@ -1265,19 +1265,19 @@ export class MonitorAlertV2GroupOutlierScopeList extends cdktf.ComplexList {
 }
 export interface MonitorAlertV2GroupOutlierTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#create MonitorAlertV2GroupOutlier#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#create MonitorAlertV2GroupOutlier#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#delete MonitorAlertV2GroupOutlier#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#delete MonitorAlertV2GroupOutlier#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#read MonitorAlertV2GroupOutlier#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#read MonitorAlertV2GroupOutlier#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#update MonitorAlertV2GroupOutlier#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#update MonitorAlertV2GroupOutlier#update}
   */
   readonly update?: string;
 }
@@ -1458,7 +1458,7 @@ export class MonitorAlertV2GroupOutlierTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier sysdig_monitor_alert_v2_group_outlier}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier sysdig_monitor_alert_v2_group_outlier}
 */
 export class MonitorAlertV2GroupOutlier extends cdktf.TerraformResource {
 
@@ -1474,7 +1474,7 @@ export class MonitorAlertV2GroupOutlier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorAlertV2GroupOutlier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorAlertV2GroupOutlier to import
-  * @param importFromId The id of the existing MonitorAlertV2GroupOutlier that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorAlertV2GroupOutlier that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorAlertV2GroupOutlier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1486,7 +1486,7 @@ export class MonitorAlertV2GroupOutlier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_group_outlier sysdig_monitor_alert_v2_group_outlier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_group_outlier sysdig_monitor_alert_v2_group_outlier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1497,8 +1497,8 @@ export class MonitorAlertV2GroupOutlier extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_alert_v2_group_outlier',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

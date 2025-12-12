@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackRdsBackuppolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#archive_backup_keep_count ApsarastackRdsBackuppolicy#archive_backup_keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#archive_backup_keep_count ApsarastackRdsBackuppolicy#archive_backup_keep_count}
   */
   readonly archiveBackupKeepCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#archive_backup_keep_policy ApsarastackRdsBackuppolicy#archive_backup_keep_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#archive_backup_keep_policy ApsarastackRdsBackuppolicy#archive_backup_keep_policy}
   */
   readonly archiveBackupKeepPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#archive_backup_retention_period ApsarastackRdsBackuppolicy#archive_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#archive_backup_retention_period ApsarastackRdsBackuppolicy#archive_backup_retention_period}
   */
   readonly archiveBackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#backup_retention_period ApsarastackRdsBackuppolicy#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#backup_retention_period ApsarastackRdsBackuppolicy#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#compress_type ApsarastackRdsBackuppolicy#compress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#compress_type ApsarastackRdsBackuppolicy#compress_type}
   */
   readonly compressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#enable_backup_log ApsarastackRdsBackuppolicy#enable_backup_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#enable_backup_log ApsarastackRdsBackuppolicy#enable_backup_log}
   */
   readonly enableBackupLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#high_space_usage_protection ApsarastackRdsBackuppolicy#high_space_usage_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#high_space_usage_protection ApsarastackRdsBackuppolicy#high_space_usage_protection}
   */
   readonly highSpaceUsageProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#id ApsarastackRdsBackuppolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#id ApsarastackRdsBackuppolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#instance_id ApsarastackRdsBackuppolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#instance_id ApsarastackRdsBackuppolicy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#local_log_retention_hours ApsarastackRdsBackuppolicy#local_log_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#local_log_retention_hours ApsarastackRdsBackuppolicy#local_log_retention_hours}
   */
   readonly localLogRetentionHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#local_log_retention_space ApsarastackRdsBackuppolicy#local_log_retention_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#local_log_retention_space ApsarastackRdsBackuppolicy#local_log_retention_space}
   */
   readonly localLogRetentionSpace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#log_backup_frequency ApsarastackRdsBackuppolicy#log_backup_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#log_backup_frequency ApsarastackRdsBackuppolicy#log_backup_frequency}
   */
   readonly logBackupFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#log_backup_retention_period ApsarastackRdsBackuppolicy#log_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#log_backup_retention_period ApsarastackRdsBackuppolicy#log_backup_retention_period}
   */
   readonly logBackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#preferred_backup_period ApsarastackRdsBackuppolicy#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#preferred_backup_period ApsarastackRdsBackuppolicy#preferred_backup_period}
   */
   readonly preferredBackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#preferred_backup_time ApsarastackRdsBackuppolicy#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#preferred_backup_time ApsarastackRdsBackuppolicy#preferred_backup_time}
   */
   readonly preferredBackupTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy apsarastack_rds_backuppolicy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy apsarastack_rds_backuppolicy}
 */
 export class ApsarastackRdsBackuppolicy extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ApsarastackRdsBackuppolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackRdsBackuppolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackRdsBackuppolicy to import
-  * @param importFromId The id of the existing ApsarastackRdsBackuppolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackRdsBackuppolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackRdsBackuppolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ApsarastackRdsBackuppolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_rds_backuppolicy apsarastack_rds_backuppolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_rds_backuppolicy apsarastack_rds_backuppolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ApsarastackRdsBackuppolicy extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_rds_backuppolicy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

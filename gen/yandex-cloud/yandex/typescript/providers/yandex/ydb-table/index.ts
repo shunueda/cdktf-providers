@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface YdbTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of table attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#attributes YdbTable#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#attributes YdbTable#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Connection string for database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#connection_string YdbTable#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#connection_string YdbTable#connection_string}
   */
   readonly connectionString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#id YdbTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#id YdbTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface YdbTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use the Bloom filter for the primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#key_bloom_filter YdbTable#key_bloom_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#key_bloom_filter YdbTable#key_bloom_filter}
   */
   readonly keyBloomFilter?: boolean | cdktf.IResolvable;
   /**
   * Table path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#path YdbTable#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#path YdbTable#path}
   */
   readonly path: string;
   /**
   * A list of table columns to be used as primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#primary_key YdbTable#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#primary_key YdbTable#primary_key}
   */
   readonly primaryKey: string[];
   /**
   * Read replication settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#read_replicas_settings YdbTable#read_replicas_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#read_replicas_settings YdbTable#read_replicas_settings}
   */
   readonly readReplicasSettings?: string;
   /**
   * Table storage type. Set to `column` for column-oriented tables. Omit for row-oriented tables (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#store YdbTable#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#store YdbTable#store}
   */
   readonly store?: string;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#column YdbTable#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#column YdbTable#column}
   */
   readonly column: YdbTableColumn[] | cdktf.IResolvable;
   /**
   * family block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#family YdbTable#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#family YdbTable#family}
   */
   readonly family?: YdbTableFamily[] | cdktf.IResolvable;
   /**
   * partitioning_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#partitioning_settings YdbTable#partitioning_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#partitioning_settings YdbTable#partitioning_settings}
   */
   readonly partitioningSettings?: YdbTablePartitioningSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#timeouts YdbTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#timeouts YdbTable#timeouts}
   */
   readonly timeouts?: YdbTableTimeouts;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#ttl YdbTable#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#ttl YdbTable#ttl}
   */
   readonly ttl?: YdbTableTtl;
 }
@@ -91,25 +91,25 @@ export interface YdbTableColumn {
   /**
   * Column group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#family YdbTable#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#family YdbTable#family}
   */
   readonly family?: string;
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#name YdbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#name YdbTable#name}
   */
   readonly name: string;
   /**
   * A column cannot have the NULL data type. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#not_null YdbTable#not_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#not_null YdbTable#not_null}
   */
   readonly notNull?: boolean | cdktf.IResolvable;
   /**
   * Column data type. YQL data types are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#type YdbTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#type YdbTable#type}
   */
   readonly type: string;
 }
@@ -308,19 +308,19 @@ export interface YdbTableFamily {
   /**
   * Data codec (acceptable values: off, lz4).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#compression YdbTable#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#compression YdbTable#compression}
   */
   readonly compression: string;
   /**
   * Type of storage device for column data in this group (acceptable values: ssd, rot (from HDD spindle rotation)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#data YdbTable#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#data YdbTable#data}
   */
   readonly data: string;
   /**
   * Column family name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#name YdbTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#name YdbTable#name}
   */
   readonly name: string;
 }
@@ -485,7 +485,7 @@ export class YdbTableFamilyList extends cdktf.ComplexList {
 }
 export interface YdbTablePartitioningSettingsPartitionAtKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#keys YdbTable#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#keys YdbTable#keys}
   */
   readonly keys: string[];
 }
@@ -598,39 +598,39 @@ export class YdbTablePartitioningSettingsPartitionAtKeysList extends cdktf.Compl
 }
 export interface YdbTablePartitioningSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#auto_partitioning_by_load YdbTable#auto_partitioning_by_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#auto_partitioning_by_load YdbTable#auto_partitioning_by_load}
   */
   readonly autoPartitioningByLoad?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#auto_partitioning_by_size_enabled YdbTable#auto_partitioning_by_size_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#auto_partitioning_by_size_enabled YdbTable#auto_partitioning_by_size_enabled}
   */
   readonly autoPartitioningBySizeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#auto_partitioning_max_partitions_count YdbTable#auto_partitioning_max_partitions_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#auto_partitioning_max_partitions_count YdbTable#auto_partitioning_max_partitions_count}
   */
   readonly autoPartitioningMaxPartitionsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#auto_partitioning_min_partitions_count YdbTable#auto_partitioning_min_partitions_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#auto_partitioning_min_partitions_count YdbTable#auto_partitioning_min_partitions_count}
   */
   readonly autoPartitioningMinPartitionsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#auto_partitioning_partition_size_mb YdbTable#auto_partitioning_partition_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#auto_partitioning_partition_size_mb YdbTable#auto_partitioning_partition_size_mb}
   */
   readonly autoPartitioningPartitionSizeMb?: number;
   /**
   * Partitioning keys constitute a subset of the table's primary keys. If not set, primary keys will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#partition_by YdbTable#partition_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#partition_by YdbTable#partition_by}
   */
   readonly partitionBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#uniform_partitions YdbTable#uniform_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#uniform_partitions YdbTable#uniform_partitions}
   */
   readonly uniformPartitions?: number;
   /**
   * partition_at_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#partition_at_keys YdbTable#partition_at_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#partition_at_keys YdbTable#partition_at_keys}
   */
   readonly partitionAtKeys?: YdbTablePartitioningSettingsPartitionAtKeys[] | cdktf.IResolvable;
 }
@@ -917,23 +917,23 @@ export class YdbTablePartitioningSettingsOutputReference extends cdktf.ComplexOb
 }
 export interface YdbTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#create YdbTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#create YdbTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#default YdbTable#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#default YdbTable#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#delete YdbTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#delete YdbTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#read YdbTable#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#read YdbTable#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#update YdbTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#update YdbTable#update}
   */
   readonly update?: string;
 }
@@ -1145,17 +1145,17 @@ export interface YdbTableTtl {
   /**
   * Column name for TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#column_name YdbTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#column_name YdbTable#column_name}
   */
   readonly columnName: string;
   /**
   * Interval in the ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#expire_interval YdbTable#expire_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#expire_interval YdbTable#expire_interval}
   */
   readonly expireInterval: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#unit YdbTable#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#unit YdbTable#unit}
   */
   readonly unit?: string;
 }
@@ -1291,7 +1291,7 @@ export class YdbTableTtlOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table yandex_ydb_table}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table yandex_ydb_table}
 */
 export class YdbTable extends cdktf.TerraformResource {
 
@@ -1307,7 +1307,7 @@ export class YdbTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbTable to import
-  * @param importFromId The id of the existing YdbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1319,7 +1319,7 @@ export class YdbTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_table yandex_ydb_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/ydb_table yandex_ydb_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1330,8 +1330,8 @@ export class YdbTable extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_table',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

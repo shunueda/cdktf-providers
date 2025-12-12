@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface BotInfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#annotations BotInfrastructure#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#annotations BotInfrastructure#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#description BotInfrastructure#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#description BotInfrastructure#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#disable BotInfrastructure#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#disable BotInfrastructure#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#id BotInfrastructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#id BotInfrastructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#labels BotInfrastructure#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#labels BotInfrastructure#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#name BotInfrastructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#name BotInfrastructure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#namespace BotInfrastructure#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#namespace BotInfrastructure#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#traffic_type BotInfrastructure#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#traffic_type BotInfrastructure#traffic_type}
   */
   readonly trafficType?: string;
   /**
   * create_cloud_hosted block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#create_cloud_hosted BotInfrastructure#create_cloud_hosted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#create_cloud_hosted BotInfrastructure#create_cloud_hosted}
   */
   readonly createCloudHosted?: BotInfrastructureCreateCloudHosted;
 }
 export interface BotInfrastructureCreateCloudHostedProduction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#region_1 BotInfrastructure#region_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#region_1 BotInfrastructure#region_1}
   */
   readonly region1: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#region_2 BotInfrastructure#region_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#region_2 BotInfrastructure#region_2}
   */
   readonly region2: string;
 }
@@ -162,7 +162,7 @@ export class BotInfrastructureCreateCloudHostedProductionOutputReference extends
 }
 export interface BotInfrastructureCreateCloudHostedTesting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#region_1 BotInfrastructure#region_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#region_1 BotInfrastructure#region_1}
   */
   readonly region1: string;
 }
@@ -243,19 +243,19 @@ export class BotInfrastructureCreateCloudHostedTestingOutputReference extends cd
 }
 export interface BotInfrastructureCreateCloudHosted {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#ip_addresses BotInfrastructure#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#ip_addresses BotInfrastructure#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * production block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#production BotInfrastructure#production}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#production BotInfrastructure#production}
   */
   readonly production: BotInfrastructureCreateCloudHostedProduction;
   /**
   * testing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#testing BotInfrastructure#testing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#testing BotInfrastructure#testing}
   */
   readonly testing: BotInfrastructureCreateCloudHostedTesting;
 }
@@ -391,7 +391,7 @@ export class BotInfrastructureCreateCloudHostedOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure volterra_bot_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure volterra_bot_infrastructure}
 */
 export class BotInfrastructure extends cdktf.TerraformResource {
 
@@ -407,7 +407,7 @@ export class BotInfrastructure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BotInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BotInfrastructure to import
-  * @param importFromId The id of the existing BotInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BotInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BotInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -419,7 +419,7 @@ export class BotInfrastructure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bot_infrastructure volterra_bot_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/bot_infrastructure volterra_bot_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -430,8 +430,8 @@ export class BotInfrastructure extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_bot_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

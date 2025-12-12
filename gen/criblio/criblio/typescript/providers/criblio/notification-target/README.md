@@ -1,3 +1,3 @@
 # `criblio_notification_target`
 
-Refer to the Terraform Registry for docs: [`criblio_notification_target`](https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/notification_target).
+Refer to the Terraform Registry for docs: [`criblio_notification_target`](https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/notification_target).

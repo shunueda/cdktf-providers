@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#annotations NetworkInterface#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#annotations NetworkInterface#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#description NetworkInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#description NetworkInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#disable NetworkInterface#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#disable NetworkInterface#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#id NetworkInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#id NetworkInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#labels NetworkInterface#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#labels NetworkInterface#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace: string;
   /**
   * dedicated_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dedicated_interface NetworkInterface#dedicated_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dedicated_interface NetworkInterface#dedicated_interface}
   */
   readonly dedicatedInterface?: NetworkInterfaceDedicatedInterface[] | cdktf.IResolvable;
   /**
   * dedicated_management_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dedicated_management_interface NetworkInterface#dedicated_management_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dedicated_management_interface NetworkInterface#dedicated_management_interface}
   */
   readonly dedicatedManagementInterface?: NetworkInterfaceDedicatedManagementInterface[] | cdktf.IResolvable;
   /**
   * ethernet_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#ethernet_interface NetworkInterface#ethernet_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#ethernet_interface NetworkInterface#ethernet_interface}
   */
   readonly ethernetInterface?: NetworkInterfaceEthernetInterface[] | cdktf.IResolvable;
   /**
   * legacy_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#legacy_interface NetworkInterface#legacy_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#legacy_interface NetworkInterface#legacy_interface}
   */
   readonly legacyInterface?: NetworkInterfaceLegacyInterface[] | cdktf.IResolvable;
   /**
   * tunnel_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tunnel_interface NetworkInterface#tunnel_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tunnel_interface NetworkInterface#tunnel_interface}
   */
   readonly tunnelInterface?: NetworkInterfaceTunnelInterface[] | cdktf.IResolvable;
 }
@@ -152,41 +152,41 @@ export class NetworkInterfaceDedicatedInterfaceMonitorList extends cdktf.Complex
 }
 export interface NetworkInterfaceDedicatedInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster NetworkInterface#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster NetworkInterface#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#device NetworkInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#device NetworkInterface#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#is_primary NetworkInterface#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#is_primary NetworkInterface#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#mtu NetworkInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#mtu NetworkInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node NetworkInterface#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node NetworkInterface#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#not_primary NetworkInterface#not_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#not_primary NetworkInterface#not_primary}
   */
   readonly notPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#priority NetworkInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#priority NetworkInterface#priority}
   */
   readonly priority?: number;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor NetworkInterface#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor NetworkInterface#monitor}
   */
   readonly monitor?: NetworkInterfaceDedicatedInterfaceMonitor[] | cdktf.IResolvable;
 }
@@ -534,19 +534,19 @@ export class NetworkInterfaceDedicatedInterfaceList extends cdktf.ComplexList {
 }
 export interface NetworkInterfaceDedicatedManagementInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster NetworkInterface#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster NetworkInterface#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#device NetworkInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#device NetworkInterface#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#mtu NetworkInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#mtu NetworkInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node NetworkInterface#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node NetworkInterface#node}
   */
   readonly nodeAttribute?: string;
 }
@@ -749,15 +749,15 @@ export class NetworkInterfaceDedicatedManagementInterfaceList extends cdktf.Comp
 }
 export interface NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -931,15 +931,15 @@ export class NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksNetworkPrefi
 }
 export interface NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#end_ip NetworkInterface#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#end_ip NetworkInterface#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#exclude NetworkInterface#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#exclude NetworkInterface#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#start_ip NetworkInterface#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#start_ip NetworkInterface#start_ip}
   */
   readonly startIp?: string;
 }
@@ -1113,43 +1113,43 @@ export class NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksPoolsList ex
 }
 export interface NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dgw_address NetworkInterface#dgw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dgw_address NetworkInterface#dgw_address}
   */
   readonly dgwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_address NetworkInterface#dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_address NetworkInterface#dns_address}
   */
   readonly dnsAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#first_address NetworkInterface#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#first_address NetworkInterface#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#last_address NetworkInterface#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#last_address NetworkInterface#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#network_prefix NetworkInterface#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#network_prefix NetworkInterface#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#pool_settings NetworkInterface#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#pool_settings NetworkInterface#pool_settings}
   */
   readonly poolSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#same_as_dgw NetworkInterface#same_as_dgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#same_as_dgw NetworkInterface#same_as_dgw}
   */
   readonly sameAsDgw?: boolean | cdktf.IResolvable;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator[] | cdktf.IResolvable;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#pools NetworkInterface#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#pools NetworkInterface#pools}
   */
   readonly pools?: NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -1497,7 +1497,7 @@ export class NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworksList extends
 }
 export interface NetworkInterfaceEthernetInterfaceDhcpServerInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -1613,31 +1613,31 @@ export class NetworkInterfaceEthernetInterfaceDhcpServerInterfaceIpMapList exten
 }
 export interface NetworkInterfaceEthernetInterfaceDhcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#automatic_from_end NetworkInterface#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#automatic_from_end NetworkInterface#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#automatic_from_start NetworkInterface#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#automatic_from_start NetworkInterface#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_option82_tag NetworkInterface#dhcp_option82_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_option82_tag NetworkInterface#dhcp_option82_tag}
   */
   readonly dhcpOption82Tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#fixed_ip_map NetworkInterface#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#fixed_ip_map NetworkInterface#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_networks NetworkInterface#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_networks NetworkInterface#dhcp_networks}
   */
   readonly dhcpNetworks?: NetworkInterfaceEthernetInterfaceDhcpServerDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
   */
   readonly interfaceIpMap?: NetworkInterfaceEthernetInterfaceDhcpServerInterfaceIpMap[] | cdktf.IResolvable;
 }
@@ -1898,15 +1898,15 @@ export class NetworkInterfaceEthernetInterfaceDhcpServerList extends cdktf.Compl
 }
 export interface NetworkInterfaceEthernetInterfaceInsideNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -2161,15 +2161,15 @@ export class NetworkInterfaceEthernetInterfaceMonitorList extends cdktf.ComplexL
 }
 export interface NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -2343,13 +2343,13 @@ export class NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpInterfaceIp
 }
 export interface NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#value NetworkInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#value NetworkInterface#value}
   */
   readonly value: NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMapValue[] | cdktf.IResolvable;
 }
@@ -2490,7 +2490,7 @@ export interface NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIp {
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
   */
   readonly interfaceIpMap?: NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMap[] | cdktf.IResolvable;
 }
@@ -2606,15 +2606,15 @@ export class NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIpList extend
 }
 export interface NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -2788,17 +2788,17 @@ export class NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIpNetworkPrefix
 }
 export interface NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator[] | cdktf.IResolvable;
 }
@@ -2972,15 +2972,15 @@ export class NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIpList extends 
 }
 export interface NetworkInterfaceEthernetInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -3156,19 +3156,19 @@ export interface NetworkInterfaceEthernetInterfaceStaticIp {
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster_static_ip NetworkInterface#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster_static_ip NetworkInterface#cluster_static_ip}
   */
   readonly clusterStaticIp?: NetworkInterfaceEthernetInterfaceStaticIpClusterStaticIp[] | cdktf.IResolvable;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#fleet_static_ip NetworkInterface#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#fleet_static_ip NetworkInterface#fleet_static_ip}
   */
   readonly fleetStaticIp?: NetworkInterfaceEthernetInterfaceStaticIpFleetStaticIp[] | cdktf.IResolvable;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node_static_ip NetworkInterface#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node_static_ip NetworkInterface#node_static_ip}
   */
   readonly nodeStaticIp?: NetworkInterfaceEthernetInterfaceStaticIpNodeStaticIp[] | cdktf.IResolvable;
 }
@@ -3342,83 +3342,83 @@ export class NetworkInterfaceEthernetInterfaceStaticIpList extends cdktf.Complex
 }
 export interface NetworkInterfaceEthernetInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster NetworkInterface#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster NetworkInterface#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#device NetworkInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#device NetworkInterface#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_client NetworkInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_client NetworkInterface#dhcp_client}
   */
   readonly dhcpClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#is_primary NetworkInterface#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#is_primary NetworkInterface#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#mtu NetworkInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#mtu NetworkInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node NetworkInterface#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node NetworkInterface#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#not_primary NetworkInterface#not_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#not_primary NetworkInterface#not_primary}
   */
   readonly notPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#priority NetworkInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#priority NetworkInterface#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#site_local_inside_network NetworkInterface#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#site_local_inside_network NetworkInterface#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#site_local_network NetworkInterface#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#site_local_network NetworkInterface#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#storage_network NetworkInterface#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#storage_network NetworkInterface#storage_network}
   */
   readonly storageNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#untagged NetworkInterface#untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#untagged NetworkInterface#untagged}
   */
   readonly untagged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#vlan_id NetworkInterface#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#vlan_id NetworkInterface#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * dhcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_server NetworkInterface#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_server NetworkInterface#dhcp_server}
   */
   readonly dhcpServer?: NetworkInterfaceEthernetInterfaceDhcpServer[] | cdktf.IResolvable;
   /**
   * inside_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#inside_network NetworkInterface#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#inside_network NetworkInterface#inside_network}
   */
   readonly insideNetwork?: NetworkInterfaceEthernetInterfaceInsideNetwork[] | cdktf.IResolvable;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor NetworkInterface#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor NetworkInterface#monitor}
   */
   readonly monitor?: NetworkInterfaceEthernetInterfaceMonitor[] | cdktf.IResolvable;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#static_ip NetworkInterface#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#static_ip NetworkInterface#static_ip}
   */
   readonly staticIp?: NetworkInterfaceEthernetInterfaceStaticIp[] | cdktf.IResolvable;
 }
@@ -4027,15 +4027,15 @@ export class NetworkInterfaceEthernetInterfaceList extends cdktf.ComplexList {
 }
 export interface NetworkInterfaceLegacyInterfaceAddressAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -4214,7 +4214,7 @@ export class NetworkInterfaceLegacyInterfaceAddressAllocatorList extends cdktf.C
 }
 export interface NetworkInterfaceLegacyInterfaceDefaultGatewayDefaultGatewayAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#addr NetworkInterface#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#addr NetworkInterface#addr}
   */
   readonly addr?: string;
 }
@@ -4330,13 +4330,13 @@ export class NetworkInterfaceLegacyInterfaceDefaultGatewayDefaultGatewayAddressL
 }
 export interface NetworkInterfaceLegacyInterfaceDefaultGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gateway_mode NetworkInterface#default_gateway_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gateway_mode NetworkInterface#default_gateway_mode}
   */
   readonly defaultGatewayMode?: string;
   /**
   * default_gateway_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gateway_address NetworkInterface#default_gateway_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gateway_address NetworkInterface#default_gateway_address}
   */
   readonly defaultGatewayAddress?: NetworkInterfaceLegacyInterfaceDefaultGatewayDefaultGatewayAddress[] | cdktf.IResolvable;
 }
@@ -4481,7 +4481,7 @@ export class NetworkInterfaceLegacyInterfaceDefaultGatewayList extends cdktf.Com
 }
 export interface NetworkInterfaceLegacyInterfaceDnsServerDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#addr NetworkInterface#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#addr NetworkInterface#addr}
   */
   readonly addr?: string;
 }
@@ -4597,13 +4597,13 @@ export class NetworkInterfaceLegacyInterfaceDnsServerDnsServerList extends cdktf
 }
 export interface NetworkInterfaceLegacyInterfaceDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_mode NetworkInterface#dns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_mode NetworkInterface#dns_mode}
   */
   readonly dnsMode?: string;
   /**
   * dns_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: NetworkInterfaceLegacyInterfaceDnsServerDnsServer[] | cdktf.IResolvable;
 }
@@ -4829,11 +4829,11 @@ export class NetworkInterfaceLegacyInterfaceMonitorList extends cdktf.ComplexLis
 }
 export interface NetworkInterfaceLegacyInterfaceStaticAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#plen NetworkInterface#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#plen NetworkInterface#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#prefix NetworkInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#prefix NetworkInterface#prefix}
   */
   readonly prefix?: string;
 }
@@ -4978,15 +4978,15 @@ export class NetworkInterfaceLegacyInterfaceStaticAddressesList extends cdktf.Co
 }
 export interface NetworkInterfaceLegacyInterfaceTunnelTunnel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -5167,7 +5167,7 @@ export interface NetworkInterfaceLegacyInterfaceTunnel {
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
   */
   readonly tunnel?: NetworkInterfaceLegacyInterfaceTunnelTunnel[] | cdktf.IResolvable;
 }
@@ -5283,15 +5283,15 @@ export class NetworkInterfaceLegacyInterfaceTunnelList extends cdktf.ComplexList
 }
 export interface NetworkInterfaceLegacyInterfaceVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -5470,81 +5470,81 @@ export class NetworkInterfaceLegacyInterfaceVirtualNetworkList extends cdktf.Com
 }
 export interface NetworkInterfaceLegacyInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#device_name NetworkInterface#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#device_name NetworkInterface#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_address NetworkInterface#dhcp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_address NetworkInterface#dhcp_address}
   */
   readonly dhcpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dhcp_server NetworkInterface#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dhcp_server NetworkInterface#dhcp_server}
   */
   readonly dhcpServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor_disabled NetworkInterface#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#mtu NetworkInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#mtu NetworkInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#priority NetworkInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#priority NetworkInterface#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#type NetworkInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#type NetworkInterface#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#vlan_tag NetworkInterface#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#vlan_tag NetworkInterface#vlan_tag}
   */
   readonly vlanTag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#vlan_tagging NetworkInterface#vlan_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#vlan_tagging NetworkInterface#vlan_tagging}
   */
   readonly vlanTagging?: string;
   /**
   * address_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#address_allocator NetworkInterface#address_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#address_allocator NetworkInterface#address_allocator}
   */
   readonly addressAllocator?: NetworkInterfaceLegacyInterfaceAddressAllocator[] | cdktf.IResolvable;
   /**
   * default_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gateway NetworkInterface#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gateway NetworkInterface#default_gateway}
   */
   readonly defaultGateway?: NetworkInterfaceLegacyInterfaceDefaultGateway[] | cdktf.IResolvable;
   /**
   * dns_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: NetworkInterfaceLegacyInterfaceDnsServer[] | cdktf.IResolvable;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#monitor NetworkInterface#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#monitor NetworkInterface#monitor}
   */
   readonly monitor?: NetworkInterfaceLegacyInterfaceMonitor[] | cdktf.IResolvable;
   /**
   * static_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#static_addresses NetworkInterface#static_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#static_addresses NetworkInterface#static_addresses}
   */
   readonly staticAddresses?: NetworkInterfaceLegacyInterfaceStaticAddresses[] | cdktf.IResolvable;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
   */
   readonly tunnel?: NetworkInterfaceLegacyInterfaceTunnel[] | cdktf.IResolvable;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#virtual_network NetworkInterface#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#virtual_network NetworkInterface#virtual_network}
   */
   readonly virtualNetwork?: NetworkInterfaceLegacyInterfaceVirtualNetwork[] | cdktf.IResolvable;
 }
@@ -6095,15 +6095,15 @@ export class NetworkInterfaceLegacyInterfaceList extends cdktf.ComplexList {
 }
 export interface NetworkInterfaceTunnelInterfaceInsideNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -6277,15 +6277,15 @@ export class NetworkInterfaceTunnelInterfaceInsideNetworkList extends cdktf.Comp
 }
 export interface NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -6459,13 +6459,13 @@ export class NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMa
 }
 export interface NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#value NetworkInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#value NetworkInterface#value}
   */
   readonly value: NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMapValue[] | cdktf.IResolvable;
 }
@@ -6606,7 +6606,7 @@ export interface NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIp {
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#interface_ip_map NetworkInterface#interface_ip_map}
   */
   readonly interfaceIpMap?: NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMap[] | cdktf.IResolvable;
 }
@@ -6722,15 +6722,15 @@ export class NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIpList extends 
 }
 export interface NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -6904,17 +6904,17 @@ export class NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIpNetworkPrefixAl
 }
 export interface NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#network_prefix_allocator NetworkInterface#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator[] | cdktf.IResolvable;
 }
@@ -7088,15 +7088,15 @@ export class NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIpList extends cd
 }
 export interface NetworkInterfaceTunnelInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#default_gw NetworkInterface#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#dns_server NetworkInterface#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#ip_address NetworkInterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -7272,19 +7272,19 @@ export interface NetworkInterfaceTunnelInterfaceStaticIp {
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster_static_ip NetworkInterface#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster_static_ip NetworkInterface#cluster_static_ip}
   */
   readonly clusterStaticIp?: NetworkInterfaceTunnelInterfaceStaticIpClusterStaticIp[] | cdktf.IResolvable;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#fleet_static_ip NetworkInterface#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#fleet_static_ip NetworkInterface#fleet_static_ip}
   */
   readonly fleetStaticIp?: NetworkInterfaceTunnelInterfaceStaticIpFleetStaticIp[] | cdktf.IResolvable;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node_static_ip NetworkInterface#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node_static_ip NetworkInterface#node_static_ip}
   */
   readonly nodeStaticIp?: NetworkInterfaceTunnelInterfaceStaticIpNodeStaticIp[] | cdktf.IResolvable;
 }
@@ -7458,15 +7458,15 @@ export class NetworkInterfaceTunnelInterfaceStaticIpList extends cdktf.ComplexLi
 }
 export interface NetworkInterfaceTunnelInterfaceTunnel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#namespace NetworkInterface#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#namespace NetworkInterface#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tenant NetworkInterface#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tenant NetworkInterface#tenant}
   */
   readonly tenant?: string;
 }
@@ -7640,45 +7640,45 @@ export class NetworkInterfaceTunnelInterfaceTunnelList extends cdktf.ComplexList
 }
 export interface NetworkInterfaceTunnelInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#cluster NetworkInterface#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#cluster NetworkInterface#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#mtu NetworkInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#mtu NetworkInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#node NetworkInterface#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#node NetworkInterface#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#priority NetworkInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#priority NetworkInterface#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#site_local_inside_network NetworkInterface#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#site_local_inside_network NetworkInterface#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#site_local_network NetworkInterface#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#site_local_network NetworkInterface#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * inside_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#inside_network NetworkInterface#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#inside_network NetworkInterface#inside_network}
   */
   readonly insideNetwork?: NetworkInterfaceTunnelInterfaceInsideNetwork[] | cdktf.IResolvable;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#static_ip NetworkInterface#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#static_ip NetworkInterface#static_ip}
   */
   readonly staticIp?: NetworkInterfaceTunnelInterfaceStaticIp[] | cdktf.IResolvable;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#tunnel NetworkInterface#tunnel}
   */
   readonly tunnel?: NetworkInterfaceTunnelInterfaceTunnel[] | cdktf.IResolvable;
 }
@@ -8026,7 +8026,7 @@ export class NetworkInterfaceTunnelInterfaceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface volterra_network_interface}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface volterra_network_interface}
 */
 export class NetworkInterface extends cdktf.TerraformResource {
 
@@ -8042,7 +8042,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkInterface to import
-  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8054,7 +8054,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_interface volterra_network_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_interface volterra_network_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8065,8 +8065,8 @@ export class NetworkInterface extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SdnPrivateConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The bandwidth of private connect. Valid range: [1,500]. Unit: Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#connect_bandwidth SdnPrivateConnect#connect_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#connect_bandwidth SdnPrivateConnect#connect_bandwidth}
   */
   readonly connectBandwidth?: number;
   /**
   * The private connect name. Up to 255 characters in length are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#connect_name SdnPrivateConnect#connect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#connect_name SdnPrivateConnect#connect_name}
   */
   readonly connectName?: string;
   /**
   * Indicate whether to force delete the private connect. Default is `false`. If set true, the private connect will be permanently deleted instead of being moved into the recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#force_delete SdnPrivateConnect#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#force_delete SdnPrivateConnect#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#id SdnPrivateConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#id SdnPrivateConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface SdnPrivateConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#endpoints SdnPrivateConnect#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#endpoints SdnPrivateConnect#endpoints}
   */
   readonly endpoints: SdnPrivateConnectEndpoints[] | cdktf.IResolvable;
 }
@@ -43,37 +43,37 @@ export interface SdnPrivateConnectEndpoints {
   /**
   * The account of public cloud access point. If cloud type is GOOGLE, the value is google pairing key. This value is available only when `endpoint_type` within cloud type (AWS, GOOGLE and TENCENT).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#cloud_account SdnPrivateConnect#cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#cloud_account SdnPrivateConnect#cloud_account}
   */
   readonly cloudAccount?: string;
   /**
   * Region of cloud access point. This value is available only when `endpoint_type` within cloud type (AWS, GOOGLE and TENCENT).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#cloud_region SdnPrivateConnect#cloud_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#cloud_region SdnPrivateConnect#cloud_region}
   */
   readonly cloudRegion?: string;
   /**
   * The ID of data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#datacenter SdnPrivateConnect#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#datacenter SdnPrivateConnect#datacenter}
   */
   readonly datacenter?: string;
   /**
   * The type of the access point, Valid values: PORT,AWS,TENCENT and GOOGLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#endpoint_type SdnPrivateConnect#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#endpoint_type SdnPrivateConnect#endpoint_type}
   */
   readonly endpointType: string;
   /**
   * The ID of the port. This value is required when `endpoint_type` is `PORT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#port_id SdnPrivateConnect#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#port_id SdnPrivateConnect#port_id}
   */
   readonly portId?: string;
   /**
   * VLAN ID of the access point. Value range: from 1 to 4096.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#vlan_id SdnPrivateConnect#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#vlan_id SdnPrivateConnect#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -341,7 +341,7 @@ export class SdnPrivateConnectEndpointsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect zenlayercloud_sdn_private_connect}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect zenlayercloud_sdn_private_connect}
 */
 export class SdnPrivateConnect extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class SdnPrivateConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdnPrivateConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdnPrivateConnect to import
-  * @param importFromId The id of the existing SdnPrivateConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdnPrivateConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdnPrivateConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class SdnPrivateConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/sdn_private_connect zenlayercloud_sdn_private_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/sdn_private_connect zenlayercloud_sdn_private_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class SdnPrivateConnect extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_sdn_private_connect',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -5,13 +5,13 @@ securemeshSiteKubernetesUpgradeDrainEnableUpgradeDrainToHclTerraform,
 SecuremeshSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference } from './structs0'
 export interface SecuremeshSiteKubernetesUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#disable_upgrade_drain SecuremeshSite#disable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#disable_upgrade_drain SecuremeshSite#disable_upgrade_drain}
   */
   readonly disableUpgradeDrain?: boolean | cdktf.IResolvable;
   /**
   * enable_upgrade_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#enable_upgrade_drain SecuremeshSite#enable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#enable_upgrade_drain SecuremeshSite#enable_upgrade_drain}
   */
   readonly enableUpgradeDrain?: SecuremeshSiteKubernetesUpgradeDrainEnableUpgradeDrain;
 }
@@ -124,15 +124,15 @@ export class SecuremeshSiteKubernetesUpgradeDrainOutputReference extends cdktf.C
 }
 export interface SecuremeshSiteLogReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#name SecuremeshSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#name SecuremeshSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#namespace SecuremeshSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#namespace SecuremeshSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#tenant SecuremeshSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#tenant SecuremeshSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -274,11 +274,11 @@ export class SecuremeshSiteLogReceiverOutputReference extends cdktf.ComplexObjec
 }
 export interface SecuremeshSiteMasterNodeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#name SecuremeshSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#name SecuremeshSite#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#public_ip SecuremeshSite#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#public_ip SecuremeshSite#public_ip}
   */
   readonly publicIp?: string;
 }
@@ -420,11 +420,11 @@ export class SecuremeshSiteMasterNodeConfigurationList extends cdktf.ComplexList
 }
 export interface SecuremeshSiteOfflineSurvivabilityMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#enable_offline_survivability_mode SecuremeshSite#enable_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#enable_offline_survivability_mode SecuremeshSite#enable_offline_survivability_mode}
   */
   readonly enableOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#no_offline_survivability_mode SecuremeshSite#no_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#no_offline_survivability_mode SecuremeshSite#no_offline_survivability_mode}
   */
   readonly noOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
 }
@@ -537,11 +537,11 @@ export class SecuremeshSiteOfflineSurvivabilityModeOutputReference extends cdktf
 }
 export interface SecuremeshSiteOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#default_os_version SecuremeshSite#default_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#default_os_version SecuremeshSite#default_os_version}
   */
   readonly defaultOsVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#operating_system_version SecuremeshSite#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#operating_system_version SecuremeshSite#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
 }
@@ -654,11 +654,11 @@ export class SecuremeshSiteOsOutputReference extends cdktf.ComplexObject {
 }
 export interface SecuremeshSitePerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#jumbo SecuremeshSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#jumbo SecuremeshSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#no_jumbo SecuremeshSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#no_jumbo SecuremeshSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -771,13 +771,13 @@ export class SecuremeshSitePerformanceEnhancementModePerfModeL3EnhancedOutputRef
 }
 export interface SecuremeshSitePerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#perf_mode_l7_enhanced SecuremeshSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#perf_mode_l7_enhanced SecuremeshSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#perf_mode_l3_enhanced SecuremeshSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#perf_mode_l3_enhanced SecuremeshSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: SecuremeshSitePerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -890,11 +890,11 @@ export class SecuremeshSitePerformanceEnhancementModeOutputReference extends cdk
 }
 export interface SecuremeshSiteSw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#default_sw_version SecuremeshSite#default_sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#default_sw_version SecuremeshSite#default_sw_version}
   */
   readonly defaultSwVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site#volterra_software_version SecuremeshSite#volterra_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/securemesh_site#volterra_software_version SecuremeshSite#volterra_software_version}
   */
   readonly volterraSoftwareVersion?: string;
 }

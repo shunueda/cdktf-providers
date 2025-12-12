@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#annotations NetworkConnector#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#annotations NetworkConnector#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#description NetworkConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#description NetworkConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#disable NetworkConnector#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#disable NetworkConnector#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#disable_forward_proxy NetworkConnector#disable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#disable_forward_proxy NetworkConnector#disable_forward_proxy}
   */
   readonly disableForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#id NetworkConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#id NetworkConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#labels NetworkConnector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#labels NetworkConnector#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#sli_to_slo_dr NetworkConnector#sli_to_slo_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#sli_to_slo_dr NetworkConnector#sli_to_slo_dr}
   */
   readonly sliToSloDr?: boolean | cdktf.IResolvable;
   /**
   * enable_forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#enable_forward_proxy NetworkConnector#enable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#enable_forward_proxy NetworkConnector#enable_forward_proxy}
   */
   readonly enableForwardProxy?: NetworkConnectorEnableForwardProxy;
   /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#sli_to_global_dr NetworkConnector#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#sli_to_global_dr NetworkConnector#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: NetworkConnectorSliToGlobalDr;
   /**
   * sli_to_global_snat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#sli_to_global_snat NetworkConnector#sli_to_global_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#sli_to_global_snat NetworkConnector#sli_to_global_snat}
   */
   readonly sliToGlobalSnat?: NetworkConnectorSliToGlobalSnat;
   /**
   * sli_to_slo_snat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#sli_to_slo_snat NetworkConnector#sli_to_slo_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#sli_to_slo_snat NetworkConnector#sli_to_slo_snat}
   */
   readonly sliToSloSnat?: NetworkConnectorSliToSloSnat;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#slo_to_global_dr NetworkConnector#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#slo_to_global_dr NetworkConnector#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: NetworkConnectorSloToGlobalDr;
   /**
   * slo_to_global_snat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#slo_to_global_snat NetworkConnector#slo_to_global_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#slo_to_global_snat NetworkConnector#slo_to_global_snat}
   */
   readonly sloToGlobalSnat?: NetworkConnectorSloToGlobalSnat;
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#hash_algorithms NetworkConnector#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#hash_algorithms NetworkConnector#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -215,15 +215,15 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateDisa
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#decryption_provider NetworkConnector#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#decryption_provider NetworkConnector#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#location NetworkConnector#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#location NetworkConnector#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#store_provider NetworkConnector#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#store_provider NetworkConnector#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -362,15 +362,15 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePriv
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#decryption_provider NetworkConnector#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#decryption_provider NetworkConnector#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#location NetworkConnector#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#location NetworkConnector#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#store_provider NetworkConnector#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#store_provider NetworkConnector#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -509,11 +509,11 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePriv
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#provider NetworkConnector#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#provider NetworkConnector#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#url NetworkConnector#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#url NetworkConnector#url}
   */
   readonly url: string;
 }
@@ -623,23 +623,23 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePriv
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#key NetworkConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#key NetworkConnector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#location NetworkConnector#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#location NetworkConnector#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#provider NetworkConnector#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#provider NetworkConnector#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#secret_encoding NetworkConnector#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#secret_encoding NetworkConnector#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#version NetworkConnector#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#version NetworkConnector#version}
   */
   readonly version?: number;
 }
@@ -833,7 +833,7 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePriv
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name: string;
 }
@@ -914,37 +914,37 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePriv
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#secret_encoding_type NetworkConnector#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#secret_encoding_type NetworkConnector#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#blindfold_secret_info NetworkConnector#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#blindfold_secret_info NetworkConnector#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#blindfold_secret_info_internal NetworkConnector#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#blindfold_secret_info_internal NetworkConnector#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#clear_secret_info NetworkConnector#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#clear_secret_info NetworkConnector#clear_secret_info}
   */
   readonly clearSecretInfo?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#vault_secret_info NetworkConnector#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#vault_secret_info NetworkConnector#vault_secret_info}
   */
   readonly vaultSecretInfo?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#wingman_secret_info NetworkConnector#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#wingman_secret_info NetworkConnector#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
 }
@@ -1222,35 +1222,35 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateUseS
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#certificate_url NetworkConnector#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#certificate_url NetworkConnector#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#description NetworkConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#description NetworkConnector#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#custom_hash_algorithms NetworkConnector#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#custom_hash_algorithms NetworkConnector#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#disable_ocsp_stapling NetworkConnector#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#disable_ocsp_stapling NetworkConnector#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#private_key NetworkConnector#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#private_key NetworkConnector#private_key}
   */
   readonly privateKey: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#use_system_defaults NetworkConnector#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#use_system_defaults NetworkConnector#use_system_defaults}
   */
   readonly useSystemDefaults?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
 }
@@ -1473,15 +1473,15 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificateOutp
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#exact_value NetworkConnector#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#exact_value NetworkConnector#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#regex_value NetworkConnector#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#regex_value NetworkConnector#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#suffix_value NetworkConnector#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#suffix_value NetworkConnector#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -1623,17 +1623,17 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptPolicyInterceptionRul
 }
 export interface NetworkConnectorEnableForwardProxyTlsInterceptPolicyInterceptionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#disable_interception NetworkConnector#disable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#disable_interception NetworkConnector#disable_interception}
   */
   readonly disableInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#enable_interception NetworkConnector#enable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#enable_interception NetworkConnector#enable_interception}
   */
   readonly enableInterception?: boolean | cdktf.IResolvable;
   /**
   * domain_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#domain_match NetworkConnector#domain_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#domain_match NetworkConnector#domain_match}
   */
   readonly domainMatch: NetworkConnectorEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
 }
@@ -1806,7 +1806,7 @@ export interface NetworkConnectorEnableForwardProxyTlsInterceptPolicy {
   /**
   * interception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#interception_rules NetworkConnector#interception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#interception_rules NetworkConnector#interception_rules}
   */
   readonly interceptionRules: NetworkConnectorEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
 }
@@ -1887,31 +1887,31 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptPolicyOutputReference
 }
 export interface NetworkConnectorEnableForwardProxyTlsIntercept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#enable_for_all_domains NetworkConnector#enable_for_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#enable_for_all_domains NetworkConnector#enable_for_all_domains}
   */
   readonly enableForAllDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#trusted_ca_url NetworkConnector#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#trusted_ca_url NetworkConnector#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#volterra_certificate NetworkConnector#volterra_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#volterra_certificate NetworkConnector#volterra_certificate}
   */
   readonly volterraCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#volterra_trusted_ca NetworkConnector#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#volterra_trusted_ca NetworkConnector#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * custom_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#custom_certificate NetworkConnector#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#custom_certificate NetworkConnector#custom_certificate}
   */
   readonly customCertificate?: NetworkConnectorEnableForwardProxyTlsInterceptCustomCertificate;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#policy NetworkConnector#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#policy NetworkConnector#policy}
   */
   readonly policy?: NetworkConnectorEnableForwardProxyTlsInterceptPolicy;
 }
@@ -2140,29 +2140,29 @@ export class NetworkConnectorEnableForwardProxyTlsInterceptOutputReference exten
 }
 export interface NetworkConnectorEnableForwardProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#connection_timeout NetworkConnector#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#connection_timeout NetworkConnector#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#max_connect_attempts NetworkConnector#max_connect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#max_connect_attempts NetworkConnector#max_connect_attempts}
   */
   readonly maxConnectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#no_interception NetworkConnector#no_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#no_interception NetworkConnector#no_interception}
   */
   readonly noInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#white_listed_ports NetworkConnector#white_listed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#white_listed_ports NetworkConnector#white_listed_ports}
   */
   readonly whiteListedPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#white_listed_prefixes NetworkConnector#white_listed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#white_listed_prefixes NetworkConnector#white_listed_prefixes}
   */
   readonly whiteListedPrefixes?: string[];
   /**
   * tls_intercept block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tls_intercept NetworkConnector#tls_intercept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tls_intercept NetworkConnector#tls_intercept}
   */
   readonly tlsIntercept?: NetworkConnectorEnableForwardProxyTlsIntercept;
 }
@@ -2391,15 +2391,15 @@ export class NetworkConnectorEnableForwardProxyOutputReference extends cdktf.Com
 }
 export interface NetworkConnectorSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -2548,7 +2548,7 @@ export interface NetworkConnectorSliToGlobalDr {
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
   */
   readonly globalVn: NetworkConnectorSliToGlobalDrGlobalVn;
 }
@@ -2629,15 +2629,15 @@ export class NetworkConnectorSliToGlobalDrOutputReference extends cdktf.ComplexO
 }
 export interface NetworkConnectorSliToGlobalSnatGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -2779,15 +2779,15 @@ export class NetworkConnectorSliToGlobalSnatGlobalVnOutputReference extends cdkt
 }
 export interface NetworkConnectorSliToGlobalSnatSnatConfigSnatPoolAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -2929,25 +2929,25 @@ export class NetworkConnectorSliToGlobalSnatSnatConfigSnatPoolAllocatorOutputRef
 }
 export interface NetworkConnectorSliToGlobalSnatSnatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
   */
   readonly defaultGwSnat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
   */
   readonly dynamicRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
   */
   readonly interfaceIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
   */
   readonly snatPool?: string;
   /**
   * snat_pool_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
   */
   readonly snatPoolAllocator?: NetworkConnectorSliToGlobalSnatSnatConfigSnatPoolAllocator;
 }
@@ -3149,13 +3149,13 @@ export interface NetworkConnectorSliToGlobalSnat {
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
   */
   readonly globalVn: NetworkConnectorSliToGlobalSnatGlobalVn;
   /**
   * snat_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_config NetworkConnector#snat_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_config NetworkConnector#snat_config}
   */
   readonly snatConfig?: NetworkConnectorSliToGlobalSnatSnatConfig;
 }
@@ -3265,15 +3265,15 @@ export class NetworkConnectorSliToGlobalSnatOutputReference extends cdktf.Comple
 }
 export interface NetworkConnectorSliToSloSnatSnatPoolAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -3415,25 +3415,25 @@ export class NetworkConnectorSliToSloSnatSnatPoolAllocatorOutputReference extend
 }
 export interface NetworkConnectorSliToSloSnat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
   */
   readonly defaultGwSnat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
   */
   readonly dynamicRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
   */
   readonly interfaceIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
   */
   readonly snatPool?: string;
   /**
   * snat_pool_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
   */
   readonly snatPoolAllocator?: NetworkConnectorSliToSloSnatSnatPoolAllocator;
 }
@@ -3633,15 +3633,15 @@ export class NetworkConnectorSliToSloSnatOutputReference extends cdktf.ComplexOb
 }
 export interface NetworkConnectorSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -3790,7 +3790,7 @@ export interface NetworkConnectorSloToGlobalDr {
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
   */
   readonly globalVn: NetworkConnectorSloToGlobalDrGlobalVn;
 }
@@ -3871,15 +3871,15 @@ export class NetworkConnectorSloToGlobalDrOutputReference extends cdktf.ComplexO
 }
 export interface NetworkConnectorSloToGlobalSnatGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -4021,15 +4021,15 @@ export class NetworkConnectorSloToGlobalSnatGlobalVnOutputReference extends cdkt
 }
 export interface NetworkConnectorSloToGlobalSnatSnatConfigSnatPoolAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#namespace NetworkConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#namespace NetworkConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#tenant NetworkConnector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#tenant NetworkConnector#tenant}
   */
   readonly tenant?: string;
 }
@@ -4171,25 +4171,25 @@ export class NetworkConnectorSloToGlobalSnatSnatConfigSnatPoolAllocatorOutputRef
 }
 export interface NetworkConnectorSloToGlobalSnatSnatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#default_gw_snat NetworkConnector#default_gw_snat}
   */
   readonly defaultGwSnat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#dynamic_routing NetworkConnector#dynamic_routing}
   */
   readonly dynamicRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#interface_ip NetworkConnector#interface_ip}
   */
   readonly interfaceIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool NetworkConnector#snat_pool}
   */
   readonly snatPool?: string;
   /**
   * snat_pool_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_pool_allocator NetworkConnector#snat_pool_allocator}
   */
   readonly snatPoolAllocator?: NetworkConnectorSloToGlobalSnatSnatConfigSnatPoolAllocator;
 }
@@ -4391,13 +4391,13 @@ export interface NetworkConnectorSloToGlobalSnat {
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#global_vn NetworkConnector#global_vn}
   */
   readonly globalVn: NetworkConnectorSloToGlobalSnatGlobalVn;
   /**
   * snat_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#snat_config NetworkConnector#snat_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#snat_config NetworkConnector#snat_config}
   */
   readonly snatConfig?: NetworkConnectorSloToGlobalSnatSnatConfig;
 }
@@ -4507,7 +4507,7 @@ export class NetworkConnectorSloToGlobalSnatOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector volterra_network_connector}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector volterra_network_connector}
 */
 export class NetworkConnector extends cdktf.TerraformResource {
 
@@ -4523,7 +4523,7 @@ export class NetworkConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkConnector to import
-  * @param importFromId The id of the existing NetworkConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4535,7 +4535,7 @@ export class NetworkConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_connector volterra_network_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_connector volterra_network_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4546,8 +4546,8 @@ export class NetworkConnector extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_connector',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

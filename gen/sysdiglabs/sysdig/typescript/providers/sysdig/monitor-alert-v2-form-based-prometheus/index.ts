@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorAlertV2FormBasedPrometheusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#description MonitorAlertV2FormBasedPrometheus#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#description MonitorAlertV2FormBasedPrometheus#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#duration_seconds MonitorAlertV2FormBasedPrometheus#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#duration_seconds MonitorAlertV2FormBasedPrometheus#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#enabled MonitorAlertV2FormBasedPrometheus#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#enabled MonitorAlertV2FormBasedPrometheus#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#group MonitorAlertV2FormBasedPrometheus#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#group MonitorAlertV2FormBasedPrometheus#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#group_by MonitorAlertV2FormBasedPrometheus#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#group_by MonitorAlertV2FormBasedPrometheus#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#labels MonitorAlertV2FormBasedPrometheus#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#labels MonitorAlertV2FormBasedPrometheus#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#name MonitorAlertV2FormBasedPrometheus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#name MonitorAlertV2FormBasedPrometheus#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#no_data_behaviour MonitorAlertV2FormBasedPrometheus#no_data_behaviour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#no_data_behaviour MonitorAlertV2FormBasedPrometheus#no_data_behaviour}
   */
   readonly noDataBehaviour?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#operator MonitorAlertV2FormBasedPrometheus#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#operator MonitorAlertV2FormBasedPrometheus#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#query MonitorAlertV2FormBasedPrometheus#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#query MonitorAlertV2FormBasedPrometheus#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#severity MonitorAlertV2FormBasedPrometheus#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#severity MonitorAlertV2FormBasedPrometheus#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#threshold MonitorAlertV2FormBasedPrometheus#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#threshold MonitorAlertV2FormBasedPrometheus#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#unreported_alert_notifications_retention_seconds MonitorAlertV2FormBasedPrometheus#unreported_alert_notifications_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#unreported_alert_notifications_retention_seconds MonitorAlertV2FormBasedPrometheus#unreported_alert_notifications_retention_seconds}
   */
   readonly unreportedAlertNotificationsRetentionSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#warning_threshold MonitorAlertV2FormBasedPrometheus#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#warning_threshold MonitorAlertV2FormBasedPrometheus#warning_threshold}
   */
   readonly warningThreshold?: string;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#capture MonitorAlertV2FormBasedPrometheus#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#capture MonitorAlertV2FormBasedPrometheus#capture}
   */
   readonly capture?: MonitorAlertV2FormBasedPrometheusCapture;
   /**
   * custom_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#custom_notification MonitorAlertV2FormBasedPrometheus#custom_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#custom_notification MonitorAlertV2FormBasedPrometheus#custom_notification}
   */
   readonly customNotification?: MonitorAlertV2FormBasedPrometheusCustomNotification;
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#link MonitorAlertV2FormBasedPrometheus#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#link MonitorAlertV2FormBasedPrometheus#link}
   */
   readonly link?: MonitorAlertV2FormBasedPrometheusLink[] | cdktf.IResolvable;
   /**
   * notification_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#notification_channels MonitorAlertV2FormBasedPrometheus#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#notification_channels MonitorAlertV2FormBasedPrometheus#notification_channels}
   */
   readonly notificationChannels?: MonitorAlertV2FormBasedPrometheusNotificationChannels[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#scope MonitorAlertV2FormBasedPrometheus#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#scope MonitorAlertV2FormBasedPrometheus#scope}
   */
   readonly scope?: MonitorAlertV2FormBasedPrometheusScope[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#timeouts MonitorAlertV2FormBasedPrometheus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#timeouts MonitorAlertV2FormBasedPrometheus#timeouts}
   */
   readonly timeouts?: MonitorAlertV2FormBasedPrometheusTimeouts;
 }
 export interface MonitorAlertV2FormBasedPrometheusCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#duration_seconds MonitorAlertV2FormBasedPrometheus#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#duration_seconds MonitorAlertV2FormBasedPrometheus#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#enabled MonitorAlertV2FormBasedPrometheus#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#enabled MonitorAlertV2FormBasedPrometheus#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#filename MonitorAlertV2FormBasedPrometheus#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#filename MonitorAlertV2FormBasedPrometheus#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#filter MonitorAlertV2FormBasedPrometheus#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#filter MonitorAlertV2FormBasedPrometheus#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#storage MonitorAlertV2FormBasedPrometheus#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#storage MonitorAlertV2FormBasedPrometheus#storage}
   */
   readonly storage?: string;
 }
@@ -322,11 +322,11 @@ export class MonitorAlertV2FormBasedPrometheusCaptureOutputReference extends cdk
 }
 export interface MonitorAlertV2FormBasedPrometheusCustomNotificationAdditionalField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#name MonitorAlertV2FormBasedPrometheus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#name MonitorAlertV2FormBasedPrometheus#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#value MonitorAlertV2FormBasedPrometheus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#value MonitorAlertV2FormBasedPrometheus#value}
   */
   readonly value: string;
 }
@@ -465,21 +465,21 @@ export class MonitorAlertV2FormBasedPrometheusCustomNotificationAdditionalFieldL
 }
 export interface MonitorAlertV2FormBasedPrometheusCustomNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#append MonitorAlertV2FormBasedPrometheus#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#append MonitorAlertV2FormBasedPrometheus#append}
   */
   readonly append?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#prepend MonitorAlertV2FormBasedPrometheus#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#prepend MonitorAlertV2FormBasedPrometheus#prepend}
   */
   readonly prepend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#subject MonitorAlertV2FormBasedPrometheus#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#subject MonitorAlertV2FormBasedPrometheus#subject}
   */
   readonly subject?: string;
   /**
   * additional_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#additional_field MonitorAlertV2FormBasedPrometheus#additional_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#additional_field MonitorAlertV2FormBasedPrometheus#additional_field}
   */
   readonly additionalField?: MonitorAlertV2FormBasedPrometheusCustomNotificationAdditionalField[] | cdktf.IResolvable;
 }
@@ -650,18 +650,18 @@ export class MonitorAlertV2FormBasedPrometheusCustomNotificationOutputReference 
 }
 export interface MonitorAlertV2FormBasedPrometheusLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#href MonitorAlertV2FormBasedPrometheus#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#href MonitorAlertV2FormBasedPrometheus#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#type MonitorAlertV2FormBasedPrometheus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#type MonitorAlertV2FormBasedPrometheus#type}
   */
   readonly type: string;
 }
@@ -832,26 +832,26 @@ export class MonitorAlertV2FormBasedPrometheusLinkList extends cdktf.ComplexList
 }
 export interface MonitorAlertV2FormBasedPrometheusNotificationChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#id MonitorAlertV2FormBasedPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#main_threshold MonitorAlertV2FormBasedPrometheus#main_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#main_threshold MonitorAlertV2FormBasedPrometheus#main_threshold}
   */
   readonly mainThreshold?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#notify_on_resolve MonitorAlertV2FormBasedPrometheus#notify_on_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#notify_on_resolve MonitorAlertV2FormBasedPrometheus#notify_on_resolve}
   */
   readonly notifyOnResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#renotify_every_minutes MonitorAlertV2FormBasedPrometheus#renotify_every_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#renotify_every_minutes MonitorAlertV2FormBasedPrometheus#renotify_every_minutes}
   */
   readonly renotifyEveryMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#warning_threshold MonitorAlertV2FormBasedPrometheus#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#warning_threshold MonitorAlertV2FormBasedPrometheus#warning_threshold}
   */
   readonly warningThreshold?: boolean | cdktf.IResolvable;
 }
@@ -1080,15 +1080,15 @@ export class MonitorAlertV2FormBasedPrometheusNotificationChannelsList extends c
 }
 export interface MonitorAlertV2FormBasedPrometheusScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#label MonitorAlertV2FormBasedPrometheus#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#label MonitorAlertV2FormBasedPrometheus#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#operator MonitorAlertV2FormBasedPrometheus#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#operator MonitorAlertV2FormBasedPrometheus#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#values MonitorAlertV2FormBasedPrometheus#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#values MonitorAlertV2FormBasedPrometheus#values}
   */
   readonly values: string[];
 }
@@ -1253,19 +1253,19 @@ export class MonitorAlertV2FormBasedPrometheusScopeList extends cdktf.ComplexLis
 }
 export interface MonitorAlertV2FormBasedPrometheusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#create MonitorAlertV2FormBasedPrometheus#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#create MonitorAlertV2FormBasedPrometheus#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#delete MonitorAlertV2FormBasedPrometheus#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#delete MonitorAlertV2FormBasedPrometheus#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#read MonitorAlertV2FormBasedPrometheus#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#read MonitorAlertV2FormBasedPrometheus#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#update MonitorAlertV2FormBasedPrometheus#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#update MonitorAlertV2FormBasedPrometheus#update}
   */
   readonly update?: string;
 }
@@ -1446,7 +1446,7 @@ export class MonitorAlertV2FormBasedPrometheusTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus sysdig_monitor_alert_v2_form_based_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus sysdig_monitor_alert_v2_form_based_prometheus}
 */
 export class MonitorAlertV2FormBasedPrometheus extends cdktf.TerraformResource {
 
@@ -1462,7 +1462,7 @@ export class MonitorAlertV2FormBasedPrometheus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorAlertV2FormBasedPrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorAlertV2FormBasedPrometheus to import
-  * @param importFromId The id of the existing MonitorAlertV2FormBasedPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorAlertV2FormBasedPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorAlertV2FormBasedPrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1474,7 +1474,7 @@ export class MonitorAlertV2FormBasedPrometheus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_alert_v2_form_based_prometheus sysdig_monitor_alert_v2_form_based_prometheus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_alert_v2_form_based_prometheus sysdig_monitor_alert_v2_form_based_prometheus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1485,8 +1485,8 @@ export class MonitorAlertV2FormBasedPrometheus extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_alert_v2_form_based_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

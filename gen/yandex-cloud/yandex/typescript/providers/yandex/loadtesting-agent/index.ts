@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LoadtestingAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#description LoadtestingAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#description LoadtestingAgent#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#folder_id LoadtestingAgent#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#folder_id LoadtestingAgent#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#id LoadtestingAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#id LoadtestingAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface LoadtestingAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#labels LoadtestingAgent#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#labels LoadtestingAgent#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#name LoadtestingAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#name LoadtestingAgent#name}
   */
   readonly name: string;
   /**
   * compute_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#compute_instance LoadtestingAgent#compute_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#compute_instance LoadtestingAgent#compute_instance}
   */
   readonly computeInstance: LoadtestingAgentComputeInstance;
   /**
   * log_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#log_settings LoadtestingAgent#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#log_settings LoadtestingAgent#log_settings}
   */
   readonly logSettings?: LoadtestingAgentLogSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#timeouts LoadtestingAgent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#timeouts LoadtestingAgent#timeouts}
   */
   readonly timeouts?: LoadtestingAgentTimeouts;
 }
@@ -61,31 +61,31 @@ export interface LoadtestingAgentComputeInstanceBootDiskInitializeParams {
   /**
   * Block size of the disk, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#block_size LoadtestingAgent#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#block_size LoadtestingAgent#block_size}
   */
   readonly blockSize?: number;
   /**
   * A description of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#description LoadtestingAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#description LoadtestingAgent#description}
   */
   readonly description?: string;
   /**
   * A name of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#name LoadtestingAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#name LoadtestingAgent#name}
   */
   readonly name?: string;
   /**
   * The size of the disk in GB. Defaults to 15 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#size LoadtestingAgent#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#size LoadtestingAgent#size}
   */
   readonly size?: number;
   /**
   * The disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#type LoadtestingAgent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#type LoadtestingAgent#type}
   */
   readonly type?: string;
 }
@@ -287,19 +287,19 @@ export interface LoadtestingAgentComputeInstanceBootDisk {
   /**
   * Whether the disk is auto-deleted when the instance is deleted. The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#auto_delete LoadtestingAgent#auto_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#auto_delete LoadtestingAgent#auto_delete}
   */
   readonly autoDelete?: boolean | cdktf.IResolvable;
   /**
   * This value can be used to reference the device under `/dev/disk/by-id/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#device_name LoadtestingAgent#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#device_name LoadtestingAgent#device_name}
   */
   readonly deviceName?: string;
   /**
   * initialize_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#initialize_params LoadtestingAgent#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#initialize_params LoadtestingAgent#initialize_params}
   */
   readonly initializeParams: LoadtestingAgentComputeInstanceBootDiskInitializeParams;
 }
@@ -445,49 +445,49 @@ export interface LoadtestingAgentComputeInstanceNetworkInterface {
   /**
   * Manual set static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#ip_address LoadtestingAgent#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#ip_address LoadtestingAgent#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Flag for allocating IPv4 address for the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#ipv4 LoadtestingAgent#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#ipv4 LoadtestingAgent#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * Flag for allocating IPv6 address for the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#ipv6 LoadtestingAgent#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#ipv6 LoadtestingAgent#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * Manual set static IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#ipv6_address LoadtestingAgent#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#ipv6_address LoadtestingAgent#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Flag for using NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#nat LoadtestingAgent#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#nat LoadtestingAgent#nat}
   */
   readonly nat?: boolean | cdktf.IResolvable;
   /**
   * A public address that can be used to access the internet over NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#nat_ip_address LoadtestingAgent#nat_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#nat_ip_address LoadtestingAgent#nat_ip_address}
   */
   readonly natIpAddress?: string;
   /**
   * Security group ids for network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#security_group_ids LoadtestingAgent#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#security_group_ids LoadtestingAgent#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnet to attach this interface to. The subnet must reside in the same zone where this instance was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#subnet_id LoadtestingAgent#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#subnet_id LoadtestingAgent#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -820,19 +820,19 @@ export interface LoadtestingAgentComputeInstanceResources {
   /**
   * If provided, specifies baseline core performance as a percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#core_fraction LoadtestingAgent#core_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#core_fraction LoadtestingAgent#core_fraction}
   */
   readonly coreFraction?: number;
   /**
   * The number of CPU cores for the instance. Defaults to 2 cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#cores LoadtestingAgent#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#cores LoadtestingAgent#cores}
   */
   readonly cores?: number;
   /**
   * The memory size in GB. Defaults to 2 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#memory LoadtestingAgent#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#memory LoadtestingAgent#memory}
   */
   readonly memory?: number;
 }
@@ -976,49 +976,49 @@ export interface LoadtestingAgentComputeInstance {
   /**
   * A set of key/value label pairs to assign to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#labels LoadtestingAgent#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#labels LoadtestingAgent#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A set of metadata key/value pairs to make available from within the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#metadata LoadtestingAgent#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#metadata LoadtestingAgent#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The Compute platform for virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#platform_id LoadtestingAgent#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#platform_id LoadtestingAgent#platform_id}
   */
   readonly platformId?: string;
   /**
   * The ID of the service account authorized for this load testing agent. Service account should have `loadtesting.generatorClient` or `loadtesting.externalAgent` role in the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#service_account_id LoadtestingAgent#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#service_account_id LoadtestingAgent#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#zone_id LoadtestingAgent#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#zone_id LoadtestingAgent#zone_id}
   */
   readonly zoneId?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#boot_disk LoadtestingAgent#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#boot_disk LoadtestingAgent#boot_disk}
   */
   readonly bootDisk: LoadtestingAgentComputeInstanceBootDisk;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#network_interface LoadtestingAgent#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#network_interface LoadtestingAgent#network_interface}
   */
   readonly networkInterface: LoadtestingAgentComputeInstanceNetworkInterface[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#resources LoadtestingAgent#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#resources LoadtestingAgent#resources}
   */
   readonly resources: LoadtestingAgentComputeInstanceResources;
 }
@@ -1307,7 +1307,7 @@ export interface LoadtestingAgentLogSettings {
   /**
   * The ID of cloud logging group to which the load testing agent sends logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#log_group_id LoadtestingAgent#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#log_group_id LoadtestingAgent#log_group_id}
   */
   readonly logGroupId?: string;
 }
@@ -1391,15 +1391,15 @@ export class LoadtestingAgentLogSettingsOutputReference extends cdktf.ComplexObj
 }
 export interface LoadtestingAgentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#create LoadtestingAgent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#create LoadtestingAgent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#delete LoadtestingAgent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#delete LoadtestingAgent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#update LoadtestingAgent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#update LoadtestingAgent#update}
   */
   readonly update?: string;
 }
@@ -1551,7 +1551,7 @@ export class LoadtestingAgentTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent yandex_loadtesting_agent}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent yandex_loadtesting_agent}
 */
 export class LoadtestingAgent extends cdktf.TerraformResource {
 
@@ -1567,7 +1567,7 @@ export class LoadtestingAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadtestingAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadtestingAgent to import
-  * @param importFromId The id of the existing LoadtestingAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadtestingAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadtestingAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1579,7 +1579,7 @@ export class LoadtestingAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/loadtesting_agent yandex_loadtesting_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/loadtesting_agent yandex_loadtesting_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1590,8 +1590,8 @@ export class LoadtestingAgent extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_loadtesting_agent',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

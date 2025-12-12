@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackGraphDatabaseDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_category ApsarastackGraphDatabaseDbInstance#db_instance_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_category ApsarastackGraphDatabaseDbInstance#db_instance_category}
   */
   readonly dbInstanceCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_description ApsarastackGraphDatabaseDbInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_description ApsarastackGraphDatabaseDbInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_network_type ApsarastackGraphDatabaseDbInstance#db_instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_network_type ApsarastackGraphDatabaseDbInstance#db_instance_network_type}
   */
   readonly dbInstanceNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_storage_type ApsarastackGraphDatabaseDbInstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_storage_type ApsarastackGraphDatabaseDbInstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_node_class ApsarastackGraphDatabaseDbInstance#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_node_class ApsarastackGraphDatabaseDbInstance#db_node_class}
   */
   readonly dbNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_node_storage ApsarastackGraphDatabaseDbInstance#db_node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_node_storage ApsarastackGraphDatabaseDbInstance#db_node_storage}
   */
   readonly dbNodeStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_version ApsarastackGraphDatabaseDbInstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_version ApsarastackGraphDatabaseDbInstance#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#id ApsarastackGraphDatabaseDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#id ApsarastackGraphDatabaseDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#payment_type ApsarastackGraphDatabaseDbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#payment_type ApsarastackGraphDatabaseDbInstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#vpc_id ApsarastackGraphDatabaseDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#vpc_id ApsarastackGraphDatabaseDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#vswitch_id ApsarastackGraphDatabaseDbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#vswitch_id ApsarastackGraphDatabaseDbInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#zone_id ApsarastackGraphDatabaseDbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#zone_id ApsarastackGraphDatabaseDbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * db_instance_ip_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array ApsarastackGraphDatabaseDbInstance#db_instance_ip_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array ApsarastackGraphDatabaseDbInstance#db_instance_ip_array}
   */
   readonly dbInstanceIpArray?: ApsarastackGraphDatabaseDbInstanceDbInstanceIpArray[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#timeouts ApsarastackGraphDatabaseDbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#timeouts ApsarastackGraphDatabaseDbInstance#timeouts}
   */
   readonly timeouts?: ApsarastackGraphDatabaseDbInstanceTimeouts;
 }
 export interface ApsarastackGraphDatabaseDbInstanceDbInstanceIpArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array_attribute ApsarastackGraphDatabaseDbInstance#db_instance_ip_array_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array_attribute ApsarastackGraphDatabaseDbInstance#db_instance_ip_array_attribute}
   */
   readonly dbInstanceIpArrayAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array_name ApsarastackGraphDatabaseDbInstance#db_instance_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#db_instance_ip_array_name ApsarastackGraphDatabaseDbInstance#db_instance_ip_array_name}
   */
   readonly dbInstanceIpArrayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#security_ips ApsarastackGraphDatabaseDbInstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#security_ips ApsarastackGraphDatabaseDbInstance#security_ips}
   */
   readonly securityIps?: string;
 }
@@ -255,15 +255,15 @@ export class ApsarastackGraphDatabaseDbInstanceDbInstanceIpArrayList extends cdk
 }
 export interface ApsarastackGraphDatabaseDbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#create ApsarastackGraphDatabaseDbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#create ApsarastackGraphDatabaseDbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#delete ApsarastackGraphDatabaseDbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#delete ApsarastackGraphDatabaseDbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#update ApsarastackGraphDatabaseDbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#update ApsarastackGraphDatabaseDbInstance#update}
   */
   readonly update?: string;
 }
@@ -415,7 +415,7 @@ export class ApsarastackGraphDatabaseDbInstanceTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance apsarastack_graph_database_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance apsarastack_graph_database_db_instance}
 */
 export class ApsarastackGraphDatabaseDbInstance extends cdktf.TerraformResource {
 
@@ -431,7 +431,7 @@ export class ApsarastackGraphDatabaseDbInstance extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApsarastackGraphDatabaseDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackGraphDatabaseDbInstance to import
-  * @param importFromId The id of the existing ApsarastackGraphDatabaseDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackGraphDatabaseDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackGraphDatabaseDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class ApsarastackGraphDatabaseDbInstance extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_graph_database_db_instance apsarastack_graph_database_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_graph_database_db_instance apsarastack_graph_database_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class ApsarastackGraphDatabaseDbInstance extends cdktf.TerraformResource 
       terraformResourceType: 'apsarastack_graph_database_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

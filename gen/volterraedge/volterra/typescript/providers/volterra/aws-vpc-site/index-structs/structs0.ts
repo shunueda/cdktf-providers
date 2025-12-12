@@ -1,15 +1,15 @@
 import * as cdktf from 'cdktf';
 export interface AwsVpcSiteAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -148,15 +148,15 @@ export class AwsVpcSiteAdminPasswordBlindfoldSecretInfoOutputReference extends c
 }
 export interface AwsVpcSiteAdminPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -295,11 +295,11 @@ export class AwsVpcSiteAdminPasswordBlindfoldSecretInfoInternalOutputReference e
 }
 export interface AwsVpcSiteAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#url AwsVpcSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#url AwsVpcSite#url}
   */
   readonly url: string;
 }
@@ -409,23 +409,23 @@ export class AwsVpcSiteAdminPasswordClearSecretInfoOutputReference extends cdktf
 }
 export interface AwsVpcSiteAdminPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#key AwsVpcSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#key AwsVpcSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#version AwsVpcSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#version AwsVpcSite#version}
   */
   readonly version?: number;
 }
@@ -619,7 +619,7 @@ export class AwsVpcSiteAdminPasswordVaultSecretInfoOutputReference extends cdktf
 }
 export interface AwsVpcSiteAdminPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name: string;
 }
@@ -700,37 +700,37 @@ export class AwsVpcSiteAdminPasswordWingmanSecretInfoOutputReference extends cdk
 }
 export interface AwsVpcSiteAdminPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AwsVpcSiteAdminPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AwsVpcSiteAdminPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AwsVpcSiteAdminPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: AwsVpcSiteAdminPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AwsVpcSiteAdminPasswordWingmanSecretInfo;
 }
@@ -959,15 +959,15 @@ export class AwsVpcSiteAdminPasswordOutputReference extends cdktf.ComplexObject 
 }
 export interface AwsVpcSiteAwsCred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1109,19 +1109,19 @@ export class AwsVpcSiteAwsCredOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteBlockedServicesBlockedSevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#dns AwsVpcSite#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#dns AwsVpcSite#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#network_type AwsVpcSite#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#network_type AwsVpcSite#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ssh AwsVpcSite#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ssh AwsVpcSite#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#web_user_interface AwsVpcSite#web_user_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#web_user_interface AwsVpcSite#web_user_interface}
   */
   readonly webUserInterface?: boolean | cdktf.IResolvable;
 }
@@ -1326,7 +1326,7 @@ export interface AwsVpcSiteBlockedServices {
   /**
   * blocked_sevice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blocked_sevice AwsVpcSite#blocked_sevice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blocked_sevice AwsVpcSite#blocked_sevice}
   */
   readonly blockedSevice?: AwsVpcSiteBlockedServicesBlockedSevice[] | cdktf.IResolvable;
 }
@@ -1410,11 +1410,11 @@ export class AwsVpcSiteBlockedServicesOutputReference extends cdktf.ComplexObjec
 }
 export interface AwsVpcSiteCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#latitude AwsVpcSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#latitude AwsVpcSite#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#longitude AwsVpcSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#longitude AwsVpcSite#longitude}
   */
   readonly longitude?: number;
 }
@@ -1527,19 +1527,19 @@ export class AwsVpcSiteCoordinatesOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteCustomDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside_nameserver AwsVpcSite#inside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside_nameserver AwsVpcSite#inside_nameserver}
   */
   readonly insideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside_nameserver_v6 AwsVpcSite#inside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside_nameserver_v6 AwsVpcSite#inside_nameserver_v6}
   */
   readonly insideNameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside_nameserver AwsVpcSite#outside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside_nameserver AwsVpcSite#outside_nameserver}
   */
   readonly outsideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside_nameserver_v6 AwsVpcSite#outside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside_nameserver_v6 AwsVpcSite#outside_nameserver_v6}
   */
   readonly outsideNameserverV6?: string;
 }
@@ -1710,11 +1710,11 @@ export class AwsVpcSiteCustomDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteCustomSecurityGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside_security_group_id AwsVpcSite#inside_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside_security_group_id AwsVpcSite#inside_security_group_id}
   */
   readonly insideSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside_security_group_id AwsVpcSite#outside_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside_security_group_id AwsVpcSite#outside_security_group_id}
   */
   readonly outsideSecurityGroupId?: string;
 }
@@ -1827,7 +1827,7 @@ export class AwsVpcSiteCustomSecurityGroupOutputReference extends cdktf.ComplexO
 }
 export interface AwsVpcSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#cloudlink_network_name AwsVpcSite#cloudlink_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#cloudlink_network_name AwsVpcSite#cloudlink_network_name}
   */
   readonly cloudlinkNetworkName: string;
 }
@@ -1908,15 +1908,15 @@ export class AwsVpcSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectC
 }
 export interface AwsVpcSiteDirectConnectEnabledHostedVifsVifListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#other_region AwsVpcSite#other_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#other_region AwsVpcSite#other_region}
   */
   readonly otherRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#same_as_site_region AwsVpcSite#same_as_site_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#same_as_site_region AwsVpcSite#same_as_site_region}
   */
   readonly sameAsSiteRegion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vif_id AwsVpcSite#vif_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vif_id AwsVpcSite#vif_id}
   */
   readonly vifId: string;
 }
@@ -2087,23 +2087,23 @@ export class AwsVpcSiteDirectConnectEnabledHostedVifsVifListStructList extends c
 }
 export interface AwsVpcSiteDirectConnectEnabledHostedVifs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#site_registration_over_internet AwsVpcSite#site_registration_over_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#site_registration_over_internet AwsVpcSite#site_registration_over_internet}
   */
   readonly siteRegistrationOverInternet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vifs AwsVpcSite#vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vifs AwsVpcSite#vifs}
   */
   readonly vifs?: string[];
   /**
   * site_registration_over_direct_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#site_registration_over_direct_connect AwsVpcSite#site_registration_over_direct_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#site_registration_over_direct_connect AwsVpcSite#site_registration_over_direct_connect}
   */
   readonly siteRegistrationOverDirectConnect?: AwsVpcSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnect;
   /**
   * vif_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vif_list AwsVpcSite#vif_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vif_list AwsVpcSite#vif_list}
   */
   readonly vifList?: AwsVpcSiteDirectConnectEnabledHostedVifsVifListStruct[] | cdktf.IResolvable;
 }
@@ -2274,33 +2274,33 @@ export class AwsVpcSiteDirectConnectEnabledHostedVifsOutputReference extends cdk
 }
 export interface AwsVpcSiteDirectConnectEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#auto_asn AwsVpcSite#auto_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#auto_asn AwsVpcSite#auto_asn}
   */
   readonly autoAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#cloud_aggregated_prefix AwsVpcSite#cloud_aggregated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#cloud_aggregated_prefix AwsVpcSite#cloud_aggregated_prefix}
   */
   readonly cloudAggregatedPrefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_asn AwsVpcSite#custom_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_asn AwsVpcSite#custom_asn}
   */
   readonly customAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#dc_connect_aggregated_prefix AwsVpcSite#dc_connect_aggregated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#dc_connect_aggregated_prefix AwsVpcSite#dc_connect_aggregated_prefix}
   */
   readonly dcConnectAggregatedPrefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#manual_gw AwsVpcSite#manual_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#manual_gw AwsVpcSite#manual_gw}
   */
   readonly manualGw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#standard_vifs AwsVpcSite#standard_vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#standard_vifs AwsVpcSite#standard_vifs}
   */
   readonly standardVifs?: boolean | cdktf.IResolvable;
   /**
   * hosted_vifs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#hosted_vifs AwsVpcSite#hosted_vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#hosted_vifs AwsVpcSite#hosted_vifs}
   */
   readonly hostedVifs?: AwsVpcSiteDirectConnectEnabledHostedVifs;
 }
@@ -2558,7 +2558,7 @@ export class AwsVpcSiteDirectConnectEnabledOutputReference extends cdktf.Complex
 }
 export interface AwsVpcSiteEgressNatGw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#nat_gw_id AwsVpcSite#nat_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#nat_gw_id AwsVpcSite#nat_gw_id}
   */
   readonly natGwId?: string;
 }
@@ -2642,7 +2642,7 @@ export class AwsVpcSiteEgressNatGwOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteEgressVirtualPrivateGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vgw_id AwsVpcSite#vgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vgw_id AwsVpcSite#vgw_id}
   */
   readonly vgwId?: string;
 }
@@ -2726,15 +2726,15 @@ export class AwsVpcSiteEgressVirtualPrivateGatewayOutputReference extends cdktf.
 }
 export interface AwsVpcSiteIngressEgressGwActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -2910,7 +2910,7 @@ export interface AwsVpcSiteIngressEgressGwActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enhanced_firewall_policies AwsVpcSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enhanced_firewall_policies AwsVpcSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AwsVpcSiteIngressEgressGwActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -2991,15 +2991,15 @@ export class AwsVpcSiteIngressEgressGwActiveEnhancedFirewallPoliciesOutputRefere
 }
 export interface AwsVpcSiteIngressEgressGwActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3175,7 +3175,7 @@ export interface AwsVpcSiteIngressEgressGwActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#forward_proxy_policies AwsVpcSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#forward_proxy_policies AwsVpcSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AwsVpcSiteIngressEgressGwActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -3256,15 +3256,15 @@ export class AwsVpcSiteIngressEgressGwActiveForwardProxyPoliciesOutputReference 
 }
 export interface AwsVpcSiteIngressEgressGwActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3440,7 +3440,7 @@ export interface AwsVpcSiteIngressEgressGwActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#network_policies AwsVpcSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#network_policies AwsVpcSite#network_policies}
   */
   readonly networkPolicies: AwsVpcSiteIngressEgressGwActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -3521,7 +3521,7 @@ export class AwsVpcSiteIngressEgressGwActiveNetworkPoliciesOutputReference exten
 }
 export interface AwsVpcSiteIngressEgressGwAllowedVipPortCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -3602,25 +3602,25 @@ export class AwsVpcSiteIngressEgressGwAllowedVipPortCustomPortsOutputReference e
 }
 export interface AwsVpcSiteIngressEgressGwAllowedVipPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
   */
   readonly customPorts?: AwsVpcSiteIngressEgressGwAllowedVipPortCustomPorts;
 }
@@ -3820,7 +3820,7 @@ export class AwsVpcSiteIngressEgressGwAllowedVipPortOutputReference extends cdkt
 }
 export interface AwsVpcSiteIngressEgressGwAllowedVipPortSliCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -3901,25 +3901,25 @@ export class AwsVpcSiteIngressEgressGwAllowedVipPortSliCustomPortsOutputReferenc
 }
 export interface AwsVpcSiteIngressEgressGwAllowedVipPortSli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
   */
   readonly customPorts?: AwsVpcSiteIngressEgressGwAllowedVipPortSliCustomPorts;
 }
@@ -4119,11 +4119,11 @@ export class AwsVpcSiteIngressEgressGwAllowedVipPortSliOutputReference extends c
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesInsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4233,13 +4233,13 @@ export class AwsVpcSiteIngressEgressGwAzNodesInsideSubnetSubnetParamOutputRefere
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesInsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
   */
   readonly subnetParam?: AwsVpcSiteIngressEgressGwAzNodesInsideSubnetSubnetParam;
 }
@@ -4352,11 +4352,11 @@ export class AwsVpcSiteIngressEgressGwAzNodesInsideSubnetOutputReference extends
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesOutsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4466,13 +4466,13 @@ export class AwsVpcSiteIngressEgressGwAzNodesOutsideSubnetSubnetParamOutputRefer
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesOutsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
   */
   readonly subnetParam?: AwsVpcSiteIngressEgressGwAzNodesOutsideSubnetSubnetParam;
 }
@@ -4585,11 +4585,11 @@ export class AwsVpcSiteIngressEgressGwAzNodesOutsideSubnetOutputReference extend
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4699,13 +4699,13 @@ export class AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnetSubnetParamOutputRefe
 }
 export interface AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
   */
   readonly subnetParam?: AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnetSubnetParam;
 }
@@ -4818,33 +4818,33 @@ export class AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnetOutputReference exten
 }
 export interface AwsVpcSiteIngressEgressGwAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#reserved_inside_subnet AwsVpcSite#reserved_inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#reserved_inside_subnet AwsVpcSite#reserved_inside_subnet}
   */
   readonly reservedInsideSubnet?: boolean | cdktf.IResolvable;
   /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside_subnet AwsVpcSite#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside_subnet AwsVpcSite#inside_subnet}
   */
   readonly insideSubnet?: AwsVpcSiteIngressEgressGwAzNodesInsideSubnet;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside_subnet AwsVpcSite#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside_subnet AwsVpcSite#outside_subnet}
   */
   readonly outsideSubnet: AwsVpcSiteIngressEgressGwAzNodesOutsideSubnet;
   /**
   * workload_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#workload_subnet AwsVpcSite#workload_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#workload_subnet AwsVpcSite#workload_subnet}
   */
   readonly workloadSubnet?: AwsVpcSiteIngressEgressGwAzNodesWorkloadSubnet;
 }
@@ -5099,15 +5099,15 @@ export class AwsVpcSiteIngressEgressGwAzNodesList extends cdktf.ComplexList {
 }
 export interface AwsVpcSiteIngressEgressGwDcClusterGroupInsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5249,15 +5249,15 @@ export class AwsVpcSiteIngressEgressGwDcClusterGroupInsideVnOutputReference exte
 }
 export interface AwsVpcSiteIngressEgressGwDcClusterGroupOutsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5399,7 +5399,7 @@ export class AwsVpcSiteIngressEgressGwDcClusterGroupOutsideVnOutputReference ext
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#hash_algorithms AwsVpcSite#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#hash_algorithms AwsVpcSite#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -5529,15 +5529,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5676,15 +5676,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5823,11 +5823,11 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#url AwsVpcSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#url AwsVpcSite#url}
   */
   readonly url: string;
 }
@@ -5937,23 +5937,23 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#key AwsVpcSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#key AwsVpcSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#version AwsVpcSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#version AwsVpcSite#version}
   */
   readonly version?: number;
 }
@@ -6147,7 +6147,7 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name: string;
 }
@@ -6228,37 +6228,37 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
 }
@@ -6536,35 +6536,35 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#certificate_url AwsVpcSite#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#certificate_url AwsVpcSite#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#description AwsVpcSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#description AwsVpcSite#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_hash_algorithms AwsVpcSite#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_hash_algorithms AwsVpcSite#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_ocsp_stapling AwsVpcSite#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_ocsp_stapling AwsVpcSite#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#private_key AwsVpcSite#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#private_key AwsVpcSite#private_key}
   */
   readonly privateKey: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_system_defaults AwsVpcSite#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_system_defaults AwsVpcSite#use_system_defaults}
   */
   readonly useSystemDefaults?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
 }
@@ -6787,15 +6787,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#exact_value AwsVpcSite#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#exact_value AwsVpcSite#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#regex_value AwsVpcSite#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#regex_value AwsVpcSite#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#suffix_value AwsVpcSite#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#suffix_value AwsVpcSite#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -6937,17 +6937,17 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_interception AwsVpcSite#disable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_interception AwsVpcSite#disable_interception}
   */
   readonly disableInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_interception AwsVpcSite#enable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_interception AwsVpcSite#enable_interception}
   */
   readonly enableInterception?: boolean | cdktf.IResolvable;
   /**
   * domain_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#domain_match AwsVpcSite#domain_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#domain_match AwsVpcSite#domain_match}
   */
   readonly domainMatch: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
 }
@@ -7120,7 +7120,7 @@ export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnecti
   /**
   * interception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#interception_rules AwsVpcSite#interception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#interception_rules AwsVpcSite#interception_rules}
   */
   readonly interceptionRules: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
 }
@@ -7201,31 +7201,31 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_for_all_domains AwsVpcSite#enable_for_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_for_all_domains AwsVpcSite#enable_for_all_domains}
   */
   readonly enableForAllDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#trusted_ca_url AwsVpcSite#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#trusted_ca_url AwsVpcSite#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#volterra_certificate AwsVpcSite#volterra_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#volterra_certificate AwsVpcSite#volterra_certificate}
   */
   readonly volterraCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#volterra_trusted_ca AwsVpcSite#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#volterra_trusted_ca AwsVpcSite#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * custom_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_certificate AwsVpcSite#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_certificate AwsVpcSite#custom_certificate}
   */
   readonly customCertificate?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#policy AwsVpcSite#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#policy AwsVpcSite#policy}
   */
   readonly policy?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
 }
@@ -7454,29 +7454,29 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#connection_timeout AwsVpcSite#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#connection_timeout AwsVpcSite#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#max_connect_attempts AwsVpcSite#max_connect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#max_connect_attempts AwsVpcSite#max_connect_attempts}
   */
   readonly maxConnectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_interception AwsVpcSite#no_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_interception AwsVpcSite#no_interception}
   */
   readonly noInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#white_listed_ports AwsVpcSite#white_listed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#white_listed_ports AwsVpcSite#white_listed_ports}
   */
   readonly whiteListedPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#white_listed_prefixes AwsVpcSite#white_listed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#white_listed_prefixes AwsVpcSite#white_listed_prefixes}
   */
   readonly whiteListedPrefixes?: string[];
   /**
   * tls_intercept block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tls_intercept AwsVpcSite#tls_intercept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tls_intercept AwsVpcSite#tls_intercept}
   */
   readonly tlsIntercept?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
 }
@@ -7705,15 +7705,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsE
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -7862,7 +7862,7 @@ export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnecti
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#global_vn AwsVpcSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#global_vn AwsVpcSite#global_vn}
   */
   readonly globalVn: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -7943,15 +7943,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsS
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8100,7 +8100,7 @@ export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnecti
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#global_vn AwsVpcSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#global_vn AwsVpcSite#global_vn}
   */
   readonly globalVn: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -8181,25 +8181,25 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsS
 }
 export interface AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_forward_proxy AwsVpcSite#disable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_forward_proxy AwsVpcSite#disable_forward_proxy}
   */
   readonly disableForwardProxy?: boolean | cdktf.IResolvable;
   /**
   * enable_forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_forward_proxy AwsVpcSite#enable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_forward_proxy AwsVpcSite#enable_forward_proxy}
   */
   readonly enableForwardProxy?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
   /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#sli_to_global_dr AwsVpcSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#sli_to_global_dr AwsVpcSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#slo_to_global_dr AwsVpcSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#slo_to_global_dr AwsVpcSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -8404,7 +8404,7 @@ export interface AwsVpcSiteIngressEgressGwGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#global_network_connections AwsVpcSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#global_network_connections AwsVpcSite#global_network_connections}
   */
   readonly globalNetworkConnections: AwsVpcSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -8485,15 +8485,15 @@ export class AwsVpcSiteIngressEgressGwGlobalNetworkListStructOutputReference ext
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8672,7 +8672,7 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -8756,7 +8756,7 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -8842,13 +8842,13 @@ export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCusto
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -8961,19 +8961,19 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#type AwsVpcSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#type AwsVpcSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#interface AwsVpcSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#interface AwsVpcSite#interface}
   */
   readonly interface?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#nexthop_address AwsVpcSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#nexthop_address AwsVpcSite#nexthop_address}
   */
   readonly nexthopAddress?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -9115,11 +9115,11 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -9232,11 +9232,11 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -9351,13 +9351,13 @@ export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCusto
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -9502,23 +9502,23 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#attrs AwsVpcSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#attrs AwsVpcSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#labels AwsVpcSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#labels AwsVpcSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#nexthop AwsVpcSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#nexthop AwsVpcSite#nexthop}
   */
   readonly nexthop?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnets AwsVpcSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnets AwsVpcSite#subnets}
   */
   readonly subnets: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -9686,13 +9686,13 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomSta
 }
 export interface AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#simple_static_route AwsVpcSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#simple_static_route AwsVpcSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_static_route AwsVpcSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_static_route AwsVpcSite#custom_static_route}
   */
   readonly customStaticRoute?: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -9839,7 +9839,7 @@ export interface AwsVpcSiteIngressEgressGwInsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#static_route_list AwsVpcSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#static_route_list AwsVpcSite#static_route_list}
   */
   readonly staticRouteList: AwsVpcSiteIngressEgressGwInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -9920,15 +9920,15 @@ export class AwsVpcSiteIngressEgressGwInsideStaticRoutesOutputReference extends 
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -10107,7 +10107,7 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -10191,7 +10191,7 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#addr AwsVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -10277,13 +10277,13 @@ export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCust
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -10396,19 +10396,19 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#type AwsVpcSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#type AwsVpcSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#interface AwsVpcSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#interface AwsVpcSite#interface}
   */
   readonly interface?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#nexthop_address AwsVpcSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#nexthop_address AwsVpcSite#nexthop_address}
   */
   readonly nexthopAddress?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -10550,11 +10550,11 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -10667,11 +10667,11 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#plen AwsVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#prefix AwsVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -10786,13 +10786,13 @@ export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCust
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -10937,23 +10937,23 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#attrs AwsVpcSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#attrs AwsVpcSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#labels AwsVpcSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#labels AwsVpcSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#nexthop AwsVpcSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#nexthop AwsVpcSite#nexthop}
   */
   readonly nexthop?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnets AwsVpcSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnets AwsVpcSite#subnets}
   */
   readonly subnets: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -11121,13 +11121,13 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomSt
 }
 export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#simple_static_route AwsVpcSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#simple_static_route AwsVpcSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_static_route AwsVpcSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_static_route AwsVpcSite#custom_static_route}
   */
   readonly customStaticRoute?: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -11274,7 +11274,7 @@ export interface AwsVpcSiteIngressEgressGwOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#static_route_list AwsVpcSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#static_route_list AwsVpcSite#static_route_list}
   */
   readonly staticRouteList: AwsVpcSiteIngressEgressGwOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -11355,11 +11355,11 @@ export class AwsVpcSiteIngressEgressGwOutsideStaticRoutesOutputReference extends
 }
 export interface AwsVpcSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#jumbo AwsVpcSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#jumbo AwsVpcSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_jumbo AwsVpcSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_jumbo AwsVpcSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -11472,13 +11472,13 @@ export class AwsVpcSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enhanc
 }
 export interface AwsVpcSiteIngressEgressGwPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#perf_mode_l7_enhanced AwsVpcSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#perf_mode_l7_enhanced AwsVpcSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#perf_mode_l3_enhanced AwsVpcSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#perf_mode_l3_enhanced AwsVpcSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AwsVpcSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -11591,115 +11591,115 @@ export class AwsVpcSiteIngressEgressGwPerformanceEnhancementModeOutputReference 
 }
 export interface AwsVpcSiteIngressEgressGw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#aws_certified_hw AwsVpcSite#aws_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#aws_certified_hw AwsVpcSite#aws_certified_hw}
   */
   readonly awsCertifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#forward_proxy_allow_all AwsVpcSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#forward_proxy_allow_all AwsVpcSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_dc_cluster_group AwsVpcSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_dc_cluster_group AwsVpcSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_forward_proxy AwsVpcSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_forward_proxy AwsVpcSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_global_network AwsVpcSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_global_network AwsVpcSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_inside_static_routes AwsVpcSite#no_inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_inside_static_routes AwsVpcSite#no_inside_static_routes}
   */
   readonly noInsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_network_policy AwsVpcSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_network_policy AwsVpcSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_outside_static_routes AwsVpcSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_outside_static_routes AwsVpcSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#sm_connection_public_ip AwsVpcSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#sm_connection_public_ip AwsVpcSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#sm_connection_pvt_ip AwsVpcSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#sm_connection_pvt_ip AwsVpcSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#active_enhanced_firewall_policies AwsVpcSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#active_enhanced_firewall_policies AwsVpcSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: AwsVpcSiteIngressEgressGwActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#active_forward_proxy_policies AwsVpcSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#active_forward_proxy_policies AwsVpcSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: AwsVpcSiteIngressEgressGwActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#active_network_policies AwsVpcSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#active_network_policies AwsVpcSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: AwsVpcSiteIngressEgressGwActiveNetworkPolicies;
   /**
   * allowed_vip_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#allowed_vip_port AwsVpcSite#allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#allowed_vip_port AwsVpcSite#allowed_vip_port}
   */
   readonly allowedVipPort?: AwsVpcSiteIngressEgressGwAllowedVipPort;
   /**
   * allowed_vip_port_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#allowed_vip_port_sli AwsVpcSite#allowed_vip_port_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#allowed_vip_port_sli AwsVpcSite#allowed_vip_port_sli}
   */
   readonly allowedVipPortSli?: AwsVpcSiteIngressEgressGwAllowedVipPortSli;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#az_nodes AwsVpcSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#az_nodes AwsVpcSite#az_nodes}
   */
   readonly azNodes: AwsVpcSiteIngressEgressGwAzNodes[] | cdktf.IResolvable;
   /**
   * dc_cluster_group_inside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#dc_cluster_group_inside_vn AwsVpcSite#dc_cluster_group_inside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#dc_cluster_group_inside_vn AwsVpcSite#dc_cluster_group_inside_vn}
   */
   readonly dcClusterGroupInsideVn?: AwsVpcSiteIngressEgressGwDcClusterGroupInsideVn;
   /**
   * dc_cluster_group_outside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#dc_cluster_group_outside_vn AwsVpcSite#dc_cluster_group_outside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#dc_cluster_group_outside_vn AwsVpcSite#dc_cluster_group_outside_vn}
   */
   readonly dcClusterGroupOutsideVn?: AwsVpcSiteIngressEgressGwDcClusterGroupOutsideVn;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#global_network_list AwsVpcSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#global_network_list AwsVpcSite#global_network_list}
   */
   readonly globalNetworkList?: AwsVpcSiteIngressEgressGwGlobalNetworkListStruct;
   /**
   * inside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside_static_routes AwsVpcSite#inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside_static_routes AwsVpcSite#inside_static_routes}
   */
   readonly insideStaticRoutes?: AwsVpcSiteIngressEgressGwInsideStaticRoutes;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside_static_routes AwsVpcSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside_static_routes AwsVpcSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: AwsVpcSiteIngressEgressGwOutsideStaticRoutes;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#performance_enhancement_mode AwsVpcSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#performance_enhancement_mode AwsVpcSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AwsVpcSiteIngressEgressGwPerformanceEnhancementMode;
 }
@@ -12386,7 +12386,7 @@ export class AwsVpcSiteIngressEgressGwOutputReference extends cdktf.ComplexObjec
 }
 export interface AwsVpcSiteIngressGwAllowedVipPortCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -12467,25 +12467,25 @@ export class AwsVpcSiteIngressGwAllowedVipPortCustomPortsOutputReference extends
 }
 export interface AwsVpcSiteIngressGwAllowedVipPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
   */
   readonly customPorts?: AwsVpcSiteIngressGwAllowedVipPortCustomPorts;
 }
@@ -12685,11 +12685,11 @@ export class AwsVpcSiteIngressGwAllowedVipPortOutputReference extends cdktf.Comp
 }
 export interface AwsVpcSiteIngressGwAzNodesLocalSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -12799,13 +12799,13 @@ export class AwsVpcSiteIngressGwAzNodesLocalSubnetSubnetParamOutputReference ext
 }
 export interface AwsVpcSiteIngressGwAzNodesLocalSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
   */
   readonly subnetParam?: AwsVpcSiteIngressGwAzNodesLocalSubnetSubnetParam;
 }
@@ -12918,17 +12918,17 @@ export class AwsVpcSiteIngressGwAzNodesLocalSubnetOutputReference extends cdktf.
 }
 export interface AwsVpcSiteIngressGwAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
   */
   readonly diskSize?: number;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#local_subnet AwsVpcSite#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#local_subnet AwsVpcSite#local_subnet}
   */
   readonly localSubnet?: AwsVpcSiteIngressGwAzNodesLocalSubnet;
 }
@@ -13099,11 +13099,11 @@ export class AwsVpcSiteIngressGwAzNodesList extends cdktf.ComplexList {
 }
 export interface AwsVpcSiteIngressGwPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#jumbo AwsVpcSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#jumbo AwsVpcSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_jumbo AwsVpcSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_jumbo AwsVpcSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -13216,13 +13216,13 @@ export class AwsVpcSiteIngressGwPerformanceEnhancementModePerfModeL3EnhancedOutp
 }
 export interface AwsVpcSiteIngressGwPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#perf_mode_l7_enhanced AwsVpcSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#perf_mode_l7_enhanced AwsVpcSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#perf_mode_l3_enhanced AwsVpcSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#perf_mode_l3_enhanced AwsVpcSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AwsVpcSiteIngressGwPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -13335,25 +13335,25 @@ export class AwsVpcSiteIngressGwPerformanceEnhancementModeOutputReference extend
 }
 export interface AwsVpcSiteIngressGw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#aws_certified_hw AwsVpcSite#aws_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#aws_certified_hw AwsVpcSite#aws_certified_hw}
   */
   readonly awsCertifiedHw: string;
   /**
   * allowed_vip_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#allowed_vip_port AwsVpcSite#allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#allowed_vip_port AwsVpcSite#allowed_vip_port}
   */
   readonly allowedVipPort?: AwsVpcSiteIngressGwAllowedVipPort;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#az_nodes AwsVpcSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#az_nodes AwsVpcSite#az_nodes}
   */
   readonly azNodes: AwsVpcSiteIngressGwAzNodes[] | cdktf.IResolvable;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#performance_enhancement_mode AwsVpcSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#performance_enhancement_mode AwsVpcSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AwsVpcSiteIngressGwPerformanceEnhancementMode;
 }
@@ -13518,23 +13518,23 @@ export class AwsVpcSiteIngressGwOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteKubernetesUpgradeDrainEnableUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_vega_upgrade_mode AwsVpcSite#disable_vega_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_vega_upgrade_mode AwsVpcSite#disable_vega_upgrade_mode}
   */
   readonly disableVegaUpgradeMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#drain_max_unavailable_node_count AwsVpcSite#drain_max_unavailable_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#drain_max_unavailable_node_count AwsVpcSite#drain_max_unavailable_node_count}
   */
   readonly drainMaxUnavailableNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#drain_max_unavailable_node_percentage AwsVpcSite#drain_max_unavailable_node_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#drain_max_unavailable_node_percentage AwsVpcSite#drain_max_unavailable_node_percentage}
   */
   readonly drainMaxUnavailableNodePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#drain_node_timeout AwsVpcSite#drain_node_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#drain_node_timeout AwsVpcSite#drain_node_timeout}
   */
   readonly drainNodeTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_vega_upgrade_mode AwsVpcSite#enable_vega_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_vega_upgrade_mode AwsVpcSite#enable_vega_upgrade_mode}
   */
   readonly enableVegaUpgradeMode?: boolean | cdktf.IResolvable;
 }
@@ -13731,13 +13731,13 @@ export class AwsVpcSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference e
 }
 export interface AwsVpcSiteKubernetesUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_upgrade_drain AwsVpcSite#disable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_upgrade_drain AwsVpcSite#disable_upgrade_drain}
   */
   readonly disableUpgradeDrain?: boolean | cdktf.IResolvable;
   /**
   * enable_upgrade_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_upgrade_drain AwsVpcSite#enable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_upgrade_drain AwsVpcSite#enable_upgrade_drain}
   */
   readonly enableUpgradeDrain?: AwsVpcSiteKubernetesUpgradeDrainEnableUpgradeDrain;
 }
@@ -13850,15 +13850,15 @@ export class AwsVpcSiteKubernetesUpgradeDrainOutputReference extends cdktf.Compl
 }
 export interface AwsVpcSiteLogReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -14000,11 +14000,11 @@ export class AwsVpcSiteLogReceiverOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteOfflineSurvivabilityMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_offline_survivability_mode AwsVpcSite#enable_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_offline_survivability_mode AwsVpcSite#enable_offline_survivability_mode}
   */
   readonly enableOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_offline_survivability_mode AwsVpcSite#no_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_offline_survivability_mode AwsVpcSite#no_offline_survivability_mode}
   */
   readonly noOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
 }
@@ -14117,11 +14117,11 @@ export class AwsVpcSiteOfflineSurvivabilityModeOutputReference extends cdktf.Com
 }
 export interface AwsVpcSiteOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#default_os_version AwsVpcSite#default_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#default_os_version AwsVpcSite#default_os_version}
   */
   readonly defaultOsVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#operating_system_version AwsVpcSite#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#operating_system_version AwsVpcSite#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
 }
@@ -14234,15 +14234,15 @@ export class AwsVpcSiteOsOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSitePrivateConnectivityCloudLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -14389,17 +14389,17 @@ export class AwsVpcSitePrivateConnectivityCloudLinkOutputReference extends cdktf
 }
 export interface AwsVpcSitePrivateConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#inside AwsVpcSite#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#inside AwsVpcSite#inside}
   */
   readonly inside?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#outside AwsVpcSite#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#outside AwsVpcSite#outside}
   */
   readonly outside?: boolean | cdktf.IResolvable;
   /**
   * cloud_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#cloud_link AwsVpcSite#cloud_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#cloud_link AwsVpcSite#cloud_link}
   */
   readonly cloudLink: AwsVpcSitePrivateConnectivityCloudLink;
 }
@@ -14538,11 +14538,11 @@ export class AwsVpcSitePrivateConnectivityOutputReference extends cdktf.ComplexO
 }
 export interface AwsVpcSiteSw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#default_sw_version AwsVpcSite#default_sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#default_sw_version AwsVpcSite#default_sw_version}
   */
   readonly defaultSwVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#volterra_software_version AwsVpcSite#volterra_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#volterra_software_version AwsVpcSite#volterra_software_version}
   */
   readonly volterraSoftwareVersion?: string;
 }
@@ -14655,15 +14655,15 @@ export class AwsVpcSiteSwOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsVpcSiteVoltstackClusterActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -14839,7 +14839,7 @@ export interface AwsVpcSiteVoltstackClusterActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enhanced_firewall_policies AwsVpcSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enhanced_firewall_policies AwsVpcSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AwsVpcSiteVoltstackClusterActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -14920,15 +14920,15 @@ export class AwsVpcSiteVoltstackClusterActiveEnhancedFirewallPoliciesOutputRefer
 }
 export interface AwsVpcSiteVoltstackClusterActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15104,7 +15104,7 @@ export interface AwsVpcSiteVoltstackClusterActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#forward_proxy_policies AwsVpcSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#forward_proxy_policies AwsVpcSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AwsVpcSiteVoltstackClusterActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -15185,15 +15185,15 @@ export class AwsVpcSiteVoltstackClusterActiveForwardProxyPoliciesOutputReference
 }
 export interface AwsVpcSiteVoltstackClusterActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15369,7 +15369,7 @@ export interface AwsVpcSiteVoltstackClusterActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#network_policies AwsVpcSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#network_policies AwsVpcSite#network_policies}
   */
   readonly networkPolicies: AwsVpcSiteVoltstackClusterActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -15450,7 +15450,7 @@ export class AwsVpcSiteVoltstackClusterActiveNetworkPoliciesOutputReference exte
 }
 export interface AwsVpcSiteVoltstackClusterAllowedVipPortCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#port_ranges AwsVpcSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -15531,25 +15531,25 @@ export class AwsVpcSiteVoltstackClusterAllowedVipPortCustomPortsOutputReference 
 }
 export interface AwsVpcSiteVoltstackClusterAllowedVipPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_allowed_vip_port AwsVpcSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_https_port AwsVpcSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_http_port AwsVpcSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_https_port AwsVpcSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_ports AwsVpcSite#custom_ports}
   */
   readonly customPorts?: AwsVpcSiteVoltstackClusterAllowedVipPortCustomPorts;
 }
@@ -15749,11 +15749,11 @@ export class AwsVpcSiteVoltstackClusterAllowedVipPortOutputReference extends cdk
 }
 export interface AwsVpcSiteVoltstackClusterAzNodesLocalSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv4 AwsVpcSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#ipv6 AwsVpcSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -15863,13 +15863,13 @@ export class AwsVpcSiteVoltstackClusterAzNodesLocalSubnetSubnetParamOutputRefere
 }
 export interface AwsVpcSiteVoltstackClusterAzNodesLocalSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#existing_subnet_id AwsVpcSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#subnet_param AwsVpcSite#subnet_param}
   */
   readonly subnetParam?: AwsVpcSiteVoltstackClusterAzNodesLocalSubnetSubnetParam;
 }
@@ -15982,17 +15982,17 @@ export class AwsVpcSiteVoltstackClusterAzNodesLocalSubnetOutputReference extends
 }
 export interface AwsVpcSiteVoltstackClusterAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#aws_az_name AwsVpcSite#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disk_size AwsVpcSite#disk_size}
   */
   readonly diskSize?: number;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#local_subnet AwsVpcSite#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#local_subnet AwsVpcSite#local_subnet}
   */
   readonly localSubnet?: AwsVpcSiteVoltstackClusterAzNodesLocalSubnet;
 }
@@ -16163,15 +16163,15 @@ export class AwsVpcSiteVoltstackClusterAzNodesList extends cdktf.ComplexList {
 }
 export interface AwsVpcSiteVoltstackClusterDcClusterGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#namespace AwsVpcSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tenant AwsVpcSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -16313,7 +16313,7 @@ export class AwsVpcSiteVoltstackClusterDcClusterGroupOutputReference extends cdk
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#hash_algorithms AwsVpcSite#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#hash_algorithms AwsVpcSite#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -16443,15 +16443,15 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16590,15 +16590,15 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#decryption_provider AwsVpcSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#store_provider AwsVpcSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16737,11 +16737,11 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#url AwsVpcSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#url AwsVpcSite#url}
   */
   readonly url: string;
 }
@@ -16851,23 +16851,23 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#key AwsVpcSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#key AwsVpcSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#location AwsVpcSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#location AwsVpcSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#provider AwsVpcSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding AwsVpcSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#version AwsVpcSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#version AwsVpcSite#version}
   */
   readonly version?: number;
 }
@@ -17061,7 +17061,7 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#name AwsVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#name AwsVpcSite#name}
   */
   readonly name: string;
 }
@@ -17142,37 +17142,37 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#secret_encoding_type AwsVpcSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info AwsVpcSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#blindfold_secret_info_internal AwsVpcSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#clear_secret_info AwsVpcSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#vault_secret_info AwsVpcSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#wingman_secret_info AwsVpcSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
 }
@@ -17450,35 +17450,35 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#certificate_url AwsVpcSite#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#certificate_url AwsVpcSite#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#description AwsVpcSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#description AwsVpcSite#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_hash_algorithms AwsVpcSite#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_hash_algorithms AwsVpcSite#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_ocsp_stapling AwsVpcSite#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_ocsp_stapling AwsVpcSite#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#private_key AwsVpcSite#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#private_key AwsVpcSite#private_key}
   */
   readonly privateKey: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#use_system_defaults AwsVpcSite#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#use_system_defaults AwsVpcSite#use_system_defaults}
   */
   readonly useSystemDefaults?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
 }
@@ -17701,15 +17701,15 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#exact_value AwsVpcSite#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#exact_value AwsVpcSite#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#regex_value AwsVpcSite#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#regex_value AwsVpcSite#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#suffix_value AwsVpcSite#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#suffix_value AwsVpcSite#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -17851,17 +17851,17 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#disable_interception AwsVpcSite#disable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#disable_interception AwsVpcSite#disable_interception}
   */
   readonly disableInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_interception AwsVpcSite#enable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_interception AwsVpcSite#enable_interception}
   */
   readonly enableInterception?: boolean | cdktf.IResolvable;
   /**
   * domain_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#domain_match AwsVpcSite#domain_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#domain_match AwsVpcSite#domain_match}
   */
   readonly domainMatch: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
 }
@@ -18034,7 +18034,7 @@ export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnect
   /**
   * interception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#interception_rules AwsVpcSite#interception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#interception_rules AwsVpcSite#interception_rules}
   */
   readonly interceptionRules: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
 }
@@ -18115,31 +18115,31 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#enable_for_all_domains AwsVpcSite#enable_for_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#enable_for_all_domains AwsVpcSite#enable_for_all_domains}
   */
   readonly enableForAllDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#trusted_ca_url AwsVpcSite#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#trusted_ca_url AwsVpcSite#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#volterra_certificate AwsVpcSite#volterra_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#volterra_certificate AwsVpcSite#volterra_certificate}
   */
   readonly volterraCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#volterra_trusted_ca AwsVpcSite#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#volterra_trusted_ca AwsVpcSite#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * custom_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#custom_certificate AwsVpcSite#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#custom_certificate AwsVpcSite#custom_certificate}
   */
   readonly customCertificate?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#policy AwsVpcSite#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#policy AwsVpcSite#policy}
   */
   readonly policy?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
 }
@@ -18368,29 +18368,29 @@ export class AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections
 }
 export interface AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#connection_timeout AwsVpcSite#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#connection_timeout AwsVpcSite#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#max_connect_attempts AwsVpcSite#max_connect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#max_connect_attempts AwsVpcSite#max_connect_attempts}
   */
   readonly maxConnectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#no_interception AwsVpcSite#no_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#no_interception AwsVpcSite#no_interception}
   */
   readonly noInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#white_listed_ports AwsVpcSite#white_listed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#white_listed_ports AwsVpcSite#white_listed_ports}
   */
   readonly whiteListedPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#white_listed_prefixes AwsVpcSite#white_listed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#white_listed_prefixes AwsVpcSite#white_listed_prefixes}
   */
   readonly whiteListedPrefixes?: string[];
   /**
   * tls_intercept block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_vpc_site#tls_intercept AwsVpcSite#tls_intercept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/aws_vpc_site#tls_intercept AwsVpcSite#tls_intercept}
   */
   readonly tlsIntercept?: AwsVpcSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface VpngatewaySslVpnserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#cipher VpngatewaySslVpnserver#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#cipher VpngatewaySslVpnserver#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#client_ip_pool VpngatewaySslVpnserver#client_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#client_ip_pool VpngatewaySslVpnserver#client_ip_pool}
   */
   readonly clientIpPool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#compress VpngatewaySslVpnserver#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#compress VpngatewaySslVpnserver#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#id VpngatewaySslVpnserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#id VpngatewaySslVpnserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#local_subnet VpngatewaySslVpnserver#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#local_subnet VpngatewaySslVpnserver#local_subnet}
   */
   readonly localSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#port VpngatewaySslVpnserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#port VpngatewaySslVpnserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#proto VpngatewaySslVpnserver#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#proto VpngatewaySslVpnserver#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#ssl_vpn_server_name VpngatewaySslVpnserver#ssl_vpn_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#ssl_vpn_server_name VpngatewaySslVpnserver#ssl_vpn_server_name}
   */
   readonly sslVpnServerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#vpn_gateway_id VpngatewaySslVpnserver#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#vpn_gateway_id VpngatewaySslVpnserver#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver alibabacloudstack_vpngateway_ssl_vpnserver}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver alibabacloudstack_vpngateway_ssl_vpnserver}
 */
 export class VpngatewaySslVpnserver extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class VpngatewaySslVpnserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpngatewaySslVpnserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpngatewaySslVpnserver to import
-  * @param importFromId The id of the existing VpngatewaySslVpnserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpngatewaySslVpnserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpngatewaySslVpnserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class VpngatewaySslVpnserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_ssl_vpnserver alibabacloudstack_vpngateway_ssl_vpnserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/vpngateway_ssl_vpnserver alibabacloudstack_vpngateway_ssl_vpnserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class VpngatewaySslVpnserver extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpngateway_ssl_vpnserver',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

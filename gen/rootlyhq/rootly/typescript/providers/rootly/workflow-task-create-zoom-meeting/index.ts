@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateZoomMeetingConfig extends cdktf.TerraformMeta
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#enabled WorkflowTaskCreateZoomMeeting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#enabled WorkflowTaskCreateZoomMeeting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#id WorkflowTaskCreateZoomMeeting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#id WorkflowTaskCreateZoomMeeting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskCreateZoomMeetingConfig extends cdktf.TerraformMeta
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#name WorkflowTaskCreateZoomMeeting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#name WorkflowTaskCreateZoomMeeting#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#position WorkflowTaskCreateZoomMeeting#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#position WorkflowTaskCreateZoomMeeting#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#skip_on_failure WorkflowTaskCreateZoomMeeting#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#skip_on_failure WorkflowTaskCreateZoomMeeting#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#workflow_id WorkflowTaskCreateZoomMeeting#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#workflow_id WorkflowTaskCreateZoomMeeting#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#task_params WorkflowTaskCreateZoomMeeting#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#task_params WorkflowTaskCreateZoomMeeting#task_params}
   */
   readonly taskParams: WorkflowTaskCreateZoomMeetingTaskParams;
 }
 export interface WorkflowTaskCreateZoomMeetingTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#id WorkflowTaskCreateZoomMeeting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#id WorkflowTaskCreateZoomMeeting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#name WorkflowTaskCreateZoomMeeting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#name WorkflowTaskCreateZoomMeeting#name}
   */
   readonly name: string;
 }
@@ -199,53 +199,53 @@ export class WorkflowTaskCreateZoomMeetingTaskParamsPostToSlackChannelsList exte
 }
 export interface WorkflowTaskCreateZoomMeetingTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#alternative_hosts WorkflowTaskCreateZoomMeeting#alternative_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#alternative_hosts WorkflowTaskCreateZoomMeeting#alternative_hosts}
   */
   readonly alternativeHosts?: string[];
   /**
   * Value must be one of `none`, `local`, `cloud`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#auto_recording WorkflowTaskCreateZoomMeeting#auto_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#auto_recording WorkflowTaskCreateZoomMeeting#auto_recording}
   */
   readonly autoRecording?: string;
   /**
   * The email to use if creating as email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#create_as_email WorkflowTaskCreateZoomMeeting#create_as_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#create_as_email WorkflowTaskCreateZoomMeeting#create_as_email}
   */
   readonly createAsEmail?: string;
   /**
   * The meeting password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#password WorkflowTaskCreateZoomMeeting#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#password WorkflowTaskCreateZoomMeeting#password}
   */
   readonly password?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#post_to_incident_timeline WorkflowTaskCreateZoomMeeting#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#post_to_incident_timeline WorkflowTaskCreateZoomMeeting#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
   * Rootly AI will record the meeting and automatically generate a transcript and summary from your meeting. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#record_meeting WorkflowTaskCreateZoomMeeting#record_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#record_meeting WorkflowTaskCreateZoomMeeting#record_meeting}
   */
   readonly recordMeeting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#task_type WorkflowTaskCreateZoomMeeting#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#task_type WorkflowTaskCreateZoomMeeting#task_type}
   */
   readonly taskType?: string;
   /**
   * The meeting topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#topic WorkflowTaskCreateZoomMeeting#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#topic WorkflowTaskCreateZoomMeeting#topic}
   */
   readonly topic: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#post_to_slack_channels WorkflowTaskCreateZoomMeeting#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#post_to_slack_channels WorkflowTaskCreateZoomMeeting#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskCreateZoomMeetingTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -558,7 +558,7 @@ export class WorkflowTaskCreateZoomMeetingTaskParamsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting rootly_workflow_task_create_zoom_meeting}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting rootly_workflow_task_create_zoom_meeting}
 */
 export class WorkflowTaskCreateZoomMeeting extends cdktf.TerraformResource {
 
@@ -574,7 +574,7 @@ export class WorkflowTaskCreateZoomMeeting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateZoomMeeting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateZoomMeeting to import
-  * @param importFromId The id of the existing WorkflowTaskCreateZoomMeeting that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateZoomMeeting that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateZoomMeeting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class WorkflowTaskCreateZoomMeeting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zoom_meeting rootly_workflow_task_create_zoom_meeting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_zoom_meeting rootly_workflow_task_create_zoom_meeting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class WorkflowTaskCreateZoomMeeting extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_zoom_meeting',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

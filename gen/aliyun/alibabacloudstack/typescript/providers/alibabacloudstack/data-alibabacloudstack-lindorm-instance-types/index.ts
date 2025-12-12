@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackLindormInstanceTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#cpu DataAlibabacloudstackLindormInstanceTypes#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#cpu DataAlibabacloudstackLindormInstanceTypes#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#engine_type DataAlibabacloudstackLindormInstanceTypes#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#engine_type DataAlibabacloudstackLindormInstanceTypes#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#id DataAlibabacloudstackLindormInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#id DataAlibabacloudstackLindormInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#ids DataAlibabacloudstackLindormInstanceTypes#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#ids DataAlibabacloudstackLindormInstanceTypes#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#memory DataAlibabacloudstackLindormInstanceTypes#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#memory DataAlibabacloudstackLindormInstanceTypes#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#sorted_by DataAlibabacloudstackLindormInstanceTypes#sorted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#sorted_by DataAlibabacloudstackLindormInstanceTypes#sorted_by}
   */
   readonly sortedBy?: string;
 }
@@ -132,7 +132,7 @@ export class DataAlibabacloudstackLindormInstanceTypesInstanceTypesList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types alibabacloudstack_lindorm_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types alibabacloudstack_lindorm_instance_types}
 */
 export class DataAlibabacloudstackLindormInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataAlibabacloudstackLindormInstanceTypes extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlibabacloudstackLindormInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackLindormInstanceTypes to import
-  * @param importFromId The id of the existing DataAlibabacloudstackLindormInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackLindormInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackLindormInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataAlibabacloudstackLindormInstanceTypes extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/lindorm_instance_types alibabacloudstack_lindorm_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/lindorm_instance_types alibabacloudstack_lindorm_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataAlibabacloudstackLindormInstanceTypes extends cdktf.TerraformDa
       terraformResourceType: 'alibabacloudstack_lindorm_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

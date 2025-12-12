@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOctopusdeployGitCredentialsConfig extends cdktf.TerraformMe
   /**
   * The name of the Git Credential to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials#name DataOctopusdeployGitCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials#name DataOctopusdeployGitCredentials#name}
   */
   readonly name?: string;
   /**
   * The number of records to skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials#skip DataOctopusdeployGitCredentials#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials#skip DataOctopusdeployGitCredentials#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this Git Credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials#space_id DataOctopusdeployGitCredentials#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials#space_id DataOctopusdeployGitCredentials#space_id}
   */
   readonly spaceId?: string;
   /**
   * The number of records to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials#take DataOctopusdeployGitCredentials#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials#take DataOctopusdeployGitCredentials#take}
   */
   readonly take?: number;
 }
@@ -199,7 +199,7 @@ export class DataOctopusdeployGitCredentialsGitCredentialsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials octopusdeploy_git_credentials}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials octopusdeploy_git_credentials}
 */
 export class DataOctopusdeployGitCredentials extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataOctopusdeployGitCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployGitCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployGitCredentials to import
-  * @param importFromId The id of the existing DataOctopusdeployGitCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployGitCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployGitCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataOctopusdeployGitCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/data-sources/git_credentials octopusdeploy_git_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/git_credentials octopusdeploy_git_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataOctopusdeployGitCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_git_credentials',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

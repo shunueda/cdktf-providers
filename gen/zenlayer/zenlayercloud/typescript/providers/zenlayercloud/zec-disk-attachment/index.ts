@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecDiskAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment#disk_id ZecDiskAttachment#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment#disk_id ZecDiskAttachment#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment#id ZecDiskAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment#id ZecDiskAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ZecDiskAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of a ZEC instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment#instance_id ZecDiskAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment#instance_id ZecDiskAttachment#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment zenlayercloud_zec_disk_attachment}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment zenlayercloud_zec_disk_attachment}
 */
 export class ZecDiskAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ZecDiskAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecDiskAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecDiskAttachment to import
-  * @param importFromId The id of the existing ZecDiskAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecDiskAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecDiskAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ZecDiskAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_disk_attachment zenlayercloud_zec_disk_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_disk_attachment zenlayercloud_zec_disk_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ZecDiskAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_disk_attachment',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

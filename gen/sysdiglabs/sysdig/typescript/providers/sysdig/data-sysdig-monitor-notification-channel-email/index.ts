@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigMonitorNotificationChannelEmailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#enabled DataSysdigMonitorNotificationChannelEmail#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#enabled DataSysdigMonitorNotificationChannelEmail#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#id DataSysdigMonitorNotificationChannelEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#id DataSysdigMonitorNotificationChannelEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#name DataSysdigMonitorNotificationChannelEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#name DataSysdigMonitorNotificationChannelEmail#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#notify_when_ok DataSysdigMonitorNotificationChannelEmail#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#notify_when_ok DataSysdigMonitorNotificationChannelEmail#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#notify_when_resolved DataSysdigMonitorNotificationChannelEmail#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#notify_when_resolved DataSysdigMonitorNotificationChannelEmail#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#send_test_notification DataSysdigMonitorNotificationChannelEmail#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#send_test_notification DataSysdigMonitorNotificationChannelEmail#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#share_with_current_team DataSysdigMonitorNotificationChannelEmail#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#share_with_current_team DataSysdigMonitorNotificationChannelEmail#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#timeouts DataSysdigMonitorNotificationChannelEmail#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#timeouts DataSysdigMonitorNotificationChannelEmail#timeouts}
   */
   readonly timeouts?: DataSysdigMonitorNotificationChannelEmailTimeouts;
 }
 export interface DataSysdigMonitorNotificationChannelEmailTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#read DataSysdigMonitorNotificationChannelEmail#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#read DataSysdigMonitorNotificationChannelEmail#read}
   */
   readonly read?: string;
 }
@@ -141,7 +141,7 @@ export class DataSysdigMonitorNotificationChannelEmailTimeoutsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email sysdig_monitor_notification_channel_email}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email sysdig_monitor_notification_channel_email}
 */
 export class DataSysdigMonitorNotificationChannelEmail extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataSysdigMonitorNotificationChannelEmail extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataSysdigMonitorNotificationChannelEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigMonitorNotificationChannelEmail to import
-  * @param importFromId The id of the existing DataSysdigMonitorNotificationChannelEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigMonitorNotificationChannelEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigMonitorNotificationChannelEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataSysdigMonitorNotificationChannelEmail extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_email sysdig_monitor_notification_channel_email} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/monitor_notification_channel_email sysdig_monitor_notification_channel_email} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataSysdigMonitorNotificationChannelEmail extends cdktf.TerraformDa
       terraformResourceType: 'sysdig_monitor_notification_channel_email',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

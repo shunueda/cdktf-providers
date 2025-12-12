@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackExpressConnectPhysicalConnectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#id DataAlibabacloudstackExpressConnectPhysicalConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#id DataAlibabacloudstackExpressConnectPhysicalConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#ids DataAlibabacloudstackExpressConnectPhysicalConnections#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#ids DataAlibabacloudstackExpressConnectPhysicalConnections#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#include_reservation_data DataAlibabacloudstackExpressConnectPhysicalConnections#include_reservation_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#include_reservation_data DataAlibabacloudstackExpressConnectPhysicalConnections#include_reservation_data}
   */
   readonly includeReservationData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#name_regex DataAlibabacloudstackExpressConnectPhysicalConnections#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#name_regex DataAlibabacloudstackExpressConnectPhysicalConnections#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#output_file DataAlibabacloudstackExpressConnectPhysicalConnections#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#output_file DataAlibabacloudstackExpressConnectPhysicalConnections#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#status DataAlibabacloudstackExpressConnectPhysicalConnections#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#status DataAlibabacloudstackExpressConnectPhysicalConnections#status}
   */
   readonly status?: string;
 }
@@ -237,7 +237,7 @@ export class DataAlibabacloudstackExpressConnectPhysicalConnectionsConnectionsLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections alibabacloudstack_express_connect_physical_connections}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections alibabacloudstack_express_connect_physical_connections}
 */
 export class DataAlibabacloudstackExpressConnectPhysicalConnections extends cdktf.TerraformDataSource {
 
@@ -253,7 +253,7 @@ export class DataAlibabacloudstackExpressConnectPhysicalConnections extends cdkt
   * Generates CDKTF code for importing a DataAlibabacloudstackExpressConnectPhysicalConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackExpressConnectPhysicalConnections to import
-  * @param importFromId The id of the existing DataAlibabacloudstackExpressConnectPhysicalConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackExpressConnectPhysicalConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackExpressConnectPhysicalConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class DataAlibabacloudstackExpressConnectPhysicalConnections extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/express_connect_physical_connections alibabacloudstack_express_connect_physical_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/express_connect_physical_connections alibabacloudstack_express_connect_physical_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class DataAlibabacloudstackExpressConnectPhysicalConnections extends cdkt
       terraformResourceType: 'alibabacloudstack_express_connect_physical_connections',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

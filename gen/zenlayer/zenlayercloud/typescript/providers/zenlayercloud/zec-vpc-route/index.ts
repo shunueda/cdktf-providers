@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecVpcRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination address block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#destination_cidr_block ZecVpcRoute#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#destination_cidr_block ZecVpcRoute#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#id ZecVpcRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#id ZecVpcRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface ZecVpcRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP stack type. Valid values: `IPv4`, `IPv6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#ip_version ZecVpcRoute#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#ip_version ZecVpcRoute#ip_version}
   */
   readonly ipVersion: string;
   /**
   * The name of the VPC route. The name should start and end with a number or a letter, containing 2 to 63 characters. Only letters, numbers, - and periods (.) are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#name ZecVpcRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#name ZecVpcRoute#name}
   */
   readonly name: string;
   /**
   * ID of next hop instance. Currently only ID of vNIC is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#next_hop_id ZecVpcRoute#next_hop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#next_hop_id ZecVpcRoute#next_hop_id}
   */
   readonly nextHopId: string;
   /**
   * Priority of the route entry. Valid value: from `0` to `65535`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#priority ZecVpcRoute#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#priority ZecVpcRoute#priority}
   */
   readonly priority: number;
   /**
   * Route type. Valid values: `RouteTypeStatic`, `RouteTypePolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#route_type ZecVpcRoute#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#route_type ZecVpcRoute#route_type}
   */
   readonly routeType: string;
   /**
   * The source IP matched. Required when the `route_type` is `RouteTypePolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#source_ip ZecVpcRoute#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#source_ip ZecVpcRoute#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#vpc_id ZecVpcRoute#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#vpc_id ZecVpcRoute#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route zenlayercloud_zec_vpc_route}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route zenlayercloud_zec_vpc_route}
 */
 export class ZecVpcRoute extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ZecVpcRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecVpcRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecVpcRoute to import
-  * @param importFromId The id of the existing ZecVpcRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecVpcRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecVpcRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ZecVpcRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/zec_vpc_route zenlayercloud_zec_vpc_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/zec_vpc_route zenlayercloud_zec_vpc_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ZecVpcRoute extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_vpc_route',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

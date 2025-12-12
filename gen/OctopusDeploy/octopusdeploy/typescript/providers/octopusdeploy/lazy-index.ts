@@ -45,7 +45,14 @@ Object.defineProperty(exports, 'nugetFeed', { get: function () { return require(
 Object.defineProperty(exports, 'ociRegistryFeed', { get: function () { return require('./oci-registry-feed'); } });
 Object.defineProperty(exports, 'offlinePackageDropDeploymentTarget', { get: function () { return require('./offline-package-drop-deployment-target'); } });
 Object.defineProperty(exports, 'parentEnvironment', { get: function () { return require('./parent-environment'); } });
+Object.defineProperty(exports, 'platformHubAwsAccount', { get: function () { return require('./platform-hub-aws-account'); } });
+Object.defineProperty(exports, 'platformHubAwsOpenidConnectAccount', { get: function () { return require('./platform-hub-aws-openid-connect-account'); } });
+Object.defineProperty(exports, 'platformHubAzureOidcAccount', { get: function () { return require('./platform-hub-azure-oidc-account'); } });
+Object.defineProperty(exports, 'platformHubAzureServicePrincipalAccount', { get: function () { return require('./platform-hub-azure-service-principal-account'); } });
+Object.defineProperty(exports, 'platformHubGcpAccount', { get: function () { return require('./platform-hub-gcp-account'); } });
+Object.defineProperty(exports, 'platformHubGenericOidcAccount', { get: function () { return require('./platform-hub-generic-oidc-account'); } });
 Object.defineProperty(exports, 'platformHubGitCredential', { get: function () { return require('./platform-hub-git-credential'); } });
+Object.defineProperty(exports, 'platformHubUsernamePasswordAccount', { get: function () { return require('./platform-hub-username-password-account'); } });
 Object.defineProperty(exports, 'platformHubVersionControlAnonymousSettings', { get: function () { return require('./platform-hub-version-control-anonymous-settings'); } });
 Object.defineProperty(exports, 'platformHubVersionControlUsernamePasswordSettings', { get: function () { return require('./platform-hub-version-control-username-password-settings'); } });
 Object.defineProperty(exports, 'pollingSubscriptionId', { get: function () { return require('./polling-subscription-id'); } });
@@ -73,6 +80,7 @@ Object.defineProperty(exports, 'serviceAccountOidcIdentity', { get: function () 
 Object.defineProperty(exports, 'space', { get: function () { return require('./space'); } });
 Object.defineProperty(exports, 'spaceDefaultLifecycleReleaseRetentionPolicy', { get: function () { return require('./space-default-lifecycle-release-retention-policy'); } });
 Object.defineProperty(exports, 'spaceDefaultLifecycleTentacleRetentionPolicy', { get: function () { return require('./space-default-lifecycle-tentacle-retention-policy'); } });
+Object.defineProperty(exports, 'spaceDefaultRunbookRetentionPolicy', { get: function () { return require('./space-default-runbook-retention-policy'); } });
 Object.defineProperty(exports, 'sshConnectionDeploymentTarget', { get: function () { return require('./ssh-connection-deployment-target'); } });
 Object.defineProperty(exports, 'sshConnectionWorker', { get: function () { return require('./ssh-connection-worker'); } });
 Object.defineProperty(exports, 'sshKeyAccount', { get: function () { return require('./ssh-key-account'); } });
@@ -122,6 +130,7 @@ Object.defineProperty(exports, 'dataOctopusdeployServiceAccountOidcIdentity', { 
 Object.defineProperty(exports, 'dataOctopusdeploySpace', { get: function () { return require('./data-octopusdeploy-space'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy', { get: function () { return require('./data-octopusdeploy-space-default-lifecycle-release-retention-policy'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySpaceDefaultLifecycleTentacleRetentionPolicy', { get: function () { return require('./data-octopusdeploy-space-default-lifecycle-tentacle-retention-policy'); } });
+Object.defineProperty(exports, 'dataOctopusdeploySpaceDefaultRunbookRetentionPolicy', { get: function () { return require('./data-octopusdeploy-space-default-runbook-retention-policy'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySpaces', { get: function () { return require('./data-octopusdeploy-spaces'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySshConnectionDeploymentTargets', { get: function () { return require('./data-octopusdeploy-ssh-connection-deployment-targets'); } });
 Object.defineProperty(exports, 'dataOctopusdeployStepTemplate', { get: function () { return require('./data-octopusdeploy-step-template'); } });

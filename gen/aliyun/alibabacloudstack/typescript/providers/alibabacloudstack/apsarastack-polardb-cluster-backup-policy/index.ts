@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackPolardbClusterBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_period ApsarastackPolardbClusterBackupPolicy#data_level1_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_period ApsarastackPolardbClusterBackupPolicy#data_level1_backup_period}
   */
   readonly dataLevel1BackupPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_retention_period ApsarastackPolardbClusterBackupPolicy#data_level1_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_retention_period ApsarastackPolardbClusterBackupPolicy#data_level1_backup_retention_period}
   */
   readonly dataLevel1BackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_time ApsarastackPolardbClusterBackupPolicy#data_level1_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#data_level1_backup_time ApsarastackPolardbClusterBackupPolicy#data_level1_backup_time}
   */
   readonly dataLevel1BackupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#db_cluster_id ApsarastackPolardbClusterBackupPolicy#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#db_cluster_id ApsarastackPolardbClusterBackupPolicy#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#id ApsarastackPolardbClusterBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#id ApsarastackPolardbClusterBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#log_backup_retention_period ApsarastackPolardbClusterBackupPolicy#log_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#log_backup_retention_period ApsarastackPolardbClusterBackupPolicy#log_backup_retention_period}
   */
   readonly logBackupRetentionPeriod?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy apsarastack_polardb_cluster_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy apsarastack_polardb_cluster_backup_policy}
 */
 export class ApsarastackPolardbClusterBackupPolicy extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ApsarastackPolardbClusterBackupPolicy extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ApsarastackPolardbClusterBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackPolardbClusterBackupPolicy to import
-  * @param importFromId The id of the existing ApsarastackPolardbClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackPolardbClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackPolardbClusterBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ApsarastackPolardbClusterBackupPolicy extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardb_cluster_backup_policy apsarastack_polardb_cluster_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardb_cluster_backup_policy apsarastack_polardb_cluster_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ApsarastackPolardbClusterBackupPolicy extends cdktf.TerraformResour
       terraformResourceType: 'apsarastack_polardb_cluster_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

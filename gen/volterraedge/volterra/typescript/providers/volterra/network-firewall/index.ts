@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#annotations NetworkFirewall#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#annotations NetworkFirewall#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#description NetworkFirewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#description NetworkFirewall#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable NetworkFirewall#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#disable NetworkFirewall#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_fast_acl NetworkFirewall#disable_fast_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#disable_fast_acl NetworkFirewall#disable_fast_acl}
   */
   readonly disableFastAcl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_forward_proxy_policy NetworkFirewall#disable_forward_proxy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#disable_forward_proxy_policy NetworkFirewall#disable_forward_proxy_policy}
   */
   readonly disableForwardProxyPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_network_policy NetworkFirewall#disable_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#disable_network_policy NetworkFirewall#disable_network_policy}
   */
   readonly disableNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#id NetworkFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#id NetworkFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#labels NetworkFirewall#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#labels NetworkFirewall#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace: string;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_enhanced_firewall_policies NetworkFirewall#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#active_enhanced_firewall_policies NetworkFirewall#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: NetworkFirewallActiveEnhancedFirewallPolicies;
   /**
   * active_fast_acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_fast_acls NetworkFirewall#active_fast_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#active_fast_acls NetworkFirewall#active_fast_acls}
   */
   readonly activeFastAcls?: NetworkFirewallActiveFastAcls;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_forward_proxy_policies NetworkFirewall#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#active_forward_proxy_policies NetworkFirewall#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: NetworkFirewallActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_network_policies NetworkFirewall#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#active_network_policies NetworkFirewall#active_network_policies}
   */
   readonly activeNetworkPolicies?: NetworkFirewallActiveNetworkPolicies;
   /**
   * fast_acl_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#fast_acl_set NetworkFirewall#fast_acl_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#fast_acl_set NetworkFirewall#fast_acl_set}
   */
   readonly fastAclSet?: NetworkFirewallFastAclSet;
   /**
   * forward_proxy_policy_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#forward_proxy_policy_set NetworkFirewall#forward_proxy_policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#forward_proxy_policy_set NetworkFirewall#forward_proxy_policy_set}
   */
   readonly forwardProxyPolicySet?: NetworkFirewallForwardProxyPolicySet;
   /**
   * network_policy_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#network_policy_set NetworkFirewall#network_policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#network_policy_set NetworkFirewall#network_policy_set}
   */
   readonly networkPolicySet?: NetworkFirewallNetworkPolicySet;
 }
 export interface NetworkFirewallActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -279,7 +279,7 @@ export interface NetworkFirewallActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#enhanced_firewall_policies NetworkFirewall#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#enhanced_firewall_policies NetworkFirewall#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: NetworkFirewallActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -360,15 +360,15 @@ export class NetworkFirewallActiveEnhancedFirewallPoliciesOutputReference extend
 }
 export interface NetworkFirewallActiveFastAclsFastAcls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -544,7 +544,7 @@ export interface NetworkFirewallActiveFastAcls {
   /**
   * fast_acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#fast_acls NetworkFirewall#fast_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#fast_acls NetworkFirewall#fast_acls}
   */
   readonly fastAcls: NetworkFirewallActiveFastAclsFastAcls[] | cdktf.IResolvable;
 }
@@ -625,15 +625,15 @@ export class NetworkFirewallActiveFastAclsOutputReference extends cdktf.ComplexO
 }
 export interface NetworkFirewallActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -809,7 +809,7 @@ export interface NetworkFirewallActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#forward_proxy_policies NetworkFirewall#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#forward_proxy_policies NetworkFirewall#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: NetworkFirewallActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -890,15 +890,15 @@ export class NetworkFirewallActiveForwardProxyPoliciesOutputReference extends cd
 }
 export interface NetworkFirewallActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -1074,7 +1074,7 @@ export interface NetworkFirewallActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#network_policies NetworkFirewall#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#network_policies NetworkFirewall#network_policies}
   */
   readonly networkPolicies: NetworkFirewallActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -1155,15 +1155,15 @@ export class NetworkFirewallActiveNetworkPoliciesOutputReference extends cdktf.C
 }
 export interface NetworkFirewallFastAclSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -1305,15 +1305,15 @@ export class NetworkFirewallFastAclSetOutputReference extends cdktf.ComplexObjec
 }
 export interface NetworkFirewallForwardProxyPolicySet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -1455,15 +1455,15 @@ export class NetworkFirewallForwardProxyPolicySetOutputReference extends cdktf.C
 }
 export interface NetworkFirewallNetworkPolicySet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -1605,7 +1605,7 @@ export class NetworkFirewallNetworkPolicySetOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall volterra_network_firewall}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall volterra_network_firewall}
 */
 export class NetworkFirewall extends cdktf.TerraformResource {
 
@@ -1621,7 +1621,7 @@ export class NetworkFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirewall to import
-  * @param importFromId The id of the existing NetworkFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1633,7 +1633,7 @@ export class NetworkFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall volterra_network_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/network_firewall volterra_network_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1644,8 +1644,8 @@ export class NetworkFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_firewall',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

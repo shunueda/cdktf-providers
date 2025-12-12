@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexResourcemanagerCloudConfig extends cdktf.TerraformMet
   /**
   * ID of the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud#cloud_id DataYandexResourcemanagerCloud#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud#cloud_id DataYandexResourcemanagerCloud#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud#description DataYandexResourcemanagerCloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud#description DataYandexResourcemanagerCloud#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud#id DataYandexResourcemanagerCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud#id DataYandexResourcemanagerCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataYandexResourcemanagerCloudConfig extends cdktf.TerraformMet
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud#name DataYandexResourcemanagerCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud#name DataYandexResourcemanagerCloud#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud yandex_resourcemanager_cloud}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud yandex_resourcemanager_cloud}
 */
 export class DataYandexResourcemanagerCloud extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataYandexResourcemanagerCloud extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexResourcemanagerCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexResourcemanagerCloud to import
-  * @param importFromId The id of the existing DataYandexResourcemanagerCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexResourcemanagerCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexResourcemanagerCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataYandexResourcemanagerCloud extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/resourcemanager_cloud yandex_resourcemanager_cloud} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/resourcemanager_cloud yandex_resourcemanager_cloud} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataYandexResourcemanagerCloud extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_resourcemanager_cloud',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

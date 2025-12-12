@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureRuleProcessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process#name DataSysdigSecureRuleProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process#name DataSysdigSecureRuleProcess#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process#timeouts DataSysdigSecureRuleProcess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process#timeouts DataSysdigSecureRuleProcess#timeouts}
   */
   readonly timeouts?: DataSysdigSecureRuleProcessTimeouts;
 }
 export interface DataSysdigSecureRuleProcessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process#read DataSysdigSecureRuleProcess#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process#read DataSysdigSecureRuleProcess#read}
   */
   readonly read?: string;
 }
@@ -114,7 +114,7 @@ export class DataSysdigSecureRuleProcessTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process sysdig_secure_rule_process}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process sysdig_secure_rule_process}
 */
 export class DataSysdigSecureRuleProcess extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataSysdigSecureRuleProcess extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureRuleProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureRuleProcess to import
-  * @param importFromId The id of the existing DataSysdigSecureRuleProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureRuleProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureRuleProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataSysdigSecureRuleProcess extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_process sysdig_secure_rule_process} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/secure_rule_process sysdig_secure_rule_process} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataSysdigSecureRuleProcess extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_rule_process',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

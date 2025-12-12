@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface WafExclusionPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#annotations WafExclusionPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#annotations WafExclusionPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#description WafExclusionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#description WafExclusionPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#disable WafExclusionPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#disable WafExclusionPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#id WafExclusionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#id WafExclusionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#labels WafExclusionPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#labels WafExclusionPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#name WafExclusionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#name WafExclusionPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#namespace WafExclusionPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#namespace WafExclusionPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * waf_exclusion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#waf_exclusion_rules WafExclusionPolicy#waf_exclusion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#waf_exclusion_rules WafExclusionPolicy#waf_exclusion_rules}
   */
   readonly wafExclusionRules: WafExclusionPolicyWafExclusionRules[] | cdktf.IResolvable;
 }
 export interface WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeAttackTypeContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_attack_type WafExclusionPolicy#exclude_attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_attack_type WafExclusionPolicy#exclude_attack_type}
   */
   readonly excludeAttackType: string;
 }
@@ -223,7 +223,7 @@ export class WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExclu
 }
 export interface WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeBotNameContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#bot_name WafExclusionPolicy#bot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#bot_name WafExclusionPolicy#bot_name}
   */
   readonly botName: string;
 }
@@ -336,15 +336,15 @@ export class WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExclu
 }
 export interface WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeSignatureContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#signature_id WafExclusionPolicy#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#signature_id WafExclusionPolicy#signature_id}
   */
   readonly signatureId: number;
 }
@@ -512,15 +512,15 @@ export class WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExclu
 }
 export interface WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeViolationContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context WafExclusionPolicy#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#context_name WafExclusionPolicy#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_violation WafExclusionPolicy#exclude_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_violation WafExclusionPolicy#exclude_violation}
   */
   readonly excludeViolation: string;
 }
@@ -690,25 +690,25 @@ export interface WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControl 
   /**
   * exclude_attack_type_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_attack_type_contexts WafExclusionPolicy#exclude_attack_type_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_attack_type_contexts WafExclusionPolicy#exclude_attack_type_contexts}
   */
   readonly excludeAttackTypeContexts?: WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeAttackTypeContexts[] | cdktf.IResolvable;
   /**
   * exclude_bot_name_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_bot_name_contexts WafExclusionPolicy#exclude_bot_name_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_bot_name_contexts WafExclusionPolicy#exclude_bot_name_contexts}
   */
   readonly excludeBotNameContexts?: WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeBotNameContexts[] | cdktf.IResolvable;
   /**
   * exclude_signature_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_signature_contexts WafExclusionPolicy#exclude_signature_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_signature_contexts WafExclusionPolicy#exclude_signature_contexts}
   */
   readonly excludeSignatureContexts?: WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeSignatureContexts[] | cdktf.IResolvable;
   /**
   * exclude_violation_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exclude_violation_contexts WafExclusionPolicy#exclude_violation_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exclude_violation_contexts WafExclusionPolicy#exclude_violation_contexts}
   */
   readonly excludeViolationContexts?: WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlExcludeViolationContexts[] | cdktf.IResolvable;
 }
@@ -879,15 +879,15 @@ export class WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControlOutpu
 }
 export interface WafExclusionPolicyWafExclusionRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#description WafExclusionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#description WafExclusionPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#disable WafExclusionPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#disable WafExclusionPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#name WafExclusionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#name WafExclusionPolicy#name}
   */
   readonly name: string;
 }
@@ -1026,51 +1026,51 @@ export class WafExclusionPolicyWafExclusionRulesMetadataOutputReference extends 
 }
 export interface WafExclusionPolicyWafExclusionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#any_domain WafExclusionPolicy#any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#any_domain WafExclusionPolicy#any_domain}
   */
   readonly anyDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#any_path WafExclusionPolicy#any_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#any_path WafExclusionPolicy#any_path}
   */
   readonly anyPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#exact_value WafExclusionPolicy#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#exact_value WafExclusionPolicy#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#expiration_timestamp WafExclusionPolicy#expiration_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#expiration_timestamp WafExclusionPolicy#expiration_timestamp}
   */
   readonly expirationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#methods WafExclusionPolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#methods WafExclusionPolicy#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#path_prefix WafExclusionPolicy#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#path_prefix WafExclusionPolicy#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#path_regex WafExclusionPolicy#path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#path_regex WafExclusionPolicy#path_regex}
   */
   readonly pathRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#suffix_value WafExclusionPolicy#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#suffix_value WafExclusionPolicy#suffix_value}
   */
   readonly suffixValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#waf_skip_processing WafExclusionPolicy#waf_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#waf_skip_processing WafExclusionPolicy#waf_skip_processing}
   */
   readonly wafSkipProcessing?: boolean | cdktf.IResolvable;
   /**
   * app_firewall_detection_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#app_firewall_detection_control WafExclusionPolicy#app_firewall_detection_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#app_firewall_detection_control WafExclusionPolicy#app_firewall_detection_control}
   */
   readonly appFirewallDetectionControl?: WafExclusionPolicyWafExclusionRulesAppFirewallDetectionControl;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#metadata WafExclusionPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#metadata WafExclusionPolicy#metadata}
   */
   readonly metadata: WafExclusionPolicyWafExclusionRulesMetadata;
 }
@@ -1473,7 +1473,7 @@ export class WafExclusionPolicyWafExclusionRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy volterra_waf_exclusion_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy volterra_waf_exclusion_policy}
 */
 export class WafExclusionPolicy extends cdktf.TerraformResource {
 
@@ -1489,7 +1489,7 @@ export class WafExclusionPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafExclusionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafExclusionPolicy to import
-  * @param importFromId The id of the existing WafExclusionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafExclusionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafExclusionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1501,7 +1501,7 @@ export class WafExclusionPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/waf_exclusion_policy volterra_waf_exclusion_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/waf_exclusion_policy volterra_waf_exclusion_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1512,8 +1512,8 @@ export class WafExclusionPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_waf_exclusion_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

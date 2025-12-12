@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackCenTransitRouterMulticastDomainAssociationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#id DataApsarastackCenTransitRouterMulticastDomainAssociations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#id DataApsarastackCenTransitRouterMulticastDomainAssociations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#ids DataApsarastackCenTransitRouterMulticastDomainAssociations#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#ids DataApsarastackCenTransitRouterMulticastDomainAssociations#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#transit_router_multicast_domain_id DataApsarastackCenTransitRouterMulticastDomainAssociations#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#transit_router_multicast_domain_id DataApsarastackCenTransitRouterMulticastDomainAssociations#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#vswitch_id_regex DataApsarastackCenTransitRouterMulticastDomainAssociations#vswitch_id_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#vswitch_id_regex DataApsarastackCenTransitRouterMulticastDomainAssociations#vswitch_id_regex}
   */
   readonly vswitchIdRegex?: string;
 }
@@ -124,7 +124,7 @@ export class DataApsarastackCenTransitRouterMulticastDomainAssociationsTransitRo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations apsarastack_cen_transit_router_multicast_domain_associations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations apsarastack_cen_transit_router_multicast_domain_associations}
 */
 export class DataApsarastackCenTransitRouterMulticastDomainAssociations extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataApsarastackCenTransitRouterMulticastDomainAssociations extends 
   * Generates CDKTF code for importing a DataApsarastackCenTransitRouterMulticastDomainAssociations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackCenTransitRouterMulticastDomainAssociations to import
-  * @param importFromId The id of the existing DataApsarastackCenTransitRouterMulticastDomainAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackCenTransitRouterMulticastDomainAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackCenTransitRouterMulticastDomainAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataApsarastackCenTransitRouterMulticastDomainAssociations extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations apsarastack_cen_transit_router_multicast_domain_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_multicast_domain_associations apsarastack_cen_transit_router_multicast_domain_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataApsarastackCenTransitRouterMulticastDomainAssociations extends 
       terraformResourceType: 'apsarastack_cen_transit_router_multicast_domain_associations',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

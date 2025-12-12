@@ -1,19 +1,19 @@
 import * as cdktf from 'cdktf';
 export interface VoltstackSiteBlockedServicesBlockedSevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns VoltstackSite#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns VoltstackSite#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_type VoltstackSite#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_type VoltstackSite#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ssh VoltstackSite#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ssh VoltstackSite#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#web_user_interface VoltstackSite#web_user_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#web_user_interface VoltstackSite#web_user_interface}
   */
   readonly webUserInterface?: boolean | cdktf.IResolvable;
 }
@@ -218,7 +218,7 @@ export interface VoltstackSiteBlockedServices {
   /**
   * blocked_sevice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blocked_sevice VoltstackSite#blocked_sevice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blocked_sevice VoltstackSite#blocked_sevice}
   */
   readonly blockedSevice?: VoltstackSiteBlockedServicesBlockedSevice[] | cdktf.IResolvable;
 }
@@ -302,7 +302,7 @@ export class VoltstackSiteBlockedServicesOutputReference extends cdktf.ComplexOb
 }
 export interface VoltstackSiteBondDeviceListBondDevicesLacp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#rate VoltstackSite#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#rate VoltstackSite#rate}
   */
   readonly rate?: number;
 }
@@ -386,29 +386,29 @@ export class VoltstackSiteBondDeviceListBondDevicesLacpOutputReference extends c
 }
 export interface VoltstackSiteBondDeviceListBondDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#active_backup VoltstackSite#active_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#active_backup VoltstackSite#active_backup}
   */
   readonly activeBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#devices VoltstackSite#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#devices VoltstackSite#devices}
   */
   readonly devices: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#link_polling_interval VoltstackSite#link_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#link_polling_interval VoltstackSite#link_polling_interval}
   */
   readonly linkPollingInterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#link_up_delay VoltstackSite#link_up_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#link_up_delay VoltstackSite#link_up_delay}
   */
   readonly linkUpDelay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * lacp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#lacp VoltstackSite#lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#lacp VoltstackSite#lacp}
   */
   readonly lacp?: VoltstackSiteBondDeviceListBondDevicesLacp;
 }
@@ -659,7 +659,7 @@ export interface VoltstackSiteBondDeviceListStruct {
   /**
   * bond_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#bond_devices VoltstackSite#bond_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#bond_devices VoltstackSite#bond_devices}
   */
   readonly bondDevices: VoltstackSiteBondDeviceListBondDevices[] | cdktf.IResolvable;
 }
@@ -740,11 +740,11 @@ export class VoltstackSiteBondDeviceListStructOutputReference extends cdktf.Comp
 }
 export interface VoltstackSiteCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#latitude VoltstackSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#latitude VoltstackSite#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#longitude VoltstackSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#longitude VoltstackSite#longitude}
   */
   readonly longitude?: number;
 }
@@ -857,19 +857,19 @@ export class VoltstackSiteCoordinatesOutputReference extends cdktf.ComplexObject
 }
 export interface VoltstackSiteCustomDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#inside_nameserver VoltstackSite#inside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#inside_nameserver VoltstackSite#inside_nameserver}
   */
   readonly insideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#inside_nameserver_v6 VoltstackSite#inside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#inside_nameserver_v6 VoltstackSite#inside_nameserver_v6}
   */
   readonly insideNameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_nameserver VoltstackSite#outside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_nameserver VoltstackSite#outside_nameserver}
   */
   readonly outsideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#outside_nameserver_v6 VoltstackSite#outside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#outside_nameserver_v6 VoltstackSite#outside_nameserver_v6}
   */
   readonly outsideNameserverV6?: string;
 }
@@ -1040,15 +1040,15 @@ export class VoltstackSiteCustomDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface VoltstackSiteCustomNetworkConfigActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1224,7 +1224,7 @@ export interface VoltstackSiteCustomNetworkConfigActiveEnhancedFirewallPolicies 
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enhanced_firewall_policies VoltstackSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enhanced_firewall_policies VoltstackSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: VoltstackSiteCustomNetworkConfigActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -1305,15 +1305,15 @@ export class VoltstackSiteCustomNetworkConfigActiveEnhancedFirewallPoliciesOutpu
 }
 export interface VoltstackSiteCustomNetworkConfigActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1489,7 +1489,7 @@ export interface VoltstackSiteCustomNetworkConfigActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#forward_proxy_policies VoltstackSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#forward_proxy_policies VoltstackSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: VoltstackSiteCustomNetworkConfigActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -1570,15 +1570,15 @@ export class VoltstackSiteCustomNetworkConfigActiveForwardProxyPoliciesOutputRef
 }
 export interface VoltstackSiteCustomNetworkConfigActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1754,7 +1754,7 @@ export interface VoltstackSiteCustomNetworkConfigActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_policies VoltstackSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_policies VoltstackSite#network_policies}
   */
   readonly networkPolicies: VoltstackSiteCustomNetworkConfigActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -1835,7 +1835,7 @@ export class VoltstackSiteCustomNetworkConfigActiveNetworkPoliciesOutputReferenc
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#hash_algorithms VoltstackSite#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#hash_algorithms VoltstackSite#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -1965,15 +1965,15 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2112,15 +2112,15 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#decryption_provider VoltstackSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#store_provider VoltstackSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2259,11 +2259,11 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#url VoltstackSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#url VoltstackSite#url}
   */
   readonly url: string;
 }
@@ -2373,23 +2373,23 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#key VoltstackSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#key VoltstackSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#location VoltstackSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#location VoltstackSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#provider VoltstackSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#provider VoltstackSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding VoltstackSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#version VoltstackSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#version VoltstackSite#version}
   */
   readonly version?: number;
 }
@@ -2583,7 +2583,7 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
 }
@@ -2664,37 +2664,37 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#secret_encoding_type VoltstackSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info VoltstackSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#blindfold_secret_info_internal VoltstackSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#clear_secret_info VoltstackSite#clear_secret_info}
   */
   readonly clearSecretInfo?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vault_secret_info VoltstackSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#wingman_secret_info VoltstackSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
 }
@@ -2972,35 +2972,35 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#certificate_url VoltstackSite#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#certificate_url VoltstackSite#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#description VoltstackSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#description VoltstackSite#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#custom_hash_algorithms VoltstackSite#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#custom_hash_algorithms VoltstackSite#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#disable_ocsp_stapling VoltstackSite#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#disable_ocsp_stapling VoltstackSite#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#private_key VoltstackSite#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#private_key VoltstackSite#private_key}
   */
   readonly privateKey: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#use_system_defaults VoltstackSite#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#use_system_defaults VoltstackSite#use_system_defaults}
   */
   readonly useSystemDefaults?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
 }
@@ -3223,15 +3223,15 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exact_value VoltstackSite#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exact_value VoltstackSite#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#regex_value VoltstackSite#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#regex_value VoltstackSite#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#suffix_value VoltstackSite#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#suffix_value VoltstackSite#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -3373,17 +3373,17 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#disable_interception VoltstackSite#disable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#disable_interception VoltstackSite#disable_interception}
   */
   readonly disableInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_interception VoltstackSite#enable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_interception VoltstackSite#enable_interception}
   */
   readonly enableInterception?: boolean | cdktf.IResolvable;
   /**
   * domain_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#domain_match VoltstackSite#domain_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#domain_match VoltstackSite#domain_match}
   */
   readonly domainMatch: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
 }
@@ -3556,7 +3556,7 @@ export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkC
   /**
   * interception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interception_rules VoltstackSite#interception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interception_rules VoltstackSite#interception_rules}
   */
   readonly interceptionRules: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
 }
@@ -3637,31 +3637,31 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_for_all_domains VoltstackSite#enable_for_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_for_all_domains VoltstackSite#enable_for_all_domains}
   */
   readonly enableForAllDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#trusted_ca_url VoltstackSite#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#trusted_ca_url VoltstackSite#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volterra_certificate VoltstackSite#volterra_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volterra_certificate VoltstackSite#volterra_certificate}
   */
   readonly volterraCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#volterra_trusted_ca VoltstackSite#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#volterra_trusted_ca VoltstackSite#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * custom_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#custom_certificate VoltstackSite#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#custom_certificate VoltstackSite#custom_certificate}
   */
   readonly customCertificate?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#policy VoltstackSite#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#policy VoltstackSite#policy}
   */
   readonly policy?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
 }
@@ -3890,29 +3890,29 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#connection_timeout VoltstackSite#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#connection_timeout VoltstackSite#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#max_connect_attempts VoltstackSite#max_connect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#max_connect_attempts VoltstackSite#max_connect_attempts}
   */
   readonly maxConnectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_interception VoltstackSite#no_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_interception VoltstackSite#no_interception}
   */
   readonly noInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#white_listed_ports VoltstackSite#white_listed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#white_listed_ports VoltstackSite#white_listed_ports}
   */
   readonly whiteListedPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#white_listed_prefixes VoltstackSite#white_listed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#white_listed_prefixes VoltstackSite#white_listed_prefixes}
   */
   readonly whiteListedPrefixes?: string[];
   /**
   * tls_intercept block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tls_intercept VoltstackSite#tls_intercept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tls_intercept VoltstackSite#tls_intercept}
   */
   readonly tlsIntercept?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
 }
@@ -4141,15 +4141,15 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -4298,7 +4298,7 @@ export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkC
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#global_vn VoltstackSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#global_vn VoltstackSite#global_vn}
   */
   readonly globalVn: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -4379,15 +4379,15 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -4536,7 +4536,7 @@ export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkC
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#global_vn VoltstackSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#global_vn VoltstackSite#global_vn}
   */
   readonly globalVn: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -4617,25 +4617,25 @@ export class VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConne
 }
 export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#disable_forward_proxy VoltstackSite#disable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#disable_forward_proxy VoltstackSite#disable_forward_proxy}
   */
   readonly disableForwardProxy?: boolean | cdktf.IResolvable;
   /**
   * enable_forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#enable_forward_proxy VoltstackSite#enable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#enable_forward_proxy VoltstackSite#enable_forward_proxy}
   */
   readonly enableForwardProxy?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
   /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#sli_to_global_dr VoltstackSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#sli_to_global_dr VoltstackSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#slo_to_global_dr VoltstackSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#slo_to_global_dr VoltstackSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -4840,7 +4840,7 @@ export interface VoltstackSiteCustomNetworkConfigGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#global_network_connections VoltstackSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#global_network_connections VoltstackSite#global_network_connections}
   */
   readonly globalNetworkConnections: VoltstackSiteCustomNetworkConfigGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -4970,41 +4970,41 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedInt
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#device VoltstackSite#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#device VoltstackSite#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#is_primary VoltstackSite#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#is_primary VoltstackSite#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#monitor_disabled VoltstackSite#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#monitor_disabled VoltstackSite#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#not_primary VoltstackSite#not_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#not_primary VoltstackSite#not_primary}
   */
   readonly notPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#priority VoltstackSite#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#priority VoltstackSite#priority}
   */
   readonly priority?: number;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#monitor VoltstackSite#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#monitor VoltstackSite#monitor}
   */
   readonly monitor?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedInterfaceMonitor;
 }
@@ -5317,19 +5317,19 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedInt
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedManagementInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#device VoltstackSite#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#device VoltstackSite#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
 }
@@ -5497,15 +5497,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedMan
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5647,15 +5647,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
   */
   readonly startIp?: string;
 }
@@ -5829,43 +5829,43 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
   */
   readonly dgwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
   */
   readonly dnsAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
   */
   readonly poolSettings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
   */
   readonly sameAsDgw?: boolean | cdktf.IResolvable;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pools VoltstackSite#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pools VoltstackSite#pools}
   */
   readonly pools?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -6210,7 +6210,7 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -6294,31 +6294,31 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
   */
   readonly dhcpOption82Tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
   */
   readonly dhcpNetworks: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServerInterfaceIpMap;
 }
@@ -6544,15 +6544,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceInsideNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -6694,7 +6694,7 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_list VoltstackSite#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_list VoltstackSite#dns_list}
   */
   readonly dnsList: string[];
 }
@@ -6775,15 +6775,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterDnsConfigLocalDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#configured_address VoltstackSite#configured_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#configured_address VoltstackSite#configured_address}
   */
   readonly configuredAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
 }
@@ -6927,13 +6927,13 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernet
   /**
   * configured_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#configured_list VoltstackSite#configured_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#configured_list VoltstackSite#configured_list}
   */
   readonly configuredList?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
   /**
   * local_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#local_dns VoltstackSite#local_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#local_dns VoltstackSite#local_dns}
   */
   readonly localDns?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterDnsConfigLocalDns;
 }
@@ -7046,15 +7046,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -7196,15 +7196,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
   */
   readonly startIp?: string;
 }
@@ -7378,23 +7378,23 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
   */
   readonly poolSettings: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pools VoltstackSite#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pools VoltstackSite#pools}
   */
   readonly pools?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -7594,7 +7594,7 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -7678,27 +7678,27 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStateful {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
   */
   readonly dhcpNetworks: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStatefulInterfaceIpMap;
 }
@@ -7895,19 +7895,19 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_config VoltstackSite#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_config VoltstackSite#dns_config}
   */
   readonly dnsConfig?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterDnsConfig;
   /**
   * stateful block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#stateful VoltstackSite#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#stateful VoltstackSite#stateful}
   */
   readonly stateful?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouterStateful;
 }
@@ -8049,13 +8049,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#host VoltstackSite#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#host VoltstackSite#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#router VoltstackSite#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#router VoltstackSite#router}
   */
   readonly router?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfigRouter;
 }
@@ -8217,15 +8217,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceSegmentNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8367,15 +8367,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceSrv6Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8517,15 +8517,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -8664,13 +8664,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMapValue;
 }
@@ -8779,7 +8779,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernet
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpClusterStaticIpInterfaceIpMap;
 }
@@ -8863,15 +8863,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -9013,17 +9013,17 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator;
 }
@@ -9165,15 +9165,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -9314,19 +9314,19 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernet
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpNodeStaticIp;
 }
@@ -9468,15 +9468,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -9615,13 +9615,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
 }
@@ -9730,7 +9730,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernet
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMap;
 }
@@ -9814,15 +9814,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -9964,17 +9964,17 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator;
 }
@@ -10116,15 +10116,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -10265,19 +10265,19 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernet
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6AddressNodeStaticIp;
 }
@@ -10419,115 +10419,115 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#device VoltstackSite#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#device VoltstackSite#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_client VoltstackSite#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_client VoltstackSite#dhcp_client}
   */
   readonly dhcpClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_fabric_network VoltstackSite#ip_fabric_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_fabric_network VoltstackSite#ip_fabric_network}
   */
   readonly ipFabricNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#is_primary VoltstackSite#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#is_primary VoltstackSite#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#monitor_disabled VoltstackSite#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#monitor_disabled VoltstackSite#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_ipv6_address VoltstackSite#no_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_ipv6_address VoltstackSite#no_ipv6_address}
   */
   readonly noIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#not_primary VoltstackSite#not_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#not_primary VoltstackSite#not_primary}
   */
   readonly notPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#priority VoltstackSite#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#priority VoltstackSite#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#storage_network VoltstackSite#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#storage_network VoltstackSite#storage_network}
   */
   readonly storageNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#untagged VoltstackSite#untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#untagged VoltstackSite#untagged}
   */
   readonly untagged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#vlan_id VoltstackSite#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#vlan_id VoltstackSite#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * dhcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_server VoltstackSite#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_server VoltstackSite#dhcp_server}
   */
   readonly dhcpServer?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceDhcpServer;
   /**
   * inside_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#inside_network VoltstackSite#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#inside_network VoltstackSite#inside_network}
   */
   readonly insideNetwork?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceInsideNetwork;
   /**
   * ipv6_auto_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ipv6_auto_config VoltstackSite#ipv6_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ipv6_auto_config VoltstackSite#ipv6_auto_config}
   */
   readonly ipv6AutoConfig?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceIpv6AutoConfig;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#monitor VoltstackSite#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#monitor VoltstackSite#monitor}
   */
   readonly monitor?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceMonitor;
   /**
   * segment_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#segment_network VoltstackSite#segment_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#segment_network VoltstackSite#segment_network}
   */
   readonly segmentNetwork?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceSegmentNetwork;
   /**
   * srv6_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#srv6_network VoltstackSite#srv6_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#srv6_network VoltstackSite#srv6_network}
   */
   readonly srv6Network?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceSrv6Network;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
   */
   readonly staticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIp;
   /**
   * static_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_ipv6_address VoltstackSite#static_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_ipv6_address VoltstackSite#static_ipv6_address}
   */
   readonly staticIpv6Address?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterfaceStaticIpv6Address;
 }
@@ -11275,15 +11275,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11425,15 +11425,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworksPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#end_ip VoltstackSite#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#exclude VoltstackSite#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#start_ip VoltstackSite#start_ip}
   */
   readonly startIp?: string;
 }
@@ -11607,43 +11607,43 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dgw_address VoltstackSite#dgw_address}
   */
   readonly dgwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_address VoltstackSite#dns_address}
   */
   readonly dnsAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#first_address VoltstackSite#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#last_address VoltstackSite#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix VoltstackSite#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pool_settings VoltstackSite#pool_settings}
   */
   readonly poolSettings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#same_as_dgw VoltstackSite#same_as_dgw}
   */
   readonly sameAsDgw?: boolean | cdktf.IResolvable;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworksNetworkPrefixAllocator;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#pools VoltstackSite#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#pools VoltstackSite#pools}
   */
   readonly pools?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
 }
@@ -11988,7 +11988,7 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
@@ -12072,31 +12072,31 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_end VoltstackSite#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#automatic_from_start VoltstackSite#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_option82_tag VoltstackSite#dhcp_option82_tag}
   */
   readonly dhcpOption82Tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fixed_ip_map VoltstackSite#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_networks VoltstackSite#dhcp_networks}
   */
   readonly dhcpNetworks: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServerInterfaceIpMap;
 }
@@ -12322,15 +12322,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -12469,13 +12469,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpClusterStaticIpInterfaceIpMapValue;
 }
@@ -12584,7 +12584,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopback
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpClusterStaticIpInterfaceIpMap;
 }
@@ -12668,15 +12668,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -12818,17 +12818,17 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator;
 }
@@ -12970,15 +12970,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -13119,19 +13119,19 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopback
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpNodeStaticIp;
 }
@@ -13273,15 +13273,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -13420,13 +13420,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
 }
@@ -13535,7 +13535,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopback
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressClusterStaticIpInterfaceIpMap;
 }
@@ -13619,15 +13619,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -13769,17 +13769,17 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator;
 }
@@ -13921,15 +13921,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -14070,19 +14070,19 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopback
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6AddressNodeStaticIp;
 }
@@ -14224,57 +14224,57 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#device VoltstackSite#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#device VoltstackSite#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_client VoltstackSite#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_client VoltstackSite#dhcp_client}
   */
   readonly dhcpClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_fabric_network VoltstackSite#ip_fabric_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_fabric_network VoltstackSite#ip_fabric_network}
   */
   readonly ipFabricNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_ipv6_address VoltstackSite#no_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_ipv6_address VoltstackSite#no_ipv6_address}
   */
   readonly noIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * dhcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dhcp_server VoltstackSite#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dhcp_server VoltstackSite#dhcp_server}
   */
   readonly dhcpServer?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceDhcpServer;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
   */
   readonly staticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIp;
   /**
   * static_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_ipv6_address VoltstackSite#static_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_ipv6_address VoltstackSite#static_ipv6_address}
   */
   readonly staticIpv6Address?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterfaceStaticIpv6Address;
 }
@@ -14674,15 +14674,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInte
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceCloudConnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -14861,15 +14861,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceInsideNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15011,15 +15011,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -15158,13 +15158,13 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#value VoltstackSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#value VoltstackSite#value}
   */
   readonly value: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMapValue;
 }
@@ -15273,7 +15273,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelIn
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface_ip_map VoltstackSite#interface_ip_map}
   */
   readonly interfaceIpMap?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpClusterStaticIpInterfaceIpMap;
 }
@@ -15357,15 +15357,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15507,17 +15507,17 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpFleetStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * network_prefix_allocator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#network_prefix_allocator VoltstackSite#network_prefix_allocator}
   */
   readonly networkPrefixAllocator?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpFleetStaticIpNetworkPrefixAllocator;
 }
@@ -15659,15 +15659,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpNodeStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gw VoltstackSite#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dns_server VoltstackSite#dns_server}
   */
   readonly dnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -15808,19 +15808,19 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelIn
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster_static_ip VoltstackSite#cluster_static_ip}
   */
   readonly clusterStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpClusterStaticIp;
   /**
   * fleet_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#fleet_static_ip VoltstackSite#fleet_static_ip}
   */
   readonly fleetStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_static_ip VoltstackSite#node_static_ip}
   */
   readonly nodeStaticIp?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIpNodeStaticIp;
 }
@@ -15962,15 +15962,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceTunnel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -16112,51 +16112,51 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cluster VoltstackSite#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#mtu VoltstackSite#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#priority VoltstackSite#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#priority VoltstackSite#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_inside_network VoltstackSite#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#site_local_network VoltstackSite#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * cloud_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#cloud_connect VoltstackSite#cloud_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#cloud_connect VoltstackSite#cloud_connect}
   */
   readonly cloudConnect?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceCloudConnect[] | cdktf.IResolvable;
   /**
   * inside_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#inside_network VoltstackSite#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#inside_network VoltstackSite#inside_network}
   */
   readonly insideNetwork?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceInsideNetwork;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_ip VoltstackSite#static_ip}
   */
   readonly staticIp: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceStaticIp;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tunnel VoltstackSite#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tunnel VoltstackSite#tunnel}
   */
   readonly tunnel: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterfaceTunnel;
 }
@@ -16495,49 +16495,49 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterf
 }
 export interface VoltstackSiteCustomNetworkConfigInterfaceListInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dc_cluster_group_connectivity_interface_disabled VoltstackSite#dc_cluster_group_connectivity_interface_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dc_cluster_group_connectivity_interface_disabled VoltstackSite#dc_cluster_group_connectivity_interface_disabled}
   */
   readonly dcClusterGroupConnectivityInterfaceDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dc_cluster_group_connectivity_interface_enabled VoltstackSite#dc_cluster_group_connectivity_interface_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dc_cluster_group_connectivity_interface_enabled VoltstackSite#dc_cluster_group_connectivity_interface_enabled}
   */
   readonly dcClusterGroupConnectivityInterfaceEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#description VoltstackSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#description VoltstackSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#labels VoltstackSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#labels VoltstackSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * dedicated_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dedicated_interface VoltstackSite#dedicated_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dedicated_interface VoltstackSite#dedicated_interface}
   */
   readonly dedicatedInterface?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedInterface;
   /**
   * dedicated_management_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#dedicated_management_interface VoltstackSite#dedicated_management_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#dedicated_management_interface VoltstackSite#dedicated_management_interface}
   */
   readonly dedicatedManagementInterface?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesDedicatedManagementInterface;
   /**
   * ethernet_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ethernet_interface VoltstackSite#ethernet_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ethernet_interface VoltstackSite#ethernet_interface}
   */
   readonly ethernetInterface?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesEthernetInterface;
   /**
   * loopback_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#loopback_interface VoltstackSite#loopback_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#loopback_interface VoltstackSite#loopback_interface}
   */
   readonly loopbackInterface?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesLoopbackInterface;
   /**
   * tunnel_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tunnel_interface VoltstackSite#tunnel_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tunnel_interface VoltstackSite#tunnel_interface}
   */
   readonly tunnelInterface?: VoltstackSiteCustomNetworkConfigInterfaceListInterfacesTunnelInterface;
 }
@@ -16887,7 +16887,7 @@ export interface VoltstackSiteCustomNetworkConfigInterfaceListStruct {
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interfaces VoltstackSite#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interfaces VoltstackSite#interfaces}
   */
   readonly interfaces: VoltstackSiteCustomNetworkConfigInterfaceListInterfaces[] | cdktf.IResolvable;
 }
@@ -16968,15 +16968,15 @@ export class VoltstackSiteCustomNetworkConfigInterfaceListStructOutputReference 
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -17118,15 +17118,15 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesIn
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -17305,13 +17305,13 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNo
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -17458,7 +17458,7 @@ export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRout
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#list VoltstackSite#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#list VoltstackSite#list}
   */
   readonly list?: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -17542,31 +17542,31 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNo
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
   */
   readonly nodeInterface?: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutesNodeInterface;
 }
@@ -17826,7 +17826,7 @@ export interface VoltstackSiteCustomNetworkConfigSliConfigStaticRoutes {
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable;
 }
@@ -17907,15 +17907,15 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticRoutesOutputReferenc
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -18057,15 +18057,15 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -18244,13 +18244,13 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -18397,7 +18397,7 @@ export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRo
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#list VoltstackSite#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#list VoltstackSite#list}
   */
   readonly list?: VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -18481,31 +18481,31 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutes
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
   */
   readonly nodeInterface?: VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutesNodeInterface;
 }
@@ -18765,7 +18765,7 @@ export interface VoltstackSiteCustomNetworkConfigSliConfigStaticV6Routes {
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes: VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable;
 }
@@ -18846,23 +18846,23 @@ export class VoltstackSiteCustomNetworkConfigSliConfigStaticV6RoutesOutputRefere
 }
 export interface VoltstackSiteCustomNetworkConfigSliConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_static_routes VoltstackSite#no_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_static_routes VoltstackSite#no_static_routes}
   */
   readonly noStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#no_v6_static_routes VoltstackSite#no_v6_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#no_v6_static_routes VoltstackSite#no_v6_static_routes}
   */
   readonly noV6StaticRoutes?: boolean | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes?: VoltstackSiteCustomNetworkConfigSliConfigStaticRoutes;
   /**
   * static_v6_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_v6_routes VoltstackSite#static_v6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_v6_routes VoltstackSite#static_v6_routes}
   */
   readonly staticV6Routes?: VoltstackSiteCustomNetworkConfigSliConfigStaticV6Routes;
 }
@@ -19033,15 +19033,15 @@ export class VoltstackSiteCustomNetworkConfigSliConfigOutputReference extends cd
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -19183,15 +19183,15 @@ export class VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroupOutputRefere
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroupInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -19365,15 +19365,15 @@ export class VoltstackSiteCustomNetworkConfigSloConfigDcClusterGroupInterfaceLis
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -19515,15 +19515,15 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesIn
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#name VoltstackSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#name VoltstackSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#namespace VoltstackSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#tenant VoltstackSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -19702,13 +19702,13 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNo
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node VoltstackSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node VoltstackSite#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -19855,7 +19855,7 @@ export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRout
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#list VoltstackSite#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#list VoltstackSite#list}
   */
   readonly list?: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -19939,31 +19939,31 @@ export class VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNo
 }
 export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#attrs VoltstackSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#default_gateway VoltstackSite#default_gateway}
   */
   readonly defaultGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_address VoltstackSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#ip_prefixes VoltstackSite#ip_prefixes}
   */
   readonly ipPrefixes: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#interface VoltstackSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#interface VoltstackSite#interface}
   */
   readonly interface?: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesInterface;
   /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#node_interface VoltstackSite#node_interface}
   */
   readonly nodeInterface?: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutesNodeInterface;
 }
@@ -20223,7 +20223,7 @@ export interface VoltstackSiteCustomNetworkConfigSloConfigStaticRoutes {
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/voltstack_site#static_routes VoltstackSite#static_routes}
   */
   readonly staticRoutes: VoltstackSiteCustomNetworkConfigSloConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable;
 }

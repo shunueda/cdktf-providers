@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface IkePhase1ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#annotations IkePhase1Profile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#annotations IkePhase1Profile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#authentication_algos IkePhase1Profile#authentication_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#authentication_algos IkePhase1Profile#authentication_algos}
   */
   readonly authenticationAlgos: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#description IkePhase1Profile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#description IkePhase1Profile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#dh_group IkePhase1Profile#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#dh_group IkePhase1Profile#dh_group}
   */
   readonly dhGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#disable IkePhase1Profile#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#disable IkePhase1Profile#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#encryption_algos IkePhase1Profile#encryption_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#encryption_algos IkePhase1Profile#encryption_algos}
   */
   readonly encryptionAlgos: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#id IkePhase1Profile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#id IkePhase1Profile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#labels IkePhase1Profile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#labels IkePhase1Profile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#name IkePhase1Profile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#name IkePhase1Profile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#namespace IkePhase1Profile#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#namespace IkePhase1Profile#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#prf IkePhase1Profile#prf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#prf IkePhase1Profile#prf}
   */
   readonly prf: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#reauth_disabled IkePhase1Profile#reauth_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#reauth_disabled IkePhase1Profile#reauth_disabled}
   */
   readonly reauthDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#use_default_keylifetime IkePhase1Profile#use_default_keylifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#use_default_keylifetime IkePhase1Profile#use_default_keylifetime}
   */
   readonly useDefaultKeylifetime?: boolean | cdktf.IResolvable;
   /**
   * ike_keylifetime_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#ike_keylifetime_hours IkePhase1Profile#ike_keylifetime_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#ike_keylifetime_hours IkePhase1Profile#ike_keylifetime_hours}
   */
   readonly ikeKeylifetimeHours?: IkePhase1ProfileIkeKeylifetimeHours;
   /**
   * ike_keylifetime_minutes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#ike_keylifetime_minutes IkePhase1Profile#ike_keylifetime_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#ike_keylifetime_minutes IkePhase1Profile#ike_keylifetime_minutes}
   */
   readonly ikeKeylifetimeMinutes?: IkePhase1ProfileIkeKeylifetimeMinutes;
   /**
   * reauth_timeout_days block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#reauth_timeout_days IkePhase1Profile#reauth_timeout_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#reauth_timeout_days IkePhase1Profile#reauth_timeout_days}
   */
   readonly reauthTimeoutDays?: IkePhase1ProfileReauthTimeoutDays;
   /**
   * reauth_timeout_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#reauth_timeout_hours IkePhase1Profile#reauth_timeout_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#reauth_timeout_hours IkePhase1Profile#reauth_timeout_hours}
   */
   readonly reauthTimeoutHours?: IkePhase1ProfileReauthTimeoutHours;
 }
 export interface IkePhase1ProfileIkeKeylifetimeHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
   */
   readonly duration?: number;
 }
@@ -173,7 +173,7 @@ export class IkePhase1ProfileIkeKeylifetimeHoursOutputReference extends cdktf.Co
 }
 export interface IkePhase1ProfileIkeKeylifetimeMinutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
   */
   readonly duration?: number;
 }
@@ -257,7 +257,7 @@ export class IkePhase1ProfileIkeKeylifetimeMinutesOutputReference extends cdktf.
 }
 export interface IkePhase1ProfileReauthTimeoutDays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
   */
   readonly duration?: number;
 }
@@ -341,7 +341,7 @@ export class IkePhase1ProfileReauthTimeoutDaysOutputReference extends cdktf.Comp
 }
 export interface IkePhase1ProfileReauthTimeoutHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#duration IkePhase1Profile#duration}
   */
   readonly duration?: number;
 }
@@ -425,7 +425,7 @@ export class IkePhase1ProfileReauthTimeoutHoursOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile volterra_ike_phase1_profile}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile volterra_ike_phase1_profile}
 */
 export class IkePhase1Profile extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class IkePhase1Profile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IkePhase1Profile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IkePhase1Profile to import
-  * @param importFromId The id of the existing IkePhase1Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IkePhase1Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IkePhase1Profile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class IkePhase1Profile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase1_profile volterra_ike_phase1_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/ike_phase1_profile volterra_ike_phase1_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class IkePhase1Profile extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ike_phase1_profile',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

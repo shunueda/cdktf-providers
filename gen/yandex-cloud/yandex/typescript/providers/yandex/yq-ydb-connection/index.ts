@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface YqYdbConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The database identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection#database_id YqYdbConnection#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection#database_id YqYdbConnection#database_id}
   */
   readonly databaseId: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection#description YqYdbConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection#description YqYdbConnection#description}
   */
   readonly description?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection#name YqYdbConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection#name YqYdbConnection#name}
   */
   readonly name: string;
   /**
   * The service account ID to access resources on behalf of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection#service_account_id YqYdbConnection#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection#service_account_id YqYdbConnection#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection yandex_yq_ydb_connection}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection yandex_yq_ydb_connection}
 */
 export class YqYdbConnection extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class YqYdbConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YqYdbConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YqYdbConnection to import
-  * @param importFromId The id of the existing YqYdbConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YqYdbConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YqYdbConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class YqYdbConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_ydb_connection yandex_yq_ydb_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_ydb_connection yandex_yq_ydb_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class YqYdbConnection extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_yq_ydb_connection',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

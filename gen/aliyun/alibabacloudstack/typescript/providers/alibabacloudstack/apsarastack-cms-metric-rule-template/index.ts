@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCmsMetricRuleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#apply_mode ApsarastackCmsMetricRuleTemplate#apply_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#apply_mode ApsarastackCmsMetricRuleTemplate#apply_mode}
   */
   readonly applyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#description ApsarastackCmsMetricRuleTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#description ApsarastackCmsMetricRuleTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#enable ApsarastackCmsMetricRuleTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#enable ApsarastackCmsMetricRuleTemplate#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#enable_end_time ApsarastackCmsMetricRuleTemplate#enable_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#enable_end_time ApsarastackCmsMetricRuleTemplate#enable_end_time}
   */
   readonly enableEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#enable_start_time ApsarastackCmsMetricRuleTemplate#enable_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#enable_start_time ApsarastackCmsMetricRuleTemplate#enable_start_time}
   */
   readonly enableStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#group_id ApsarastackCmsMetricRuleTemplate#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#group_id ApsarastackCmsMetricRuleTemplate#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#id ApsarastackCmsMetricRuleTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#id ApsarastackCmsMetricRuleTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#metric_rule_template_name ApsarastackCmsMetricRuleTemplate#metric_rule_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#metric_rule_template_name ApsarastackCmsMetricRuleTemplate#metric_rule_template_name}
   */
   readonly metricRuleTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#notify_level ApsarastackCmsMetricRuleTemplate#notify_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#notify_level ApsarastackCmsMetricRuleTemplate#notify_level}
   */
   readonly notifyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#overwrite ApsarastackCmsMetricRuleTemplate#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#overwrite ApsarastackCmsMetricRuleTemplate#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#rest_version ApsarastackCmsMetricRuleTemplate#rest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#rest_version ApsarastackCmsMetricRuleTemplate#rest_version}
   */
   readonly restVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#silence_time ApsarastackCmsMetricRuleTemplate#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#silence_time ApsarastackCmsMetricRuleTemplate#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#webhook ApsarastackCmsMetricRuleTemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#webhook ApsarastackCmsMetricRuleTemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * alert_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#alert_templates ApsarastackCmsMetricRuleTemplate#alert_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#alert_templates ApsarastackCmsMetricRuleTemplate#alert_templates}
   */
   readonly alertTemplates?: ApsarastackCmsMetricRuleTemplateAlertTemplates[] | cdktf.IResolvable;
 }
 export interface ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -254,19 +254,19 @@ export class ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsCriticalOu
 }
 export interface ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -437,19 +437,19 @@ export class ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsInfoOutput
 }
 export interface ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#comparison_operator ApsarastackCmsMetricRuleTemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#statistics ApsarastackCmsMetricRuleTemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#threshold ApsarastackCmsMetricRuleTemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#times ApsarastackCmsMetricRuleTemplate#times}
   */
   readonly times?: string;
 }
@@ -622,19 +622,19 @@ export interface ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalations {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#critical ApsarastackCmsMetricRuleTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#critical ApsarastackCmsMetricRuleTemplate#critical}
   */
   readonly critical?: ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsCritical;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#info ApsarastackCmsMetricRuleTemplate#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#info ApsarastackCmsMetricRuleTemplate#info}
   */
   readonly info?: ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsInfo;
   /**
   * warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#warn ApsarastackCmsMetricRuleTemplate#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#warn ApsarastackCmsMetricRuleTemplate#warn}
   */
   readonly warn?: ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsWarn;
 }
@@ -776,29 +776,29 @@ export class ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalationsOutputRefe
 }
 export interface ApsarastackCmsMetricRuleTemplateAlertTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#category ApsarastackCmsMetricRuleTemplate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#category ApsarastackCmsMetricRuleTemplate#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#metric_name ApsarastackCmsMetricRuleTemplate#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#metric_name ApsarastackCmsMetricRuleTemplate#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#namespace ApsarastackCmsMetricRuleTemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#namespace ApsarastackCmsMetricRuleTemplate#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#rule_name ApsarastackCmsMetricRuleTemplate#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#rule_name ApsarastackCmsMetricRuleTemplate#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#webhook ApsarastackCmsMetricRuleTemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#webhook ApsarastackCmsMetricRuleTemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * escalations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#escalations ApsarastackCmsMetricRuleTemplate#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#escalations ApsarastackCmsMetricRuleTemplate#escalations}
   */
   readonly escalations?: ApsarastackCmsMetricRuleTemplateAlertTemplatesEscalations;
 }
@@ -1047,7 +1047,7 @@ export class ApsarastackCmsMetricRuleTemplateAlertTemplatesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template apsarastack_cms_metric_rule_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template apsarastack_cms_metric_rule_template}
 */
 export class ApsarastackCmsMetricRuleTemplate extends cdktf.TerraformResource {
 
@@ -1063,7 +1063,7 @@ export class ApsarastackCmsMetricRuleTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackCmsMetricRuleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCmsMetricRuleTemplate to import
-  * @param importFromId The id of the existing ApsarastackCmsMetricRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCmsMetricRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCmsMetricRuleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class ApsarastackCmsMetricRuleTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_metric_rule_template apsarastack_cms_metric_rule_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_metric_rule_template apsarastack_cms_metric_rule_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,8 +1086,8 @@ export class ApsarastackCmsMetricRuleTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_cms_metric_rule_template',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

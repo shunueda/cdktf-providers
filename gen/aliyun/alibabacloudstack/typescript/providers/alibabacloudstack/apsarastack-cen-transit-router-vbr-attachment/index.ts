@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCenTransitRouterVbrAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#cen_id ApsarastackCenTransitRouterVbrAttachment#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#cen_id ApsarastackCenTransitRouterVbrAttachment#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#id ApsarastackCenTransitRouterVbrAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#id ApsarastackCenTransitRouterVbrAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#route_table_association_enabled ApsarastackCenTransitRouterVbrAttachment#route_table_association_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#route_table_association_enabled ApsarastackCenTransitRouterVbrAttachment#route_table_association_enabled}
   */
   readonly routeTableAssociationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#route_table_propagation_enabled ApsarastackCenTransitRouterVbrAttachment#route_table_propagation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#route_table_propagation_enabled ApsarastackCenTransitRouterVbrAttachment#route_table_propagation_enabled}
   */
   readonly routeTablePropagationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_attachment_description ApsarastackCenTransitRouterVbrAttachment#transit_router_attachment_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_attachment_description ApsarastackCenTransitRouterVbrAttachment#transit_router_attachment_description}
   */
   readonly transitRouterAttachmentDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_attachment_name ApsarastackCenTransitRouterVbrAttachment#transit_router_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_attachment_name ApsarastackCenTransitRouterVbrAttachment#transit_router_attachment_name}
   */
   readonly transitRouterAttachmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_id ApsarastackCenTransitRouterVbrAttachment#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#transit_router_id ApsarastackCenTransitRouterVbrAttachment#transit_router_id}
   */
   readonly transitRouterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#vbr_id ApsarastackCenTransitRouterVbrAttachment#vbr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#vbr_id ApsarastackCenTransitRouterVbrAttachment#vbr_id}
   */
   readonly vbrId: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tags ApsarastackCenTransitRouterVbrAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tags ApsarastackCenTransitRouterVbrAttachment#tags}
   */
   readonly tags?: ApsarastackCenTransitRouterVbrAttachmentTags[] | cdktf.IResolvable;
 }
 export interface ApsarastackCenTransitRouterVbrAttachmentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tag_key ApsarastackCenTransitRouterVbrAttachment#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tag_key ApsarastackCenTransitRouterVbrAttachment#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tag_value ApsarastackCenTransitRouterVbrAttachment#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#tag_value ApsarastackCenTransitRouterVbrAttachment#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -200,7 +200,7 @@ export class ApsarastackCenTransitRouterVbrAttachmentTagsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment apsarastack_cen_transit_router_vbr_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment apsarastack_cen_transit_router_vbr_attachment}
 */
 export class ApsarastackCenTransitRouterVbrAttachment extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class ApsarastackCenTransitRouterVbrAttachment extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ApsarastackCenTransitRouterVbrAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCenTransitRouterVbrAttachment to import
-  * @param importFromId The id of the existing ApsarastackCenTransitRouterVbrAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCenTransitRouterVbrAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCenTransitRouterVbrAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class ApsarastackCenTransitRouterVbrAttachment extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cen_transit_router_vbr_attachment apsarastack_cen_transit_router_vbr_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cen_transit_router_vbr_attachment apsarastack_cen_transit_router_vbr_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class ApsarastackCenTransitRouterVbrAttachment extends cdktf.TerraformRes
       terraformResourceType: 'apsarastack_cen_transit_router_vbr_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackLogStoreIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#id ApsarastackLogStoreIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#id ApsarastackLogStoreIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#logstore ApsarastackLogStoreIndex#logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#logstore ApsarastackLogStoreIndex#logstore}
   */
   readonly logstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#project ApsarastackLogStoreIndex#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#project ApsarastackLogStoreIndex#project}
   */
   readonly project: string;
   /**
   * field_search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#field_search ApsarastackLogStoreIndex#field_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#field_search ApsarastackLogStoreIndex#field_search}
   */
   readonly fieldSearch?: ApsarastackLogStoreIndexFieldSearch[] | cdktf.IResolvable;
   /**
   * full_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#full_text ApsarastackLogStoreIndex#full_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#full_text ApsarastackLogStoreIndex#full_text}
   */
   readonly fullText?: ApsarastackLogStoreIndexFullText;
 }
 export interface ApsarastackLogStoreIndexFieldSearchJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#alias ApsarastackLogStoreIndex#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#alias ApsarastackLogStoreIndex#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#doc_value ApsarastackLogStoreIndex#doc_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#doc_value ApsarastackLogStoreIndex#doc_value}
   */
   readonly docValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#name ApsarastackLogStoreIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#name ApsarastackLogStoreIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#type ApsarastackLogStoreIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#type ApsarastackLogStoreIndex#type}
   */
   readonly type?: string;
 }
@@ -249,37 +249,37 @@ export class ApsarastackLogStoreIndexFieldSearchJsonKeysList extends cdktf.Compl
 }
 export interface ApsarastackLogStoreIndexFieldSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#alias ApsarastackLogStoreIndex#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#alias ApsarastackLogStoreIndex#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#case_sensitive ApsarastackLogStoreIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#case_sensitive ApsarastackLogStoreIndex#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#enable_analytics ApsarastackLogStoreIndex#enable_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#enable_analytics ApsarastackLogStoreIndex#enable_analytics}
   */
   readonly enableAnalytics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#include_chinese ApsarastackLogStoreIndex#include_chinese}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#include_chinese ApsarastackLogStoreIndex#include_chinese}
   */
   readonly includeChinese?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#name ApsarastackLogStoreIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#name ApsarastackLogStoreIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#token ApsarastackLogStoreIndex#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#token ApsarastackLogStoreIndex#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#type ApsarastackLogStoreIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#type ApsarastackLogStoreIndex#type}
   */
   readonly type?: string;
   /**
   * json_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#json_keys ApsarastackLogStoreIndex#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#json_keys ApsarastackLogStoreIndex#json_keys}
   */
   readonly jsonKeys?: ApsarastackLogStoreIndexFieldSearchJsonKeys[] | cdktf.IResolvable;
 }
@@ -595,15 +595,15 @@ export class ApsarastackLogStoreIndexFieldSearchList extends cdktf.ComplexList {
 }
 export interface ApsarastackLogStoreIndexFullText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#case_sensitive ApsarastackLogStoreIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#case_sensitive ApsarastackLogStoreIndex#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#include_chinese ApsarastackLogStoreIndex#include_chinese}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#include_chinese ApsarastackLogStoreIndex#include_chinese}
   */
   readonly includeChinese?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#token ApsarastackLogStoreIndex#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#token ApsarastackLogStoreIndex#token}
   */
   readonly token?: string;
 }
@@ -745,7 +745,7 @@ export class ApsarastackLogStoreIndexFullTextOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index apsarastack_log_store_index}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index apsarastack_log_store_index}
 */
 export class ApsarastackLogStoreIndex extends cdktf.TerraformResource {
 
@@ -761,7 +761,7 @@ export class ApsarastackLogStoreIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackLogStoreIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackLogStoreIndex to import
-  * @param importFromId The id of the existing ApsarastackLogStoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackLogStoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackLogStoreIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +773,7 @@ export class ApsarastackLogStoreIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_log_store_index apsarastack_log_store_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_log_store_index apsarastack_log_store_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,8 +784,8 @@ export class ApsarastackLogStoreIndex extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_log_store_index',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

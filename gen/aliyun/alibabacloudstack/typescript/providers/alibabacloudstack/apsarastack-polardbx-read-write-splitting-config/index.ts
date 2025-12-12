@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackPolardbxReadWriteSplittingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#attend_htap_list ApsarastackPolardbxReadWriteSplittingConfig#attend_htap_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#attend_htap_list ApsarastackPolardbxReadWriteSplittingConfig#attend_htap_list}
   */
   readonly attendHtapList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#auto_attend_htap ApsarastackPolardbxReadWriteSplittingConfig#auto_attend_htap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#auto_attend_htap ApsarastackPolardbxReadWriteSplittingConfig#auto_attend_htap}
   */
   readonly autoAttendHtap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#db_instance_id ApsarastackPolardbxReadWriteSplittingConfig#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#db_instance_id ApsarastackPolardbxReadWriteSplittingConfig#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#delay_execution_strategy ApsarastackPolardbxReadWriteSplittingConfig#delay_execution_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#delay_execution_strategy ApsarastackPolardbxReadWriteSplittingConfig#delay_execution_strategy}
   */
   readonly delayExecutionStrategy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#enable_consistent_replica_read ApsarastackPolardbxReadWriteSplittingConfig#enable_consistent_replica_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#enable_consistent_replica_read ApsarastackPolardbxReadWriteSplittingConfig#enable_consistent_replica_read}
   */
   readonly enableConsistentReplicaRead?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#enable_htap ApsarastackPolardbxReadWriteSplittingConfig#enable_htap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#enable_htap ApsarastackPolardbxReadWriteSplittingConfig#enable_htap}
   */
   readonly enableHtap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#id ApsarastackPolardbxReadWriteSplittingConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#id ApsarastackPolardbxReadWriteSplittingConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#master_read_weight ApsarastackPolardbxReadWriteSplittingConfig#master_read_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#master_read_weight ApsarastackPolardbxReadWriteSplittingConfig#master_read_weight}
   */
   readonly masterReadWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#storage_delay_threshold ApsarastackPolardbxReadWriteSplittingConfig#storage_delay_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#storage_delay_threshold ApsarastackPolardbxReadWriteSplittingConfig#storage_delay_threshold}
   */
   readonly storageDelayThreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config apsarastack_polardbx_read_write_splitting_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config apsarastack_polardbx_read_write_splitting_config}
 */
 export class ApsarastackPolardbxReadWriteSplittingConfig extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ApsarastackPolardbxReadWriteSplittingConfig extends cdktf.Terraform
   * Generates CDKTF code for importing a ApsarastackPolardbxReadWriteSplittingConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackPolardbxReadWriteSplittingConfig to import
-  * @param importFromId The id of the existing ApsarastackPolardbxReadWriteSplittingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackPolardbxReadWriteSplittingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackPolardbxReadWriteSplittingConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ApsarastackPolardbxReadWriteSplittingConfig extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_polardbx_read_write_splitting_config apsarastack_polardbx_read_write_splitting_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_polardbx_read_write_splitting_config apsarastack_polardbx_read_write_splitting_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ApsarastackPolardbxReadWriteSplittingConfig extends cdktf.Terraform
       terraformResourceType: 'apsarastack_polardbx_read_write_splitting_config',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

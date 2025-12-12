@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch
+// https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataGitBranchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch#directory DataGitBranch#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch#directory DataGitBranch#directory}
   */
   readonly directory: string;
   /**
   * The name of the Git branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch#name DataGitBranch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch#name DataGitBranch#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch git_branch}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch git_branch}
 */
 export class DataGitBranch extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataGitBranch extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitBranch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitBranch to import
-  * @param importFromId The id of the existing DataGitBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataGitBranch extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/data-sources/branch git_branch} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.12.12/docs/data-sources/branch git_branch} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataGitBranch extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_branch',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.12.5',
-        providerVersionConstraint: '2025.12.5'
+        providerVersion: '2025.12.12',
+        providerVersionConstraint: '2025.12.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

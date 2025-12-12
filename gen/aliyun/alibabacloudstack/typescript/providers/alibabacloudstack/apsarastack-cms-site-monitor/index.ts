@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCmsSiteMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#address ApsarastackCmsSiteMonitor#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#address ApsarastackCmsSiteMonitor#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#alert_ids ApsarastackCmsSiteMonitor#alert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#alert_ids ApsarastackCmsSiteMonitor#alert_ids}
   */
   readonly alertIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#id ApsarastackCmsSiteMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#id ApsarastackCmsSiteMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#interval ApsarastackCmsSiteMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#interval ApsarastackCmsSiteMonitor#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#options_json ApsarastackCmsSiteMonitor#options_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#options_json ApsarastackCmsSiteMonitor#options_json}
   */
   readonly optionsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#task_name ApsarastackCmsSiteMonitor#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#task_name ApsarastackCmsSiteMonitor#task_name}
   */
   readonly taskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#task_type ApsarastackCmsSiteMonitor#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#task_type ApsarastackCmsSiteMonitor#task_type}
   */
   readonly taskType: string;
   /**
   * isp_cities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#isp_cities ApsarastackCmsSiteMonitor#isp_cities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#isp_cities ApsarastackCmsSiteMonitor#isp_cities}
   */
   readonly ispCities?: ApsarastackCmsSiteMonitorIspCities[] | cdktf.IResolvable;
 }
 export interface ApsarastackCmsSiteMonitorIspCities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#city ApsarastackCmsSiteMonitor#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#city ApsarastackCmsSiteMonitor#city}
   */
   readonly city: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#isp ApsarastackCmsSiteMonitor#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#isp ApsarastackCmsSiteMonitor#isp}
   */
   readonly isp: string;
 }
@@ -190,7 +190,7 @@ export class ApsarastackCmsSiteMonitorIspCitiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor apsarastack_cms_site_monitor}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor apsarastack_cms_site_monitor}
 */
 export class ApsarastackCmsSiteMonitor extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class ApsarastackCmsSiteMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackCmsSiteMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCmsSiteMonitor to import
-  * @param importFromId The id of the existing ApsarastackCmsSiteMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCmsSiteMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCmsSiteMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class ApsarastackCmsSiteMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cms_site_monitor apsarastack_cms_site_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cms_site_monitor apsarastack_cms_site_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class ApsarastackCmsSiteMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_cms_site_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

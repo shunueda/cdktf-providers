@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyFormFieldOptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option#color DataRootlyFormFieldOption#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option#color DataRootlyFormFieldOption#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option#value DataRootlyFormFieldOption#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option#value DataRootlyFormFieldOption#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option rootly_form_field_option}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option rootly_form_field_option}
 */
 export class DataRootlyFormFieldOption extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataRootlyFormFieldOption extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyFormFieldOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyFormFieldOption to import
-  * @param importFromId The id of the existing DataRootlyFormFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyFormFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyFormFieldOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataRootlyFormFieldOption extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/form_field_option rootly_form_field_option} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/form_field_option rootly_form_field_option} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataRootlyFormFieldOption extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_form_field_option',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.13',
-        providerVersionConstraint: '4.3.13'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

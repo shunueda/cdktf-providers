@@ -41,11 +41,11 @@ azureVnetSiteIngressEgressGwArGlobalNetworkListStructToHclTerraform,
 AzureVnetSiteIngressEgressGwArGlobalNetworkListStructOutputReference } from './structs0'
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#url AzureVnetSite#url}
   */
   readonly url: string;
 }
@@ -155,23 +155,23 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#key AzureVnetSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#version AzureVnetSite#version}
   */
   readonly version?: number;
 }
@@ -365,7 +365,7 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name: string;
 }
@@ -446,37 +446,37 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo;
 }
@@ -705,13 +705,13 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
   */
   readonly circuitId?: string;
   /**
   * authorized_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#authorized_key AzureVnetSite#authorized_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#authorized_key AzureVnetSite#authorized_key}
   */
   readonly authorizedKey?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey;
 }
@@ -824,23 +824,23 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#weight AzureVnetSite#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#weight AzureVnetSite#weight}
   */
   readonly weight?: number;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#metadata AzureVnetSite#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#metadata AzureVnetSite#metadata}
   */
   readonly metadata: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadata;
   /**
   * other_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#other_subscription AzureVnetSite#other_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#other_subscription AzureVnetSite#other_subscription}
   */
   readonly otherSubscription?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription;
 }
@@ -1040,11 +1040,11 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsList
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -1157,11 +1157,11 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSu
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1271,19 +1271,19 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSu
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam;
 }
@@ -1425,11 +1425,11 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetOu
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -1542,11 +1542,11 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubn
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1656,19 +1656,19 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubn
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam;
 }
@@ -1810,7 +1810,7 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubn
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#cloudlink_network_name AzureVnetSite#cloudlink_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#cloudlink_network_name AzureVnetSite#cloudlink_network_name}
   */
   readonly cloudlinkNetworkName: string;
 }
@@ -1891,63 +1891,63 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistratio
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#advertise_to_route_server AzureVnetSite#advertise_to_route_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#advertise_to_route_server AzureVnetSite#advertise_to_route_server}
   */
   readonly advertiseToRouteServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto_asn AzureVnetSite#auto_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#auto_asn AzureVnetSite#auto_asn}
   */
   readonly autoAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_asn AzureVnetSite#custom_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_asn AzureVnetSite#custom_asn}
   */
   readonly customAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#do_not_advertise_to_route_server AzureVnetSite#do_not_advertise_to_route_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#do_not_advertise_to_route_server AzureVnetSite#do_not_advertise_to_route_server}
   */
   readonly doNotAdvertiseToRouteServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#site_registration_over_internet AzureVnetSite#site_registration_over_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#site_registration_over_internet AzureVnetSite#site_registration_over_internet}
   */
   readonly siteRegistrationOverInternet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_ergw1az AzureVnetSite#sku_ergw1az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sku_ergw1az AzureVnetSite#sku_ergw1az}
   */
   readonly skuErgw1Az?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_ergw2az AzureVnetSite#sku_ergw2az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sku_ergw2az AzureVnetSite#sku_ergw2az}
   */
   readonly skuErgw2Az?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_high_perf AzureVnetSite#sku_high_perf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sku_high_perf AzureVnetSite#sku_high_perf}
   */
   readonly skuHighPerf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_standard AzureVnetSite#sku_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sku_standard AzureVnetSite#sku_standard}
   */
   readonly skuStandard?: boolean | cdktf.IResolvable;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#connections AzureVnetSite#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#connections AzureVnetSite#connections}
   */
   readonly connections: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections[] | cdktf.IResolvable;
   /**
   * gateway_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#gateway_subnet AzureVnetSite#gateway_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#gateway_subnet AzureVnetSite#gateway_subnet}
   */
   readonly gatewaySubnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet;
   /**
   * route_server_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#route_server_subnet AzureVnetSite#route_server_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#route_server_subnet AzureVnetSite#route_server_subnet}
   */
   readonly routeServerSubnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet;
   /**
   * site_registration_over_express_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#site_registration_over_express_route AzureVnetSite#site_registration_over_express_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#site_registration_over_express_route AzureVnetSite#site_registration_over_express_route}
   */
   readonly siteRegistrationOverExpressRoute?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute;
 }
@@ -2376,19 +2376,19 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledOutputReference
 }
 export interface AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
   */
   readonly f5OrchestratedRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
   */
   readonly manualRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -2553,21 +2553,21 @@ export class AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetOutputReference exte
 }
 export interface AzureVnetSiteIngressEgressGwArHubSpokeVnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#manual AzureVnetSite#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#manual AzureVnetSite#manual}
   */
   readonly manual?: boolean | cdktf.IResolvable;
   /**
   * vnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet AzureVnetSite#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet AzureVnetSite#vnet}
   */
   readonly vnet?: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet;
 }
@@ -2770,19 +2770,19 @@ export class AzureVnetSiteIngressEgressGwArHubSpokeVnetsList extends cdktf.Compl
 }
 export interface AzureVnetSiteIngressEgressGwArHub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#express_route_disabled AzureVnetSite#express_route_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#express_route_disabled AzureVnetSite#express_route_disabled}
   */
   readonly expressRouteDisabled?: boolean | cdktf.IResolvable;
   /**
   * express_route_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#express_route_enabled AzureVnetSite#express_route_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#express_route_enabled AzureVnetSite#express_route_enabled}
   */
   readonly expressRouteEnabled?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled;
   /**
   * spoke_vnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#spoke_vnets AzureVnetSite#spoke_vnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#spoke_vnets AzureVnetSite#spoke_vnets}
   */
   readonly spokeVnets?: AzureVnetSiteIngressEgressGwArHubSpokeVnets[] | cdktf.IResolvable;
 }
@@ -2924,15 +2924,15 @@ export class AzureVnetSiteIngressEgressGwArHubOutputReference extends cdktf.Comp
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3111,7 +3111,7 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -3195,7 +3195,7 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -3281,13 +3281,13 @@ export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteList
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -3400,19 +3400,19 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#type AzureVnetSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#type AzureVnetSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
   */
   readonly interface?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
   */
   readonly nexthopAddress?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -3554,11 +3554,11 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -3671,11 +3671,11 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -3790,13 +3790,13 @@ export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteList
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -3941,23 +3941,23 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
   */
   readonly nexthop?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
   */
   readonly subnets: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -4125,13 +4125,13 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
   */
   readonly customStaticRoute?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -4278,7 +4278,7 @@ export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
   */
   readonly staticRouteList: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -4359,15 +4359,15 @@ export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesOutputReference ext
 }
 export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -4506,11 +4506,11 @@ export class AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetOutputReference
 }
 export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4622,13 +4622,13 @@ export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam;
 }
@@ -4741,15 +4741,15 @@ export class AzureVnetSiteIngressEgressGwArNodeInsideSubnetOutputReference exten
 }
 export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -4888,11 +4888,11 @@ export class AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetOutputReferenc
 }
 export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -5004,13 +5004,13 @@ export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam;
 }
@@ -5123,27 +5123,27 @@ export class AzureVnetSiteIngressEgressGwArNodeOutsideSubnetOutputReference exte
 }
 export interface AzureVnetSiteIngressEgressGwArNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#fault_domain AzureVnetSite#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#fault_domain AzureVnetSite#fault_domain}
   */
   readonly faultDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#node_number AzureVnetSite#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#node_number AzureVnetSite#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#update_domain AzureVnetSite#update_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#update_domain AzureVnetSite#update_domain}
   */
   readonly updateDomain?: number;
   /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_subnet AzureVnetSite#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#inside_subnet AzureVnetSite#inside_subnet}
   */
   readonly insideSubnet?: AzureVnetSiteIngressEgressGwArNodeInsideSubnet;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_subnet AzureVnetSite#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#outside_subnet AzureVnetSite#outside_subnet}
   */
   readonly outsideSubnet?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnet;
 }
@@ -5340,15 +5340,15 @@ export class AzureVnetSiteIngressEgressGwArNodeOutputReference extends cdktf.Com
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5527,7 +5527,7 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -5611,7 +5611,7 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -5697,13 +5697,13 @@ export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteLis
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -5816,19 +5816,19 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#type AzureVnetSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#type AzureVnetSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
   */
   readonly interface?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
   */
   readonly nexthopAddress?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -5970,11 +5970,11 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -6087,11 +6087,11 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -6206,13 +6206,13 @@ export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteLis
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -6357,23 +6357,23 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
   */
   readonly nexthop?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
   */
   readonly subnets: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -6541,13 +6541,13 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCus
 }
 export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
   */
   readonly customStaticRoute?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -6694,7 +6694,7 @@ export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
   */
   readonly staticRouteList: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -6775,11 +6775,11 @@ export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesOutputReference ex
 }
 export interface AzureVnetSiteIngressEgressGwArPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -6892,13 +6892,13 @@ export class AzureVnetSiteIngressEgressGwArPerformanceEnhancementModePerfModeL3E
 }
 export interface AzureVnetSiteIngressEgressGwArPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AzureVnetSiteIngressEgressGwArPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -7011,119 +7011,119 @@ export class AzureVnetSiteIngressEgressGwArPerformanceEnhancementModeOutputRefer
 }
 export interface AzureVnetSiteIngressEgressGwAr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
   */
   readonly azureCertifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_inside_static_routes AzureVnetSite#no_inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_inside_static_routes AzureVnetSite#no_inside_static_routes}
   */
   readonly noInsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#not_hub AzureVnetSite#not_hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#not_hub AzureVnetSite#not_hub}
   */
   readonly notHub?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * accelerated_networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
   */
   readonly acceleratedNetworking?: AzureVnetSiteIngressEgressGwArAcceleratedNetworking;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: AzureVnetSiteIngressEgressGwArActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: AzureVnetSiteIngressEgressGwArActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: AzureVnetSiteIngressEgressGwArActiveNetworkPolicies;
   /**
   * dc_cluster_group_inside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dc_cluster_group_inside_vn AzureVnetSite#dc_cluster_group_inside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#dc_cluster_group_inside_vn AzureVnetSite#dc_cluster_group_inside_vn}
   */
   readonly dcClusterGroupInsideVn?: AzureVnetSiteIngressEgressGwArDcClusterGroupInsideVn;
   /**
   * dc_cluster_group_outside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dc_cluster_group_outside_vn AzureVnetSite#dc_cluster_group_outside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#dc_cluster_group_outside_vn AzureVnetSite#dc_cluster_group_outside_vn}
   */
   readonly dcClusterGroupOutsideVn?: AzureVnetSiteIngressEgressGwArDcClusterGroupOutsideVn;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
   */
   readonly globalNetworkList?: AzureVnetSiteIngressEgressGwArGlobalNetworkListStruct;
   /**
   * hub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#hub AzureVnetSite#hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#hub AzureVnetSite#hub}
   */
   readonly hub?: AzureVnetSiteIngressEgressGwArHub;
   /**
   * inside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_static_routes AzureVnetSite#inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#inside_static_routes AzureVnetSite#inside_static_routes}
   */
   readonly insideStaticRoutes?: AzureVnetSiteIngressEgressGwArInsideStaticRoutes;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#node AzureVnetSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#node AzureVnetSite#node}
   */
   readonly nodeAttribute?: AzureVnetSiteIngressEgressGwArNode;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutes;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AzureVnetSiteIngressEgressGwArPerformanceEnhancementMode;
 }
@@ -7842,11 +7842,11 @@ export class AzureVnetSiteIngressEgressGwArOutputReference extends cdktf.Complex
 }
 export interface AzureVnetSiteIngressGwAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -7959,15 +7959,15 @@ export class AzureVnetSiteIngressGwAcceleratedNetworkingOutputReference extends 
 }
 export interface AzureVnetSiteIngressGwAzNodesLocalSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -8106,11 +8106,11 @@ export class AzureVnetSiteIngressGwAzNodesLocalSubnetSubnetOutputReference exten
 }
 export interface AzureVnetSiteIngressGwAzNodesLocalSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -8222,13 +8222,13 @@ export interface AzureVnetSiteIngressGwAzNodesLocalSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressGwAzNodesLocalSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressGwAzNodesLocalSubnetSubnetParam;
 }
@@ -8341,17 +8341,17 @@ export class AzureVnetSiteIngressGwAzNodesLocalSubnetOutputReference extends cdk
 }
 export interface AzureVnetSiteIngressGwAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
   */
   readonly azureAz: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disk_size AzureVnetSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disk_size AzureVnetSite#disk_size}
   */
   readonly diskSize?: number;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
   */
   readonly localSubnet?: AzureVnetSiteIngressGwAzNodesLocalSubnet;
 }
@@ -8522,11 +8522,11 @@ export class AzureVnetSiteIngressGwAzNodesList extends cdktf.ComplexList {
 }
 export interface AzureVnetSiteIngressGwPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -8639,13 +8639,13 @@ export class AzureVnetSiteIngressGwPerformanceEnhancementModePerfModeL3EnhancedO
 }
 export interface AzureVnetSiteIngressGwPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AzureVnetSiteIngressGwPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -8758,25 +8758,25 @@ export class AzureVnetSiteIngressGwPerformanceEnhancementModeOutputReference ext
 }
 export interface AzureVnetSiteIngressGw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
   */
   readonly azureCertifiedHw: string;
   /**
   * accelerated_networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
   */
   readonly acceleratedNetworking?: AzureVnetSiteIngressGwAcceleratedNetworking;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
   */
   readonly azNodes: AzureVnetSiteIngressGwAzNodes[] | cdktf.IResolvable;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AzureVnetSiteIngressGwPerformanceEnhancementMode;
 }
@@ -8941,11 +8941,11 @@ export class AzureVnetSiteIngressGwOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteIngressGwArAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -9058,15 +9058,15 @@ export class AzureVnetSiteIngressGwArAcceleratedNetworkingOutputReference extend
 }
 export interface AzureVnetSiteIngressGwArNodeLocalSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -9205,11 +9205,11 @@ export class AzureVnetSiteIngressGwArNodeLocalSubnetSubnetOutputReference extend
 }
 export interface AzureVnetSiteIngressGwArNodeLocalSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -9321,13 +9321,13 @@ export interface AzureVnetSiteIngressGwArNodeLocalSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressGwArNodeLocalSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressGwArNodeLocalSubnetSubnetParam;
 }
@@ -9440,21 +9440,21 @@ export class AzureVnetSiteIngressGwArNodeLocalSubnetOutputReference extends cdkt
 }
 export interface AzureVnetSiteIngressGwArNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#fault_domain AzureVnetSite#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#fault_domain AzureVnetSite#fault_domain}
   */
   readonly faultDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#node_number AzureVnetSite#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#node_number AzureVnetSite#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#update_domain AzureVnetSite#update_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#update_domain AzureVnetSite#update_domain}
   */
   readonly updateDomain?: number;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
   */
   readonly localSubnet?: AzureVnetSiteIngressGwArNodeLocalSubnet;
 }
@@ -9622,11 +9622,11 @@ export class AzureVnetSiteIngressGwArNodeOutputReference extends cdktf.ComplexOb
 }
 export interface AzureVnetSiteIngressGwArPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -9739,13 +9739,13 @@ export class AzureVnetSiteIngressGwArPerformanceEnhancementModePerfModeL3Enhance
 }
 export interface AzureVnetSiteIngressGwArPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AzureVnetSiteIngressGwArPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -9858,25 +9858,25 @@ export class AzureVnetSiteIngressGwArPerformanceEnhancementModeOutputReference e
 }
 export interface AzureVnetSiteIngressGwAr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
   */
   readonly azureCertifiedHw: string;
   /**
   * accelerated_networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
   */
   readonly acceleratedNetworking?: AzureVnetSiteIngressGwArAcceleratedNetworking;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#node AzureVnetSite#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#node AzureVnetSite#node}
   */
   readonly nodeAttribute?: AzureVnetSiteIngressGwArNode;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AzureVnetSiteIngressGwArPerformanceEnhancementMode;
 }
@@ -10044,23 +10044,23 @@ export class AzureVnetSiteIngressGwArOutputReference extends cdktf.ComplexObject
 }
 export interface AzureVnetSiteKubernetesUpgradeDrainEnableUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_vega_upgrade_mode AzureVnetSite#disable_vega_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable_vega_upgrade_mode AzureVnetSite#disable_vega_upgrade_mode}
   */
   readonly disableVegaUpgradeMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#drain_max_unavailable_node_count AzureVnetSite#drain_max_unavailable_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#drain_max_unavailable_node_count AzureVnetSite#drain_max_unavailable_node_count}
   */
   readonly drainMaxUnavailableNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#drain_max_unavailable_node_percentage AzureVnetSite#drain_max_unavailable_node_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#drain_max_unavailable_node_percentage AzureVnetSite#drain_max_unavailable_node_percentage}
   */
   readonly drainMaxUnavailableNodePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#drain_node_timeout AzureVnetSite#drain_node_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#drain_node_timeout AzureVnetSite#drain_node_timeout}
   */
   readonly drainNodeTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_vega_upgrade_mode AzureVnetSite#enable_vega_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_vega_upgrade_mode AzureVnetSite#enable_vega_upgrade_mode}
   */
   readonly enableVegaUpgradeMode?: boolean | cdktf.IResolvable;
 }
@@ -10257,13 +10257,13 @@ export class AzureVnetSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReferenc
 }
 export interface AzureVnetSiteKubernetesUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_upgrade_drain AzureVnetSite#disable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable_upgrade_drain AzureVnetSite#disable_upgrade_drain}
   */
   readonly disableUpgradeDrain?: boolean | cdktf.IResolvable;
   /**
   * enable_upgrade_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_upgrade_drain AzureVnetSite#enable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_upgrade_drain AzureVnetSite#enable_upgrade_drain}
   */
   readonly enableUpgradeDrain?: AzureVnetSiteKubernetesUpgradeDrainEnableUpgradeDrain;
 }
@@ -10376,15 +10376,15 @@ export class AzureVnetSiteKubernetesUpgradeDrainOutputReference extends cdktf.Co
 }
 export interface AzureVnetSiteLogReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -10526,11 +10526,11 @@ export class AzureVnetSiteLogReceiverOutputReference extends cdktf.ComplexObject
 }
 export interface AzureVnetSiteOfflineSurvivabilityMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_offline_survivability_mode AzureVnetSite#enable_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_offline_survivability_mode AzureVnetSite#enable_offline_survivability_mode}
   */
   readonly enableOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_offline_survivability_mode AzureVnetSite#no_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_offline_survivability_mode AzureVnetSite#no_offline_survivability_mode}
   */
   readonly noOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
 }
@@ -10643,11 +10643,11 @@ export class AzureVnetSiteOfflineSurvivabilityModeOutputReference extends cdktf.
 }
 export interface AzureVnetSiteOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#default_os_version AzureVnetSite#default_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#default_os_version AzureVnetSite#default_os_version}
   */
   readonly defaultOsVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#operating_system_version AzureVnetSite#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#operating_system_version AzureVnetSite#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
 }
@@ -10760,11 +10760,11 @@ export class AzureVnetSiteOsOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteSw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#default_sw_version AzureVnetSite#default_sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#default_sw_version AzureVnetSite#default_sw_version}
   */
   readonly defaultSwVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_software_version AzureVnetSite#volterra_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#volterra_software_version AzureVnetSite#volterra_software_version}
   */
   readonly volterraSoftwareVersion?: string;
 }
@@ -10877,19 +10877,19 @@ export class AzureVnetSiteSwOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteVnetExistingVnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
   */
   readonly f5OrchestratedRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
   */
   readonly manualRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -11054,15 +11054,15 @@ export class AzureVnetSiteVnetExistingVnetOutputReference extends cdktf.ComplexO
 }
 export interface AzureVnetSiteVnetNewVnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#autogenerate AzureVnetSite#autogenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#autogenerate AzureVnetSite#autogenerate}
   */
   readonly autogenerate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#primary_ipv4 AzureVnetSite#primary_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#primary_ipv4 AzureVnetSite#primary_ipv4}
   */
   readonly primaryIpv4: string;
 }
@@ -11203,13 +11203,13 @@ export interface AzureVnetSiteVnet {
   /**
   * existing_vnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#existing_vnet AzureVnetSite#existing_vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#existing_vnet AzureVnetSite#existing_vnet}
   */
   readonly existingVnet?: AzureVnetSiteVnetExistingVnet;
   /**
   * new_vnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#new_vnet AzureVnetSite#new_vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#new_vnet AzureVnetSite#new_vnet}
   */
   readonly newVnet?: AzureVnetSiteVnetNewVnet;
 }
@@ -11322,11 +11322,11 @@ export class AzureVnetSiteVnetOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteVoltstackClusterAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -11439,15 +11439,15 @@ export class AzureVnetSiteVoltstackClusterAcceleratedNetworkingOutputReference e
 }
 export interface AzureVnetSiteVoltstackClusterActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11623,7 +11623,7 @@ export interface AzureVnetSiteVoltstackClusterActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AzureVnetSiteVoltstackClusterActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -11704,15 +11704,15 @@ export class AzureVnetSiteVoltstackClusterActiveEnhancedFirewallPoliciesOutputRe
 }
 export interface AzureVnetSiteVoltstackClusterActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11888,7 +11888,7 @@ export interface AzureVnetSiteVoltstackClusterActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AzureVnetSiteVoltstackClusterActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -11969,15 +11969,15 @@ export class AzureVnetSiteVoltstackClusterActiveForwardProxyPoliciesOutputRefere
 }
 export interface AzureVnetSiteVoltstackClusterActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -12153,7 +12153,7 @@ export interface AzureVnetSiteVoltstackClusterActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
   */
   readonly networkPolicies: AzureVnetSiteVoltstackClusterActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -12234,15 +12234,15 @@ export class AzureVnetSiteVoltstackClusterActiveNetworkPoliciesOutputReference e
 }
 export interface AzureVnetSiteVoltstackClusterAzNodesLocalSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -12381,11 +12381,11 @@ export class AzureVnetSiteVoltstackClusterAzNodesLocalSubnetSubnetOutputReferenc
 }
 export interface AzureVnetSiteVoltstackClusterAzNodesLocalSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -12497,13 +12497,13 @@ export interface AzureVnetSiteVoltstackClusterAzNodesLocalSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteVoltstackClusterAzNodesLocalSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteVoltstackClusterAzNodesLocalSubnetSubnetParam;
 }
@@ -12616,17 +12616,17 @@ export class AzureVnetSiteVoltstackClusterAzNodesLocalSubnetOutputReference exte
 }
 export interface AzureVnetSiteVoltstackClusterAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
   */
   readonly azureAz: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disk_size AzureVnetSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disk_size AzureVnetSite#disk_size}
   */
   readonly diskSize?: number;
   /**
   * local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#local_subnet AzureVnetSite#local_subnet}
   */
   readonly localSubnet?: AzureVnetSiteVoltstackClusterAzNodesLocalSubnet;
 }
@@ -12797,15 +12797,15 @@ export class AzureVnetSiteVoltstackClusterAzNodesList extends cdktf.ComplexList 
 }
 export interface AzureVnetSiteVoltstackClusterDcClusterGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -12947,7 +12947,7 @@ export class AzureVnetSiteVoltstackClusterDcClusterGroupOutputReference extends 
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#hash_algorithms AzureVnetSite#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#hash_algorithms AzureVnetSite#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -13077,15 +13077,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13224,15 +13224,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13371,11 +13371,11 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#url AzureVnetSite#url}
   */
   readonly url: string;
 }
@@ -13485,23 +13485,23 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#key AzureVnetSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#version AzureVnetSite#version}
   */
   readonly version?: number;
 }
@@ -13695,7 +13695,7 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name: string;
 }
@@ -13776,37 +13776,37 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
   */
   readonly vaultSecretInfo?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
 }
@@ -14084,35 +14084,35 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#certificate_url AzureVnetSite#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#certificate_url AzureVnetSite#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#description AzureVnetSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#description AzureVnetSite#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_hash_algorithms AzureVnetSite#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_hash_algorithms AzureVnetSite#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_ocsp_stapling AzureVnetSite#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable_ocsp_stapling AzureVnetSite#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#private_key AzureVnetSite#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#private_key AzureVnetSite#private_key}
   */
   readonly privateKey: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#use_system_defaults AzureVnetSite#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#use_system_defaults AzureVnetSite#use_system_defaults}
   */
   readonly useSystemDefaults?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
 }
@@ -14335,15 +14335,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#exact_value AzureVnetSite#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#exact_value AzureVnetSite#exact_value}
   */
   readonly exactValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#regex_value AzureVnetSite#regex_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#regex_value AzureVnetSite#regex_value}
   */
   readonly regexValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#suffix_value AzureVnetSite#suffix_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#suffix_value AzureVnetSite#suffix_value}
   */
   readonly suffixValue?: string;
 }
@@ -14485,17 +14485,17 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_interception AzureVnetSite#disable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable_interception AzureVnetSite#disable_interception}
   */
   readonly disableInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_interception AzureVnetSite#enable_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_interception AzureVnetSite#enable_interception}
   */
   readonly enableInterception?: boolean | cdktf.IResolvable;
   /**
   * domain_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#domain_match AzureVnetSite#domain_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#domain_match AzureVnetSite#domain_match}
   */
   readonly domainMatch: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
 }
@@ -14668,7 +14668,7 @@ export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConn
   /**
   * interception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interception_rules AzureVnetSite#interception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#interception_rules AzureVnetSite#interception_rules}
   */
   readonly interceptionRules: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
 }
@@ -14749,31 +14749,31 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_for_all_domains AzureVnetSite#enable_for_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_for_all_domains AzureVnetSite#enable_for_all_domains}
   */
   readonly enableForAllDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#trusted_ca_url AzureVnetSite#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#trusted_ca_url AzureVnetSite#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_certificate AzureVnetSite#volterra_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#volterra_certificate AzureVnetSite#volterra_certificate}
   */
   readonly volterraCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_trusted_ca AzureVnetSite#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#volterra_trusted_ca AzureVnetSite#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * custom_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_certificate AzureVnetSite#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_certificate AzureVnetSite#custom_certificate}
   */
   readonly customCertificate?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#policy AzureVnetSite#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#policy AzureVnetSite#policy}
   */
   readonly policy?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
 }
@@ -15002,29 +15002,29 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#connection_timeout AzureVnetSite#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#connection_timeout AzureVnetSite#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#max_connect_attempts AzureVnetSite#max_connect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#max_connect_attempts AzureVnetSite#max_connect_attempts}
   */
   readonly maxConnectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_interception AzureVnetSite#no_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_interception AzureVnetSite#no_interception}
   */
   readonly noInterception?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_ports AzureVnetSite#white_listed_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#white_listed_ports AzureVnetSite#white_listed_ports}
   */
   readonly whiteListedPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_prefixes AzureVnetSite#white_listed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#white_listed_prefixes AzureVnetSite#white_listed_prefixes}
   */
   readonly whiteListedPrefixes?: string[];
   /**
   * tls_intercept block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tls_intercept AzureVnetSite#tls_intercept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tls_intercept AzureVnetSite#tls_intercept}
   */
   readonly tlsIntercept?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
 }
@@ -15253,15 +15253,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15410,7 +15410,7 @@ export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConn
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -15491,15 +15491,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -15648,7 +15648,7 @@ export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConn
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -15729,25 +15729,25 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnecti
 }
 export interface AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_forward_proxy AzureVnetSite#disable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable_forward_proxy AzureVnetSite#disable_forward_proxy}
   */
   readonly disableForwardProxy?: boolean | cdktf.IResolvable;
   /**
   * enable_forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_forward_proxy AzureVnetSite#enable_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable_forward_proxy AzureVnetSite#enable_forward_proxy}
   */
   readonly enableForwardProxy?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
   /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -15952,7 +15952,7 @@ export interface AzureVnetSiteVoltstackClusterGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
   */
   readonly globalNetworkConnections: AzureVnetSiteVoltstackClusterGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -16033,15 +16033,15 @@ export class AzureVnetSiteVoltstackClusterGlobalNetworkListStructOutputReference
 }
 export interface AzureVnetSiteVoltstackClusterK8SCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -16183,15 +16183,15 @@ export class AzureVnetSiteVoltstackClusterK8SClusterOutputReference extends cdkt
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -16370,7 +16370,7 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -16454,7 +16454,7 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -16540,13 +16540,13 @@ export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteList
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -16659,19 +16659,19 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#type AzureVnetSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#type AzureVnetSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
   */
   readonly interface?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
   */
   readonly nexthopAddress?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -16813,11 +16813,11 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -16930,11 +16930,11 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -17049,13 +17049,13 @@ export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteList
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -17200,23 +17200,23 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
   */
   readonly nexthop?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
   */
   readonly subnets: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -17384,13 +17384,13 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCust
 }
 export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
   */
   readonly customStaticRoute?: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -17537,7 +17537,7 @@ export interface AzureVnetSiteVoltstackClusterOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
   */
   readonly staticRouteList: AzureVnetSiteVoltstackClusterOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -17618,11 +17618,11 @@ export class AzureVnetSiteVoltstackClusterOutsideStaticRoutesOutputReference ext
 }
 export interface AzureVnetSiteVoltstackClusterStorageClassListStorageClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#default_storage_class AzureVnetSite#default_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#default_storage_class AzureVnetSite#default_storage_class}
   */
   readonly defaultStorageClass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#storage_class_name AzureVnetSite#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#storage_class_name AzureVnetSite#storage_class_name}
   */
   readonly storageClassName: string;
 }
@@ -17766,7 +17766,7 @@ export interface AzureVnetSiteVoltstackClusterStorageClassListStruct {
   /**
   * storage_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#storage_classes AzureVnetSite#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#storage_classes AzureVnetSite#storage_classes}
   */
   readonly storageClasses?: AzureVnetSiteVoltstackClusterStorageClassListStorageClasses[] | cdktf.IResolvable;
 }
@@ -17850,107 +17850,107 @@ export class AzureVnetSiteVoltstackClusterStorageClassListStructOutputReference 
 }
 export interface AzureVnetSiteVoltstackCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
   */
   readonly azureCertifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#default_storage AzureVnetSite#default_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#default_storage AzureVnetSite#default_storage}
   */
   readonly defaultStorage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_k8s_cluster AzureVnetSite#no_k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_k8s_cluster AzureVnetSite#no_k8s_cluster}
   */
   readonly noK8SCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * accelerated_networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
   */
   readonly acceleratedNetworking?: AzureVnetSiteVoltstackClusterAcceleratedNetworking;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: AzureVnetSiteVoltstackClusterActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: AzureVnetSiteVoltstackClusterActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: AzureVnetSiteVoltstackClusterActiveNetworkPolicies;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
   */
   readonly azNodes: AzureVnetSiteVoltstackClusterAzNodes[] | cdktf.IResolvable;
   /**
   * dc_cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dc_cluster_group AzureVnetSite#dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#dc_cluster_group AzureVnetSite#dc_cluster_group}
   */
   readonly dcClusterGroup?: AzureVnetSiteVoltstackClusterDcClusterGroup;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
   */
   readonly globalNetworkList?: AzureVnetSiteVoltstackClusterGlobalNetworkListStruct;
   /**
   * k8s_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#k8s_cluster AzureVnetSite#k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#k8s_cluster AzureVnetSite#k8s_cluster}
   */
   readonly k8SCluster?: AzureVnetSiteVoltstackClusterK8SCluster;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: AzureVnetSiteVoltstackClusterOutsideStaticRoutes;
   /**
   * storage_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#storage_class_list AzureVnetSite#storage_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#storage_class_list AzureVnetSite#storage_class_list}
   */
   readonly storageClassList?: AzureVnetSiteVoltstackClusterStorageClassListStruct;
 }
@@ -18608,11 +18608,11 @@ export class AzureVnetSiteVoltstackClusterOutputReference extends cdktf.ComplexO
 }
 export interface AzureVnetSiteVoltstackClusterArAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -18725,15 +18725,15 @@ export class AzureVnetSiteVoltstackClusterArAcceleratedNetworkingOutputReference
 }
 export interface AzureVnetSiteVoltstackClusterArActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -18909,7 +18909,7 @@ export interface AzureVnetSiteVoltstackClusterArActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AzureVnetSiteVoltstackClusterArActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -18990,15 +18990,15 @@ export class AzureVnetSiteVoltstackClusterArActiveEnhancedFirewallPoliciesOutput
 }
 export interface AzureVnetSiteVoltstackClusterArActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ScopedUserRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of environment IDs that scope the user role. If not provided, the user role applies to all environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#environment_ids ScopedUserRole#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#environment_ids ScopedUserRole#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * A list of project group IDs that scope the user role. If not provided, the user role applies to all project groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#project_group_ids ScopedUserRole#project_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#project_group_ids ScopedUserRole#project_group_ids}
   */
   readonly projectGroupIds?: string[];
   /**
   * A list of project IDs that scope the user role. If not provided, the user role applies to all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#project_ids ScopedUserRole#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#project_ids ScopedUserRole#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * The space ID associated with this scoped user role. If not provided, the scoped user role will be created at the system level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#space_id ScopedUserRole#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#space_id ScopedUserRole#space_id}
   */
   readonly spaceId?: string;
   /**
   * The team ID that this scoped user role belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#team_id ScopedUserRole#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#team_id ScopedUserRole#team_id}
   */
   readonly teamId: string;
   /**
   * A list of tenant IDs that scope the user role. If not provided, the user role applies to all tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#tenant_ids ScopedUserRole#tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#tenant_ids ScopedUserRole#tenant_ids}
   */
   readonly tenantIds?: string[];
   /**
   * The user role ID that defines the permissions for this scoped user role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#user_role_id ScopedUserRole#user_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#user_role_id ScopedUserRole#user_role_id}
   */
   readonly userRoleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role octopusdeploy_scoped_user_role}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role octopusdeploy_scoped_user_role}
 */
 export class ScopedUserRole extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ScopedUserRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScopedUserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScopedUserRole to import
-  * @param importFromId The id of the existing ScopedUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScopedUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScopedUserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ScopedUserRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/scoped_user_role octopusdeploy_scoped_user_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/scoped_user_role octopusdeploy_scoped_user_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ScopedUserRole extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_scoped_user_role',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

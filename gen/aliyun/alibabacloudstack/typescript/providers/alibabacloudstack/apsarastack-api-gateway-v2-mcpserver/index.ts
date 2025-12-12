@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackApiGatewayV2McpserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#consumer_auth ApsarastackApiGatewayV2Mcpserver#consumer_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#consumer_auth ApsarastackApiGatewayV2Mcpserver#consumer_auth}
   */
   readonly consumerAuth?: boolean | cdktf.IResolvable;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_host ApsarastackApiGatewayV2Mcpserver#db_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_host ApsarastackApiGatewayV2Mcpserver#db_host}
   */
   readonly dbHost?: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_name ApsarastackApiGatewayV2Mcpserver#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_name ApsarastackApiGatewayV2Mcpserver#db_name}
   */
   readonly dbName?: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_password ApsarastackApiGatewayV2Mcpserver#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_password ApsarastackApiGatewayV2Mcpserver#db_password}
   */
   readonly dbPassword?: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_port ApsarastackApiGatewayV2Mcpserver#db_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_port ApsarastackApiGatewayV2Mcpserver#db_port}
   */
   readonly dbPort?: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_type ApsarastackApiGatewayV2Mcpserver#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_type ApsarastackApiGatewayV2Mcpserver#db_type}
   */
   readonly dbType?: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_username ApsarastackApiGatewayV2Mcpserver#db_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#db_username ApsarastackApiGatewayV2Mcpserver#db_username}
   */
   readonly dbUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#description ApsarastackApiGatewayV2Mcpserver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#description ApsarastackApiGatewayV2Mcpserver#description}
   */
   readonly description?: string;
   /**
   * When the type is `DIRECT_ROUTE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#direct_route_path ApsarastackApiGatewayV2Mcpserver#direct_route_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#direct_route_path ApsarastackApiGatewayV2Mcpserver#direct_route_path}
   */
   readonly directRoutePath?: string;
   /**
   * When the type is `DIRECT_ROUTE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#direct_route_type ApsarastackApiGatewayV2Mcpserver#direct_route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#direct_route_type ApsarastackApiGatewayV2Mcpserver#direct_route_type}
   */
   readonly directRouteType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#domains ApsarastackApiGatewayV2Mcpserver#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#domains ApsarastackApiGatewayV2Mcpserver#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#gw_instance_id ApsarastackApiGatewayV2Mcpserver#gw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#gw_instance_id ApsarastackApiGatewayV2Mcpserver#gw_instance_id}
   */
   readonly gwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#id ApsarastackApiGatewayV2Mcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#id ApsarastackApiGatewayV2Mcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#name ApsarastackApiGatewayV2Mcpserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#name ApsarastackApiGatewayV2Mcpserver#name}
   */
   readonly name: string;
   /**
   * When the type is `DATABASE`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#other_params ApsarastackApiGatewayV2Mcpserver#other_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#other_params ApsarastackApiGatewayV2Mcpserver#other_params}
   */
   readonly otherParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#service ApsarastackApiGatewayV2Mcpserver#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#service ApsarastackApiGatewayV2Mcpserver#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#type ApsarastackApiGatewayV2Mcpserver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#type ApsarastackApiGatewayV2Mcpserver#type}
   */
   readonly type: string;
 }
@@ -189,7 +189,7 @@ export class ApsarastackApiGatewayV2McpserverServicesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver apsarastack_api_gateway_v2_mcpserver}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver apsarastack_api_gateway_v2_mcpserver}
 */
 export class ApsarastackApiGatewayV2Mcpserver extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class ApsarastackApiGatewayV2Mcpserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackApiGatewayV2Mcpserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackApiGatewayV2Mcpserver to import
-  * @param importFromId The id of the existing ApsarastackApiGatewayV2Mcpserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackApiGatewayV2Mcpserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackApiGatewayV2Mcpserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class ApsarastackApiGatewayV2Mcpserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_mcpserver apsarastack_api_gateway_v2_mcpserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_mcpserver apsarastack_api_gateway_v2_mcpserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class ApsarastackApiGatewayV2Mcpserver extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_api_gateway_v2_mcpserver',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

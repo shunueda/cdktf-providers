@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BmcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of zone that the bmc subnet locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#availability_zone BmcSubnet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#availability_zone BmcSubnet#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * A network address block which should be a subnet of the three internal network segments (10.0.0.0/16, 172.16.0.0/12 and 192.168.0.0/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#cidr_block BmcSubnet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#cidr_block BmcSubnet#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#id BmcSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#id BmcSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface BmcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the bmc subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#name BmcSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#name BmcSubnet#name}
   */
   readonly name?: string;
   /**
   * The resource group id the subnet belongs to, default to Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#resource_group_id BmcSubnet#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#resource_group_id BmcSubnet#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * ID of the VPC to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#vpc_id BmcSubnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#vpc_id BmcSubnet#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet zenlayercloud_bmc_subnet}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet zenlayercloud_bmc_subnet}
 */
 export class BmcSubnet extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class BmcSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BmcSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BmcSubnet to import
-  * @param importFromId The id of the existing BmcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BmcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BmcSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class BmcSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/resources/bmc_subnet zenlayercloud_bmc_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/resources/bmc_subnet zenlayercloud_bmc_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class BmcSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_bmc_subnet',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

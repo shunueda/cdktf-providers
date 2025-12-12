@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAlibabacloudstackApiGatewayV2K8SClustersConfig extends cdkt
   /**
   * The container service cluster ID as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#cs_cluster_id DataAlibabacloudstackApiGatewayV2K8SClusters#cs_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#cs_cluster_id DataAlibabacloudstackApiGatewayV2K8SClusters#cs_cluster_id}
   */
   readonly csClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#id DataAlibabacloudstackApiGatewayV2K8SClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#id DataAlibabacloudstackApiGatewayV2K8SClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataAlibabacloudstackApiGatewayV2K8SClustersConfig extends cdkt
   /**
   * A list of k8s cluster IDs to filter results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#ids DataAlibabacloudstackApiGatewayV2K8SClusters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#ids DataAlibabacloudstackApiGatewayV2K8SClusters#ids}
   */
   readonly ids?: string[];
   /**
   * The name of the k8s cluster used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#k8s_cluster_name DataAlibabacloudstackApiGatewayV2K8SClusters#k8s_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#k8s_cluster_name DataAlibabacloudstackApiGatewayV2K8SClusters#k8s_cluster_name}
   */
   readonly k8SClusterName?: string;
   /**
   * A regex string to filter results by k8s cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#name_regex DataAlibabacloudstackApiGatewayV2K8SClusters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#name_regex DataAlibabacloudstackApiGatewayV2K8SClusters#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -146,7 +146,7 @@ export class DataAlibabacloudstackApiGatewayV2K8SClustersClustersList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters alibabacloudstack_api_gateway_v2_k8s_clusters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters alibabacloudstack_api_gateway_v2_k8s_clusters}
 */
 export class DataAlibabacloudstackApiGatewayV2K8SClusters extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataAlibabacloudstackApiGatewayV2K8SClusters extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataAlibabacloudstackApiGatewayV2K8SClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackApiGatewayV2K8SClusters to import
-  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2K8SClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackApiGatewayV2K8SClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackApiGatewayV2K8SClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataAlibabacloudstackApiGatewayV2K8SClusters extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/api_gateway_v2_k8s_clusters alibabacloudstack_api_gateway_v2_k8s_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/api_gateway_v2_k8s_clusters alibabacloudstack_api_gateway_v2_k8s_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataAlibabacloudstackApiGatewayV2K8SClusters extends cdktf.Terrafor
       terraformResourceType: 'alibabacloudstack_api_gateway_v2_k8s_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

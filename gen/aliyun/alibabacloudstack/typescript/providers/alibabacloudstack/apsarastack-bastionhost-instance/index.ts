@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackBastionhostInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#asset ApsarastackBastionhostInstance#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#asset ApsarastackBastionhostInstance#asset}
   */
   readonly asset: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#description ApsarastackBastionhostInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#description ApsarastackBastionhostInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#disasterrecovery ApsarastackBastionhostInstance#disasterrecovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#disasterrecovery ApsarastackBastionhostInstance#disasterrecovery}
   */
   readonly disasterrecovery: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#enable_public_access ApsarastackBastionhostInstance#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#enable_public_access ApsarastackBastionhostInstance#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#highavailability ApsarastackBastionhostInstance#highavailability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#highavailability ApsarastackBastionhostInstance#highavailability}
   */
   readonly highavailability: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#id ApsarastackBastionhostInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#id ApsarastackBastionhostInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#license_code ApsarastackBastionhostInstance#license_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#license_code ApsarastackBastionhostInstance#license_code}
   */
   readonly licenseCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#renew_period ApsarastackBastionhostInstance#renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#renew_period ApsarastackBastionhostInstance#renew_period}
   */
   readonly renewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#renewal_period_unit ApsarastackBastionhostInstance#renewal_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#renewal_period_unit ApsarastackBastionhostInstance#renewal_period_unit}
   */
   readonly renewalPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#renewal_status ApsarastackBastionhostInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#renewal_status ApsarastackBastionhostInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#resource_group_id ApsarastackBastionhostInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#resource_group_id ApsarastackBastionhostInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#security_group_ids ApsarastackBastionhostInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#security_group_ids ApsarastackBastionhostInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#tags ApsarastackBastionhostInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#tags ApsarastackBastionhostInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#vpc_id ApsarastackBastionhostInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#vpc_id ApsarastackBastionhostInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#vswitch_id ApsarastackBastionhostInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#vswitch_id ApsarastackBastionhostInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * ad_auth_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#ad_auth_server ApsarastackBastionhostInstance#ad_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#ad_auth_server ApsarastackBastionhostInstance#ad_auth_server}
   */
   readonly adAuthServer?: ApsarastackBastionhostInstanceAdAuthServer[] | cdktf.IResolvable;
   /**
   * ldap_auth_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#ldap_auth_server ApsarastackBastionhostInstance#ldap_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#ldap_auth_server ApsarastackBastionhostInstance#ldap_auth_server}
   */
   readonly ldapAuthServer?: ApsarastackBastionhostInstanceLdapAuthServer[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#timeouts ApsarastackBastionhostInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#timeouts ApsarastackBastionhostInstance#timeouts}
   */
   readonly timeouts?: ApsarastackBastionhostInstanceTimeouts;
 }
 export interface ApsarastackBastionhostInstanceAdAuthServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#account ApsarastackBastionhostInstance#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#account ApsarastackBastionhostInstance#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#base_dn ApsarastackBastionhostInstance#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#base_dn ApsarastackBastionhostInstance#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#domain ApsarastackBastionhostInstance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#domain ApsarastackBastionhostInstance#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#email_mapping ApsarastackBastionhostInstance#email_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#email_mapping ApsarastackBastionhostInstance#email_mapping}
   */
   readonly emailMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#filter ApsarastackBastionhostInstance#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#filter ApsarastackBastionhostInstance#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#is_ssl ApsarastackBastionhostInstance#is_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#is_ssl ApsarastackBastionhostInstance#is_ssl}
   */
   readonly isSsl: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#mobile_mapping ApsarastackBastionhostInstance#mobile_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#mobile_mapping ApsarastackBastionhostInstance#mobile_mapping}
   */
   readonly mobileMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#name_mapping ApsarastackBastionhostInstance#name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#name_mapping ApsarastackBastionhostInstance#name_mapping}
   */
   readonly nameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#password ApsarastackBastionhostInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#password ApsarastackBastionhostInstance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#port ApsarastackBastionhostInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#port ApsarastackBastionhostInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#server ApsarastackBastionhostInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#server ApsarastackBastionhostInstance#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#standby_server ApsarastackBastionhostInstance#standby_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#standby_server ApsarastackBastionhostInstance#standby_server}
   */
   readonly standbyServer?: string;
 }
@@ -549,51 +549,51 @@ export class ApsarastackBastionhostInstanceAdAuthServerList extends cdktf.Comple
 }
 export interface ApsarastackBastionhostInstanceLdapAuthServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#account ApsarastackBastionhostInstance#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#account ApsarastackBastionhostInstance#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#base_dn ApsarastackBastionhostInstance#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#base_dn ApsarastackBastionhostInstance#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#email_mapping ApsarastackBastionhostInstance#email_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#email_mapping ApsarastackBastionhostInstance#email_mapping}
   */
   readonly emailMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#filter ApsarastackBastionhostInstance#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#filter ApsarastackBastionhostInstance#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#is_ssl ApsarastackBastionhostInstance#is_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#is_ssl ApsarastackBastionhostInstance#is_ssl}
   */
   readonly isSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#login_name_mapping ApsarastackBastionhostInstance#login_name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#login_name_mapping ApsarastackBastionhostInstance#login_name_mapping}
   */
   readonly loginNameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#mobile_mapping ApsarastackBastionhostInstance#mobile_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#mobile_mapping ApsarastackBastionhostInstance#mobile_mapping}
   */
   readonly mobileMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#name_mapping ApsarastackBastionhostInstance#name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#name_mapping ApsarastackBastionhostInstance#name_mapping}
   */
   readonly nameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#password ApsarastackBastionhostInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#password ApsarastackBastionhostInstance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#port ApsarastackBastionhostInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#port ApsarastackBastionhostInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#server ApsarastackBastionhostInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#server ApsarastackBastionhostInstance#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#standby_server ApsarastackBastionhostInstance#standby_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#standby_server ApsarastackBastionhostInstance#standby_server}
   */
   readonly standbyServer?: string;
 }
@@ -1013,15 +1013,15 @@ export class ApsarastackBastionhostInstanceLdapAuthServerList extends cdktf.Comp
 }
 export interface ApsarastackBastionhostInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#create ApsarastackBastionhostInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#create ApsarastackBastionhostInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#delete ApsarastackBastionhostInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#delete ApsarastackBastionhostInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#update ApsarastackBastionhostInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#update ApsarastackBastionhostInstance#update}
   */
   readonly update?: string;
 }
@@ -1173,7 +1173,7 @@ export class ApsarastackBastionhostInstanceTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance apsarastack_bastionhost_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance apsarastack_bastionhost_instance}
 */
 export class ApsarastackBastionhostInstance extends cdktf.TerraformResource {
 
@@ -1189,7 +1189,7 @@ export class ApsarastackBastionhostInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackBastionhostInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackBastionhostInstance to import
-  * @param importFromId The id of the existing ApsarastackBastionhostInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackBastionhostInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackBastionhostInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1201,7 +1201,7 @@ export class ApsarastackBastionhostInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_bastionhost_instance apsarastack_bastionhost_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_bastionhost_instance apsarastack_bastionhost_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1212,8 +1212,8 @@ export class ApsarastackBastionhostInstance extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_bastionhost_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZenlayercloudZecCidrsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#id DataZenlayercloudZecCidrs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#id DataZenlayercloudZecCidrs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataZenlayercloudZecCidrsConfig extends cdktf.TerraformMetaArgu
   /**
   * IDs of the public CIDR block to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#ids DataZenlayercloudZecCidrs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#ids DataZenlayercloudZecCidrs#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to apply to the public CIDR block list returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#name_regex DataZenlayercloudZecCidrs#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#name_regex DataZenlayercloudZecCidrs#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The region ID that the public CIDR block locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#region_id DataZenlayercloudZecCidrs#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#region_id DataZenlayercloudZecCidrs#region_id}
   */
   readonly regionId?: string;
   /**
   * Resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#resource_group_id DataZenlayercloudZecCidrs#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#resource_group_id DataZenlayercloudZecCidrs#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#result_output_file DataZenlayercloudZecCidrs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#result_output_file DataZenlayercloudZecCidrs#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -177,7 +177,7 @@ export class DataZenlayercloudZecCidrsCidrsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs zenlayercloud_zec_cidrs}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs zenlayercloud_zec_cidrs}
 */
 export class DataZenlayercloudZecCidrs extends cdktf.TerraformDataSource {
 
@@ -193,7 +193,7 @@ export class DataZenlayercloudZecCidrs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZenlayercloudZecCidrs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZecCidrs to import
-  * @param importFromId The id of the existing DataZenlayercloudZecCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZecCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZecCidrs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class DataZenlayercloudZecCidrs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.14/docs/data-sources/zec_cidrs zenlayercloud_zec_cidrs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.17/docs/data-sources/zec_cidrs zenlayercloud_zec_cidrs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class DataZenlayercloudZecCidrs extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zec_cidrs',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.14',
-        providerVersionConstraint: '0.2.14'
+        providerVersion: '0.2.17',
+        providerVersionConstraint: '0.2.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

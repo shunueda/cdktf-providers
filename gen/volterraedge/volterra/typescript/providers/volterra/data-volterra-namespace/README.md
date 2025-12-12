@@ -1,3 +1,3 @@
 # `data_volterra_namespace`
 
-Refer to the Terraform Registry for docs: [`data_volterra_namespace`](https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/namespace).
+Refer to the Terraform Registry for docs: [`data_volterra_namespace`](https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/data-sources/namespace).

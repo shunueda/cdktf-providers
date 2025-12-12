@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface SecureNotificationChannelOpsgenieConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#api_key SecureNotificationChannelOpsgenie#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#api_key SecureNotificationChannelOpsgenie#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#enabled SecureNotificationChannelOpsgenie#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#enabled SecureNotificationChannelOpsgenie#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#id SecureNotificationChannelOpsgenie#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#id SecureNotificationChannelOpsgenie#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#name SecureNotificationChannelOpsgenie#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#name SecureNotificationChannelOpsgenie#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#notify_when_ok SecureNotificationChannelOpsgenie#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#notify_when_ok SecureNotificationChannelOpsgenie#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#notify_when_resolved SecureNotificationChannelOpsgenie#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#notify_when_resolved SecureNotificationChannelOpsgenie#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#region SecureNotificationChannelOpsgenie#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#region SecureNotificationChannelOpsgenie#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#send_test_notification SecureNotificationChannelOpsgenie#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#send_test_notification SecureNotificationChannelOpsgenie#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#share_with_current_team SecureNotificationChannelOpsgenie#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#share_with_current_team SecureNotificationChannelOpsgenie#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#timeouts SecureNotificationChannelOpsgenie#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#timeouts SecureNotificationChannelOpsgenie#timeouts}
   */
   readonly timeouts?: SecureNotificationChannelOpsgenieTimeouts;
 }
 export interface SecureNotificationChannelOpsgenieTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#create SecureNotificationChannelOpsgenie#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#create SecureNotificationChannelOpsgenie#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#delete SecureNotificationChannelOpsgenie#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#delete SecureNotificationChannelOpsgenie#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#read SecureNotificationChannelOpsgenie#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#read SecureNotificationChannelOpsgenie#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#update SecureNotificationChannelOpsgenie#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#update SecureNotificationChannelOpsgenie#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class SecureNotificationChannelOpsgenieTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie sysdig_secure_notification_channel_opsgenie}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie sysdig_secure_notification_channel_opsgenie}
 */
 export class SecureNotificationChannelOpsgenie extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class SecureNotificationChannelOpsgenie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureNotificationChannelOpsgenie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureNotificationChannelOpsgenie to import
-  * @param importFromId The id of the existing SecureNotificationChannelOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureNotificationChannelOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureNotificationChannelOpsgenie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class SecureNotificationChannelOpsgenie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_opsgenie sysdig_secure_notification_channel_opsgenie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_notification_channel_opsgenie sysdig_secure_notification_channel_opsgenie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class SecureNotificationChannelOpsgenie extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_notification_channel_opsgenie',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

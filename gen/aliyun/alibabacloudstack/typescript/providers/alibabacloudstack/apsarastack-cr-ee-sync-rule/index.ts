@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackCrEeSyncRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#id ApsarastackCrEeSyncRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#id ApsarastackCrEeSyncRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#instance_id ApsarastackCrEeSyncRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#instance_id ApsarastackCrEeSyncRule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#name ApsarastackCrEeSyncRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#name ApsarastackCrEeSyncRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#namespace_name ApsarastackCrEeSyncRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#namespace_name ApsarastackCrEeSyncRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#repo_name ApsarastackCrEeSyncRule#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#repo_name ApsarastackCrEeSyncRule#repo_name}
   */
   readonly repoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#tag_filter ApsarastackCrEeSyncRule#tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#tag_filter ApsarastackCrEeSyncRule#tag_filter}
   */
   readonly tagFilter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#target_instance_id ApsarastackCrEeSyncRule#target_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#target_instance_id ApsarastackCrEeSyncRule#target_instance_id}
   */
   readonly targetInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#target_namespace_name ApsarastackCrEeSyncRule#target_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#target_namespace_name ApsarastackCrEeSyncRule#target_namespace_name}
   */
   readonly targetNamespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#target_region_id ApsarastackCrEeSyncRule#target_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#target_region_id ApsarastackCrEeSyncRule#target_region_id}
   */
   readonly targetRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#target_repo_name ApsarastackCrEeSyncRule#target_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#target_repo_name ApsarastackCrEeSyncRule#target_repo_name}
   */
   readonly targetRepoName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule apsarastack_cr_ee_sync_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule apsarastack_cr_ee_sync_rule}
 */
 export class ApsarastackCrEeSyncRule extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ApsarastackCrEeSyncRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackCrEeSyncRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackCrEeSyncRule to import
-  * @param importFromId The id of the existing ApsarastackCrEeSyncRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackCrEeSyncRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackCrEeSyncRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ApsarastackCrEeSyncRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_cr_ee_sync_rule apsarastack_cr_ee_sync_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_cr_ee_sync_rule apsarastack_cr_ee_sync_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ApsarastackCrEeSyncRule extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_cr_ee_sync_rule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

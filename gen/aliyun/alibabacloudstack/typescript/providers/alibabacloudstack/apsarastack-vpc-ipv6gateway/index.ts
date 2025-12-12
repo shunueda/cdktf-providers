@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackVpcIpv6GatewayAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#description ApsarastackVpcIpv6GatewayA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#description ApsarastackVpcIpv6GatewayA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#id ApsarastackVpcIpv6GatewayA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#id ApsarastackVpcIpv6GatewayA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#ipv6_gateway_name ApsarastackVpcIpv6GatewayA#ipv6_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#ipv6_gateway_name ApsarastackVpcIpv6GatewayA#ipv6_gateway_name}
   */
   readonly ipv6GatewayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#spec ApsarastackVpcIpv6GatewayA#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#spec ApsarastackVpcIpv6GatewayA#spec}
   */
   readonly spec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#vpc_id ApsarastackVpcIpv6GatewayA#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#vpc_id ApsarastackVpcIpv6GatewayA#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#timeouts ApsarastackVpcIpv6GatewayA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#timeouts ApsarastackVpcIpv6GatewayA#timeouts}
   */
   readonly timeouts?: ApsarastackVpcIpv6GatewayTimeoutsA;
 }
 export interface ApsarastackVpcIpv6GatewayTimeoutsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#create ApsarastackVpcIpv6GatewayA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#create ApsarastackVpcIpv6GatewayA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#delete ApsarastackVpcIpv6GatewayA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#delete ApsarastackVpcIpv6GatewayA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#update ApsarastackVpcIpv6GatewayA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#update ApsarastackVpcIpv6GatewayA#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class ApsarastackVpcIpv6GatewayTimeoutsAOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway apsarastack_vpc_ipv6gateway}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway apsarastack_vpc_ipv6gateway}
 */
 export class ApsarastackVpcIpv6GatewayA extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class ApsarastackVpcIpv6GatewayA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackVpcIpv6GatewayA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackVpcIpv6GatewayA to import
-  * @param importFromId The id of the existing ApsarastackVpcIpv6GatewayA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackVpcIpv6GatewayA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackVpcIpv6GatewayA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class ApsarastackVpcIpv6GatewayA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_ipv6gateway apsarastack_vpc_ipv6gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_ipv6gateway apsarastack_vpc_ipv6gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class ApsarastackVpcIpv6GatewayA extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_vpc_ipv6gateway',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

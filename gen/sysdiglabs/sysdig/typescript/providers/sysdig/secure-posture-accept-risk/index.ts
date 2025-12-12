@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface SecurePostureAcceptRiskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#control_name SecurePostureAcceptRisk#control_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#control_name SecurePostureAcceptRisk#control_name}
   */
   readonly controlName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#description SecurePostureAcceptRisk#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#description SecurePostureAcceptRisk#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#end_time SecurePostureAcceptRisk#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#end_time SecurePostureAcceptRisk#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#expires_in SecurePostureAcceptRisk#expires_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#expires_in SecurePostureAcceptRisk#expires_in}
   */
   readonly expiresIn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#filter SecurePostureAcceptRisk#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#filter SecurePostureAcceptRisk#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#reason SecurePostureAcceptRisk#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#reason SecurePostureAcceptRisk#reason}
   */
   readonly reason: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#zone_name SecurePostureAcceptRisk#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#zone_name SecurePostureAcceptRisk#zone_name}
   */
   readonly zoneName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#timeouts SecurePostureAcceptRisk#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#timeouts SecurePostureAcceptRisk#timeouts}
   */
   readonly timeouts?: SecurePostureAcceptRiskTimeouts;
 }
 export interface SecurePostureAcceptRiskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#create SecurePostureAcceptRisk#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#create SecurePostureAcceptRisk#create}
   */
   readonly create?: string;
 }
@@ -138,7 +138,7 @@ export class SecurePostureAcceptRiskTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk sysdig_secure_posture_accept_risk}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk sysdig_secure_posture_accept_risk}
 */
 export class SecurePostureAcceptRisk extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class SecurePostureAcceptRisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurePostureAcceptRisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurePostureAcceptRisk to import
-  * @param importFromId The id of the existing SecurePostureAcceptRisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurePostureAcceptRisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurePostureAcceptRisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class SecurePostureAcceptRisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_posture_accept_risk sysdig_secure_posture_accept_risk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/secure_posture_accept_risk sysdig_secure_posture_accept_risk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class SecurePostureAcceptRisk extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_posture_accept_risk',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

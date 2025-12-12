@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface NfvServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#annotations NfvService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#annotations NfvService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable NfvService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable NfvService#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_https_management NfvService#disable_https_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_https_management NfvService#disable_https_management}
   */
   readonly disableHttpsManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ssh_access NfvService#disable_ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_ssh_access NfvService#disable_ssh_access}
   */
   readonly disableSshAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#id NfvService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#id NfvService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#labels NfvService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#labels NfvService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace: string;
   /**
   * enabled_ssh_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#enabled_ssh_access NfvService#enabled_ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#enabled_ssh_access NfvService#enabled_ssh_access}
   */
   readonly enabledSshAccess?: NfvServiceEnabledSshAccess;
   /**
   * f5_big_ip_aws_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#f5_big_ip_aws_service NfvService#f5_big_ip_aws_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#f5_big_ip_aws_service NfvService#f5_big_ip_aws_service}
   */
   readonly f5BigIpAwsService?: NfvServiceF5BigIpAwsService;
   /**
   * https_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_management NfvService#https_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#https_management NfvService#https_management}
   */
   readonly httpsManagement?: NfvServiceHttpsManagement;
   /**
   * palo_alto_fw_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#palo_alto_fw_service NfvService#palo_alto_fw_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#palo_alto_fw_service NfvService#palo_alto_fw_service}
   */
   readonly paloAltoFwService?: NfvServicePaloAltoFwService;
 }
 export interface NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -230,7 +230,7 @@ export interface NfvServiceEnabledSshAccessAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#public_ip NfvService#public_ip}
   */
   readonly publicIp: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp;
 }
@@ -311,11 +311,11 @@ export class NfvServiceEnabledSshAccessAdvertiseOnPublicOutputReference extends 
 }
 export interface NfvServiceEnabledSshAccessNodeSshPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_port NfvService#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ssh_port NfvService#ssh_port}
   */
   readonly sshPort: number;
 }
@@ -454,35 +454,35 @@ export class NfvServiceEnabledSshAccessNodeSshPortsList extends cdktf.ComplexLis
 }
 export interface NfvServiceEnabledSshAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_sli NfvService#advertise_on_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_sli NfvService#advertise_on_sli}
   */
   readonly advertiseOnSli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo NfvService#advertise_on_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo NfvService#advertise_on_slo}
   */
   readonly advertiseOnSlo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
   */
   readonly advertiseOnSloSli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
   */
   readonly domainSuffix: string;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
   */
   readonly advertiseOnPublic?: NfvServiceEnabledSshAccessAdvertiseOnPublic;
   /**
   * node_ssh_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_ssh_ports NfvService#node_ssh_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#node_ssh_ports NfvService#node_ssh_ports}
   */
   readonly nodeSshPorts: NfvServiceEnabledSshAccessNodeSshPorts[] | cdktf.IResolvable;
 }
@@ -734,15 +734,15 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -881,15 +881,15 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoOutputRe
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1028,11 +1028,11 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -1142,23 +1142,23 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoOutputRefere
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -1352,7 +1352,7 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoOutputRefere
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -1433,37 +1433,37 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoOutputRefe
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo;
 }
@@ -1692,15 +1692,15 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference extends cdk
 }
 export interface NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsAwsTgwSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -1844,7 +1844,7 @@ export interface NfvServiceF5BigIpAwsServiceAwsTgwSiteParams {
   /**
   * aws_tgw_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
   */
   readonly awsTgwSite: NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsAwsTgwSite;
 }
@@ -1925,15 +1925,15 @@ export class NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsOutputReference extends 
 }
 export interface NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -2077,7 +2077,7 @@ export interface NfvServiceF5BigIpAwsServiceAwsVpcSiteParams {
   /**
   * aws_vpc_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_vpc_site NfvService#aws_vpc_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_vpc_site NfvService#aws_vpc_site}
   */
   readonly awsVpcSite: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite;
 }
@@ -2158,15 +2158,15 @@ export class NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsOutputReference extends 
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2305,15 +2305,15 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoOutpu
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2452,11 +2452,11 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInter
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -2566,23 +2566,23 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoOutputRef
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -2776,7 +2776,7 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoOutputRef
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -2857,37 +2857,37 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoOutputR
 }
 export interface NfvServiceF5BigIpAwsServiceByolImageLicense {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo;
 }
@@ -3116,13 +3116,13 @@ export class NfvServiceF5BigIpAwsServiceByolImageLicenseOutputReference extends 
 }
 export interface NfvServiceF5BigIpAwsServiceByolImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#image NfvService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#image NfvService#image}
   */
   readonly image: string;
   /**
   * license block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#license NfvService#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#license NfvService#license}
   */
   readonly license?: NfvServiceF5BigIpAwsServiceByolImageLicense;
 }
@@ -3232,7 +3232,7 @@ export class NfvServiceF5BigIpAwsServiceByolImageOutputReference extends cdktf.C
 }
 export interface NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ports NfvService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ports NfvService#ports}
   */
   readonly ports: string[];
 }
@@ -3313,7 +3313,7 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPortsOutputRefer
 }
 export interface NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ports NfvService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ports NfvService#ports}
   */
   readonly ports: string[];
 }
@@ -3394,55 +3394,55 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPortsOutputRefer
 }
 export interface NfvServiceF5BigIpAwsServiceEndpointService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_ip NfvService#advertise_on_slo_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_ip NfvService#advertise_on_slo_ip}
   */
   readonly advertiseOnSloIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_ip_external NfvService#advertise_on_slo_ip_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_ip_external NfvService#advertise_on_slo_ip_external}
   */
   readonly advertiseOnSloIpExternal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#automatic_vip NfvService#automatic_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#automatic_vip NfvService#automatic_vip}
   */
   readonly automaticVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#configured_vip NfvService#configured_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#configured_vip NfvService#configured_vip}
   */
   readonly configuredVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_tcp_ports NfvService#default_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_tcp_ports NfvService#default_tcp_ports}
   */
   readonly defaultTcpPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_advertise_on_slo_ip NfvService#disable_advertise_on_slo_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_advertise_on_slo_ip NfvService#disable_advertise_on_slo_ip}
   */
   readonly disableAdvertiseOnSloIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#http_port NfvService#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#http_port NfvService#http_port}
   */
   readonly httpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_port NfvService#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#https_port NfvService#https_port}
   */
   readonly httpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_tcp_ports NfvService#no_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_tcp_ports NfvService#no_tcp_ports}
   */
   readonly noTcpPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_udp_ports NfvService#no_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_udp_ports NfvService#no_udp_ports}
   */
   readonly noUdpPorts?: boolean | cdktf.IResolvable;
   /**
   * custom_tcp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_tcp_ports NfvService#custom_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_tcp_ports NfvService#custom_tcp_ports}
   */
   readonly customTcpPorts?: NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPorts;
   /**
   * custom_udp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_udp_ports NfvService#custom_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_udp_ports NfvService#custom_udp_ports}
   */
   readonly customUdpPorts?: NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPorts;
 }
@@ -3845,19 +3845,19 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceOutputReference extends c
 }
 export interface NfvServiceF5BigIpAwsServiceMarketPlaceImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#awaf_pay_g200_mbps NfvService#awaf_pay_g200_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#awaf_pay_g200_mbps NfvService#awaf_pay_g200_mbps}
   */
   readonly awafPayG200Mbps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#awaf_pay_g3_gbps NfvService#awaf_pay_g3_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#awaf_pay_g3_gbps NfvService#awaf_pay_g3_gbps}
   */
   readonly awafPayG3Gbps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#best_plus_pay_g200_mbps NfvService#best_plus_pay_g200_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#best_plus_pay_g200_mbps NfvService#best_plus_pay_g200_mbps}
   */
   readonly bestPlusPayG200Mbps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#best_plus_payg_1gbps NfvService#best_plus_payg_1gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#best_plus_payg_1gbps NfvService#best_plus_payg_1gbps}
   */
   readonly bestPlusPayg1Gbps?: boolean | cdktf.IResolvable;
 }
@@ -4028,11 +4028,11 @@ export class NfvServiceF5BigIpAwsServiceMarketPlaceImageOutputReference extends 
 }
 export interface NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv4 NfvService#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ipv4 NfvService#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv6 NfvService#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ipv6 NfvService#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -4142,13 +4142,13 @@ export class NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParamOutputReferenc
 }
 export interface NfvServiceF5BigIpAwsServiceNodesMgmtSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
   */
   readonly subnetParam?: NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParam;
 }
@@ -4261,29 +4261,29 @@ export class NfvServiceF5BigIpAwsServiceNodesMgmtSubnetOutputReference extends c
 }
 export interface NfvServiceF5BigIpAwsServiceNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#automatic_prefix NfvService#automatic_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#automatic_prefix NfvService#automatic_prefix}
   */
   readonly automaticPrefix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
   */
   readonly reservedMgmtSubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tunnel_prefix NfvService#tunnel_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tunnel_prefix NfvService#tunnel_prefix}
   */
   readonly tunnelPrefix?: string;
   /**
   * mgmt_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
   */
   readonly mgmtSubnet?: NfvServiceF5BigIpAwsServiceNodesMgmtSubnet;
 }
@@ -4538,57 +4538,57 @@ export class NfvServiceF5BigIpAwsServiceNodesList extends cdktf.ComplexList {
 }
 export interface NfvServiceF5BigIpAwsService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_username NfvService#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#admin_username NfvService#admin_username}
   */
   readonly adminUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
   */
   readonly sshKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tags NfvService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tags NfvService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_password NfvService#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#admin_password NfvService#admin_password}
   */
   readonly adminPassword: NfvServiceF5BigIpAwsServiceAdminPassword;
   /**
   * aws_tgw_site_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site_params NfvService#aws_tgw_site_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_tgw_site_params NfvService#aws_tgw_site_params}
   */
   readonly awsTgwSiteParams?: NfvServiceF5BigIpAwsServiceAwsTgwSiteParams;
   /**
   * aws_vpc_site_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_vpc_site_params NfvService#aws_vpc_site_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_vpc_site_params NfvService#aws_vpc_site_params}
   */
   readonly awsVpcSiteParams?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParams;
   /**
   * byol_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#byol_image NfvService#byol_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#byol_image NfvService#byol_image}
   */
   readonly byolImage?: NfvServiceF5BigIpAwsServiceByolImage;
   /**
   * endpoint_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#endpoint_service NfvService#endpoint_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#endpoint_service NfvService#endpoint_service}
   */
   readonly endpointService?: NfvServiceF5BigIpAwsServiceEndpointService;
   /**
   * market_place_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#market_place_image NfvService#market_place_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#market_place_image NfvService#market_place_image}
   */
   readonly marketPlaceImage?: NfvServiceF5BigIpAwsServiceMarketPlaceImage;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#nodes NfvService#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#nodes NfvService#nodes}
   */
   readonly nodes: NfvServiceF5BigIpAwsServiceNodes[] | cdktf.IResolvable;
 }
@@ -4921,15 +4921,15 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
 }
 export interface NfvServiceHttpsManagementAdvertiseOnInternetPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -5078,7 +5078,7 @@ export interface NfvServiceHttpsManagementAdvertiseOnInternet {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#public_ip NfvService#public_ip}
   */
   readonly publicIp: NfvServiceHttpsManagementAdvertiseOnInternetPublicIp;
 }
@@ -5159,15 +5159,15 @@ export class NfvServiceHttpsManagementAdvertiseOnInternetOutputReference extends
 }
 export interface NfvServiceHttpsManagementAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -5316,7 +5316,7 @@ export interface NfvServiceHttpsManagementAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#public_ip NfvService#public_ip}
   */
   readonly publicIp: NfvServiceHttpsManagementAdvertiseOnPublicPublicIp;
 }
@@ -5397,7 +5397,7 @@ export class NfvServiceHttpsManagementAdvertiseOnPublicOutputReference extends c
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -5527,15 +5527,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5674,15 +5674,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5821,11 +5821,11 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -5935,23 +5935,23 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -6145,7 +6145,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -6226,37 +6226,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -6534,35 +6534,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesUseSystemDefaults;
 }
@@ -6817,15 +6817,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -6964,21 +6964,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurity;
 }
@@ -7149,15 +7149,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -7304,15 +7304,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -7459,7 +7459,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -7540,37 +7540,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptions;
 }
@@ -7828,25 +7828,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtls;
 }
@@ -8014,7 +8014,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipOutputReference extends c
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -8144,15 +8144,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesDi
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8291,15 +8291,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8438,11 +8438,11 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -8552,23 +8552,23 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -8762,7 +8762,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -8843,37 +8843,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -9151,35 +9151,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesUs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesUseSystemDefaults;
 }
@@ -9434,15 +9434,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesLi
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -9581,21 +9581,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSecurity;
 }
@@ -9766,15 +9766,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigOutputRe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -9921,15 +9921,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrlOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -10076,7 +10076,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCaO
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -10157,37 +10157,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOption
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOptions;
 }
@@ -10445,25 +10445,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsOutputRefe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtls;
 }
@@ -10631,7 +10631,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipOutputReference e
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -10761,15 +10761,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -10908,15 +10908,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11055,11 +11055,11 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -11169,23 +11169,23 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -11379,7 +11379,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -11460,37 +11460,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -11768,35 +11768,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesUseSystemDefaults;
 }
@@ -12051,15 +12051,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -12198,21 +12198,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurity;
 }
@@ -12383,15 +12383,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -12538,15 +12538,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -12693,7 +12693,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -12774,37 +12774,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptions;
 }
@@ -13062,25 +13062,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtls;
 }
@@ -13248,7 +13248,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliOutputReference extends c
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -13378,15 +13378,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13525,15 +13525,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -13672,11 +13672,11 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -13786,23 +13786,23 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -13996,7 +13996,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -14077,37 +14077,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
@@ -14385,35 +14385,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesUseSystemDefaults;
 }
@@ -14668,15 +14668,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -14815,21 +14815,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurity;
 }
@@ -15000,15 +15000,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -15155,15 +15155,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -15310,7 +15310,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -15391,37 +15391,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptions;
 }
@@ -15679,25 +15679,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtls;
 }
@@ -15865,71 +15865,71 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipOutputReference extends c
 }
 export interface NfvServiceHttpsManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_internet_default_vip NfvService#advertise_on_internet_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_internet_default_vip NfvService#advertise_on_internet_default_vip}
   */
   readonly advertiseOnInternetDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_https_port NfvService#default_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#default_https_port NfvService#default_https_port}
   */
   readonly defaultHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_local NfvService#disable_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_local NfvService#disable_local}
   */
   readonly disableLocal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#do_not_advertise NfvService#do_not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#do_not_advertise NfvService#do_not_advertise}
   */
   readonly doNotAdvertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#do_not_advertise_on_internet NfvService#do_not_advertise_on_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#do_not_advertise_on_internet NfvService#do_not_advertise_on_internet}
   */
   readonly doNotAdvertiseOnInternet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
   */
   readonly domainSuffix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_port NfvService#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#https_port NfvService#https_port}
   */
   readonly httpsPort?: number;
   /**
   * advertise_on_internet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_internet NfvService#advertise_on_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_internet NfvService#advertise_on_internet}
   */
   readonly advertiseOnInternet?: NfvServiceHttpsManagementAdvertiseOnInternet;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
   */
   readonly advertiseOnPublic?: NfvServiceHttpsManagementAdvertiseOnPublic;
   /**
   * advertise_on_sli_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_sli_vip NfvService#advertise_on_sli_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_sli_vip NfvService#advertise_on_sli_vip}
   */
   readonly advertiseOnSliVip?: NfvServiceHttpsManagementAdvertiseOnSliVip;
   /**
   * advertise_on_slo_internet_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_internet_vip NfvService#advertise_on_slo_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_internet_vip NfvService#advertise_on_slo_internet_vip}
   */
   readonly advertiseOnSloInternetVip?: NfvServiceHttpsManagementAdvertiseOnSloInternetVip;
   /**
   * advertise_on_slo_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
   */
   readonly advertiseOnSloSli?: NfvServiceHttpsManagementAdvertiseOnSloSli;
   /**
   * advertise_on_slo_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_vip NfvService#advertise_on_slo_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#advertise_on_slo_vip NfvService#advertise_on_slo_vip}
   */
   readonly advertiseOnSloVip?: NfvServiceHttpsManagementAdvertiseOnSloVip;
 }
@@ -16387,15 +16387,15 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16534,15 +16534,15 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInf
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -16681,11 +16681,11 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInf
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -16795,23 +16795,23 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoOut
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -17005,7 +17005,7 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoOut
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -17086,37 +17086,37 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoO
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo;
 }
@@ -17345,15 +17345,15 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference ex
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -17492,15 +17492,15 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfol
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -17639,11 +17639,11 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfol
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -17753,23 +17753,23 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSec
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -17963,7 +17963,7 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSec
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -18044,37 +18044,37 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanS
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo;
 }
@@ -18303,13 +18303,13 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputRe
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_key NfvService#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#public_key NfvService#public_key}
   */
   readonly publicKey: string;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey;
 }
@@ -18416,23 +18416,23 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysOutputReference ex
 }
 export interface NfvServicePaloAltoFwServiceAutoSetup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_username NfvService#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#admin_username NfvService#admin_username}
   */
   readonly adminUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#autogenerated_ssh_keys NfvService#autogenerated_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#autogenerated_ssh_keys NfvService#autogenerated_ssh_keys}
   */
   readonly autogeneratedSshKeys?: boolean | cdktf.IResolvable;
   /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_password NfvService#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#admin_password NfvService#admin_password}
   */
   readonly adminPassword: NfvServicePaloAltoFwServiceAutoSetupAdminPassword;
   /**
   * manual_ssh_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#manual_ssh_keys NfvService#manual_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#manual_ssh_keys NfvService#manual_ssh_keys}
   */
   readonly manualSshKeys?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeys;
 }
@@ -18597,15 +18597,15 @@ export class NfvServicePaloAltoFwServiceAutoSetupOutputReference extends cdktf.C
 }
 export interface NfvServicePaloAltoFwServiceAwsTgwSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -18747,15 +18747,15 @@ export class NfvServicePaloAltoFwServiceAwsTgwSiteOutputReference extends cdktf.
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -18894,15 +18894,15 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldS
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -19041,11 +19041,11 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldS
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -19155,23 +19155,23 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecre
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#key NfvService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: number;
 }
@@ -19365,7 +19365,7 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecre
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
 }
@@ -19446,37 +19446,37 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSec
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
   */
   readonly vaultSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo;
 }
@@ -19705,21 +19705,21 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputRefe
 }
 export interface NfvServicePaloAltoFwServicePanoramaServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#device_group_name NfvService#device_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#device_group_name NfvService#device_group_name}
   */
   readonly deviceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#server NfvService#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#server NfvService#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#template_stack_name NfvService#template_stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#template_stack_name NfvService#template_stack_name}
   */
   readonly templateStackName?: string;
   /**
   * authorization_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#authorization_key NfvService#authorization_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#authorization_key NfvService#authorization_key}
   */
   readonly authorizationKey: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey;
 }
@@ -19884,11 +19884,11 @@ export class NfvServicePaloAltoFwServicePanoramaServerOutputReference extends cd
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv4 NfvService#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ipv4 NfvService#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv6 NfvService#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ipv6 NfvService#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -19998,13 +19998,13 @@ export class NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParamOu
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
   */
   readonly subnetParam?: NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParam;
 }
@@ -20117,21 +20117,21 @@ export class NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetOutputReferen
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
   */
   readonly reservedMgmtSubnet?: boolean | cdktf.IResolvable;
   /**
   * mgmt_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
   */
   readonly mgmtSubnet?: NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnet;
 }
@@ -20330,7 +20330,7 @@ export interface NfvServicePaloAltoFwServiceServiceNodes {
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#nodes NfvService#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#nodes NfvService#nodes}
   */
   readonly nodes: NfvServicePaloAltoFwServiceServiceNodesNodes[] | cdktf.IResolvable;
 }
@@ -20411,55 +20411,55 @@ export class NfvServicePaloAltoFwServiceServiceNodesOutputReference extends cdkt
 }
 export interface NfvServicePaloAltoFwService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_panaroma NfvService#disable_panaroma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#disable_panaroma NfvService#disable_panaroma}
   */
   readonly disablePanaroma?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#instance_type NfvService#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#instance_type NfvService#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#pan_ami_bundle1 NfvService#pan_ami_bundle1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#pan_ami_bundle1 NfvService#pan_ami_bundle1}
   */
   readonly panAmiBundle1?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#pan_ami_bundle2 NfvService#pan_ami_bundle2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#pan_ami_bundle2 NfvService#pan_ami_bundle2}
   */
   readonly panAmiBundle2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
   */
   readonly sshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tags NfvService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#tags NfvService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: string;
   /**
   * auto_setup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#auto_setup NfvService#auto_setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#auto_setup NfvService#auto_setup}
   */
   readonly autoSetup?: NfvServicePaloAltoFwServiceAutoSetup;
   /**
   * aws_tgw_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
   */
   readonly awsTgwSite: NfvServicePaloAltoFwServiceAwsTgwSite;
   /**
   * panorama_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#panorama_server NfvService#panorama_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#panorama_server NfvService#panorama_server}
   */
   readonly panoramaServer?: NfvServicePaloAltoFwServicePanoramaServer;
   /**
   * service_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#service_nodes NfvService#service_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#service_nodes NfvService#service_nodes}
   */
   readonly serviceNodes: NfvServicePaloAltoFwServiceServiceNodes;
 }
@@ -20824,7 +20824,7 @@ export class NfvServicePaloAltoFwServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service volterra_nfv_service}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service volterra_nfv_service}
 */
 export class NfvService extends cdktf.TerraformResource {
 
@@ -20840,7 +20840,7 @@ export class NfvService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NfvService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NfvService to import
-  * @param importFromId The id of the existing NfvService that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NfvService that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NfvService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20852,7 +20852,7 @@ export class NfvService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service volterra_nfv_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/nfv_service volterra_nfv_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20863,8 +20863,8 @@ export class NfvService extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nfv_service',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

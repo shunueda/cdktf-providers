@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,50 @@ export interface GlobalVarConfig extends cdktf.TerraformMetaArguments {
   /**
   * Brief description of this variable. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#description GlobalVar#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#description GlobalVar#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#group_id GlobalVar#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#group_id GlobalVar#group_id}
   */
   readonly groupId: string;
   /**
   * Global variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#id GlobalVar#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#id GlobalVar#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#lib GlobalVar#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#lib GlobalVar#lib}
   */
   readonly lib?: string;
   /**
   * One or more tags related to this variable. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#tags GlobalVar#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#tags GlobalVar#tags}
   */
   readonly tags?: string;
   /**
   * Type of variable. Default: "any"; must be one of ["string", "number", "encryptedString", "boolean", "array", "object", "expression", "any"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#type GlobalVar#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#type GlobalVar#type}
   */
   readonly type?: string;
   /**
   * Value of variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#value GlobalVar#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#value GlobalVar#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var criblio_global_var}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var criblio_global_var}
 */
 export class GlobalVar extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class GlobalVar extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalVar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalVar to import
-  * @param importFromId The id of the existing GlobalVar that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalVar that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalVar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class GlobalVar extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/global_var criblio_global_var} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/global_var criblio_global_var} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class GlobalVar extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_global_var',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

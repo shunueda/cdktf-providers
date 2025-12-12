@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group
+// https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CheckGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#config CheckGroup#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#config CheckGroup#config}
   */
   readonly config: CheckGroupConfigA;
   /**
@@ -17,31 +17,31 @@ export interface CheckGroupConfig extends cdktf.TerraformMetaArguments {
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#contact_groups CheckGroup#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#contact_groups CheckGroup#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#include_in_global_metrics CheckGroup#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#include_in_global_metrics CheckGroup#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#is_paused CheckGroup#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#is_paused CheckGroup#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#name CheckGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#name CheckGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#notes CheckGroup#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#notes CheckGroup#notes}
   */
   readonly notes?: string;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#sla CheckGroup#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#sla CheckGroup#sla}
   */
   readonly sla?: CheckGroupSla;
   /**
@@ -51,21 +51,21 @@ export interface CheckGroupConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#tags CheckGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#tags CheckGroup#tags}
   */
   readonly tags?: string[];
 }
 export interface CheckGroupConfigResponseTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#calculation_mode CheckGroup#calculation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#calculation_mode CheckGroup#calculation_mode}
   */
   readonly calculationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#check_type CheckGroup#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#check_type CheckGroup#check_type}
   */
   readonly checkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#single_check CheckGroup#single_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#single_check CheckGroup#single_check}
   */
   readonly singleCheck?: string;
 }
@@ -219,11 +219,11 @@ export interface CheckGroupConfigA {
   /**
   * Condition that determines when the group check is considered DOWN. Valid values: `ANY`, `TWO`, `THREE`, `FOUR`, `FIVE`, `TEN`, `ONE_PCT`, `THREE_PCT`, `FIVE_PCT`, `TEN_PCT`, `TWENTYFIVE_PCT`, `FIFTY_PCT`, `ALL`. Numeric values (TWO-TEN) mean the group is DOWN when that many checks are down. Percentage values (ONE_PCT-FIFTY_PCT) mean the group is DOWN when that percentage of checks are down. Defaults to `ANY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#down_condition CheckGroup#down_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#down_condition CheckGroup#down_condition}
   */
   readonly downCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#response_time CheckGroup#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#response_time CheckGroup#response_time}
   */
   readonly responseTime?: CheckGroupConfigResponseTime;
   /**
@@ -231,7 +231,7 @@ export interface CheckGroupConfigA {
   * A group can contain up to 200 individual checks of any type (except other group checks).
   * Checks can be part of multiple groups simultaneously. Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#services CheckGroup#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#services CheckGroup#services}
   */
   readonly services?: string[];
   /**
@@ -241,13 +241,13 @@ export interface CheckGroupConfigA {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#tags CheckGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#tags CheckGroup#tags}
   */
   readonly tags?: string[];
   /**
   * Method used to calculate the group's uptime percentage. Valid values: `UP_DOWN_STATES` (calculates based on up/down state transitions), `AVERAGE` (calculates as the average uptime of all included checks). Defaults to `UP_DOWN_STATES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#uptime_percent_calculation CheckGroup#uptime_percent_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#uptime_percent_calculation CheckGroup#uptime_percent_calculation}
   */
   readonly uptimePercentCalculation?: string;
 }
@@ -459,13 +459,13 @@ export interface CheckGroupSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#latency CheckGroup#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#latency CheckGroup#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#uptime CheckGroup#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#uptime CheckGroup#uptime}
   */
   readonly uptime?: string;
 }
@@ -588,7 +588,7 @@ export class CheckGroupSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group uptime_check_group}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group uptime_check_group}
 */
 export class CheckGroup extends cdktf.TerraformResource {
 
@@ -604,7 +604,7 @@ export class CheckGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckGroup to import
-  * @param importFromId The id of the existing CheckGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -616,7 +616,7 @@ export class CheckGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.21.0/docs/resources/check_group uptime_check_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.22.0/docs/resources/check_group uptime_check_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -627,8 +627,8 @@ export class CheckGroup extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_group',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.21.0',
-        providerVersionConstraint: '2.21.0'
+        providerVersion: '2.22.0',
+        providerVersionConstraint: '2.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

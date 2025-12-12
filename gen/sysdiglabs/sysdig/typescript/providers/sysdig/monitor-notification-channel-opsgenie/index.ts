@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorNotificationChannelOpsgenieConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#api_key MonitorNotificationChannelOpsgenie#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#api_key MonitorNotificationChannelOpsgenie#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#enabled MonitorNotificationChannelOpsgenie#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#enabled MonitorNotificationChannelOpsgenie#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#id MonitorNotificationChannelOpsgenie#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#id MonitorNotificationChannelOpsgenie#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#name MonitorNotificationChannelOpsgenie#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#name MonitorNotificationChannelOpsgenie#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#notify_when_ok MonitorNotificationChannelOpsgenie#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#notify_when_ok MonitorNotificationChannelOpsgenie#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#notify_when_resolved MonitorNotificationChannelOpsgenie#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#notify_when_resolved MonitorNotificationChannelOpsgenie#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#region MonitorNotificationChannelOpsgenie#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#region MonitorNotificationChannelOpsgenie#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#send_test_notification MonitorNotificationChannelOpsgenie#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#send_test_notification MonitorNotificationChannelOpsgenie#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#share_with_current_team MonitorNotificationChannelOpsgenie#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#share_with_current_team MonitorNotificationChannelOpsgenie#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#timeouts MonitorNotificationChannelOpsgenie#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#timeouts MonitorNotificationChannelOpsgenie#timeouts}
   */
   readonly timeouts?: MonitorNotificationChannelOpsgenieTimeouts;
 }
 export interface MonitorNotificationChannelOpsgenieTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#create MonitorNotificationChannelOpsgenie#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#create MonitorNotificationChannelOpsgenie#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#delete MonitorNotificationChannelOpsgenie#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#delete MonitorNotificationChannelOpsgenie#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#read MonitorNotificationChannelOpsgenie#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#read MonitorNotificationChannelOpsgenie#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#update MonitorNotificationChannelOpsgenie#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#update MonitorNotificationChannelOpsgenie#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class MonitorNotificationChannelOpsgenieTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie sysdig_monitor_notification_channel_opsgenie}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie sysdig_monitor_notification_channel_opsgenie}
 */
 export class MonitorNotificationChannelOpsgenie extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class MonitorNotificationChannelOpsgenie extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a MonitorNotificationChannelOpsgenie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorNotificationChannelOpsgenie to import
-  * @param importFromId The id of the existing MonitorNotificationChannelOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorNotificationChannelOpsgenie that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorNotificationChannelOpsgenie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class MonitorNotificationChannelOpsgenie extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_notification_channel_opsgenie sysdig_monitor_notification_channel_opsgenie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/resources/monitor_notification_channel_opsgenie sysdig_monitor_notification_channel_opsgenie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class MonitorNotificationChannelOpsgenie extends cdktf.TerraformResource 
       terraformResourceType: 'sysdig_monitor_notification_channel_opsgenie',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface VolterraProviderConfig {
   /**
   * The volt API CA Cert for api operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#api_ca_cert VolterraProvider#api_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#api_ca_cert VolterraProvider#api_ca_cert}
   */
   readonly apiCaCert?: string;
   /**
   * The volt API cert for api operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#api_cert VolterraProvider#api_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#api_cert VolterraProvider#api_cert}
   */
   readonly apiCert?: string;
   /**
   * The volt API key for api operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#api_key VolterraProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#api_key VolterraProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Absolute path to p12 file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#api_p12_file VolterraProvider#api_p12_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#api_p12_file VolterraProvider#api_p12_file}
   */
   readonly apiP12File?: string;
   /**
   * The tenant values, used only when vesenv is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#tenant VolterraProvider#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#tenant VolterraProvider#tenant}
   */
   readonly tenant?: string;
   /**
   * The volt API test flag .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#test VolterraProvider#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#test VolterraProvider#test}
   */
   readonly test?: boolean | cdktf.IResolvable;
   /**
   * The Volt API call timeout value, by default its 20s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#timeout VolterraProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#timeout VolterraProvider#timeout}
   */
   readonly timeout?: string;
   /**
   * The volt API server url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#url VolterraProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#url VolterraProvider#url}
   */
   readonly url?: string;
   /**
   * The vesenv flag for itnernal use .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#vesenv VolterraProvider#vesenv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#vesenv VolterraProvider#vesenv}
   */
   readonly vesenv?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#alias VolterraProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#alias VolterraProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs volterra}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs volterra}
 */
 export class VolterraProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class VolterraProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VolterraProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolterraProvider to import
-  * @param importFromId The id of the existing VolterraProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolterraProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolterraProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class VolterraProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs volterra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs volterra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class VolterraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'volterra',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       terraformProviderSource: 'volterraedge/volterra'
     });

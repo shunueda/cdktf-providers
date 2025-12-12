@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEssScalingConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#id DataAlibabacloudstackEssScalingConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#id DataAlibabacloudstackEssScalingConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#ids DataAlibabacloudstackEssScalingConfigurations#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#ids DataAlibabacloudstackEssScalingConfigurations#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#name_regex DataAlibabacloudstackEssScalingConfigurations#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#name_regex DataAlibabacloudstackEssScalingConfigurations#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#output_file DataAlibabacloudstackEssScalingConfigurations#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#output_file DataAlibabacloudstackEssScalingConfigurations#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#scaling_group_id DataAlibabacloudstackEssScalingConfigurations#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#scaling_group_id DataAlibabacloudstackEssScalingConfigurations#scaling_group_id}
   */
   readonly scalingGroupId?: string;
 }
@@ -264,7 +264,7 @@ export class DataAlibabacloudstackEssScalingConfigurationsConfigurationsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations alibabacloudstack_ess_scaling_configurations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations alibabacloudstack_ess_scaling_configurations}
 */
 export class DataAlibabacloudstackEssScalingConfigurations extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataAlibabacloudstackEssScalingConfigurations extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataAlibabacloudstackEssScalingConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEssScalingConfigurations to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEssScalingConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEssScalingConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEssScalingConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataAlibabacloudstackEssScalingConfigurations extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ess_scaling_configurations alibabacloudstack_ess_scaling_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ess_scaling_configurations alibabacloudstack_ess_scaling_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataAlibabacloudstackEssScalingConfigurations extends cdktf.Terrafo
       terraformResourceType: 'alibabacloudstack_ess_scaling_configurations',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

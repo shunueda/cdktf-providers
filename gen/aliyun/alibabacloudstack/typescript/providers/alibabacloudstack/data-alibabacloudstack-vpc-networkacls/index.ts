@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackVpcNetworkaclsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#id DataAlibabacloudstackVpcNetworkacls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#id DataAlibabacloudstackVpcNetworkacls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#ids DataAlibabacloudstackVpcNetworkacls#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#ids DataAlibabacloudstackVpcNetworkacls#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#name_regex DataAlibabacloudstackVpcNetworkacls#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#name_regex DataAlibabacloudstackVpcNetworkacls#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#network_acl_name DataAlibabacloudstackVpcNetworkacls#network_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#network_acl_name DataAlibabacloudstackVpcNetworkacls#network_acl_name}
   */
   readonly networkAclName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#output_file DataAlibabacloudstackVpcNetworkacls#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#output_file DataAlibabacloudstackVpcNetworkacls#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#resource_id DataAlibabacloudstackVpcNetworkacls#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#resource_id DataAlibabacloudstackVpcNetworkacls#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#resource_type DataAlibabacloudstackVpcNetworkacls#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#resource_type DataAlibabacloudstackVpcNetworkacls#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#status DataAlibabacloudstackVpcNetworkacls#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#status DataAlibabacloudstackVpcNetworkacls#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#vpc_id DataAlibabacloudstackVpcNetworkacls#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#vpc_id DataAlibabacloudstackVpcNetworkacls#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -452,7 +452,7 @@ export class DataAlibabacloudstackVpcNetworkaclsAclsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls alibabacloudstack_vpc_networkacls}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls alibabacloudstack_vpc_networkacls}
 */
 export class DataAlibabacloudstackVpcNetworkacls extends cdktf.TerraformDataSource {
 
@@ -468,7 +468,7 @@ export class DataAlibabacloudstackVpcNetworkacls extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlibabacloudstackVpcNetworkacls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackVpcNetworkacls to import
-  * @param importFromId The id of the existing DataAlibabacloudstackVpcNetworkacls that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackVpcNetworkacls that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackVpcNetworkacls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +480,7 @@ export class DataAlibabacloudstackVpcNetworkacls extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_networkacls alibabacloudstack_vpc_networkacls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/vpc_networkacls alibabacloudstack_vpc_networkacls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,8 +491,8 @@ export class DataAlibabacloudstackVpcNetworkacls extends cdktf.TerraformDataSour
       terraformResourceType: 'alibabacloudstack_vpc_networkacls',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

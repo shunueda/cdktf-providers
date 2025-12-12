@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackApiGatewayV2InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#broker_engine_type ApsarastackApiGatewayV2Instance#broker_engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#broker_engine_type ApsarastackApiGatewayV2Instance#broker_engine_type}
   */
   readonly brokerEngineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#deploy_cluster_code ApsarastackApiGatewayV2Instance#deploy_cluster_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#deploy_cluster_code ApsarastackApiGatewayV2Instance#deploy_cluster_code}
   */
   readonly deployClusterCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#deploy_cluster_namespace ApsarastackApiGatewayV2Instance#deploy_cluster_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#deploy_cluster_namespace ApsarastackApiGatewayV2Instance#deploy_cluster_namespace}
   */
   readonly deployClusterNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#deploy_mode ApsarastackApiGatewayV2Instance#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#deploy_mode ApsarastackApiGatewayV2Instance#deploy_mode}
   */
   readonly deployMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#edas_namespace_id ApsarastackApiGatewayV2Instance#edas_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#edas_namespace_id ApsarastackApiGatewayV2Instance#edas_namespace_id}
   */
   readonly edasNamespaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#id ApsarastackApiGatewayV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#id ApsarastackApiGatewayV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#ingress_class_name ApsarastackApiGatewayV2Instance#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#ingress_class_name ApsarastackApiGatewayV2Instance#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#instance_class ApsarastackApiGatewayV2Instance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#instance_class ApsarastackApiGatewayV2Instance#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#instance_name ApsarastackApiGatewayV2Instance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#instance_name ApsarastackApiGatewayV2Instance#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#node_number ApsarastackApiGatewayV2Instance#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#node_number ApsarastackApiGatewayV2Instance#node_number}
   */
   readonly nodeNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#prometheus_enabled ApsarastackApiGatewayV2Instance#prometheus_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#prometheus_enabled ApsarastackApiGatewayV2Instance#prometheus_enabled}
   */
   readonly prometheusEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#sls_enabled ApsarastackApiGatewayV2Instance#sls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#sls_enabled ApsarastackApiGatewayV2Instance#sls_enabled}
   */
   readonly slsEnabled?: boolean | cdktf.IResolvable;
   /**
   * edas_app_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#edas_app_infos ApsarastackApiGatewayV2Instance#edas_app_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#edas_app_infos ApsarastackApiGatewayV2Instance#edas_app_infos}
   */
   readonly edasAppInfos?: ApsarastackApiGatewayV2InstanceEdasAppInfos[] | cdktf.IResolvable;
 }
@@ -177,15 +177,15 @@ export class ApsarastackApiGatewayV2InstanceAccessModeList extends cdktf.Complex
 }
 export interface ApsarastackApiGatewayV2InstanceEdasAppInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#edas_namespace ApsarastackApiGatewayV2Instance#edas_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#edas_namespace ApsarastackApiGatewayV2Instance#edas_namespace}
   */
   readonly edasNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#k8s_cluster_id ApsarastackApiGatewayV2Instance#k8s_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#k8s_cluster_id ApsarastackApiGatewayV2Instance#k8s_cluster_id}
   */
   readonly k8SClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#k8s_namespace ApsarastackApiGatewayV2Instance#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#k8s_namespace ApsarastackApiGatewayV2Instance#k8s_namespace}
   */
   readonly k8SNamespace?: string;
 }
@@ -364,7 +364,7 @@ export class ApsarastackApiGatewayV2InstanceEdasAppInfosList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance apsarastack_api_gateway_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance apsarastack_api_gateway_v2_instance}
 */
 export class ApsarastackApiGatewayV2Instance extends cdktf.TerraformResource {
 
@@ -380,7 +380,7 @@ export class ApsarastackApiGatewayV2Instance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackApiGatewayV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackApiGatewayV2Instance to import
-  * @param importFromId The id of the existing ApsarastackApiGatewayV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackApiGatewayV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackApiGatewayV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class ApsarastackApiGatewayV2Instance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_api_gateway_v2_instance apsarastack_api_gateway_v2_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_api_gateway_v2_instance apsarastack_api_gateway_v2_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class ApsarastackApiGatewayV2Instance extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_api_gateway_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

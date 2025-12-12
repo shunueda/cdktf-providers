@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,91 +8,91 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_aws_dataset SearchDataset#api_aws_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_aws_dataset SearchDataset#api_aws_dataset}
   */
   readonly apiAwsDataset?: SearchDatasetApiAwsDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_azure_data_explorer_dataset SearchDataset#api_azure_data_explorer_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_azure_data_explorer_dataset SearchDataset#api_azure_data_explorer_dataset}
   */
   readonly apiAzureDataExplorerDataset?: SearchDatasetApiAzureDataExplorerDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_azure_dataset SearchDataset#api_azure_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_azure_dataset SearchDataset#api_azure_dataset}
   */
   readonly apiAzureDataset?: SearchDatasetApiAzureDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_elastic_search_dataset SearchDataset#api_elastic_search_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_elastic_search_dataset SearchDataset#api_elastic_search_dataset}
   */
   readonly apiElasticSearchDataset?: SearchDatasetApiElasticSearchDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_gcp_dataset SearchDataset#api_gcp_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_gcp_dataset SearchDataset#api_gcp_dataset}
   */
   readonly apiGcpDataset?: SearchDatasetApiGcpDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_google_workspace_dataset SearchDataset#api_google_workspace_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_google_workspace_dataset SearchDataset#api_google_workspace_dataset}
   */
   readonly apiGoogleWorkspaceDataset?: SearchDatasetApiGoogleWorkspaceDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_ms_graph_dataset SearchDataset#api_ms_graph_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_ms_graph_dataset SearchDataset#api_ms_graph_dataset}
   */
   readonly apiMsGraphDataset?: SearchDatasetApiMsGraphDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_okta_dataset SearchDataset#api_okta_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_okta_dataset SearchDataset#api_okta_dataset}
   */
   readonly apiOktaDataset?: SearchDatasetApiOktaDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_open_search_dataset SearchDataset#api_open_search_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_open_search_dataset SearchDataset#api_open_search_dataset}
   */
   readonly apiOpenSearchDataset?: SearchDatasetApiOpenSearchDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_tailscale_dataset SearchDataset#api_tailscale_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_tailscale_dataset SearchDataset#api_tailscale_dataset}
   */
   readonly apiTailscaleDataset?: SearchDatasetApiTailscaleDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#api_zoom_dataset SearchDataset#api_zoom_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#api_zoom_dataset SearchDataset#api_zoom_dataset}
   */
   readonly apiZoomDataset?: SearchDatasetApiZoomDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#apihttp_dataset SearchDataset#apihttp_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#apihttp_dataset SearchDataset#apihttp_dataset}
   */
   readonly apihttpDataset?: SearchDatasetApihttpDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#aws_security_lake_dataset SearchDataset#aws_security_lake_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#aws_security_lake_dataset SearchDataset#aws_security_lake_dataset}
   */
   readonly awsSecurityLakeDataset?: SearchDatasetAwsSecurityLakeDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#azure_blob_dataset SearchDataset#azure_blob_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#azure_blob_dataset SearchDataset#azure_blob_dataset}
   */
   readonly azureBlobDataset?: SearchDatasetAzureBlobDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#click_house_dataset SearchDataset#click_house_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#click_house_dataset SearchDataset#click_house_dataset}
   */
   readonly clickHouseDataset?: SearchDatasetClickHouseDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#cribl_leader_dataset SearchDataset#cribl_leader_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#cribl_leader_dataset SearchDataset#cribl_leader_dataset}
   */
   readonly criblLeaderDataset?: SearchDatasetCriblLeaderDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#edge_dataset SearchDataset#edge_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#edge_dataset SearchDataset#edge_dataset}
   */
   readonly edgeDataset?: SearchDatasetEdgeDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#gcs_dataset SearchDataset#gcs_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#gcs_dataset SearchDataset#gcs_dataset}
   */
   readonly gcsDataset?: SearchDatasetGcsDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#meta_dataset SearchDataset#meta_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#meta_dataset SearchDataset#meta_dataset}
   */
   readonly metaDataset?: SearchDatasetMetaDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#prometheus_dataset SearchDataset#prometheus_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#prometheus_dataset SearchDataset#prometheus_dataset}
   */
   readonly prometheusDataset?: SearchDatasetPrometheusDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#s3_dataset SearchDataset#s3_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#s3_dataset SearchDataset#s3_dataset}
   */
   readonly s3Dataset?: SearchDatasetS3Dataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#snowflake_dataset SearchDataset#snowflake_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#snowflake_dataset SearchDataset#snowflake_dataset}
   */
   readonly snowflakeDataset?: SearchDatasetSnowflakeDataset;
 }
@@ -100,25 +100,25 @@ export interface SearchDatasetApiAwsDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -301,44 +301,44 @@ export interface SearchDatasetApiAwsDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAwsDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the AWS regions to query for this endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#regions SearchDataset#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#regions SearchDataset#regions}
   */
   readonly regions?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -608,25 +608,25 @@ export interface SearchDatasetApiAzureDataExplorerDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -809,25 +809,25 @@ export interface SearchDatasetApiAzureDataExplorerDataset {
   /**
   * Azure Data Explorer cluster name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#cluster SearchDataset#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#cluster SearchDataset#cluster}
   */
   readonly cluster?: string;
   /**
   * Azure Data Explorer database name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -836,41 +836,41 @@ export interface SearchDatasetApiAzureDataExplorerDataset {
   /**
   * Location (region) of the Azure Data Explorer cluster. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#location SearchDataset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#location SearchDataset#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAzureDataExplorerDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the table to query. May be a simple name (Example: logs) or a Kusto query. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the field holding the timestamp of the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Type of the data stored in the timestamp field. Default: "kusto_datetime"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field_contents SearchDataset#timestamp_field_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field_contents SearchDataset#timestamp_field_contents}
   */
   readonly timestampFieldContents?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -1256,25 +1256,25 @@ export interface SearchDatasetApiAzureDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -1457,44 +1457,44 @@ export interface SearchDatasetApiAzureDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAzureDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the subscription ids within the tenant to query with this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#subscription_ids SearchDataset#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#subscription_ids SearchDataset#subscription_ids}
   */
   readonly subscriptionIds?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -1764,25 +1764,25 @@ export interface SearchDatasetApiElasticSearchDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -1965,13 +1965,13 @@ export interface SearchDatasetApiElasticSearchDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1980,29 +1980,29 @@ export interface SearchDatasetApiElasticSearchDataset {
   /**
   * Name of the Elasticsearch index to search. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#index SearchDataset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#index SearchDataset#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiElasticSearchDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the field holding the timestamp of the event. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -2272,13 +2272,13 @@ export interface SearchDatasetApiGcpDatasetEndpointConfigs {
   /**
   * GCP endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#endpoint_name SearchDataset#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#endpoint_name SearchDataset#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * GCP region (required for some endpoints)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -2425,25 +2425,25 @@ export interface SearchDatasetApiGcpDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -2626,38 +2626,38 @@ export interface SearchDatasetApiGcpDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoint configurations that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#endpoint_configs SearchDataset#endpoint_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#endpoint_configs SearchDataset#endpoint_configs}
   */
   readonly endpointConfigs?: SearchDatasetApiGcpDatasetEndpointConfigs[] | cdktf.IResolvable;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiGcpDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -2898,25 +2898,25 @@ export interface SearchDatasetApiGoogleWorkspaceDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -3099,38 +3099,38 @@ export interface SearchDatasetApiGoogleWorkspaceDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiGoogleWorkspaceDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -3371,25 +3371,25 @@ export interface SearchDatasetApiMsGraphDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -3572,38 +3572,38 @@ export interface SearchDatasetApiMsGraphDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiMsGraphDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -3844,25 +3844,25 @@ export interface SearchDatasetApiOktaDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -4045,38 +4045,38 @@ export interface SearchDatasetApiOktaDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiOktaDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -4317,25 +4317,25 @@ export interface SearchDatasetApiOpenSearchDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -4518,13 +4518,13 @@ export interface SearchDatasetApiOpenSearchDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4533,29 +4533,29 @@ export interface SearchDatasetApiOpenSearchDataset {
   /**
   * Name of the OpenSearch index to search. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#index SearchDataset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#index SearchDataset#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiOpenSearchDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the field holding the timestamp of the event. Default: "@timestamp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -4825,25 +4825,25 @@ export interface SearchDatasetApiTailscaleDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5026,38 +5026,38 @@ export interface SearchDatasetApiTailscaleDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiTailscaleDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -5298,25 +5298,25 @@ export interface SearchDatasetApiZoomDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5499,38 +5499,38 @@ export interface SearchDatasetApiZoomDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiZoomDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -5771,25 +5771,25 @@ export interface SearchDatasetApihttpDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5972,38 +5972,38 @@ export interface SearchDatasetApihttpDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApihttpDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -6244,25 +6244,25 @@ export interface SearchDatasetAwsSecurityLakeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -6445,13 +6445,13 @@ export interface SearchDatasetAwsSecurityLakeDatasetSelectedBuckets {
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#name SearchDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#name SearchDataset#name}
   */
   readonly name?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -6598,50 +6598,50 @@ export interface SearchDatasetAwsSecurityLakeDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetAwsSecurityLakeDatasetMetadata;
   /**
   * The templated path under which to look for data, in each folder. Default: "${vendor}/${sourceLocation}/${pathVersion}/region=${region}/accountId=${accountId}/eventDay=${_time:%Y%m%d}/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the buckets that should be searched by this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#selected_buckets SearchDataset#selected_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#selected_buckets SearchDataset#selected_buckets}
   */
   readonly selectedBuckets?: SearchDatasetAwsSecurityLakeDatasetSelectedBuckets[] | cdktf.IResolvable;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -6940,19 +6940,19 @@ export interface SearchDatasetAzureBlobDatasetExtraPaths {
   /**
   * Name of the additional container. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#container_name SearchDataset#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#container_name SearchDataset#container_name}
   */
   readonly containerName?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Path inside the additional container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
 }
@@ -7128,25 +7128,25 @@ export interface SearchDatasetAzureBlobDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -7329,68 +7329,68 @@ export interface SearchDatasetAzureBlobDataset {
   /**
   * Azure Blob Storage container name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#container_name SearchDataset#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#container_name SearchDataset#container_name}
   */
   readonly containerName?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional container paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetAzureBlobDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetAzureBlobDatasetMetadata;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -7776,25 +7776,25 @@ export interface SearchDatasetClickHouseDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -7975,50 +7975,50 @@ export class SearchDatasetClickHouseDatasetMetadataOutputReference extends cdktf
 }
 export interface SearchDatasetClickHouseDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetClickHouseDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * May be a simple name (Example: logs) or a SQL query (Example: select * from logs). Results will be limited to 100K for tables without sorting keys and queries. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the column holding the timestamp of the event to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -8317,13 +8317,13 @@ export interface SearchDatasetCriblLeaderDatasetExtraPaths {
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * The directory from which to collect data. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
 }
@@ -8470,25 +8470,25 @@ export interface SearchDatasetCriblLeaderDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -8671,50 +8671,50 @@ export interface SearchDatasetCriblLeaderDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetCriblLeaderDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetCriblLeaderDatasetMetadata;
   /**
   * The directory from which to collect data. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -9013,25 +9013,25 @@ export interface SearchDatasetEdgeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -9214,50 +9214,50 @@ export interface SearchDatasetEdgeDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Fleets to query. '*' for all. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#fleets SearchDataset#fleets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#fleets SearchDataset#fleets}
   */
   readonly fleets?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetEdgeDatasetMetadata;
   /**
   * The directory where data will be collected. Environment variables and templating are supported. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -9556,19 +9556,19 @@ export interface SearchDatasetGcsDatasetExtraPaths {
   /**
   * Google Cloud Storage bucket path. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Where the extra bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -9744,25 +9744,25 @@ export interface SearchDatasetGcsDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -9945,68 +9945,68 @@ export interface SearchDatasetGcsDataset {
   /**
   * Google Cloud Storage bucket path. Templating is supported. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional bucket paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetGcsDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetGcsDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -10392,25 +10392,25 @@ export interface SearchDatasetMetaDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -10593,38 +10593,38 @@ export interface SearchDatasetMetaDataset {
   /**
   * IDs of the datasets that are searched by default. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#datasets SearchDataset#datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#datasets SearchDataset#datasets}
   */
   readonly datasets?: string[];
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetMetaDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -10865,25 +10865,25 @@ export interface SearchDatasetPrometheusDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -11066,50 +11066,50 @@ export interface SearchDatasetPrometheusDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Number of data points you want in each result set. Defaults to 250. Can be overridden on the query with a 'step' predicate. Default: 250
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#desired_num_data_points SearchDataset#desired_num_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#desired_num_data_points SearchDataset#desired_num_data_points}
   */
   readonly desiredNumDataPoints?: number;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetPrometheusDatasetMetadata;
   /**
   * Optional regular expression used to filter metric names. When defined, only metrics whose name matches this pattern will be searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metric_name_pattern SearchDataset#metric_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metric_name_pattern SearchDataset#metric_name_pattern}
   */
   readonly metricNamePattern?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * How to calculate the "step," or time range increment per data point, for the Prometheus query request. Default: "exact"; must be one of ["exact", "nearest_unit"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#step_mode SearchDataset#step_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#step_mode SearchDataset#step_mode}
   */
   readonly stepMode?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -11408,31 +11408,31 @@ export interface SearchDatasetS3DatasetExtraPaths {
   /**
   * Whether to automatically detect the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
   */
   readonly autoDetectRegion?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -11666,25 +11666,25 @@ export interface SearchDatasetS3DatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -11867,80 +11867,80 @@ export interface SearchDatasetS3Dataset {
   /**
   * Whether to automatically detect the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
   */
   readonly autoDetectRegion?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional bucket paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetS3DatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetS3DatasetMetadata;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -12384,25 +12384,25 @@ export interface SearchDatasetSnowflakeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -12583,68 +12583,68 @@ export class SearchDatasetSnowflakeDatasetMetadataOutputReference extends cdktf.
 }
 export interface SearchDatasetSnowflakeDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetSnowflakeDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Optional Snowflake role to use when executing the statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#role SearchDataset#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#role SearchDataset#role}
   */
   readonly role?: string;
   /**
   * The schema in the database that contains the table(s) to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#schema SearchDataset#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#schema SearchDataset#schema}
   */
   readonly schema?: string;
   /**
   * May be a simple name (Example: logs) or a SQL query (Example: select * from logs). Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the column holding the timestamp of the event to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
   /**
   * If not set, uses DEFAULT_WAREHOUSE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#warehouse SearchDataset#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#warehouse SearchDataset#warehouse}
   */
   readonly warehouse?: string;
 }
@@ -13028,7 +13028,7 @@ export class SearchDatasetSnowflakeDatasetOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset criblio_search_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset criblio_search_dataset}
 */
 export class SearchDataset extends cdktf.TerraformResource {
 
@@ -13044,7 +13044,7 @@ export class SearchDataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDataset to import
-  * @param importFromId The id of the existing SearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13056,7 +13056,7 @@ export class SearchDataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset criblio_search_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/search_dataset criblio_search_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13067,8 +13067,8 @@ export class SearchDataset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

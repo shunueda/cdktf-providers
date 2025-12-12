@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface K8SPodSecurityAdmissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#annotations K8SPodSecurityAdmission#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#annotations K8SPodSecurityAdmission#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#description K8SPodSecurityAdmission#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#description K8SPodSecurityAdmission#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#disable K8SPodSecurityAdmission#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#disable K8SPodSecurityAdmission#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#id K8SPodSecurityAdmission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#id K8SPodSecurityAdmission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#labels K8SPodSecurityAdmission#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#labels K8SPodSecurityAdmission#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#name K8SPodSecurityAdmission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#name K8SPodSecurityAdmission#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#namespace K8SPodSecurityAdmission#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#namespace K8SPodSecurityAdmission#namespace}
   */
   readonly namespace: string;
   /**
   * pod_security_admission_specs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#pod_security_admission_specs K8SPodSecurityAdmission#pod_security_admission_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#pod_security_admission_specs K8SPodSecurityAdmission#pod_security_admission_specs}
   */
   readonly podSecurityAdmissionSpecs: K8SPodSecurityAdmissionPodSecurityAdmissionSpecs[] | cdktf.IResolvable;
 }
 export interface K8SPodSecurityAdmissionPodSecurityAdmissionSpecs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#audit K8SPodSecurityAdmission#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#audit K8SPodSecurityAdmission#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#baseline K8SPodSecurityAdmission#baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#baseline K8SPodSecurityAdmission#baseline}
   */
   readonly baseline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#enforce K8SPodSecurityAdmission#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#enforce K8SPodSecurityAdmission#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#privileged K8SPodSecurityAdmission#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#privileged K8SPodSecurityAdmission#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#restricted K8SPodSecurityAdmission#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#restricted K8SPodSecurityAdmission#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#warn K8SPodSecurityAdmission#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#warn K8SPodSecurityAdmission#warn}
   */
   readonly warn?: boolean | cdktf.IResolvable;
 }
@@ -328,7 +328,7 @@ export class K8SPodSecurityAdmissionPodSecurityAdmissionSpecsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission volterra_k8s_pod_security_admission}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission volterra_k8s_pod_security_admission}
 */
 export class K8SPodSecurityAdmission extends cdktf.TerraformResource {
 
@@ -344,7 +344,7 @@ export class K8SPodSecurityAdmission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SPodSecurityAdmission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SPodSecurityAdmission to import
-  * @param importFromId The id of the existing K8SPodSecurityAdmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SPodSecurityAdmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SPodSecurityAdmission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class K8SPodSecurityAdmission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_pod_security_admission volterra_k8s_pod_security_admission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/k8s_pod_security_admission volterra_k8s_pod_security_admission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class K8SPodSecurityAdmission extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_pod_security_admission',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEcsDeploymentsetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#deployment_set_name DataAlibabacloudstackEcsDeploymentsets#deployment_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#deployment_set_name DataAlibabacloudstackEcsDeploymentsets#deployment_set_name}
   */
   readonly deploymentSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#id DataAlibabacloudstackEcsDeploymentsets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#id DataAlibabacloudstackEcsDeploymentsets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#ids DataAlibabacloudstackEcsDeploymentsets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#ids DataAlibabacloudstackEcsDeploymentsets#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#name_regex DataAlibabacloudstackEcsDeploymentsets#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#name_regex DataAlibabacloudstackEcsDeploymentsets#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#output_file DataAlibabacloudstackEcsDeploymentsets#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#output_file DataAlibabacloudstackEcsDeploymentsets#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#strategy DataAlibabacloudstackEcsDeploymentsets#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#strategy DataAlibabacloudstackEcsDeploymentsets#strategy}
   */
   readonly strategy?: string;
 }
@@ -157,7 +157,7 @@ export class DataAlibabacloudstackEcsDeploymentsetsSetsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets alibabacloudstack_ecs_deploymentsets}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets alibabacloudstack_ecs_deploymentsets}
 */
 export class DataAlibabacloudstackEcsDeploymentsets extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataAlibabacloudstackEcsDeploymentsets extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAlibabacloudstackEcsDeploymentsets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEcsDeploymentsets to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEcsDeploymentsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEcsDeploymentsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEcsDeploymentsets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataAlibabacloudstackEcsDeploymentsets extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ecs_deploymentsets alibabacloudstack_ecs_deploymentsets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ecs_deploymentsets alibabacloudstack_ecs_deploymentsets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataAlibabacloudstackEcsDeploymentsets extends cdktf.TerraformDataS
       terraformResourceType: 'alibabacloudstack_ecs_deploymentsets',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

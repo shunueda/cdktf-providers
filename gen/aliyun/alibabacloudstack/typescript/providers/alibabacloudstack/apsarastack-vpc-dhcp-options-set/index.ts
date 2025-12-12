@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackVpcDhcpOptionsSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#associate_vpcs ApsarastackVpcDhcpOptionsSet#associate_vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#associate_vpcs ApsarastackVpcDhcpOptionsSet#associate_vpcs}
   */
   readonly associateVpcs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#dhcp_options_set_description ApsarastackVpcDhcpOptionsSet#dhcp_options_set_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#dhcp_options_set_description ApsarastackVpcDhcpOptionsSet#dhcp_options_set_description}
   */
   readonly dhcpOptionsSetDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#dhcp_options_set_name ApsarastackVpcDhcpOptionsSet#dhcp_options_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#dhcp_options_set_name ApsarastackVpcDhcpOptionsSet#dhcp_options_set_name}
   */
   readonly dhcpOptionsSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#domain_name ApsarastackVpcDhcpOptionsSet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#domain_name ApsarastackVpcDhcpOptionsSet#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#domain_name_servers ApsarastackVpcDhcpOptionsSet#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#domain_name_servers ApsarastackVpcDhcpOptionsSet#domain_name_servers}
   */
   readonly domainNameServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#id ApsarastackVpcDhcpOptionsSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#id ApsarastackVpcDhcpOptionsSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface ApsarastackVpcDhcpOptionsSetConfig extends cdktf.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set apsarastack_vpc_dhcp_options_set}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set apsarastack_vpc_dhcp_options_set}
 */
 export class ApsarastackVpcDhcpOptionsSet extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ApsarastackVpcDhcpOptionsSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackVpcDhcpOptionsSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackVpcDhcpOptionsSet to import
-  * @param importFromId The id of the existing ApsarastackVpcDhcpOptionsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackVpcDhcpOptionsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackVpcDhcpOptionsSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ApsarastackVpcDhcpOptionsSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_vpc_dhcp_options_set apsarastack_vpc_dhcp_options_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_vpc_dhcp_options_set apsarastack_vpc_dhcp_options_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ApsarastackVpcDhcpOptionsSet extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_vpc_dhcp_options_set',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

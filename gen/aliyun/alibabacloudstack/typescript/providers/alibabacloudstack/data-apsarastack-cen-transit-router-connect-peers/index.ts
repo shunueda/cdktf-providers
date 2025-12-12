@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackCenTransitRouterConnectPeersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#cen_id DataApsarastackCenTransitRouterConnectPeers#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#cen_id DataApsarastackCenTransitRouterConnectPeers#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#connect_attachment_id DataApsarastackCenTransitRouterConnectPeers#connect_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#connect_attachment_id DataApsarastackCenTransitRouterConnectPeers#connect_attachment_id}
   */
   readonly connectAttachmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#id DataApsarastackCenTransitRouterConnectPeers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#id DataApsarastackCenTransitRouterConnectPeers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface DataApsarastackCenTransitRouterConnectPeersConfig extends cdktf
   /**
   * A list of Transit Router Connect Peer IDs to filter results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#ids DataApsarastackCenTransitRouterConnectPeers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#ids DataApsarastackCenTransitRouterConnectPeers#ids}
   */
   readonly ids?: string[];
   /**
   * A regex string to filter results by the Transit Router Connect Peer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#name_regex DataApsarastackCenTransitRouterConnectPeers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#name_regex DataApsarastackCenTransitRouterConnectPeers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#peer_name DataApsarastackCenTransitRouterConnectPeers#peer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#peer_name DataApsarastackCenTransitRouterConnectPeers#peer_name}
   */
   readonly peerName?: string;
 }
@@ -161,7 +161,7 @@ export class DataApsarastackCenTransitRouterConnectPeersPeersList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers apsarastack_cen_transit_router_connect_peers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers apsarastack_cen_transit_router_connect_peers}
 */
 export class DataApsarastackCenTransitRouterConnectPeers extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataApsarastackCenTransitRouterConnectPeers extends cdktf.Terraform
   * Generates CDKTF code for importing a DataApsarastackCenTransitRouterConnectPeers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackCenTransitRouterConnectPeers to import
-  * @param importFromId The id of the existing DataApsarastackCenTransitRouterConnectPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackCenTransitRouterConnectPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackCenTransitRouterConnectPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataApsarastackCenTransitRouterConnectPeers extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cen_transit_router_connect_peers apsarastack_cen_transit_router_connect_peers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cen_transit_router_connect_peers apsarastack_cen_transit_router_connect_peers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataApsarastackCenTransitRouterConnectPeers extends cdktf.Terraform
       terraformResourceType: 'apsarastack_cen_transit_router_connect_peers',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

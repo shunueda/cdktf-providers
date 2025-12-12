@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface KubernetesClusterIamMemberConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of the compute `cluster` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member#cluster_id KubernetesClusterIamMember#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member#cluster_id KubernetesClusterIamMember#cluster_id}
   */
   readonly clusterId: string;
   /**
@@ -29,25 +29,25 @@ export interface KubernetesClusterIamMemberConfig extends cdktf.TerraformMetaArg
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member#member KubernetesClusterIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member#member KubernetesClusterIamMember#member}
   */
   readonly member: string;
   /**
   * The role that should be assigned. Only one yandex_kubernetes_cluster_iam_member can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member#role KubernetesClusterIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member#role KubernetesClusterIamMember#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member#sleep_after KubernetesClusterIamMember#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member#sleep_after KubernetesClusterIamMember#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member yandex_kubernetes_cluster_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member yandex_kubernetes_cluster_iam_member}
 */
 export class KubernetesClusterIamMember extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class KubernetesClusterIamMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesClusterIamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesClusterIamMember to import
-  * @param importFromId The id of the existing KubernetesClusterIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesClusterIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesClusterIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class KubernetesClusterIamMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/kubernetes_cluster_iam_member yandex_kubernetes_cluster_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kubernetes_cluster_iam_member yandex_kubernetes_cluster_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class KubernetesClusterIamMember extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kubernetes_cluster_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

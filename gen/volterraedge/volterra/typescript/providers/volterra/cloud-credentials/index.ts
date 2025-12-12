@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface CloudCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#annotations CloudCredentials#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#annotations CloudCredentials#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#description CloudCredentials#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#description CloudCredentials#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#disable CloudCredentials#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#disable CloudCredentials#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#id CloudCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#id CloudCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#labels CloudCredentials#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#labels CloudCredentials#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#name CloudCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#name CloudCredentials#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#namespace CloudCredentials#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#namespace CloudCredentials#namespace}
   */
   readonly namespace: string;
   /**
   * aws_assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#aws_assume_role CloudCredentials#aws_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#aws_assume_role CloudCredentials#aws_assume_role}
   */
   readonly awsAssumeRole?: CloudCredentialsAwsAssumeRole;
   /**
   * aws_secret_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#aws_secret_key CloudCredentials#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#aws_secret_key CloudCredentials#aws_secret_key}
   */
   readonly awsSecretKey?: CloudCredentialsAwsSecretKey;
   /**
   * azure_client_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#azure_client_secret CloudCredentials#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#azure_client_secret CloudCredentials#azure_client_secret}
   */
   readonly azureClientSecret?: CloudCredentialsAzureClientSecret;
   /**
   * azure_pfx_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#azure_pfx_certificate CloudCredentials#azure_pfx_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#azure_pfx_certificate CloudCredentials#azure_pfx_certificate}
   */
   readonly azurePfxCertificate?: CloudCredentialsAzurePfxCertificate;
   /**
   * gcp_cred_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#gcp_cred_file CloudCredentials#gcp_cred_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#gcp_cred_file CloudCredentials#gcp_cred_file}
   */
   readonly gcpCredFile?: CloudCredentialsGcpCredFile;
 }
 export interface CloudCredentialsAwsAssumeRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#custom_external_id CloudCredentials#custom_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#custom_external_id CloudCredentials#custom_external_id}
   */
   readonly customExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#duration_seconds CloudCredentials#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#duration_seconds CloudCredentials#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#external_id_is_optional CloudCredentials#external_id_is_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#external_id_is_optional CloudCredentials#external_id_is_optional}
   */
   readonly externalIdIsOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#external_id_is_tenant_id CloudCredentials#external_id_is_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#external_id_is_tenant_id CloudCredentials#external_id_is_tenant_id}
   */
   readonly externalIdIsTenantId?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#role_arn CloudCredentials#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#role_arn CloudCredentials#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#session_name CloudCredentials#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#session_name CloudCredentials#session_name}
   */
   readonly sessionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#session_tags CloudCredentials#session_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#session_tags CloudCredentials#session_tags}
   */
   readonly sessionTags?: { [key: string]: string };
 }
@@ -347,15 +347,15 @@ export class CloudCredentialsAwsAssumeRoleOutputReference extends cdktf.ComplexO
 }
 export interface CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -494,15 +494,15 @@ export class CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfoOutputRefer
 }
 export interface CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -641,11 +641,11 @@ export class CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfoInternalOut
 }
 export interface CloudCredentialsAwsSecretKeySecretKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#url CloudCredentials#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#url CloudCredentials#url}
   */
   readonly url: string;
 }
@@ -755,23 +755,23 @@ export class CloudCredentialsAwsSecretKeySecretKeyClearSecretInfoOutputReference
 }
 export interface CloudCredentialsAwsSecretKeySecretKeyVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#key CloudCredentials#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#key CloudCredentials#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#version CloudCredentials#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#version CloudCredentials#version}
   */
   readonly version?: number;
 }
@@ -965,7 +965,7 @@ export class CloudCredentialsAwsSecretKeySecretKeyVaultSecretInfoOutputReference
 }
 export interface CloudCredentialsAwsSecretKeySecretKeyWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#name CloudCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#name CloudCredentials#name}
   */
   readonly name: string;
 }
@@ -1046,37 +1046,37 @@ export class CloudCredentialsAwsSecretKeySecretKeyWingmanSecretInfoOutputReferen
 }
 export interface CloudCredentialsAwsSecretKeySecretKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CloudCredentialsAwsSecretKeySecretKeyBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
   */
   readonly clearSecretInfo?: CloudCredentialsAwsSecretKeySecretKeyClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
   */
   readonly vaultSecretInfo?: CloudCredentialsAwsSecretKeySecretKeyVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CloudCredentialsAwsSecretKeySecretKeyWingmanSecretInfo;
 }
@@ -1305,13 +1305,13 @@ export class CloudCredentialsAwsSecretKeySecretKeyOutputReference extends cdktf.
 }
 export interface CloudCredentialsAwsSecretKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#access_key CloudCredentials#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#access_key CloudCredentials#access_key}
   */
   readonly accessKey: string;
   /**
   * secret_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_key CloudCredentials#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_key CloudCredentials#secret_key}
   */
   readonly secretKey: CloudCredentialsAwsSecretKeySecretKey;
 }
@@ -1418,15 +1418,15 @@ export class CloudCredentialsAwsSecretKeyOutputReference extends cdktf.ComplexOb
 }
 export interface CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1565,15 +1565,15 @@ export class CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfoOut
 }
 export interface CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1712,11 +1712,11 @@ export class CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfoInt
 }
 export interface CloudCredentialsAzureClientSecretClientSecretClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#url CloudCredentials#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#url CloudCredentials#url}
   */
   readonly url: string;
 }
@@ -1826,23 +1826,23 @@ export class CloudCredentialsAzureClientSecretClientSecretClearSecretInfoOutputR
 }
 export interface CloudCredentialsAzureClientSecretClientSecretVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#key CloudCredentials#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#key CloudCredentials#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#version CloudCredentials#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#version CloudCredentials#version}
   */
   readonly version?: number;
 }
@@ -2036,7 +2036,7 @@ export class CloudCredentialsAzureClientSecretClientSecretVaultSecretInfoOutputR
 }
 export interface CloudCredentialsAzureClientSecretClientSecretWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#name CloudCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#name CloudCredentials#name}
   */
   readonly name: string;
 }
@@ -2117,37 +2117,37 @@ export class CloudCredentialsAzureClientSecretClientSecretWingmanSecretInfoOutpu
 }
 export interface CloudCredentialsAzureClientSecretClientSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CloudCredentialsAzureClientSecretClientSecretBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
   */
   readonly clearSecretInfo?: CloudCredentialsAzureClientSecretClientSecretClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
   */
   readonly vaultSecretInfo?: CloudCredentialsAzureClientSecretClientSecretVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CloudCredentialsAzureClientSecretClientSecretWingmanSecretInfo;
 }
@@ -2376,21 +2376,21 @@ export class CloudCredentialsAzureClientSecretClientSecretOutputReference extend
 }
 export interface CloudCredentialsAzureClientSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#client_id CloudCredentials#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#client_id CloudCredentials#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#subscription_id CloudCredentials#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#subscription_id CloudCredentials#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#tenant_id CloudCredentials#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#tenant_id CloudCredentials#tenant_id}
   */
   readonly tenantId: string;
   /**
   * client_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#client_secret CloudCredentials#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#client_secret CloudCredentials#client_secret}
   */
   readonly clientSecret: CloudCredentialsAzureClientSecretClientSecret;
 }
@@ -2549,15 +2549,15 @@ export class CloudCredentialsAzureClientSecretOutputReference extends cdktf.Comp
 }
 export interface CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2696,15 +2696,15 @@ export class CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfoOutpu
 }
 export interface CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2843,11 +2843,11 @@ export class CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfoInter
 }
 export interface CloudCredentialsAzurePfxCertificatePasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#url CloudCredentials#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#url CloudCredentials#url}
   */
   readonly url: string;
 }
@@ -2957,23 +2957,23 @@ export class CloudCredentialsAzurePfxCertificatePasswordClearSecretInfoOutputRef
 }
 export interface CloudCredentialsAzurePfxCertificatePasswordVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#key CloudCredentials#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#key CloudCredentials#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#version CloudCredentials#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#version CloudCredentials#version}
   */
   readonly version?: number;
 }
@@ -3167,7 +3167,7 @@ export class CloudCredentialsAzurePfxCertificatePasswordVaultSecretInfoOutputRef
 }
 export interface CloudCredentialsAzurePfxCertificatePasswordWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#name CloudCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#name CloudCredentials#name}
   */
   readonly name: string;
 }
@@ -3248,37 +3248,37 @@ export class CloudCredentialsAzurePfxCertificatePasswordWingmanSecretInfoOutputR
 }
 export interface CloudCredentialsAzurePfxCertificatePassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CloudCredentialsAzurePfxCertificatePasswordBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
   */
   readonly clearSecretInfo?: CloudCredentialsAzurePfxCertificatePasswordClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
   */
   readonly vaultSecretInfo?: CloudCredentialsAzurePfxCertificatePasswordVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CloudCredentialsAzurePfxCertificatePasswordWingmanSecretInfo;
 }
@@ -3507,25 +3507,25 @@ export class CloudCredentialsAzurePfxCertificatePasswordOutputReference extends 
 }
 export interface CloudCredentialsAzurePfxCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#certificate_url CloudCredentials#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#certificate_url CloudCredentials#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#client_id CloudCredentials#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#client_id CloudCredentials#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#subscription_id CloudCredentials#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#subscription_id CloudCredentials#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#tenant_id CloudCredentials#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#tenant_id CloudCredentials#tenant_id}
   */
   readonly tenantId: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#password CloudCredentials#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#password CloudCredentials#password}
   */
   readonly password: CloudCredentialsAzurePfxCertificatePassword;
 }
@@ -3710,15 +3710,15 @@ export class CloudCredentialsAzurePfxCertificateOutputReference extends cdktf.Co
 }
 export interface CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3857,15 +3857,15 @@ export class CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfoOutputR
 }
 export interface CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#decryption_provider CloudCredentials#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#store_provider CloudCredentials#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4004,11 +4004,11 @@ export class CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfoInterna
 }
 export interface CloudCredentialsGcpCredFileCredentialFileClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#url CloudCredentials#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#url CloudCredentials#url}
   */
   readonly url: string;
 }
@@ -4118,23 +4118,23 @@ export class CloudCredentialsGcpCredFileCredentialFileClearSecretInfoOutputRefer
 }
 export interface CloudCredentialsGcpCredFileCredentialFileVaultSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#key CloudCredentials#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#key CloudCredentials#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#location CloudCredentials#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#location CloudCredentials#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#provider CloudCredentials#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#provider CloudCredentials#provider}
   */
   readonly provider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding CloudCredentials#secret_encoding}
   */
   readonly secretEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#version CloudCredentials#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#version CloudCredentials#version}
   */
   readonly version?: number;
 }
@@ -4328,7 +4328,7 @@ export class CloudCredentialsGcpCredFileCredentialFileVaultSecretInfoOutputRefer
 }
 export interface CloudCredentialsGcpCredFileCredentialFileWingmanSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#name CloudCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#name CloudCredentials#name}
   */
   readonly name: string;
 }
@@ -4409,37 +4409,37 @@ export class CloudCredentialsGcpCredFileCredentialFileWingmanSecretInfoOutputRef
 }
 export interface CloudCredentialsGcpCredFileCredentialFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#secret_encoding_type CloudCredentials#secret_encoding_type}
   */
   readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info CloudCredentials#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfo;
   /**
   * blindfold_secret_info_internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#blindfold_secret_info_internal CloudCredentials#blindfold_secret_info_internal}
   */
   readonly blindfoldSecretInfoInternal?: CloudCredentialsGcpCredFileCredentialFileBlindfoldSecretInfoInternal;
   /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#clear_secret_info CloudCredentials#clear_secret_info}
   */
   readonly clearSecretInfo?: CloudCredentialsGcpCredFileCredentialFileClearSecretInfo;
   /**
   * vault_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#vault_secret_info CloudCredentials#vault_secret_info}
   */
   readonly vaultSecretInfo?: CloudCredentialsGcpCredFileCredentialFileVaultSecretInfo;
   /**
   * wingman_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#wingman_secret_info CloudCredentials#wingman_secret_info}
   */
   readonly wingmanSecretInfo?: CloudCredentialsGcpCredFileCredentialFileWingmanSecretInfo;
 }
@@ -4670,7 +4670,7 @@ export interface CloudCredentialsGcpCredFile {
   /**
   * credential_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#credential_file CloudCredentials#credential_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#credential_file CloudCredentials#credential_file}
   */
   readonly credentialFile: CloudCredentialsGcpCredFileCredentialFile;
 }
@@ -4751,7 +4751,7 @@ export class CloudCredentialsGcpCredFileOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials volterra_cloud_credentials}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials volterra_cloud_credentials}
 */
 export class CloudCredentials extends cdktf.TerraformResource {
 
@@ -4767,7 +4767,7 @@ export class CloudCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudCredentials to import
-  * @param importFromId The id of the existing CloudCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4779,7 +4779,7 @@ export class CloudCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_credentials volterra_cloud_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/cloud_credentials volterra_cloud_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4790,8 +4790,8 @@ export class CloudCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_cloud_credentials',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

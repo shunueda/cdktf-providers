@@ -1,0 +1,3 @@
+# `yandex_mdb_greenplum_cluster_v2`
+
+Refer to the Terraform Registry for docs: [`yandex_mdb_greenplum_cluster_v2`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2).

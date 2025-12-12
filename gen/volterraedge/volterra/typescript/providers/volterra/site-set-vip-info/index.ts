@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface SiteSetVipInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#id SiteSetVipInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#id SiteSetVipInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#name SiteSetVipInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#name SiteSetVipInfo#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#namespace SiteSetVipInfo#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#namespace SiteSetVipInfo#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#site_type SiteSetVipInfo#site_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#site_type SiteSetVipInfo#site_type}
   */
   readonly siteType: string;
   /**
   * vip_params_per_az block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#vip_params_per_az SiteSetVipInfo#vip_params_per_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#vip_params_per_az SiteSetVipInfo#vip_params_per_az}
   */
   readonly vipParamsPerAz: SiteSetVipInfoVipParamsPerAz[] | cdktf.IResolvable;
 }
 export interface SiteSetVipInfoVipParamsPerAz {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#az_name SiteSetVipInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#az_name SiteSetVipInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#inside_vip SiteSetVipInfo#inside_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#inside_vip SiteSetVipInfo#inside_vip}
   */
   readonly insideVip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#inside_vip_cname SiteSetVipInfo#inside_vip_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#inside_vip_cname SiteSetVipInfo#inside_vip_cname}
   */
   readonly insideVipCname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#outside_vip SiteSetVipInfo#outside_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#outside_vip SiteSetVipInfo#outside_vip}
   */
   readonly outsideVip: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#outside_vip_cname SiteSetVipInfo#outside_vip_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#outside_vip_cname SiteSetVipInfo#outside_vip_cname}
   */
   readonly outsideVipCname?: string;
 }
@@ -280,7 +280,7 @@ export class SiteSetVipInfoVipParamsPerAzList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info volterra_site_set_vip_info}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info volterra_site_set_vip_info}
 */
 export class SiteSetVipInfo extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class SiteSetVipInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteSetVipInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteSetVipInfo to import
-  * @param importFromId The id of the existing SiteSetVipInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteSetVipInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteSetVipInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class SiteSetVipInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_set_vip_info volterra_site_set_vip_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_set_vip_info volterra_site_set_vip_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class SiteSetVipInfo extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_site_set_vip_info',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

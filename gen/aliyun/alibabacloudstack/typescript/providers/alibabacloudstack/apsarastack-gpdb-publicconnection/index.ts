@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackGpdbPublicconnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#connection_prefix ApsarastackGpdbPublicconnection#connection_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#connection_prefix ApsarastackGpdbPublicconnection#connection_prefix}
   */
   readonly connectionPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#id ApsarastackGpdbPublicconnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#id ApsarastackGpdbPublicconnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#instance_id ApsarastackGpdbPublicconnection#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#instance_id ApsarastackGpdbPublicconnection#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#port ApsarastackGpdbPublicconnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#port ApsarastackGpdbPublicconnection#port}
   */
   readonly port?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#timeouts ApsarastackGpdbPublicconnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#timeouts ApsarastackGpdbPublicconnection#timeouts}
   */
   readonly timeouts?: ApsarastackGpdbPublicconnectionTimeouts;
 }
 export interface ApsarastackGpdbPublicconnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#create ApsarastackGpdbPublicconnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#create ApsarastackGpdbPublicconnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#delete ApsarastackGpdbPublicconnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#delete ApsarastackGpdbPublicconnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#update ApsarastackGpdbPublicconnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#update ApsarastackGpdbPublicconnection#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ApsarastackGpdbPublicconnectionTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection apsarastack_gpdb_publicconnection}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection apsarastack_gpdb_publicconnection}
 */
 export class ApsarastackGpdbPublicconnection extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ApsarastackGpdbPublicconnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackGpdbPublicconnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackGpdbPublicconnection to import
-  * @param importFromId The id of the existing ApsarastackGpdbPublicconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackGpdbPublicconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackGpdbPublicconnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ApsarastackGpdbPublicconnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_gpdb_publicconnection apsarastack_gpdb_publicconnection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_gpdb_publicconnection apsarastack_gpdb_publicconnection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ApsarastackGpdbPublicconnection extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_gpdb_publicconnection',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

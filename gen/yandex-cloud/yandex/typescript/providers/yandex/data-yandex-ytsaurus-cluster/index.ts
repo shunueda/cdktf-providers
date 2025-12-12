@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,28 +10,82 @@ export interface DataYandexYtsaurusClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#cluster_id DataYandexYtsaurusCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#cluster_id DataYandexYtsaurusCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * ID of the folder that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#folder_id DataYandexYtsaurusCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#folder_id DataYandexYtsaurusCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#id DataYandexYtsaurusCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#id DataYandexYtsaurusCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#timeouts DataYandexYtsaurusCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#timeouts DataYandexYtsaurusCluster#timeouts}
   */
   readonly timeouts?: DataYandexYtsaurusClusterTimeouts;
+}
+export interface DataYandexYtsaurusClusterCidrBlocksWhitelistStruct {
+}
+
+export function dataYandexYtsaurusClusterCidrBlocksWhitelistStructToTerraform(struct?: DataYandexYtsaurusClusterCidrBlocksWhitelistStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexYtsaurusClusterCidrBlocksWhitelistStructToHclTerraform(struct?: DataYandexYtsaurusClusterCidrBlocksWhitelistStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexYtsaurusClusterCidrBlocksWhitelistStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexYtsaurusClusterCidrBlocksWhitelistStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexYtsaurusClusterCidrBlocksWhitelistStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // v4_cidr_blocks - computed: true, optional: false, required: false
+  public get v4CidrBlocks() {
+    return this.getListAttribute('v4_cidr_blocks');
+  }
 }
 export interface DataYandexYtsaurusClusterEndpoints {
 }
@@ -100,6 +154,137 @@ export class DataYandexYtsaurusClusterEndpointsOutputReference extends cdktf.Com
   // ui - computed: true, optional: false, required: false
   public get ui() {
     return this.getStringAttribute('ui');
+  }
+}
+export interface DataYandexYtsaurusClusterSpecClientLogging {
+  /**
+  * ID of cloud logging folder. Used default loging group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#folder_id DataYandexYtsaurusCluster#folder_id}
+  */
+  readonly folderId?: string;
+  /**
+  * ID of Service account used for write logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#service_account_id DataYandexYtsaurusCluster#service_account_id}
+  */
+  readonly serviceAccountId?: string;
+}
+
+export function dataYandexYtsaurusClusterSpecClientLoggingToTerraform(struct?: DataYandexYtsaurusClusterSpecClientLogging): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    folder_id: cdktf.stringToTerraform(struct!.folderId),
+    service_account_id: cdktf.stringToTerraform(struct!.serviceAccountId),
+  }
+}
+
+
+export function dataYandexYtsaurusClusterSpecClientLoggingToHclTerraform(struct?: DataYandexYtsaurusClusterSpecClientLogging): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    folder_id: {
+      value: cdktf.stringToHclTerraform(struct!.folderId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_account_id: {
+      value: cdktf.stringToHclTerraform(struct!.serviceAccountId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataYandexYtsaurusClusterSpecClientLoggingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexYtsaurusClusterSpecClientLogging | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._folderId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.folderId = this._folderId;
+    }
+    if (this._serviceAccountId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountId = this._serviceAccountId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexYtsaurusClusterSpecClientLogging | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._folderId = undefined;
+      this._serviceAccountId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._folderId = value.folderId;
+      this._serviceAccountId = value.serviceAccountId;
+    }
+  }
+
+  // audit_logs_enabled - computed: true, optional: false, required: false
+  public get auditLogsEnabled() {
+    return this.getBooleanAttribute('audit_logs_enabled');
+  }
+
+  // folder_id - computed: true, optional: true, required: false
+  private _folderId?: string; 
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+  public set folderId(value: string) {
+    this._folderId = value;
+  }
+  public resetFolderId() {
+    this._folderId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderIdInput() {
+    return this._folderId;
+  }
+
+  // log_group_id - computed: true, optional: false, required: false
+  public get logGroupId() {
+    return this.getStringAttribute('log_group_id');
+  }
+
+  // service_account_id - computed: true, optional: true, required: false
+  private _serviceAccountId?: string; 
+  public get serviceAccountId() {
+    return this.getStringAttribute('service_account_id');
+  }
+  public set serviceAccountId(value: string) {
+    this._serviceAccountId = value;
+  }
+  public resetServiceAccountId() {
+    this._serviceAccountId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountIdInput() {
+    return this._serviceAccountId;
   }
 }
 export interface DataYandexYtsaurusClusterSpecComputeDisks {
@@ -451,6 +636,130 @@ export class DataYandexYtsaurusClusterSpecComputeList extends cdktf.ComplexList 
   */
   public get(index: number): DataYandexYtsaurusClusterSpecComputeOutputReference {
     return new DataYandexYtsaurusClusterSpecComputeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataYandexYtsaurusClusterSpecCronClearTmp {
+}
+
+export function dataYandexYtsaurusClusterSpecCronClearTmpToTerraform(struct?: DataYandexYtsaurusClusterSpecCronClearTmp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexYtsaurusClusterSpecCronClearTmpToHclTerraform(struct?: DataYandexYtsaurusClusterSpecCronClearTmp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexYtsaurusClusterSpecCronClearTmpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexYtsaurusClusterSpecCronClearTmp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexYtsaurusClusterSpecCronClearTmp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // account_usage_ratio_save_per_owner - computed: true, optional: false, required: false
+  public get accountUsageRatioSavePerOwner() {
+    return this.getNumberAttribute('account_usage_ratio_save_per_owner');
+  }
+
+  // account_usage_ratio_save_total - computed: true, optional: false, required: false
+  public get accountUsageRatioSaveTotal() {
+    return this.getNumberAttribute('account_usage_ratio_save_total');
+  }
+
+  // interval - computed: true, optional: false, required: false
+  public get interval() {
+    return this.getStringAttribute('interval');
+  }
+
+  // max_dir_node_count - computed: true, optional: false, required: false
+  public get maxDirNodeCount() {
+    return this.getNumberAttribute('max_dir_node_count');
+  }
+}
+export interface DataYandexYtsaurusClusterSpecCron {
+}
+
+export function dataYandexYtsaurusClusterSpecCronToTerraform(struct?: DataYandexYtsaurusClusterSpecCron): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexYtsaurusClusterSpecCronToHclTerraform(struct?: DataYandexYtsaurusClusterSpecCron): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexYtsaurusClusterSpecCronOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexYtsaurusClusterSpecCron | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexYtsaurusClusterSpecCron | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // clear_tmp - computed: true, optional: false, required: false
+  private _clearTmp = new DataYandexYtsaurusClusterSpecCronClearTmpOutputReference(this, "clear_tmp");
+  public get clearTmp() {
+    return this._clearTmp;
   }
 }
 export interface DataYandexYtsaurusClusterSpecOdin {
@@ -968,10 +1277,27 @@ export class DataYandexYtsaurusClusterSpecOutputReference extends cdktf.ComplexO
     }
   }
 
+  // client_logging - computed: true, optional: false, required: false
+  private _clientLogging = new DataYandexYtsaurusClusterSpecClientLoggingOutputReference(this, "client_logging");
+  public get clientLogging() {
+    return this._clientLogging;
+  }
+
   // compute - computed: true, optional: false, required: false
   private _compute = new DataYandexYtsaurusClusterSpecComputeList(this, "compute", false);
   public get compute() {
     return this._compute;
+  }
+
+  // cron - computed: true, optional: false, required: false
+  private _cron = new DataYandexYtsaurusClusterSpecCronOutputReference(this, "cron");
+  public get cron() {
+    return this._cron;
+  }
+
+  // flavor - computed: true, optional: false, required: false
+  public get flavor() {
+    return this.getStringAttribute('flavor');
   }
 
   // odin - computed: true, optional: false, required: false
@@ -1002,25 +1328,25 @@ export interface DataYandexYtsaurusClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#create DataYandexYtsaurusCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#create DataYandexYtsaurusCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#delete DataYandexYtsaurusCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#delete DataYandexYtsaurusCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#read DataYandexYtsaurusCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#read DataYandexYtsaurusCluster#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#update DataYandexYtsaurusCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#update DataYandexYtsaurusCluster#update}
   */
   readonly update?: string;
 }
@@ -1201,7 +1527,7 @@ export class DataYandexYtsaurusClusterTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster}
 */
 export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
 
@@ -1217,7 +1543,7 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexYtsaurusCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexYtsaurusCluster to import
-  * @param importFromId The id of the existing DataYandexYtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexYtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexYtsaurusCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1229,7 +1555,7 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/ytsaurus_cluster yandex_ytsaurus_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1240,8 +1566,8 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_ytsaurus_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1260,6 +1586,12 @@ export class DataYandexYtsaurusCluster extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cidr_blocks_whitelist - computed: true, optional: false, required: false
+  private _cidrBlocksWhitelist = new DataYandexYtsaurusClusterCidrBlocksWhitelistStructOutputReference(this, "cidr_blocks_whitelist");
+  public get cidrBlocksWhitelist() {
+    return this._cidrBlocksWhitelist;
+  }
 
   // cluster_id - computed: true, optional: true, required: false
   private _clusterId?: string; 

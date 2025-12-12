@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_saved_query
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_saved_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioSearchSavedQueryConfig extends cdktf.TerraformMetaAr
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_saved_query#id DataCriblioSearchSavedQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_saved_query#id DataCriblioSearchSavedQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ export class DataCriblioSearchSavedQueryScheduleOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_saved_query criblio_search_saved_query}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_saved_query criblio_search_saved_query}
 */
 export class DataCriblioSearchSavedQuery extends cdktf.TerraformDataSource {
 
@@ -164,7 +164,7 @@ export class DataCriblioSearchSavedQuery extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchSavedQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchSavedQuery to import
-  * @param importFromId The id of the existing DataCriblioSearchSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_saved_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_saved_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchSavedQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class DataCriblioSearchSavedQuery extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_saved_query criblio_search_saved_query} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_saved_query criblio_search_saved_query} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class DataCriblioSearchSavedQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_saved_query',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

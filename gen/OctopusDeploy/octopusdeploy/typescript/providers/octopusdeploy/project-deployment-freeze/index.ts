@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ProjectDeploymentFreezeConfig extends cdktf.TerraformMetaArgume
   /**
   * The end time of the freeze, must be RFC3339 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#end ProjectDeploymentFreeze#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#end ProjectDeploymentFreeze#end}
   */
   readonly end: string;
   /**
   * The environment IDs associated with this project deployment freeze scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#environment_ids ProjectDeploymentFreeze#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#environment_ids ProjectDeploymentFreeze#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#name ProjectDeploymentFreeze#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#name ProjectDeploymentFreeze#name}
   */
   readonly name: string;
   /**
   * The Owner ID of the freeze
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#owner_id ProjectDeploymentFreeze#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#owner_id ProjectDeploymentFreeze#owner_id}
   */
   readonly ownerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#recurring_schedule ProjectDeploymentFreeze#recurring_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#recurring_schedule ProjectDeploymentFreeze#recurring_schedule}
   */
   readonly recurringSchedule?: ProjectDeploymentFreezeRecurringSchedule;
   /**
   * The start time of the freeze, must be RFC3339 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#start ProjectDeploymentFreeze#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#start ProjectDeploymentFreeze#start}
   */
   readonly start: string;
 }
@@ -46,67 +46,67 @@ export interface ProjectDeploymentFreezeRecurringSchedule {
   /**
   * The date of the month for monthly schedules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#date_of_month ProjectDeploymentFreeze#date_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#date_of_month ProjectDeploymentFreeze#date_of_month}
   */
   readonly dateOfMonth?: string;
   /**
   * Specifies which weekday position in the month. Valid values: 1 (First), 2 (Second), 3 (Third), 4 (Fourth), L (Last). Used with day_of_week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#day_number_of_month ProjectDeploymentFreeze#day_number_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#day_number_of_month ProjectDeploymentFreeze#day_number_of_month}
   */
   readonly dayNumberOfMonth?: string;
   /**
   * The day of the week for monthly schedules when using DayOfMonth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#day_of_week ProjectDeploymentFreeze#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#day_of_week ProjectDeploymentFreeze#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * List of days of the week for weekly schedules. Must follow order: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#days_of_week ProjectDeploymentFreeze#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#days_of_week ProjectDeploymentFreeze#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * Number of occurrences after which the schedule should end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#end_after_occurrences ProjectDeploymentFreeze#end_after_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#end_after_occurrences ProjectDeploymentFreeze#end_after_occurrences}
   */
   readonly endAfterOccurrences?: number;
   /**
   * The date when the recurring schedule should end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#end_on_date ProjectDeploymentFreeze#end_on_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#end_on_date ProjectDeploymentFreeze#end_on_date}
   */
   readonly endOnDate?: string;
   /**
   * When the recurring schedule should end (Never, OnDate, AfterOccurrences)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#end_type ProjectDeploymentFreeze#end_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#end_type ProjectDeploymentFreeze#end_type}
   */
   readonly endType: string;
   /**
   * Type of monthly schedule (DayOfMonth, DateOfMonth)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#monthly_schedule_type ProjectDeploymentFreeze#monthly_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#monthly_schedule_type ProjectDeploymentFreeze#monthly_schedule_type}
   */
   readonly monthlyScheduleType?: string;
   /**
   * Type of recurring schedule (Daily, Weekly, Monthly, Annually)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#type ProjectDeploymentFreeze#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#type ProjectDeploymentFreeze#type}
   */
   readonly type: string;
   /**
   * The unit value for the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#unit ProjectDeploymentFreeze#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#unit ProjectDeploymentFreeze#unit}
   */
   readonly unit: number;
   /**
   * The UTC offset in minutes of the timezone the schedule should run in, will use offset from freeze start date if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#utc_offset_in_minutes ProjectDeploymentFreeze#utc_offset_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#utc_offset_in_minutes ProjectDeploymentFreeze#utc_offset_in_minutes}
   */
   readonly utcOffsetInMinutes?: number;
 }
@@ -481,7 +481,7 @@ export class ProjectDeploymentFreezeRecurringScheduleOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze octopusdeploy_project_deployment_freeze}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze octopusdeploy_project_deployment_freeze}
 */
 export class ProjectDeploymentFreeze extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class ProjectDeploymentFreeze extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectDeploymentFreeze resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectDeploymentFreeze to import
-  * @param importFromId The id of the existing ProjectDeploymentFreeze that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectDeploymentFreeze that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectDeploymentFreeze to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class ProjectDeploymentFreeze extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/project_deployment_freeze octopusdeploy_project_deployment_freeze} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_freeze octopusdeploy_project_deployment_freeze} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class ProjectDeploymentFreeze extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project_deployment_freeze',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

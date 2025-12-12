@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface YqYdsBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The data compression algorithm, e.g. brotli, bzip2, gzip, lz4, xz, zstd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#compression YqYdsBinding#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#compression YqYdsBinding#compression}
   */
   readonly compression?: string;
   /**
   * The connection identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#connection_id YqYdsBinding#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#connection_id YqYdsBinding#connection_id}
   */
   readonly connectionId: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#description YqYdsBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#description YqYdsBinding#description}
   */
   readonly description?: string;
   /**
   * The data format, e.g. csv_with_names, json_as_string, json_each_row, json_list, parquet, raw, tsv_with_names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#format YqYdsBinding#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#format YqYdsBinding#format}
   */
   readonly format: string;
   /**
   * Special format setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#format_setting YqYdsBinding#format_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#format_setting YqYdsBinding#format_setting}
   */
   readonly formatSetting?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#name YqYdsBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#name YqYdsBinding#name}
   */
   readonly name: string;
   /**
   * The stream name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#stream YqYdsBinding#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#stream YqYdsBinding#stream}
   */
   readonly stream: string;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#column YqYdsBinding#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#column YqYdsBinding#column}
   */
   readonly column?: YqYdsBindingColumn[] | cdktf.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface YqYdsBindingColumn {
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#name YqYdsBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#name YqYdsBinding#name}
   */
   readonly name: string;
   /**
   * A column cannot have the NULL data type. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#not_null YqYdsBinding#not_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#not_null YqYdsBinding#not_null}
   */
   readonly notNull?: boolean | cdktf.IResolvable;
   /**
   * Column data type. YQL data types are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#type YqYdsBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#type YqYdsBinding#type}
   */
   readonly type?: string;
 }
@@ -243,7 +243,7 @@ export class YqYdsBindingColumnList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding yandex_yq_yds_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding yandex_yq_yds_binding}
 */
 export class YqYdsBinding extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class YqYdsBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YqYdsBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YqYdsBinding to import
-  * @param importFromId The id of the existing YqYdsBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YqYdsBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YqYdsBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class YqYdsBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/yq_yds_binding yandex_yq_yds_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_yds_binding yandex_yq_yds_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class YqYdsBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_yq_yds_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAscmRamServiceRolesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#description DataAlibabacloudstackAscmRamServiceRoles#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#description DataAlibabacloudstackAscmRamServiceRoles#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#id DataAlibabacloudstackAscmRamServiceRoles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#id DataAlibabacloudstackAscmRamServiceRoles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#ids DataAlibabacloudstackAscmRamServiceRoles#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#ids DataAlibabacloudstackAscmRamServiceRoles#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#output_file DataAlibabacloudstackAscmRamServiceRoles#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#output_file DataAlibabacloudstackAscmRamServiceRoles#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#product DataAlibabacloudstackAscmRamServiceRoles#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#product DataAlibabacloudstackAscmRamServiceRoles#product}
   */
   readonly product?: string;
 }
@@ -138,7 +138,7 @@ export class DataAlibabacloudstackAscmRamServiceRolesRolesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles alibabacloudstack_ascm_ram_service_roles}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles alibabacloudstack_ascm_ram_service_roles}
 */
 export class DataAlibabacloudstackAscmRamServiceRoles extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataAlibabacloudstackAscmRamServiceRoles extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataAlibabacloudstackAscmRamServiceRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAscmRamServiceRoles to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAscmRamServiceRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAscmRamServiceRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAscmRamServiceRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataAlibabacloudstackAscmRamServiceRoles extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_ram_service_roles alibabacloudstack_ascm_ram_service_roles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/ascm_ram_service_roles alibabacloudstack_ascm_ram_service_roles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataAlibabacloudstackAscmRamServiceRoles extends cdktf.TerraformDat
       terraformResourceType: 'alibabacloudstack_ascm_ram_service_roles',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackCloudmonitorserviceMetricalarmrulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#id DataApsarastackCloudmonitorserviceMetricalarmrules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#id DataApsarastackCloudmonitorserviceMetricalarmrules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#name_regex DataApsarastackCloudmonitorserviceMetricalarmrules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#name_regex DataApsarastackCloudmonitorserviceMetricalarmrules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#output_file DataApsarastackCloudmonitorserviceMetricalarmrules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#output_file DataApsarastackCloudmonitorserviceMetricalarmrules#output_file}
   */
   readonly outputFile?: string;
 }
@@ -311,7 +311,7 @@ export class DataApsarastackCloudmonitorserviceMetricalarmrulesAlarmsList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules apsarastack_cloudmonitorservice_metricalarmrules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules apsarastack_cloudmonitorservice_metricalarmrules}
 */
 export class DataApsarastackCloudmonitorserviceMetricalarmrules extends cdktf.TerraformDataSource {
 
@@ -327,7 +327,7 @@ export class DataApsarastackCloudmonitorserviceMetricalarmrules extends cdktf.Te
   * Generates CDKTF code for importing a DataApsarastackCloudmonitorserviceMetricalarmrules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackCloudmonitorserviceMetricalarmrules to import
-  * @param importFromId The id of the existing DataApsarastackCloudmonitorserviceMetricalarmrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackCloudmonitorserviceMetricalarmrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackCloudmonitorserviceMetricalarmrules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -339,7 +339,7 @@ export class DataApsarastackCloudmonitorserviceMetricalarmrules extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules apsarastack_cloudmonitorservice_metricalarmrules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_cloudmonitorservice_metricalarmrules apsarastack_cloudmonitorservice_metricalarmrules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,8 +350,8 @@ export class DataApsarastackCloudmonitorserviceMetricalarmrules extends cdktf.Te
       terraformResourceType: 'apsarastack_cloudmonitorservice_metricalarmrules',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

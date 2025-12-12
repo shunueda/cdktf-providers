@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataSysdigFargateWorkloadAgentConfig extends cdktf.TerraformMet
   /**
   * use bare pdig to instrument the containers in the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#bare_pdig_on_containers DataSysdigFargateWorkloadAgent#bare_pdig_on_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#bare_pdig_on_containers DataSysdigFargateWorkloadAgent#bare_pdig_on_containers}
   */
   readonly barePdigOnContainers?: string[];
   /**
   * the collector host to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#collector_host DataSysdigFargateWorkloadAgent#collector_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#collector_host DataSysdigFargateWorkloadAgent#collector_host}
   */
   readonly collectorHost?: string;
   /**
   * the collector port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#collector_port DataSysdigFargateWorkloadAgent#collector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#collector_port DataSysdigFargateWorkloadAgent#collector_port}
   */
   readonly collectorPort?: string;
   /**
   * the input Fargate container definitions to instrument with the Sysdig workload agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#container_definitions DataSysdigFargateWorkloadAgent#container_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#container_definitions DataSysdigFargateWorkloadAgent#container_definitions}
   */
   readonly containerDefinitions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#id DataSysdigFargateWorkloadAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#id DataSysdigFargateWorkloadAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface DataSysdigFargateWorkloadAgentConfig extends cdktf.TerraformMet
   /**
   * list of containers to not add instrumentation to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#ignore_containers DataSysdigFargateWorkloadAgent#ignore_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#ignore_containers DataSysdigFargateWorkloadAgent#ignore_containers}
   */
   readonly ignoreContainers?: string[];
   /**
   * registry authentication secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#image_auth_secret DataSysdigFargateWorkloadAgent#image_auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#image_auth_secret DataSysdigFargateWorkloadAgent#image_auth_secret}
   */
   readonly imageAuthSecret?: string;
   /**
   * The number of cpu units dedicated to the instrumentation container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#instrumentation_cpu DataSysdigFargateWorkloadAgent#instrumentation_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#instrumentation_cpu DataSysdigFargateWorkloadAgent#instrumentation_cpu}
   */
   readonly instrumentationCpu?: number;
   /**
   * Should the instrumentation container be marked as essential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#instrumentation_essential DataSysdigFargateWorkloadAgent#instrumentation_essential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#instrumentation_essential DataSysdigFargateWorkloadAgent#instrumentation_essential}
   */
   readonly instrumentationEssential?: boolean | cdktf.IResolvable;
   /**
   * The maximum amount (in MiB) of memory used by the instrumentation container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#instrumentation_memory_limit DataSysdigFargateWorkloadAgent#instrumentation_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#instrumentation_memory_limit DataSysdigFargateWorkloadAgent#instrumentation_memory_limit}
   */
   readonly instrumentationMemoryLimit?: number;
   /**
   * The minimum amount (in MiB) of memory reserved for the instrumentation container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#instrumentation_memory_reservation DataSysdigFargateWorkloadAgent#instrumentation_memory_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#instrumentation_memory_reservation DataSysdigFargateWorkloadAgent#instrumentation_memory_reservation}
   */
   readonly instrumentationMemoryReservation?: number;
   /**
   * the orchestrator host to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#orchestrator_host DataSysdigFargateWorkloadAgent#orchestrator_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#orchestrator_host DataSysdigFargateWorkloadAgent#orchestrator_host}
   */
   readonly orchestratorHost?: string;
   /**
   * the orchestrator port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#orchestrator_port DataSysdigFargateWorkloadAgent#orchestrator_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#orchestrator_port DataSysdigFargateWorkloadAgent#orchestrator_port}
   */
   readonly orchestratorPort?: string;
   /**
   * The priority of the agent. Can be 'security' or 'availability'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#priority DataSysdigFargateWorkloadAgent#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#priority DataSysdigFargateWorkloadAgent#priority}
   */
   readonly priority?: string;
   /**
   * Sidecar mode: auto/force/(empty string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#sidecar DataSysdigFargateWorkloadAgent#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#sidecar DataSysdigFargateWorkloadAgent#sidecar}
   */
   readonly sidecar?: string;
   /**
   * the Sysdig access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#sysdig_access_key DataSysdigFargateWorkloadAgent#sysdig_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#sysdig_access_key DataSysdigFargateWorkloadAgent#sysdig_access_key}
   */
   readonly sysdigAccessKey?: string;
   /**
   * the instrumentation logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#sysdig_logging DataSysdigFargateWorkloadAgent#sysdig_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#sysdig_logging DataSysdigFargateWorkloadAgent#sysdig_logging}
   */
   readonly sysdigLogging?: string;
   /**
   * the Sysdig workload agent image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#workload_agent_image DataSysdigFargateWorkloadAgent#workload_agent_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#workload_agent_image DataSysdigFargateWorkloadAgent#workload_agent_image}
   */
   readonly workloadAgentImage: string;
   /**
   * log_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#log_configuration DataSysdigFargateWorkloadAgent#log_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#log_configuration DataSysdigFargateWorkloadAgent#log_configuration}
   */
   readonly logConfiguration?: DataSysdigFargateWorkloadAgentLogConfiguration;
 }
@@ -127,19 +127,19 @@ export interface DataSysdigFargateWorkloadAgentLogConfiguration {
   /**
   * The log group where the awslogs driver will send log streams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#group DataSysdigFargateWorkloadAgent#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#group DataSysdigFargateWorkloadAgent#group}
   */
   readonly group: string;
   /**
   * Region for the log group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#region DataSysdigFargateWorkloadAgent#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#region DataSysdigFargateWorkloadAgent#region}
   */
   readonly region: string;
   /**
   * Prefix for the instrumentation log stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#stream_prefix DataSysdigFargateWorkloadAgent#stream_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#stream_prefix DataSysdigFargateWorkloadAgent#stream_prefix}
   */
   readonly streamPrefix: string;
 }
@@ -272,7 +272,7 @@ export class DataSysdigFargateWorkloadAgentLogConfigurationOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent sysdig_fargate_workload_agent}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent sysdig_fargate_workload_agent}
 */
 export class DataSysdigFargateWorkloadAgent extends cdktf.TerraformDataSource {
 
@@ -288,7 +288,7 @@ export class DataSysdigFargateWorkloadAgent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigFargateWorkloadAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigFargateWorkloadAgent to import
-  * @param importFromId The id of the existing DataSysdigFargateWorkloadAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigFargateWorkloadAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigFargateWorkloadAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class DataSysdigFargateWorkloadAgent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/fargate_workload_agent sysdig_fargate_workload_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.3.1/docs/data-sources/fargate_workload_agent sysdig_fargate_workload_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class DataSysdigFargateWorkloadAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_fargate_workload_agent',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.3.1',
+        providerVersionConstraint: '3.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

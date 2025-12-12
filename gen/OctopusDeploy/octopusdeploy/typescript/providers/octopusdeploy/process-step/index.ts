@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface ProcessStepConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of channels associated with this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#channels ProcessStep#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#channels ProcessStep#channels}
   */
   readonly channels?: string[];
   /**
   * When to run the step, one of 'Success', 'Failure', 'Always' or 'Variable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#condition ProcessStep#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#condition ProcessStep#condition}
   */
   readonly condition?: string;
   /**
   * When set, used to run step inside a container on the Octopus Server. Octopus Server must support container execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#container ProcessStep#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#container ProcessStep#container}
   */
   readonly container?: ProcessStepContainer;
   /**
   * A set of environments within which this step will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#environments ProcessStep#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#environments ProcessStep#environments}
   */
   readonly environments?: string[];
   /**
   * A set of environments that this step will be skipped in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#excluded_environments ProcessStep#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#excluded_environments ProcessStep#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A collection of step action properties where the key is the property name and the value is its value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#execution_properties ProcessStep#execution_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#execution_properties ProcessStep#execution_properties}
   */
   readonly executionProperties?: { [key: string]: string };
   /**
   * References of git dependencies for this step where key is a name of the reference and empty name defines primary dependency. Is the Git equivalent of packages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#git_dependencies ProcessStep#git_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#git_dependencies ProcessStep#git_dependencies}
   */
   readonly gitDependencies?: { [key: string]: ProcessStepGitDependencies } | cdktf.IResolvable;
   /**
   * Indicates the disabled status of this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#is_disabled ProcessStep#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#is_disabled ProcessStep#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#is_required ProcessStep#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#is_required ProcessStep#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#name ProcessStep#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#name ProcessStep#name}
   */
   readonly name: string;
   /**
   * The notes associated with this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#notes ProcessStep#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#notes ProcessStep#notes}
   */
   readonly notes?: string;
   /**
   * Whether to run this step before or after package acquisition (if possible).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#package_requirement ProcessStep#package_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#package_requirement ProcessStep#package_requirement}
   */
   readonly packageRequirement?: string;
   /**
   * Package references associated with this step where key is a name of the package reference (use empty name for primary package)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#packages ProcessStep#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#packages ProcessStep#packages}
   */
   readonly packages?: { [key: string]: ProcessStepPackages } | cdktf.IResolvable;
   /**
   * Primary package of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#primary_package ProcessStep#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#primary_package ProcessStep#primary_package}
   */
   readonly primaryPackage?: ProcessStepPrimaryPackage;
   /**
   * Id of the process this step belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#process_id ProcessStep#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#process_id ProcessStep#process_id}
   */
   readonly processId: string;
   /**
   * A collection of process step properties where the key is the property name and the value is its value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#properties ProcessStep#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#properties ProcessStep#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The human-readable unique identifier for the step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#slug ProcessStep#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#slug ProcessStep#slug}
   */
   readonly slug?: string;
   /**
   * The space ID associated with this process_step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#space_id ProcessStep#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#space_id ProcessStep#space_id}
   */
   readonly spaceId?: string;
   /**
   * Whether to run this step after the previous step ('StartAfterPrevious') or at the same time as the previous step ('StartWithPrevious').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#start_trigger ProcessStep#start_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#start_trigger ProcessStep#start_trigger}
   */
   readonly startTrigger?: string;
   /**
   * A set of tenant tags associated with this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#tenant_tags ProcessStep#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#tenant_tags ProcessStep#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * Execution type of the step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#type ProcessStep#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#type ProcessStep#type}
   */
   readonly type: string;
   /**
   * The worker pool associated with this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#worker_pool_id ProcessStep#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#worker_pool_id ProcessStep#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#worker_pool_variable ProcessStep#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#worker_pool_variable ProcessStep#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
 }
@@ -150,13 +150,13 @@ export interface ProcessStepContainer {
   /**
   * Feed where the container will be pulled from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
   */
   readonly feedId?: string;
   /**
   * Image of the container with tag included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#image ProcessStep#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#image ProcessStep#image}
   */
   readonly image?: string;
 }
@@ -281,31 +281,31 @@ export interface ProcessStepGitDependencies {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#default_branch ProcessStep#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#default_branch ProcessStep#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#file_path_filters ProcessStep#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#file_path_filters ProcessStep#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#git_credential_id ProcessStep#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#git_credential_id ProcessStep#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#git_credential_type ProcessStep#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#git_credential_type ProcessStep#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#repository_uri ProcessStep#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#repository_uri ProcessStep#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -528,25 +528,25 @@ export interface ProcessStepPackages {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#acquisition_location ProcessStep#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#acquisition_location ProcessStep#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
   */
   readonly feedId?: string;
   /**
   * Package ID or a variable-expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#package_id ProcessStep#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#package_id ProcessStep#package_id}
   */
   readonly packageId: string;
   /**
   * A collection of properties associated with this package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#properties ProcessStep#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#properties ProcessStep#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -751,25 +751,25 @@ export interface ProcessStepPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#acquisition_location ProcessStep#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#acquisition_location ProcessStep#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#feed_id ProcessStep#feed_id}
   */
   readonly feedId?: string;
   /**
   * Package ID or a variable-expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#package_id ProcessStep#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#package_id ProcessStep#package_id}
   */
   readonly packageId: string;
   /**
   * A collection of properties associated with this package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#properties ProcessStep#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#properties ProcessStep#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -952,7 +952,7 @@ export class ProcessStepPrimaryPackageOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step octopusdeploy_process_step}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step octopusdeploy_process_step}
 */
 export class ProcessStep extends cdktf.TerraformResource {
 
@@ -968,7 +968,7 @@ export class ProcessStep extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessStep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessStep to import
-  * @param importFromId The id of the existing ProcessStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessStep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -980,7 +980,7 @@ export class ProcessStep extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.6.0/docs/resources/process_step octopusdeploy_process_step} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/process_step octopusdeploy_process_step} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -991,8 +991,8 @@ export class ProcessStep extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_process_step',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

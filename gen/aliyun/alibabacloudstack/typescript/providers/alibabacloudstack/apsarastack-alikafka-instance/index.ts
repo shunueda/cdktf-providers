@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface ApsarastackAlikafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#auto_create_topics_enable ApsarastackAlikafkaInstance#auto_create_topics_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#auto_create_topics_enable ApsarastackAlikafkaInstance#auto_create_topics_enable}
   */
   readonly autoCreateTopicsEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#background_threads ApsarastackAlikafkaInstance#background_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#background_threads ApsarastackAlikafkaInstance#background_threads}
   */
   readonly backgroundThreads?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#cup_type ApsarastackAlikafkaInstance#cup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#cup_type ApsarastackAlikafkaInstance#cup_type}
   */
   readonly cupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#default_replication_factor ApsarastackAlikafkaInstance#default_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#default_replication_factor ApsarastackAlikafkaInstance#default_replication_factor}
   */
   readonly defaultReplicationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#disk_num ApsarastackAlikafkaInstance#disk_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#disk_num ApsarastackAlikafkaInstance#disk_num}
   */
   readonly diskNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#id ApsarastackAlikafkaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#id ApsarastackAlikafkaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#log_retention_bytes ApsarastackAlikafkaInstance#log_retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#log_retention_bytes ApsarastackAlikafkaInstance#log_retention_bytes}
   */
   readonly logRetentionBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#message_max_bytes ApsarastackAlikafkaInstance#message_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#message_max_bytes ApsarastackAlikafkaInstance#message_max_bytes}
   */
   readonly messageMaxBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#name ApsarastackAlikafkaInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#name ApsarastackAlikafkaInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#num_io_threads ApsarastackAlikafkaInstance#num_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#num_io_threads ApsarastackAlikafkaInstance#num_io_threads}
   */
   readonly numIoThreads?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#num_network_threads ApsarastackAlikafkaInstance#num_network_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#num_network_threads ApsarastackAlikafkaInstance#num_network_threads}
   */
   readonly numNetworkThreads?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#num_partitions ApsarastackAlikafkaInstance#num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#num_partitions ApsarastackAlikafkaInstance#num_partitions}
   */
   readonly numPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#num_replica_fetchers ApsarastackAlikafkaInstance#num_replica_fetchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#num_replica_fetchers ApsarastackAlikafkaInstance#num_replica_fetchers}
   */
   readonly numReplicaFetchers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#offsets_retention_minutes ApsarastackAlikafkaInstance#offsets_retention_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#offsets_retention_minutes ApsarastackAlikafkaInstance#offsets_retention_minutes}
   */
   readonly offsetsRetentionMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#plaintext ApsarastackAlikafkaInstance#plaintext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#plaintext ApsarastackAlikafkaInstance#plaintext}
   */
   readonly plaintext?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#queued_max_requests ApsarastackAlikafkaInstance#queued_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#queued_max_requests ApsarastackAlikafkaInstance#queued_max_requests}
   */
   readonly queuedMaxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#replica_fetch_max_bytes ApsarastackAlikafkaInstance#replica_fetch_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#replica_fetch_max_bytes ApsarastackAlikafkaInstance#replica_fetch_max_bytes}
   */
   readonly replicaFetchMaxBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#replica_fetch_wait_max_ms ApsarastackAlikafkaInstance#replica_fetch_wait_max_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#replica_fetch_wait_max_ms ApsarastackAlikafkaInstance#replica_fetch_wait_max_ms}
   */
   readonly replicaFetchWaitMaxMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#replica_lag_time_max_ms ApsarastackAlikafkaInstance#replica_lag_time_max_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#replica_lag_time_max_ms ApsarastackAlikafkaInstance#replica_lag_time_max_ms}
   */
   readonly replicaLagTimeMaxMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#replicas ApsarastackAlikafkaInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#replicas ApsarastackAlikafkaInstance#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#sasl ApsarastackAlikafkaInstance#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#sasl ApsarastackAlikafkaInstance#sasl}
   */
   readonly sasl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#selected_zones ApsarastackAlikafkaInstance#selected_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#selected_zones ApsarastackAlikafkaInstance#selected_zones}
   */
   readonly selectedZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#spec ApsarastackAlikafkaInstance#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#spec ApsarastackAlikafkaInstance#spec}
   */
   readonly spec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#vpc_id ApsarastackAlikafkaInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#vpc_id ApsarastackAlikafkaInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#vswitch_id ApsarastackAlikafkaInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#vswitch_id ApsarastackAlikafkaInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#zone_id ApsarastackAlikafkaInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#zone_id ApsarastackAlikafkaInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#timeouts ApsarastackAlikafkaInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#timeouts ApsarastackAlikafkaInstance#timeouts}
   */
   readonly timeouts?: ApsarastackAlikafkaInstanceTimeouts;
 }
 export interface ApsarastackAlikafkaInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#create ApsarastackAlikafkaInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#create ApsarastackAlikafkaInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#delete ApsarastackAlikafkaInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#delete ApsarastackAlikafkaInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#update ApsarastackAlikafkaInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#update ApsarastackAlikafkaInstance#update}
   */
   readonly update?: string;
 }
@@ -283,7 +283,7 @@ export class ApsarastackAlikafkaInstanceTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance apsarastack_alikafka_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance apsarastack_alikafka_instance}
 */
 export class ApsarastackAlikafkaInstance extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ApsarastackAlikafkaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApsarastackAlikafkaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsarastackAlikafkaInstance to import
-  * @param importFromId The id of the existing ApsarastackAlikafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsarastackAlikafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsarastackAlikafkaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ApsarastackAlikafkaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alikafka_instance apsarastack_alikafka_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/resources/apsarastack_alikafka_instance apsarastack_alikafka_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class ApsarastackAlikafkaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'apsarastack_alikafka_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

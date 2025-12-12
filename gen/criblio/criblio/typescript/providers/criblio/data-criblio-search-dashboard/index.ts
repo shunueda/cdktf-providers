@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard
+// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioSearchDashboardConfig extends cdktf.TerraformMetaArg
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard#id DataCriblioSearchDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_dashboard#id DataCriblioSearchDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2308,7 +2308,7 @@ export class DataCriblioSearchDashboardScheduleOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard criblio_search_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_dashboard criblio_search_dashboard}
 */
 export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
 
@@ -2324,7 +2324,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDashboard to import
-  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2336,7 +2336,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2347,8 +2347,8 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.59',
-        providerVersionConstraint: '1.20.59'
+        providerVersion: '1.20.60',
+        providerVersionConstraint: '1.20.60'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2368,6 +2368,11 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   // cache_ttl_seconds - computed: true, optional: false, required: false
   public get cacheTtlSeconds() {
     return this.getNumberAttribute('cache_ttl_seconds');
+  }
+
+  // category - computed: true, optional: false, required: false
+  public get category() {
+    return this.getStringAttribute('category');
   }
 
   // description - computed: true, optional: false, required: false

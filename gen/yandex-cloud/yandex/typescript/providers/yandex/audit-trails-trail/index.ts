@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AuditTrailsTrailConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#description AuditTrailsTrail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#description AuditTrailsTrail#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#folder_id AuditTrailsTrail#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#folder_id AuditTrailsTrail#folder_id}
   */
   readonly folderId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#id AuditTrailsTrail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#id AuditTrailsTrail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface AuditTrailsTrailConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#labels AuditTrailsTrail#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#labels AuditTrailsTrail#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#name AuditTrailsTrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#name AuditTrailsTrail#name}
   */
   readonly name: string;
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#service_account_id AuditTrailsTrail#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#service_account_id AuditTrailsTrail#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * data_stream_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#data_stream_destination AuditTrailsTrail#data_stream_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#data_stream_destination AuditTrailsTrail#data_stream_destination}
   */
   readonly dataStreamDestination?: AuditTrailsTrailDataStreamDestination;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#filter AuditTrailsTrail#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#filter AuditTrailsTrail#filter}
   */
   readonly filter?: AuditTrailsTrailFilter;
   /**
   * filtering_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#filtering_policy AuditTrailsTrail#filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#filtering_policy AuditTrailsTrail#filtering_policy}
   */
   readonly filteringPolicy?: AuditTrailsTrailFilteringPolicy;
   /**
   * logging_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#logging_destination AuditTrailsTrail#logging_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#logging_destination AuditTrailsTrail#logging_destination}
   */
   readonly loggingDestination?: AuditTrailsTrailLoggingDestination;
   /**
   * storage_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#storage_destination AuditTrailsTrail#storage_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#storage_destination AuditTrailsTrail#storage_destination}
   */
   readonly storageDestination?: AuditTrailsTrailStorageDestination;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#timeouts AuditTrailsTrail#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#timeouts AuditTrailsTrail#timeouts}
   */
   readonly timeouts?: AuditTrailsTrailTimeouts;
 }
@@ -85,19 +85,19 @@ export interface AuditTrailsTrailDataStreamDestination {
   /**
   * Codec for compressing events. Allowed values: RAW, GZIP, ZSTD. Default: RAW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#codec AuditTrailsTrail#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#codec AuditTrailsTrail#codec}
   */
   readonly codec?: string;
   /**
   * ID of the [YDB](https://yandex.cloud/docs/ydb/concepts/resources) hosting the destination data stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#database_id AuditTrailsTrail#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#database_id AuditTrailsTrail#database_id}
   */
   readonly databaseId: string;
   /**
   * Name of the [YDS stream](https://yandex.cloud/docs/data-streams/concepts/glossary#stream-concepts) belonging to the specified YDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#stream_name AuditTrailsTrail#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#stream_name AuditTrailsTrail#stream_name}
   */
   readonly streamName: string;
 }
@@ -235,13 +235,13 @@ export interface AuditTrailsTrailFilterEventFiltersCategories {
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#plane AuditTrailsTrail#plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#plane AuditTrailsTrail#plane}
   */
   readonly plane: string;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#type AuditTrailsTrail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#type AuditTrailsTrail#type}
   */
   readonly type: string;
 }
@@ -382,13 +382,13 @@ export interface AuditTrailsTrailFilterEventFiltersPathFilterAnyFilter {
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -497,13 +497,13 @@ export interface AuditTrailsTrailFilterEventFiltersPathFilterSomeFilterAnyFilter
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -644,19 +644,19 @@ export interface AuditTrailsTrailFilterEventFiltersPathFilterSomeFilter {
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
   /**
   * any_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#any_filters AuditTrailsTrail#any_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#any_filters AuditTrailsTrail#any_filters}
   */
   readonly anyFilters: AuditTrailsTrailFilterEventFiltersPathFilterSomeFilterAnyFilters[] | cdktf.IResolvable;
 }
@@ -791,13 +791,13 @@ export interface AuditTrailsTrailFilterEventFiltersPathFilter {
   /**
   * any_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#any_filter AuditTrailsTrail#any_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#any_filter AuditTrailsTrail#any_filter}
   */
   readonly anyFilter?: AuditTrailsTrailFilterEventFiltersPathFilterAnyFilter;
   /**
   * some_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#some_filter AuditTrailsTrail#some_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#some_filter AuditTrailsTrail#some_filter}
   */
   readonly someFilter?: AuditTrailsTrailFilterEventFiltersPathFilterSomeFilter;
 }
@@ -912,19 +912,19 @@ export interface AuditTrailsTrailFilterEventFilters {
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#service AuditTrailsTrail#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#service AuditTrailsTrail#service}
   */
   readonly service: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#categories AuditTrailsTrail#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#categories AuditTrailsTrail#categories}
   */
   readonly categories: AuditTrailsTrailFilterEventFiltersCategories[] | cdktf.IResolvable;
   /**
   * path_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#path_filter AuditTrailsTrail#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#path_filter AuditTrailsTrail#path_filter}
   */
   readonly pathFilter: AuditTrailsTrailFilterEventFiltersPathFilter;
 }
@@ -1091,13 +1091,13 @@ export interface AuditTrailsTrailFilterPathFilterAnyFilter {
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -1206,13 +1206,13 @@ export interface AuditTrailsTrailFilterPathFilterSomeFilterAnyFilters {
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -1353,19 +1353,19 @@ export interface AuditTrailsTrailFilterPathFilterSomeFilter {
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
   /**
   * any_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#any_filters AuditTrailsTrail#any_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#any_filters AuditTrailsTrail#any_filters}
   */
   readonly anyFilters: AuditTrailsTrailFilterPathFilterSomeFilterAnyFilters[] | cdktf.IResolvable;
 }
@@ -1500,13 +1500,13 @@ export interface AuditTrailsTrailFilterPathFilter {
   /**
   * any_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#any_filter AuditTrailsTrail#any_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#any_filter AuditTrailsTrail#any_filter}
   */
   readonly anyFilter?: AuditTrailsTrailFilterPathFilterAnyFilter;
   /**
   * some_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#some_filter AuditTrailsTrail#some_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#some_filter AuditTrailsTrail#some_filter}
   */
   readonly someFilter?: AuditTrailsTrailFilterPathFilterSomeFilter;
 }
@@ -1621,13 +1621,13 @@ export interface AuditTrailsTrailFilter {
   /**
   * event_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#event_filters AuditTrailsTrail#event_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#event_filters AuditTrailsTrail#event_filters}
   */
   readonly eventFilters?: AuditTrailsTrailFilterEventFilters[] | cdktf.IResolvable;
   /**
   * path_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#path_filter AuditTrailsTrail#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#path_filter AuditTrailsTrail#path_filter}
   */
   readonly pathFilter?: AuditTrailsTrailFilterPathFilter;
 }
@@ -1742,7 +1742,7 @@ export interface AuditTrailsTrailFilteringPolicyDataEventsFilterDnsFilter {
   /**
   * All types of queries will be delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#include_nonrecursive_queries AuditTrailsTrail#include_nonrecursive_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#include_nonrecursive_queries AuditTrailsTrail#include_nonrecursive_queries}
   */
   readonly includeNonrecursiveQueries: boolean | cdktf.IResolvable;
 }
@@ -1825,13 +1825,13 @@ export interface AuditTrailsTrailFilteringPolicyDataEventsFilterResourceScope {
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -1972,31 +1972,31 @@ export interface AuditTrailsTrailFilteringPolicyDataEventsFilter {
   /**
   * A list of events that won't be gathered by the trail from this service. New events will be automatically gathered when this option is specified. Mutually exclusive with `included_events`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#excluded_events AuditTrailsTrail#excluded_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#excluded_events AuditTrailsTrail#excluded_events}
   */
   readonly excludedEvents?: string[];
   /**
   * A list of events that will be gathered by the trail from this service. New events won't be gathered by default when this option is specified. Mutually exclusive with `excluded_events`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#included_events AuditTrailsTrail#included_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#included_events AuditTrailsTrail#included_events}
   */
   readonly includedEvents?: string[];
   /**
   * ID of the service which events will be gathered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#service AuditTrailsTrail#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#service AuditTrailsTrail#service}
   */
   readonly service: string;
   /**
   * dns_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#dns_filter AuditTrailsTrail#dns_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#dns_filter AuditTrailsTrail#dns_filter}
   */
   readonly dnsFilter?: AuditTrailsTrailFilteringPolicyDataEventsFilterDnsFilter;
   /**
   * resource_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_scope AuditTrailsTrail#resource_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_scope AuditTrailsTrail#resource_scope}
   */
   readonly resourceScope: AuditTrailsTrailFilteringPolicyDataEventsFilterResourceScope[] | cdktf.IResolvable;
 }
@@ -2224,13 +2224,13 @@ export interface AuditTrailsTrailFilteringPolicyManagementEventsFilterResourceSc
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_id AuditTrailsTrail#resource_id}
   */
   readonly resourceId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_type AuditTrailsTrail#resource_type}
   */
   readonly resourceType: string;
 }
@@ -2371,7 +2371,7 @@ export interface AuditTrailsTrailFilteringPolicyManagementEventsFilter {
   /**
   * resource_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#resource_scope AuditTrailsTrail#resource_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#resource_scope AuditTrailsTrail#resource_scope}
   */
   readonly resourceScope: AuditTrailsTrailFilteringPolicyManagementEventsFilterResourceScope[] | cdktf.IResolvable;
 }
@@ -2454,13 +2454,13 @@ export interface AuditTrailsTrailFilteringPolicy {
   /**
   * data_events_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#data_events_filter AuditTrailsTrail#data_events_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#data_events_filter AuditTrailsTrail#data_events_filter}
   */
   readonly dataEventsFilter?: AuditTrailsTrailFilteringPolicyDataEventsFilter[] | cdktf.IResolvable;
   /**
   * management_events_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#management_events_filter AuditTrailsTrail#management_events_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#management_events_filter AuditTrailsTrail#management_events_filter}
   */
   readonly managementEventsFilter?: AuditTrailsTrailFilteringPolicyManagementEventsFilter;
 }
@@ -2575,7 +2575,7 @@ export interface AuditTrailsTrailLoggingDestination {
   /**
   * ID of the destination [Cloud Logging Group](https://yandex.cloud/docs/logging/concepts/log-group).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#log_group_id AuditTrailsTrail#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#log_group_id AuditTrailsTrail#log_group_id}
   */
   readonly logGroupId: string;
 }
@@ -2658,13 +2658,13 @@ export interface AuditTrailsTrailStorageDestination {
   /**
   * Name of the [destination bucket](https://yandex.cloud/docs/storage/concepts/bucket).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#bucket_name AuditTrailsTrail#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#bucket_name AuditTrailsTrail#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Additional prefix of the uploaded objects. If not specified, objects will be uploaded with prefix equal to `trail_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#object_prefix AuditTrailsTrail#object_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#object_prefix AuditTrailsTrail#object_prefix}
   */
   readonly objectPrefix?: string;
 }
@@ -2774,7 +2774,7 @@ export class AuditTrailsTrailStorageDestinationOutputReference extends cdktf.Com
 }
 export interface AuditTrailsTrailTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#default AuditTrailsTrail#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#default AuditTrailsTrail#default}
   */
   readonly default?: string;
 }
@@ -2868,7 +2868,7 @@ export class AuditTrailsTrailTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail yandex_audit_trails_trail}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail yandex_audit_trails_trail}
 */
 export class AuditTrailsTrail extends cdktf.TerraformResource {
 
@@ -2884,7 +2884,7 @@ export class AuditTrailsTrail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuditTrailsTrail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditTrailsTrail to import
-  * @param importFromId The id of the existing AuditTrailsTrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditTrailsTrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditTrailsTrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2896,7 +2896,7 @@ export class AuditTrailsTrail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/audit_trails_trail yandex_audit_trails_trail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/audit_trails_trail yandex_audit_trails_trail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2907,8 +2907,8 @@ export class AuditTrailsTrail extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_audit_trails_trail',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.174.0',
-        providerVersionConstraint: '0.174.0'
+        providerVersion: '0.175.0',
+        providerVersionConstraint: '0.175.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

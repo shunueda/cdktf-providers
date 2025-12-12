@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface AppSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#annotations AppSetting#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#annotations AppSetting#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#anomaly_types AppSetting#anomaly_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#anomaly_types AppSetting#anomaly_types}
   */
   readonly anomalyTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#description AppSetting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#description AppSetting#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable AppSetting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#disable AppSetting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#id AppSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#id AppSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#labels AppSetting#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#labels AppSetting#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#name AppSetting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#namespace AppSetting#namespace}
   */
   readonly namespace: string;
   /**
   * app_type_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_refs AppSetting#app_type_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#app_type_refs AppSetting#app_type_refs}
   */
   readonly appTypeRefs?: AppSettingAppTypeRefs[] | cdktf.IResolvable;
   /**
   * app_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_settings AppSetting#app_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#app_type_settings AppSetting#app_type_settings}
   */
   readonly appTypeSettings: AppSettingAppTypeSettings[] | cdktf.IResolvable;
 }
 export interface AppSettingAppTypeRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#name AppSetting#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#namespace AppSetting#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#tenant AppSetting#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#tenant AppSetting#tenant}
   */
   readonly tenant?: string;
 }
@@ -244,15 +244,15 @@ export class AppSettingAppTypeRefsList extends cdktf.ComplexList {
 }
 export interface AppSettingAppTypeSettingsAppTypeRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#name AppSetting#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#namespace AppSetting#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#tenant AppSetting#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#tenant AppSetting#tenant}
   */
   readonly tenant?: string;
 }
@@ -431,11 +431,11 @@ export class AppSettingAppTypeSettingsAppTypeRefList extends cdktf.ComplexList {
 }
 export interface AppSettingAppTypeSettingsBusinessLogicMarkupSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable AppSetting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#disable AppSetting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable AppSetting#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#enable AppSetting#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -548,11 +548,11 @@ export class AppSettingAppTypeSettingsBusinessLogicMarkupSettingOutputReference 
 }
 export interface AppSettingAppTypeSettingsTimeseriesAnalysesSettingMetricSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metric AppSetting#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#metric AppSetting#metric}
   */
   readonly metric?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metrics_source AppSetting#metrics_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#metrics_source AppSetting#metrics_source}
   */
   readonly metricsSource?: string;
 }
@@ -699,7 +699,7 @@ export interface AppSettingAppTypeSettingsTimeseriesAnalysesSetting {
   /**
   * metric_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metric_selectors AppSetting#metric_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#metric_selectors AppSetting#metric_selectors}
   */
   readonly metricSelectors?: AppSettingAppTypeSettingsTimeseriesAnalysesSettingMetricSelectors[] | cdktf.IResolvable;
 }
@@ -783,27 +783,27 @@ export class AppSettingAppTypeSettingsTimeseriesAnalysesSettingOutputReference e
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_1 AppSetting#threshold_level_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_1 AppSetting#threshold_level_1}
   */
   readonly thresholdLevel1?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_2 AppSetting#threshold_level_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_2 AppSetting#threshold_level_2}
   */
   readonly thresholdLevel2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_3 AppSetting#threshold_level_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_3 AppSetting#threshold_level_3}
   */
   readonly thresholdLevel3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_4 AppSetting#threshold_level_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_4 AppSetting#threshold_level_4}
   */
   readonly thresholdLevel4?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_5 AppSetting#threshold_level_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_5 AppSetting#threshold_level_5}
   */
   readonly thresholdLevel5?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_6 AppSetting#threshold_level_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#threshold_level_6 AppSetting#threshold_level_6}
   */
   readonly thresholdLevel6?: boolean | cdktf.IResolvable;
 }
@@ -1032,7 +1032,7 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#login_failures_threshold AppSetting#login_failures_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#login_failures_threshold AppSetting#login_failures_threshold}
   */
   readonly loginFailuresThreshold: number;
 }
@@ -1113,7 +1113,7 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#forbidden_requests_threshold AppSetting#forbidden_requests_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#forbidden_requests_threshold AppSetting#forbidden_requests_threshold}
   */
   readonly forbiddenRequestsThreshold: number;
 }
@@ -1194,15 +1194,15 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#high AppSetting#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#high AppSetting#high}
   */
   readonly high?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#low AppSetting#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#low AppSetting#low}
   */
   readonly low?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#medium AppSetting#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#medium AppSetting#medium}
   */
   readonly medium?: boolean | cdktf.IResolvable;
 }
@@ -1344,7 +1344,7 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#nonexistent_requests_threshold AppSetting#nonexistent_requests_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#nonexistent_requests_threshold AppSetting#nonexistent_requests_threshold}
   */
   readonly nonexistentRequestsThreshold: number;
 }
@@ -1425,89 +1425,89 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#bola_detection_automatic AppSetting#bola_detection_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#bola_detection_automatic AppSetting#bola_detection_automatic}
   */
   readonly bolaDetectionAutomatic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#cooling_off_period AppSetting#cooling_off_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#cooling_off_period AppSetting#cooling_off_period}
   */
   readonly coolingOffPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_bola_detection AppSetting#exclude_bola_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_bola_detection AppSetting#exclude_bola_detection}
   */
   readonly excludeBolaDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_bot_defense_activity AppSetting#exclude_bot_defense_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_bot_defense_activity AppSetting#exclude_bot_defense_activity}
   */
   readonly excludeBotDefenseActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_failed_login_activity AppSetting#exclude_failed_login_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_failed_login_activity AppSetting#exclude_failed_login_activity}
   */
   readonly excludeFailedLoginActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_forbidden_activity AppSetting#exclude_forbidden_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_forbidden_activity AppSetting#exclude_forbidden_activity}
   */
   readonly excludeForbiddenActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_ip_reputation AppSetting#exclude_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_ip_reputation AppSetting#exclude_ip_reputation}
   */
   readonly excludeIpReputation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_non_existent_url_activity AppSetting#exclude_non_existent_url_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_non_existent_url_activity AppSetting#exclude_non_existent_url_activity}
   */
   readonly excludeNonExistentUrlActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_rate_limit AppSetting#exclude_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_rate_limit AppSetting#exclude_rate_limit}
   */
   readonly excludeRateLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_waf_activity AppSetting#exclude_waf_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#exclude_waf_activity AppSetting#exclude_waf_activity}
   */
   readonly excludeWafActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_bot_defense_activity AppSetting#include_bot_defense_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_bot_defense_activity AppSetting#include_bot_defense_activity}
   */
   readonly includeBotDefenseActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_ip_reputation AppSetting#include_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_ip_reputation AppSetting#include_ip_reputation}
   */
   readonly includeIpReputation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_rate_limit AppSetting#include_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_rate_limit AppSetting#include_rate_limit}
   */
   readonly includeRateLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_waf_activity AppSetting#include_waf_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_waf_activity AppSetting#include_waf_activity}
   */
   readonly includeWafActivity?: boolean | cdktf.IResolvable;
   /**
   * bola_detection_manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#bola_detection_manual AppSetting#bola_detection_manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#bola_detection_manual AppSetting#bola_detection_manual}
   */
   readonly bolaDetectionManual?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual;
   /**
   * include_failed_login_activity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_failed_login_activity AppSetting#include_failed_login_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_failed_login_activity AppSetting#include_failed_login_activity}
   */
   readonly includeFailedLoginActivity?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivity;
   /**
   * include_forbidden_activity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_forbidden_activity AppSetting#include_forbidden_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_forbidden_activity AppSetting#include_forbidden_activity}
   */
   readonly includeForbiddenActivity?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivity;
   /**
   * include_non_existent_url_activity_automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_non_existent_url_activity_automatic AppSetting#include_non_existent_url_activity_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_non_existent_url_activity_automatic AppSetting#include_non_existent_url_activity_automatic}
   */
   readonly includeNonExistentUrlActivityAutomatic?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic;
   /**
   * include_non_existent_url_activity_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_non_existent_url_activity_custom AppSetting#include_non_existent_url_activity_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#include_non_existent_url_activity_custom AppSetting#include_non_existent_url_activity_custom}
   */
   readonly includeNonExistentUrlActivityCustom?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom;
 }
@@ -2113,21 +2113,21 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable_detection AppSetting#disable_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#disable_detection AppSetting#disable_detection}
   */
   readonly disableDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable_learning AppSetting#disable_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#disable_learning AppSetting#disable_learning}
   */
   readonly disableLearning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable_learning AppSetting#enable_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#enable_learning AppSetting#enable_learning}
   */
   readonly enableLearning?: boolean | cdktf.IResolvable;
   /**
   * enable_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable_detection AppSetting#enable_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#enable_detection AppSetting#enable_detection}
   */
   readonly enableDetection?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection;
 }
@@ -2300,25 +2300,25 @@ export interface AppSettingAppTypeSettings {
   /**
   * app_type_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_ref AppSetting#app_type_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#app_type_ref AppSetting#app_type_ref}
   */
   readonly appTypeRef: AppSettingAppTypeSettingsAppTypeRef[] | cdktf.IResolvable;
   /**
   * business_logic_markup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#business_logic_markup_setting AppSetting#business_logic_markup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#business_logic_markup_setting AppSetting#business_logic_markup_setting}
   */
   readonly businessLogicMarkupSetting?: AppSettingAppTypeSettingsBusinessLogicMarkupSetting;
   /**
   * timeseries_analyses_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#timeseries_analyses_setting AppSetting#timeseries_analyses_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#timeseries_analyses_setting AppSetting#timeseries_analyses_setting}
   */
   readonly timeseriesAnalysesSetting?: AppSettingAppTypeSettingsTimeseriesAnalysesSetting;
   /**
   * user_behavior_analysis_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#user_behavior_analysis_setting AppSetting#user_behavior_analysis_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#user_behavior_analysis_setting AppSetting#user_behavior_analysis_setting}
   */
   readonly userBehaviorAnalysisSetting?: AppSettingAppTypeSettingsUserBehaviorAnalysisSetting;
 }
@@ -2518,7 +2518,7 @@ export class AppSettingAppTypeSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting volterra_app_setting}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting volterra_app_setting}
 */
 export class AppSetting extends cdktf.TerraformResource {
 
@@ -2534,7 +2534,7 @@ export class AppSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppSetting to import
-  * @param importFromId The id of the existing AppSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2546,7 +2546,7 @@ export class AppSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting volterra_app_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/app_setting volterra_app_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2557,8 +2557,8 @@ export class AppSetting extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_setting',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

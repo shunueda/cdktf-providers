@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface SiteMeshGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#annotations SiteMeshGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#annotations SiteMeshGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#description SiteMeshGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#description SiteMeshGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#disable SiteMeshGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#disable SiteMeshGroup#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#disable_re_fallback SiteMeshGroup#disable_re_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#disable_re_fallback SiteMeshGroup#disable_re_fallback}
   */
   readonly disableReFallback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#enable_re_fallback SiteMeshGroup#enable_re_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#enable_re_fallback SiteMeshGroup#enable_re_fallback}
   */
   readonly enableReFallback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#id SiteMeshGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#id SiteMeshGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#labels SiteMeshGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#labels SiteMeshGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#name SiteMeshGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#name SiteMeshGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#type SiteMeshGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#type SiteMeshGroup#type}
   */
   readonly type?: string;
   /**
   * full_mesh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#full_mesh SiteMeshGroup#full_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#full_mesh SiteMeshGroup#full_mesh}
   */
   readonly fullMesh?: SiteMeshGroupFullMesh;
   /**
   * hub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#hub SiteMeshGroup#hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#hub SiteMeshGroup#hub}
   */
   readonly hub?: SiteMeshGroupHub[] | cdktf.IResolvable;
   /**
   * hub_mesh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#hub_mesh SiteMeshGroup#hub_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#hub_mesh SiteMeshGroup#hub_mesh}
   */
   readonly hubMesh?: SiteMeshGroupHubMesh;
   /**
   * spoke_mesh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#spoke_mesh SiteMeshGroup#spoke_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#spoke_mesh SiteMeshGroup#spoke_mesh}
   */
   readonly spokeMesh?: SiteMeshGroupSpokeMesh;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#virtual_site SiteMeshGroup#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#virtual_site SiteMeshGroup#virtual_site}
   */
   readonly virtualSite?: SiteMeshGroupVirtualSite[] | cdktf.IResolvable;
 }
 export interface SiteMeshGroupFullMesh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
   */
   readonly controlAndDataPlaneMesh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
   */
   readonly dataPlaneMesh?: boolean | cdktf.IResolvable;
 }
@@ -200,15 +200,15 @@ export class SiteMeshGroupFullMeshOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteMeshGroupHub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#name SiteMeshGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#name SiteMeshGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -387,11 +387,11 @@ export class SiteMeshGroupHubList extends cdktf.ComplexList {
 }
 export interface SiteMeshGroupHubMesh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
   */
   readonly controlAndDataPlaneMesh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
   */
   readonly dataPlaneMesh?: boolean | cdktf.IResolvable;
 }
@@ -504,15 +504,15 @@ export class SiteMeshGroupHubMeshOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteMeshGroupSpokeMeshHubMeshGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#name SiteMeshGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#name SiteMeshGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -654,17 +654,17 @@ export class SiteMeshGroupSpokeMeshHubMeshGroupOutputReference extends cdktf.Com
 }
 export interface SiteMeshGroupSpokeMesh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#control_and_data_plane_mesh SiteMeshGroup#control_and_data_plane_mesh}
   */
   readonly controlAndDataPlaneMesh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#data_plane_mesh SiteMeshGroup#data_plane_mesh}
   */
   readonly dataPlaneMesh?: boolean | cdktf.IResolvable;
   /**
   * hub_mesh_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#hub_mesh_group SiteMeshGroup#hub_mesh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#hub_mesh_group SiteMeshGroup#hub_mesh_group}
   */
   readonly hubMeshGroup: SiteMeshGroupSpokeMeshHubMeshGroup;
 }
@@ -803,15 +803,15 @@ export class SiteMeshGroupSpokeMeshOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteMeshGroupVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#name SiteMeshGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#name SiteMeshGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#namespace SiteMeshGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#tenant SiteMeshGroup#tenant}
   */
   readonly tenant?: string;
 }
@@ -990,7 +990,7 @@ export class SiteMeshGroupVirtualSiteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group volterra_site_mesh_group}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group volterra_site_mesh_group}
 */
 export class SiteMeshGroup extends cdktf.TerraformResource {
 
@@ -1006,7 +1006,7 @@ export class SiteMeshGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteMeshGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteMeshGroup to import
-  * @param importFromId The id of the existing SiteMeshGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteMeshGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteMeshGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1018,7 +1018,7 @@ export class SiteMeshGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/site_mesh_group volterra_site_mesh_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/site_mesh_group volterra_site_mesh_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1029,8 +1029,8 @@ export class SiteMeshGroup extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_site_mesh_group',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.45',
-        providerVersionConstraint: '0.11.45'
+        providerVersion: '0.11.46',
+        providerVersionConstraint: '0.11.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

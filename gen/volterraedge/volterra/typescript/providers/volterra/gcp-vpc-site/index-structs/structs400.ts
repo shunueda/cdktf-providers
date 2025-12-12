@@ -29,7 +29,7 @@ gcpVpcSiteVoltstackClusterK8SClusterToHclTerraform,
 GcpVpcSiteVoltstackClusterK8SClusterOutputReference } from './structs0'
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#addr GcpVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#addr GcpVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -113,7 +113,7 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#addr GcpVpcSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#addr GcpVpcSite#addr}
   */
   readonly addr?: string;
 }
@@ -199,13 +199,13 @@ export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCus
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#ipv4 GcpVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#ipv4 GcpVpcSite#ipv4}
   */
   readonly ipv4?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#ipv6 GcpVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#ipv6 GcpVpcSite#ipv6}
   */
   readonly ipv6?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -318,19 +318,19 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#type GcpVpcSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#type GcpVpcSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#interface GcpVpcSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#interface GcpVpcSite#interface}
   */
   readonly interface?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#nexthop_address GcpVpcSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#nexthop_address GcpVpcSite#nexthop_address}
   */
   readonly nexthopAddress?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -472,11 +472,11 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#plen GcpVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#plen GcpVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#prefix GcpVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#prefix GcpVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -589,11 +589,11 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#plen GcpVpcSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#plen GcpVpcSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#prefix GcpVpcSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#prefix GcpVpcSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -708,13 +708,13 @@ export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCus
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#ipv4 GcpVpcSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#ipv4 GcpVpcSite#ipv4}
   */
   readonly ipv4?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#ipv6 GcpVpcSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#ipv6 GcpVpcSite#ipv6}
   */
   readonly ipv6?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -859,23 +859,23 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#attrs GcpVpcSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#attrs GcpVpcSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#labels GcpVpcSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#labels GcpVpcSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#nexthop GcpVpcSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#nexthop GcpVpcSite#nexthop}
   */
   readonly nexthop?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#subnets GcpVpcSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#subnets GcpVpcSite#subnets}
   */
   readonly subnets: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -1043,13 +1043,13 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomS
 }
 export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#simple_static_route GcpVpcSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#simple_static_route GcpVpcSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#custom_static_route GcpVpcSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#custom_static_route GcpVpcSite#custom_static_route}
   */
   readonly customStaticRoute?: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -1196,7 +1196,7 @@ export interface GcpVpcSiteVoltstackClusterOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#static_route_list GcpVpcSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#static_route_list GcpVpcSite#static_route_list}
   */
   readonly staticRouteList: GcpVpcSiteVoltstackClusterOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -1277,15 +1277,15 @@ export class GcpVpcSiteVoltstackClusterOutsideStaticRoutesOutputReference extend
 }
 export interface GcpVpcSiteVoltstackClusterSiteLocalNetworkExistingNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#f5_orchestrated_routing GcpVpcSite#f5_orchestrated_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#f5_orchestrated_routing GcpVpcSite#f5_orchestrated_routing}
   */
   readonly f5OrchestratedRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#manual_routing GcpVpcSite#manual_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#manual_routing GcpVpcSite#manual_routing}
   */
   readonly manualRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#name GcpVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#name GcpVpcSite#name}
   */
   readonly name: string;
 }
@@ -1424,7 +1424,7 @@ export class GcpVpcSiteVoltstackClusterSiteLocalNetworkExistingNetworkOutputRefe
 }
 export interface GcpVpcSiteVoltstackClusterSiteLocalNetworkNewNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#name GcpVpcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#name GcpVpcSite#name}
   */
   readonly name: string;
 }
@@ -1505,7 +1505,7 @@ export class GcpVpcSiteVoltstackClusterSiteLocalNetworkNewNetworkOutputReference
 }
 export interface GcpVpcSiteVoltstackClusterSiteLocalNetworkNewNetworkAutogenerate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#autogenerate GcpVpcSite#autogenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#autogenerate GcpVpcSite#autogenerate}
   */
   readonly autogenerate?: boolean | cdktf.IResolvable;
 }
@@ -1591,19 +1591,19 @@ export interface GcpVpcSiteVoltstackClusterSiteLocalNetwork {
   /**
   * existing_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#existing_network GcpVpcSite#existing_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#existing_network GcpVpcSite#existing_network}
   */
   readonly existingNetwork?: GcpVpcSiteVoltstackClusterSiteLocalNetworkExistingNetwork;
   /**
   * new_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#new_network GcpVpcSite#new_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#new_network GcpVpcSite#new_network}
   */
   readonly newNetwork?: GcpVpcSiteVoltstackClusterSiteLocalNetworkNewNetwork;
   /**
   * new_network_autogenerate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#new_network_autogenerate GcpVpcSite#new_network_autogenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#new_network_autogenerate GcpVpcSite#new_network_autogenerate}
   */
   readonly newNetworkAutogenerate?: GcpVpcSiteVoltstackClusterSiteLocalNetworkNewNetworkAutogenerate;
 }
@@ -1745,7 +1745,7 @@ export class GcpVpcSiteVoltstackClusterSiteLocalNetworkOutputReference extends c
 }
 export interface GcpVpcSiteVoltstackClusterSiteLocalSubnetExistingSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#subnet_name GcpVpcSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#subnet_name GcpVpcSite#subnet_name}
   */
   readonly subnetName: string;
 }
@@ -1826,11 +1826,11 @@ export class GcpVpcSiteVoltstackClusterSiteLocalSubnetExistingSubnetOutputRefere
 }
 export interface GcpVpcSiteVoltstackClusterSiteLocalSubnetNewSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#primary_ipv4 GcpVpcSite#primary_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#primary_ipv4 GcpVpcSite#primary_ipv4}
   */
   readonly primaryIpv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#subnet_name GcpVpcSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#subnet_name GcpVpcSite#subnet_name}
   */
   readonly subnetName?: string;
 }
@@ -1942,13 +1942,13 @@ export interface GcpVpcSiteVoltstackClusterSiteLocalSubnet {
   /**
   * existing_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#existing_subnet GcpVpcSite#existing_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#existing_subnet GcpVpcSite#existing_subnet}
   */
   readonly existingSubnet?: GcpVpcSiteVoltstackClusterSiteLocalSubnetExistingSubnet;
   /**
   * new_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#new_subnet GcpVpcSite#new_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#new_subnet GcpVpcSite#new_subnet}
   */
   readonly newSubnet?: GcpVpcSiteVoltstackClusterSiteLocalSubnetNewSubnet;
 }
@@ -2061,11 +2061,11 @@ export class GcpVpcSiteVoltstackClusterSiteLocalSubnetOutputReference extends cd
 }
 export interface GcpVpcSiteVoltstackClusterStorageClassListStorageClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#default_storage_class GcpVpcSite#default_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#default_storage_class GcpVpcSite#default_storage_class}
   */
   readonly defaultStorageClass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#storage_class_name GcpVpcSite#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#storage_class_name GcpVpcSite#storage_class_name}
   */
   readonly storageClassName: string;
 }
@@ -2209,7 +2209,7 @@ export interface GcpVpcSiteVoltstackClusterStorageClassListStruct {
   /**
   * storage_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#storage_classes GcpVpcSite#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#storage_classes GcpVpcSite#storage_classes}
   */
   readonly storageClasses?: GcpVpcSiteVoltstackClusterStorageClassListStorageClasses[] | cdktf.IResolvable;
 }
@@ -2293,115 +2293,115 @@ export class GcpVpcSiteVoltstackClusterStorageClassListStructOutputReference ext
 }
 export interface GcpVpcSiteVoltstackCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#default_storage GcpVpcSite#default_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#default_storage GcpVpcSite#default_storage}
   */
   readonly defaultStorage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#forward_proxy_allow_all GcpVpcSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#forward_proxy_allow_all GcpVpcSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#gcp_certified_hw GcpVpcSite#gcp_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#gcp_certified_hw GcpVpcSite#gcp_certified_hw}
   */
   readonly gcpCertifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#gcp_zone_names GcpVpcSite#gcp_zone_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#gcp_zone_names GcpVpcSite#gcp_zone_names}
   */
   readonly gcpZoneNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_dc_cluster_group GcpVpcSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_dc_cluster_group GcpVpcSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_forward_proxy GcpVpcSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_forward_proxy GcpVpcSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_global_network GcpVpcSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_global_network GcpVpcSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_k8s_cluster GcpVpcSite#no_k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_k8s_cluster GcpVpcSite#no_k8s_cluster}
   */
   readonly noK8SCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_network_policy GcpVpcSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_network_policy GcpVpcSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#no_outside_static_routes GcpVpcSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#no_outside_static_routes GcpVpcSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#node_number GcpVpcSite#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#node_number GcpVpcSite#node_number}
   */
   readonly nodeNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#sm_connection_public_ip GcpVpcSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#sm_connection_public_ip GcpVpcSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#sm_connection_pvt_ip GcpVpcSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#sm_connection_pvt_ip GcpVpcSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#active_enhanced_firewall_policies GcpVpcSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#active_enhanced_firewall_policies GcpVpcSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: GcpVpcSiteVoltstackClusterActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#active_forward_proxy_policies GcpVpcSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#active_forward_proxy_policies GcpVpcSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: GcpVpcSiteVoltstackClusterActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#active_network_policies GcpVpcSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#active_network_policies GcpVpcSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: GcpVpcSiteVoltstackClusterActiveNetworkPolicies;
   /**
   * dc_cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#dc_cluster_group GcpVpcSite#dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#dc_cluster_group GcpVpcSite#dc_cluster_group}
   */
   readonly dcClusterGroup?: GcpVpcSiteVoltstackClusterDcClusterGroup;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#global_network_list GcpVpcSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#global_network_list GcpVpcSite#global_network_list}
   */
   readonly globalNetworkList?: GcpVpcSiteVoltstackClusterGlobalNetworkListStruct;
   /**
   * k8s_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#k8s_cluster GcpVpcSite#k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#k8s_cluster GcpVpcSite#k8s_cluster}
   */
   readonly k8SCluster?: GcpVpcSiteVoltstackClusterK8SCluster;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#outside_static_routes GcpVpcSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#outside_static_routes GcpVpcSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: GcpVpcSiteVoltstackClusterOutsideStaticRoutes;
   /**
   * site_local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#site_local_network GcpVpcSite#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#site_local_network GcpVpcSite#site_local_network}
   */
   readonly siteLocalNetwork?: GcpVpcSiteVoltstackClusterSiteLocalNetwork;
   /**
   * site_local_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#site_local_subnet GcpVpcSite#site_local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#site_local_subnet GcpVpcSite#site_local_subnet}
   */
   readonly siteLocalSubnet?: GcpVpcSiteVoltstackClusterSiteLocalSubnet;
   /**
   * storage_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/gcp_vpc_site#storage_class_list GcpVpcSite#storage_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.46/docs/resources/gcp_vpc_site#storage_class_list GcpVpcSite#storage_class_list}
   */
   readonly storageClassList?: GcpVpcSiteVoltstackClusterStorageClassListStruct;
 }

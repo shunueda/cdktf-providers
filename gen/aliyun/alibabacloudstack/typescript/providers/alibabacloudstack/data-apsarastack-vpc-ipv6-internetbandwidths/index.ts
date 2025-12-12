@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataApsarastackVpcIpv6InternetbandwidthsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#id DataApsarastackVpcIpv6Internetbandwidths#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#id DataApsarastackVpcIpv6Internetbandwidths#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ids DataApsarastackVpcIpv6Internetbandwidths#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ids DataApsarastackVpcIpv6Internetbandwidths#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ipv6_address_id DataApsarastackVpcIpv6Internetbandwidths#ipv6_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ipv6_address_id DataApsarastackVpcIpv6Internetbandwidths#ipv6_address_id}
   */
   readonly ipv6AddressId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ipv6_internet_bandwidth_id DataApsarastackVpcIpv6Internetbandwidths#ipv6_internet_bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#ipv6_internet_bandwidth_id DataApsarastackVpcIpv6Internetbandwidths#ipv6_internet_bandwidth_id}
   */
   readonly ipv6InternetBandwidthId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#output_file DataApsarastackVpcIpv6Internetbandwidths#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#output_file DataApsarastackVpcIpv6Internetbandwidths#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#status DataApsarastackVpcIpv6Internetbandwidths#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#status DataApsarastackVpcIpv6Internetbandwidths#status}
   */
   readonly status?: string;
 }
@@ -147,7 +147,7 @@ export class DataApsarastackVpcIpv6InternetbandwidthsBandwidthsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths apsarastack_vpc_ipv6_internetbandwidths}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths apsarastack_vpc_ipv6_internetbandwidths}
 */
 export class DataApsarastackVpcIpv6Internetbandwidths extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataApsarastackVpcIpv6Internetbandwidths extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataApsarastackVpcIpv6Internetbandwidths resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApsarastackVpcIpv6Internetbandwidths to import
-  * @param importFromId The id of the existing DataApsarastackVpcIpv6Internetbandwidths that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApsarastackVpcIpv6Internetbandwidths that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApsarastackVpcIpv6Internetbandwidths to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataApsarastackVpcIpv6Internetbandwidths extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths apsarastack_vpc_ipv6_internetbandwidths} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.21/docs/data-sources/apsarastack_vpc_ipv6_internetbandwidths apsarastack_vpc_ipv6_internetbandwidths} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataApsarastackVpcIpv6Internetbandwidths extends cdktf.TerraformDat
       terraformResourceType: 'apsarastack_vpc_ipv6_internetbandwidths',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.20',
-        providerVersionConstraint: '3.18.20'
+        providerVersion: '3.18.21',
+        providerVersionConstraint: '3.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
