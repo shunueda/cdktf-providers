@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner
+// https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectRunnerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Description of the runner
+  * Description of the runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#description ProjectRunner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#description ProjectRunner#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#id ProjectRunner#id}
+  * Installation type of the runner (linux, windows, kubernetes, docker).
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Installation type of the runner (linux, windows, kubernetes, docker)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#installation_type ProjectRunner#installation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#installation_type ProjectRunner#installation_type}
   */
   readonly installationType?: string;
   /**
-  * Name of the runner
+  * Name of the runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#name ProjectRunner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#name ProjectRunner#name}
   */
   readonly name: string;
   /**
-  * Name of the project where the runner will be created
+  * Name of the project where the runner will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#project_name ProjectRunner#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#project_name ProjectRunner#project_name}
   */
   readonly projectName: string;
   /**
-  * Enable remote node dispatch for the runner
+  * Enable remote node dispatch for the runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#remote_node_dispatch ProjectRunner#remote_node_dispatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#remote_node_dispatch ProjectRunner#remote_node_dispatch}
   */
   readonly remoteNodeDispatch?: boolean | cdktf.IResolvable;
   /**
-  * Replica type of the runner (manual or ephemeral)
+  * Replica type of the runner (manual or ephemeral).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#replica_type ProjectRunner#replica_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#replica_type ProjectRunner#replica_type}
   */
   readonly replicaType?: string;
   /**
-  * Enable the runner to act as a node
+  * Enable the runner to act as a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#runner_as_node_enabled ProjectRunner#runner_as_node_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#runner_as_node_enabled ProjectRunner#runner_as_node_enabled}
   */
   readonly runnerAsNodeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Node filter string for the runner
+  * Node filter string for the runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#runner_node_filter ProjectRunner#runner_node_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#runner_node_filter ProjectRunner#runner_node_filter}
   */
   readonly runnerNodeFilter?: string;
   /**
-  * Comma separated tags for the runner
+  * Comma separated tags for the runner. Rundeck normalizes tags to lowercase and sorts them alphabetically. The provider handles this automatically to prevent plan drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#tag_names ProjectRunner#tag_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#tag_names ProjectRunner#tag_names}
   */
   readonly tagNames?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner rundeck_project_runner}
+* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner rundeck_project_runner}
 */
 export class ProjectRunner extends cdktf.TerraformResource {
 
@@ -87,7 +80,7 @@ export class ProjectRunner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectRunner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectRunner to import
-  * @param importFromId The id of the existing ProjectRunner that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectRunner that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectRunner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +92,7 @@ export class ProjectRunner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project_runner rundeck_project_runner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project_runner rundeck_project_runner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +103,8 @@ export class ProjectRunner extends cdktf.TerraformResource {
       terraformResourceType: 'rundeck_project_runner',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.5',
-        providerVersionConstraint: '0.5.5'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -122,7 +115,6 @@ export class ProjectRunner extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._description = config.description;
-    this._id = config.id;
     this._installationType = config.installationType;
     this._name = config.name;
     this._projectName = config.projectName;
@@ -155,23 +147,12 @@ export class ProjectRunner extends cdktf.TerraformResource {
     return this.getStringAttribute('download_token');
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // installation_type - computed: false, optional: true, required: false
+  // installation_type - computed: true, optional: true, required: false
   private _installationType?: string; 
   public get installationType() {
     return this.getStringAttribute('installation_type');
@@ -213,7 +194,7 @@ export class ProjectRunner extends cdktf.TerraformResource {
     return this._projectName;
   }
 
-  // remote_node_dispatch - computed: false, optional: true, required: false
+  // remote_node_dispatch - computed: true, optional: true, required: false
   private _remoteNodeDispatch?: boolean | cdktf.IResolvable; 
   public get remoteNodeDispatch() {
     return this.getBooleanAttribute('remote_node_dispatch');
@@ -229,7 +210,7 @@ export class ProjectRunner extends cdktf.TerraformResource {
     return this._remoteNodeDispatch;
   }
 
-  // replica_type - computed: false, optional: true, required: false
+  // replica_type - computed: true, optional: true, required: false
   private _replicaType?: string; 
   public get replicaType() {
     return this.getStringAttribute('replica_type');
@@ -245,7 +226,7 @@ export class ProjectRunner extends cdktf.TerraformResource {
     return this._replicaType;
   }
 
-  // runner_as_node_enabled - computed: false, optional: true, required: false
+  // runner_as_node_enabled - computed: true, optional: true, required: false
   private _runnerAsNodeEnabled?: boolean | cdktf.IResolvable; 
   public get runnerAsNodeEnabled() {
     return this.getBooleanAttribute('runner_as_node_enabled');
@@ -310,7 +291,6 @@ export class ProjectRunner extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
       installation_type: cdktf.stringToTerraform(this._installationType),
       name: cdktf.stringToTerraform(this._name),
       project_name: cdktf.stringToTerraform(this._projectName),
@@ -326,12 +306,6 @@ export class ProjectRunner extends cdktf.TerraformResource {
     const attrs = {
       description: {
         value: cdktf.stringToHclTerraform(this._description),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,37 +11,37 @@ export interface GcpNodePoolConfig extends cdktf.TerraformMetaArguments {
   * Allocation tag to give to the nodes 
   * 			if specified it would be added as a label and that can be used while creating services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#allocation_tags GcpNodePool#allocation_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#allocation_tags GcpNodePool#allocation_tags}
   */
   readonly allocationTags?: string;
   /**
   * Whether the nodes will be automatically repaired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#auto_repair GcpNodePool#auto_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#auto_repair GcpNodePool#auto_repair}
   */
   readonly autoRepair?: boolean | cdktf.IResolvable;
   /**
   * Whether the nodes will be automatically upgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#auto_upgrade GcpNodePool#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#auto_upgrade GcpNodePool#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   * 				If unspecified, the default disk size is 100GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#disc_size_gb GcpNodePool#disc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#disc_size_gb GcpNodePool#disc_size_gb}
   */
   readonly discSizeGb?: number;
   /**
   * Type of the disk attached to each node
   * 				If unspecified, the default disk type is 'pd-standard'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#disc_type GcpNodePool#disc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#disc_type GcpNodePool#disc_type}
   */
   readonly discType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#id GcpNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#id GcpNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,80 +50,80 @@ export interface GcpNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The image type to use for this node. Note that for a given image type, the latest version of it will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#image_type GcpNodePool#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#image_type GcpNodePool#image_type}
   */
   readonly imageType: string;
   /**
   * The initial node count for the pool Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#initial_node_count GcpNodePool#initial_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#initial_node_count GcpNodePool#initial_node_count}
   */
   readonly initialNodeCount?: number;
   /**
   * Is autoscaling enabled for this node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#is_autoscaling_enabled GcpNodePool#is_autoscaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#is_autoscaling_enabled GcpNodePool#is_autoscaling_enabled}
   */
   readonly isAutoscalingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The map of Kubernetes labels (key/value pairs) to be applied to each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#labels GcpNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#labels GcpNodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Update strategy of the node pool. Defaults to `BALANCED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#location_policy GcpNodePool#location_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#location_policy GcpNodePool#location_policy}
   */
   readonly locationPolicy?: string;
   /**
   * The name of a Google Compute Engine machine type.
   * 				If unspecified, the default machine type is e2-medium.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#machine_type GcpNodePool#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#machine_type GcpNodePool#machine_type}
   */
   readonly machineType: string;
   /**
   * Maximum number of nodes for one location in the NodePool. Must be >= minNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#max_node_count GcpNodePool#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#max_node_count GcpNodePool#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * The metadata key/value pairs assigned to instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#metadata GcpNodePool#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#metadata GcpNodePool#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Minimum number of nodes for one location in the NodePool. Must be >= 1 and <= maxNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#min_node_count GcpNodePool#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#min_node_count GcpNodePool#min_node_count}
   */
   readonly minNodeCount?: number;
   /**
   * The short name of the node pool.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#name GcpNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#name GcpNodePool#name}
   */
   readonly name: string;
   /**
   * The set of Google API scopes to be made available on all of the node VMs under the default service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#oauth_scopes GcpNodePool#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#oauth_scopes GcpNodePool#oauth_scopes}
   */
   readonly oauthScopes?: string[];
   /**
   * Resource labels associated to node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#resource_labels GcpNodePool#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#resource_labels GcpNodePool#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * Spot flag for enabling Spot VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#spot GcpNodePool#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#spot GcpNodePool#spot}
   */
   readonly spot?: boolean | cdktf.IResolvable;
   /**
@@ -131,73 +131,73 @@ export interface GcpNodePoolConfig extends cdktf.TerraformMetaArguments {
   * 				Tags are used to identify valid sources or targets for network firewalls and are specified by the client during cluster or node pool creation.
   * 				Each tag within the list must comply with RFC1035.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#tags GcpNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#tags GcpNodePool#tags}
   */
   readonly tags?: string[];
   /**
   * The GUID of the tenant that the node pool will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#tenant_id GcpNodePool#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#tenant_id GcpNodePool#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Maximum number of nodes for one location in the NodePool. Must be >= minNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#total_max_node_count GcpNodePool#total_max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#total_max_node_count GcpNodePool#total_max_node_count}
   */
   readonly totalMaxNodeCount?: number;
   /**
   * Minimum number of nodes for one location in the NodePool. Must be >= 1 and <= maxNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#total_min_node_count GcpNodePool#total_min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#total_min_node_count GcpNodePool#total_min_node_count}
   */
   readonly totalMinNodeCount?: number;
   /**
   * The list of Google Compute Engine zones in which the NodePool's nodes should be located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#zones GcpNodePool#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#zones GcpNodePool#zones}
   */
   readonly zones: string[];
   /**
   * accelerator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#accelerator GcpNodePool#accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#accelerator GcpNodePool#accelerator}
   */
   readonly accelerator?: GcpNodePoolAccelerator[] | cdktf.IResolvable;
   /**
   * linux_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#linux_node_config GcpNodePool#linux_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#linux_node_config GcpNodePool#linux_node_config}
   */
   readonly linuxNodeConfig?: GcpNodePoolLinuxNodeConfig;
   /**
   * node_pool_logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#node_pool_logging_config GcpNodePool#node_pool_logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#node_pool_logging_config GcpNodePool#node_pool_logging_config}
   */
   readonly nodePoolLoggingConfig?: GcpNodePoolNodePoolLoggingConfig;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#taints GcpNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#taints GcpNodePool#taints}
   */
   readonly taints?: GcpNodePoolTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#timeouts GcpNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#timeouts GcpNodePool#timeouts}
   */
   readonly timeouts?: GcpNodePoolTimeouts;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#upgrade_settings GcpNodePool#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#upgrade_settings GcpNodePool#upgrade_settings}
   */
   readonly upgradeSettings?: GcpNodePoolUpgradeSettings;
 }
 export interface GcpNodePoolAcceleratorGpuDriverInstallationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#gpu_driver_version GcpNodePool#gpu_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#gpu_driver_version GcpNodePool#gpu_driver_version}
   */
   readonly gpuDriverVersion?: string;
 }
@@ -315,13 +315,13 @@ export interface GcpNodePoolAcceleratorGpuSharingConfig {
   /**
   * The configuration for GPU sharing options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#gpu_sharing_strategy GcpNodePool#gpu_sharing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#gpu_sharing_strategy GcpNodePool#gpu_sharing_strategy}
   */
   readonly gpuSharingStrategy?: string;
   /**
   * The max number of containers that can share a physical GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#max_shared_clients_per_gpu GcpNodePool#max_shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#max_shared_clients_per_gpu GcpNodePool#max_shared_clients_per_gpu}
   */
   readonly maxSharedClientsPerGpu?: string;
 }
@@ -468,37 +468,37 @@ export interface GcpNodePoolAccelerator {
   /**
   * The number of the accelerator cards exposed to an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#accelerator_count GcpNodePool#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#accelerator_count GcpNodePool#accelerator_count}
   */
   readonly acceleratorCount?: string;
   /**
   * The accelerator type resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#accelerator_type GcpNodePool#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#accelerator_type GcpNodePool#accelerator_type}
   */
   readonly acceleratorType?: string;
   /**
   * Size of partitions to create on the GPU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#gpu_partition_size GcpNodePool#gpu_partition_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#gpu_partition_size GcpNodePool#gpu_partition_size}
   */
   readonly gpuPartitionSize?: string;
   /**
   * The number of time-shared GPU resources to expose for each physical GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#max_time_shared_clients_per_gpu GcpNodePool#max_time_shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#max_time_shared_clients_per_gpu GcpNodePool#max_time_shared_clients_per_gpu}
   */
   readonly maxTimeSharedClientsPerGpu?: string;
   /**
   * gpu_driver_installation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#gpu_driver_installation_config GcpNodePool#gpu_driver_installation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#gpu_driver_installation_config GcpNodePool#gpu_driver_installation_config}
   */
   readonly gpuDriverInstallationConfig?: GcpNodePoolAcceleratorGpuDriverInstallationConfig[] | cdktf.IResolvable;
   /**
   * gpu_sharing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#gpu_sharing_config GcpNodePool#gpu_sharing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#gpu_sharing_config GcpNodePool#gpu_sharing_config}
   */
   readonly gpuSharingConfig?: GcpNodePoolAcceleratorGpuSharingConfig[] | cdktf.IResolvable;
 }
@@ -761,13 +761,13 @@ export interface GcpNodePoolLinuxNodeConfig {
   /**
   * cgroupMode specifies the cgroup mode to be used on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#cgroup_mode GcpNodePool#cgroup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#cgroup_mode GcpNodePool#cgroup_mode}
   */
   readonly cgroupMode?: string;
   /**
   * The Linux kernel parameters to be applied to the nodes and all pods running on the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#sysctls GcpNodePool#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#sysctls GcpNodePool#sysctls}
   */
   readonly sysctls?: { [key: string]: string };
 }
@@ -880,7 +880,7 @@ export class GcpNodePoolLinuxNodeConfigOutputReference extends cdktf.ComplexObje
 }
 export interface GcpNodePoolNodePoolLoggingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#variant_config GcpNodePool#variant_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#variant_config GcpNodePool#variant_config}
   */
   readonly variantConfig?: { [key: string]: string };
 }
@@ -970,15 +970,15 @@ export interface GcpNodePoolTaints {
   * 	- PREFER_NO_SCHEDULE
   * 	- NO_EXECUTE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#effect GcpNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#effect GcpNodePool#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#key GcpNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#key GcpNodePool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#value GcpNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#value GcpNodePool#value}
   */
   readonly value?: string;
 }
@@ -1152,15 +1152,15 @@ export class GcpNodePoolTaintsList extends cdktf.ComplexList {
 }
 export interface GcpNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#create GcpNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#create GcpNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#delete GcpNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#delete GcpNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#update GcpNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#update GcpNodePool#update}
   */
   readonly update?: string;
 }
@@ -1314,17 +1314,17 @@ export interface GcpNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolic
   /**
   * Note: The batch_node_count should not be used along with batch_percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#batch_node_count GcpNodePool#batch_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#batch_node_count GcpNodePool#batch_node_count}
   */
   readonly batchNodeCount?: number;
   /**
   * Note: The batch_percentage should not be used along with batch_node_count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#batch_percentage GcpNodePool#batch_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#batch_percentage GcpNodePool#batch_percentage}
   */
   readonly batchPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#batch_soak_duration GcpNodePool#batch_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#batch_soak_duration GcpNodePool#batch_soak_duration}
   */
   readonly batchSoakDuration?: string;
 }
@@ -1500,13 +1500,13 @@ export interface GcpNodePoolUpgradeSettingsBlueGreenSettings {
   /**
   * Note: The node_pool_soak_duration should not be used along with standard_rollout_policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#node_pool_soak_duration GcpNodePool#node_pool_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#node_pool_soak_duration GcpNodePool#node_pool_soak_duration}
   */
   readonly nodePoolSoakDuration?: string;
   /**
   * standard_rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#standard_rollout_policy GcpNodePool#standard_rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#standard_rollout_policy GcpNodePool#standard_rollout_policy}
   */
   readonly standardRolloutPolicy?: GcpNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy[] | cdktf.IResolvable;
 }
@@ -1653,25 +1653,25 @@ export interface GcpNodePoolUpgradeSettings {
   /**
   * The maximum number of nodes that can be created beyond the current size of the node pool during the upgrade process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#max_surge GcpNodePool#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#max_surge GcpNodePool#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * The maximum number of nodes that can be simultaneously unavailable during the upgrade process. A node is considered available if its status is Ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#max_unavailable GcpNodePool#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#max_unavailable GcpNodePool#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Update strategy of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#strategy GcpNodePool#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#strategy GcpNodePool#strategy}
   */
   readonly strategy?: string;
   /**
   * blue_green_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#blue_green_settings GcpNodePool#blue_green_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#blue_green_settings GcpNodePool#blue_green_settings}
   */
   readonly blueGreenSettings?: GcpNodePoolUpgradeSettingsBlueGreenSettings[] | cdktf.IResolvable;
 }
@@ -1842,7 +1842,7 @@ export class GcpNodePoolUpgradeSettingsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool duplocloud_gcp_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool duplocloud_gcp_node_pool}
 */
 export class GcpNodePool extends cdktf.TerraformResource {
 
@@ -1858,7 +1858,7 @@ export class GcpNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpNodePool to import
-  * @param importFromId The id of the existing GcpNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1870,7 +1870,7 @@ export class GcpNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_node_pool duplocloud_gcp_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_node_pool duplocloud_gcp_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1881,8 +1881,8 @@ export class GcpNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

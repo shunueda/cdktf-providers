@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,55 @@ export interface DestinationKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The format to use when writing data to kafka
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#destination_format DestinationKafka#destination_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#destination_format DestinationKafka#destination_format}
   */
   readonly destinationFormat?: string;
   /**
   * Include schema in json message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#json_schema_enable DestinationKafka#json_schema_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#json_schema_enable DestinationKafka#json_schema_enable}
   */
   readonly jsonSchemaEnable?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of host and port pairs that are the addresses of the Destination Kafka brokers. This list should be in the form host1:port1,host2:port2,...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#kafka_sink_bootstrap DestinationKafka#kafka_sink_bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#kafka_sink_bootstrap DestinationKafka#kafka_sink_bootstrap}
   */
   readonly kafkaSinkBootstrap: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#name DestinationKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#name DestinationKafka#name}
   */
   readonly name: string;
   /**
   * Kafka Hostname Or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#schema_registry_url DestinationKafka#schema_registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#schema_registry_url DestinationKafka#schema_registry_url}
   */
   readonly schemaRegistryUrl?: string;
   /**
+  * The maximum number of active task
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#tasks_max DestinationKafka#tasks_max}
+  */
+  readonly tasksMax?: number;
+  /**
   * Prefix for destination topics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#topic_prefix DestinationKafka#topic_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#topic_prefix DestinationKafka#topic_prefix}
   */
   readonly topicPrefix?: string;
   /**
   * Suffix for destination topics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#topic_suffix DestinationKafka#topic_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#topic_suffix DestinationKafka#topic_suffix}
   */
   readonly topicSuffix?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka streamkap_destination_kafka}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka streamkap_destination_kafka}
 */
 export class DestinationKafka extends cdktf.TerraformResource {
 
@@ -68,7 +74,7 @@ export class DestinationKafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationKafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationKafka to import
-  * @param importFromId The id of the existing DestinationKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationKafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +86,7 @@ export class DestinationKafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_kafka streamkap_destination_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_kafka streamkap_destination_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +97,8 @@ export class DestinationKafka extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_kafka',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -107,6 +113,7 @@ export class DestinationKafka extends cdktf.TerraformResource {
     this._kafkaSinkBootstrap = config.kafkaSinkBootstrap;
     this._name = config.name;
     this._schemaRegistryUrl = config.schemaRegistryUrl;
+    this._tasksMax = config.tasksMax;
     this._topicPrefix = config.topicPrefix;
     this._topicSuffix = config.topicSuffix;
   }
@@ -199,6 +206,22 @@ export class DestinationKafka extends cdktf.TerraformResource {
     return this._schemaRegistryUrl;
   }
 
+  // tasks_max - computed: true, optional: true, required: false
+  private _tasksMax?: number; 
+  public get tasksMax() {
+    return this.getNumberAttribute('tasks_max');
+  }
+  public set tasksMax(value: number) {
+    this._tasksMax = value;
+  }
+  public resetTasksMax() {
+    this._tasksMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tasksMaxInput() {
+    return this._tasksMax;
+  }
+
   // topic_prefix - computed: true, optional: true, required: false
   private _topicPrefix?: string; 
   public get topicPrefix() {
@@ -242,6 +265,7 @@ export class DestinationKafka extends cdktf.TerraformResource {
       kafka_sink_bootstrap: cdktf.stringToTerraform(this._kafkaSinkBootstrap),
       name: cdktf.stringToTerraform(this._name),
       schema_registry_url: cdktf.stringToTerraform(this._schemaRegistryUrl),
+      tasks_max: cdktf.numberToTerraform(this._tasksMax),
       topic_prefix: cdktf.stringToTerraform(this._topicPrefix),
       topic_suffix: cdktf.stringToTerraform(this._topicSuffix),
     };
@@ -278,6 +302,12 @@ export class DestinationKafka extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      tasks_max: {
+        value: cdktf.numberToHclTerraform(this._tasksMax),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       topic_prefix: {
         value: cdktf.stringToHclTerraform(this._topicPrefix),

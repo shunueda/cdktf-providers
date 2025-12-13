@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,67 @@ export interface PrefectProviderConfig {
   /**
   * Default Prefect Cloud Account ID. Can also be set via the `PREFECT_CLOUD_ACCOUNT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#account_id PrefectProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#account_id PrefectProvider#account_id}
   */
   readonly accountId?: string;
   /**
   * Prefect Cloud API key. Can also be set via the `PREFECT_API_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#api_key PrefectProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#api_key PrefectProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Prefect basic auth key. Can also be set via the `PREFECT_BASIC_AUTH_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#basic_auth_key PrefectProvider#basic_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#basic_auth_key PrefectProvider#basic_auth_key}
   */
   readonly basicAuthKey?: string;
   /**
   * Enable CSRF protection for API requests. Defaults to false. If enabled, the provider will fetch a CSRF token from the Prefect API and include it in all requests. This should be enabled if your Prefect server instance has CSRF protection active. Can also be set via the `PREFECT_CSRF_ENABLED` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#csrf_enabled PrefectProvider#csrf_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#csrf_enabled PrefectProvider#csrf_enabled}
   */
   readonly csrfEnabled?: boolean | cdktf.IResolvable;
   /**
+  * Custom HTTP headers to include in all Prefect API requests as a JSON string. Useful for adding authentication headers required by proxies, CDNs, or security systems like Cloudflare Access. Can also be set via the `PREFECT_CLIENT_CUSTOM_HEADERS` environment variable. Example: `{"CF-Access-Client-Id": "your-id", "CF-Access-Client-Secret": "your-secret"}`. Protected headers (User-Agent, Prefect-Csrf-Token, Prefect-Csrf-Client) cannot be overridden.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#custom_headers PrefectProvider#custom_headers}
+  */
+  readonly customHeaders?: string;
+  /**
   * The Prefect API URL. Can also be set via the `PREFECT_API_URL` environment variable. Defaults to `https://api.prefect.cloud` if not configured. Can optionally include the default account ID and workspace ID in the following format: `https://api.prefect.cloud/api/accounts/<accountID>/workspaces/<workspaceID>`. This is the same format used for the `PREFECT_API_URL` value in the Prefect CLI configuration file. The `account_id` and `workspace_id` attributes and their matching environment variables will take priority over any account and workspace ID values provided in the `endpoint` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#endpoint PrefectProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#endpoint PrefectProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Prefect profile name to use for authentication. If not specified, uses the active profile from `~/.prefect/profiles.toml`. This allows you to use a specific profile instead of the active one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#profile PrefectProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#profile PrefectProvider#profile}
   */
   readonly profile?: string;
   /**
   * Path to the Prefect profiles file. If not specified, uses the default location `~/.prefect/profiles.toml`. This allows you to use a custom profiles file location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#profile_file PrefectProvider#profile_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#profile_file PrefectProvider#profile_file}
   */
   readonly profileFile?: string;
   /**
   * Default Prefect Cloud Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#workspace_id PrefectProvider#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#workspace_id PrefectProvider#workspace_id}
   */
   readonly workspaceId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#alias PrefectProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#alias PrefectProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs prefect}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs prefect}
 */
 export class PrefectProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +86,7 @@ export class PrefectProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PrefectProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrefectProvider to import
-  * @param importFromId The id of the existing PrefectProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrefectProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrefectProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +98,7 @@ export class PrefectProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs prefect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs prefect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +109,8 @@ export class PrefectProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prefect',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       terraformProviderSource: 'PrefectHQ/prefect'
     });
@@ -112,6 +118,7 @@ export class PrefectProvider extends cdktf.TerraformProvider {
     this._apiKey = config.apiKey;
     this._basicAuthKey = config.basicAuthKey;
     this._csrfEnabled = config.csrfEnabled;
+    this._customHeaders = config.customHeaders;
     this._endpoint = config.endpoint;
     this._profile = config.profile;
     this._profileFile = config.profileFile;
@@ -185,6 +192,22 @@ export class PrefectProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get csrfEnabledInput() {
     return this._csrfEnabled;
+  }
+
+  // custom_headers - computed: false, optional: true, required: false
+  private _customHeaders?: string; 
+  public get customHeaders() {
+    return this._customHeaders;
+  }
+  public set customHeaders(value: string | undefined) {
+    this._customHeaders = value;
+  }
+  public resetCustomHeaders() {
+    this._customHeaders = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHeadersInput() {
+    return this._customHeaders;
   }
 
   // endpoint - computed: false, optional: true, required: false
@@ -277,6 +300,7 @@ export class PrefectProvider extends cdktf.TerraformProvider {
       api_key: cdktf.stringToTerraform(this._apiKey),
       basic_auth_key: cdktf.stringToTerraform(this._basicAuthKey),
       csrf_enabled: cdktf.booleanToTerraform(this._csrfEnabled),
+      custom_headers: cdktf.stringToTerraform(this._customHeaders),
       endpoint: cdktf.stringToTerraform(this._endpoint),
       profile: cdktf.stringToTerraform(this._profile),
       profile_file: cdktf.stringToTerraform(this._profileFile),
@@ -310,6 +334,12 @@ export class PrefectProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      custom_headers: {
+        value: cdktf.stringToHclTerraform(this._customHeaders),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       endpoint: {
         value: cdktf.stringToHclTerraform(this._endpoint),

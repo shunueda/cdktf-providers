@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface DestinationPostgresqlConfig extends cdktf.TerraformMetaArgument
   /**
   * Either the name of the primary key column or a comma-separated list of fields to derive the primary key from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#custom_primary_key DestinationPostgresql#custom_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#custom_primary_key DestinationPostgresql#custom_primary_key}
   */
   readonly customPrimaryKey?: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_dbname DestinationPostgresql#database_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_dbname DestinationPostgresql#database_dbname}
   */
   readonly databaseDbname: string;
   /**
   * PostgreSQL Hostname. For example, postgres.something.rds.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_hostname DestinationPostgresql#database_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_hostname DestinationPostgresql#database_hostname}
   */
   readonly databaseHostname: string;
   /**
   * Password to access Postgresql
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_password DestinationPostgresql#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_password DestinationPostgresql#database_password}
   */
   readonly databasePassword: string;
   /**
   * PostgreSQL Port. For example, 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_port DestinationPostgresql#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_port DestinationPostgresql#database_port}
   */
   readonly databasePort?: number;
   /**
   * Schema for the associated table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_schema_name DestinationPostgresql#database_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_schema_name DestinationPostgresql#database_schema_name}
   */
   readonly databaseSchemaName: string;
   /**
   * Username to access Postgresql
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#database_username DestinationPostgresql#database_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#database_username DestinationPostgresql#database_username}
   */
   readonly databaseUsername: string;
   /**
   * Specifies whether the connector processes DELETE or tombstone events and removes the corresponding row from the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#hard_delete DestinationPostgresql#hard_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#hard_delete DestinationPostgresql#hard_delete}
   */
   readonly hardDelete?: boolean | cdktf.IResolvable;
   /**
   * Insert or upsert modes are available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#insert_mode DestinationPostgresql#insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#insert_mode DestinationPostgresql#insert_mode}
   */
   readonly insertMode?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#name DestinationPostgresql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#name DestinationPostgresql#name}
   */
   readonly name: string;
   /**
   * Specifies how the connector resolves the primary key columns from the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#primary_key_mode DestinationPostgresql#primary_key_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#primary_key_mode DestinationPostgresql#primary_key_mode}
   */
   readonly primaryKeyMode?: string;
   /**
   * Controls how schema evolution is handled by the sink connector. For pipelines with pre-created destination tables, set to `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#schema_evolution DestinationPostgresql#schema_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#schema_evolution DestinationPostgresql#schema_evolution}
   */
   readonly schemaEvolution?: string;
   /**
   * Connect via SSH tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#ssh_enabled DestinationPostgresql#ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#ssh_enabled DestinationPostgresql#ssh_enabled}
   */
   readonly sshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Hostname of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#ssh_host DestinationPostgresql#ssh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#ssh_host DestinationPostgresql#ssh_host}
   */
   readonly sshHost?: string;
   /**
   * Port of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#ssh_port DestinationPostgresql#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#ssh_port DestinationPostgresql#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * User for connecting to the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#ssh_user DestinationPostgresql#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#ssh_user DestinationPostgresql#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * The maximum number of active task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#tasks_max DestinationPostgresql#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#tasks_max DestinationPostgresql#tasks_max}
   */
   readonly tasksMax?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql streamkap_destination_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql streamkap_destination_postgresql}
 */
 export class DestinationPostgresql extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class DestinationPostgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationPostgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationPostgresql to import
-  * @param importFromId The id of the existing DestinationPostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationPostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationPostgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DestinationPostgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_postgresql streamkap_destination_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_postgresql streamkap_destination_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DestinationPostgresql extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

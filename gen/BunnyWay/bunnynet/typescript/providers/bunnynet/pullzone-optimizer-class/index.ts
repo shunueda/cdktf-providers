@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface PullzoneOptimizerClassConfig extends cdktf.TerraformMetaArgumen
   /**
   * The aspect ratio for image optimization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#aspect_ratio PullzoneOptimizerClass#aspect_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#aspect_ratio PullzoneOptimizerClass#aspect_ratio}
   */
   readonly aspectRatio?: string;
   /**
   * Indicates whether automatic optimization for images is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#auto_optimize PullzoneOptimizerClass#auto_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#auto_optimize PullzoneOptimizerClass#auto_optimize}
   */
   readonly autoOptimize?: string;
   /**
   * The level of blur to apply to images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#blur PullzoneOptimizerClass#blur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#blur PullzoneOptimizerClass#blur}
   */
   readonly blur?: number;
   /**
   * The brightness adjustment for images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#brightness PullzoneOptimizerClass#brightness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#brightness PullzoneOptimizerClass#brightness}
   */
   readonly brightness?: number;
   /**
   * The contrast adjustment for images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#contrast PullzoneOptimizerClass#contrast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#contrast PullzoneOptimizerClass#contrast}
   */
   readonly contrast?: number;
   /**
   * The cropping settings for images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#crop PullzoneOptimizerClass#crop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#crop PullzoneOptimizerClass#crop}
   */
   readonly crop?: string;
   /**
   * The gravity setting for cropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#crop_gravity PullzoneOptimizerClass#crop_gravity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#crop_gravity PullzoneOptimizerClass#crop_gravity}
   */
   readonly cropGravity?: string;
   /**
   * Indicates whether to flip images horizontally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#flip PullzoneOptimizerClass#flip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#flip PullzoneOptimizerClass#flip}
   */
   readonly flip?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to flip images vertically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#flop PullzoneOptimizerClass#flop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#flop PullzoneOptimizerClass#flop}
   */
   readonly flop?: boolean | cdktf.IResolvable;
   /**
   * The height to which images should be resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#height PullzoneOptimizerClass#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#height PullzoneOptimizerClass#height}
   */
   readonly height?: number;
   /**
   * The hue adjustment for images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#hue PullzoneOptimizerClass#hue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#hue PullzoneOptimizerClass#hue}
   */
   readonly hue?: number;
   /**
   * The name of the optimizer class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#name PullzoneOptimizerClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#name PullzoneOptimizerClass#name}
   */
   readonly name: string;
   /**
   * The ID of the linked pull zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#pullzone PullzoneOptimizerClass#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#pullzone PullzoneOptimizerClass#pullzone}
   */
   readonly pullzone: number;
   /**
   * The quality setting for image optimization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#quality PullzoneOptimizerClass#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#quality PullzoneOptimizerClass#quality}
   */
   readonly quality?: number;
   /**
   * The saturation adjustment for images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#saturation PullzoneOptimizerClass#saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#saturation PullzoneOptimizerClass#saturation}
   */
   readonly saturation?: number;
   /**
   * The level of sepia tone to apply to images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#sepia PullzoneOptimizerClass#sepia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#sepia PullzoneOptimizerClass#sepia}
   */
   readonly sepia?: number;
   /**
   * Indicates whether to sharpen images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#sharpen PullzoneOptimizerClass#sharpen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#sharpen PullzoneOptimizerClass#sharpen}
   */
   readonly sharpen?: boolean | cdktf.IResolvable;
   /**
   * The width to which images should be resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#width PullzoneOptimizerClass#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#width PullzoneOptimizerClass#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class bunnynet_pullzone_optimizer_class}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class bunnynet_pullzone_optimizer_class}
 */
 export class PullzoneOptimizerClass extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class PullzoneOptimizerClass extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneOptimizerClass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneOptimizerClass to import
-  * @param importFromId The id of the existing PullzoneOptimizerClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneOptimizerClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneOptimizerClass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class PullzoneOptimizerClass extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_optimizer_class bunnynet_pullzone_optimizer_class} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_optimizer_class bunnynet_pullzone_optimizer_class} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class PullzoneOptimizerClass extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_optimizer_class',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

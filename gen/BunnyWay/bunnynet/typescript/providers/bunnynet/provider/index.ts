@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BunnynetProviderConfig {
   /**
   * API key. Can also be set using the `BUNNYNET_API_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#api_key BunnynetProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#api_key BunnynetProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Optional. The API URL. Defaults to `https://api.bunny.net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#api_url BunnynetProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#api_url BunnynetProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Optional. The Container API URL. Defaults to `https://api-mc.opsbunny.net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#container_api_url BunnynetProvider#container_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#container_api_url BunnynetProvider#container_api_url}
   */
   readonly containerApiUrl?: string;
   /**
   * Optional. The Stream API URL. Defaults to `https://video.bunnycdn.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#stream_api_url BunnynetProvider#stream_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#stream_api_url BunnynetProvider#stream_api_url}
   */
   readonly streamApiUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#alias BunnynetProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#alias BunnynetProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs bunnynet}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs bunnynet}
 */
 export class BunnynetProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class BunnynetProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a BunnynetProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BunnynetProvider to import
-  * @param importFromId The id of the existing BunnynetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BunnynetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BunnynetProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class BunnynetProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs bunnynet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs bunnynet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class BunnynetProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bunnynet',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       terraformProviderSource: 'BunnyWay/bunnynet'
     });

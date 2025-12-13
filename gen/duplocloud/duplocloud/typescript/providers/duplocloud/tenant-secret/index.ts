@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TenantSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The plaintext secret data. You can use the `jsonencode()` function to store JSON data in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#data TenantSecret#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#data TenantSecret#data}
   */
   readonly data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#id TenantSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#id TenantSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TenantSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The short name of the secret. You can get the fullname from the `name` attribute after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#name_suffix TenantSecret#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#name_suffix TenantSecret#name_suffix}
   */
   readonly nameSuffix: string;
   /**
   * The GUID of the tenant that the secret will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#tenant_id TenantSecret#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#tenant_id TenantSecret#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#timeouts TenantSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#timeouts TenantSecret#timeouts}
   */
   readonly timeouts?: TenantSecretTimeouts;
 }
@@ -121,11 +121,11 @@ export class TenantSecretTagsList extends cdktf.ComplexList {
 }
 export interface TenantSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#create TenantSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#create TenantSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#delete TenantSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#delete TenantSecret#delete}
   */
   readonly delete?: string;
 }
@@ -248,7 +248,7 @@ export class TenantSecretTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret duplocloud_tenant_secret}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret duplocloud_tenant_secret}
 */
 export class TenantSecret extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class TenantSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantSecret to import
-  * @param importFromId The id of the existing TenantSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class TenantSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_secret duplocloud_tenant_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_secret duplocloud_tenant_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class TenantSecret extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_secret',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

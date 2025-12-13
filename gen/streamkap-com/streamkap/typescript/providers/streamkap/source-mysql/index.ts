@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,175 +10,175 @@ export interface SourceMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies how the data for binary columns e.g. blob, binary, varbinary should be represented. This setting depends on what the destination is. See the documentation for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#binary_handling_mode SourceMysql#binary_handling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#binary_handling_mode SourceMysql#binary_handling_mode}
   */
   readonly binaryHandlingMode?: string;
   /**
   * Comma separated list of columns blacklist regular expressions, format schema[.]table[.](column1|column2|etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#column_exclude_list SourceMysql#column_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#column_exclude_list SourceMysql#column_exclude_list}
   */
   readonly columnExcludeList?: string;
   /**
   * Comma separated list of columns whitelist regular expressions, format schema[.]table[.](column1|column2|etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#column_include_list SourceMysql#column_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#column_include_list SourceMysql#column_include_list}
   */
   readonly columnIncludeList?: string;
   /**
   * Set the connection timezone. If set to SERVER, the source will detect the connection time zone from the values configured on the MySQL server session variables 'time_zone' or 'system_time_zone'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_connection_timezone SourceMysql#database_connection_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_connection_timezone SourceMysql#database_connection_timezone}
   */
   readonly databaseConnectionTimezone?: string;
   /**
   * MySQL Hostname. For example, mysqldb.something.rds.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_hostname SourceMysql#database_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_hostname SourceMysql#database_hostname}
   */
   readonly databaseHostname: string;
   /**
   * Source Databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_include_list SourceMysql#database_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_include_list SourceMysql#database_include_list}
   */
   readonly databaseIncludeList: string;
   /**
   * Password to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_password SourceMysql#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_password SourceMysql#database_password}
   */
   readonly databasePassword: string;
   /**
   * MySQL Port. For example, 3306
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_port SourceMysql#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_port SourceMysql#database_port}
   */
   readonly databasePort?: number;
   /**
   * Username to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#database_user SourceMysql#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#database_user SourceMysql#database_user}
   */
   readonly databaseUser: string;
   /**
   * Heartbeat Table Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#heartbeat_data_collection_schema_or_database SourceMysql#heartbeat_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#heartbeat_data_collection_schema_or_database SourceMysql#heartbeat_data_collection_schema_or_database}
   */
   readonly heartbeatDataCollectionSchemaOrDatabase?: string;
   /**
   * Heartbeats are used to keep the pipeline healthy when there is a low volume of data at times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#heartbeat_enabled SourceMysql#heartbeat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#heartbeat_enabled SourceMysql#heartbeat_enabled}
   */
   readonly heartbeatEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_key_field_1 SourceMysql#insert_static_key_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_key_field_1 SourceMysql#insert_static_key_field_1}
   */
   readonly insertStaticKeyField1?: string;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_key_field_2 SourceMysql#insert_static_key_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_key_field_2 SourceMysql#insert_static_key_field_2}
   */
   readonly insertStaticKeyField2?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_key_value_1 SourceMysql#insert_static_key_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_key_value_1 SourceMysql#insert_static_key_value_1}
   */
   readonly insertStaticKeyValue1?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_key_value_2 SourceMysql#insert_static_key_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_key_value_2 SourceMysql#insert_static_key_value_2}
   */
   readonly insertStaticKeyValue2?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_value_1 SourceMysql#insert_static_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_value_1 SourceMysql#insert_static_value_1}
   */
   readonly insertStaticValue1?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_value_2 SourceMysql#insert_static_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_value_2 SourceMysql#insert_static_value_2}
   */
   readonly insertStaticValue2?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_value_field_1 SourceMysql#insert_static_value_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_value_field_1 SourceMysql#insert_static_value_field_1}
   */
   readonly insertStaticValueField1?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#insert_static_value_field_2 SourceMysql#insert_static_value_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#insert_static_value_field_2 SourceMysql#insert_static_value_field_2}
   */
   readonly insertStaticValueField2?: string;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#name SourceMysql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#name SourceMysql#name}
   */
   readonly name: string;
   /**
   * Regex pattern to match topics for enrichment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#predicates_istopictoenrich_pattern SourceMysql#predicates_istopictoenrich_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#predicates_istopictoenrich_pattern SourceMysql#predicates_istopictoenrich_pattern}
   */
   readonly predicatesIstopictoenrichPattern?: string;
   /**
   * Schema for signal data collection. If connector is in read-only mode (snapshot_gtid="Yes"), set this to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#signal_data_collection_schema_or_database SourceMysql#signal_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#signal_data_collection_schema_or_database SourceMysql#signal_data_collection_schema_or_database}
   */
   readonly signalDataCollectionSchemaOrDatabase?: string;
   /**
   * GTID snapshots are read only but require some prerequisite settings, including enabling GTID on the source database. See the documentation for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#snapshot_gtid SourceMysql#snapshot_gtid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#snapshot_gtid SourceMysql#snapshot_gtid}
   */
   readonly snapshotGtid?: boolean | cdktf.IResolvable;
   /**
   * Connect via SSH tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#ssh_enabled SourceMysql#ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#ssh_enabled SourceMysql#ssh_enabled}
   */
   readonly sshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Hostname of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#ssh_host SourceMysql#ssh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#ssh_host SourceMysql#ssh_host}
   */
   readonly sshHost?: string;
   /**
   * Port of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#ssh_port SourceMysql#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#ssh_port SourceMysql#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * User for connecting to the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#ssh_user SourceMysql#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#ssh_user SourceMysql#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Source tables to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#table_include_list SourceMysql#table_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#table_include_list SourceMysql#table_include_list}
   */
   readonly tableIncludeList: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql streamkap_source_mysql}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql streamkap_source_mysql}
 */
 export class SourceMysql extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class SourceMysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceMysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceMysql to import
-  * @param importFromId The id of the existing SourceMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceMysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class SourceMysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mysql streamkap_source_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mysql streamkap_source_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class SourceMysql extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_mysql',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

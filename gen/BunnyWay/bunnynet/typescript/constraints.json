@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "bunnynet": "0.11.3"
+    "bunnynet": "0.11.4"
   }
 }

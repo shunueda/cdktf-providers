@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface StreamkapProviderConfig {
   /**
   * The Streamkap API client_id. If not set, Streamkap will use environment variable `STREAMKAP_CLIENT_ID`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs#client_id StreamkapProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs#client_id StreamkapProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The Streamkap API host. If not set, Streamkap will use environment variable `STREAMKAP_HOST`. Defaults to https://api.streamkap.com if both are not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs#host StreamkapProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs#host StreamkapProvider#host}
   */
   readonly host?: string;
   /**
   * The Streamkap API secret. If not set, Streamkap will use environment variable `STREAMKAP_SECRET`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs#secret StreamkapProvider#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs#secret StreamkapProvider#secret}
   */
   readonly secret?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs#alias StreamkapProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs#alias StreamkapProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs streamkap}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs streamkap}
 */
 export class StreamkapProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class StreamkapProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a StreamkapProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamkapProvider to import
-  * @param importFromId The id of the existing StreamkapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamkapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamkapProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class StreamkapProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs streamkap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs streamkap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class StreamkapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'streamkap',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       terraformProviderSource: 'streamkap-com/streamkap'
     });

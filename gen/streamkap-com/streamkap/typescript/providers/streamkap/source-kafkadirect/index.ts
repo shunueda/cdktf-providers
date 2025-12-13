@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SourceKafkadirectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The serialised format of the data written to the Kafka topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#kafka_format SourceKafkadirect#kafka_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#kafka_format SourceKafkadirect#kafka_format}
   */
   readonly kafkaFormat?: string;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#name SourceKafkadirect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#name SourceKafkadirect#name}
   */
   readonly name: string;
   /**
   * If untoggled (default), Streamkap attempts to infer schema from your data - depending on the Destination. Otherwise, Streamkap assumes the Kafka message key and value contain `schema` and `payload` structures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#schemas_enable SourceKafkadirect#schemas_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#schemas_enable SourceKafkadirect#schemas_enable}
   */
   readonly schemasEnable?: boolean | cdktf.IResolvable;
   /**
   * Topics to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#topic_include_list SourceKafkadirect#topic_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#topic_include_list SourceKafkadirect#topic_include_list}
   */
   readonly topicIncludeList: string;
   /**
   * Prefix for the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#topic_prefix SourceKafkadirect#topic_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#topic_prefix SourceKafkadirect#topic_prefix}
   */
   readonly topicPrefix: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect streamkap_source_kafkadirect}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect streamkap_source_kafkadirect}
 */
 export class SourceKafkadirect extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SourceKafkadirect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceKafkadirect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceKafkadirect to import
-  * @param importFromId The id of the existing SourceKafkadirect that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceKafkadirect that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceKafkadirect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SourceKafkadirect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_kafkadirect streamkap_source_kafkadirect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_kafkadirect streamkap_source_kafkadirect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SourceKafkadirect extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_kafkadirect',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AzureNetworkSecurityRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies whether network traffic is allowed or denied. Possible values are `Allow` and `Deny`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#access AzureNetworkSecurityRule#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#access AzureNetworkSecurityRule#access}
   */
   readonly access: string;
   /**
   * CIDR or destination IP range or * to match any IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#destination_address_prefix AzureNetworkSecurityRule#destination_address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#destination_address_prefix AzureNetworkSecurityRule#destination_address_prefix}
   */
   readonly destinationAddressPrefix?: string;
   /**
   * Destination Port or Range. Integer or range between `0` and `65535` or `*` to match any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#destination_port_range AzureNetworkSecurityRule#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#destination_port_range AzureNetworkSecurityRule#destination_port_range}
   */
   readonly destinationPortRange?: string;
   /**
   * Type of the destination security rule. Possible values include `0(IP Address)`, `1(Service Tag)`, `2(Application Security Group)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#destination_rule_type AzureNetworkSecurityRule#destination_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#destination_rule_type AzureNetworkSecurityRule#destination_rule_type}
   */
   readonly destinationRuleType: number;
   /**
   * The direction specifies if rule will be evaluated on incoming or outgoing traffic. Possible values are `Inbound` and `Outbound`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#direction AzureNetworkSecurityRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#direction AzureNetworkSecurityRule#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#id AzureNetworkSecurityRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#id AzureNetworkSecurityRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,65 +47,65 @@ export interface AzureNetworkSecurityRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the infrastructure.  Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#infra_name AzureNetworkSecurityRule#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#infra_name AzureNetworkSecurityRule#infra_name}
   */
   readonly infraName: string;
   /**
   * The name of the security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#name AzureNetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#name AzureNetworkSecurityRule#name}
   */
   readonly name: string;
   /**
   * The name of the Network Security Group that we want to attach the rule to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#network_security_group_name AzureNetworkSecurityRule#network_security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#network_security_group_name AzureNetworkSecurityRule#network_security_group_name}
   */
   readonly networkSecurityGroupName: string;
   /**
   * Specifies the priority of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#priority AzureNetworkSecurityRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#priority AzureNetworkSecurityRule#priority}
   */
   readonly priority: number;
   /**
   * Network protocol this rule applies to. Possible values include `tcp`, `udp`, `icmp`, `esp`, `ah` or `*` (which matches all).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#protocol AzureNetworkSecurityRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#protocol AzureNetworkSecurityRule#protocol}
   */
   readonly protocol: string;
   /**
   * CIDR or source IP range or * to match any IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#source_address_prefix AzureNetworkSecurityRule#source_address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#source_address_prefix AzureNetworkSecurityRule#source_address_prefix}
   */
   readonly sourceAddressPrefix?: string;
   /**
   * Source Port or Range. Integer or range between `0` and `65535` or `*` to match any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#source_port_range AzureNetworkSecurityRule#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#source_port_range AzureNetworkSecurityRule#source_port_range}
   */
   readonly sourcePortRange?: string;
   /**
   * Type of the source security rule. Possible values include `0(IP Address)`, `1(Service Tag)`, `2(Application Security Group)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#source_rule_type AzureNetworkSecurityRule#source_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#source_rule_type AzureNetworkSecurityRule#source_rule_type}
   */
   readonly sourceRuleType: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#timeouts AzureNetworkSecurityRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#timeouts AzureNetworkSecurityRule#timeouts}
   */
   readonly timeouts?: AzureNetworkSecurityRuleTimeouts;
 }
 export interface AzureNetworkSecurityRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#create AzureNetworkSecurityRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#create AzureNetworkSecurityRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#delete AzureNetworkSecurityRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#delete AzureNetworkSecurityRule#delete}
   */
   readonly delete?: string;
 }
@@ -228,7 +228,7 @@ export class AzureNetworkSecurityRuleTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule duplocloud_azure_network_security_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule duplocloud_azure_network_security_rule}
 */
 export class AzureNetworkSecurityRule extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class AzureNetworkSecurityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureNetworkSecurityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureNetworkSecurityRule to import
-  * @param importFromId The id of the existing AzureNetworkSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureNetworkSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureNetworkSecurityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class AzureNetworkSecurityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_network_security_rule duplocloud_azure_network_security_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_network_security_rule duplocloud_azure_network_security_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class AzureNetworkSecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_network_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

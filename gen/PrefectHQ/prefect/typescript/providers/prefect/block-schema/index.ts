@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface BlockSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID) where the Block is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#account_id BlockSchema#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#account_id BlockSchema#account_id}
   */
   readonly accountId?: string;
   /**
   * The ID of the block type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#block_type_id BlockSchema#block_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#block_type_id BlockSchema#block_type_id}
   */
   readonly blockTypeId: string;
   /**
   * The capabilities of the block schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#capabilities BlockSchema#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#capabilities BlockSchema#capabilities}
   */
   readonly capabilities?: string[];
   /**
   * The fields of the block schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#fields BlockSchema#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#fields BlockSchema#fields}
   */
   readonly fields?: string;
   /**
   * The version of the block schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#version BlockSchema#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#version BlockSchema#version}
   */
   readonly version?: string;
   /**
   * Workspace ID (UUID) where the Block is located. In Prefect Cloud, either the `prefect_block` resource or the provider's `workspace_id` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#workspace_id BlockSchema#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#workspace_id BlockSchema#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema prefect_block_schema}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema prefect_block_schema}
 */
 export class BlockSchema extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class BlockSchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockSchema to import
-  * @param importFromId The id of the existing BlockSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class BlockSchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/block_schema prefect_block_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_schema prefect_block_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class BlockSchema extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_block_schema',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

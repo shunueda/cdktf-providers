@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment
+// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AccountAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the account of this AccountAttachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#account_id AccountAttachment#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#account_id AccountAttachment#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#id AccountAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#id AccountAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface AccountAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the attached role of this AccountAttachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#role_id AccountAttachment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#role_id AccountAttachment#role_id}
   */
   readonly roleId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#timeouts AccountAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#timeouts AccountAttachment#timeouts}
   */
   readonly timeouts?: AccountAttachmentTimeouts;
 }
 export interface AccountAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#create AccountAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#create AccountAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#default AccountAttachment#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#default AccountAttachment#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#delete AccountAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#delete AccountAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#read AccountAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#read AccountAttachment#read}
   */
   readonly read?: string;
 }
@@ -228,7 +228,7 @@ export class AccountAttachmentTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment sdm_account_attachment}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment sdm_account_attachment}
 */
 export class AccountAttachment extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class AccountAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountAttachment to import
-  * @param importFromId The id of the existing AccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class AccountAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/account_attachment sdm_account_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/account_attachment sdm_account_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class AccountAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.39.0',
-        providerVersionConstraint: '15.39.0'
+        providerVersion: '15.40.0',
+        providerVersionConstraint: '15.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

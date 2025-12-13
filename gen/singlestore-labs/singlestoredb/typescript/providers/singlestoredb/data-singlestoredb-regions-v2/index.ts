@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/regions_v2
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/regions_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -95,7 +95,7 @@ export class DataSinglestoredbRegionsV2RegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/regions_v2 singlestoredb_regions_v2}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/regions_v2 singlestoredb_regions_v2}
 */
 export class DataSinglestoredbRegionsV2 extends cdktf.TerraformDataSource {
 
@@ -111,7 +111,7 @@ export class DataSinglestoredbRegionsV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbRegionsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbRegionsV2 to import
-  * @param importFromId The id of the existing DataSinglestoredbRegionsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/regions_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbRegionsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/regions_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbRegionsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class DataSinglestoredbRegionsV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/regions_v2 singlestoredb_regions_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/regions_v2 singlestoredb_regions_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class DataSinglestoredbRegionsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_regions_v2',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

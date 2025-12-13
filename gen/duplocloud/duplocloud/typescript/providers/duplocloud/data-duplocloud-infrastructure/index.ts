@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudInfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure#id DataDuplocloudInfrastructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure#id DataDuplocloudInfrastructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataDuplocloudInfrastructureConfig extends cdktf.TerraformMetaA
   /**
   * The name of the infrastructure to look up. Must be specified if `tenant_id` is blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure#infra_name DataDuplocloudInfrastructure#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure#infra_name DataDuplocloudInfrastructure#infra_name}
   */
   readonly infraName?: string;
   /**
   * The ID of the tenant to look up the infrastructure for. Must be specified if `infra_name` is blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure#tenant_id DataDuplocloudInfrastructure#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure#tenant_id DataDuplocloudInfrastructure#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -597,7 +597,7 @@ export class DataDuplocloudInfrastructureSecurityGroupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure duplocloud_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure duplocloud_infrastructure}
 */
 export class DataDuplocloudInfrastructure extends cdktf.TerraformDataSource {
 
@@ -613,7 +613,7 @@ export class DataDuplocloudInfrastructure extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudInfrastructure to import
-  * @param importFromId The id of the existing DataDuplocloudInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class DataDuplocloudInfrastructure extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/infrastructure duplocloud_infrastructure} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/infrastructure duplocloud_infrastructure} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class DataDuplocloudInfrastructure extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

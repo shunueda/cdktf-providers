@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TenantKmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not this resource should delete any kms not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#delete_unspecified_kms_keys TenantKms#delete_unspecified_kms_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#delete_unspecified_kms_keys TenantKms#delete_unspecified_kms_keys}
   */
   readonly deleteUnspecifiedKmsKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#id TenantKms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#id TenantKms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TenantKmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the tenant to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#tenant_id TenantKms#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#tenant_id TenantKms#tenant_id}
   */
   readonly tenantId: string;
   /**
   * kms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#kms TenantKms#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#kms TenantKms#kms}
   */
   readonly kms?: TenantKmsKms[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#timeouts TenantKms#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#timeouts TenantKms#timeouts}
   */
   readonly timeouts?: TenantKmsTimeouts;
 }
@@ -126,18 +126,18 @@ export class TenantKmsUnspecifiedKmsKeysList extends cdktf.ComplexList {
 }
 export interface TenantKmsKms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#arn TenantKms#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#arn TenantKms#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#id TenantKms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#id TenantKms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#name TenantKms#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#name TenantKms#name}
   */
   readonly name: string;
 }
@@ -302,15 +302,15 @@ export class TenantKmsKmsList extends cdktf.ComplexList {
 }
 export interface TenantKmsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#create TenantKms#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#create TenantKms#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#delete TenantKms#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#delete TenantKms#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#update TenantKms#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#update TenantKms#update}
   */
   readonly update?: string;
 }
@@ -462,7 +462,7 @@ export class TenantKmsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms duplocloud_tenant_kms}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms duplocloud_tenant_kms}
 */
 export class TenantKms extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class TenantKms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantKms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantKms to import
-  * @param importFromId The id of the existing TenantKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantKms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class TenantKms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_kms duplocloud_tenant_kms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_kms duplocloud_tenant_kms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class TenantKms extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_kms',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

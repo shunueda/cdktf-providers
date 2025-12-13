@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AzureRedisCacheConfig extends cdktf.TerraformMetaArguments {
   /**
   * The size of the Redis cache to deploy. Valid values for a SKU `family` of C (Basic/Standard) are `0, 1, 2, 3, 4, 5, 6`, and for P (Premium) `family` are `1, 2, 3, 4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#capacity AzureRedisCache#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#capacity AzureRedisCache#capacity}
   */
   readonly capacity: number;
   /**
   * Enable the non-SSL port (6379) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#enable_non_ssl_port AzureRedisCache#enable_non_ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#enable_non_ssl_port AzureRedisCache#enable_non_ssl_port}
   */
   readonly enableNonSslPort?: boolean | cdktf.IResolvable;
   /**
   * The SKU family/pricing group to use. Valid values are `C` (for Basic/Standard SKU family) and `P` (for `Premium`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#family AzureRedisCache#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#family AzureRedisCache#family}
   */
   readonly family: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#id AzureRedisCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#id AzureRedisCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,65 +35,65 @@ export interface AzureRedisCacheConfig extends cdktf.TerraformMetaArguments {
   /**
   * The minimum TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#minimum_tls_version AzureRedisCache#minimum_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#minimum_tls_version AzureRedisCache#minimum_tls_version}
   */
   readonly minimumTlsVersion?: string;
   /**
   * The name of the Redis instance. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#name AzureRedisCache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#name AzureRedisCache#name}
   */
   readonly name: string;
   /**
   * Redis version. Only major version needed. Valid values: `4`, `6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#redis_version AzureRedisCache#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#redis_version AzureRedisCache#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Only available when using the Premium SKU The number of Shards to create on the Redis Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#shard_count AzureRedisCache#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#shard_count AzureRedisCache#shard_count}
   */
   readonly shardCount?: number;
   /**
   * The SKU of Redis to use. Possible values are `Basic`, `Standard` and `Premium`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#sku_name AzureRedisCache#sku_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#sku_name AzureRedisCache#sku_name}
   */
   readonly skuName: string;
   /**
   * Only available when using the Premium SKU The ID of the Subnet within which the Redis Cache should be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#subnet_id AzureRedisCache#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#subnet_id AzureRedisCache#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The GUID of the tenant that the azure redis cache will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#tenant_id AzureRedisCache#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#tenant_id AzureRedisCache#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until Redis cache instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#wait_until_ready AzureRedisCache#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#wait_until_ready AzureRedisCache#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#timeouts AzureRedisCache#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#timeouts AzureRedisCache#timeouts}
   */
   readonly timeouts?: AzureRedisCacheTimeouts;
 }
 export interface AzureRedisCacheTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#create AzureRedisCache#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#create AzureRedisCache#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#delete AzureRedisCache#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#delete AzureRedisCache#delete}
   */
   readonly delete?: string;
 }
@@ -216,7 +216,7 @@ export class AzureRedisCacheTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache duplocloud_azure_redis_cache}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache duplocloud_azure_redis_cache}
 */
 export class AzureRedisCache extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class AzureRedisCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureRedisCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureRedisCache to import
-  * @param importFromId The id of the existing AzureRedisCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureRedisCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureRedisCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class AzureRedisCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_redis_cache duplocloud_azure_redis_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_redis_cache duplocloud_azure_redis_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class AzureRedisCache extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_redis_cache',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

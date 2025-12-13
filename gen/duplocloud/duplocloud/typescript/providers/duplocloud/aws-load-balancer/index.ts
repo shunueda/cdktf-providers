@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the load balancer should drop invalid HTTP headers. Only valid for Load Balancers of type `Application`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#drop_invalid_headers AwsLoadBalancer#drop_invalid_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#drop_invalid_headers AwsLoadBalancer#drop_invalid_headers}
   */
   readonly dropInvalidHeaders?: boolean | cdktf.IResolvable;
   /**
   * Whether or not access logs should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#enable_access_logs AwsLoadBalancer#enable_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#enable_access_logs AwsLoadBalancer#enable_access_logs}
   */
   readonly enableAccessLogs?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the load balancer should redirect HTTP to HTTPS. Only valid for Load Balancers of type `Application`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#http_to_https_redirect AwsLoadBalancer#http_to_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#http_to_https_redirect AwsLoadBalancer#http_to_https_redirect}
   */
   readonly httpToHttpsRedirect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#id AwsLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#id AwsLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface AwsLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time in seconds that the connection is allowed to be idle. Only valid for Load Balancers of type `application`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#idle_timeout AwsLoadBalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#idle_timeout AwsLoadBalancer#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Whether or not the load balancer is internal (non internet-facing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#is_internal AwsLoadBalancer#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#is_internal AwsLoadBalancer#is_internal}
   */
   readonly isInternal?: boolean | cdktf.IResolvable;
   /**
   * The type of load balancer to create. Possible values are `Application` or `Network`. Defaults to `Application`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#load_balancer_type AwsLoadBalancer#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#load_balancer_type AwsLoadBalancer#load_balancer_type}
   */
   readonly loadBalancerType?: string;
   /**
   * The short name of the load balancer.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#name AwsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#name AwsLoadBalancer#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the load balancer will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#tenant_id AwsLoadBalancer#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#tenant_id AwsLoadBalancer#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The ARN of a WAF to attach to the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#web_acl_id AwsLoadBalancer#web_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#web_acl_id AwsLoadBalancer#web_acl_id}
   */
   readonly webAclId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#timeouts AwsLoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#timeouts AwsLoadBalancer#timeouts}
   */
   readonly timeouts?: AwsLoadBalancerTimeouts;
 }
@@ -157,11 +157,11 @@ export class AwsLoadBalancerTagsList extends cdktf.ComplexList {
 }
 export interface AwsLoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#create AwsLoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#create AwsLoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#delete AwsLoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#delete AwsLoadBalancer#delete}
   */
   readonly delete?: string;
 }
@@ -284,7 +284,7 @@ export class AwsLoadBalancerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer duplocloud_aws_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer duplocloud_aws_load_balancer}
 */
 export class AwsLoadBalancer extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class AwsLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLoadBalancer to import
-  * @param importFromId The id of the existing AwsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class AwsLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_load_balancer duplocloud_aws_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_load_balancer duplocloud_aws_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class AwsLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

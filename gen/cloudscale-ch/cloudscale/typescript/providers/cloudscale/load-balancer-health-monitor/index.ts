@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor
+// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerHealthMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#delay_s LoadBalancerHealthMonitor#delay_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#delay_s LoadBalancerHealthMonitor#delay_s}
   */
   readonly delayS?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#down_threshold LoadBalancerHealthMonitor#down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#down_threshold LoadBalancerHealthMonitor#down_threshold}
   */
   readonly downThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#http_expected_codes LoadBalancerHealthMonitor#http_expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#http_expected_codes LoadBalancerHealthMonitor#http_expected_codes}
   */
   readonly httpExpectedCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#http_host LoadBalancerHealthMonitor#http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#http_host LoadBalancerHealthMonitor#http_host}
   */
   readonly httpHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#http_method LoadBalancerHealthMonitor#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#http_method LoadBalancerHealthMonitor#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#http_url_path LoadBalancerHealthMonitor#http_url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#http_url_path LoadBalancerHealthMonitor#http_url_path}
   */
   readonly httpUrlPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#http_version LoadBalancerHealthMonitor#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#http_version LoadBalancerHealthMonitor#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#id LoadBalancerHealthMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#id LoadBalancerHealthMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#pool_uuid LoadBalancerHealthMonitor#pool_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#pool_uuid LoadBalancerHealthMonitor#pool_uuid}
   */
   readonly poolUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#tags LoadBalancerHealthMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#tags LoadBalancerHealthMonitor#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#timeout_s LoadBalancerHealthMonitor#timeout_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#timeout_s LoadBalancerHealthMonitor#timeout_s}
   */
   readonly timeoutS?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#type LoadBalancerHealthMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#type LoadBalancerHealthMonitor#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#up_threshold LoadBalancerHealthMonitor#up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#up_threshold LoadBalancerHealthMonitor#up_threshold}
   */
   readonly upThreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor cloudscale_load_balancer_health_monitor}
+* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor cloudscale_load_balancer_health_monitor}
 */
 export class LoadBalancerHealthMonitor extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class LoadBalancerHealthMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerHealthMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerHealthMonitor to import
-  * @param importFromId The id of the existing LoadBalancerHealthMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerHealthMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerHealthMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class LoadBalancerHealthMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_health_monitor cloudscale_load_balancer_health_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_health_monitor cloudscale_load_balancer_health_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class LoadBalancerHealthMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'cloudscale_load_balancer_health_monitor',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

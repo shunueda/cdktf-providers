@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/region
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/data-sources/region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBunnynetRegionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The code representing a specific region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/region#region_code DataBunnynetRegion#region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/data-sources/region#region_code DataBunnynetRegion#region_code}
   */
   readonly regionCode: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/region bunnynet_region}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/data-sources/region bunnynet_region}
 */
 export class DataBunnynetRegion extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataBunnynetRegion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBunnynetRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetRegion to import
-  * @param importFromId The id of the existing DataBunnynetRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/data-sources/region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataBunnynetRegion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/region bunnynet_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/data-sources/region bunnynet_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataBunnynetRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'bunnynet_region',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

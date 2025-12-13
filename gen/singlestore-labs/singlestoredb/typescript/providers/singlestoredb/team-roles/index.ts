@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TeamRolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of roles assigned to the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#roles TeamRoles#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#roles TeamRoles#roles}
   */
   readonly roles: TeamRolesRoles[] | cdktf.IResolvable;
   /**
   * The unique identifier of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#team_id TeamRoles#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#team_id TeamRoles#team_id}
   */
   readonly teamId: string;
 }
@@ -24,19 +24,19 @@ export interface TeamRolesRoles {
   /**
   * The identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#resource_id TeamRoles#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#resource_id TeamRoles#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#resource_type TeamRoles#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#resource_type TeamRoles#resource_type}
   */
   readonly resourceType: string;
   /**
   * The name of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#role_name TeamRoles#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#role_name TeamRoles#role_name}
   */
   readonly roleName: string;
 }
@@ -201,7 +201,7 @@ export class TeamRolesRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles singlestoredb_team_roles}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles singlestoredb_team_roles}
 */
 export class TeamRoles extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class TeamRoles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamRoles to import
-  * @param importFromId The id of the existing TeamRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class TeamRoles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/team_roles singlestoredb_team_roles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/team_roles singlestoredb_team_roles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class TeamRoles extends cdktf.TerraformResource {
       terraformResourceType: 'singlestoredb_team_roles',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

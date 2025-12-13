@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AwsLambdaFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instruction set architecture for your Lambda function. Valid values are `[x86_64]` and `[arm64]`. Default is `[x86_64]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#architectures AwsLambdaFunction#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#architectures AwsLambdaFunction#architectures}
   */
   readonly architectures?: string[];
   /**
   * A description of the lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#description AwsLambdaFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#description AwsLambdaFunction#description}
   */
   readonly description?: string;
   /**
   * The Ephemeral Storage size, in MB, that your lambda function is allowed to use at runtime. Defaults to `512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#ephemeral_storage AwsLambdaFunction#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#ephemeral_storage AwsLambdaFunction#ephemeral_storage}
   */
   readonly ephemeralStorage?: number;
   /**
   * The [entrypoint](https://docs.aws.amazon.com/lambda/latest/dg/walkthrough-custom-events-create-test-function.html) of the lambda function in your code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#handler AwsLambdaFunction#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#handler AwsLambdaFunction#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#id AwsLambdaFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#id AwsLambdaFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,97 +41,97 @@ export interface AwsLambdaFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The docker image that holds the lambda function's code. Used (and required) only when `package_type` is `"Image"`. The image must be in a private ECR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#image_uri AwsLambdaFunction#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#image_uri AwsLambdaFunction#image_uri}
   */
   readonly imageUri?: string;
   /**
   * List of Lambda Layer Version ARNs (maximum of 5) to attach to your Lambda Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#layers AwsLambdaFunction#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#layers AwsLambdaFunction#layers}
   */
   readonly layers?: string[];
   /**
   * The maximum amount of memory, in MB, that your lambda function is allowed to use at runtime. Defaults to `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#memory_size AwsLambdaFunction#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#memory_size AwsLambdaFunction#memory_size}
   */
   readonly memorySize?: number;
   /**
   * The short name of the lambda function cluster.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#name AwsLambdaFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#name AwsLambdaFunction#name}
   */
   readonly name: string;
   /**
   * The type of lambda package.  Must be `Zip` or `Image`.  Defaults to `Zip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#package_type AwsLambdaFunction#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#package_type AwsLambdaFunction#package_type}
   */
   readonly packageType?: string;
   /**
   * The [runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) that the lambda function needs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#runtime AwsLambdaFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#runtime AwsLambdaFunction#runtime}
   */
   readonly runtime?: string;
   /**
   * The S3 bucket where the lambda function package is located. Used (and required) only when `package_type` is `"Zip"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#s3_bucket AwsLambdaFunction#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#s3_bucket AwsLambdaFunction#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * The S3 key in the S3 bucket where the lambda function package is located. Used (and required) only when `package_type` is `"Zip"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#s3_key AwsLambdaFunction#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#s3_key AwsLambdaFunction#s3_key}
   */
   readonly s3Key?: string;
   /**
   * Map of tags to assign to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#tags AwsLambdaFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#tags AwsLambdaFunction#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the lambda function will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#tenant_id AwsLambdaFunction#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#tenant_id AwsLambdaFunction#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The execution time limit for the lambda function. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#timeout AwsLambdaFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#timeout AwsLambdaFunction#timeout}
   */
   readonly timeout?: number;
   /**
   * dead_letter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#dead_letter_config AwsLambdaFunction#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#dead_letter_config AwsLambdaFunction#dead_letter_config}
   */
   readonly deadLetterConfig?: AwsLambdaFunctionDeadLetterConfig[] | cdktf.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#environment AwsLambdaFunction#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#environment AwsLambdaFunction#environment}
   */
   readonly environment?: AwsLambdaFunctionEnvironment;
   /**
   * image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#image_config AwsLambdaFunction#image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#image_config AwsLambdaFunction#image_config}
   */
   readonly imageConfig?: AwsLambdaFunctionImageConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#timeouts AwsLambdaFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#timeouts AwsLambdaFunction#timeouts}
   */
   readonly timeouts?: AwsLambdaFunctionTimeouts;
   /**
   * tracing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#tracing_config AwsLambdaFunction#tracing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#tracing_config AwsLambdaFunction#tracing_config}
   */
   readonly tracingConfig?: AwsLambdaFunctionTracingConfig;
 }
@@ -139,7 +139,7 @@ export interface AwsLambdaFunctionDeadLetterConfig {
   /**
   * ARN of an SNS topic or SQS queue to notify when an invocation fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#target_arn AwsLambdaFunction#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#target_arn AwsLambdaFunction#target_arn}
   */
   readonly targetArn?: string;
 }
@@ -257,7 +257,7 @@ export interface AwsLambdaFunctionEnvironment {
   /**
   * Map of environment variables that are accessible from the function code during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#variables AwsLambdaFunction#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#variables AwsLambdaFunction#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -343,19 +343,19 @@ export interface AwsLambdaFunctionImageConfig {
   /**
   * The command that is passed to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#command AwsLambdaFunction#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#command AwsLambdaFunction#command}
   */
   readonly command?: string[];
   /**
   * The entry point that is passed to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#entry_point AwsLambdaFunction#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#entry_point AwsLambdaFunction#entry_point}
   */
   readonly entryPoint?: string[];
   /**
   * The working directory that is passed to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#working_directory AwsLambdaFunction#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#working_directory AwsLambdaFunction#working_directory}
   */
   readonly workingDirectory?: string;
 }
@@ -497,11 +497,11 @@ export class AwsLambdaFunctionImageConfigOutputReference extends cdktf.ComplexOb
 }
 export interface AwsLambdaFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#create AwsLambdaFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#create AwsLambdaFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#delete AwsLambdaFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#delete AwsLambdaFunction#delete}
   */
   readonly delete?: string;
 }
@@ -626,7 +626,7 @@ export interface AwsLambdaFunctionTracingConfig {
   /**
   * Whether to sample and trace a subset of incoming requests with AWS X-Ray. Valid values are `PassThrough` and `Active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#mode AwsLambdaFunction#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#mode AwsLambdaFunction#mode}
   */
   readonly mode: string;
 }
@@ -707,7 +707,7 @@ export class AwsLambdaFunctionTracingConfigOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function duplocloud_aws_lambda_function}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function duplocloud_aws_lambda_function}
 */
 export class AwsLambdaFunction extends cdktf.TerraformResource {
 
@@ -723,7 +723,7 @@ export class AwsLambdaFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLambdaFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLambdaFunction to import
-  * @param importFromId The id of the existing AwsLambdaFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLambdaFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLambdaFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -735,7 +735,7 @@ export class AwsLambdaFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_function duplocloud_aws_lambda_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_lambda_function duplocloud_aws_lambda_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -746,8 +746,8 @@ export class AwsLambdaFunction extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lambda_function',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

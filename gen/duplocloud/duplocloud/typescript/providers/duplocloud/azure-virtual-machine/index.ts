@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AzureVirtualMachineConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specify domain service provided by Microsoft Azure for managing identities and access in the cloud. Valid values are `aadjoin` or `addsjoin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#ad_domain_type AzureVirtualMachine#ad_domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#ad_domain_type AzureVirtualMachine#ad_domain_type}
   */
   readonly adDomainType?: string;
   /**
   * The password associated with the local administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#admin_password AzureVirtualMachine#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#admin_password AzureVirtualMachine#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Specifies the name of the local administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#admin_username AzureVirtualMachine#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#admin_username AzureVirtualMachine#admin_username}
   */
   readonly adminUsername: string;
   /**
@@ -31,83 +31,83 @@ export interface AzureVirtualMachineConfig extends cdktf.TerraformMetaArguments 
   *  - 0: Linux Docker/Native
   * - 5: Docker Windows Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#agent_platform AzureVirtualMachine#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#agent_platform AzureVirtualMachine#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
   * Whether or not to allocate a public IP. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#allocated_public_ip AzureVirtualMachine#allocated_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#allocated_public_ip AzureVirtualMachine#allocated_public_ip}
   */
   readonly allocatedPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Specify availability set id to which virtual machine should be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#availability_set_id AzureVirtualMachine#availability_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#availability_set_id AzureVirtualMachine#availability_set_id}
   */
   readonly availabilitySetId?: string;
   /**
   * Base64 encoded user data to associated with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#base64_user_data AzureVirtualMachine#base64_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#base64_user_data AzureVirtualMachine#base64_user_data}
   */
   readonly base64UserData?: string;
   /**
   * Specifies the [size of the Virtual Machine](https://docs.microsoft.com/azure/virtual-machines/sizes-general). See also [Azure VM Naming Conventions](https://docs.microsoft.com/azure/virtual-machines/vm-naming-conventions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#capacity AzureVirtualMachine#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#capacity AzureVirtualMachine#capacity}
   */
   readonly capacity: string;
   /**
   * disk control types refer to the different levels of management and performance control provided for disks attached to virtual machines (VMs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#disk_control_type AzureVirtualMachine#disk_control_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#disk_control_type AzureVirtualMachine#disk_control_type}
   */
   readonly diskControlType?: string;
   /**
   * Specifies the size of the OS Disk in gigabytes Defaults to `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#disk_size_gb AzureVirtualMachine#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#disk_size_gb AzureVirtualMachine#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#enable_encrypt_at_host AzureVirtualMachine#enable_encrypt_at_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#enable_encrypt_at_host AzureVirtualMachine#enable_encrypt_at_host}
   */
   readonly enableEncryptAtHost?: boolean | cdktf.IResolvable;
   /**
   * Enable log analytics on virtual machine. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#enable_log_analytics AzureVirtualMachine#enable_log_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#enable_log_analytics AzureVirtualMachine#enable_log_analytics}
   */
   readonly enableLogAnalytics?: boolean | cdktf.IResolvable;
   /**
   * Specify to enable Secure Boot for your VM. Used with security_type=TrustedLaunch Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#enable_security_boot AzureVirtualMachine#enable_security_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#enable_security_boot AzureVirtualMachine#enable_security_boot}
   */
   readonly enableSecurityBoot?: boolean | cdktf.IResolvable;
   /**
   * Specify to enable virtual Trusted Platform Module (vTPM) for Azure VM. Used with security_type=TrustedLaunch Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#enable_vtpm AzureVirtualMachine#enable_vtpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#enable_vtpm AzureVirtualMachine#enable_vtpm}
   */
   readonly enableVtpm?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#encrypt_disk AzureVirtualMachine#encrypt_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#encrypt_disk AzureVirtualMachine#encrypt_disk}
   */
   readonly encryptDisk?: boolean | cdktf.IResolvable;
   /**
   * The short name of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#friendly_name AzureVirtualMachine#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#friendly_name AzureVirtualMachine#friendly_name}
   */
   readonly friendlyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#id AzureVirtualMachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#id AzureVirtualMachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,29 +116,29 @@ export interface AzureVirtualMachineConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Image ID to use to create virtual machine. Provide id as semicolon separated string with sequence of sku, publisher and offer. For example, 16.04-LTS;Canonical;UbuntuServe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#image_id AzureVirtualMachine#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#image_id AzureVirtualMachine#image_id}
   */
   readonly imageId: string;
   /**
   * Bootstrap an AKS host with Duplo's user data, prepending it to custom user data if also provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#install_duplo_native_agent AzureVirtualMachine#install_duplo_native_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#install_duplo_native_agent AzureVirtualMachine#install_duplo_native_agent}
   */
   readonly installDuploNativeAgent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#is_minion AzureVirtualMachine#is_minion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#is_minion AzureVirtualMachine#is_minion}
   */
   readonly isMinion?: boolean | cdktf.IResolvable;
   /**
   * Join a Windows Server virtual machine to an Azure Active Directory Domain Services. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#join_domain AzureVirtualMachine#join_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#join_domain AzureVirtualMachine#join_domain}
   */
   readonly joinDomain?: boolean | cdktf.IResolvable;
   /**
   * Specifies the type of managed disk to create. Possible values are either `Standard_LRS`, `StandardSSD_LRS`, `Premium_LRS`, `PremiumV2_LRS`, `Premium_ZRS`, `StandardSSD_ZRS` or `UltraSSD_LRS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#os_disk_type AzureVirtualMachine#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#os_disk_type AzureVirtualMachine#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
@@ -147,65 +147,65 @@ export interface AzureVirtualMachineConfig extends cdktf.TerraformMetaArguments 
   * 			[Supported Sizes](https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch#virtual-machines-sizes)
   * 			 Defaults to `Standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#security_type AzureVirtualMachine#security_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#security_type AzureVirtualMachine#security_type}
   */
   readonly securityType?: string;
   /**
   * Subnet ID which should be associated with the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#subnet_id AzureVirtualMachine#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#subnet_id AzureVirtualMachine#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The GUID of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#tenant_id AzureVirtualMachine#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#tenant_id AzureVirtualMachine#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the time zone of the virtual machine, [the possible values are defined here](https://jackstromberg.com/2017/01/list-of-time-zones-consumed-by-azure/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#timezone AzureVirtualMachine#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#timezone AzureVirtualMachine#timezone}
   */
   readonly timezone?: string;
   /**
   * Whether or not to wait until azure virtual machine to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#wait_until_ready AzureVirtualMachine#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#wait_until_ready AzureVirtualMachine#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * minion_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#minion_tags AzureVirtualMachine#minion_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#minion_tags AzureVirtualMachine#minion_tags}
   */
   readonly minionTags?: AzureVirtualMachineMinionTags[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#tags AzureVirtualMachine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#tags AzureVirtualMachine#tags}
   */
   readonly tags?: AzureVirtualMachineTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#timeouts AzureVirtualMachine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#timeouts AzureVirtualMachine#timeouts}
   */
   readonly timeouts?: AzureVirtualMachineTimeouts;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#volume AzureVirtualMachine#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#volume AzureVirtualMachine#volume}
   */
   readonly volume?: AzureVirtualMachineVolume[] | cdktf.IResolvable;
 }
 export interface AzureVirtualMachineMinionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#key AzureVirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#key AzureVirtualMachine#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#value AzureVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#value AzureVirtualMachine#value}
   */
   readonly value: string;
 }
@@ -344,11 +344,11 @@ export class AzureVirtualMachineMinionTagsList extends cdktf.ComplexList {
 }
 export interface AzureVirtualMachineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#key AzureVirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#key AzureVirtualMachine#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#value AzureVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#value AzureVirtualMachine#value}
   */
   readonly value: string;
 }
@@ -487,11 +487,11 @@ export class AzureVirtualMachineTagsList extends cdktf.ComplexList {
 }
 export interface AzureVirtualMachineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#create AzureVirtualMachine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#create AzureVirtualMachine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#delete AzureVirtualMachine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#delete AzureVirtualMachine#delete}
   */
   readonly delete?: string;
 }
@@ -614,23 +614,23 @@ export class AzureVirtualMachineTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface AzureVirtualMachineVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#iops AzureVirtualMachine#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#iops AzureVirtualMachine#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#name AzureVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#name AzureVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#size AzureVirtualMachine#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#size AzureVirtualMachine#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#volume_id AzureVirtualMachine#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#volume_id AzureVirtualMachine#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#volume_type AzureVirtualMachine#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#volume_type AzureVirtualMachine#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -862,7 +862,7 @@ export class AzureVirtualMachineVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine duplocloud_azure_virtual_machine}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine duplocloud_azure_virtual_machine}
 */
 export class AzureVirtualMachine extends cdktf.TerraformResource {
 
@@ -878,7 +878,7 @@ export class AzureVirtualMachine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureVirtualMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureVirtualMachine to import
-  * @param importFromId The id of the existing AzureVirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureVirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureVirtualMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -890,7 +890,7 @@ export class AzureVirtualMachine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine duplocloud_azure_virtual_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine duplocloud_azure_virtual_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -901,8 +901,8 @@ export class AzureVirtualMachine extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_virtual_machine',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

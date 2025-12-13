@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project
+// https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,67 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#default_node_executor_plugin Project#default_node_executor_plugin}
+  * Default node executor plugin.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#default_node_executor_plugin Project#default_node_executor_plugin}
   */
   readonly defaultNodeExecutorPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#default_node_file_copier_plugin Project#default_node_file_copier_plugin}
+  * Default node file copier plugin.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#default_node_file_copier_plugin Project#default_node_file_copier_plugin}
   */
   readonly defaultNodeFileCopierPlugin?: string;
   /**
-  * Description of the project to be shown in the Rundeck UI
+  * Description of the project to be shown in the Rundeck UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * Additional raw configuration parameters to include in the project configuration, with dots replaced with slashes in the key names due to limitations in Terraform's config language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#extra_config Project#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#extra_config Project#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#id Project#id}
+  * Unique name for the project.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Unique name for the project
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_authentication_type Project#ssh_authentication_type}
+  * Resource model sources configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#resource_model_source Project#resource_model_source}
+  */
+  readonly resourceModelSource: ProjectResourceModelSource[] | cdktf.IResolvable;
+  /**
+  * SSH authentication type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#ssh_authentication_type Project#ssh_authentication_type}
   */
   readonly sshAuthenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_key_file_path Project#ssh_key_file_path}
+  * Path to SSH key file on filesystem.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#ssh_key_file_path Project#ssh_key_file_path}
   */
   readonly sshKeyFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_key_storage_path Project#ssh_key_storage_path}
+  * Path to SSH key in Rundeck key storage.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#ssh_key_storage_path Project#ssh_key_storage_path}
   */
   readonly sshKeyStoragePath?: string;
-  /**
-  * resource_model_source block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#resource_model_source Project#resource_model_source}
-  */
-  readonly resourceModelSource: ProjectResourceModelSource[] | cdktf.IResolvable;
 }
 export interface ProjectResourceModelSource {
   /**
-  * Configuration parameters for the selected plugin
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#config Project#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#config Project#config}
   */
   readonly config: { [key: string]: string };
   /**
-  * Name of the resource model plugin to use
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#type Project#type}
   */
   readonly type: string;
 }
@@ -208,7 +207,7 @@ export class ProjectResourceModelSourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project rundeck_project}
+* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project rundeck_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -224,7 +223,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +235,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project rundeck_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/project rundeck_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +246,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'rundeck_project',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.5',
-        providerVersionConstraint: '0.5.5'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -262,19 +261,18 @@ export class Project extends cdktf.TerraformResource {
     this._defaultNodeFileCopierPlugin = config.defaultNodeFileCopierPlugin;
     this._description = config.description;
     this._extraConfig = config.extraConfig;
-    this._id = config.id;
     this._name = config.name;
+    this._resourceModelSource.internalValue = config.resourceModelSource;
     this._sshAuthenticationType = config.sshAuthenticationType;
     this._sshKeyFilePath = config.sshKeyFilePath;
     this._sshKeyStoragePath = config.sshKeyStoragePath;
-    this._resourceModelSource.internalValue = config.resourceModelSource;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // default_node_executor_plugin - computed: false, optional: true, required: false
+  // default_node_executor_plugin - computed: true, optional: true, required: false
   private _defaultNodeExecutorPlugin?: string; 
   public get defaultNodeExecutorPlugin() {
     return this.getStringAttribute('default_node_executor_plugin');
@@ -290,7 +288,7 @@ export class Project extends cdktf.TerraformResource {
     return this._defaultNodeExecutorPlugin;
   }
 
-  // default_node_file_copier_plugin - computed: false, optional: true, required: false
+  // default_node_file_copier_plugin - computed: true, optional: true, required: false
   private _defaultNodeFileCopierPlugin?: string; 
   public get defaultNodeFileCopierPlugin() {
     return this.getStringAttribute('default_node_file_copier_plugin');
@@ -306,7 +304,7 @@ export class Project extends cdktf.TerraformResource {
     return this._defaultNodeFileCopierPlugin;
   }
 
-  // description - computed: false, optional: true, required: false
+  // description - computed: true, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -322,7 +320,7 @@ export class Project extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // extra_config - computed: false, optional: true, required: false
+  // extra_config - computed: true, optional: true, required: false
   private _extraConfig?: { [key: string]: string }; 
   public get extraConfig() {
     return this.getStringMapAttribute('extra_config');
@@ -338,20 +336,9 @@ export class Project extends cdktf.TerraformResource {
     return this._extraConfig;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -367,7 +354,20 @@ export class Project extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // ssh_authentication_type - computed: false, optional: true, required: false
+  // resource_model_source - computed: false, optional: false, required: true
+  private _resourceModelSource = new ProjectResourceModelSourceList(this, "resource_model_source", false);
+  public get resourceModelSource() {
+    return this._resourceModelSource;
+  }
+  public putResourceModelSource(value: ProjectResourceModelSource[] | cdktf.IResolvable) {
+    this._resourceModelSource.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceModelSourceInput() {
+    return this._resourceModelSource.internalValue;
+  }
+
+  // ssh_authentication_type - computed: true, optional: true, required: false
   private _sshAuthenticationType?: string; 
   public get sshAuthenticationType() {
     return this.getStringAttribute('ssh_authentication_type');
@@ -420,19 +420,6 @@ export class Project extends cdktf.TerraformResource {
     return this.getStringAttribute('ui_url');
   }
 
-  // resource_model_source - computed: false, optional: false, required: true
-  private _resourceModelSource = new ProjectResourceModelSourceList(this, "resource_model_source", false);
-  public get resourceModelSource() {
-    return this._resourceModelSource;
-  }
-  public putResourceModelSource(value: ProjectResourceModelSource[] | cdktf.IResolvable) {
-    this._resourceModelSource.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get resourceModelSourceInput() {
-    return this._resourceModelSource.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -443,12 +430,11 @@ export class Project extends cdktf.TerraformResource {
       default_node_file_copier_plugin: cdktf.stringToTerraform(this._defaultNodeFileCopierPlugin),
       description: cdktf.stringToTerraform(this._description),
       extra_config: cdktf.hashMapper(cdktf.stringToTerraform)(this._extraConfig),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      resource_model_source: cdktf.listMapper(projectResourceModelSourceToTerraform, false)(this._resourceModelSource.internalValue),
       ssh_authentication_type: cdktf.stringToTerraform(this._sshAuthenticationType),
       ssh_key_file_path: cdktf.stringToTerraform(this._sshKeyFilePath),
       ssh_key_storage_path: cdktf.stringToTerraform(this._sshKeyStoragePath),
-      resource_model_source: cdktf.listMapper(projectResourceModelSourceToTerraform, true)(this._resourceModelSource.internalValue),
     };
   }
 
@@ -478,17 +464,17 @@ export class Project extends cdktf.TerraformResource {
         type: "map",
         storageClassType: "stringMap",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      resource_model_source: {
+        value: cdktf.listMapperHcl(projectResourceModelSourceToHclTerraform, false)(this._resourceModelSource.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ProjectResourceModelSourceList",
       },
       ssh_authentication_type: {
         value: cdktf.stringToHclTerraform(this._sshAuthenticationType),
@@ -507,12 +493,6 @@ export class Project extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      resource_model_source: {
-        value: cdktf.listMapperHcl(projectResourceModelSourceToHclTerraform, true)(this._resourceModelSource.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "ProjectResourceModelSourceList",
       },
     };
 

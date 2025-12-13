@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface WorkspaceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The admin SQL user password for the workspace group. If not provided, the server will automatically generate a secure password. Please note that updates to the admin password might take a brief moment to become effective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#admin_password WorkspaceGroup#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#admin_password WorkspaceGroup#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * The name of the cloud provider used to resolve region. Possible values are 'AWS', 'GCP', and 'Azure'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#cloud_provider WorkspaceGroup#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#cloud_provider WorkspaceGroup#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The deployment type that will be applied to all the workspaces within the workspace group. It can have one of the following values: `PRODUCTION` or `NON-PRODUCTION`. The default value is `PRODUCTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#deployment_type WorkspaceGroup#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#deployment_type WorkspaceGroup#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * The expiration timestamp of the workspace group. If not specified, the workspace group never expires. Upon expiration, the workspace group is terminated and all its data is lost. Set the expiration time as an RFC3339 UTC timestamp, e.g., "2221-01-02T15:04:05Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#expires_at WorkspaceGroup#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#expires_at WorkspaceGroup#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * List of allowed CIDR ranges. An empty list blocks all inbound requests. For unrestricted traffic, use ["0.0.0.0/0"]. Note that updates to firewall ranges may take a brief moment to become effective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#firewall_ranges WorkspaceGroup#firewall_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#firewall_ranges WorkspaceGroup#firewall_ranges}
   */
   readonly firewallRanges: string[];
   /**
   * Enables deployment across two Availability Zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#high_availability_two_zones WorkspaceGroup#high_availability_two_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#high_availability_two_zones WorkspaceGroup#high_availability_two_zones}
   */
   readonly highAvailabilityTwoZones?: boolean | cdktf.IResolvable;
   /**
   * Name of the workspace group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#name WorkspaceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#name WorkspaceGroup#name}
   */
   readonly name: string;
   /**
   * If enabled, the deployment gets the latest features and updates immediately. Suitable only for `NON-PRODUCTION` deployments and cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#opt_in_preview_feature WorkspaceGroup#opt_in_preview_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#opt_in_preview_feature WorkspaceGroup#opt_in_preview_feature}
   */
   readonly optInPreviewFeature?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier of the region where the workspace group is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#region_id WorkspaceGroup#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#region_id WorkspaceGroup#region_id}
   */
   readonly regionId?: string;
   /**
   * The region code name used to resolve region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#region_name WorkspaceGroup#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#region_name WorkspaceGroup#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group singlestoredb_workspace_group}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group singlestoredb_workspace_group}
 */
 export class WorkspaceGroup extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class WorkspaceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceGroup to import
-  * @param importFromId The id of the existing WorkspaceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class WorkspaceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace_group singlestoredb_workspace_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/workspace_group singlestoredb_workspace_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class WorkspaceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'singlestoredb_workspace_group',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

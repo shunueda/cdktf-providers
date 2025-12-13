@@ -21,6 +21,7 @@ export * as dynamicSecretKubernetes from './dynamic-secret-kubernetes';
 export * as dynamicSecretMongoAtlas from './dynamic-secret-mongo-atlas';
 export * as dynamicSecretMongoDb from './dynamic-secret-mongo-db';
 export * as dynamicSecretSqlDatabase from './dynamic-secret-sql-database';
+export * as externalKmsAws from './external-kms-aws';
 export * as group from './group';
 export * as identity from './identity';
 export * as identityAwsAuth from './identity-aws-auth';

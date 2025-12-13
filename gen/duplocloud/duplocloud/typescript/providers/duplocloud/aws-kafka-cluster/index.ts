@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsKafkaClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * An ARN of a Kafka configuration to apply to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#configuration_arn AwsKafkaCluster#configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#configuration_arn AwsKafkaCluster#configuration_arn}
   */
   readonly configurationArn?: string;
   /**
   * An revision of a Kafka configuration to apply to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#configuration_revision AwsKafkaCluster#configuration_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#configuration_revision AwsKafkaCluster#configuration_revision}
   */
   readonly configurationRevision?: number;
   /**
   * Encryption setting for data in transit between clients and brokers. Valid values: `TLS`, `TLS_PLAINTEXT`, and `PLAINTEXT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#encryption_in_transit AwsKafkaCluster#encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#encryption_in_transit AwsKafkaCluster#encryption_in_transit}
   */
   readonly encryptionInTransit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#id AwsKafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#id AwsKafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,57 +36,57 @@ export interface AwsKafkaClusterConfig extends cdktf.TerraformMetaArguments {
   * The Kafka node instance type to use.
   * See the [AWS documentation](https://docs.aws.amazon.com/msk/latest/developerguide/msk-create-cluster.html) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#instance_type AwsKafkaCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#instance_type AwsKafkaCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * The version of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#kafka_version AwsKafkaCluster#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#kafka_version AwsKafkaCluster#kafka_version}
   */
   readonly kafkaVersion: string;
   /**
   * The short name of the Kafka cluster.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#name AwsKafkaCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#name AwsKafkaCluster#name}
   */
   readonly name: string;
   /**
   * The size of the Kafka storage, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#storage_size AwsKafkaCluster#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#storage_size AwsKafkaCluster#storage_size}
   */
   readonly storageSize: number;
   /**
   * The list of subnets that the cluster will be launched in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#subnets AwsKafkaCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#subnets AwsKafkaCluster#subnets}
   */
   readonly subnets?: string[];
   /**
   * The GUID of the tenant that the Kafka cluster will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#tenant_id AwsKafkaCluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#tenant_id AwsKafkaCluster#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#timeouts AwsKafkaCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#timeouts AwsKafkaCluster#timeouts}
   */
   readonly timeouts?: AwsKafkaClusterTimeouts;
 }
 export interface AwsKafkaClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#create AwsKafkaCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#create AwsKafkaCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#delete AwsKafkaCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#delete AwsKafkaCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#update AwsKafkaCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#update AwsKafkaCluster#update}
   */
   readonly update?: string;
 }
@@ -238,7 +238,7 @@ export class AwsKafkaClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster duplocloud_aws_kafka_cluster}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster duplocloud_aws_kafka_cluster}
 */
 export class AwsKafkaCluster extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class AwsKafkaCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsKafkaCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsKafkaCluster to import
-  * @param importFromId The id of the existing AwsKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsKafkaCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class AwsKafkaCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_kafka_cluster duplocloud_aws_kafka_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_kafka_cluster duplocloud_aws_kafka_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class AwsKafkaCluster extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_kafka_cluster',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

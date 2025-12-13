@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSinglestoredbWorkspaceGroupConfig extends cdktf.TerraformMe
   /**
   * The unique identifier of the workspace group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group#id DataSinglestoredbWorkspaceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group#id DataSinglestoredbWorkspaceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataSinglestoredbWorkspaceGroupConfig extends cdktf.TerraformMe
   /**
   * The name of the workspace group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group#name DataSinglestoredbWorkspaceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group#name DataSinglestoredbWorkspaceGroup#name}
   */
   readonly name?: string;
 }
@@ -84,7 +84,7 @@ export class DataSinglestoredbWorkspaceGroupUpdateWindowOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group singlestoredb_workspace_group}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group singlestoredb_workspace_group}
 */
 export class DataSinglestoredbWorkspaceGroup extends cdktf.TerraformDataSource {
 
@@ -100,7 +100,7 @@ export class DataSinglestoredbWorkspaceGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbWorkspaceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbWorkspaceGroup to import
-  * @param importFromId The id of the existing DataSinglestoredbWorkspaceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbWorkspaceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbWorkspaceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -112,7 +112,7 @@ export class DataSinglestoredbWorkspaceGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspace_group singlestoredb_workspace_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/data-sources/workspace_group singlestoredb_workspace_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -123,8 +123,8 @@ export class DataSinglestoredbWorkspaceGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_workspace_group',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `scaleway_edge_services_pipeline`
 
-Refer to the Terraform Registry for docs: [`scaleway_edge_services_pipeline`](https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/edge_services_pipeline).
+Refer to the Terraform Registry for docs: [`scaleway_edge_services_pipeline`](https://registry.terraform.io/providers/scaleway/scaleway/2.65.1/docs/resources/edge_services_pipeline).

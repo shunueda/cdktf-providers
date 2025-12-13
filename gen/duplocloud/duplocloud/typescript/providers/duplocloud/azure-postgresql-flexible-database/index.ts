@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AzurePostgresqlFlexibleDatabaseConfig extends cdktf.TerraformMe
   /**
   * The Administrator Login for the PostgreSQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#administrator_login AzurePostgresqlFlexibleDatabase#administrator_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#administrator_login AzurePostgresqlFlexibleDatabase#administrator_login}
   */
   readonly administratorLogin: string;
   /**
   * The Password associated with the `administrator_login` for the PostgreSQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#administrator_login_password AzurePostgresqlFlexibleDatabase#administrator_login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#administrator_login_password AzurePostgresqlFlexibleDatabase#administrator_login_password}
   */
   readonly administratorLoginPassword: string;
   /**
   * Backup retention days for the server, supported values are between `7` and `35` days. Note: Updation allowed on updating with higher retention days value from current
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#backup_retention_days AzurePostgresqlFlexibleDatabase#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#backup_retention_days AzurePostgresqlFlexibleDatabase#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
   * Turn Geo-redundant server backups Enabled/Disabled. To enable or disable geo_redundant_backup resource need to be recreated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#geo_redundant_backup AzurePostgresqlFlexibleDatabase#geo_redundant_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#geo_redundant_backup AzurePostgresqlFlexibleDatabase#geo_redundant_backup}
   */
   readonly geoRedundantBackup?: string;
   /**
   * Specify compute based on service tier by prepending Standard_ keyword from following document https://azure.microsoft.com/en-in/pricing/details/postgresql/flexible-server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#hardware AzurePostgresqlFlexibleDatabase#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#hardware AzurePostgresqlFlexibleDatabase#hardware}
   */
   readonly hardware: string;
   /**
   * High availability options— Disabled, SameZone, and ZoneRedundant — are applicable if the service tier is set to GeneralPurpose or MemoryOptimized. Defaults to `Disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#high_availability AzurePostgresqlFlexibleDatabase#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#high_availability AzurePostgresqlFlexibleDatabase#high_availability}
   */
   readonly highAvailability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#id AzurePostgresqlFlexibleDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#id AzurePostgresqlFlexibleDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,57 +53,57 @@ export interface AzurePostgresqlFlexibleDatabaseConfig extends cdktf.TerraformMe
   /**
   * Specifies the name of the PostgreSQL Server. Changing this forces a new resource to be created. This needs to be globally unique within Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#name AzurePostgresqlFlexibleDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#name AzurePostgresqlFlexibleDatabase#name}
   */
   readonly name: string;
   /**
   * Specify service_tier among `Burstable`, `GeneralPurpose` or `MemoryOptimized`. Note: should disable high_availability before updating to Burstable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#service_tier AzurePostgresqlFlexibleDatabase#service_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#service_tier AzurePostgresqlFlexibleDatabase#service_tier}
   */
   readonly serviceTier: string;
   /**
   * Max storage allowed for a server. Possible values are `32`,`64`,`128`,`256`,`512`,`1024`,`2048`,`4096`,`8192`,`16384`,`32768` GB. Note: Updation allowed on updating with higher storage size from current
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#storage_gb AzurePostgresqlFlexibleDatabase#storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#storage_gb AzurePostgresqlFlexibleDatabase#storage_gb}
   */
   readonly storageGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#subnet AzurePostgresqlFlexibleDatabase#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#subnet AzurePostgresqlFlexibleDatabase#subnet}
   */
   readonly subnet: string;
   /**
   * The GUID of the tenant that the azure postgresql database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#tenant_id AzurePostgresqlFlexibleDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#tenant_id AzurePostgresqlFlexibleDatabase#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the version of PostgreSQL Flexible DB to use. Valid values are `16`,`15`,`14`,`13`,`12`,`11`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#version AzurePostgresqlFlexibleDatabase#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#version AzurePostgresqlFlexibleDatabase#version}
   */
   readonly version: string;
   /**
   * Whether or not to wait until PostgreSQL Server instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#wait_until_ready AzurePostgresqlFlexibleDatabase#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#wait_until_ready AzurePostgresqlFlexibleDatabase#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#timeouts AzurePostgresqlFlexibleDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#timeouts AzurePostgresqlFlexibleDatabase#timeouts}
   */
   readonly timeouts?: AzurePostgresqlFlexibleDatabaseTimeouts;
 }
 export interface AzurePostgresqlFlexibleDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#create AzurePostgresqlFlexibleDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#create AzurePostgresqlFlexibleDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#delete AzurePostgresqlFlexibleDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#delete AzurePostgresqlFlexibleDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -226,7 +226,7 @@ export class AzurePostgresqlFlexibleDatabaseTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database duplocloud_azure_postgresql_flexible_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database duplocloud_azure_postgresql_flexible_database}
 */
 export class AzurePostgresqlFlexibleDatabase extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class AzurePostgresqlFlexibleDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzurePostgresqlFlexibleDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePostgresqlFlexibleDatabase to import
-  * @param importFromId The id of the existing AzurePostgresqlFlexibleDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePostgresqlFlexibleDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePostgresqlFlexibleDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class AzurePostgresqlFlexibleDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_database duplocloud_azure_postgresql_flexible_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_postgresql_flexible_database duplocloud_azure_postgresql_flexible_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class AzurePostgresqlFlexibleDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_postgresql_flexible_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

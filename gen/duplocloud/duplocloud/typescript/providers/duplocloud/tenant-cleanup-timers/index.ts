@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TenantCleanupTimersConfig extends cdktf.TerraformMetaArguments 
   /**
   * The expiry time of the tenant, in UTC with the format YYYY-MM-DDTHH:MM:SSZ (e.g. `2021-06-01T00:00:00Z`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#expiry_time TenantCleanupTimers#expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#expiry_time TenantCleanupTimers#expiry_time}
   */
   readonly expiryTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#id TenantCleanupTimers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#id TenantCleanupTimers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,45 +23,45 @@ export interface TenantCleanupTimersConfig extends cdktf.TerraformMetaArguments 
   /**
   * The time to pause the tenant, in UTC with the format YYYY-MM-DDTHH:MM:SSZ (e.g. `2021-06-01T00:00:00Z`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#pause_time TenantCleanupTimers#pause_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#pause_time TenantCleanupTimers#pause_time}
   */
   readonly pauseTime?: string;
   /**
   * Whether to remove the expiry time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#remove_expiry_time TenantCleanupTimers#remove_expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#remove_expiry_time TenantCleanupTimers#remove_expiry_time}
   */
   readonly removeExpiryTime?: boolean | cdktf.IResolvable;
   /**
   * Whether to remove the pause time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#remove_pause_time TenantCleanupTimers#remove_pause_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#remove_pause_time TenantCleanupTimers#remove_pause_time}
   */
   readonly removePauseTime?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the expiry will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#tenant_id TenantCleanupTimers#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#tenant_id TenantCleanupTimers#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#timeouts TenantCleanupTimers#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#timeouts TenantCleanupTimers#timeouts}
   */
   readonly timeouts?: TenantCleanupTimersTimeouts;
 }
 export interface TenantCleanupTimersTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#create TenantCleanupTimers#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#create TenantCleanupTimers#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#delete TenantCleanupTimers#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#delete TenantCleanupTimers#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#update TenantCleanupTimers#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#update TenantCleanupTimers#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class TenantCleanupTimersTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers duplocloud_tenant_cleanup_timers}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers duplocloud_tenant_cleanup_timers}
 */
 export class TenantCleanupTimers extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class TenantCleanupTimers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantCleanupTimers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantCleanupTimers to import
-  * @param importFromId The id of the existing TenantCleanupTimers that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantCleanupTimers that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantCleanupTimers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class TenantCleanupTimers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_cleanup_timers duplocloud_tenant_cleanup_timers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_cleanup_timers duplocloud_tenant_cleanup_timers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class TenantCleanupTimers extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_cleanup_timers',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

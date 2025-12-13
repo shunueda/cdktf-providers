@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzurePrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#id AzurePrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#id AzurePrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface AzurePrivateEndpointConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the Name of the Private Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#name AzurePrivateEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#name AzurePrivateEndpoint#name}
   */
   readonly name: string;
   /**
   * The ID of the Subnet from which Private IP Addresses will be allocated for this Private Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#subnet_id AzurePrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#subnet_id AzurePrivateEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The GUID of the tenant that the azure private endpoint will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#tenant_id AzurePrivateEndpoint#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#tenant_id AzurePrivateEndpoint#tenant_id}
   */
   readonly tenantId: string;
   /**
   * private_link_service_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#private_link_service_connection AzurePrivateEndpoint#private_link_service_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#private_link_service_connection AzurePrivateEndpoint#private_link_service_connection}
   */
   readonly privateLinkServiceConnection: AzurePrivateEndpointPrivateLinkServiceConnection[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#timeouts AzurePrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#timeouts AzurePrivateEndpoint#timeouts}
   */
   readonly timeouts?: AzurePrivateEndpointTimeouts;
 }
 export interface AzurePrivateEndpointPrivateLinkServiceConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#group_ids AzurePrivateEndpoint#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#group_ids AzurePrivateEndpoint#group_ids}
   */
   readonly groupIds: string[];
   /**
   * Specifies the Name of the Private Service Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#name AzurePrivateEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#name AzurePrivateEndpoint#name}
   */
   readonly name: string;
   /**
   * The ID of the Private Link Enabled Remote Resource which this Private Endpoint should be connected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#private_connection_resource_id AzurePrivateEndpoint#private_connection_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#private_connection_resource_id AzurePrivateEndpoint#private_connection_resource_id}
   */
   readonly privateConnectionResourceId: string;
 }
@@ -224,11 +224,11 @@ export class AzurePrivateEndpointPrivateLinkServiceConnectionList extends cdktf.
 }
 export interface AzurePrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#create AzurePrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#create AzurePrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#delete AzurePrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#delete AzurePrivateEndpoint#delete}
   */
   readonly delete?: string;
 }
@@ -351,7 +351,7 @@ export class AzurePrivateEndpointTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint duplocloud_azure_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint duplocloud_azure_private_endpoint}
 */
 export class AzurePrivateEndpoint extends cdktf.TerraformResource {
 
@@ -367,7 +367,7 @@ export class AzurePrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzurePrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePrivateEndpoint to import
-  * @param importFromId The id of the existing AzurePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -379,7 +379,7 @@ export class AzurePrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_private_endpoint duplocloud_azure_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_private_endpoint duplocloud_azure_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -390,8 +390,8 @@ export class AzurePrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

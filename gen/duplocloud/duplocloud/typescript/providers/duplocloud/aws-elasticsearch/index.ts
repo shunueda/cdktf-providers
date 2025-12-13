@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsElasticsearchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The version of the ElasticSearch instance. Defaults to `7.9`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#elasticsearch_version AwsElasticsearch#elasticsearch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#elasticsearch_version AwsElasticsearch#elasticsearch_version}
   */
   readonly elasticsearchVersion?: string;
   /**
   * Whether or not to use the enable node-to-node encryption for this ElasticSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#enable_node_to_node_encryption AwsElasticsearch#enable_node_to_node_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#enable_node_to_node_encryption AwsElasticsearch#enable_node_to_node_encryption}
   */
   readonly enableNodeToNodeEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#id AwsElasticsearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#id AwsElasticsearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface AwsElasticsearchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The short name of the ElasticSearch instance.  Duplo will add a prefix to the name.  You can retrieve the full name from the `domain_name` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#name AwsElasticsearch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#name AwsElasticsearch#name}
   */
   readonly name: string;
   /**
   * Whether or not to require SSL for accessing this ElasticSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#require_ssl AwsElasticsearch#require_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#require_ssl AwsElasticsearch#require_ssl}
   */
   readonly requireSsl?: boolean | cdktf.IResolvable;
   /**
   * The numerical index of the zone to launch this ElasticSearch instance in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#selected_zone AwsElasticsearch#selected_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#selected_zone AwsElasticsearch#selected_zone}
   */
   readonly selectedZone?: number;
   /**
   * The storage volume size, in GB, for the ElasticSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#storage_size AwsElasticsearch#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#storage_size AwsElasticsearch#storage_size}
   */
   readonly storageSize?: number;
   /**
   * The GUID of the tenant that the ElasticSearch instance will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#tenant_id AwsElasticsearch#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#tenant_id AwsElasticsearch#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to use the latest TLS cipher for this ElasticSearch instance. For govcloud environments this should be set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#use_latest_tls_cipher AwsElasticsearch#use_latest_tls_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#use_latest_tls_cipher AwsElasticsearch#use_latest_tls_cipher}
   */
   readonly useLatestTlsCipher?: boolean | cdktf.IResolvable;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#cluster_config AwsElasticsearch#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#cluster_config AwsElasticsearch#cluster_config}
   */
   readonly clusterConfig?: AwsElasticsearchClusterConfig;
   /**
   * encrypt_at_rest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#encrypt_at_rest AwsElasticsearch#encrypt_at_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#encrypt_at_rest AwsElasticsearch#encrypt_at_rest}
   */
   readonly encryptAtRest?: AwsElasticsearchEncryptAtRest;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#timeouts AwsElasticsearch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#timeouts AwsElasticsearch#timeouts}
   */
   readonly timeouts?: AwsElasticsearchTimeouts;
   /**
   * vpc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#vpc_options AwsElasticsearch#vpc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#vpc_options AwsElasticsearch#vpc_options}
   */
   readonly vpcOptions?: AwsElasticsearchVpcOptions[] | cdktf.IResolvable;
 }
@@ -254,7 +254,7 @@ export class AwsElasticsearchSnapshotOptionsList extends cdktf.ComplexList {
 }
 export interface AwsElasticsearchClusterConfigColdStorageOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#enabled AwsElasticsearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#enabled AwsElasticsearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -340,53 +340,53 @@ export interface AwsElasticsearchClusterConfig {
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#dedicated_master_count AwsElasticsearch#dedicated_master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#dedicated_master_count AwsElasticsearch#dedicated_master_count}
   */
   readonly dedicatedMasterCount?: number;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#dedicated_master_enabled AwsElasticsearch#dedicated_master_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#dedicated_master_enabled AwsElasticsearch#dedicated_master_enabled}
   */
   readonly dedicatedMasterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `t2.small.elasticsearch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#dedicated_master_type AwsElasticsearch#dedicated_master_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#dedicated_master_type AwsElasticsearch#dedicated_master_type}
   */
   readonly dedicatedMasterType?: string;
   /**
   * Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#instance_count AwsElasticsearch#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#instance_count AwsElasticsearch#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * Defaults to `t2.small.elasticsearch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#instance_type AwsElasticsearch#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#instance_type AwsElasticsearch#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#multi_az_with_standby_enabled AwsElasticsearch#multi_az_with_standby_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#multi_az_with_standby_enabled AwsElasticsearch#multi_az_with_standby_enabled}
   */
   readonly multiAzWithStandbyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#warm_count AwsElasticsearch#warm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#warm_count AwsElasticsearch#warm_count}
   */
   readonly warmCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#warm_enabled AwsElasticsearch#warm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#warm_enabled AwsElasticsearch#warm_enabled}
   */
   readonly warmEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#warm_type AwsElasticsearch#warm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#warm_type AwsElasticsearch#warm_type}
   */
   readonly warmType?: string;
   /**
   * cold_storage_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#cold_storage_options AwsElasticsearch#cold_storage_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#cold_storage_options AwsElasticsearch#cold_storage_options}
   */
   readonly coldStorageOptions?: AwsElasticsearchClusterConfigColdStorageOptions;
 }
@@ -733,13 +733,13 @@ export interface AwsElasticsearchEncryptAtRest {
   /**
   * The ID of a KMS key to use with the ElasticSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#kms_key_id AwsElasticsearch#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#kms_key_id AwsElasticsearch#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of a KMS key to use with the ElasticSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#kms_key_name AwsElasticsearch#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#kms_key_name AwsElasticsearch#kms_key_name}
   */
   readonly kmsKeyName?: string;
 }
@@ -857,11 +857,11 @@ export class AwsElasticsearchEncryptAtRestOutputReference extends cdktf.ComplexO
 }
 export interface AwsElasticsearchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#create AwsElasticsearch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#create AwsElasticsearch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#delete AwsElasticsearch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#delete AwsElasticsearch#delete}
   */
   readonly delete?: string;
 }
@@ -984,7 +984,7 @@ export class AwsElasticsearchTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface AwsElasticsearchVpcOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#subnet_ids AwsElasticsearch#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#subnet_ids AwsElasticsearch#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -1115,7 +1115,7 @@ export class AwsElasticsearchVpcOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch duplocloud_aws_elasticsearch}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch duplocloud_aws_elasticsearch}
 */
 export class AwsElasticsearch extends cdktf.TerraformResource {
 
@@ -1131,7 +1131,7 @@ export class AwsElasticsearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsElasticsearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsElasticsearch to import
-  * @param importFromId The id of the existing AwsElasticsearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsElasticsearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsElasticsearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1143,7 +1143,7 @@ export class AwsElasticsearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_elasticsearch duplocloud_aws_elasticsearch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_elasticsearch duplocloud_aws_elasticsearch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1154,8 +1154,8 @@ export class AwsElasticsearch extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_elasticsearch',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

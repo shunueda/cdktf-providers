@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver
+// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmWorkflowApproverConfig extends cdktf.TerraformMetaArgume
   /**
   * The approver account id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#account_id DataSdmWorkflowApprover#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#account_id DataSdmWorkflowApprover#account_id}
   */
   readonly accountId?: string;
   /**
   * Unique identifier of the WorkflowApprover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#id DataSdmWorkflowApprover#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#id DataSdmWorkflowApprover#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataSdmWorkflowApproverConfig extends cdktf.TerraformMetaArgume
   /**
   * The approver role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#role_id DataSdmWorkflowApprover#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#role_id DataSdmWorkflowApprover#role_id}
   */
   readonly roleId?: string;
   /**
   * The workflow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#workflow_id DataSdmWorkflowApprover#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#workflow_id DataSdmWorkflowApprover#workflow_id}
   */
   readonly workflowId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#timeouts DataSdmWorkflowApprover#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#timeouts DataSdmWorkflowApprover#timeouts}
   */
   readonly timeouts?: DataSdmWorkflowApproverTimeouts;
 }
@@ -133,7 +133,7 @@ export class DataSdmWorkflowApproverWorkflowApproversList extends cdktf.ComplexL
 }
 export interface DataSdmWorkflowApproverTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#default DataSdmWorkflowApprover#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#default DataSdmWorkflowApprover#default}
   */
   readonly default?: string;
 }
@@ -227,7 +227,7 @@ export class DataSdmWorkflowApproverTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver sdm_workflow_approver}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver sdm_workflow_approver}
 */
 export class DataSdmWorkflowApprover extends cdktf.TerraformDataSource {
 
@@ -243,7 +243,7 @@ export class DataSdmWorkflowApprover extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmWorkflowApprover resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmWorkflowApprover to import
-  * @param importFromId The id of the existing DataSdmWorkflowApprover that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmWorkflowApprover that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmWorkflowApprover to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DataSdmWorkflowApprover extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow_approver sdm_workflow_approver} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/workflow_approver sdm_workflow_approver} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DataSdmWorkflowApprover extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_workflow_approver',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.39.0',
-        providerVersionConstraint: '15.39.0'
+        providerVersion: '15.40.0',
+        providerVersionConstraint: '15.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

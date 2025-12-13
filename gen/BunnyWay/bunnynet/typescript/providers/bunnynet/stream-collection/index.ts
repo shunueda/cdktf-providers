@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface StreamCollectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the stream library to which the collection belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection#library StreamCollection#library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection#library StreamCollection#library}
   */
   readonly library: number;
   /**
   * The name of the stream collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection#name StreamCollection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection#name StreamCollection#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection bunnynet_stream_collection}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection bunnynet_stream_collection}
 */
 export class StreamCollection extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class StreamCollection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamCollection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamCollection to import
-  * @param importFromId The id of the existing StreamCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamCollection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class StreamCollection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_collection bunnynet_stream_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/stream_collection bunnynet_stream_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class StreamCollection extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_stream_collection',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TenantMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#id TenantMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#id TenantMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface TenantMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify key for tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#key TenantMetadata#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#key TenantMetadata#key}
   */
   readonly key: string;
   /**
   * The GUID of the tenant that the tags will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#tenant_id TenantMetadata#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#tenant_id TenantMetadata#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specify type of metadata, Valid values are `text`, `url`, `aws_console`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#type TenantMetadata#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#type TenantMetadata#type}
   */
   readonly type: string;
   /**
   * Specify value for tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#value TenantMetadata#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#value TenantMetadata#value}
   */
   readonly value: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#timeouts TenantMetadata#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#timeouts TenantMetadata#timeouts}
   */
   readonly timeouts?: TenantMetadataTimeouts;
 }
 export interface TenantMetadataTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#create TenantMetadata#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#create TenantMetadata#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#delete TenantMetadata#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#delete TenantMetadata#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class TenantMetadataTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata duplocloud_tenant_metadata}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata duplocloud_tenant_metadata}
 */
 export class TenantMetadata extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class TenantMetadata extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantMetadata to import
-  * @param importFromId The id of the existing TenantMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class TenantMetadata extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_metadata duplocloud_tenant_metadata} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_metadata duplocloud_tenant_metadata} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class TenantMetadata extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_metadata',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

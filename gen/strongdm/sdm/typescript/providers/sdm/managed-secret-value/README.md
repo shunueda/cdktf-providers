@@ -1,3 +1,3 @@
 # `sdm_managed_secret_value`
 
-Refer to the Terraform Registry for docs: [`sdm_managed_secret_value`](https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/managed_secret_value).
+Refer to the Terraform Registry for docs: [`sdm_managed_secret_value`](https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/managed_secret_value).

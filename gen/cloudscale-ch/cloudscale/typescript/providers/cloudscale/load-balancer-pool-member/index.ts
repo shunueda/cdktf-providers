@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member
+// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerPoolMemberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#address LoadBalancerPoolMember#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#address LoadBalancerPoolMember#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#enabled LoadBalancerPoolMember#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#enabled LoadBalancerPoolMember#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#id LoadBalancerPoolMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#id LoadBalancerPoolMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#monitor_port LoadBalancerPoolMember#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#monitor_port LoadBalancerPoolMember#monitor_port}
   */
   readonly monitorPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#name LoadBalancerPoolMember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#name LoadBalancerPoolMember#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#pool_uuid LoadBalancerPoolMember#pool_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#pool_uuid LoadBalancerPoolMember#pool_uuid}
   */
   readonly poolUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#protocol_port LoadBalancerPoolMember#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#protocol_port LoadBalancerPoolMember#protocol_port}
   */
   readonly protocolPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#subnet_uuid LoadBalancerPoolMember#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#subnet_uuid LoadBalancerPoolMember#subnet_uuid}
   */
   readonly subnetUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#tags LoadBalancerPoolMember#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#tags LoadBalancerPoolMember#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member cloudscale_load_balancer_pool_member}
+* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member cloudscale_load_balancer_pool_member}
 */
 export class LoadBalancerPoolMember extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class LoadBalancerPoolMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerPoolMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerPoolMember to import
-  * @param importFromId The id of the existing LoadBalancerPoolMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerPoolMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerPoolMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class LoadBalancerPoolMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs/resources/load_balancer_pool_member cloudscale_load_balancer_pool_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs/resources/load_balancer_pool_member cloudscale_load_balancer_pool_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class LoadBalancerPoolMember extends cdktf.TerraformResource {
       terraformResourceType: 'cloudscale_load_balancer_pool_member',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

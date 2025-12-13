@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,73 @@ export interface DestinationDatabricksConfig extends cdktf.TerraformMetaArgument
   /**
   * JDBC URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#connection_url DestinationDatabricks#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#connection_url DestinationDatabricks#connection_url}
   */
   readonly connectionUrl: string;
   /**
+  * Time in milliseconds to wait for a larger batch size
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#consumer_wait_time_for_larger_batch_ms DestinationDatabricks#consumer_wait_time_for_larger_batch_ms}
+  */
+  readonly consumerWaitTimeForLargerBatchMs?: number;
+  /**
   * Catalog Name. Make sure to change this to the correct cataog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#databricks_catalog DestinationDatabricks#databricks_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#databricks_catalog DestinationDatabricks#databricks_catalog}
   */
   readonly databricksCatalog?: string;
   /**
   * Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#databricks_token DestinationDatabricks#databricks_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#databricks_token DestinationDatabricks#databricks_token}
   */
   readonly databricksToken: string;
   /**
   * Specifies whether the connector processes DELETE or tombstone events and removes the corresponding row from the database (applies to `upsert` only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#hard_delete DestinationDatabricks#hard_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#hard_delete DestinationDatabricks#hard_delete}
   */
   readonly hardDelete?: boolean | cdktf.IResolvable;
   /**
   * `upsert` or `append` modes are available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#ingestion_mode DestinationDatabricks#ingestion_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#ingestion_mode DestinationDatabricks#ingestion_mode}
   */
   readonly ingestionMode?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#name DestinationDatabricks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#name DestinationDatabricks#name}
   */
   readonly name: string;
   /**
   * Partition tables or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#partition_mode DestinationDatabricks#partition_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#partition_mode DestinationDatabricks#partition_mode}
   */
   readonly partitionMode?: string;
   /**
   * Controls how schema evolution is handled by the sink connector. For pipelines with pre-created destination tables, set to `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#schema_evolution DestinationDatabricks#schema_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#schema_evolution DestinationDatabricks#schema_evolution}
   */
   readonly schemaEvolution?: string;
   /**
   * Schema for the associated table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#table_name_prefix DestinationDatabricks#table_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#table_name_prefix DestinationDatabricks#table_name_prefix}
   */
   readonly tableNamePrefix: string;
   /**
   * The maximum number of active task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#tasks_max DestinationDatabricks#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#tasks_max DestinationDatabricks#tasks_max}
   */
   readonly tasksMax?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks streamkap_destination_databricks}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks streamkap_destination_databricks}
 */
 export class DestinationDatabricks extends cdktf.TerraformResource {
 
@@ -86,7 +92,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationDatabricks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationDatabricks to import
-  * @param importFromId The id of the existing DestinationDatabricks that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationDatabricks that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationDatabricks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +104,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks streamkap_destination_databricks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_databricks streamkap_destination_databricks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +115,8 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_databricks',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,6 +127,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._connectionUrl = config.connectionUrl;
+    this._consumerWaitTimeForLargerBatchMs = config.consumerWaitTimeForLargerBatchMs;
     this._databricksCatalog = config.databricksCatalog;
     this._databricksToken = config.databricksToken;
     this._hardDelete = config.hardDelete;
@@ -152,6 +159,22 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   // connector - computed: true, optional: false, required: false
   public get connector() {
     return this.getStringAttribute('connector');
+  }
+
+  // consumer_wait_time_for_larger_batch_ms - computed: true, optional: true, required: false
+  private _consumerWaitTimeForLargerBatchMs?: number; 
+  public get consumerWaitTimeForLargerBatchMs() {
+    return this.getNumberAttribute('consumer_wait_time_for_larger_batch_ms');
+  }
+  public set consumerWaitTimeForLargerBatchMs(value: number) {
+    this._consumerWaitTimeForLargerBatchMs = value;
+  }
+  public resetConsumerWaitTimeForLargerBatchMs() {
+    this._consumerWaitTimeForLargerBatchMs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get consumerWaitTimeForLargerBatchMsInput() {
+    return this._consumerWaitTimeForLargerBatchMs;
   }
 
   // databricks_catalog - computed: true, optional: true, required: false
@@ -301,6 +324,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       connection_url: cdktf.stringToTerraform(this._connectionUrl),
+      consumer_wait_time_for_larger_batch_ms: cdktf.numberToTerraform(this._consumerWaitTimeForLargerBatchMs),
       databricks_catalog: cdktf.stringToTerraform(this._databricksCatalog),
       databricks_token: cdktf.stringToTerraform(this._databricksToken),
       hard_delete: cdktf.booleanToTerraform(this._hardDelete),
@@ -320,6 +344,12 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      consumer_wait_time_for_larger_batch_ms: {
+        value: cdktf.numberToHclTerraform(this._consumerWaitTimeForLargerBatchMs),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       databricks_catalog: {
         value: cdktf.stringToHclTerraform(this._databricksCatalog),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface K8HelmReleaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#id K8HelmRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#id K8HelmRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface K8HelmReleaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval related to helm release Defaults to `5m0s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#interval K8HelmRelease#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#interval K8HelmRelease#interval}
   */
   readonly interval?: string;
   /**
   * The name of the helm chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#name K8HelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#name K8HelmRelease#name}
   */
   readonly name: string;
   /**
   * Provide release name to identify specific deployment of helm chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#release_name K8HelmRelease#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#release_name K8HelmRelease#release_name}
   */
   readonly releaseName: string;
   /**
   * The GUID of the tenant that the storage bucket will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#tenant_id K8HelmRelease#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#tenant_id K8HelmRelease#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Customise an helm chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#values K8HelmRelease#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#values K8HelmRelease#values}
   */
   readonly values?: string;
   /**
   * chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#chart K8HelmRelease#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#chart K8HelmRelease#chart}
   */
   readonly chart: K8HelmReleaseChart[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#timeouts K8HelmRelease#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#timeouts K8HelmRelease#timeouts}
   */
   readonly timeouts?: K8HelmReleaseTimeouts;
 }
@@ -61,37 +61,37 @@ export interface K8HelmReleaseChart {
   /**
   * The interval associated to helm chart Defaults to `5m0s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#interval K8HelmRelease#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#interval K8HelmRelease#interval}
   */
   readonly interval?: string;
   /**
   * Provide unique name for the helm chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#name K8HelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#name K8HelmRelease#name}
   */
   readonly name: string;
   /**
   * The reconcile strategy should be chosen from ChartVersion or Revision. No new chart artifact is produced on updates to the source unless the version is changed in HelmRepository. Use `Revision` to produce new chart artifact on change in source revision. Defaults to `ChartVersion`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#reconcile_strategy K8HelmRelease#reconcile_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#reconcile_strategy K8HelmRelease#reconcile_strategy}
   */
   readonly reconcileStrategy?: string;
   /**
   * The name of the source, referred from helm repository resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#source_name K8HelmRelease#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#source_name K8HelmRelease#source_name}
   */
   readonly sourceName: string;
   /**
   * The helm chart source, currently only HelmRepository as source is supported Defaults to `HelmRepository`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#source_type K8HelmRelease#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#source_type K8HelmRelease#source_type}
   */
   readonly sourceType?: string;
   /**
   * The helm chart version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#version K8HelmRelease#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#version K8HelmRelease#version}
   */
   readonly version: string;
 }
@@ -343,15 +343,15 @@ export class K8HelmReleaseChartList extends cdktf.ComplexList {
 }
 export interface K8HelmReleaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#create K8HelmRelease#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#create K8HelmRelease#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#delete K8HelmRelease#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#delete K8HelmRelease#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#update K8HelmRelease#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#update K8HelmRelease#update}
   */
   readonly update?: string;
 }
@@ -503,7 +503,7 @@ export class K8HelmReleaseTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release duplocloud_k8_helm_release}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release duplocloud_k8_helm_release}
 */
 export class K8HelmRelease extends cdktf.TerraformResource {
 
@@ -519,7 +519,7 @@ export class K8HelmRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8HelmRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8HelmRelease to import
-  * @param importFromId The id of the existing K8HelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8HelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8HelmRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class K8HelmRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_release duplocloud_k8_helm_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_helm_release duplocloud_k8_helm_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class K8HelmRelease extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_helm_release',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

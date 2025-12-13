@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataDuplocloudNativeHostImageConfig extends cdktf.TerraformMeta
   /**
   * Architecture of the native host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#arch DataDuplocloudNativeHostImage#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#arch DataDuplocloudNativeHostImage#arch}
   */
   readonly arch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#id DataDuplocloudNativeHostImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#id DataDuplocloudNativeHostImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataDuplocloudNativeHostImageConfig extends cdktf.TerraformMeta
   /**
   * This field is deprecated. Use k8s_version for precise filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#is_kubernetes DataDuplocloudNativeHostImage#is_kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#is_kubernetes DataDuplocloudNativeHostImage#is_kubernetes}
   */
   readonly isKubernetes?: boolean | cdktf.IResolvable;
   /**
   * K8 version of the native host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#k8s_version DataDuplocloudNativeHostImage#k8s_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#k8s_version DataDuplocloudNativeHostImage#k8s_version}
   */
   readonly k8SVersion?: string;
   /**
   * Name of the Duplocloud native host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#name DataDuplocloudNativeHostImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#name DataDuplocloudNativeHostImage#name}
   */
   readonly name?: string;
   /**
   * OS of native host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#os DataDuplocloudNativeHostImage#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#os DataDuplocloudNativeHostImage#os}
   */
   readonly os?: string;
   /**
   * The tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#tenant_id DataDuplocloudNativeHostImage#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#tenant_id DataDuplocloudNativeHostImage#tenant_id}
   */
   readonly tenantId: string;
   /**
   * username associated to native host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#username DataDuplocloudNativeHostImage#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#username DataDuplocloudNativeHostImage#username}
   */
   readonly username?: string;
 }
@@ -139,7 +139,7 @@ export class DataDuplocloudNativeHostImageTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image duplocloud_native_host_image}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image duplocloud_native_host_image}
 */
 export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
 
@@ -155,7 +155,7 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudNativeHostImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudNativeHostImage to import
-  * @param importFromId The id of the existing DataDuplocloudNativeHostImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudNativeHostImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudNativeHostImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image duplocloud_native_host_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/native_host_image duplocloud_native_host_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_native_host_image',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

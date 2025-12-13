@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface AzureVirtualMachineScaleSetConfig extends cdktf.TerraformMetaAr
   /**
   * The numeric ID of the container agent pool that this VM is added to. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#agent_platform AzureVirtualMachineScaleSet#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#agent_platform AzureVirtualMachineScaleSet#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#allocation_tags AzureVirtualMachineScaleSet#allocation_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#allocation_tags AzureVirtualMachineScaleSet#allocation_tags}
   */
   readonly allocationTags?: string;
   /**
   * Automatic OS patches can be applied by Azure to your scaleset. This is particularly useful when `upgrade_policy_mode` is set to `Rolling`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#automatic_os_upgrade AzureVirtualMachineScaleSet#automatic_os_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#automatic_os_upgrade AzureVirtualMachineScaleSet#automatic_os_upgrade}
   */
   readonly automaticOsUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Specifies the eviction policy for Virtual Machines in this Scale Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#eviction_policy AzureVirtualMachineScaleSet#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#eviction_policy AzureVirtualMachineScaleSet#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * Specifies the identifier for the load balancer health probe. Required when using `Rolling` as your `upgrade_policy_mode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#health_probe_id AzureVirtualMachineScaleSet#health_probe_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#health_probe_id AzureVirtualMachineScaleSet#health_probe_id}
   */
   readonly healthProbeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#id AzureVirtualMachineScaleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#id AzureVirtualMachineScaleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,155 +45,155 @@ export interface AzureVirtualMachineScaleSetConfig extends cdktf.TerraformMetaAr
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#is_minion AzureVirtualMachineScaleSet#is_minion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#is_minion AzureVirtualMachineScaleSet#is_minion}
   */
   readonly isMinion?: boolean | cdktf.IResolvable;
   /**
   * Specifies the Windows OS license type. If supplied, the only allowed values are `Windows_Client` and `Windows_Server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#license_type AzureVirtualMachineScaleSet#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#license_type AzureVirtualMachineScaleSet#license_type}
   */
   readonly licenseType?: string;
   /**
   * Specifies the name of the virtual machine scale set resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * Specifies whether the virtual machine scale set should be overprovisioned. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#overprovision AzureVirtualMachineScaleSet#overprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#overprovision AzureVirtualMachineScaleSet#overprovision}
   */
   readonly overprovision?: boolean | cdktf.IResolvable;
   /**
   * Specifies the priority for the Virtual Machines in the Scale Set. Defaults to `Regular`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#priority AzureVirtualMachineScaleSet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#priority AzureVirtualMachineScaleSet#priority}
   */
   readonly priority?: string;
   /**
   * The ID of the Proximity Placement Group to which this Virtual Machine should be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#proximity_placement_group_id AzureVirtualMachineScaleSet#proximity_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#proximity_placement_group_id AzureVirtualMachineScaleSet#proximity_placement_group_id}
   */
   readonly proximityPlacementGroupId?: string;
   /**
   * Specifies whether the scale set is limited to a single placement group with a maximum size of 100 virtual machines. If set to false, managed disks must be used. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#single_placement_group AzureVirtualMachineScaleSet#single_placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#single_placement_group AzureVirtualMachineScaleSet#single_placement_group}
   */
   readonly singlePlacementGroup?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the azure virtual machine scale set will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#tenant_id AzureVirtualMachineScaleSet#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#tenant_id AzureVirtualMachineScaleSet#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the mode of an upgrade to virtual machines in the scale set. Possible values, `Rolling`, `Manual`, or `Automatic`. When choosing Rolling, you will need to set a health probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#upgrade_policy_mode AzureVirtualMachineScaleSet#upgrade_policy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#upgrade_policy_mode AzureVirtualMachineScaleSet#upgrade_policy_mode}
   */
   readonly upgradePolicyMode: string;
   /**
   * Whether or not to wait until virtual machine scale set to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#wait_until_ready AzureVirtualMachineScaleSet#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#wait_until_ready AzureVirtualMachineScaleSet#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#zones AzureVirtualMachineScaleSet#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#zones AzureVirtualMachineScaleSet#zones}
   */
   readonly zones?: string[];
   /**
   * boot_diagnostics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#boot_diagnostics AzureVirtualMachineScaleSet#boot_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#boot_diagnostics AzureVirtualMachineScaleSet#boot_diagnostics}
   */
   readonly bootDiagnostics?: AzureVirtualMachineScaleSetBootDiagnostics;
   /**
   * extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#extension AzureVirtualMachineScaleSet#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#extension AzureVirtualMachineScaleSet#extension}
   */
   readonly extension?: AzureVirtualMachineScaleSetExtension[] | cdktf.IResolvable;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#identity AzureVirtualMachineScaleSet#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#identity AzureVirtualMachineScaleSet#identity}
   */
   readonly identity?: AzureVirtualMachineScaleSetIdentity;
   /**
   * network_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#network_profile AzureVirtualMachineScaleSet#network_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#network_profile AzureVirtualMachineScaleSet#network_profile}
   */
   readonly networkProfile: AzureVirtualMachineScaleSetNetworkProfile[] | cdktf.IResolvable;
   /**
   * os_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#os_profile AzureVirtualMachineScaleSet#os_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#os_profile AzureVirtualMachineScaleSet#os_profile}
   */
   readonly osProfile: AzureVirtualMachineScaleSetOsProfile;
   /**
   * os_profile_linux_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#os_profile_linux_config AzureVirtualMachineScaleSet#os_profile_linux_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#os_profile_linux_config AzureVirtualMachineScaleSet#os_profile_linux_config}
   */
   readonly osProfileLinuxConfig?: AzureVirtualMachineScaleSetOsProfileLinuxConfig;
   /**
   * os_profile_secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#os_profile_secrets AzureVirtualMachineScaleSet#os_profile_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#os_profile_secrets AzureVirtualMachineScaleSet#os_profile_secrets}
   */
   readonly osProfileSecrets?: AzureVirtualMachineScaleSetOsProfileSecrets[] | cdktf.IResolvable;
   /**
   * os_profile_windows_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#os_profile_windows_config AzureVirtualMachineScaleSet#os_profile_windows_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#os_profile_windows_config AzureVirtualMachineScaleSet#os_profile_windows_config}
   */
   readonly osProfileWindowsConfig?: AzureVirtualMachineScaleSetOsProfileWindowsConfig;
   /**
   * plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#plan AzureVirtualMachineScaleSet#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#plan AzureVirtualMachineScaleSet#plan}
   */
   readonly plan?: AzureVirtualMachineScaleSetPlan;
   /**
   * rolling_upgrade_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#rolling_upgrade_policy AzureVirtualMachineScaleSet#rolling_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#rolling_upgrade_policy AzureVirtualMachineScaleSet#rolling_upgrade_policy}
   */
   readonly rollingUpgradePolicy?: AzureVirtualMachineScaleSetRollingUpgradePolicy;
   /**
   * sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#sku AzureVirtualMachineScaleSet#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#sku AzureVirtualMachineScaleSet#sku}
   */
   readonly sku: AzureVirtualMachineScaleSetSku;
   /**
   * storage_profile_data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#storage_profile_data_disk AzureVirtualMachineScaleSet#storage_profile_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#storage_profile_data_disk AzureVirtualMachineScaleSet#storage_profile_data_disk}
   */
   readonly storageProfileDataDisk?: AzureVirtualMachineScaleSetStorageProfileDataDisk[] | cdktf.IResolvable;
   /**
   * storage_profile_image_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#storage_profile_image_reference AzureVirtualMachineScaleSet#storage_profile_image_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#storage_profile_image_reference AzureVirtualMachineScaleSet#storage_profile_image_reference}
   */
   readonly storageProfileImageReference?: AzureVirtualMachineScaleSetStorageProfileImageReference;
   /**
   * storage_profile_os_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#storage_profile_os_disk AzureVirtualMachineScaleSet#storage_profile_os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#storage_profile_os_disk AzureVirtualMachineScaleSet#storage_profile_os_disk}
   */
   readonly storageProfileOsDisk?: AzureVirtualMachineScaleSetStorageProfileOsDisk;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#timeouts AzureVirtualMachineScaleSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#timeouts AzureVirtualMachineScaleSet#timeouts}
   */
   readonly timeouts?: AzureVirtualMachineScaleSetTimeouts;
 }
@@ -201,13 +201,13 @@ export interface AzureVirtualMachineScaleSetBootDiagnostics {
   /**
   * Whether to enable boot diagnostics for the virtual machine. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#enabled AzureVirtualMachineScaleSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#enabled AzureVirtualMachineScaleSet#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Blob endpoint for the storage account to hold the virtual machine's diagnostic files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#storage_uri AzureVirtualMachineScaleSet#storage_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#storage_uri AzureVirtualMachineScaleSet#storage_uri}
   */
   readonly storageUri: string;
 }
@@ -319,49 +319,49 @@ export interface AzureVirtualMachineScaleSetExtension {
   /**
   * Specifies whether or not to use the latest minor version available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#auto_upgrade_minor_version AzureVirtualMachineScaleSet#auto_upgrade_minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#auto_upgrade_minor_version AzureVirtualMachineScaleSet#auto_upgrade_minor_version}
   */
   readonly autoUpgradeMinorVersion?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * The protected_settings passed to the extension, like settings, these are specified as a JSON object in a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#protected_settings AzureVirtualMachineScaleSet#protected_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#protected_settings AzureVirtualMachineScaleSet#protected_settings}
   */
   readonly protectedSettings?: string;
   /**
   * Specifies a dependency array of extensions required to be executed before, the array stores the name of each extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#provision_after_extensions AzureVirtualMachineScaleSet#provision_after_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#provision_after_extensions AzureVirtualMachineScaleSet#provision_after_extensions}
   */
   readonly provisionAfterExtensions?: string[];
   /**
   * The publisher of the extension, available publishers can be found by using the Azure CLI..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
   */
   readonly publisher: string;
   /**
   * The settings passed to the extension, these are specified as a JSON object in a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#settings AzureVirtualMachineScaleSet#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#settings AzureVirtualMachineScaleSet#settings}
   */
   readonly settings?: string;
   /**
   * The type of extension, available types for a publisher can be found using the Azure CLI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#type AzureVirtualMachineScaleSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#type AzureVirtualMachineScaleSet#type}
   */
   readonly type: string;
   /**
   * Specifies the version of the extension to use, available versions can be found using the Azure CLI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#type_handler_version AzureVirtualMachineScaleSet#type_handler_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#type_handler_version AzureVirtualMachineScaleSet#type_handler_version}
   */
   readonly typeHandlerVersion: string;
 }
@@ -670,13 +670,13 @@ export interface AzureVirtualMachineScaleSetIdentity {
   /**
   * Specifies a list of user managed identity ids to be assigned to the VMSS. Required if `type` is `UserAssigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#identity_ids AzureVirtualMachineScaleSet#identity_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#identity_ids AzureVirtualMachineScaleSet#identity_ids}
   */
   readonly identityIds?: string[];
   /**
   * Specifies the identity type to be assigned to the scale set. Allowable values are `SystemAssigned` and `UserAssigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#type AzureVirtualMachineScaleSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#type AzureVirtualMachineScaleSet#type}
   */
   readonly type: string;
 }
@@ -793,7 +793,7 @@ export interface AzureVirtualMachineScaleSetNetworkProfileDnsSettings {
   /**
   * Specifies an array of dns servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#dns_servers AzureVirtualMachineScaleSet#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#dns_servers AzureVirtualMachineScaleSet#dns_servers}
   */
   readonly dnsServers: string[];
 }
@@ -876,19 +876,19 @@ export interface AzureVirtualMachineScaleSetNetworkProfileIpConfigurationPublicI
   /**
   * The domain name label for the dns settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#domain_name_label AzureVirtualMachineScaleSet#domain_name_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#domain_name_label AzureVirtualMachineScaleSet#domain_name_label}
   */
   readonly domainNameLabel: string;
   /**
   * The idle timeout in minutes. This value must be between 4 and 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#idle_timeout AzureVirtualMachineScaleSet#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#idle_timeout AzureVirtualMachineScaleSet#idle_timeout}
   */
   readonly idleTimeout: number;
   /**
   * The name of the public ip address configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
 }
@@ -1023,49 +1023,49 @@ export interface AzureVirtualMachineScaleSetNetworkProfileIpConfiguration {
   /**
   * Specifies an array of references to backend address pools of application gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#application_gateway_backend_address_pool_ids AzureVirtualMachineScaleSet#application_gateway_backend_address_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#application_gateway_backend_address_pool_ids AzureVirtualMachineScaleSet#application_gateway_backend_address_pool_ids}
   */
   readonly applicationGatewayBackendAddressPoolIds?: string[];
   /**
   * Specifies up to 20 application security group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#application_security_group_ids AzureVirtualMachineScaleSet#application_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#application_security_group_ids AzureVirtualMachineScaleSet#application_security_group_ids}
   */
   readonly applicationSecurityGroupIds?: string[];
   /**
   * Specifies an array of references to backend address pools of load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#load_balancer_backend_address_pool_ids AzureVirtualMachineScaleSet#load_balancer_backend_address_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#load_balancer_backend_address_pool_ids AzureVirtualMachineScaleSet#load_balancer_backend_address_pool_ids}
   */
   readonly loadBalancerBackendAddressPoolIds?: string[];
   /**
   * Specifies an array of references to inbound NAT pools for load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#load_balancer_inbound_nat_rules_ids AzureVirtualMachineScaleSet#load_balancer_inbound_nat_rules_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#load_balancer_inbound_nat_rules_ids AzureVirtualMachineScaleSet#load_balancer_inbound_nat_rules_ids}
   */
   readonly loadBalancerInboundNatRulesIds?: string[];
   /**
   * Specifies name of the IP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * Specifies if this ip_configuration is the primary one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#primary AzureVirtualMachineScaleSet#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#primary AzureVirtualMachineScaleSet#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * Specifies the identifier of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#subnet_id AzureVirtualMachineScaleSet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#subnet_id AzureVirtualMachineScaleSet#subnet_id}
   */
   readonly subnetId: string;
   /**
   * public_ip_address_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#public_ip_address_configuration AzureVirtualMachineScaleSet#public_ip_address_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#public_ip_address_configuration AzureVirtualMachineScaleSet#public_ip_address_configuration}
   */
   readonly publicIpAddressConfiguration?: AzureVirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfiguration;
 }
@@ -1380,43 +1380,43 @@ export interface AzureVirtualMachineScaleSetNetworkProfile {
   /**
   * Specifies whether to enable accelerated networking or not. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#accelerated_networking AzureVirtualMachineScaleSet#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#accelerated_networking AzureVirtualMachineScaleSet#accelerated_networking}
   */
   readonly acceleratedNetworking?: boolean | cdktf.IResolvable;
   /**
   * Whether IP forwarding is enabled on this NIC. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#ip_forwarding AzureVirtualMachineScaleSet#ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#ip_forwarding AzureVirtualMachineScaleSet#ip_forwarding}
   */
   readonly ipForwarding?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the network interface configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * Specifies the identifier for the network security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#network_security_group_id AzureVirtualMachineScaleSet#network_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#network_security_group_id AzureVirtualMachineScaleSet#network_security_group_id}
   */
   readonly networkSecurityGroupId?: string;
   /**
   * Indicates whether network interfaces created from the network interface configuration will be the primary NIC of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#primary AzureVirtualMachineScaleSet#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#primary AzureVirtualMachineScaleSet#primary}
   */
   readonly primary: boolean | cdktf.IResolvable;
   /**
   * dns_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#dns_settings AzureVirtualMachineScaleSet#dns_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#dns_settings AzureVirtualMachineScaleSet#dns_settings}
   */
   readonly dnsSettings?: AzureVirtualMachineScaleSetNetworkProfileDnsSettings;
   /**
   * ip_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#ip_configuration AzureVirtualMachineScaleSet#ip_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#ip_configuration AzureVirtualMachineScaleSet#ip_configuration}
   */
   readonly ipConfiguration: AzureVirtualMachineScaleSetNetworkProfileIpConfiguration[] | cdktf.IResolvable;
 }
@@ -1699,25 +1699,25 @@ export interface AzureVirtualMachineScaleSetOsProfile {
   /**
   * Specifies the administrator password to use for all the instances of virtual machines in a scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#admin_password AzureVirtualMachineScaleSet#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#admin_password AzureVirtualMachineScaleSet#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Specifies the administrator account name to use for all the instances of virtual machines in the scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#admin_username AzureVirtualMachineScaleSet#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#admin_username AzureVirtualMachineScaleSet#admin_username}
   */
   readonly adminUsername: string;
   /**
   * Specifies the computer name prefix for all of the virtual machines in the scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#computer_name_prefix AzureVirtualMachineScaleSet#computer_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#computer_name_prefix AzureVirtualMachineScaleSet#computer_name_prefix}
   */
   readonly computerNamePrefix: string;
   /**
   * Specifies custom data to supply to the machine. On linux-based systems, this can be used as a cloud-init script. On other systems, this will be copied as a file on disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#custom_data AzureVirtualMachineScaleSet#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#custom_data AzureVirtualMachineScaleSet#custom_data}
   */
   readonly customData?: string;
 }
@@ -1882,11 +1882,11 @@ export class AzureVirtualMachineScaleSetOsProfileOutputReference extends cdktf.C
 }
 export interface AzureVirtualMachineScaleSetOsProfileLinuxConfigSshKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#key_data AzureVirtualMachineScaleSet#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#key_data AzureVirtualMachineScaleSet#key_data}
   */
   readonly keyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#path AzureVirtualMachineScaleSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#path AzureVirtualMachineScaleSet#path}
   */
   readonly path: string;
 }
@@ -2030,13 +2030,13 @@ export interface AzureVirtualMachineScaleSetOsProfileLinuxConfig {
   /**
   * Specifies whether password authentication should be disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#disable_password_authentication AzureVirtualMachineScaleSet#disable_password_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#disable_password_authentication AzureVirtualMachineScaleSet#disable_password_authentication}
   */
   readonly disablePasswordAuthentication?: boolean | cdktf.IResolvable;
   /**
   * ssh_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#ssh_keys AzureVirtualMachineScaleSet#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#ssh_keys AzureVirtualMachineScaleSet#ssh_keys}
   */
   readonly sshKeys?: AzureVirtualMachineScaleSetOsProfileLinuxConfigSshKeys[] | cdktf.IResolvable;
 }
@@ -2151,13 +2151,13 @@ export interface AzureVirtualMachineScaleSetOsProfileSecretsVaultCertificates {
   /**
   * Specifies the certificate store on the Virtual Machine where the certificate should be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#certificate_store AzureVirtualMachineScaleSet#certificate_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#certificate_store AzureVirtualMachineScaleSet#certificate_store}
   */
   readonly certificateStore?: string;
   /**
   * It is the Base64 encoding of a JSON Object that which is encoded in UTF-8 of which the contents need to be `data`, `dataType` and `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#certificate_url AzureVirtualMachineScaleSet#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#certificate_url AzureVirtualMachineScaleSet#certificate_url}
   */
   readonly certificateUrl: string;
 }
@@ -2301,13 +2301,13 @@ export interface AzureVirtualMachineScaleSetOsProfileSecrets {
   /**
   * Specifies the key vault to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#source_vault_id AzureVirtualMachineScaleSet#source_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#source_vault_id AzureVirtualMachineScaleSet#source_vault_id}
   */
   readonly sourceVaultId: string;
   /**
   * vault_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#vault_certificates AzureVirtualMachineScaleSet#vault_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#vault_certificates AzureVirtualMachineScaleSet#vault_certificates}
   */
   readonly vaultCertificates?: AzureVirtualMachineScaleSetOsProfileSecretsVaultCertificates[] | cdktf.IResolvable;
 }
@@ -2451,25 +2451,25 @@ export interface AzureVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnat
   /**
   * Specifies the name of the component to configure with the added content. The only allowable value is `Microsoft-Windows-Shell-Setup`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#component AzureVirtualMachineScaleSet#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#component AzureVirtualMachineScaleSet#component}
   */
   readonly component: string;
   /**
   * Specifies the base-64 encoded XML formatted content that is added to the unattend.xml file for the specified path and component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#content AzureVirtualMachineScaleSet#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#content AzureVirtualMachineScaleSet#content}
   */
   readonly content: string;
   /**
   * Specifies the name of the pass that the content applies to. The only allowable value is `oobeSystem`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#pass AzureVirtualMachineScaleSet#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#pass AzureVirtualMachineScaleSet#pass}
   */
   readonly pass: string;
   /**
   * Specifies the name of the setting to which the content applies. Possible values are: `FirstLogonCommands` and `AutoLogon`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#setting_name AzureVirtualMachineScaleSet#setting_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#setting_name AzureVirtualMachineScaleSet#setting_name}
   */
   readonly settingName: string;
 }
@@ -2662,13 +2662,13 @@ export interface AzureVirtualMachineScaleSetOsProfileWindowsConfigWinrm {
   /**
   * Specifies URL of the certificate with which new Virtual Machines is provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#certificate_url AzureVirtualMachineScaleSet#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#certificate_url AzureVirtualMachineScaleSet#certificate_url}
   */
   readonly certificateUrl?: string;
   /**
   * Specifies the protocol of listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#protocol AzureVirtualMachineScaleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#protocol AzureVirtualMachineScaleSet#protocol}
   */
   readonly protocol: string;
 }
@@ -2812,25 +2812,25 @@ export interface AzureVirtualMachineScaleSetOsProfileWindowsConfig {
   /**
   * Indicates whether virtual machines in the scale set are enabled for automatic updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#enable_automatic_upgrades AzureVirtualMachineScaleSet#enable_automatic_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#enable_automatic_upgrades AzureVirtualMachineScaleSet#enable_automatic_upgrades}
   */
   readonly enableAutomaticUpgrades?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether virtual machine agent should be provisioned on the virtual machines in the scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#provision_vm_agent AzureVirtualMachineScaleSet#provision_vm_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#provision_vm_agent AzureVirtualMachineScaleSet#provision_vm_agent}
   */
   readonly provisionVmAgent?: boolean | cdktf.IResolvable;
   /**
   * additional_unattend_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#additional_unattend_config AzureVirtualMachineScaleSet#additional_unattend_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#additional_unattend_config AzureVirtualMachineScaleSet#additional_unattend_config}
   */
   readonly additionalUnattendConfig?: AzureVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfig[] | cdktf.IResolvable;
   /**
   * winrm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#winrm AzureVirtualMachineScaleSet#winrm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#winrm AzureVirtualMachineScaleSet#winrm}
   */
   readonly winrm?: AzureVirtualMachineScaleSetOsProfileWindowsConfigWinrm[] | cdktf.IResolvable;
 }
@@ -3003,19 +3003,19 @@ export interface AzureVirtualMachineScaleSetPlan {
   /**
   * Specifies the name of the image from the marketplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * Specifies the product of the image from the marketplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#product AzureVirtualMachineScaleSet#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#product AzureVirtualMachineScaleSet#product}
   */
   readonly product: string;
   /**
   * Specifies the publisher of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
   */
   readonly publisher: string;
 }
@@ -3150,25 +3150,25 @@ export interface AzureVirtualMachineScaleSetRollingUpgradePolicy {
   /**
   * The maximum percent of total virtual machine instances that will be upgraded simultaneously by the rolling upgrade. Defaults to `20`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#max_batch_instance_percent AzureVirtualMachineScaleSet#max_batch_instance_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#max_batch_instance_percent AzureVirtualMachineScaleSet#max_batch_instance_percent}
   */
   readonly maxBatchInstancePercent?: number;
   /**
   * The maximum percentage of the total virtual machine instances in the scale set that can be simultaneously unhealthy. Defaults to `20`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#max_unhealthy_instance_percent AzureVirtualMachineScaleSet#max_unhealthy_instance_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#max_unhealthy_instance_percent AzureVirtualMachineScaleSet#max_unhealthy_instance_percent}
   */
   readonly maxUnhealthyInstancePercent?: number;
   /**
   * The maximum percentage of upgraded virtual machine instances that can be found to be in an unhealthy state. Defaults to `20`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#max_unhealthy_upgraded_instance_percent AzureVirtualMachineScaleSet#max_unhealthy_upgraded_instance_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#max_unhealthy_upgraded_instance_percent AzureVirtualMachineScaleSet#max_unhealthy_upgraded_instance_percent}
   */
   readonly maxUnhealthyUpgradedInstancePercent?: number;
   /**
   * The wait time between completing the update for all virtual machines in one batch and starting the next batch. Defaults to `PT0S`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#pause_time_between_batches AzureVirtualMachineScaleSet#pause_time_between_batches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#pause_time_between_batches AzureVirtualMachineScaleSet#pause_time_between_batches}
   */
   readonly pauseTimeBetweenBatches?: string;
 }
@@ -3341,19 +3341,19 @@ export interface AzureVirtualMachineScaleSetSku {
   /**
   * Specifies the number of virtual machines in the scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#capacity AzureVirtualMachineScaleSet#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#capacity AzureVirtualMachineScaleSet#capacity}
   */
   readonly capacity: number;
   /**
   * Specifies the size of virtual machines in a scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name: string;
   /**
   * Specifies the tier of virtual machines in a scale set. Possible values, `standard` or `basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#tier AzureVirtualMachineScaleSet#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#tier AzureVirtualMachineScaleSet#tier}
   */
   readonly tier?: string;
 }
@@ -3491,31 +3491,31 @@ export interface AzureVirtualMachineScaleSetStorageProfileDataDisk {
   /**
   * Specifies the caching requirements. Possible values include: `None` (default), `ReadOnly`, `ReadWrite`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#caching AzureVirtualMachineScaleSet#caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#caching AzureVirtualMachineScaleSet#caching}
   */
   readonly caching?: string;
   /**
   * Specifies how the data disk should be created. The only possible options are `FromImage` and `Empty`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#create_option AzureVirtualMachineScaleSet#create_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#create_option AzureVirtualMachineScaleSet#create_option}
   */
   readonly createOption: string;
   /**
   * Specifies the size of the disk in GB. This element is required when creating an empty disk. Defaults to `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#disk_size_gb AzureVirtualMachineScaleSet#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#disk_size_gb AzureVirtualMachineScaleSet#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * Specifies the Logical Unit Number of the disk in each virtual machine in the scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#lun AzureVirtualMachineScaleSet#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#lun AzureVirtualMachineScaleSet#lun}
   */
   readonly lun: number;
   /**
   * Specifies the type of managed disk to create. Value must be either `Standard_LRS`, `StandardSSD_LRS` or `Premium_LRS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#managed_disk_type AzureVirtualMachineScaleSet#managed_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#managed_disk_type AzureVirtualMachineScaleSet#managed_disk_type}
   */
   readonly managedDiskType?: string;
 }
@@ -3743,7 +3743,7 @@ export interface AzureVirtualMachineScaleSetStorageProfileImageReference {
   /**
   * Specifies the ID of the (custom) image to use to create the virtual machine scale set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#id AzureVirtualMachineScaleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#id AzureVirtualMachineScaleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3752,25 +3752,25 @@ export interface AzureVirtualMachineScaleSetStorageProfileImageReference {
   /**
   * Specifies the offer of the image used to create the virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#offer AzureVirtualMachineScaleSet#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#offer AzureVirtualMachineScaleSet#offer}
   */
   readonly offer?: string;
   /**
   * Specifies the publisher of the image used to create the virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#publisher AzureVirtualMachineScaleSet#publisher}
   */
   readonly publisher?: string;
   /**
   * Specifies the SKU of the image used to create the virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#sku AzureVirtualMachineScaleSet#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#sku AzureVirtualMachineScaleSet#sku}
   */
   readonly sku?: string;
   /**
   * Specifies the version of the image used to create the virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#version AzureVirtualMachineScaleSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#version AzureVirtualMachineScaleSet#version}
   */
   readonly version?: string;
 }
@@ -3972,43 +3972,43 @@ export interface AzureVirtualMachineScaleSetStorageProfileOsDisk {
   /**
   * Specifies the caching requirements. Possible values include: `None` (default), `ReadOnly`, `ReadWrite`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#caching AzureVirtualMachineScaleSet#caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#caching AzureVirtualMachineScaleSet#caching}
   */
   readonly caching?: string;
   /**
   * Specifies how the virtual machine should be created. The only possible option is `FromImage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#create_option AzureVirtualMachineScaleSet#create_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#create_option AzureVirtualMachineScaleSet#create_option}
   */
   readonly createOption?: string;
   /**
   * Specifies the blob uri for user image. A virtual machine scale set creates an os disk in the same container as the user image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#image AzureVirtualMachineScaleSet#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#image AzureVirtualMachineScaleSet#image}
   */
   readonly image?: string;
   /**
   * Specifies the type of managed disk to create. Value you must be either `Standard_LRS`, `StandardSSD_LRS` or `Premium_LRS`. Cannot be used when `vhd_containers` or `image` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#managed_disk_type AzureVirtualMachineScaleSet#managed_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#managed_disk_type AzureVirtualMachineScaleSet#managed_disk_type}
   */
   readonly managedDiskType?: string;
   /**
   * Specifies the disk name. Must be specified when using unmanaged disk ('managed_disk_type' property not set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#name AzureVirtualMachineScaleSet#name}
   */
   readonly name?: string;
   /**
   * Specifies the operating system Type, valid values are `windows`, `linux`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#os_type AzureVirtualMachineScaleSet#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#os_type AzureVirtualMachineScaleSet#os_type}
   */
   readonly osType?: string;
   /**
   * Specifies the vhd uri. Cannot be used when `image` or `managed_disk_type` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#vhd_containers AzureVirtualMachineScaleSet#vhd_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#vhd_containers AzureVirtualMachineScaleSet#vhd_containers}
   */
   readonly vhdContainers?: string[];
 }
@@ -4266,11 +4266,11 @@ export class AzureVirtualMachineScaleSetStorageProfileOsDiskOutputReference exte
 }
 export interface AzureVirtualMachineScaleSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#create AzureVirtualMachineScaleSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#create AzureVirtualMachineScaleSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#delete AzureVirtualMachineScaleSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#delete AzureVirtualMachineScaleSet#delete}
   */
   readonly delete?: string;
 }
@@ -4393,7 +4393,7 @@ export class AzureVirtualMachineScaleSetTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set duplocloud_azure_virtual_machine_scale_set}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set duplocloud_azure_virtual_machine_scale_set}
 */
 export class AzureVirtualMachineScaleSet extends cdktf.TerraformResource {
 
@@ -4409,7 +4409,7 @@ export class AzureVirtualMachineScaleSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureVirtualMachineScaleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureVirtualMachineScaleSet to import
-  * @param importFromId The id of the existing AzureVirtualMachineScaleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureVirtualMachineScaleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureVirtualMachineScaleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4421,7 +4421,7 @@ export class AzureVirtualMachineScaleSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_virtual_machine_scale_set duplocloud_azure_virtual_machine_scale_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_virtual_machine_scale_set duplocloud_azure_virtual_machine_scale_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4432,8 +4432,8 @@ export class AzureVirtualMachineScaleSet extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_virtual_machine_scale_set',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

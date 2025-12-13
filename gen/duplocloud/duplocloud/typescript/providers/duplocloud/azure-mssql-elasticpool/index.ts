@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureMssqlElasticpoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#id AzureMssqlElasticpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#id AzureMssqlElasticpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,51 +17,51 @@ export interface AzureMssqlElasticpoolConfig extends cdktf.TerraformMetaArgument
   /**
   * Maximum allowed data size in GB Defaults to `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#max_size_gb AzureMssqlElasticpool#max_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#max_size_gb AzureMssqlElasticpool#max_size_gb}
   */
   readonly maxSizeGb?: number;
   /**
   * The name of the MS SQL elastic pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#name AzureMssqlElasticpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#name AzureMssqlElasticpool#name}
   */
   readonly name: string;
   /**
   * The name of the SQL Server on which to create the elastic pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#server_name AzureMssqlElasticpool#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#server_name AzureMssqlElasticpool#server_name}
   */
   readonly serverName: string;
   /**
   * The GUID of the tenant that the azure mssql elastic pool will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#tenant_id AzureMssqlElasticpool#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#tenant_id AzureMssqlElasticpool#tenant_id}
   */
   readonly tenantId: string;
   /**
   * sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#sku AzureMssqlElasticpool#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#sku AzureMssqlElasticpool#sku}
   */
   readonly sku?: AzureMssqlElasticpoolSku;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#timeouts AzureMssqlElasticpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#timeouts AzureMssqlElasticpool#timeouts}
   */
   readonly timeouts?: AzureMssqlElasticpoolTimeouts;
 }
 export interface AzureMssqlElasticpoolSku {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#capacity AzureMssqlElasticpool#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#capacity AzureMssqlElasticpool#capacity}
   */
   readonly capacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#name AzureMssqlElasticpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#name AzureMssqlElasticpool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#tier AzureMssqlElasticpool#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#tier AzureMssqlElasticpool#tier}
   */
   readonly tier?: string;
 }
@@ -197,11 +197,11 @@ export class AzureMssqlElasticpoolSkuOutputReference extends cdktf.ComplexObject
 }
 export interface AzureMssqlElasticpoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#create AzureMssqlElasticpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#create AzureMssqlElasticpool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#delete AzureMssqlElasticpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#delete AzureMssqlElasticpool#delete}
   */
   readonly delete?: string;
 }
@@ -324,7 +324,7 @@ export class AzureMssqlElasticpoolTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool duplocloud_azure_mssql_elasticpool}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool duplocloud_azure_mssql_elasticpool}
 */
 export class AzureMssqlElasticpool extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class AzureMssqlElasticpool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMssqlElasticpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMssqlElasticpool to import
-  * @param importFromId The id of the existing AzureMssqlElasticpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMssqlElasticpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMssqlElasticpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class AzureMssqlElasticpool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_elasticpool duplocloud_azure_mssql_elasticpool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_mssql_elasticpool duplocloud_azure_mssql_elasticpool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class AzureMssqlElasticpool extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_mssql_elasticpool',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

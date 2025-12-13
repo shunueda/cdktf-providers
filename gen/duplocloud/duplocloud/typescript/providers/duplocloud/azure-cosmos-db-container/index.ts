@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureCosmosDbContainerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Indicates on which account database will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#account_name AzureCosmosDbContainer#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#account_name AzureCosmosDbContainer#account_name}
   */
   readonly accountName: string;
   /**
   * The name for Cosmsos DB database in which container will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#database_name AzureCosmosDbContainer#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#database_name AzureCosmosDbContainer#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#id AzureCosmosDbContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#id AzureCosmosDbContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,47 +29,47 @@ export interface AzureCosmosDbContainerConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name for Cosmsos DB database container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#name AzureCosmosDbContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#name AzureCosmosDbContainer#name}
   */
   readonly name: string;
   /**
   * The Azure resource provider namespace for Cosmos DB. This value is typically not changed and identifies the resource type within Azure. Defaults to `Microsoft.DocumentDB`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#namespace AzureCosmosDbContainer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#namespace AzureCosmosDbContainer#namespace}
   */
   readonly namespace?: string;
   /**
   * The partition key for the Cosmos DB container. This is a required field for creating a Cosmos DB container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#partition_key_path AzureCosmosDbContainer#partition_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#partition_key_path AzureCosmosDbContainer#partition_key_path}
   */
   readonly partitionKeyPath: string;
   /**
   * The GUID of the tenant in which the Cosmos DB database will be created for specified account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#tenant_id AzureCosmosDbContainer#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#tenant_id AzureCosmosDbContainer#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the Cosmos DB account type. Defaults to `databaseAccounts/sqlDatabases/containers`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#type AzureCosmosDbContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#type AzureCosmosDbContainer#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#timeouts AzureCosmosDbContainer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#timeouts AzureCosmosDbContainer#timeouts}
   */
   readonly timeouts?: AzureCosmosDbContainerTimeouts;
 }
 export interface AzureCosmosDbContainerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#create AzureCosmosDbContainer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#create AzureCosmosDbContainer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#delete AzureCosmosDbContainer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#delete AzureCosmosDbContainer#delete}
   */
   readonly delete?: string;
 }
@@ -192,7 +192,7 @@ export class AzureCosmosDbContainerTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container duplocloud_azure_cosmos_db_container}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container duplocloud_azure_cosmos_db_container}
 */
 export class AzureCosmosDbContainer extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class AzureCosmosDbContainer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCosmosDbContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCosmosDbContainer to import
-  * @param importFromId The id of the existing AzureCosmosDbContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCosmosDbContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCosmosDbContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class AzureCosmosDbContainer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_container duplocloud_azure_cosmos_db_container} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_cosmos_db_container duplocloud_azure_cosmos_db_container} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class AzureCosmosDbContainer extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_cosmos_db_container',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -21,6 +21,7 @@ Object.defineProperty(exports, 'dynamicSecretKubernetes', { get: function () { r
 Object.defineProperty(exports, 'dynamicSecretMongoAtlas', { get: function () { return require('./dynamic-secret-mongo-atlas'); } });
 Object.defineProperty(exports, 'dynamicSecretMongoDb', { get: function () { return require('./dynamic-secret-mongo-db'); } });
 Object.defineProperty(exports, 'dynamicSecretSqlDatabase', { get: function () { return require('./dynamic-secret-sql-database'); } });
+Object.defineProperty(exports, 'externalKmsAws', { get: function () { return require('./external-kms-aws'); } });
 Object.defineProperty(exports, 'group', { get: function () { return require('./group'); } });
 Object.defineProperty(exports, 'identity', { get: function () { return require('./identity'); } });
 Object.defineProperty(exports, 'identityAwsAuth', { get: function () { return require('./identity-aws-auth'); } });

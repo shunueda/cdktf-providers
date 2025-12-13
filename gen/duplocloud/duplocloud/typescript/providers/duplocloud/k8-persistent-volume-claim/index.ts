@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface K8PersistentVolumeClaimConfig extends cdktf.TerraformMetaArgume
   /**
   * An unstructured key value map stored with the persistent volume claim that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#annotations K8PersistentVolumeClaim#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#annotations K8PersistentVolumeClaim#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#id K8PersistentVolumeClaim#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#id K8PersistentVolumeClaim#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface K8PersistentVolumeClaimConfig extends cdktf.TerraformMetaArgume
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#labels K8PersistentVolumeClaim#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#labels K8PersistentVolumeClaim#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the persistent volume claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#name K8PersistentVolumeClaim#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#name K8PersistentVolumeClaim#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the persistent volume claim will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#tenant_id K8PersistentVolumeClaim#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#tenant_id K8PersistentVolumeClaim#tenant_id}
   */
   readonly tenantId: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#spec K8PersistentVolumeClaim#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#spec K8PersistentVolumeClaim#spec}
   */
   readonly spec: K8PersistentVolumeClaimSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#timeouts K8PersistentVolumeClaim#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#timeouts K8PersistentVolumeClaim#timeouts}
   */
   readonly timeouts?: K8PersistentVolumeClaimTimeouts;
 }
@@ -55,13 +55,13 @@ export interface K8PersistentVolumeClaimSpecResources {
   /**
   * Map describing the maximum amount of compute resources allowed. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#limits K8PersistentVolumeClaim#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#limits K8PersistentVolumeClaim#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Map describing the minimum amount of compute resources required. If this is omitted for a container, it defaults to `limits` if that is explicitly specified, otherwise to an implementation-defined value. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#requests K8PersistentVolumeClaim#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#requests K8PersistentVolumeClaim#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -176,31 +176,31 @@ export interface K8PersistentVolumeClaimSpec {
   /**
   * A set of the desired access modes the volume should have. More info: http://kubernetes.io/docs/user-guide/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#access_modes K8PersistentVolumeClaim#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#access_modes K8PersistentVolumeClaim#access_modes}
   */
   readonly accessModes: string[];
   /**
   * Name of the storage class requested by the claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#storage_class_name K8PersistentVolumeClaim#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#storage_class_name K8PersistentVolumeClaim#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * Kubernetes supports two volumeModes of PersistentVolumes: `Filesystem` and `Block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#volume_mode K8PersistentVolumeClaim#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#volume_mode K8PersistentVolumeClaim#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#volume_name K8PersistentVolumeClaim#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#volume_name K8PersistentVolumeClaim#volume_name}
   */
   readonly volumeName?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#resources K8PersistentVolumeClaim#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#resources K8PersistentVolumeClaim#resources}
   */
   readonly resources: K8PersistentVolumeClaimSpecResources;
 }
@@ -394,15 +394,15 @@ export class K8PersistentVolumeClaimSpecOutputReference extends cdktf.ComplexObj
 }
 export interface K8PersistentVolumeClaimTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#create K8PersistentVolumeClaim#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#create K8PersistentVolumeClaim#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#delete K8PersistentVolumeClaim#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#delete K8PersistentVolumeClaim#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#update K8PersistentVolumeClaim#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#update K8PersistentVolumeClaim#update}
   */
   readonly update?: string;
 }
@@ -554,7 +554,7 @@ export class K8PersistentVolumeClaimTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim duplocloud_k8_persistent_volume_claim}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim duplocloud_k8_persistent_volume_claim}
 */
 export class K8PersistentVolumeClaim extends cdktf.TerraformResource {
 
@@ -570,7 +570,7 @@ export class K8PersistentVolumeClaim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8PersistentVolumeClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8PersistentVolumeClaim to import
-  * @param importFromId The id of the existing K8PersistentVolumeClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8PersistentVolumeClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8PersistentVolumeClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -582,7 +582,7 @@ export class K8PersistentVolumeClaim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_persistent_volume_claim duplocloud_k8_persistent_volume_claim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_persistent_volume_claim duplocloud_k8_persistent_volume_claim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,8 +593,8 @@ export class K8PersistentVolumeClaim extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_persistent_volume_claim',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

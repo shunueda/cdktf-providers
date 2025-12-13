@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsBatchJobQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the set of compute environments mapped to a job queue and their order. The position of the compute environments in the list will dictate the order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#compute_environments AwsBatchJobQueue#compute_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#compute_environments AwsBatchJobQueue#compute_environments}
   */
   readonly computeEnvironments: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#id AwsBatchJobQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#id AwsBatchJobQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,59 @@ export interface AwsBatchJobQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the name of the Job queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#name AwsBatchJobQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#name AwsBatchJobQueue#name}
   */
   readonly name: string;
   /**
   * The priority of the job queue. Job queues with a higher priority are evaluated first when associated with the same compute environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#priority AwsBatchJobQueue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#priority AwsBatchJobQueue#priority}
   */
   readonly priority: number;
   /**
   * The ARN of the fair share scheduling policy. If this parameter is specified, the job queue uses a fair share scheduling policy. If this parameter isn't specified, the job queue uses a first in, first out (FIFO) scheduling policy. After a job queue is created, you can replace but can't remove the fair share scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#scheduling_policy_arn AwsBatchJobQueue#scheduling_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#scheduling_policy_arn AwsBatchJobQueue#scheduling_policy_arn}
   */
   readonly schedulingPolicyArn?: string;
   /**
   * The state of the job queue. Must be one of: `ENABLED` or `DISABLED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#state AwsBatchJobQueue#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#state AwsBatchJobQueue#state}
   */
   readonly state: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#tags AwsBatchJobQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#tags AwsBatchJobQueue#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the aws batch Job queue will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#tenant_id AwsBatchJobQueue#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#tenant_id AwsBatchJobQueue#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#wait_for_deployment AwsBatchJobQueue#wait_for_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#wait_for_deployment AwsBatchJobQueue#wait_for_deployment}
   */
   readonly waitForDeployment?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#timeouts AwsBatchJobQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#timeouts AwsBatchJobQueue#timeouts}
   */
   readonly timeouts?: AwsBatchJobQueueTimeouts;
 }
 export interface AwsBatchJobQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#create AwsBatchJobQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#create AwsBatchJobQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#delete AwsBatchJobQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#delete AwsBatchJobQueue#delete}
   */
   readonly delete?: string;
 }
@@ -198,7 +198,7 @@ export class AwsBatchJobQueueTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue duplocloud_aws_batch_job_queue}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue duplocloud_aws_batch_job_queue}
 */
 export class AwsBatchJobQueue extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class AwsBatchJobQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsBatchJobQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsBatchJobQueue to import
-  * @param importFromId The id of the existing AwsBatchJobQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsBatchJobQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsBatchJobQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class AwsBatchJobQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_queue duplocloud_aws_batch_job_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_job_queue duplocloud_aws_batch_job_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class AwsBatchJobQueue extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_batch_job_queue',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "confluent-schema-registry": "0.6.1"
+    "confluent-schema-registry": "0.7.0"
   }
 }

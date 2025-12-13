@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PrivateConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The private connection allow list. This is the account ID for AWS,  subscription ID for Azure, and the project name GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#allow_list PrivateConnection#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#allow_list PrivateConnection#allow_list}
   */
   readonly allowList?: string;
   /**
   * VPC Endpoint ID for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#kai_endpoint_id PrivateConnection#kai_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#kai_endpoint_id PrivateConnection#kai_endpoint_id}
   */
   readonly kaiEndpointId?: string;
   /**
   * The name of the private connection service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#service_name PrivateConnection#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#service_name PrivateConnection#service_name}
   */
   readonly serviceName?: string;
   /**
   * The SQL port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#sql_port PrivateConnection#sql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#sql_port PrivateConnection#sql_port}
   */
   readonly sqlPort?: number;
   /**
   * The private connection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#type PrivateConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#type PrivateConnection#type}
   */
   readonly type?: string;
   /**
   * The websockets port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#web_socket_port PrivateConnection#web_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#web_socket_port PrivateConnection#web_socket_port}
   */
   readonly webSocketPort?: number;
   /**
   * The ID of the workspace group containing the private connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#workspace_group_id PrivateConnection#workspace_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#workspace_group_id PrivateConnection#workspace_group_id}
   */
   readonly workspaceGroupId: string;
   /**
   * The ID of the workspace to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#workspace_id PrivateConnection#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#workspace_id PrivateConnection#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection singlestoredb_private_connection}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection singlestoredb_private_connection}
 */
 export class PrivateConnection extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class PrivateConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateConnection to import
-  * @param importFromId The id of the existing PrivateConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class PrivateConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/private_connection singlestoredb_private_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs/resources/private_connection singlestoredb_private_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class PrivateConnection extends cdktf.TerraformResource {
       terraformResourceType: 'singlestoredb_private_connection',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

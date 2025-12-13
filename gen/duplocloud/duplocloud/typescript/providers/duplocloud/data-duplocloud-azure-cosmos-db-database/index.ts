@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataDuplocloudAzureCosmosDbDatabaseConfig extends cdktf.Terrafo
   /**
   * Indicates on which account database will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database#account_name DataDuplocloudAzureCosmosDbDatabase#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database#account_name DataDuplocloudAzureCosmosDbDatabase#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database#id DataDuplocloudAzureCosmosDbDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database#id DataDuplocloudAzureCosmosDbDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataDuplocloudAzureCosmosDbDatabaseConfig extends cdktf.Terrafo
   /**
   * The name for Cosmsos DB database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database#name DataDuplocloudAzureCosmosDbDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database#name DataDuplocloudAzureCosmosDbDatabase#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant in which the Cosmos DB database will be created for specified account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database#tenant_id DataDuplocloudAzureCosmosDbDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database#tenant_id DataDuplocloudAzureCosmosDbDatabase#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database duplocloud_azure_cosmos_db_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database duplocloud_azure_cosmos_db_database}
 */
 export class DataDuplocloudAzureCosmosDbDatabase extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataDuplocloudAzureCosmosDbDatabase extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataDuplocloudAzureCosmosDbDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudAzureCosmosDbDatabase to import
-  * @param importFromId The id of the existing DataDuplocloudAzureCosmosDbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudAzureCosmosDbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudAzureCosmosDbDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataDuplocloudAzureCosmosDbDatabase extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/azure_cosmos_db_database duplocloud_azure_cosmos_db_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/data-sources/azure_cosmos_db_database duplocloud_azure_cosmos_db_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataDuplocloudAzureCosmosDbDatabase extends cdktf.TerraformDataSour
       terraformResourceType: 'duplocloud_azure_cosmos_db_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "singlestoredb": "0.1.7"
+    "singlestoredb": "0.1.8"
   }
 }

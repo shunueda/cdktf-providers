@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsBatchComputeEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#id AwsBatchComputeEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#id AwsBatchComputeEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface AwsBatchComputeEnvironmentConfig extends cdktf.TerraformMetaArg
   /**
   * Specifies the name of the compute environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#name AwsBatchComputeEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#name AwsBatchComputeEnvironment#name}
   */
   readonly name: string;
   /**
   * The full Amazon Resource Name (ARN) of the IAM role that allows AWS Batch to make calls to other AWS services on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#service_role AwsBatchComputeEnvironment#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#service_role AwsBatchComputeEnvironment#service_role}
   */
   readonly serviceRole?: string;
   /**
   * The state of the compute environment. If the state is `ENABLED`, then the compute environment accepts jobs from a queue and can scale out automatically based on queues. Compute environment must be created in `ENABLED` state. Valid items are `ENABLED` or `DISABLED`. Defaults to `ENABLED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#state AwsBatchComputeEnvironment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#state AwsBatchComputeEnvironment#state}
   */
   readonly state?: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#tags AwsBatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#tags AwsBatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the aws batch compute environment will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#tenant_id AwsBatchComputeEnvironment#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#tenant_id AwsBatchComputeEnvironment#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The type of the compute environment. Valid items are `MANAGED` or `UNMANAGED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#type AwsBatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#type AwsBatchComputeEnvironment#type}
   */
   readonly type: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#wait_for_deployment AwsBatchComputeEnvironment#wait_for_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#wait_for_deployment AwsBatchComputeEnvironment#wait_for_deployment}
   */
   readonly waitForDeployment?: boolean | cdktf.IResolvable;
   /**
   * compute_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#compute_resources AwsBatchComputeEnvironment#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#compute_resources AwsBatchComputeEnvironment#compute_resources}
   */
   readonly computeResources?: AwsBatchComputeEnvironmentComputeResources;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#timeouts AwsBatchComputeEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#timeouts AwsBatchComputeEnvironment#timeouts}
   */
   readonly timeouts?: AwsBatchComputeEnvironmentTimeouts;
 }
@@ -73,13 +73,13 @@ export interface AwsBatchComputeEnvironmentComputeResourcesEc2Configuration {
   /**
   * The AMI ID used for instances launched in the compute environment that match the image type. This setting overrides the `image_id` argument in the `compute_resources` block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#image_id_override AwsBatchComputeEnvironment#image_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#image_id_override AwsBatchComputeEnvironment#image_id_override}
   */
   readonly imageIdOverride?: string;
   /**
   * The image type to match with the instance type to select an AMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#image_type AwsBatchComputeEnvironment#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#image_type AwsBatchComputeEnvironment#image_type}
   */
   readonly imageType?: string;
 }
@@ -194,19 +194,19 @@ export interface AwsBatchComputeEnvironmentComputeResourcesLaunchTemplate {
   /**
   * ID of the launch template. You must specify either the launch template ID or launch template name in the request, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#launch_template_id AwsBatchComputeEnvironment#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#launch_template_id AwsBatchComputeEnvironment#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
   * Name of the launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#launch_template_name AwsBatchComputeEnvironment#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#launch_template_name AwsBatchComputeEnvironment#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
   * The version number of the launch template. Default: The default version of the launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#version AwsBatchComputeEnvironment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#version AwsBatchComputeEnvironment#version}
   */
   readonly version?: string;
 }
@@ -350,97 +350,97 @@ export interface AwsBatchComputeEnvironmentComputeResources {
   /**
   * The allocation strategy to use for the compute resource in case not enough instances of the best fitting instance type can be allocated. Available allocation_strategy - `BEST_FIT_PROGRESSIVE`, `SPOT_CAPACITY_OPTIMIZED`, `BEST_FIT`, `SPOT_PRICE_CAPACITY_OPTIMIZED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#allocation_strategy AwsBatchComputeEnvironment#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#allocation_strategy AwsBatchComputeEnvironment#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
   * Integer of maximum percentage that a Spot Instance price can be when compared with the On-Demand price for that instance type before instances are launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#bid_percentage AwsBatchComputeEnvironment#bid_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#bid_percentage AwsBatchComputeEnvironment#bid_percentage}
   */
   readonly bidPercentage?: number;
   /**
   * The desired number of EC2 vCPUS in the compute environment. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#desired_vcpus AwsBatchComputeEnvironment#desired_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#desired_vcpus AwsBatchComputeEnvironment#desired_vcpus}
   */
   readonly desiredVcpus?: number;
   /**
   * The EC2 key pair that is used for instances launched in the compute environment. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#ec2_key_pair AwsBatchComputeEnvironment#ec2_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#ec2_key_pair AwsBatchComputeEnvironment#ec2_key_pair}
   */
   readonly ec2KeyPair?: string;
   /**
   * The Amazon Machine Image (AMI) ID used for instances launched in the compute environment. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified. (Deprecated, use ec2_configuration `image_id_override` instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#image_id AwsBatchComputeEnvironment#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#image_id AwsBatchComputeEnvironment#image_id}
   */
   readonly imageId?: string;
   /**
   * The Amazon ECS instance role applied to Amazon EC2 instances in a compute environment. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#instance_role AwsBatchComputeEnvironment#instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#instance_role AwsBatchComputeEnvironment#instance_role}
   */
   readonly instanceRole?: string;
   /**
   * A list of instance types that may be launched. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#instance_type AwsBatchComputeEnvironment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#instance_type AwsBatchComputeEnvironment#instance_type}
   */
   readonly instanceType?: string[];
   /**
   * The maximum number of EC2 vCPUs that an environment can reach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#max_vcpus AwsBatchComputeEnvironment#max_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#max_vcpus AwsBatchComputeEnvironment#max_vcpus}
   */
   readonly maxVcpus: number;
   /**
   * The minimum number of EC2 vCPUs that an environment should maintain. For `EC2` or `SPOT` compute environments, if the parameter is not explicitly defined, a `0` default value will be set. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#min_vcpus AwsBatchComputeEnvironment#min_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#min_vcpus AwsBatchComputeEnvironment#min_vcpus}
   */
   readonly minVcpus?: number;
   /**
   * A list of EC2 security group that are associated with instances launched in the compute environment. This parameter is required for Fargate compute environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#security_group_ids AwsBatchComputeEnvironment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#security_group_ids AwsBatchComputeEnvironment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The Amazon Resource Name (ARN) of the Amazon EC2 Spot Fleet IAM role applied to a SPOT compute environment. This parameter is required for SPOT compute environments. This parameter isn't applicable to jobs running on Fargate resources, and shouldn't be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#spot_iam_fleet_role AwsBatchComputeEnvironment#spot_iam_fleet_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#spot_iam_fleet_role AwsBatchComputeEnvironment#spot_iam_fleet_role}
   */
   readonly spotIamFleetRole?: string;
   /**
   * A list of VPC subnets into which the compute resources are launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#subnets AwsBatchComputeEnvironment#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#subnets AwsBatchComputeEnvironment#subnets}
   */
   readonly subnets?: string[];
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#tags AwsBatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#tags AwsBatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The type of compute environment. Valid items are `EC2`, `SPOT`, `FARGATE` or `FARGATE_SPOT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#type AwsBatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#type AwsBatchComputeEnvironment#type}
   */
   readonly type: string;
   /**
   * ec2_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#ec2_configuration AwsBatchComputeEnvironment#ec2_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#ec2_configuration AwsBatchComputeEnvironment#ec2_configuration}
   */
   readonly ec2Configuration?: AwsBatchComputeEnvironmentComputeResourcesEc2Configuration;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#launch_template AwsBatchComputeEnvironment#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#launch_template AwsBatchComputeEnvironment#launch_template}
   */
   readonly launchTemplate?: AwsBatchComputeEnvironmentComputeResourcesLaunchTemplate;
 }
@@ -953,11 +953,11 @@ export class AwsBatchComputeEnvironmentComputeResourcesOutputReference extends c
 }
 export interface AwsBatchComputeEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#create AwsBatchComputeEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#create AwsBatchComputeEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#delete AwsBatchComputeEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#delete AwsBatchComputeEnvironment#delete}
   */
   readonly delete?: string;
 }
@@ -1080,7 +1080,7 @@ export class AwsBatchComputeEnvironmentTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment duplocloud_aws_batch_compute_environment}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment duplocloud_aws_batch_compute_environment}
 */
 export class AwsBatchComputeEnvironment extends cdktf.TerraformResource {
 
@@ -1096,7 +1096,7 @@ export class AwsBatchComputeEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsBatchComputeEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsBatchComputeEnvironment to import
-  * @param importFromId The id of the existing AwsBatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsBatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsBatchComputeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1108,7 +1108,7 @@ export class AwsBatchComputeEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_compute_environment duplocloud_aws_batch_compute_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_compute_environment duplocloud_aws_batch_compute_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1119,8 +1119,8 @@ export class AwsBatchComputeEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_batch_compute_environment',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

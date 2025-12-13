@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TenantK8SResourceQuotaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#id TenantK8SResourceQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#id TenantK8SResourceQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface TenantK8SResourceQuotaConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of the K8's quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#name TenantK8SResourceQuota#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#name TenantK8SResourceQuota#name}
   */
   readonly name: string;
   /**
   * Limits the total amount of compute, storage, and object resources that a namespace can use to prevent over-consumption and ensure fair resource allocation in a Kubernetes cluster. Should be a JSON-encoded string using jsonencode()
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#resource_quota TenantK8SResourceQuota#resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#resource_quota TenantK8SResourceQuota#resource_quota}
   */
   readonly resourceQuota: string;
   /**
   * Applies quota only to resources matching specified workload scopes.Should be a JSON-encoded string using jsonencode()
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#scope_selector TenantK8SResourceQuota#scope_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#scope_selector TenantK8SResourceQuota#scope_selector}
   */
   readonly scopeSelector?: string;
   /**
   * The GUID of the tenant that the K8's quota will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#tenant_id TenantK8SResourceQuota#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#tenant_id TenantK8SResourceQuota#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#timeouts TenantK8SResourceQuota#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#timeouts TenantK8SResourceQuota#timeouts}
   */
   readonly timeouts?: TenantK8SResourceQuotaTimeouts;
 }
 export interface TenantK8SResourceQuotaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#create TenantK8SResourceQuota#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#create TenantK8SResourceQuota#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#delete TenantK8SResourceQuota#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#delete TenantK8SResourceQuota#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#update TenantK8SResourceQuota#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#update TenantK8SResourceQuota#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class TenantK8SResourceQuotaTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota duplocloud_tenant_k8s_resource_quota}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota duplocloud_tenant_k8s_resource_quota}
 */
 export class TenantK8SResourceQuota extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class TenantK8SResourceQuota extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantK8SResourceQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantK8SResourceQuota to import
-  * @param importFromId The id of the existing TenantK8SResourceQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantK8SResourceQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantK8SResourceQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class TenantK8SResourceQuota extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/tenant_k8s_resource_quota duplocloud_tenant_k8s_resource_quota} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/tenant_k8s_resource_quota duplocloud_tenant_k8s_resource_quota} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class TenantK8SResourceQuota extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_k8s_resource_quota',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

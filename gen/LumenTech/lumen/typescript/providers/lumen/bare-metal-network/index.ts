@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network
+// https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface BareMetalNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#location_id BareMetalNetwork#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#location_id BareMetalNetwork#location_id}
   */
   readonly locationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#name BareMetalNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#name BareMetalNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#network_size_id BareMetalNetwork#network_size_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#network_size_id BareMetalNetwork#network_size_id}
   */
   readonly networkSizeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#network_type BareMetalNetwork#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#network_type BareMetalNetwork#network_type}
   */
   readonly networkType?: string;
   /**
   * For private networks, this is an existing VRF to be used in creating the new network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#vrf BareMetalNetwork#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#vrf BareMetalNetwork#vrf}
   */
   readonly vrf?: string;
   /**
   * For private networks, create a new VRF with this description and use it in creating the new network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#vrf_description BareMetalNetwork#vrf_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#vrf_description BareMetalNetwork#vrf_description}
   */
   readonly vrfDescription?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#timeouts BareMetalNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#timeouts BareMetalNetwork#timeouts}
   */
   readonly timeouts?: BareMetalNetworkTimeouts;
 }
@@ -124,19 +124,19 @@ export class BareMetalNetworkPricesList extends cdktf.ComplexList {
 }
 export interface BareMetalNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#create BareMetalNetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#create BareMetalNetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#delete BareMetalNetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#delete BareMetalNetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#read BareMetalNetwork#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#read BareMetalNetwork#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#update BareMetalNetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#update BareMetalNetwork#update}
   */
   readonly update?: string;
 }
@@ -317,7 +317,7 @@ export class BareMetalNetworkTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network lumen_bare_metal_network}
+* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network lumen_bare_metal_network}
 */
 export class BareMetalNetwork extends cdktf.TerraformResource {
 
@@ -333,7 +333,7 @@ export class BareMetalNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BareMetalNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BareMetalNetwork to import
-  * @param importFromId The id of the existing BareMetalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BareMetalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BareMetalNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class BareMetalNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_network lumen_bare_metal_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_network lumen_bare_metal_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class BareMetalNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'lumen_bare_metal_network',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.1',
-        providerVersionConstraint: '3.0.1'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

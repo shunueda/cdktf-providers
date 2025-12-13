@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AwsMwaaEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `airflow_configuration_options` parameter specifies airflow override options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#airflow_configuration_options AwsMwaaEnvironment#airflow_configuration_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#airflow_configuration_options AwsMwaaEnvironment#airflow_configuration_options}
   */
   readonly airflowConfigurationOptions?: { [key: string]: string };
   /**
   * Airflow version of your environment, will be set by default to the latest version that MWAA supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#airflow_version AwsMwaaEnvironment#airflow_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#airflow_version AwsMwaaEnvironment#airflow_version}
   */
   readonly airflowVersion?: string;
   /**
   * The relative path to the DAG folder on your Amazon S3 storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#dag_s3_path AwsMwaaEnvironment#dag_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#dag_s3_path AwsMwaaEnvironment#dag_s3_path}
   */
   readonly dagS3Path: string;
   /**
-  * Environment class for the cluster. Possible options are `mw1.small`, `mw1.medium`, `mw1.large`, `mw1.xlarge`, `mw1.2xlarge`.
+  * Environment class for the cluster. Possible options are `mw1.micro`, `mw1.small`, `mw1.medium`, `mw1.large`, `mw1.xlarge`, `mw1.2xlarge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#environment_class AwsMwaaEnvironment#environment_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#environment_class AwsMwaaEnvironment#environment_class}
   */
   readonly environmentClass?: string;
   /**
   * The Execution Role ARN of the Amazon MWAA Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#execution_role_arn AwsMwaaEnvironment#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#execution_role_arn AwsMwaaEnvironment#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#id AwsMwaaEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#id AwsMwaaEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,109 +47,109 @@ export interface AwsMwaaEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of your KMS key that you want to use for encryption. Will be set to the ARN of the managed KMS key aws/airflow by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#kms_key AwsMwaaEnvironment#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#kms_key AwsMwaaEnvironment#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * The maximum number of workers that can be automatically scaled up. Value need to be between `1` and `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#max_workers AwsMwaaEnvironment#max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#max_workers AwsMwaaEnvironment#max_workers}
   */
   readonly maxWorkers?: number;
   /**
   * The minimum number of workers that you want to run in your environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#min_workers AwsMwaaEnvironment#min_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#min_workers AwsMwaaEnvironment#min_workers}
   */
   readonly minWorkers?: number;
   /**
   * The name of the Apache Airflow Environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#name AwsMwaaEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#name AwsMwaaEnvironment#name}
   */
   readonly name: string;
   /**
   * The plugins.zip file version you want to use. If not set, latest s3 file version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#plugins_s3_object_version AwsMwaaEnvironment#plugins_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#plugins_s3_object_version AwsMwaaEnvironment#plugins_s3_object_version}
   */
   readonly pluginsS3ObjectVersion?: string;
   /**
   * The relative path to the plugins.zip file on your Amazon S3 storage bucket. For example, plugins.zip. If a relative path is provided in the request, then `plugins_s3_object_version` is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#plugins_s3_path AwsMwaaEnvironment#plugins_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#plugins_s3_path AwsMwaaEnvironment#plugins_s3_path}
   */
   readonly pluginsS3Path?: string;
   /**
   * The requirements.txt file version you want to use. If not set, latest s3 file version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#requirements_s3_object_version AwsMwaaEnvironment#requirements_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#requirements_s3_object_version AwsMwaaEnvironment#requirements_s3_object_version}
   */
   readonly requirementsS3ObjectVersion?: string;
   /**
   * The relative path to the requirements.txt file on your Amazon S3 storage bucket. For example, requirements.txt. If a relative path is provided in the request, then requirements_s3_object_version is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#requirements_s3_path AwsMwaaEnvironment#requirements_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#requirements_s3_path AwsMwaaEnvironment#requirements_s3_path}
   */
   readonly requirementsS3Path?: string;
   /**
   * The number of schedulers that you want to run in your environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#schedulers AwsMwaaEnvironment#schedulers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#schedulers AwsMwaaEnvironment#schedulers}
   */
   readonly schedulers?: number;
   /**
   * The Amazon Resource Name (ARN) of your Amazon S3 storage bucket. For example, arn:aws:s3:::airflow-mybucketname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#source_bucket_arn AwsMwaaEnvironment#source_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#source_bucket_arn AwsMwaaEnvironment#source_bucket_arn}
   */
   readonly sourceBucketArn: string;
   /**
   * The startup script file version you want to use. If not set, latest s3 file version will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#startup_script_s3_object_version AwsMwaaEnvironment#startup_script_s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#startup_script_s3_object_version AwsMwaaEnvironment#startup_script_s3_object_version}
   */
   readonly startupScriptS3ObjectVersion?: string;
   /**
   * The relative path to the startup script file on your Amazon S3 storage bucket. For example, startup_script.sh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#startup_script_s3_path AwsMwaaEnvironment#startup_script_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#startup_script_s3_path AwsMwaaEnvironment#startup_script_s3_path}
   */
   readonly startupScriptS3Path?: string;
   /**
   * The GUID of the tenant that the Managed Workflows Apache Airflow will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#tenant_id AwsMwaaEnvironment#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#tenant_id AwsMwaaEnvironment#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until Amazon MWAA Environment to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#wait_until_ready AwsMwaaEnvironment#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#wait_until_ready AwsMwaaEnvironment#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the webserver should be accessible over the internet or via your specified VPC.  Defaults to `PUBLIC_ONLY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#webserver_access_mode AwsMwaaEnvironment#webserver_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#webserver_access_mode AwsMwaaEnvironment#webserver_access_mode}
   */
   readonly webserverAccessMode?: string;
   /**
   * Specifies the start date for the weekly maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#weekly_maintenance_window_start AwsMwaaEnvironment#weekly_maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#weekly_maintenance_window_start AwsMwaaEnvironment#weekly_maintenance_window_start}
   */
   readonly weeklyMaintenanceWindowStart?: string;
   /**
   * logging_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#logging_configuration AwsMwaaEnvironment#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#logging_configuration AwsMwaaEnvironment#logging_configuration}
   */
   readonly loggingConfiguration?: AwsMwaaEnvironmentLoggingConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#timeouts AwsMwaaEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#timeouts AwsMwaaEnvironment#timeouts}
   */
   readonly timeouts?: AwsMwaaEnvironmentTimeouts;
 }
@@ -321,11 +321,11 @@ export class AwsMwaaEnvironmentLastUpdatedList extends cdktf.ComplexList {
 }
 export interface AwsMwaaEnvironmentLoggingConfigurationDagProcessingLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -438,11 +438,11 @@ export class AwsMwaaEnvironmentLoggingConfigurationDagProcessingLogsOutputRefere
 }
 export interface AwsMwaaEnvironmentLoggingConfigurationSchedulerLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -555,11 +555,11 @@ export class AwsMwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference 
 }
 export interface AwsMwaaEnvironmentLoggingConfigurationTaskLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -672,11 +672,11 @@ export class AwsMwaaEnvironmentLoggingConfigurationTaskLogsOutputReference exten
 }
 export interface AwsMwaaEnvironmentLoggingConfigurationWebserverLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -789,11 +789,11 @@ export class AwsMwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference 
 }
 export interface AwsMwaaEnvironmentLoggingConfigurationWorkerLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#enabled AwsMwaaEnvironment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#log_level AwsMwaaEnvironment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -908,31 +908,31 @@ export interface AwsMwaaEnvironmentLoggingConfiguration {
   /**
   * dag_processing_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#dag_processing_logs AwsMwaaEnvironment#dag_processing_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#dag_processing_logs AwsMwaaEnvironment#dag_processing_logs}
   */
   readonly dagProcessingLogs?: AwsMwaaEnvironmentLoggingConfigurationDagProcessingLogs;
   /**
   * scheduler_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#scheduler_logs AwsMwaaEnvironment#scheduler_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#scheduler_logs AwsMwaaEnvironment#scheduler_logs}
   */
   readonly schedulerLogs?: AwsMwaaEnvironmentLoggingConfigurationSchedulerLogs;
   /**
   * task_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#task_logs AwsMwaaEnvironment#task_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#task_logs AwsMwaaEnvironment#task_logs}
   */
   readonly taskLogs?: AwsMwaaEnvironmentLoggingConfigurationTaskLogs;
   /**
   * webserver_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#webserver_logs AwsMwaaEnvironment#webserver_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#webserver_logs AwsMwaaEnvironment#webserver_logs}
   */
   readonly webserverLogs?: AwsMwaaEnvironmentLoggingConfigurationWebserverLogs;
   /**
   * worker_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#worker_logs AwsMwaaEnvironment#worker_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#worker_logs AwsMwaaEnvironment#worker_logs}
   */
   readonly workerLogs?: AwsMwaaEnvironmentLoggingConfigurationWorkerLogs;
 }
@@ -1132,11 +1132,11 @@ export class AwsMwaaEnvironmentLoggingConfigurationOutputReference extends cdktf
 }
 export interface AwsMwaaEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#create AwsMwaaEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#create AwsMwaaEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#delete AwsMwaaEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#delete AwsMwaaEnvironment#delete}
   */
   readonly delete?: string;
 }
@@ -1259,7 +1259,7 @@ export class AwsMwaaEnvironmentTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment duplocloud_aws_mwaa_environment}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment duplocloud_aws_mwaa_environment}
 */
 export class AwsMwaaEnvironment extends cdktf.TerraformResource {
 
@@ -1275,7 +1275,7 @@ export class AwsMwaaEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsMwaaEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsMwaaEnvironment to import
-  * @param importFromId The id of the existing AwsMwaaEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsMwaaEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsMwaaEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1287,7 +1287,7 @@ export class AwsMwaaEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_mwaa_environment duplocloud_aws_mwaa_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_mwaa_environment duplocloud_aws_mwaa_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1298,8 +1298,8 @@ export class AwsMwaaEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_mwaa_environment',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

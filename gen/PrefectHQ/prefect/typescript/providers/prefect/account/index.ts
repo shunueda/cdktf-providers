@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Billing email to apply to the account's Stripe customer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#billing_email Account#billing_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#billing_email Account#billing_email}
   */
   readonly billingEmail?: string;
   /**
   * The list of domain names for enabling SSO in Prefect Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#domain_names Account#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#domain_names Account#domain_names}
   */
   readonly domainNames?: string[];
   /**
   * Unique handle of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#handle Account#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#handle Account#handle}
   */
   readonly handle: string;
   /**
   * An optional for an external url associated with the account, e.g. https://prefect.io/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#link Account#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#link Account#link}
   */
   readonly link?: string;
   /**
   * An optional physical location for the account, e.g. Washington, D.C.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#location Account#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#location Account#location}
   */
   readonly location?: string;
   /**
   * Name of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#name Account#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#name Account#name}
   */
   readonly name: string;
   /**
   * Group of settings related to accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#settings Account#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#settings Account#settings}
   */
   readonly settings?: AccountSettings;
 }
@@ -54,25 +54,25 @@ export interface AccountSettings {
   /**
   * Whether to use AI to generate log summaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#ai_log_summaries Account#ai_log_summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#ai_log_summaries Account#ai_log_summaries}
   */
   readonly aiLogSummaries?: boolean | cdktf.IResolvable;
   /**
   * Whether or not this account allows public workspaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#allow_public_workspaces Account#allow_public_workspaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#allow_public_workspaces Account#allow_public_workspaces}
   */
   readonly allowPublicWorkspaces?: boolean | cdktf.IResolvable;
   /**
   * Whether to enforce webhook authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#enforce_webhook_authentication Account#enforce_webhook_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#enforce_webhook_authentication Account#enforce_webhook_authentication}
   */
   readonly enforceWebhookAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the use of managed work pools
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#managed_execution Account#managed_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#managed_execution Account#managed_execution}
   */
   readonly managedExecution?: boolean | cdktf.IResolvable;
 }
@@ -253,7 +253,7 @@ export class AccountSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account prefect_account}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account prefect_account}
 */
 export class Account extends cdktf.TerraformResource {
 
@@ -269,7 +269,7 @@ export class Account extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Account resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Account to import
-  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Account to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class Account extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/account prefect_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/account prefect_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class Account extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_account',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

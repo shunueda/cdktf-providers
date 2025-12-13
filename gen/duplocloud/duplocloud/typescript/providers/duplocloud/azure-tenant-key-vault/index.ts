@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureTenantKeyVaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#id AzureTenantKeyVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#id AzureTenantKeyVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface AzureTenantKeyVaultConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies the name of the Key Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#name AzureTenantKeyVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#name AzureTenantKeyVault#name}
   */
   readonly name: string;
   /**
   * Purge the Key Vault. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#purge AzureTenantKeyVault#purge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#purge AzureTenantKeyVault#purge}
   */
   readonly purge?: boolean | cdktf.IResolvable;
   /**
   * Is Purge Protection enabled for this Key Vault?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#purge_protection_enabled AzureTenantKeyVault#purge_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#purge_protection_enabled AzureTenantKeyVault#purge_protection_enabled}
   */
   readonly purgeProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Name of the SKU used for this Key Vault. Possible values are `standard` and `premium`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#sku_name AzureTenantKeyVault#sku_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#sku_name AzureTenantKeyVault#sku_name}
   */
   readonly skuName: string;
   /**
   * The number of days that items should be retained for once soft-deleted. This value can be between `7` and `90` (the default) days. Defaults to `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#soft_delete_retention_days AzureTenantKeyVault#soft_delete_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#soft_delete_retention_days AzureTenantKeyVault#soft_delete_retention_days}
   */
   readonly softDeleteRetentionDays?: number;
   /**
   * The GUID of the DuploCloud tenant that the key vault will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#tenant_id AzureTenantKeyVault#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#tenant_id AzureTenantKeyVault#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#timeouts AzureTenantKeyVault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#timeouts AzureTenantKeyVault#timeouts}
   */
   readonly timeouts?: AzureTenantKeyVaultTimeouts;
 }
 export interface AzureTenantKeyVaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#create AzureTenantKeyVault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#create AzureTenantKeyVault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#delete AzureTenantKeyVault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#delete AzureTenantKeyVault#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +186,7 @@ export class AzureTenantKeyVaultTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault duplocloud_azure_tenant_key_vault}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault duplocloud_azure_tenant_key_vault}
 */
 export class AzureTenantKeyVault extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class AzureTenantKeyVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureTenantKeyVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureTenantKeyVault to import
-  * @param importFromId The id of the existing AzureTenantKeyVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureTenantKeyVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureTenantKeyVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class AzureTenantKeyVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_tenant_key_vault duplocloud_azure_tenant_key_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_tenant_key_vault duplocloud_azure_tenant_key_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class AzureTenantKeyVault extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_tenant_key_vault',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

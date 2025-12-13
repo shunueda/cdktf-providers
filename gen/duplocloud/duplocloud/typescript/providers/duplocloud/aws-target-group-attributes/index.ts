@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsTargetGroupAttributesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#id AwsTargetGroupAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#id AwsTargetGroupAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,59 @@ export interface AwsTargetGroupAttributesConfig extends cdktf.TerraformMetaArgum
   /**
   * Whether or not to look up the LB via an ECS service name instead of replication controller name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#is_ecs_lb AwsTargetGroupAttributes#is_ecs_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#is_ecs_lb AwsTargetGroupAttributes#is_ecs_lb}
   */
   readonly isEcsLb?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to look up the LB via the LB name instead of replication controller name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#is_passthrough_lb AwsTargetGroupAttributes#is_passthrough_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#is_passthrough_lb AwsTargetGroupAttributes#is_passthrough_lb}
   */
   readonly isPassthroughLb?: boolean | cdktf.IResolvable;
   /**
   * Port used to connect with the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#port AwsTargetGroupAttributes#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#port AwsTargetGroupAttributes#port}
   */
   readonly port?: number;
   /**
   * Name of the ecs service or replication controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#role_name AwsTargetGroupAttributes#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#role_name AwsTargetGroupAttributes#role_name}
   */
   readonly roleName?: string;
   /**
   * ARN of the Target Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#target_group_arn AwsTargetGroupAttributes#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#target_group_arn AwsTargetGroupAttributes#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
   * The GUID of the tenant that the aws target group attributes will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#tenant_id AwsTargetGroupAttributes#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#tenant_id AwsTargetGroupAttributes#tenant_id}
   */
   readonly tenantId: string;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#attribute AwsTargetGroupAttributes#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#attribute AwsTargetGroupAttributes#attribute}
   */
   readonly attribute?: AwsTargetGroupAttributesAttribute[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#timeouts AwsTargetGroupAttributes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#timeouts AwsTargetGroupAttributes#timeouts}
   */
   readonly timeouts?: AwsTargetGroupAttributesTimeouts;
 }
 export interface AwsTargetGroupAttributesAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#key AwsTargetGroupAttributes#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#key AwsTargetGroupAttributes#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#value AwsTargetGroupAttributes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#value AwsTargetGroupAttributes#value}
   */
   readonly value?: string;
 }
@@ -214,11 +214,11 @@ export class AwsTargetGroupAttributesAttributeList extends cdktf.ComplexList {
 }
 export interface AwsTargetGroupAttributesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#create AwsTargetGroupAttributes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#create AwsTargetGroupAttributes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#delete AwsTargetGroupAttributes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#delete AwsTargetGroupAttributes#delete}
   */
   readonly delete?: string;
 }
@@ -341,7 +341,7 @@ export class AwsTargetGroupAttributesTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes duplocloud_aws_target_group_attributes}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes duplocloud_aws_target_group_attributes}
 */
 export class AwsTargetGroupAttributes extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class AwsTargetGroupAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTargetGroupAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTargetGroupAttributes to import
-  * @param importFromId The id of the existing AwsTargetGroupAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTargetGroupAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTargetGroupAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class AwsTargetGroupAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_target_group_attributes duplocloud_aws_target_group_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_target_group_attributes duplocloud_aws_target_group_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class AwsTargetGroupAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_target_group_attributes',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

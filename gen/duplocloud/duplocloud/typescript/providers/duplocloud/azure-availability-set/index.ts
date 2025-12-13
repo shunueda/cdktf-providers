@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureAvailabilitySetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#id AzureAvailabilitySet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#id AzureAvailabilitySet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface AzureAvailabilitySetConfig extends cdktf.TerraformMetaArguments
   /**
   * The name for availability set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#name AzureAvailabilitySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#name AzureAvailabilitySet#name}
   */
   readonly name: string;
   /**
   * Specify platform fault domain count betweem 1-3, for availability set. Virtual machines in the same fault domain share a common power source and physical network switch. Defaults to `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#platform_fault_domain_count AzureAvailabilitySet#platform_fault_domain_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#platform_fault_domain_count AzureAvailabilitySet#platform_fault_domain_count}
   */
   readonly platformFaultDomainCount?: number;
   /**
   * Specify platform update domain count between 1-20, for availability set. Virtual machines in the same update domain will be restarted together during planned maintenance. Azure never restarts more than one update domain at a time. Defaults to `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#platform_update_domain_count AzureAvailabilitySet#platform_update_domain_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#platform_update_domain_count AzureAvailabilitySet#platform_update_domain_count}
   */
   readonly platformUpdateDomainCount?: number;
   /**
   * The GUID of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#tenant_id AzureAvailabilitySet#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#tenant_id AzureAvailabilitySet#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Set this to `Aligned` if you plan to create virtual machines in this availability set with managed disks. Defaults to `Classic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#use_managed_disk AzureAvailabilitySet#use_managed_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#use_managed_disk AzureAvailabilitySet#use_managed_disk}
   */
   readonly useManagedDisk?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#timeouts AzureAvailabilitySet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#timeouts AzureAvailabilitySet#timeouts}
   */
   readonly timeouts?: AzureAvailabilitySetTimeouts;
 }
@@ -128,11 +128,11 @@ export class AzureAvailabilitySetVirtualMachinesList extends cdktf.ComplexList {
 }
 export interface AzureAvailabilitySetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#create AzureAvailabilitySet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#create AzureAvailabilitySet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#delete AzureAvailabilitySet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#delete AzureAvailabilitySet#delete}
   */
   readonly delete?: string;
 }
@@ -255,7 +255,7 @@ export class AzureAvailabilitySetTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set duplocloud_azure_availability_set}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set duplocloud_azure_availability_set}
 */
 export class AzureAvailabilitySet extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class AzureAvailabilitySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureAvailabilitySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureAvailabilitySet to import
-  * @param importFromId The id of the existing AzureAvailabilitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureAvailabilitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureAvailabilitySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class AzureAvailabilitySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_availability_set duplocloud_azure_availability_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_availability_set duplocloud_azure_availability_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class AzureAvailabilitySet extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_availability_set',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3,6 +3,7 @@ Object.defineProperty(exports, 'account', { get: function () { return require('.
 Object.defineProperty(exports, 'accountAttachment', { get: function () { return require('./account-attachment'); } });
 Object.defineProperty(exports, 'accountGroup', { get: function () { return require('./account-group'); } });
 Object.defineProperty(exports, 'approvalWorkflow', { get: function () { return require('./approval-workflow'); } });
+Object.defineProperty(exports, 'connector', { get: function () { return require('./connector'); } });
 Object.defineProperty(exports, 'group', { get: function () { return require('./group'); } });
 Object.defineProperty(exports, 'groupRole', { get: function () { return require('./group-role'); } });
 Object.defineProperty(exports, 'identityAlias', { get: function () { return require('./identity-alias'); } });
@@ -28,6 +29,7 @@ Object.defineProperty(exports, 'dataSdmAccount', { get: function () { return req
 Object.defineProperty(exports, 'dataSdmAccountAttachment', { get: function () { return require('./data-sdm-account-attachment'); } });
 Object.defineProperty(exports, 'dataSdmAccountGroup', { get: function () { return require('./data-sdm-account-group'); } });
 Object.defineProperty(exports, 'dataSdmApprovalWorkflow', { get: function () { return require('./data-sdm-approval-workflow'); } });
+Object.defineProperty(exports, 'dataSdmConnector', { get: function () { return require('./data-sdm-connector'); } });
 Object.defineProperty(exports, 'dataSdmGroup', { get: function () { return require('./data-sdm-group'); } });
 Object.defineProperty(exports, 'dataSdmGroupRole', { get: function () { return require('./data-sdm-group-role'); } });
 Object.defineProperty(exports, 'dataSdmIdentityAlias', { get: function () { return require('./data-sdm-identity-alias'); } });

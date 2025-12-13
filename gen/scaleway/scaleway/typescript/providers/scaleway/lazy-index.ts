@@ -110,6 +110,10 @@ Object.defineProperty(exports, 'rdbSnapshot', { get: function () { return requir
 Object.defineProperty(exports, 'rdbUser', { get: function () { return require('./rdb-user'); } });
 Object.defineProperty(exports, 'redisCluster', { get: function () { return require('./redis-cluster'); } });
 Object.defineProperty(exports, 'registryNamespace', { get: function () { return require('./registry-namespace'); } });
+Object.defineProperty(exports, 's2SVpnConnection', { get: function () { return require('./s2s-vpn-connection'); } });
+Object.defineProperty(exports, 's2SVpnCustomerGateway', { get: function () { return require('./s2s-vpn-customer-gateway'); } });
+Object.defineProperty(exports, 's2SVpnGateway', { get: function () { return require('./s2s-vpn-gateway'); } });
+Object.defineProperty(exports, 's2SVpnRoutingPolicy', { get: function () { return require('./s2s-vpn-routing-policy'); } });
 Object.defineProperty(exports, 'sdbSqlDatabase', { get: function () { return require('./sdb-sql-database'); } });
 Object.defineProperty(exports, 'secret', { get: function () { return require('./secret'); } });
 Object.defineProperty(exports, 'secretVersion', { get: function () { return require('./secret-version'); } });
@@ -180,6 +184,7 @@ Object.defineProperty(exports, 'dataScalewayIpamIps', { get: function () { retur
 Object.defineProperty(exports, 'dataScalewayK8SCluster', { get: function () { return require('./data-scaleway-k8s-cluster'); } });
 Object.defineProperty(exports, 'dataScalewayK8SPool', { get: function () { return require('./data-scaleway-k8s-pool'); } });
 Object.defineProperty(exports, 'dataScalewayK8SVersion', { get: function () { return require('./data-scaleway-k8s-version'); } });
+Object.defineProperty(exports, 'dataScalewayKeyManagerKey', { get: function () { return require('./data-scaleway-key-manager-key'); } });
 Object.defineProperty(exports, 'dataScalewayLb', { get: function () { return require('./data-scaleway-lb'); } });
 Object.defineProperty(exports, 'dataScalewayLbAcls', { get: function () { return require('./data-scaleway-lb-acls'); } });
 Object.defineProperty(exports, 'dataScalewayLbBackend', { get: function () { return require('./data-scaleway-lb-backend'); } });

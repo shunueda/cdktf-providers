@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PullzoneShieldConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#pullzone PullzoneShield#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#pullzone PullzoneShield#pullzone}
   */
   readonly pullzone: number;
   /**
   * Options: `Advanced`, `Basic`, `Business`, `Enterprise`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#tier PullzoneShield#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#tier PullzoneShield#tier}
   */
   readonly tier?: string;
   /**
   * Replace our bunny.net branded block and challenge pages with a white-labelled experience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#whitelabel PullzoneShield#whitelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#whitelabel PullzoneShield#whitelabel}
   */
   readonly whitelabel?: boolean | cdktf.IResolvable;
   /**
   * access_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#access_list PullzoneShield#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#access_list PullzoneShield#access_list}
   */
   readonly accessList?: PullzoneShieldAccessListStruct[] | cdktf.IResolvable;
   /**
   * bot_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#bot_detection PullzoneShield#bot_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#bot_detection PullzoneShield#bot_detection}
   */
   readonly botDetection?: PullzoneShieldBotDetection;
   /**
   * ddos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#ddos PullzoneShield#ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#ddos PullzoneShield#ddos}
   */
   readonly ddos?: PullzoneShieldDdos;
   /**
   * waf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#waf PullzoneShield#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#waf PullzoneShield#waf}
   */
   readonly waf?: PullzoneShieldWaf;
 }
@@ -54,13 +54,13 @@ export interface PullzoneShieldAccessListStruct {
   /**
   * Options: `Allow`, `Block`, `Challenge`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#action PullzoneShield#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#action PullzoneShield#action}
   */
   readonly action: string;
   /**
   * The ID of the Access List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#id PullzoneShield#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#id PullzoneShield#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -204,37 +204,37 @@ export interface PullzoneShieldBotDetection {
   /**
   * Combines advanced entropy analysis and cross-session consistency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#complex_fingerprinting PullzoneShield#complex_fingerprinting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#complex_fingerprinting PullzoneShield#complex_fingerprinting}
   */
   readonly complexFingerprinting?: boolean | cdktf.IResolvable;
   /**
   * Controls how assertively unusual fingerprints are treated as bots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#fingerprint_aggression PullzoneShield#fingerprint_aggression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#fingerprint_aggression PullzoneShield#fingerprint_aggression}
   */
   readonly fingerprintAggression?: number;
   /**
   * Adjusts how precisely browsers are checked for signs of automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#fingerprint_sensitivity PullzoneShield#fingerprint_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#fingerprint_sensitivity PullzoneShield#fingerprint_sensitivity}
   */
   readonly fingerprintSensitivity?: number;
   /**
   * Monitors IP behaviour, reputation, and rate patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#ip_sensitivity PullzoneShield#ip_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#ip_sensitivity PullzoneShield#ip_sensitivity}
   */
   readonly ipSensitivity?: number;
   /**
   * Indicates the mode the Bot Detection engine is running. Options: `Challenge`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#mode PullzoneShield#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#mode PullzoneShield#mode}
   */
   readonly mode?: string;
   /**
   * Analyzes request headers, query structure, and protocol anomalies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#request_integrity PullzoneShield#request_integrity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#request_integrity PullzoneShield#request_integrity}
   */
   readonly requestIntegrity?: number;
 }
@@ -475,19 +475,19 @@ export interface PullzoneShieldDdos {
   /**
   * The window of time a visitor can access your website after passing a challenge. Once the timeout expires, they'll face a new challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#challenge_window PullzoneShield#challenge_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#challenge_window PullzoneShield#challenge_window}
   */
   readonly challengeWindow?: number;
   /**
   * Options: `Asleep`, `Extreme`, `High`, `Low`, `Medium`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#level PullzoneShield#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#level PullzoneShield#level}
   */
   readonly level: string;
   /**
   * Indicates the mode the engine is running. Options: `Block`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#mode PullzoneShield#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#mode PullzoneShield#mode}
   */
   readonly mode?: string;
 }
@@ -638,91 +638,91 @@ export interface PullzoneShieldWaf {
   /**
   * Indicates allowed HTTP methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#allowed_http_methods PullzoneShield#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#allowed_http_methods PullzoneShield#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string[];
   /**
   * Indicates allowed HTTP versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#allowed_http_versions PullzoneShield#allowed_http_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#allowed_http_versions PullzoneShield#allowed_http_versions}
   */
   readonly allowedHttpVersions?: string[];
   /**
   * Indicates allowed values for request Content-Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#allowed_request_content_types PullzoneShield#allowed_request_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#allowed_request_content_types PullzoneShield#allowed_request_content_types}
   */
   readonly allowedRequestContentTypes?: string[];
   /**
   * Determines which severity level of rules will block requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#blocking_sensitivity PullzoneShield#blocking_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#blocking_sensitivity PullzoneShield#blocking_sensitivity}
   */
   readonly blockingSensitivity?: number;
   /**
   * Determines the action to take when the request body length exceeds your plan limit. Options: `Block`, `Ignore`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#body_limit_request PullzoneShield#body_limit_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#body_limit_request PullzoneShield#body_limit_request}
   */
   readonly bodyLimitRequest?: string;
   /**
   * Determines the action to take when the response body length exceeds your plan limit. Options: `Block`, `Ignore`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#body_limit_response PullzoneShield#body_limit_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#body_limit_response PullzoneShield#body_limit_response}
   */
   readonly bodyLimitResponse?: string;
   /**
   * Determines which severity level of rules will trigger a detection log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#detection_sensitivity PullzoneShield#detection_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#detection_sensitivity PullzoneShield#detection_sensitivity}
   */
   readonly detectionSensitivity?: number;
   /**
   * Indicates whether the WAF (Web Application Firewall) is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#enabled PullzoneShield#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#enabled PullzoneShield#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines which severity level of rules will trigger the rules and their action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#execution_sensitivity PullzoneShield#execution_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#execution_sensitivity PullzoneShield#execution_sensitivity}
   */
   readonly executionSensitivity?: number;
   /**
   * When enabled, detected WAF audit logs will contain the full list of request headers sent during the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#log_headers PullzoneShield#log_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#log_headers PullzoneShield#log_headers}
   */
   readonly logHeaders?: boolean | cdktf.IResolvable;
   /**
   * The list of headers excluded from the logs. They will still be used for processing WAF rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#log_headers_excluded PullzoneShield#log_headers_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#log_headers_excluded PullzoneShield#log_headers_excluded}
   */
   readonly logHeadersExcluded?: string[];
   /**
   * Indicates the mode the engine is running. Options: `Block`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#mode PullzoneShield#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#mode PullzoneShield#mode}
   */
   readonly mode?: string;
   /**
   * Real-time Threat Intelligence delivers zero-day protection by instantly detecting and blocking emerging threats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#realtime_threat_intelligence PullzoneShield#realtime_threat_intelligence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#realtime_threat_intelligence PullzoneShield#realtime_threat_intelligence}
   */
   readonly realtimeThreatIntelligence?: boolean | cdktf.IResolvable;
   /**
   * List of disabled WAF rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#rules_disabled PullzoneShield#rules_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#rules_disabled PullzoneShield#rules_disabled}
   */
   readonly rulesDisabled?: string[];
   /**
   * List of WAF rules that will not be blocked, but will be logged when triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#rules_logonly PullzoneShield#rules_logonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#rules_logonly PullzoneShield#rules_logonly}
   */
   readonly rulesLogonly?: string[];
 }
@@ -1219,7 +1219,7 @@ export class PullzoneShieldWafOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield bunnynet_pullzone_shield}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield bunnynet_pullzone_shield}
 */
 export class PullzoneShield extends cdktf.TerraformResource {
 
@@ -1235,7 +1235,7 @@ export class PullzoneShield extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneShield resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneShield to import
-  * @param importFromId The id of the existing PullzoneShield that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneShield that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneShield to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1247,7 +1247,7 @@ export class PullzoneShield extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone_shield bunnynet_pullzone_shield} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/pullzone_shield bunnynet_pullzone_shield} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1258,8 +1258,8 @@ export class PullzoneShield extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_shield',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

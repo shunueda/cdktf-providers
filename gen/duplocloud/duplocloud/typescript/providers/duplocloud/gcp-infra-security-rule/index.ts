@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpInfraSecurityRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The description related to the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#description GcpInfraSecurityRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#description GcpInfraSecurityRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#id GcpInfraSecurityRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#id GcpInfraSecurityRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface GcpInfraSecurityRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the infrastructure where rule gets applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#infra_name GcpInfraSecurityRule#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#infra_name GcpInfraSecurityRule#infra_name}
   */
   readonly infraName: string;
   /**
   * Specify rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#name GcpInfraSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#name GcpInfraSecurityRule#name}
   */
   readonly name: string;
   /**
   * Specify type of access rule (ALLOW , DENY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#rule_type GcpInfraSecurityRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#rule_type GcpInfraSecurityRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * The lists of IPv4 or IPv6 addresses in CIDR format that specify the source of traffic for a firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#source_ranges GcpInfraSecurityRule#source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#source_ranges GcpInfraSecurityRule#source_ranges}
   */
   readonly sourceRanges: string[];
   /**
   * ports_and_protocols block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#ports_and_protocols GcpInfraSecurityRule#ports_and_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#ports_and_protocols GcpInfraSecurityRule#ports_and_protocols}
   */
   readonly portsAndProtocols: GcpInfraSecurityRulePortsAndProtocols[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#timeouts GcpInfraSecurityRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#timeouts GcpInfraSecurityRule#timeouts}
   */
   readonly timeouts?: GcpInfraSecurityRuleTimeouts;
 }
@@ -61,13 +61,13 @@ export interface GcpInfraSecurityRulePortsAndProtocols {
   /**
   * The list of ports to which this rule applies. This field is only applicable for UDP, TCP and SCTP protocol. To apply all ports dont specify the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#ports GcpInfraSecurityRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#ports GcpInfraSecurityRule#ports}
   */
   readonly ports?: string[];
   /**
   * The IP protocol to which this rule applies. The protocol type is required when creating a firewall rule. This value can either be one of the following well known protocol strings (tcp, udp, icmp, esp, ah, sctp, ipip, all), or the IP protocol number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#service_protocol GcpInfraSecurityRule#service_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#service_protocol GcpInfraSecurityRule#service_protocol}
   */
   readonly serviceProtocol: string;
 }
@@ -209,15 +209,15 @@ export class GcpInfraSecurityRulePortsAndProtocolsList extends cdktf.ComplexList
 }
 export interface GcpInfraSecurityRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#create GcpInfraSecurityRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#create GcpInfraSecurityRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#delete GcpInfraSecurityRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#delete GcpInfraSecurityRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#update GcpInfraSecurityRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#update GcpInfraSecurityRule#update}
   */
   readonly update?: string;
 }
@@ -369,7 +369,7 @@ export class GcpInfraSecurityRuleTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule duplocloud_gcp_infra_security_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule duplocloud_gcp_infra_security_rule}
 */
 export class GcpInfraSecurityRule extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class GcpInfraSecurityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpInfraSecurityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpInfraSecurityRule to import
-  * @param importFromId The id of the existing GcpInfraSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpInfraSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpInfraSecurityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class GcpInfraSecurityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_security_rule duplocloud_gcp_infra_security_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/gcp_infra_security_rule duplocloud_gcp_infra_security_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class GcpInfraSecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_infra_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

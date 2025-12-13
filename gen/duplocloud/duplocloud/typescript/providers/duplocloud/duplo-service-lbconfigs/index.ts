@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DuploServiceLbconfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#id DuploServiceLbconfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#id DuploServiceLbconfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DuploServiceLbconfigsConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#replication_controller_name DuploServiceLbconfigs#replication_controller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#replication_controller_name DuploServiceLbconfigs#replication_controller_name}
   */
   readonly replicationControllerName: string;
   /**
   * The GUID of the tenant that hosts the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#tenant_id DuploServiceLbconfigs#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#tenant_id DuploServiceLbconfigs#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until Duplo considers all of the load balancers ready Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#wait_until_ready DuploServiceLbconfigs#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#wait_until_ready DuploServiceLbconfigs#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * lbconfigs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#lbconfigs DuploServiceLbconfigs#lbconfigs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#lbconfigs DuploServiceLbconfigs#lbconfigs}
   */
   readonly lbconfigs: DuploServiceLbconfigsLbconfigs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#timeouts DuploServiceLbconfigs#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#timeouts DuploServiceLbconfigs#timeouts}
   */
   readonly timeouts?: DuploServiceLbconfigsTimeouts;
 }
 export interface DuploServiceLbconfigsLbconfigsExtraSelectorLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#key DuploServiceLbconfigs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#key DuploServiceLbconfigs#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#value DuploServiceLbconfigs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#value DuploServiceLbconfigs#value}
   */
   readonly value: string;
 }
@@ -192,37 +192,37 @@ export interface DuploServiceLbconfigsLbconfigsHealthCheck {
   /**
   * Response codes to use when checking for a healthy responses from a target. You can specify multiple values (for example, "0,12" for GRPC) or a range of values (for example, "0-99"). Required for GRPC ALB. Only applies to Application Load Balancers (i.e., GRPC) not Network Load Balancers (i.e., TCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#grpc_success_codes DuploServiceLbconfigs#grpc_success_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#grpc_success_codes DuploServiceLbconfigs#grpc_success_codes}
   */
   readonly grpcSuccessCodes?: string;
   /**
   * Number of consecutive health checks successes required before considering an unhealthy target healthy. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#healthy_threshold DuploServiceLbconfigs#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#healthy_threshold DuploServiceLbconfigs#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * Response codes to use when checking for a healthy responses from a target. You can specify multiple values (for example, "200,202" for HTTP(s)) or a range of values (for example, "200-299"). Required for HTTP/HTTPS ALB. Only applies to Application Load Balancers (i.e., HTTP/HTTPS) not Network Load Balancers (i.e., TCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#http_success_codes DuploServiceLbconfigs#http_success_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#http_success_codes DuploServiceLbconfigs#http_success_codes}
   */
   readonly httpSuccessCodes?: string;
   /**
   * Approximate amount of time, in seconds, between health checks of an individual target. Minimum value 5 seconds, Maximum value 300 seconds. Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#interval DuploServiceLbconfigs#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#interval DuploServiceLbconfigs#interval}
   */
   readonly interval?: number;
   /**
   * Amount of time, in seconds, during which no response means a failed health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#timeout DuploServiceLbconfigs#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#timeout DuploServiceLbconfigs#timeout}
   */
   readonly timeout?: number;
   /**
   * Number of consecutive health check failures required before considering the target unhealthy. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#unhealthy_threshold DuploServiceLbconfigs#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#unhealthy_threshold DuploServiceLbconfigs#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -453,61 +453,61 @@ export interface DuploServiceLbconfigsLbconfigs {
   /**
   * Applicable for internal lb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#allow_global_access DuploServiceLbconfigs#allow_global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#allow_global_access DuploServiceLbconfigs#allow_global_access}
   */
   readonly allowGlobalAccess?: boolean | cdktf.IResolvable;
   /**
   * Is used for communication between the load balancer and the target instances. This field is used to set protocol version for ALB load balancer. Only applicable when protocol is HTTP or HTTPS. The protocol version. Specify GRPC to send requests to targets using gRPC. Specify HTTP2 to send requests to targets using HTTP/2. The default is HTTP1, which sends requests to targets using HTTP/1.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#backend_protocol_version DuploServiceLbconfigs#backend_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#backend_protocol_version DuploServiceLbconfigs#backend_protocol_version}
   */
   readonly backendProtocolVersion?: string;
   /**
   * The ARN of an ACM certificate to associate with this load balancer.  Only applicable for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#certificate_arn DuploServiceLbconfigs#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#certificate_arn DuploServiceLbconfigs#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
   * Specify CIDR Values. This is applicable only for Network Load Balancer if `lb_type` is `6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#custom_cidr DuploServiceLbconfigs#custom_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#custom_cidr DuploServiceLbconfigs#custom_cidr}
   */
   readonly customCidr?: string[];
   /**
   * The frontend port associated with this load balancer configuration. Required if `lb_type` is not `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#external_port DuploServiceLbconfigs#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#external_port DuploServiceLbconfigs#external_port}
   */
   readonly externalPort?: number;
   /**
   * Only for K8S Node Port (`lb_type = 4`) or load balancers in Kubernetes.  Set the kubernetes service `externalTrafficPolicy` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#external_traffic_policy DuploServiceLbconfigs#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#external_traffic_policy DuploServiceLbconfigs#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * The health check URL to associate with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#health_check_url DuploServiceLbconfigs#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#health_check_url DuploServiceLbconfigs#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * (Azure Only) Set only if Azure Shared Application Gateway is used (`lb_type = 5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#host_name DuploServiceLbconfigs#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#host_name DuploServiceLbconfigs#host_name}
   */
   readonly hostName?: string;
   /**
   * Whether or not to create an internal load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#is_internal DuploServiceLbconfigs#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#is_internal DuploServiceLbconfigs#is_internal}
   */
   readonly isInternal?: boolean | cdktf.IResolvable;
   /**
   * Set to true if the service for which the load balancer is being created is hosted on a docker native host, which is managed directly by DuploCloud, or false if the service is hosted on a cloud-provided platform like EKS, AKS, GKE, ECS, etc. The `duplocloud_native_hosts` data source lists the native hosts in a DuploCloud Tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#is_native DuploServiceLbconfigs#is_native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#is_native DuploServiceLbconfigs#is_native}
   */
   readonly isNative?: boolean | cdktf.IResolvable;
   /**
@@ -523,13 +523,13 @@ export interface DuploServiceLbconfigsLbconfigs {
   *    - `6` : NLB (Network Load Balancer)
   *    - `7` : Target Group Only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#lb_type DuploServiceLbconfigs#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#lb_type DuploServiceLbconfigs#lb_type}
   */
   readonly lbType: number;
   /**
   * The backend port associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#port DuploServiceLbconfigs#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#port DuploServiceLbconfigs#port}
   */
   readonly port: string;
   /**
@@ -544,31 +544,31 @@ export interface DuploServiceLbconfigsLbconfigs {
   * 	- `6 (NLB)` : TCP, UDP, TLS
   * 	- `7 (Target Group Only)` : HTTP, HTTPS, TCP, UDP, TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#protocol DuploServiceLbconfigs#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#protocol DuploServiceLbconfigs#protocol}
   */
   readonly protocol: string;
   /**
   * Only for K8S services or load balancers in Kubernetes.  Set to `true` to set health check annotations for ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#set_ingress_health_check DuploServiceLbconfigs#set_ingress_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#set_ingress_health_check DuploServiceLbconfigs#set_ingress_health_check}
   */
   readonly setIngressHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * Skip http to https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#skip_http_to_https DuploServiceLbconfigs#skip_http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#skip_http_to_https DuploServiceLbconfigs#skip_http_to_https}
   */
   readonly skipHttpToHttps?: boolean | cdktf.IResolvable;
   /**
   * extra_selector_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#extra_selector_label DuploServiceLbconfigs#extra_selector_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#extra_selector_label DuploServiceLbconfigs#extra_selector_label}
   */
   readonly extraSelectorLabel?: DuploServiceLbconfigsLbconfigsExtraSelectorLabel[] | cdktf.IResolvable;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#health_check DuploServiceLbconfigs#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#health_check DuploServiceLbconfigs#health_check}
   */
   readonly healthCheck?: DuploServiceLbconfigsLbconfigsHealthCheck;
 }
@@ -1184,15 +1184,15 @@ export class DuploServiceLbconfigsLbconfigsList extends cdktf.ComplexList {
 }
 export interface DuploServiceLbconfigsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#create DuploServiceLbconfigs#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#create DuploServiceLbconfigs#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#delete DuploServiceLbconfigs#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#delete DuploServiceLbconfigs#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#update DuploServiceLbconfigs#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#update DuploServiceLbconfigs#update}
   */
   readonly update?: string;
 }
@@ -1344,7 +1344,7 @@ export class DuploServiceLbconfigsTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs}
 */
 export class DuploServiceLbconfigs extends cdktf.TerraformResource {
 
@@ -1360,7 +1360,7 @@ export class DuploServiceLbconfigs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DuploServiceLbconfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DuploServiceLbconfigs to import
-  * @param importFromId The id of the existing DuploServiceLbconfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DuploServiceLbconfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DuploServiceLbconfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1372,7 +1372,7 @@ export class DuploServiceLbconfigs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1383,8 +1383,8 @@ export class DuploServiceLbconfigs extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_duplo_service_lbconfigs',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

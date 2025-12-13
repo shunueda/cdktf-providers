@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AzureK8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add a critical taint to the system agent pool. This prevents the scheduler from scheduling non-critical pods on the system agent pool. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#add_critical_taint_to_system_agent_pool AzureK8SCluster#add_critical_taint_to_system_agent_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#add_critical_taint_to_system_agent_pool AzureK8SCluster#add_critical_taint_to_system_agent_pool}
   */
   readonly addCriticalTaintToSystemAgentPool?: boolean | cdktf.IResolvable;
   /**
   * Disable the Run Command feature for the AKS cluster. This prevents the use of the Azure CLI to run commands directly on the nodes. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#disable_run_command AzureK8SCluster#disable_run_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#disable_run_command AzureK8SCluster#disable_run_command}
   */
   readonly disableRunCommand?: boolean | cdktf.IResolvable;
   /**
   * Enable the Azure Blob CSI driver for the AKS cluster. This allows Kubernetes workloads to use Azure Blob Storage as persistent storage. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#enable_blob_csi_driver AzureK8SCluster#enable_blob_csi_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#enable_blob_csi_driver AzureK8SCluster#enable_blob_csi_driver}
   */
   readonly enableBlobCsiDriver?: boolean | cdktf.IResolvable;
   /**
   * Enable the image cleaner for the AKS cluster. This helps to clean up unused container images in the cluster. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#enable_image_cleaner AzureK8SCluster#enable_image_cleaner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#enable_image_cleaner AzureK8SCluster#enable_image_cleaner}
   */
   readonly enableImageCleaner?: boolean | cdktf.IResolvable;
   /**
   * Enable Workload Identity for the AKS cluster. This allows Kubernetes workloads to access Azure resources using Azure AD identities. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#enable_workload_identity AzureK8SCluster#enable_workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#enable_workload_identity AzureK8SCluster#enable_workload_identity}
   */
   readonly enableWorkloadIdentity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#id AzureK8SCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#id AzureK8SCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface AzureK8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval in days for the image cleaner to run. This determines how often the image cleaner will check for unused images. Valid values are between 1 and 90. Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#image_cleaner_interval_in_days AzureK8SCluster#image_cleaner_interval_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#image_cleaner_interval_in_days AzureK8SCluster#image_cleaner_interval_in_days}
   */
   readonly imageCleanerIntervalInDays?: number;
   /**
   * The name of the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#infra_name AzureK8SCluster#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#infra_name AzureK8SCluster#infra_name}
   */
   readonly infraName: string;
   /**
   * Version of Kubernetes specified when creating the AKS managed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#kubernetes_version AzureK8SCluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#kubernetes_version AzureK8SCluster#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * The username for the Linux administrator of the AKS cluster. This user will have administrative access to the nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#linux_admin_username AzureK8SCluster#linux_admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#linux_admin_username AzureK8SCluster#linux_admin_username}
   */
   readonly linuxAdminUsername?: string;
   /**
   * The SSH public key for the Linux administrator of the AKS cluster. This key will be used to access the nodes in the cluster via SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#linux_ssh_public_key AzureK8SCluster#linux_ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#linux_ssh_public_key AzureK8SCluster#linux_ssh_public_key}
   */
   readonly linuxSshPublicKey?: string;
   /**
   * The name of the aks. If not specified default name would be infra name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#name AzureK8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#name AzureK8SCluster#name}
   */
   readonly name?: string;
   /**
   * Network plugin to use for networking. Valid values are: `azure` and `kubenet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#network_plugin AzureK8SCluster#network_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#network_plugin AzureK8SCluster#network_plugin}
   */
   readonly networkPlugin?: string;
   /**
   * The outbound (egress) routing method which should be used for this Kubernetes Cluster. Valid values are: `loadBalancer` and `userDefinedRouting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#outbound_type AzureK8SCluster#outbound_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#outbound_type AzureK8SCluster#outbound_type}
   */
   readonly outboundType?: string;
   /**
   * Pricing tier for the AKS cluster. Valid values are: `Free`, `Standard`, and `Premium`. This determines the level of support and features available for the AKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#pricing_tier AzureK8SCluster#pricing_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#pricing_tier AzureK8SCluster#pricing_tier}
   */
   readonly pricingTier?: string;
   /**
   * Should this Kubernetes Cluster have its API server only exposed on internal IP addresses? This provides a Private IP Address for the Kubernetes API on the Virtual Network where the Kubernetes Cluster is located. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#private_cluster_enabled AzureK8SCluster#private_cluster_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#private_cluster_enabled AzureK8SCluster#private_cluster_enabled}
   */
   readonly privateClusterEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the aks resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#resource_group_name AzureK8SCluster#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#resource_group_name AzureK8SCluster#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * The size of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#vm_size AzureK8SCluster#vm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#vm_size AzureK8SCluster#vm_size}
   */
   readonly vmSize?: string;
   /**
   * active_directory_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#active_directory_config AzureK8SCluster#active_directory_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#active_directory_config AzureK8SCluster#active_directory_config}
   */
   readonly activeDirectoryConfig?: AzureK8SClusterActiveDirectoryConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#timeouts AzureK8SCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#timeouts AzureK8SCluster#timeouts}
   */
   readonly timeouts?: AzureK8SClusterTimeouts;
 }
@@ -133,25 +133,25 @@ export interface AzureK8SClusterActiveDirectoryConfig {
   /**
   * The Azure Active Directory tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#ad_tenant_id AzureK8SCluster#ad_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#ad_tenant_id AzureK8SCluster#ad_tenant_id}
   */
   readonly adTenantId: string;
   /**
   * List of Azure AD group object IDs that have admin access to the AKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#admin_group_object_ids AzureK8SCluster#admin_group_object_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#admin_group_object_ids AzureK8SCluster#admin_group_object_ids}
   */
   readonly adminGroupObjectIds?: string[];
   /**
   * Enable Azure Active Directory integration. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#enable_ad AzureK8SCluster#enable_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#enable_ad AzureK8SCluster#enable_ad}
   */
   readonly enableAd?: boolean | cdktf.IResolvable;
   /**
   * Enable Azure RBAC for Kubernetes authorization. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#enable_rbac AzureK8SCluster#enable_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#enable_rbac AzureK8SCluster#enable_rbac}
   */
   readonly enableRbac?: boolean | cdktf.IResolvable;
 }
@@ -319,11 +319,11 @@ export class AzureK8SClusterActiveDirectoryConfigOutputReference extends cdktf.C
 }
 export interface AzureK8SClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#create AzureK8SCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#create AzureK8SCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#delete AzureK8SCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#delete AzureK8SCluster#delete}
   */
   readonly delete?: string;
 }
@@ -446,7 +446,7 @@ export class AzureK8SClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster duplocloud_azure_k8s_cluster}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster duplocloud_azure_k8s_cluster}
 */
 export class AzureK8SCluster extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class AzureK8SCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureK8SCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureK8SCluster to import
-  * @param importFromId The id of the existing AzureK8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureK8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureK8SCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class AzureK8SCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8s_cluster duplocloud_azure_k8s_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/azure_k8s_cluster duplocloud_azure_k8s_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class AzureK8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

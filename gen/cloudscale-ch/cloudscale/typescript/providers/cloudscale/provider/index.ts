@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs
+// https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudscaleProviderConfig {
   /**
   * The token for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs#token CloudscaleProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs#token CloudscaleProvider#token}
   */
   readonly token: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs#alias CloudscaleProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs#alias CloudscaleProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs cloudscale}
+* Represents a {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs cloudscale}
 */
 export class CloudscaleProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class CloudscaleProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CloudscaleProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudscaleProvider to import
-  * @param importFromId The id of the existing CloudscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudscaleProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CloudscaleProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.0/docs cloudscale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudscale-ch/cloudscale/5.0.1/docs cloudscale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class CloudscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudscale',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       terraformProviderSource: 'cloudscale-ch/cloudscale'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WorkspaceAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID (UUID) of accessor to the workspace. This can be an `account_member.user_id` or `service_account.id`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#accessor_id WorkspaceAccess#accessor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#accessor_id WorkspaceAccess#accessor_id}
   */
   readonly accessorId: string;
   /**
   * USER | SERVICE_ACCOUNT | TEAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#accessor_type WorkspaceAccess#accessor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#accessor_type WorkspaceAccess#accessor_type}
   */
   readonly accessorType: string;
   /**
   * Account ID (UUID) where the workspace is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#account_id WorkspaceAccess#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#account_id WorkspaceAccess#account_id}
   */
   readonly accountId?: string;
   /**
   * Workspace ID (UUID) to grant access to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#workspace_id WorkspaceAccess#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#workspace_id WorkspaceAccess#workspace_id}
   */
   readonly workspaceId?: string;
   /**
   * Workspace Role ID (UUID) to grant to accessor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#workspace_role_id WorkspaceAccess#workspace_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#workspace_role_id WorkspaceAccess#workspace_role_id}
   */
   readonly workspaceRoleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access prefect_workspace_access}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access prefect_workspace_access}
 */
 export class WorkspaceAccess extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class WorkspaceAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceAccess to import
-  * @param importFromId The id of the existing WorkspaceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class WorkspaceAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/workspace_access prefect_workspace_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/workspace_access prefect_workspace_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class WorkspaceAccess extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_workspace_access',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EcsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DNS prefix to assign to this service's load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#dns_prfx EcsService#dns_prfx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#dns_prfx EcsService#dns_prfx}
   */
   readonly dnsPrfx?: string;
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
   */
   readonly healthCheckGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#id EcsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#id EcsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface EcsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#is_target_group_only EcsService#is_target_group_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#is_target_group_only EcsService#is_target_group_only}
   */
   readonly isTargetGroupOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of the service to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#name EcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#name EcsService#name}
   */
   readonly name: string;
   /**
   * The number of older task definitions to retain in AWS. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#old_task_definition_buffer_size EcsService#old_task_definition_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#old_task_definition_buffer_size EcsService#old_task_definition_buffer_size}
   */
   readonly oldTaskDefinitionBufferSize?: number;
   /**
   * The number of container replicas to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#replicas EcsService#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#replicas EcsService#replicas}
   */
   readonly replicas: number;
   /**
   * The ARN of the task definition to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#task_definition EcsService#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#task_definition EcsService#task_definition}
   */
   readonly taskDefinition: string;
   /**
   * The GUID of the tenant that the service will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#tenant_id EcsService#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#tenant_id EcsService#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until all target groups are created for ecs service, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#wait_until_targets_ready EcsService#wait_until_targets_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#wait_until_targets_ready EcsService#wait_until_targets_ready}
   */
   readonly waitUntilTargetsReady?: boolean | cdktf.IResolvable;
   /**
   * capacity_provider_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: EcsServiceCapacityProviderStrategy[] | cdktf.IResolvable;
   /**
   * deployment_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
   */
   readonly deploymentConfiguration?: EcsServiceDeploymentConfiguration;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#load_balancer EcsService#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#load_balancer EcsService#load_balancer}
   */
   readonly loadBalancer?: EcsServiceLoadBalancer[] | cdktf.IResolvable;
   /**
   * placement_constraint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#placement_constraint EcsService#placement_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#placement_constraint EcsService#placement_constraint}
   */
   readonly placementConstraint?: EcsServicePlacementConstraint[] | cdktf.IResolvable;
   /**
   * placement_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#placement_strategy EcsService#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#placement_strategy EcsService#placement_strategy}
   */
   readonly placementStrategy?: EcsServicePlacementStrategy[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#timeouts EcsService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#timeouts EcsService#timeouts}
   */
   readonly timeouts?: EcsServiceTimeouts;
 }
@@ -109,7 +109,7 @@ export interface EcsServiceCapacityProviderStrategy {
   /**
   * The number of tasks, at a minimum, to run on the specified capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#base EcsService#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#base EcsService#base}
   */
   readonly base?: number;
   /**
@@ -118,13 +118,13 @@ export interface EcsServiceCapacityProviderStrategy {
   *  	- FARGATE_SPOT
   *  	- ASG fullname: Used when asg created with agent platform ECS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
   */
   readonly capacityProvider: string;
   /**
   * The relative percentage of the total number of launched tasks that should use the specified capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#weight EcsService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#weight EcsService#weight}
   */
   readonly weight?: number;
 }
@@ -297,19 +297,19 @@ export interface EcsServiceDeploymentConfigurationAlarms {
   /**
   * Enables or disables CloudWatch alarm monitoring during deployments. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable EcsService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#enable EcsService#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Names of CloudWatch alarms that ECS monitors during deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#names EcsService#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#names EcsService#names}
   */
   readonly names?: string[];
   /**
   * Automatically rolls back the deployment if any configured CloudWatch alarm enters ALARM state. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#rollback EcsService#rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#rollback EcsService#rollback}
   */
   readonly rollback?: boolean | cdktf.IResolvable;
 }
@@ -485,31 +485,31 @@ export interface EcsServiceDeploymentConfiguration {
   /**
   * Enables ECS deployment circuit breaker to stop deployments on failures. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable_circuit_breaker EcsService#enable_circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#enable_circuit_breaker EcsService#enable_circuit_breaker}
   */
   readonly enableCircuitBreaker?: boolean | cdktf.IResolvable;
   /**
   * Specifies the maximum percentage of tasks that can run at once during a deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
   */
   readonly maximumPercent?: number;
   /**
   * Specifies the minimum percentage of tasks that must remain in the RUNNING state during a deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
   */
   readonly minimumHealthyPercent?: number;
   /**
   * Enables automatic rollback when the circuit breaker detects a failed deployment. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#rollback_circuit_breaker EcsService#rollback_circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#rollback_circuit_breaker EcsService#rollback_circuit_breaker}
   */
   readonly rollbackCircuitBreaker?: boolean | cdktf.IResolvable;
   /**
   * alarms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#alarms EcsService#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#alarms EcsService#alarms}
   */
   readonly alarms?: EcsServiceDeploymentConfigurationAlarms[] | cdktf.IResolvable;
 }
@@ -709,27 +709,27 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktf.Comp
 }
 export interface EcsServiceLoadBalancerHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#grpc_success_code EcsService#grpc_success_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#grpc_success_code EcsService#grpc_success_code}
   */
   readonly grpcSuccessCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}
   */
   readonly healthCheckIntervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}
   */
   readonly healthCheckTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#http_success_code EcsService#http_success_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#http_success_code EcsService#http_success_code}
   */
   readonly httpSuccessCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -960,61 +960,61 @@ export interface EcsServiceLoadBalancer {
   /**
   * The backend protocol associated with this load balancer configuration. Use 'backend_protocol_version' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#backend_protocol EcsService#backend_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#backend_protocol EcsService#backend_protocol}
   */
   readonly backendProtocol?: string;
   /**
   * The backend protocol version associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#backend_protocol_version EcsService#backend_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#backend_protocol_version EcsService#backend_protocol_version}
   */
   readonly backendProtocolVersion?: string;
   /**
   * The ARN of an ACM certificate to associate with this load balancer.  Only applicable for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#certificate_arn EcsService#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#certificate_arn EcsService#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
   * Whether or not to drop invalid HTTP headers received by the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#drop_invalid_headers EcsService#drop_invalid_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#drop_invalid_headers EcsService#drop_invalid_headers}
   */
   readonly dropInvalidHeaders?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable access logs.  When enabled, Duplo will send access logs to a centralized S3 bucket per plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable_access_logs EcsService#enable_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#enable_access_logs EcsService#enable_access_logs}
   */
   readonly enableAccessLogs?: boolean | cdktf.IResolvable;
   /**
   * The frontend port associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#external_port EcsService#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#external_port EcsService#external_port}
   */
   readonly externalPort: number;
   /**
   * The health check URL to associate with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_url EcsService#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#health_check_url EcsService#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * Whether or not the load balancer should redirect HTTP to HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#http_to_https_redirect EcsService#http_to_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#http_to_https_redirect EcsService#http_to_https_redirect}
   */
   readonly httpToHttpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * The time in seconds that the connection is allowed to be idle. Only valid for Load Balancers of type `application`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#idle_timeout EcsService#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#idle_timeout EcsService#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Whether or not to create an internal load balancer. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#is_internal EcsService#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#is_internal EcsService#is_internal}
   */
   readonly isInternal?: boolean | cdktf.IResolvable;
   /**
@@ -1025,37 +1025,37 @@ export interface EcsServiceLoadBalancer {
   *    - `1` : ALB (Application Load Balancer)
   *    - `2` : Health-check Only (No Load Balancer)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#lb_type EcsService#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#lb_type EcsService#lb_type}
   */
   readonly lbType: number;
   /**
   * The backend port associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#port EcsService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#port EcsService#port}
   */
   readonly port: string;
   /**
   * The frontend protocol associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#protocol EcsService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#protocol EcsService#protocol}
   */
   readonly protocol: string;
   /**
   * Number of Load Balancer target group to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#target_group_count EcsService#target_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#target_group_count EcsService#target_group_count}
   */
   readonly targetGroupCount: number;
   /**
   * The ARN of a web application firewall to associate this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#webaclid EcsService#webaclid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#webaclid EcsService#webaclid}
   */
   readonly webaclid?: string;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_config EcsService#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#health_check_config EcsService#health_check_config}
   */
   readonly healthCheckConfig?: EcsServiceLoadBalancerHealthCheckConfig;
 }
@@ -1613,13 +1613,13 @@ export interface EcsServicePlacementConstraint {
   /**
   * Cluster Query Language expression to apply to the constraint. Does not need to be specified for the distinctInstance type. For more information, see [Cluster Query Language in the Amazon EC2 Container Service Developer Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query-language.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#expression EcsService#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#expression EcsService#expression}
   */
   readonly expression?: string;
   /**
   * Type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#type EcsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#type EcsService#type}
   */
   readonly type: string;
 }
@@ -1763,13 +1763,13 @@ export interface EcsServicePlacementStrategy {
   /**
   * For the spread placement strategy, valid values are instanceId, or any platform or custom attribute that is applied to a container instance. For the binpack type, valid values are memory and cpu. For the random type, this attribute is not needed. For more information, see [PlacementStrategy](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PlacementStrategy.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#field EcsService#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#field EcsService#field}
   */
   readonly field?: string;
   /**
   * Type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#type EcsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#type EcsService#type}
   */
   readonly type: string;
 }
@@ -1911,15 +1911,15 @@ export class EcsServicePlacementStrategyList extends cdktf.ComplexList {
 }
 export interface EcsServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#create EcsService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#create EcsService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#delete EcsService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#delete EcsService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#update EcsService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#update EcsService#update}
   */
   readonly update?: string;
 }
@@ -2071,7 +2071,7 @@ export class EcsServiceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service duplocloud_ecs_service}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service duplocloud_ecs_service}
 */
 export class EcsService extends cdktf.TerraformResource {
 
@@ -2087,7 +2087,7 @@ export class EcsService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsService to import
-  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2099,7 +2099,7 @@ export class EcsService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service duplocloud_ecs_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/ecs_service duplocloud_ecs_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2110,8 +2110,8 @@ export class EcsService extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_ecs_service',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

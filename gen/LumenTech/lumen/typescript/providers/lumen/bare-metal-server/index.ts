@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server
+// https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,83 +11,83 @@ export interface BareMetalServerConfig extends cdktf.TerraformMetaArguments {
   * A boolean (true/false) value indicating whether or not to assign an IPv6 address 
   * for this server if using a dual stack network. Defaults to false if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#assign_ipv6_address BareMetalServer#assign_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#assign_ipv6_address BareMetalServer#assign_ipv6_address}
   */
   readonly assignIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#configuration_name BareMetalServer#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#configuration_name BareMetalServer#configuration_name}
   */
   readonly configurationName: string;
   /**
   * User parameter to enable hyperthreading on the server. Defaults to true if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#enable_hyperthreading BareMetalServer#enable_hyperthreading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#enable_hyperthreading BareMetalServer#enable_hyperthreading}
   */
   readonly enableHyperthreading?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#location_id BareMetalServer#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#location_id BareMetalServer#location_id}
   */
   readonly locationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#name BareMetalServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#name BareMetalServer#name}
   */
   readonly name: string;
   /**
   * The name of the new network to create, this is only used on initial creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#network_name BareMetalServer#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#network_name BareMetalServer#network_name}
   */
   readonly networkName?: string;
   /**
   * The id of the network size being used for the new network, this is only used on initial creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#network_size_id BareMetalServer#network_size_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#network_size_id BareMetalServer#network_size_id}
   */
   readonly networkSizeId?: string;
   /**
   * The type of network being provisioned for this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#network_type BareMetalServer#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#network_type BareMetalServer#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#os_image_name BareMetalServer#os_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#os_image_name BareMetalServer#os_image_name}
   */
   readonly osImageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#password BareMetalServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#password BareMetalServer#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#ssh_public_key BareMetalServer#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#ssh_public_key BareMetalServer#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#username BareMetalServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#username BareMetalServer#username}
   */
   readonly username: string;
   /**
   * For private networks, this is an existing VRF to be used in creating the new network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#vrf BareMetalServer#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#vrf BareMetalServer#vrf}
   */
   readonly vrf?: string;
   /**
   * For private networks, create a new VRF with this description and use it in creating the new network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#vrf_description BareMetalServer#vrf_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#vrf_description BareMetalServer#vrf_description}
   */
   readonly vrfDescription?: string;
   /**
   * attach_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#attach_networks BareMetalServer#attach_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#attach_networks BareMetalServer#attach_networks}
   */
   readonly attachNetworks?: BareMetalServerAttachNetworks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#timeouts BareMetalServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#timeouts BareMetalServer#timeouts}
   */
   readonly timeouts?: BareMetalServerTimeouts;
 }
@@ -296,11 +296,11 @@ export interface BareMetalServerAttachNetworks {
   * A boolean (true/false) value indicating whether or not to assign an IPv6 address 
   * for this server if using a dual stack network. Defaults to false if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#assign_ipv6_address BareMetalServer#assign_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#assign_ipv6_address BareMetalServer#assign_ipv6_address}
   */
   readonly assignIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#network_id BareMetalServer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#network_id BareMetalServer#network_id}
   */
   readonly networkId: string;
 }
@@ -442,19 +442,19 @@ export class BareMetalServerAttachNetworksList extends cdktf.ComplexList {
 }
 export interface BareMetalServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#create BareMetalServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#create BareMetalServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#delete BareMetalServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#delete BareMetalServer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#read BareMetalServer#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#read BareMetalServer#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#update BareMetalServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#update BareMetalServer#update}
   */
   readonly update?: string;
 }
@@ -635,7 +635,7 @@ export class BareMetalServerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server lumen_bare_metal_server}
+* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server lumen_bare_metal_server}
 */
 export class BareMetalServer extends cdktf.TerraformResource {
 
@@ -651,7 +651,7 @@ export class BareMetalServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BareMetalServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BareMetalServer to import
-  * @param importFromId The id of the existing BareMetalServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BareMetalServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BareMetalServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -663,7 +663,7 @@ export class BareMetalServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/resources/bare_metal_server lumen_bare_metal_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/resources/bare_metal_server lumen_bare_metal_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -674,8 +674,8 @@ export class BareMetalServer extends cdktf.TerraformResource {
       terraformResourceType: 'lumen_bare_metal_server',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.1',
-        providerVersionConstraint: '3.0.1'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

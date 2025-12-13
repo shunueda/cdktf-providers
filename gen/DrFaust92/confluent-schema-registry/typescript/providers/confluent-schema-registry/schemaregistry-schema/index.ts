@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema
+// https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaregistrySchemaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#id SchemaregistrySchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#id SchemaregistrySchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SchemaregistrySchemaConfig extends cdktf.TerraformMetaArguments
   /**
   * The schema string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#schema SchemaregistrySchema#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#schema SchemaregistrySchema#schema}
   */
   readonly schema: string;
   /**
   * The subject related to the schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#subject SchemaregistrySchema#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#subject SchemaregistrySchema#subject}
   */
   readonly subject: string;
   /**
   * reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#reference SchemaregistrySchema#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#reference SchemaregistrySchema#reference}
   */
   readonly reference?: SchemaregistrySchemaReference[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface SchemaregistrySchemaReference {
   /**
   * The referenced schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#name SchemaregistrySchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#name SchemaregistrySchema#name}
   */
   readonly name: string;
   /**
   * The referenced schema subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#subject SchemaregistrySchema#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#subject SchemaregistrySchema#subject}
   */
   readonly subject: string;
   /**
   * The referenced schema version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#version SchemaregistrySchema#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#version SchemaregistrySchema#version}
   */
   readonly version: number;
 }
@@ -214,7 +214,7 @@ export class SchemaregistrySchemaReferenceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema schemaregistry_schema}
+* Represents a {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema schemaregistry_schema}
 */
 export class SchemaregistrySchema extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class SchemaregistrySchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaregistrySchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaregistrySchema to import
-  * @param importFromId The id of the existing SchemaregistrySchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaregistrySchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaregistrySchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class SchemaregistrySchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.6.1/docs/resources/schemaregistry_schema schemaregistry_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs/resources/schemaregistry_schema schemaregistry_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class SchemaregistrySchema extends cdktf.TerraformResource {
       terraformResourceType: 'schemaregistry_schema',
       terraformGeneratorMetadata: {
         providerName: 'confluent-schema-registry',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

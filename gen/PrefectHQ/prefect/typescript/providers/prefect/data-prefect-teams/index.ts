@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataPrefectTeamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams#account_id DataPrefectTeams#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams#account_id DataPrefectTeams#account_id}
   */
   readonly accountId?: string;
 }
@@ -18,7 +18,7 @@ export interface DataPrefectTeamsTeams {
   /**
   * Name of Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams#name DataPrefectTeams#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams#name DataPrefectTeams#name}
   */
   readonly name?: string;
 }
@@ -144,7 +144,7 @@ export class DataPrefectTeamsTeamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams prefect_teams}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams prefect_teams}
 */
 export class DataPrefectTeams extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataPrefectTeams extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectTeams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectTeams to import
-  * @param importFromId The id of the existing DataPrefectTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectTeams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataPrefectTeams extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams prefect_teams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/teams prefect_teams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataPrefectTeams extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_teams',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

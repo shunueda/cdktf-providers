@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ByohConfig extends cdktf.TerraformMetaArguments {
   /**
   * The numeric ID of the container agent pool that this instance is added to. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#agent_platform Byoh#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#agent_platform Byoh#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
   * Allocation tag for BYOH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#allocation_tag Byoh#allocation_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#allocation_tag Byoh#allocation_tag}
   */
   readonly allocationTag?: string;
   /**
   * IP address of the BYOH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#direct_address Byoh#direct_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#direct_address Byoh#direct_address}
   */
   readonly directAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#id Byoh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#id Byoh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ByohConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the BYOH instance. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#name Byoh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#name Byoh#name}
   */
   readonly name: string;
   /**
   * Password of the BYOH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#password Byoh#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#password Byoh#password}
   */
   readonly password?: string;
   /**
   * Private key for BYOH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#private_key Byoh#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#private_key Byoh#private_key}
   */
   readonly privateKey?: string;
   /**
   * The GUID of the tenant that the BYHO will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#tenant_id Byoh#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#tenant_id Byoh#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Username of the BYOH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#username Byoh#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#username Byoh#username}
   */
   readonly username?: string;
   /**
   * Whether or not to wait until BYOH instance to be connected to the fleet, after creation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#wait_until_ready Byoh#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#wait_until_ready Byoh#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#timeouts Byoh#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#timeouts Byoh#timeouts}
   */
   readonly timeouts?: ByohTimeouts;
 }
@@ -157,11 +157,11 @@ export class ByohTagsList extends cdktf.ComplexList {
 }
 export interface ByohTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#create Byoh#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#create Byoh#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#delete Byoh#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#delete Byoh#delete}
   */
   readonly delete?: string;
 }
@@ -284,7 +284,7 @@ export class ByohTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh duplocloud_byoh}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh duplocloud_byoh}
 */
 export class Byoh extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class Byoh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Byoh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Byoh to import
-  * @param importFromId The id of the existing Byoh that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Byoh that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Byoh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class Byoh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/byoh duplocloud_byoh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/byoh duplocloud_byoh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class Byoh extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_byoh',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

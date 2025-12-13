@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction
+// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MessageCommentReactionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Emoji used in the reaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction#emoji MessageCommentReaction#emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction#emoji MessageCommentReaction#emoji}
   */
   readonly emoji: string;
   /**
   * User ID.  Provide a value of `0` to operate the current session's user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction#user_id MessageCommentReaction#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction#user_id MessageCommentReaction#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction files_message_comment_reaction}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction files_message_comment_reaction}
 */
 export class MessageCommentReaction extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MessageCommentReaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageCommentReaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageCommentReaction to import
-  * @param importFromId The id of the existing MessageCommentReaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageCommentReaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageCommentReaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MessageCommentReaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/message_comment_reaction files_message_comment_reaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/message_comment_reaction files_message_comment_reaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class MessageCommentReaction extends cdktf.TerraformResource {
       terraformResourceType: 'files_message_comment_reaction',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.411',
-        providerVersionConstraint: '0.1.411'
+        providerVersion: '0.1.412',
+        providerVersionConstraint: '0.1.412'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

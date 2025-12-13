@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface SourceSqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies how the data for binary columns e.g. blob, binary, varbinary should be represented. This setting depends on what the destination is. See the documentation for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#binary_handling_mode SourceSqlserver#binary_handling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#binary_handling_mode SourceSqlserver#binary_handling_mode}
   */
   readonly binaryHandlingMode?: string;
   /**
   * Comma separated list of columns blacklist regular expressions, format schema[.]table[.](column1|column2|etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#column_exclude_list SourceSqlserver#column_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#column_exclude_list SourceSqlserver#column_exclude_list}
   */
   readonly columnExcludeList?: string;
   /**
   * Source Databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#database_dbname SourceSqlserver#database_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#database_dbname SourceSqlserver#database_dbname}
   */
   readonly databaseDbname: string;
   /**
   * SQLServer Hostname. For example, sqlserverdb.something.rds.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#database_hostname SourceSqlserver#database_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#database_hostname SourceSqlserver#database_hostname}
   */
   readonly databaseHostname: string;
   /**
   * Password to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#database_password SourceSqlserver#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#database_password SourceSqlserver#database_password}
   */
   readonly databasePassword: string;
   /**
   * SQLServer Port. For example, 1433
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#database_port SourceSqlserver#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#database_port SourceSqlserver#database_port}
   */
   readonly databasePort?: number;
   /**
   * Username to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#database_user SourceSqlserver#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#database_user SourceSqlserver#database_user}
   */
   readonly databaseUser: string;
   /**
   * Heartbeat Table Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#heartbeat_data_collection_schema_or_database SourceSqlserver#heartbeat_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#heartbeat_data_collection_schema_or_database SourceSqlserver#heartbeat_data_collection_schema_or_database}
   */
   readonly heartbeatDataCollectionSchemaOrDatabase?: string;
   /**
   * Heartbeats are used to keep the pipeline healthy when there is a low volume of data at times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#heartbeat_enabled SourceSqlserver#heartbeat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#heartbeat_enabled SourceSqlserver#heartbeat_enabled}
   */
   readonly heartbeatEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#insert_static_key_field SourceSqlserver#insert_static_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#insert_static_key_field SourceSqlserver#insert_static_key_field}
   */
   readonly insertStaticKeyField?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#insert_static_key_value SourceSqlserver#insert_static_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#insert_static_key_value SourceSqlserver#insert_static_key_value}
   */
   readonly insertStaticKeyValue?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#insert_static_value SourceSqlserver#insert_static_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#insert_static_value SourceSqlserver#insert_static_value}
   */
   readonly insertStaticValue?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#insert_static_value_field SourceSqlserver#insert_static_value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#insert_static_value_field SourceSqlserver#insert_static_value_field}
   */
   readonly insertStaticValueField?: string;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name: string;
   /**
   * Source schemas to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#schema_include_list SourceSqlserver#schema_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#schema_include_list SourceSqlserver#schema_include_list}
   */
   readonly schemaIncludeList: string;
   /**
   * Schema for signal data collection. If connector is in read-only mode (snapshot_gtid="Yes"), set this to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#signal_data_collection_schema_or_database SourceSqlserver#signal_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#signal_data_collection_schema_or_database SourceSqlserver#signal_data_collection_schema_or_database}
   */
   readonly signalDataCollectionSchemaOrDatabase?: string;
   /**
   * Explicitly set nb of parallel chunks for tables. Format: {"db.Some_Tbl": {"chunks": 5}}. This allows manual settings for parallelization when stats are outdated and estimated table size cannot be computed reliably
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#snapshot_custom_table_config SourceSqlserver#snapshot_custom_table_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#snapshot_custom_table_config SourceSqlserver#snapshot_custom_table_config}
   */
   readonly snapshotCustomTableConfig?: { [key: string]: SourceSqlserverSnapshotCustomTableConfig } | cdktf.IResolvable;
   /**
   * The threshold in MB for a Large Table to require multiple chunks to be read in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#snapshot_large_table_threshold SourceSqlserver#snapshot_large_table_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#snapshot_large_table_threshold SourceSqlserver#snapshot_large_table_threshold}
   */
   readonly snapshotLargeTableThreshold?: number;
   /**
   * How many parallel chunk requests to send to the source DB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#snapshot_parallelism SourceSqlserver#snapshot_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#snapshot_parallelism SourceSqlserver#snapshot_parallelism}
   */
   readonly snapshotParallelism?: number;
   /**
   * Connect via SSH tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#ssh_enabled SourceSqlserver#ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#ssh_enabled SourceSqlserver#ssh_enabled}
   */
   readonly sshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Hostname of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#ssh_host SourceSqlserver#ssh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#ssh_host SourceSqlserver#ssh_host}
   */
   readonly sshHost?: string;
   /**
   * Port of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#ssh_port SourceSqlserver#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#ssh_port SourceSqlserver#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * User for connecting to the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#ssh_user SourceSqlserver#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#ssh_user SourceSqlserver#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Source tables to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#table_include_list SourceSqlserver#table_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#table_include_list SourceSqlserver#table_include_list}
   */
   readonly tableIncludeList: string;
 }
 export interface SourceSqlserverSnapshotCustomTableConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#chunks SourceSqlserver#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#chunks SourceSqlserver#chunks}
   */
   readonly chunks: number;
 }
@@ -265,7 +265,7 @@ export class SourceSqlserverSnapshotCustomTableConfigMap extends cdktf.ComplexMa
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver streamkap_source_sqlserver}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver streamkap_source_sqlserver}
 */
 export class SourceSqlserver extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class SourceSqlserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceSqlserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceSqlserver to import
-  * @param importFromId The id of the existing SourceSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceSqlserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class SourceSqlserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_sqlserver streamkap_source_sqlserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_sqlserver streamkap_source_sqlserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class SourceSqlserver extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_sqlserver',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

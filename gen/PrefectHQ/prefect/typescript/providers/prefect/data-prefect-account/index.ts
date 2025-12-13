@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataPrefectAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#id DataPrefectAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#id DataPrefectAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataPrefectAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Group of settings related to accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#settings DataPrefectAccount#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#settings DataPrefectAccount#settings}
   */
   readonly settings?: DataPrefectAccountSettings;
 }
@@ -27,19 +27,19 @@ export interface DataPrefectAccountSettings {
   /**
   * Whether to use AI to generate log summaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#ai_log_summaries DataPrefectAccount#ai_log_summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#ai_log_summaries DataPrefectAccount#ai_log_summaries}
   */
   readonly aiLogSummaries?: boolean | cdktf.IResolvable;
   /**
   * Whether or not this account allows public workspaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#allow_public_workspaces DataPrefectAccount#allow_public_workspaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#allow_public_workspaces DataPrefectAccount#allow_public_workspaces}
   */
   readonly allowPublicWorkspaces?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the use of managed work pools
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#managed_execution DataPrefectAccount#managed_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#managed_execution DataPrefectAccount#managed_execution}
   */
   readonly managedExecution?: boolean | cdktf.IResolvable;
 }
@@ -191,7 +191,7 @@ export class DataPrefectAccountSettingsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account prefect_account}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account prefect_account}
 */
 export class DataPrefectAccount extends cdktf.TerraformDataSource {
 
@@ -207,7 +207,7 @@ export class DataPrefectAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectAccount to import
-  * @param importFromId The id of the existing DataPrefectAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataPrefectAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/account prefect_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/data-sources/account prefect_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataPrefectAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_account',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

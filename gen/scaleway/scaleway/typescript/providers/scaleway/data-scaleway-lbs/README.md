@@ -1,3 +1,3 @@
 # `data_scaleway_lbs`
 
-Refer to the Terraform Registry for docs: [`data_scaleway_lbs`](https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/data-sources/lbs).
+Refer to the Terraform Registry for docs: [`data_scaleway_lbs`](https://registry.terraform.io/providers/scaleway/scaleway/2.65.1/docs/data-sources/lbs).

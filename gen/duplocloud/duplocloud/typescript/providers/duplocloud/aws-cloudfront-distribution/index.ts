@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface AwsCloudfrontDistributionConfig extends cdktf.TerraformMetaArgu
   /**
   * Extra CNAMEs (alternate domain names), if any, for this distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#aliases AwsCloudfrontDistribution#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#aliases AwsCloudfrontDistribution#aliases}
   */
   readonly aliases?: string[];
   /**
   * Any comments you want to include about the distribution. comment has been deprecated instead use name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#comment AwsCloudfrontDistribution#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#comment AwsCloudfrontDistribution#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cors_allowed_host_names AwsCloudfrontDistribution#cors_allowed_host_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cors_allowed_host_names AwsCloudfrontDistribution#cors_allowed_host_names}
   */
   readonly corsAllowedHostNames?: string[];
   /**
   * The object that you want CloudFront to return (for example, index.html) when an end user requests the root URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#default_root_object AwsCloudfrontDistribution#default_root_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#default_root_object AwsCloudfrontDistribution#default_root_object}
   */
   readonly defaultRootObject?: string;
   /**
   * Whether the distribution is enabled to accept end user requests for content. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#enabled AwsCloudfrontDistribution#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#enabled AwsCloudfrontDistribution#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum HTTP version to support on the distribution. Allowed values are `http1.1` and `http2` Defaults to `http2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#http_version AwsCloudfrontDistribution#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#http_version AwsCloudfrontDistribution#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#id AwsCloudfrontDistribution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#id AwsCloudfrontDistribution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,115 +51,115 @@ export interface AwsCloudfrontDistributionConfig extends cdktf.TerraformMetaArgu
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#is_ipv6_enabled AwsCloudfrontDistribution#is_ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#is_ipv6_enabled AwsCloudfrontDistribution#is_ipv6_enabled}
   */
   readonly isIpv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#name AwsCloudfrontDistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#name AwsCloudfrontDistribution#name}
   */
   readonly name?: string;
   /**
   * The price class for this distribution. One of `PriceClass_All`, `PriceClass_200`, `PriceClass_100` Defaults to `PriceClass_All`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#price_class AwsCloudfrontDistribution#price_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#price_class AwsCloudfrontDistribution#price_class}
   */
   readonly priceClass?: string;
   /**
   * The GUID of the tenant that the aws cloudfront distribution will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#tenant_id AwsCloudfrontDistribution#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#tenant_id AwsCloudfrontDistribution#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#use_origin_access_identity AwsCloudfrontDistribution#use_origin_access_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#use_origin_access_identity AwsCloudfrontDistribution#use_origin_access_identity}
   */
   readonly useOriginAccessIdentity?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#wait_for_deployment AwsCloudfrontDistribution#wait_for_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#wait_for_deployment AwsCloudfrontDistribution#wait_for_deployment}
   */
   readonly waitForDeployment?: boolean | cdktf.IResolvable;
   /**
   * A unique identifier that specifies the AWS WAF web ACL, if any, to associate with this distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#web_acl_id AwsCloudfrontDistribution#web_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#web_acl_id AwsCloudfrontDistribution#web_acl_id}
   */
   readonly webAclId?: string;
   /**
   * custom_error_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#custom_error_response AwsCloudfrontDistribution#custom_error_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#custom_error_response AwsCloudfrontDistribution#custom_error_response}
   */
   readonly customErrorResponse?: AwsCloudfrontDistributionCustomErrorResponse[] | cdktf.IResolvable;
   /**
   * default_cache_behavior block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#default_cache_behavior AwsCloudfrontDistribution#default_cache_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#default_cache_behavior AwsCloudfrontDistribution#default_cache_behavior}
   */
   readonly defaultCacheBehavior: AwsCloudfrontDistributionDefaultCacheBehavior;
   /**
   * logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#logging_config AwsCloudfrontDistribution#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#logging_config AwsCloudfrontDistribution#logging_config}
   */
   readonly loggingConfig?: AwsCloudfrontDistributionLoggingConfig;
   /**
   * ordered_cache_behavior block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#ordered_cache_behavior AwsCloudfrontDistribution#ordered_cache_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#ordered_cache_behavior AwsCloudfrontDistribution#ordered_cache_behavior}
   */
   readonly orderedCacheBehavior?: AwsCloudfrontDistributionOrderedCacheBehavior[] | cdktf.IResolvable;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin AwsCloudfrontDistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin AwsCloudfrontDistribution#origin}
   */
   readonly origin: AwsCloudfrontDistributionOrigin[] | cdktf.IResolvable;
   /**
   * origin_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_group AwsCloudfrontDistribution#origin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_group AwsCloudfrontDistribution#origin_group}
   */
   readonly originGroup?: AwsCloudfrontDistributionOriginGroup[] | cdktf.IResolvable;
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#restrictions AwsCloudfrontDistribution#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#restrictions AwsCloudfrontDistribution#restrictions}
   */
   readonly restrictions?: AwsCloudfrontDistributionRestrictions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#timeouts AwsCloudfrontDistribution#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#timeouts AwsCloudfrontDistribution#timeouts}
   */
   readonly timeouts?: AwsCloudfrontDistributionTimeouts;
   /**
   * viewer_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#viewer_certificate AwsCloudfrontDistribution#viewer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#viewer_certificate AwsCloudfrontDistribution#viewer_certificate}
   */
   readonly viewerCertificate: AwsCloudfrontDistributionViewerCertificate;
 }
 export interface AwsCloudfrontDistributionCustomErrorResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#error_caching_min_ttl AwsCloudfrontDistribution#error_caching_min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#error_caching_min_ttl AwsCloudfrontDistribution#error_caching_min_ttl}
   */
   readonly errorCachingMinTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#error_code AwsCloudfrontDistribution#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#error_code AwsCloudfrontDistribution#error_code}
   */
   readonly errorCode: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#response_code AwsCloudfrontDistribution#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#response_code AwsCloudfrontDistribution#response_code}
   */
   readonly responseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#response_page_path AwsCloudfrontDistribution#response_page_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#response_page_path AwsCloudfrontDistribution#response_page_path}
   */
   readonly responsePagePath?: string;
 }
@@ -359,11 +359,11 @@ export class AwsCloudfrontDistributionCustomErrorResponseList extends cdktf.Comp
 }
 export interface AwsCloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#forward AwsCloudfrontDistribution#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#forward AwsCloudfrontDistribution#forward}
   */
   readonly forward: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#whitelisted_names AwsCloudfrontDistribution#whitelisted_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#whitelisted_names AwsCloudfrontDistribution#whitelisted_names}
   */
   readonly whitelistedNames?: string[];
 }
@@ -475,23 +475,23 @@ export interface AwsCloudfrontDistributionDefaultCacheBehaviorForwardedValues {
   /**
   * headers: Not required when cache_policy_id is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#headers AwsCloudfrontDistribution#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#headers AwsCloudfrontDistribution#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#query_string AwsCloudfrontDistribution#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#query_string AwsCloudfrontDistribution#query_string}
   */
   readonly queryString: boolean | cdktf.IResolvable;
   /**
   * query_string_cache_keys: Not required when cache_policy_id is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#query_string_cache_keys AwsCloudfrontDistribution#query_string_cache_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#query_string_cache_keys AwsCloudfrontDistribution#query_string_cache_keys}
   */
   readonly queryStringCacheKeys?: string[];
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cookies AwsCloudfrontDistribution#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cookies AwsCloudfrontDistribution#cookies}
   */
   readonly cookies: AwsCloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookies;
 }
@@ -656,11 +656,11 @@ export class AwsCloudfrontDistributionDefaultCacheBehaviorForwardedValuesOutputR
 }
 export interface AwsCloudfrontDistributionDefaultCacheBehaviorFunctionAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#function_arn AwsCloudfrontDistribution#function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#function_arn AwsCloudfrontDistribution#function_arn}
   */
   readonly functionArn: string;
 }
@@ -799,17 +799,17 @@ export class AwsCloudfrontDistributionDefaultCacheBehaviorFunctionAssociationLis
 }
 export interface AwsCloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
   */
   readonly eventType: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#include_body AwsCloudfrontDistribution#include_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#include_body AwsCloudfrontDistribution#include_body}
   */
   readonly includeBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#lambda_arn AwsCloudfrontDistribution#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#lambda_arn AwsCloudfrontDistribution#lambda_arn}
   */
   readonly lambdaArn: string;
 }
@@ -977,7 +977,7 @@ export class AwsCloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociat
 }
 export interface AwsCloudfrontDistributionDefaultCacheBehavior {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#allowed_methods AwsCloudfrontDistribution#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#allowed_methods AwsCloudfrontDistribution#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
@@ -991,89 +991,89 @@ export interface AwsCloudfrontDistributionDefaultCacheBehavior {
   * | [Elemental-MediaPackage](#https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-cache-policies.html#managed-cache-policy-mediapackage)                            | 08627262-05a9-4f76-9ded-b50ca2e3a84f |
   * <br />
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cache_policy_id AwsCloudfrontDistribution#cache_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cache_policy_id AwsCloudfrontDistribution#cache_policy_id}
   */
   readonly cachePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cached_methods AwsCloudfrontDistribution#cached_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cached_methods AwsCloudfrontDistribution#cached_methods}
   */
   readonly cachedMethods: string[];
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#compress AwsCloudfrontDistribution#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#compress AwsCloudfrontDistribution#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * default time to live: Not required when cache_policy_id is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#default_ttl AwsCloudfrontDistribution#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#default_ttl AwsCloudfrontDistribution#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#field_level_encryption_id AwsCloudfrontDistribution#field_level_encryption_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#field_level_encryption_id AwsCloudfrontDistribution#field_level_encryption_id}
   */
   readonly fieldLevelEncryptionId?: string;
   /**
   * Maximum time to live: Not required when cache_policy_id is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#max_ttl AwsCloudfrontDistribution#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#max_ttl AwsCloudfrontDistribution#max_ttl}
   */
   readonly maxTtl?: number;
   /**
   * Minimum time to live: Not required when cache_policy_id is set Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#min_ttl AwsCloudfrontDistribution#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#min_ttl AwsCloudfrontDistribution#min_ttl}
   */
   readonly minTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_request_policy_id AwsCloudfrontDistribution#origin_request_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_request_policy_id AwsCloudfrontDistribution#origin_request_policy_id}
   */
   readonly originRequestPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#realtime_log_config_arn AwsCloudfrontDistribution#realtime_log_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#realtime_log_config_arn AwsCloudfrontDistribution#realtime_log_config_arn}
   */
   readonly realtimeLogConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#response_headers_policy_id AwsCloudfrontDistribution#response_headers_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#response_headers_policy_id AwsCloudfrontDistribution#response_headers_policy_id}
   */
   readonly responseHeadersPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#smooth_streaming AwsCloudfrontDistribution#smooth_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#smooth_streaming AwsCloudfrontDistribution#smooth_streaming}
   */
   readonly smoothStreaming?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#target_origin_id AwsCloudfrontDistribution#target_origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#target_origin_id AwsCloudfrontDistribution#target_origin_id}
   */
   readonly targetOriginId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#trusted_key_groups AwsCloudfrontDistribution#trusted_key_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#trusted_key_groups AwsCloudfrontDistribution#trusted_key_groups}
   */
   readonly trustedKeyGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#trusted_signers AwsCloudfrontDistribution#trusted_signers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#trusted_signers AwsCloudfrontDistribution#trusted_signers}
   */
   readonly trustedSigners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#viewer_protocol_policy AwsCloudfrontDistribution#viewer_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#viewer_protocol_policy AwsCloudfrontDistribution#viewer_protocol_policy}
   */
   readonly viewerProtocolPolicy: string;
   /**
   * forwarded_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#forwarded_values AwsCloudfrontDistribution#forwarded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#forwarded_values AwsCloudfrontDistribution#forwarded_values}
   */
   readonly forwardedValues?: AwsCloudfrontDistributionDefaultCacheBehaviorForwardedValues;
   /**
   * function_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#function_association AwsCloudfrontDistribution#function_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#function_association AwsCloudfrontDistribution#function_association}
   */
   readonly functionAssociation?: AwsCloudfrontDistributionDefaultCacheBehaviorFunctionAssociation[] | cdktf.IResolvable;
   /**
   * lambda_function_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#lambda_function_association AwsCloudfrontDistribution#lambda_function_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#lambda_function_association AwsCloudfrontDistribution#lambda_function_association}
   */
   readonly lambdaFunctionAssociation?: AwsCloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation[] | cdktf.IResolvable;
 }
@@ -1667,19 +1667,19 @@ export class AwsCloudfrontDistributionDefaultCacheBehaviorOutputReference extend
 }
 export interface AwsCloudfrontDistributionLoggingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#bucket AwsCloudfrontDistribution#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#bucket AwsCloudfrontDistribution#bucket}
   */
   readonly bucket: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#include_cookies AwsCloudfrontDistribution#include_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#include_cookies AwsCloudfrontDistribution#include_cookies}
   */
   readonly includeCookies?: boolean | cdktf.IResolvable;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#prefix AwsCloudfrontDistribution#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#prefix AwsCloudfrontDistribution#prefix}
   */
   readonly prefix?: string;
 }
@@ -1818,11 +1818,11 @@ export class AwsCloudfrontDistributionLoggingConfigOutputReference extends cdktf
 }
 export interface AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#forward AwsCloudfrontDistribution#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#forward AwsCloudfrontDistribution#forward}
   */
   readonly forward: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#whitelisted_names AwsCloudfrontDistribution#whitelisted_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#whitelisted_names AwsCloudfrontDistribution#whitelisted_names}
   */
   readonly whitelistedNames?: string[];
 }
@@ -1932,21 +1932,21 @@ export class AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies
 }
 export interface AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#headers AwsCloudfrontDistribution#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#headers AwsCloudfrontDistribution#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#query_string AwsCloudfrontDistribution#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#query_string AwsCloudfrontDistribution#query_string}
   */
   readonly queryString: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#query_string_cache_keys AwsCloudfrontDistribution#query_string_cache_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#query_string_cache_keys AwsCloudfrontDistribution#query_string_cache_keys}
   */
   readonly queryStringCacheKeys?: string[];
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cookies AwsCloudfrontDistribution#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cookies AwsCloudfrontDistribution#cookies}
   */
   readonly cookies: AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies;
 }
@@ -2111,11 +2111,11 @@ export class AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValuesOutputR
 }
 export interface AwsCloudfrontDistributionOrderedCacheBehaviorFunctionAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#function_arn AwsCloudfrontDistribution#function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#function_arn AwsCloudfrontDistribution#function_arn}
   */
   readonly functionArn: string;
 }
@@ -2254,17 +2254,17 @@ export class AwsCloudfrontDistributionOrderedCacheBehaviorFunctionAssociationLis
 }
 export interface AwsCloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#event_type AwsCloudfrontDistribution#event_type}
   */
   readonly eventType: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#include_body AwsCloudfrontDistribution#include_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#include_body AwsCloudfrontDistribution#include_body}
   */
   readonly includeBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#lambda_arn AwsCloudfrontDistribution#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#lambda_arn AwsCloudfrontDistribution#lambda_arn}
   */
   readonly lambdaArn: string;
 }
@@ -2432,93 +2432,93 @@ export class AwsCloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociat
 }
 export interface AwsCloudfrontDistributionOrderedCacheBehavior {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#allowed_methods AwsCloudfrontDistribution#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#allowed_methods AwsCloudfrontDistribution#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cache_policy_id AwsCloudfrontDistribution#cache_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cache_policy_id AwsCloudfrontDistribution#cache_policy_id}
   */
   readonly cachePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cached_methods AwsCloudfrontDistribution#cached_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cached_methods AwsCloudfrontDistribution#cached_methods}
   */
   readonly cachedMethods: string[];
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#compress AwsCloudfrontDistribution#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#compress AwsCloudfrontDistribution#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#default_ttl AwsCloudfrontDistribution#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#default_ttl AwsCloudfrontDistribution#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#field_level_encryption_id AwsCloudfrontDistribution#field_level_encryption_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#field_level_encryption_id AwsCloudfrontDistribution#field_level_encryption_id}
   */
   readonly fieldLevelEncryptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#max_ttl AwsCloudfrontDistribution#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#max_ttl AwsCloudfrontDistribution#max_ttl}
   */
   readonly maxTtl?: number;
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#min_ttl AwsCloudfrontDistribution#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#min_ttl AwsCloudfrontDistribution#min_ttl}
   */
   readonly minTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_request_policy_id AwsCloudfrontDistribution#origin_request_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_request_policy_id AwsCloudfrontDistribution#origin_request_policy_id}
   */
   readonly originRequestPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#path_pattern AwsCloudfrontDistribution#path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#path_pattern AwsCloudfrontDistribution#path_pattern}
   */
   readonly pathPattern: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#realtime_log_config_arn AwsCloudfrontDistribution#realtime_log_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#realtime_log_config_arn AwsCloudfrontDistribution#realtime_log_config_arn}
   */
   readonly realtimeLogConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#response_headers_policy_id AwsCloudfrontDistribution#response_headers_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#response_headers_policy_id AwsCloudfrontDistribution#response_headers_policy_id}
   */
   readonly responseHeadersPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#smooth_streaming AwsCloudfrontDistribution#smooth_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#smooth_streaming AwsCloudfrontDistribution#smooth_streaming}
   */
   readonly smoothStreaming?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#target_origin_id AwsCloudfrontDistribution#target_origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#target_origin_id AwsCloudfrontDistribution#target_origin_id}
   */
   readonly targetOriginId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#trusted_key_groups AwsCloudfrontDistribution#trusted_key_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#trusted_key_groups AwsCloudfrontDistribution#trusted_key_groups}
   */
   readonly trustedKeyGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#trusted_signers AwsCloudfrontDistribution#trusted_signers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#trusted_signers AwsCloudfrontDistribution#trusted_signers}
   */
   readonly trustedSigners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#viewer_protocol_policy AwsCloudfrontDistribution#viewer_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#viewer_protocol_policy AwsCloudfrontDistribution#viewer_protocol_policy}
   */
   readonly viewerProtocolPolicy: string;
   /**
   * forwarded_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#forwarded_values AwsCloudfrontDistribution#forwarded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#forwarded_values AwsCloudfrontDistribution#forwarded_values}
   */
   readonly forwardedValues?: AwsCloudfrontDistributionOrderedCacheBehaviorForwardedValues;
   /**
   * function_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#function_association AwsCloudfrontDistribution#function_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#function_association AwsCloudfrontDistribution#function_association}
   */
   readonly functionAssociation?: AwsCloudfrontDistributionOrderedCacheBehaviorFunctionAssociation[] | cdktf.IResolvable;
   /**
   * lambda_function_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#lambda_function_association AwsCloudfrontDistribution#lambda_function_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#lambda_function_association AwsCloudfrontDistribution#lambda_function_association}
   */
   readonly lambdaFunctionAssociation?: AwsCloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation[] | cdktf.IResolvable;
 }
@@ -3170,11 +3170,11 @@ export class AwsCloudfrontDistributionOrderedCacheBehaviorList extends cdktf.Com
 }
 export interface AwsCloudfrontDistributionOriginCustomHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#name AwsCloudfrontDistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#name AwsCloudfrontDistribution#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#value AwsCloudfrontDistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#value AwsCloudfrontDistribution#value}
   */
   readonly value: string;
 }
@@ -3315,33 +3315,33 @@ export interface AwsCloudfrontDistributionOriginCustomOriginConfig {
   /**
   * Defaults to `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#http_port AwsCloudfrontDistribution#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#http_port AwsCloudfrontDistribution#http_port}
   */
   readonly httpPort?: number;
   /**
   * Defaults to `443`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#https_port AwsCloudfrontDistribution#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#https_port AwsCloudfrontDistribution#https_port}
   */
   readonly httpsPort?: number;
   /**
   * Defaults to `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_keepalive_timeout AwsCloudfrontDistribution#origin_keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_keepalive_timeout AwsCloudfrontDistribution#origin_keepalive_timeout}
   */
   readonly originKeepaliveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_protocol_policy AwsCloudfrontDistribution#origin_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_protocol_policy AwsCloudfrontDistribution#origin_protocol_policy}
   */
   readonly originProtocolPolicy: string;
   /**
   * Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_read_timeout AwsCloudfrontDistribution#origin_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_read_timeout AwsCloudfrontDistribution#origin_read_timeout}
   */
   readonly originReadTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_ssl_protocols AwsCloudfrontDistribution#origin_ssl_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_ssl_protocols AwsCloudfrontDistribution#origin_ssl_protocols}
   */
   readonly originSslProtocols: string[];
 }
@@ -3564,11 +3564,11 @@ export class AwsCloudfrontDistributionOriginCustomOriginConfigOutputReference ex
 }
 export interface AwsCloudfrontDistributionOriginOriginShield {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#enabled AwsCloudfrontDistribution#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#enabled AwsCloudfrontDistribution#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_shield_region AwsCloudfrontDistribution#origin_shield_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_shield_region AwsCloudfrontDistribution#origin_shield_region}
   */
   readonly originShieldRegion: string;
 }
@@ -3677,7 +3677,7 @@ export interface AwsCloudfrontDistributionOriginS3OriginConfig {
   /**
   * The CloudFront origin access identity to associate with the origin. This is used to restrict access to the S3 bucket. Duplo assigns this automatically when the "use_origin_access_identity" is set to true. Any explicit value set here will be ignored and duplo created oai will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_access_identity AwsCloudfrontDistribution#origin_access_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_access_identity AwsCloudfrontDistribution#origin_access_identity}
   */
   readonly originAccessIdentity?: string;
 }
@@ -3763,51 +3763,51 @@ export interface AwsCloudfrontDistributionOrigin {
   /**
   * Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#connection_attempts AwsCloudfrontDistribution#connection_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#connection_attempts AwsCloudfrontDistribution#connection_attempts}
   */
   readonly connectionAttempts?: number;
   /**
   * Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#connection_timeout AwsCloudfrontDistribution#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#connection_timeout AwsCloudfrontDistribution#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#domain_name AwsCloudfrontDistribution#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#domain_name AwsCloudfrontDistribution#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
   */
   readonly originId: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_path AwsCloudfrontDistribution#origin_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_path AwsCloudfrontDistribution#origin_path}
   */
   readonly originPath?: string;
   /**
   * custom_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#custom_header AwsCloudfrontDistribution#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#custom_header AwsCloudfrontDistribution#custom_header}
   */
   readonly customHeader?: AwsCloudfrontDistributionOriginCustomHeader[] | cdktf.IResolvable;
   /**
   * custom_origin_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#custom_origin_config AwsCloudfrontDistribution#custom_origin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#custom_origin_config AwsCloudfrontDistribution#custom_origin_config}
   */
   readonly customOriginConfig?: AwsCloudfrontDistributionOriginCustomOriginConfig;
   /**
   * origin_shield block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_shield AwsCloudfrontDistribution#origin_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_shield AwsCloudfrontDistribution#origin_shield}
   */
   readonly originShield?: AwsCloudfrontDistributionOriginOriginShield;
   /**
   * s3_origin_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#s3_origin_config AwsCloudfrontDistribution#s3_origin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#s3_origin_config AwsCloudfrontDistribution#s3_origin_config}
   */
   readonly s3OriginConfig?: AwsCloudfrontDistributionOriginS3OriginConfig;
 }
@@ -4149,7 +4149,7 @@ export class AwsCloudfrontDistributionOriginList extends cdktf.ComplexList {
 }
 export interface AwsCloudfrontDistributionOriginGroupFailoverCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#status_codes AwsCloudfrontDistribution#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#status_codes AwsCloudfrontDistribution#status_codes}
   */
   readonly statusCodes: number[];
 }
@@ -4230,7 +4230,7 @@ export class AwsCloudfrontDistributionOriginGroupFailoverCriteriaOutputReference
 }
 export interface AwsCloudfrontDistributionOriginGroupMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
   */
   readonly originId: string;
 }
@@ -4343,19 +4343,19 @@ export class AwsCloudfrontDistributionOriginGroupMemberList extends cdktf.Comple
 }
 export interface AwsCloudfrontDistributionOriginGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#origin_id AwsCloudfrontDistribution#origin_id}
   */
   readonly originId: string;
   /**
   * failover_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#failover_criteria AwsCloudfrontDistribution#failover_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#failover_criteria AwsCloudfrontDistribution#failover_criteria}
   */
   readonly failoverCriteria: AwsCloudfrontDistributionOriginGroupFailoverCriteria;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#member AwsCloudfrontDistribution#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#member AwsCloudfrontDistribution#member}
   */
   readonly member: AwsCloudfrontDistributionOriginGroupMember[] | cdktf.IResolvable;
 }
@@ -4520,11 +4520,11 @@ export class AwsCloudfrontDistributionOriginGroupList extends cdktf.ComplexList 
 }
 export interface AwsCloudfrontDistributionRestrictionsGeoRestriction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#locations AwsCloudfrontDistribution#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#locations AwsCloudfrontDistribution#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#restriction_type AwsCloudfrontDistribution#restriction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#restriction_type AwsCloudfrontDistribution#restriction_type}
   */
   readonly restrictionType: string;
 }
@@ -4636,7 +4636,7 @@ export interface AwsCloudfrontDistributionRestrictions {
   /**
   * geo_restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#geo_restriction AwsCloudfrontDistribution#geo_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#geo_restriction AwsCloudfrontDistribution#geo_restriction}
   */
   readonly geoRestriction: AwsCloudfrontDistributionRestrictionsGeoRestriction;
 }
@@ -4717,11 +4717,11 @@ export class AwsCloudfrontDistributionRestrictionsOutputReference extends cdktf.
 }
 export interface AwsCloudfrontDistributionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#create AwsCloudfrontDistribution#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#create AwsCloudfrontDistribution#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#delete AwsCloudfrontDistribution#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#delete AwsCloudfrontDistribution#delete}
   */
   readonly delete?: string;
 }
@@ -4844,27 +4844,27 @@ export class AwsCloudfrontDistributionTimeoutsOutputReference extends cdktf.Comp
 }
 export interface AwsCloudfrontDistributionViewerCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#acm_certificate_arn AwsCloudfrontDistribution#acm_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#acm_certificate_arn AwsCloudfrontDistribution#acm_certificate_arn}
   */
   readonly acmCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#cloudfront_default_certificate AwsCloudfrontDistribution#cloudfront_default_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#cloudfront_default_certificate AwsCloudfrontDistribution#cloudfront_default_certificate}
   */
   readonly cloudfrontDefaultCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#iam_certificate_id AwsCloudfrontDistribution#iam_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#iam_certificate_id AwsCloudfrontDistribution#iam_certificate_id}
   */
   readonly iamCertificateId?: string;
   /**
   * Defaults to `TLSv1.2_2021`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#minimum_protocol_version AwsCloudfrontDistribution#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#minimum_protocol_version AwsCloudfrontDistribution#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
   * Defaults to `sni-only`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#ssl_support_method AwsCloudfrontDistribution#ssl_support_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#ssl_support_method AwsCloudfrontDistribution#ssl_support_method}
   */
   readonly sslSupportMethod?: string;
 }
@@ -5064,7 +5064,7 @@ export class AwsCloudfrontDistributionViewerCertificateOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution duplocloud_aws_cloudfront_distribution}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution duplocloud_aws_cloudfront_distribution}
 */
 export class AwsCloudfrontDistribution extends cdktf.TerraformResource {
 
@@ -5080,7 +5080,7 @@ export class AwsCloudfrontDistribution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudfrontDistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudfrontDistribution to import
-  * @param importFromId The id of the existing AwsCloudfrontDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudfrontDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudfrontDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5092,7 +5092,7 @@ export class AwsCloudfrontDistribution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudfront_distribution duplocloud_aws_cloudfront_distribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudfront_distribution duplocloud_aws_cloudfront_distribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5103,8 +5103,8 @@ export class AwsCloudfrontDistribution extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_cloudfront_distribution',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

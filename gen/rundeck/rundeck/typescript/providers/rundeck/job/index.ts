@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job
+// https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,406 +8,199 @@ import * as cdktf from 'cdktf';
 
 export interface JobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#allow_concurrent_executions Job#allow_concurrent_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#allow_concurrent_executions Job#allow_concurrent_executions}
   */
   readonly allowConcurrentExecutions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#command_ordering_strategy Job#command_ordering_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#command_ordering_strategy Job#command_ordering_strategy}
   */
   readonly commandOrderingStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#continue_next_node_on_error Job#continue_next_node_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#continue_next_node_on_error Job#continue_next_node_on_error}
   */
   readonly continueNextNodeOnError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#continue_on_error Job#continue_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#continue_on_error Job#continue_on_error}
   */
   readonly continueOnError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#default_tab Job#default_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#default_tab Job#default_tab}
   */
   readonly defaultTab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#description Job#description}
+  * Job description
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#description Job#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#execution_enabled Job#execution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#execution_enabled Job#execution_enabled}
   */
   readonly executionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#group_name Job#group_name}
+  * Job group name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#group_name Job#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#id Job#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#log_level Job#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#log_level Job#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#max_thread_count Job#max_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#max_thread_count Job#max_thread_count}
   */
   readonly maxThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#name Job#name}
+  * Job name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#name Job#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filter_editable Job#node_filter_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_filter_editable Job#node_filter_editable}
   */
   readonly nodeFilterEditable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filter_exclude_precedence Job#node_filter_exclude_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_filter_exclude_precedence Job#node_filter_exclude_precedence}
   */
   readonly nodeFilterExcludePrecedence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filter_exclude_query Job#node_filter_exclude_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_filter_exclude_query Job#node_filter_exclude_query}
   */
   readonly nodeFilterExcludeQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filter_query Job#node_filter_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_filter_query Job#node_filter_query}
   */
   readonly nodeFilterQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#nodes_selected_by_default Job#nodes_selected_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#nodes_selected_by_default Job#nodes_selected_by_default}
   */
   readonly nodesSelectedByDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#preserve_options_order Job#preserve_options_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#preserve_options_order Job#preserve_options_order}
   */
   readonly preserveOptionsOrder?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#project_name Job#project_name}
+  * Project name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#project_name Job#project_name}
   */
   readonly projectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#rank_attribute Job#rank_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#rank_attribute Job#rank_attribute}
   */
   readonly rankAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#rank_order Job#rank_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#rank_order Job#rank_order}
   */
   readonly rankOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#retry Job#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#retry Job#retry}
   */
   readonly retry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#retry_delay Job#retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#retry_delay Job#retry_delay}
   */
   readonly retryDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#runner_selector_filter Job#runner_selector_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#runner_selector_filter Job#runner_selector_filter}
   */
   readonly runnerSelectorFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#runner_selector_filter_mode Job#runner_selector_filter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#runner_selector_filter_mode Job#runner_selector_filter_mode}
   */
   readonly runnerSelectorFilterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#runner_selector_filter_type Job#runner_selector_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#runner_selector_filter_type Job#runner_selector_filter_type}
   */
   readonly runnerSelectorFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#schedule Job#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#schedule Job#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#schedule_enabled Job#schedule_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#schedule_enabled Job#schedule_enabled}
   */
   readonly scheduleEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#success_on_empty_node_filter Job#success_on_empty_node_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#success_on_empty_node_filter Job#success_on_empty_node_filter}
   */
   readonly successOnEmptyNodeFilter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#time_zone Job#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#time_zone Job#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#timeout Job#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#timeout Job#timeout}
   */
   readonly timeout?: string;
   /**
   * command block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#command Job#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#command Job#command}
   */
-  readonly command: JobCommand[] | cdktf.IResolvable;
+  readonly command?: JobCommand[] | cdktf.IResolvable;
   /**
   * execution_lifecycle_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#execution_lifecycle_plugin Job#execution_lifecycle_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#execution_lifecycle_plugin Job#execution_lifecycle_plugin}
   */
   readonly executionLifecyclePlugin?: JobExecutionLifecyclePlugin[] | cdktf.IResolvable;
   /**
   * global_log_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#global_log_filter Job#global_log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#global_log_filter Job#global_log_filter}
   */
   readonly globalLogFilter?: JobGlobalLogFilter[] | cdktf.IResolvable;
   /**
   * log_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#log_limit Job#log_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#log_limit Job#log_limit}
   */
   readonly logLimit?: JobLogLimit[] | cdktf.IResolvable;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#notification Job#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#notification Job#notification}
   */
   readonly notification?: JobNotification[] | cdktf.IResolvable;
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#option Job#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#option Job#option}
   */
   readonly option?: JobOption[] | cdktf.IResolvable;
   /**
   * orchestrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#orchestrator Job#orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#orchestrator Job#orchestrator}
   */
   readonly orchestrator?: JobOrchestrator[] | cdktf.IResolvable;
   /**
   * project_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#project_schedule Job#project_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#project_schedule Job#project_schedule}
   */
   readonly projectSchedule?: JobProjectSchedule[] | cdktf.IResolvable;
 }
-export interface JobCommandErrorHandlerJobNodeFilters {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#exclude_filter Job#exclude_filter}
-  */
-  readonly excludeFilter?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#exclude_precedence Job#exclude_precedence}
-  */
-  readonly excludePrecedence?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#filter Job#filter}
-  */
-  readonly filter?: string;
-}
-
-export function jobCommandErrorHandlerJobNodeFiltersToTerraform(struct?: JobCommandErrorHandlerJobNodeFilters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    exclude_filter: cdktf.stringToTerraform(struct!.excludeFilter),
-    exclude_precedence: cdktf.booleanToTerraform(struct!.excludePrecedence),
-    filter: cdktf.stringToTerraform(struct!.filter),
-  }
-}
-
-
-export function jobCommandErrorHandlerJobNodeFiltersToHclTerraform(struct?: JobCommandErrorHandlerJobNodeFilters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    exclude_filter: {
-      value: cdktf.stringToHclTerraform(struct!.excludeFilter),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    exclude_precedence: {
-      value: cdktf.booleanToHclTerraform(struct!.excludePrecedence),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class JobCommandErrorHandlerJobNodeFiltersOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): JobCommandErrorHandlerJobNodeFilters | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._excludeFilter !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.excludeFilter = this._excludeFilter;
-    }
-    if (this._excludePrecedence !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.excludePrecedence = this._excludePrecedence;
-    }
-    if (this._filter !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.filter = this._filter;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: JobCommandErrorHandlerJobNodeFilters | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._excludeFilter = undefined;
-      this._excludePrecedence = undefined;
-      this._filter = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._excludeFilter = value.excludeFilter;
-      this._excludePrecedence = value.excludePrecedence;
-      this._filter = value.filter;
-    }
-  }
-
-  // exclude_filter - computed: false, optional: true, required: false
-  private _excludeFilter?: string; 
-  public get excludeFilter() {
-    return this.getStringAttribute('exclude_filter');
-  }
-  public set excludeFilter(value: string) {
-    this._excludeFilter = value;
-  }
-  public resetExcludeFilter() {
-    this._excludeFilter = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get excludeFilterInput() {
-    return this._excludeFilter;
-  }
-
-  // exclude_precedence - computed: false, optional: true, required: false
-  private _excludePrecedence?: boolean | cdktf.IResolvable; 
-  public get excludePrecedence() {
-    return this.getBooleanAttribute('exclude_precedence');
-  }
-  public set excludePrecedence(value: boolean | cdktf.IResolvable) {
-    this._excludePrecedence = value;
-  }
-  public resetExcludePrecedence() {
-    this._excludePrecedence = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get excludePrecedenceInput() {
-    return this._excludePrecedence;
-  }
-
-  // filter - computed: false, optional: true, required: false
-  private _filter?: string; 
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-  public set filter(value: string) {
-    this._filter = value;
-  }
-  public resetFilter() {
-    this._filter = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get filterInput() {
-    return this._filter;
-  }
-}
-
-export class JobCommandErrorHandlerJobNodeFiltersList extends cdktf.ComplexList {
-  public internalValue? : JobCommandErrorHandlerJobNodeFilters[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): JobCommandErrorHandlerJobNodeFiltersOutputReference {
-    return new JobCommandErrorHandlerJobNodeFiltersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface JobCommandErrorHandlerJob {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#args Job#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#args Job#args}
   */
   readonly args?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#child_nodes Job#child_nodes}
-  */
-  readonly childNodes?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#fail_on_disable Job#fail_on_disable}
-  */
-  readonly failOnDisable?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#group_name Job#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#group_name Job#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#ignore_notifications Job#ignore_notifications}
-  */
-  readonly ignoreNotifications?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#import_options Job#import_options}
-  */
-  readonly importOptions?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#name Job#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#name Job#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#project_name Job#project_name}
-  */
-  readonly projectName?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#run_for_each_node Job#run_for_each_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#run_for_each_node Job#run_for_each_node}
   */
   readonly runForEachNode?: boolean | cdktf.IResolvable;
-  /**
-  * node_filters block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filters Job#node_filters}
-  */
-  readonly nodeFilters?: JobCommandErrorHandlerJobNodeFilters[] | cdktf.IResolvable;
 }
 
 export function jobCommandErrorHandlerJobToTerraform(struct?: JobCommandErrorHandlerJob | cdktf.IResolvable): any {
@@ -417,15 +210,9 @@ export function jobCommandErrorHandlerJobToTerraform(struct?: JobCommandErrorHan
   }
   return {
     args: cdktf.stringToTerraform(struct!.args),
-    child_nodes: cdktf.booleanToTerraform(struct!.childNodes),
-    fail_on_disable: cdktf.booleanToTerraform(struct!.failOnDisable),
     group_name: cdktf.stringToTerraform(struct!.groupName),
-    ignore_notifications: cdktf.booleanToTerraform(struct!.ignoreNotifications),
-    import_options: cdktf.booleanToTerraform(struct!.importOptions),
     name: cdktf.stringToTerraform(struct!.name),
-    project_name: cdktf.stringToTerraform(struct!.projectName),
     run_for_each_node: cdktf.booleanToTerraform(struct!.runForEachNode),
-    node_filters: cdktf.listMapper(jobCommandErrorHandlerJobNodeFiltersToTerraform, true)(struct!.nodeFilters),
   }
 }
 
@@ -442,44 +229,14 @@ export function jobCommandErrorHandlerJobToHclTerraform(struct?: JobCommandError
       type: "simple",
       storageClassType: "string",
     },
-    child_nodes: {
-      value: cdktf.booleanToHclTerraform(struct!.childNodes),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    fail_on_disable: {
-      value: cdktf.booleanToHclTerraform(struct!.failOnDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
     group_name: {
       value: cdktf.stringToHclTerraform(struct!.groupName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    ignore_notifications: {
-      value: cdktf.booleanToHclTerraform(struct!.ignoreNotifications),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    import_options: {
-      value: cdktf.booleanToHclTerraform(struct!.importOptions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    project_name: {
-      value: cdktf.stringToHclTerraform(struct!.projectName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -489,12 +246,6 @@ export function jobCommandErrorHandlerJobToHclTerraform(struct?: JobCommandError
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
-    },
-    node_filters: {
-      value: cdktf.listMapperHcl(jobCommandErrorHandlerJobNodeFiltersToHclTerraform, true)(struct!.nodeFilters),
-      isBlock: true,
-      type: "list",
-      storageClassType: "JobCommandErrorHandlerJobNodeFiltersList",
     },
   };
 
@@ -526,41 +277,17 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.args = this._args;
     }
-    if (this._childNodes !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.childNodes = this._childNodes;
-    }
-    if (this._failOnDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.failOnDisable = this._failOnDisable;
-    }
     if (this._groupName !== undefined) {
       hasAnyValues = true;
       internalValueResult.groupName = this._groupName;
-    }
-    if (this._ignoreNotifications !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ignoreNotifications = this._ignoreNotifications;
-    }
-    if (this._importOptions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.importOptions = this._importOptions;
     }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
-    if (this._projectName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.projectName = this._projectName;
-    }
     if (this._runForEachNode !== undefined) {
       hasAnyValues = true;
       internalValueResult.runForEachNode = this._runForEachNode;
-    }
-    if (this._nodeFilters?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodeFilters = this._nodeFilters?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -570,15 +297,9 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._args = undefined;
-      this._childNodes = undefined;
-      this._failOnDisable = undefined;
       this._groupName = undefined;
-      this._ignoreNotifications = undefined;
-      this._importOptions = undefined;
       this._name = undefined;
-      this._projectName = undefined;
       this._runForEachNode = undefined;
-      this._nodeFilters.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -588,15 +309,9 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._args = value.args;
-      this._childNodes = value.childNodes;
-      this._failOnDisable = value.failOnDisable;
       this._groupName = value.groupName;
-      this._ignoreNotifications = value.ignoreNotifications;
-      this._importOptions = value.importOptions;
       this._name = value.name;
-      this._projectName = value.projectName;
       this._runForEachNode = value.runForEachNode;
-      this._nodeFilters.internalValue = value.nodeFilters;
     }
   }
 
@@ -616,38 +331,6 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
     return this._args;
   }
 
-  // child_nodes - computed: false, optional: true, required: false
-  private _childNodes?: boolean | cdktf.IResolvable; 
-  public get childNodes() {
-    return this.getBooleanAttribute('child_nodes');
-  }
-  public set childNodes(value: boolean | cdktf.IResolvable) {
-    this._childNodes = value;
-  }
-  public resetChildNodes() {
-    this._childNodes = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get childNodesInput() {
-    return this._childNodes;
-  }
-
-  // fail_on_disable - computed: false, optional: true, required: false
-  private _failOnDisable?: boolean | cdktf.IResolvable; 
-  public get failOnDisable() {
-    return this.getBooleanAttribute('fail_on_disable');
-  }
-  public set failOnDisable(value: boolean | cdktf.IResolvable) {
-    this._failOnDisable = value;
-  }
-  public resetFailOnDisable() {
-    this._failOnDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get failOnDisableInput() {
-    return this._failOnDisable;
-  }
-
   // group_name - computed: false, optional: true, required: false
   private _groupName?: string; 
   public get groupName() {
@@ -664,38 +347,6 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
     return this._groupName;
   }
 
-  // ignore_notifications - computed: false, optional: true, required: false
-  private _ignoreNotifications?: boolean | cdktf.IResolvable; 
-  public get ignoreNotifications() {
-    return this.getBooleanAttribute('ignore_notifications');
-  }
-  public set ignoreNotifications(value: boolean | cdktf.IResolvable) {
-    this._ignoreNotifications = value;
-  }
-  public resetIgnoreNotifications() {
-    this._ignoreNotifications = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ignoreNotificationsInput() {
-    return this._ignoreNotifications;
-  }
-
-  // import_options - computed: false, optional: true, required: false
-  private _importOptions?: boolean | cdktf.IResolvable; 
-  public get importOptions() {
-    return this.getBooleanAttribute('import_options');
-  }
-  public set importOptions(value: boolean | cdktf.IResolvable) {
-    this._importOptions = value;
-  }
-  public resetImportOptions() {
-    this._importOptions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get importOptionsInput() {
-    return this._importOptions;
-  }
-
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -707,22 +358,6 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
-  }
-
-  // project_name - computed: false, optional: true, required: false
-  private _projectName?: string; 
-  public get projectName() {
-    return this.getStringAttribute('project_name');
-  }
-  public set projectName(value: string) {
-    this._projectName = value;
-  }
-  public resetProjectName() {
-    this._projectName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get projectNameInput() {
-    return this._projectName;
   }
 
   // run_for_each_node - computed: false, optional: true, required: false
@@ -739,22 +374,6 @@ export class JobCommandErrorHandlerJobOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get runForEachNodeInput() {
     return this._runForEachNode;
-  }
-
-  // node_filters - computed: false, optional: true, required: false
-  private _nodeFilters = new JobCommandErrorHandlerJobNodeFiltersList(this, "node_filters", false);
-  public get nodeFilters() {
-    return this._nodeFilters;
-  }
-  public putNodeFilters(value: JobCommandErrorHandlerJobNodeFilters[] | cdktf.IResolvable) {
-    this._nodeFilters.internalValue = value;
-  }
-  public resetNodeFilters() {
-    this._nodeFilters.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodeFiltersInput() {
-    return this._nodeFilters.internalValue;
   }
 }
 
@@ -779,11 +398,11 @@ export class JobCommandErrorHandlerJobList extends cdktf.ComplexList {
 }
 export interface JobCommandErrorHandlerNodeStepPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -923,274 +542,13 @@ export class JobCommandErrorHandlerNodeStepPluginList extends cdktf.ComplexList 
     return new JobCommandErrorHandlerNodeStepPluginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface JobCommandErrorHandlerPluginsLogFilterPlugin {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
-  */
-  readonly config?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
-  */
-  readonly type: string;
-}
-
-export function jobCommandErrorHandlerPluginsLogFilterPluginToTerraform(struct?: JobCommandErrorHandlerPluginsLogFilterPlugin | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    config: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.config),
-    type: cdktf.stringToTerraform(struct!.type),
-  }
-}
-
-
-export function jobCommandErrorHandlerPluginsLogFilterPluginToHclTerraform(struct?: JobCommandErrorHandlerPluginsLogFilterPlugin | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    config: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.config),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class JobCommandErrorHandlerPluginsLogFilterPluginOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): JobCommandErrorHandlerPluginsLogFilterPlugin | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._config !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.config = this._config;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: JobCommandErrorHandlerPluginsLogFilterPlugin | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._config = undefined;
-      this._type = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._config = value.config;
-      this._type = value.type;
-    }
-  }
-
-  // config - computed: false, optional: true, required: false
-  private _config?: { [key: string]: string }; 
-  public get config() {
-    return this.getStringMapAttribute('config');
-  }
-  public set config(value: { [key: string]: string }) {
-    this._config = value;
-  }
-  public resetConfig() {
-    this._config = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get configInput() {
-    return this._config;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-}
-
-export class JobCommandErrorHandlerPluginsLogFilterPluginList extends cdktf.ComplexList {
-  public internalValue? : JobCommandErrorHandlerPluginsLogFilterPlugin[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): JobCommandErrorHandlerPluginsLogFilterPluginOutputReference {
-    return new JobCommandErrorHandlerPluginsLogFilterPluginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface JobCommandErrorHandlerPlugins {
-  /**
-  * log_filter_plugin block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#log_filter_plugin Job#log_filter_plugin}
-  */
-  readonly logFilterPlugin: JobCommandErrorHandlerPluginsLogFilterPlugin[] | cdktf.IResolvable;
-}
-
-export function jobCommandErrorHandlerPluginsToTerraform(struct?: JobCommandErrorHandlerPlugins | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    log_filter_plugin: cdktf.listMapper(jobCommandErrorHandlerPluginsLogFilterPluginToTerraform, true)(struct!.logFilterPlugin),
-  }
-}
-
-
-export function jobCommandErrorHandlerPluginsToHclTerraform(struct?: JobCommandErrorHandlerPlugins | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    log_filter_plugin: {
-      value: cdktf.listMapperHcl(jobCommandErrorHandlerPluginsLogFilterPluginToHclTerraform, true)(struct!.logFilterPlugin),
-      isBlock: true,
-      type: "list",
-      storageClassType: "JobCommandErrorHandlerPluginsLogFilterPluginList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class JobCommandErrorHandlerPluginsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): JobCommandErrorHandlerPlugins | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._logFilterPlugin?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.logFilterPlugin = this._logFilterPlugin?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: JobCommandErrorHandlerPlugins | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._logFilterPlugin.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._logFilterPlugin.internalValue = value.logFilterPlugin;
-    }
-  }
-
-  // log_filter_plugin - computed: false, optional: false, required: true
-  private _logFilterPlugin = new JobCommandErrorHandlerPluginsLogFilterPluginList(this, "log_filter_plugin", false);
-  public get logFilterPlugin() {
-    return this._logFilterPlugin;
-  }
-  public putLogFilterPlugin(value: JobCommandErrorHandlerPluginsLogFilterPlugin[] | cdktf.IResolvable) {
-    this._logFilterPlugin.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get logFilterPluginInput() {
-    return this._logFilterPlugin.internalValue;
-  }
-}
-
-export class JobCommandErrorHandlerPluginsList extends cdktf.ComplexList {
-  public internalValue? : JobCommandErrorHandlerPlugins[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): JobCommandErrorHandlerPluginsOutputReference {
-    return new JobCommandErrorHandlerPluginsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface JobCommandErrorHandlerScriptInterpreter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#args_quoted Job#args_quoted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#args_quoted Job#args_quoted}
   */
   readonly argsQuoted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#invocation_string Job#invocation_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#invocation_string Job#invocation_string}
   */
   readonly invocationString?: string;
 }
@@ -1335,11 +693,11 @@ export class JobCommandErrorHandlerScriptInterpreterList extends cdktf.ComplexLi
 }
 export interface JobCommandErrorHandlerStepPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -1481,69 +839,65 @@ export class JobCommandErrorHandlerStepPluginList extends cdktf.ComplexList {
 }
 export interface JobCommandErrorHandler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#description Job#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#description Job#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#expand_token_in_script_file Job#expand_token_in_script_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#expand_token_in_script_file Job#expand_token_in_script_file}
   */
   readonly expandTokenInScriptFile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#file_extension Job#file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#file_extension Job#file_extension}
   */
   readonly fileExtension?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#inline_script Job#inline_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#inline_script Job#inline_script}
   */
   readonly inlineScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#keep_going_on_success Job#keep_going_on_success}
+  * Continue workflow even if error handler succeeds
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#keep_going_on_success Job#keep_going_on_success}
   */
   readonly keepGoingOnSuccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_file Job#script_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_file Job#script_file}
   */
   readonly scriptFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_file_args Job#script_file_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_file_args Job#script_file_args}
   */
   readonly scriptFileArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_url Job#script_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_url Job#script_url}
   */
   readonly scriptUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#shell_command Job#shell_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#shell_command Job#shell_command}
   */
   readonly shellCommand?: string;
   /**
   * job block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#job Job#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#job Job#job}
   */
   readonly job?: JobCommandErrorHandlerJob[] | cdktf.IResolvable;
   /**
   * node_step_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_step_plugin Job#node_step_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_step_plugin Job#node_step_plugin}
   */
   readonly nodeStepPlugin?: JobCommandErrorHandlerNodeStepPlugin[] | cdktf.IResolvable;
   /**
-  * plugins block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#plugins Job#plugins}
-  */
-  readonly plugins?: JobCommandErrorHandlerPlugins[] | cdktf.IResolvable;
-  /**
   * script_interpreter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_interpreter Job#script_interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_interpreter Job#script_interpreter}
   */
   readonly scriptInterpreter?: JobCommandErrorHandlerScriptInterpreter[] | cdktf.IResolvable;
   /**
   * step_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#step_plugin Job#step_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#step_plugin Job#step_plugin}
   */
   readonly stepPlugin?: JobCommandErrorHandlerStepPlugin[] | cdktf.IResolvable;
 }
@@ -1565,7 +919,6 @@ export function jobCommandErrorHandlerToTerraform(struct?: JobCommandErrorHandle
     shell_command: cdktf.stringToTerraform(struct!.shellCommand),
     job: cdktf.listMapper(jobCommandErrorHandlerJobToTerraform, true)(struct!.job),
     node_step_plugin: cdktf.listMapper(jobCommandErrorHandlerNodeStepPluginToTerraform, true)(struct!.nodeStepPlugin),
-    plugins: cdktf.listMapper(jobCommandErrorHandlerPluginsToTerraform, true)(struct!.plugins),
     script_interpreter: cdktf.listMapper(jobCommandErrorHandlerScriptInterpreterToTerraform, true)(struct!.scriptInterpreter),
     step_plugin: cdktf.listMapper(jobCommandErrorHandlerStepPluginToTerraform, true)(struct!.stepPlugin),
   }
@@ -1643,12 +996,6 @@ export function jobCommandErrorHandlerToHclTerraform(struct?: JobCommandErrorHan
       isBlock: true,
       type: "list",
       storageClassType: "JobCommandErrorHandlerNodeStepPluginList",
-    },
-    plugins: {
-      value: cdktf.listMapperHcl(jobCommandErrorHandlerPluginsToHclTerraform, true)(struct!.plugins),
-      isBlock: true,
-      type: "list",
-      storageClassType: "JobCommandErrorHandlerPluginsList",
     },
     script_interpreter: {
       value: cdktf.listMapperHcl(jobCommandErrorHandlerScriptInterpreterToHclTerraform, true)(struct!.scriptInterpreter),
@@ -1732,10 +1079,6 @@ export class JobCommandErrorHandlerOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.nodeStepPlugin = this._nodeStepPlugin?.internalValue;
     }
-    if (this._plugins?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.plugins = this._plugins?.internalValue;
-    }
     if (this._scriptInterpreter?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.scriptInterpreter = this._scriptInterpreter?.internalValue;
@@ -1762,7 +1105,6 @@ export class JobCommandErrorHandlerOutputReference extends cdktf.ComplexObject {
       this._shellCommand = undefined;
       this._job.internalValue = undefined;
       this._nodeStepPlugin.internalValue = undefined;
-      this._plugins.internalValue = undefined;
       this._scriptInterpreter.internalValue = undefined;
       this._stepPlugin.internalValue = undefined;
     }
@@ -1784,7 +1126,6 @@ export class JobCommandErrorHandlerOutputReference extends cdktf.ComplexObject {
       this._shellCommand = value.shellCommand;
       this._job.internalValue = value.job;
       this._nodeStepPlugin.internalValue = value.nodeStepPlugin;
-      this._plugins.internalValue = value.plugins;
       this._scriptInterpreter.internalValue = value.scriptInterpreter;
       this._stepPlugin.internalValue = value.stepPlugin;
     }
@@ -1966,22 +1307,6 @@ export class JobCommandErrorHandlerOutputReference extends cdktf.ComplexObject {
     return this._nodeStepPlugin.internalValue;
   }
 
-  // plugins - computed: false, optional: true, required: false
-  private _plugins = new JobCommandErrorHandlerPluginsList(this, "plugins", false);
-  public get plugins() {
-    return this._plugins;
-  }
-  public putPlugins(value: JobCommandErrorHandlerPlugins[] | cdktf.IResolvable) {
-    this._plugins.internalValue = value;
-  }
-  public resetPlugins() {
-    this._plugins.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pluginsInput() {
-    return this._plugins.internalValue;
-  }
-
   // script_interpreter - computed: false, optional: true, required: false
   private _scriptInterpreter = new JobCommandErrorHandlerScriptInterpreterList(this, "script_interpreter", false);
   public get scriptInterpreter() {
@@ -2034,19 +1359,248 @@ export class JobCommandErrorHandlerList extends cdktf.ComplexList {
     return new JobCommandErrorHandlerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface JobCommandJobNodeFiltersDispatch {
+  /**
+  * Continue execution on remaining nodes after a failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#keep_going Job#keep_going}
+  */
+  readonly keepGoing?: boolean | cdktf.IResolvable;
+  /**
+  * Node attribute to use for ranking
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#rank_attribute Job#rank_attribute}
+  */
+  readonly rankAttribute?: string;
+  /**
+  * Rank order: ascending or descending
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#rank_order Job#rank_order}
+  */
+  readonly rankOrder?: string;
+  /**
+  * Number of threads to use for parallel execution
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#thread_count Job#thread_count}
+  */
+  readonly threadCount?: number;
+}
+
+export function jobCommandJobNodeFiltersDispatchToTerraform(struct?: JobCommandJobNodeFiltersDispatch | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    keep_going: cdktf.booleanToTerraform(struct!.keepGoing),
+    rank_attribute: cdktf.stringToTerraform(struct!.rankAttribute),
+    rank_order: cdktf.stringToTerraform(struct!.rankOrder),
+    thread_count: cdktf.numberToTerraform(struct!.threadCount),
+  }
+}
+
+
+export function jobCommandJobNodeFiltersDispatchToHclTerraform(struct?: JobCommandJobNodeFiltersDispatch | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    keep_going: {
+      value: cdktf.booleanToHclTerraform(struct!.keepGoing),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    rank_attribute: {
+      value: cdktf.stringToHclTerraform(struct!.rankAttribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rank_order: {
+      value: cdktf.stringToHclTerraform(struct!.rankOrder),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    thread_count: {
+      value: cdktf.numberToHclTerraform(struct!.threadCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class JobCommandJobNodeFiltersDispatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): JobCommandJobNodeFiltersDispatch | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._keepGoing !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keepGoing = this._keepGoing;
+    }
+    if (this._rankAttribute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rankAttribute = this._rankAttribute;
+    }
+    if (this._rankOrder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rankOrder = this._rankOrder;
+    }
+    if (this._threadCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threadCount = this._threadCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: JobCommandJobNodeFiltersDispatch | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._keepGoing = undefined;
+      this._rankAttribute = undefined;
+      this._rankOrder = undefined;
+      this._threadCount = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._keepGoing = value.keepGoing;
+      this._rankAttribute = value.rankAttribute;
+      this._rankOrder = value.rankOrder;
+      this._threadCount = value.threadCount;
+    }
+  }
+
+  // keep_going - computed: false, optional: true, required: false
+  private _keepGoing?: boolean | cdktf.IResolvable; 
+  public get keepGoing() {
+    return this.getBooleanAttribute('keep_going');
+  }
+  public set keepGoing(value: boolean | cdktf.IResolvable) {
+    this._keepGoing = value;
+  }
+  public resetKeepGoing() {
+    this._keepGoing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keepGoingInput() {
+    return this._keepGoing;
+  }
+
+  // rank_attribute - computed: false, optional: true, required: false
+  private _rankAttribute?: string; 
+  public get rankAttribute() {
+    return this.getStringAttribute('rank_attribute');
+  }
+  public set rankAttribute(value: string) {
+    this._rankAttribute = value;
+  }
+  public resetRankAttribute() {
+    this._rankAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rankAttributeInput() {
+    return this._rankAttribute;
+  }
+
+  // rank_order - computed: false, optional: true, required: false
+  private _rankOrder?: string; 
+  public get rankOrder() {
+    return this.getStringAttribute('rank_order');
+  }
+  public set rankOrder(value: string) {
+    this._rankOrder = value;
+  }
+  public resetRankOrder() {
+    this._rankOrder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rankOrderInput() {
+    return this._rankOrder;
+  }
+
+  // thread_count - computed: false, optional: true, required: false
+  private _threadCount?: number; 
+  public get threadCount() {
+    return this.getNumberAttribute('thread_count');
+  }
+  public set threadCount(value: number) {
+    this._threadCount = value;
+  }
+  public resetThreadCount() {
+    this._threadCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get threadCountInput() {
+    return this._threadCount;
+  }
+}
+
+export class JobCommandJobNodeFiltersDispatchList extends cdktf.ComplexList {
+  public internalValue? : JobCommandJobNodeFiltersDispatch[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): JobCommandJobNodeFiltersDispatchOutputReference {
+    return new JobCommandJobNodeFiltersDispatchOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface JobCommandJobNodeFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#exclude_filter Job#exclude_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#exclude_filter Job#exclude_filter}
   */
   readonly excludeFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#exclude_precedence Job#exclude_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#exclude_precedence Job#exclude_precedence}
   */
   readonly excludePrecedence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#filter Job#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#filter Job#filter}
   */
   readonly filter?: string;
+  /**
+  * dispatch block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#dispatch Job#dispatch}
+  */
+  readonly dispatch?: JobCommandJobNodeFiltersDispatch[] | cdktf.IResolvable;
 }
 
 export function jobCommandJobNodeFiltersToTerraform(struct?: JobCommandJobNodeFilters | cdktf.IResolvable): any {
@@ -2058,6 +1612,7 @@ export function jobCommandJobNodeFiltersToTerraform(struct?: JobCommandJobNodeFi
     exclude_filter: cdktf.stringToTerraform(struct!.excludeFilter),
     exclude_precedence: cdktf.booleanToTerraform(struct!.excludePrecedence),
     filter: cdktf.stringToTerraform(struct!.filter),
+    dispatch: cdktf.listMapper(jobCommandJobNodeFiltersDispatchToTerraform, true)(struct!.dispatch),
   }
 }
 
@@ -2085,6 +1640,12 @@ export function jobCommandJobNodeFiltersToHclTerraform(struct?: JobCommandJobNod
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    dispatch: {
+      value: cdktf.listMapperHcl(jobCommandJobNodeFiltersDispatchToHclTerraform, true)(struct!.dispatch),
+      isBlock: true,
+      type: "list",
+      storageClassType: "JobCommandJobNodeFiltersDispatchList",
     },
   };
 
@@ -2124,6 +1685,10 @@ export class JobCommandJobNodeFiltersOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.filter = this._filter;
     }
+    if (this._dispatch?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dispatch = this._dispatch?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2134,6 +1699,7 @@ export class JobCommandJobNodeFiltersOutputReference extends cdktf.ComplexObject
       this._excludeFilter = undefined;
       this._excludePrecedence = undefined;
       this._filter = undefined;
+      this._dispatch.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2145,6 +1711,7 @@ export class JobCommandJobNodeFiltersOutputReference extends cdktf.ComplexObject
       this._excludeFilter = value.excludeFilter;
       this._excludePrecedence = value.excludePrecedence;
       this._filter = value.filter;
+      this._dispatch.internalValue = value.dispatch;
     }
   }
 
@@ -2195,6 +1762,22 @@ export class JobCommandJobNodeFiltersOutputReference extends cdktf.ComplexObject
   public get filterInput() {
     return this._filter;
   }
+
+  // dispatch - computed: false, optional: true, required: false
+  private _dispatch = new JobCommandJobNodeFiltersDispatchList(this, "dispatch", false);
+  public get dispatch() {
+    return this._dispatch;
+  }
+  public putDispatch(value: JobCommandJobNodeFiltersDispatch[] | cdktf.IResolvable) {
+    this._dispatch.internalValue = value;
+  }
+  public resetDispatch() {
+    this._dispatch.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dispatchInput() {
+    return this._dispatch.internalValue;
+  }
 }
 
 export class JobCommandJobNodeFiltersList extends cdktf.ComplexList {
@@ -2218,45 +1801,63 @@ export class JobCommandJobNodeFiltersList extends cdktf.ComplexList {
 }
 export interface JobCommandJob {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#args Job#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#args Job#args}
   */
   readonly args?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#child_nodes Job#child_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#child_nodes Job#child_nodes}
   */
   readonly childNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#fail_on_disable Job#fail_on_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#fail_on_disable Job#fail_on_disable}
   */
   readonly failOnDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#group_name Job#group_name}
+  * Group path of the job. Used with name-based references.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#group_name Job#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#ignore_notifications Job#ignore_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#ignore_notifications Job#ignore_notifications}
   */
   readonly ignoreNotifications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#import_options Job#import_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#import_options Job#import_options}
   */
   readonly importOptions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#name Job#name}
+  * Name of the job to reference. Required if uuid is not specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#name Job#name}
   */
-  readonly name: string;
+  readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#project_name Job#project_name}
+  * Run the referenced job as a node step (once per node)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_step Job#node_step}
+  */
+  readonly nodeStep?: boolean | cdktf.IResolvable;
+  /**
+  * Project containing the job. Used with name-based references.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#project_name Job#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#run_for_each_node Job#run_for_each_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#run_for_each_node Job#run_for_each_node}
   */
   readonly runForEachNode?: boolean | cdktf.IResolvable;
   /**
+  * UUID of the job to reference (immutable, preferred). Can reference another rundeck_job's id attribute.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#uuid Job#uuid}
+  */
+  readonly uuid?: string;
+  /**
   * node_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_filters Job#node_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_filters Job#node_filters}
   */
   readonly nodeFilters?: JobCommandJobNodeFilters[] | cdktf.IResolvable;
 }
@@ -2274,8 +1875,10 @@ export function jobCommandJobToTerraform(struct?: JobCommandJob | cdktf.IResolva
     ignore_notifications: cdktf.booleanToTerraform(struct!.ignoreNotifications),
     import_options: cdktf.booleanToTerraform(struct!.importOptions),
     name: cdktf.stringToTerraform(struct!.name),
+    node_step: cdktf.booleanToTerraform(struct!.nodeStep),
     project_name: cdktf.stringToTerraform(struct!.projectName),
     run_for_each_node: cdktf.booleanToTerraform(struct!.runForEachNode),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
     node_filters: cdktf.listMapper(jobCommandJobNodeFiltersToTerraform, true)(struct!.nodeFilters),
   }
 }
@@ -2329,6 +1932,12 @@ export function jobCommandJobToHclTerraform(struct?: JobCommandJob | cdktf.IReso
       type: "simple",
       storageClassType: "string",
     },
+    node_step: {
+      value: cdktf.booleanToHclTerraform(struct!.nodeStep),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     project_name: {
       value: cdktf.stringToHclTerraform(struct!.projectName),
       isBlock: false,
@@ -2340,6 +1949,12 @@ export function jobCommandJobToHclTerraform(struct?: JobCommandJob | cdktf.IReso
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     node_filters: {
       value: cdktf.listMapperHcl(jobCommandJobNodeFiltersToHclTerraform, true)(struct!.nodeFilters),
@@ -2401,6 +2016,10 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._nodeStep !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeStep = this._nodeStep;
+    }
     if (this._projectName !== undefined) {
       hasAnyValues = true;
       internalValueResult.projectName = this._projectName;
@@ -2408,6 +2027,10 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
     if (this._runForEachNode !== undefined) {
       hasAnyValues = true;
       internalValueResult.runForEachNode = this._runForEachNode;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
     }
     if (this._nodeFilters?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2427,8 +2050,10 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
       this._ignoreNotifications = undefined;
       this._importOptions = undefined;
       this._name = undefined;
+      this._nodeStep = undefined;
       this._projectName = undefined;
       this._runForEachNode = undefined;
+      this._uuid = undefined;
       this._nodeFilters.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2445,8 +2070,10 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
       this._ignoreNotifications = value.ignoreNotifications;
       this._importOptions = value.importOptions;
       this._name = value.name;
+      this._nodeStep = value.nodeStep;
       this._projectName = value.projectName;
       this._runForEachNode = value.runForEachNode;
+      this._uuid = value.uuid;
       this._nodeFilters.internalValue = value.nodeFilters;
     }
   }
@@ -2547,7 +2174,7 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
     return this._importOptions;
   }
 
-  // name - computed: false, optional: false, required: true
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2555,9 +2182,28 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
   public set name(value: string) {
     this._name = value;
   }
+  public resetName() {
+    this._name = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // node_step - computed: false, optional: true, required: false
+  private _nodeStep?: boolean | cdktf.IResolvable; 
+  public get nodeStep() {
+    return this.getBooleanAttribute('node_step');
+  }
+  public set nodeStep(value: boolean | cdktf.IResolvable) {
+    this._nodeStep = value;
+  }
+  public resetNodeStep() {
+    this._nodeStep = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeStepInput() {
+    return this._nodeStep;
   }
 
   // project_name - computed: false, optional: true, required: false
@@ -2590,6 +2236,22 @@ export class JobCommandJobOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get runForEachNodeInput() {
     return this._runForEachNode;
+  }
+
+  // uuid - computed: false, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
   }
 
   // node_filters - computed: false, optional: true, required: false
@@ -2630,11 +2292,11 @@ export class JobCommandJobList extends cdktf.ComplexList {
 }
 export interface JobCommandNodeStepPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -2776,11 +2438,11 @@ export class JobCommandNodeStepPluginList extends cdktf.ComplexList {
 }
 export interface JobCommandPluginsLogFilterPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -2924,9 +2586,9 @@ export interface JobCommandPlugins {
   /**
   * log_filter_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#log_filter_plugin Job#log_filter_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#log_filter_plugin Job#log_filter_plugin}
   */
-  readonly logFilterPlugin: JobCommandPluginsLogFilterPlugin[] | cdktf.IResolvable;
+  readonly logFilterPlugin?: JobCommandPluginsLogFilterPlugin[] | cdktf.IResolvable;
 }
 
 export function jobCommandPluginsToTerraform(struct?: JobCommandPlugins | cdktf.IResolvable): any {
@@ -3002,13 +2664,16 @@ export class JobCommandPluginsOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // log_filter_plugin - computed: false, optional: false, required: true
+  // log_filter_plugin - computed: false, optional: true, required: false
   private _logFilterPlugin = new JobCommandPluginsLogFilterPluginList(this, "log_filter_plugin", false);
   public get logFilterPlugin() {
     return this._logFilterPlugin;
   }
   public putLogFilterPlugin(value: JobCommandPluginsLogFilterPlugin[] | cdktf.IResolvable) {
     this._logFilterPlugin.internalValue = value;
+  }
+  public resetLogFilterPlugin() {
+    this._logFilterPlugin.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get logFilterPluginInput() {
@@ -3037,11 +2702,11 @@ export class JobCommandPluginsList extends cdktf.ComplexList {
 }
 export interface JobCommandScriptInterpreter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#args_quoted Job#args_quoted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#args_quoted Job#args_quoted}
   */
   readonly argsQuoted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#invocation_string Job#invocation_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#invocation_string Job#invocation_string}
   */
   readonly invocationString?: string;
 }
@@ -3186,11 +2851,11 @@ export class JobCommandScriptInterpreterList extends cdktf.ComplexList {
 }
 export interface JobCommandStepPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -3332,75 +2997,87 @@ export class JobCommandStepPluginList extends cdktf.ComplexList {
 }
 export interface JobCommand {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#description Job#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#description Job#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#expand_token_in_script_file Job#expand_token_in_script_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#expand_token_in_script_file Job#expand_token_in_script_file}
   */
   readonly expandTokenInScriptFile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#file_extension Job#file_extension}
+  * File extension for temporary script file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#file_extension Job#file_extension}
   */
   readonly fileExtension?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#inline_script Job#inline_script}
+  * A script to execute inline
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#inline_script Job#inline_script}
   */
   readonly inlineScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#keep_going_on_success Job#keep_going_on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#keep_going_on_success Job#keep_going_on_success}
   */
   readonly keepGoingOnSuccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_file Job#script_file}
+  * Path to a script file to execute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_file Job#script_file}
   */
   readonly scriptFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_file_args Job#script_file_args}
+  * Arguments to pass to the script file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_file_args Job#script_file_args}
   */
   readonly scriptFileArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_url Job#script_url}
+  * URL of a script to download and execute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_url Job#script_url}
   */
   readonly scriptUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#shell_command Job#shell_command}
+  * A shell command to execute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#shell_command Job#shell_command}
   */
   readonly shellCommand?: string;
   /**
   * error_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#error_handler Job#error_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#error_handler Job#error_handler}
   */
   readonly errorHandler?: JobCommandErrorHandler[] | cdktf.IResolvable;
   /**
   * job block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#job Job#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#job Job#job}
   */
   readonly job?: JobCommandJob[] | cdktf.IResolvable;
   /**
   * node_step_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#node_step_plugin Job#node_step_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#node_step_plugin Job#node_step_plugin}
   */
   readonly nodeStepPlugin?: JobCommandNodeStepPlugin[] | cdktf.IResolvable;
   /**
   * plugins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#plugins Job#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#plugins Job#plugins}
   */
   readonly plugins?: JobCommandPlugins[] | cdktf.IResolvable;
   /**
   * script_interpreter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#script_interpreter Job#script_interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#script_interpreter Job#script_interpreter}
   */
   readonly scriptInterpreter?: JobCommandScriptInterpreter[] | cdktf.IResolvable;
   /**
   * step_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#step_plugin Job#step_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#step_plugin Job#step_plugin}
   */
   readonly stepPlugin?: JobCommandStepPlugin[] | cdktf.IResolvable;
 }
@@ -3922,11 +3599,11 @@ export class JobCommandList extends cdktf.ComplexList {
 }
 export interface JobExecutionLifecyclePlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -4068,11 +3745,11 @@ export class JobExecutionLifecyclePluginList extends cdktf.ComplexList {
 }
 export interface JobGlobalLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -4214,21 +3891,21 @@ export class JobGlobalLogFilterList extends cdktf.ComplexList {
 }
 export interface JobLogLimit {
   /**
-  * Enter either "halt" or "truncate" to specify the action to take when the log limit is reached.
+  * Action when limit reached: halt or truncate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#action Job#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#action Job#action}
   */
   readonly action: string;
   /**
-  * Enter either maximum total line-count (e.g. "100"), maximum per-node line-count ("100/node"), or maximum log file size ("100MB", "100KB", etc.), using "GB","MB","KB","B" as Giga- Mega- Kilo- and bytes.
+  * Maximum log output (e.g. '100', '100/node', '100MB')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#output Job#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#output Job#output}
   */
   readonly output: string;
   /**
-  * Enter either "failed" or "canceled" or any custom status.
+  * Job status when limit reached: failed, aborted, or custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#status Job#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#status Job#status}
   */
   readonly status: string;
 }
@@ -4393,15 +4070,15 @@ export class JobLogLimitList extends cdktf.ComplexList {
 }
 export interface JobNotificationEmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#attach_log Job#attach_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#attach_log Job#attach_log}
   */
   readonly attachLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#recipients Job#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#recipients Job#recipients}
   */
   readonly recipients: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#subject Job#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#subject Job#subject}
   */
   readonly subject?: string;
 }
@@ -4572,11 +4249,11 @@ export class JobNotificationEmailList extends cdktf.ComplexList {
 }
 export interface JobNotificationPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#config Job#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#config Job#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -4718,37 +4395,39 @@ export class JobNotificationPluginList extends cdktf.ComplexList {
 }
 export interface JobNotification {
   /**
-  * The webhook payload format (`json` or `xml`)
+  * Webhook payload format (json or xml)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#format Job#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#format Job#format}
   */
   readonly format?: string;
   /**
-  * HTTP method to use for webhook delivery (`post` or `get`)
+  * HTTP method for webhook (post or get)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#http_method Job#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#http_method Job#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Option of `on_success`, `on_failure`, `on_start`
+  * Notification trigger type: on_success, on_failure, on_start, on_retryablefailure, on_avgduration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#webhook_urls Job#webhook_urls}
+  * List of webhook URLs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#webhook_urls Job#webhook_urls}
   */
   readonly webhookUrls?: string[];
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#email Job#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#email Job#email}
   */
   readonly email?: JobNotificationEmail[] | cdktf.IResolvable;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#plugin Job#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#plugin Job#plugin}
   */
   readonly plugin?: JobNotificationPlugin[] | cdktf.IResolvable;
 }
@@ -5006,79 +4685,79 @@ export class JobNotificationList extends cdktf.ComplexList {
 }
 export interface JobOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#allow_multiple_values Job#allow_multiple_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#allow_multiple_values Job#allow_multiple_values}
   */
   readonly allowMultipleValues?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#date_format Job#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#date_format Job#date_format}
   */
   readonly dateFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#default_value Job#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#default_value Job#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#description Job#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#description Job#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#exposed_to_scripts Job#exposed_to_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#exposed_to_scripts Job#exposed_to_scripts}
   */
   readonly exposedToScripts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#hidden Job#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#hidden Job#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#is_date Job#is_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#is_date Job#is_date}
   */
   readonly isDate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#label Job#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#label Job#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#multi_value_delimiter Job#multi_value_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#multi_value_delimiter Job#multi_value_delimiter}
   */
   readonly multiValueDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#name Job#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#name Job#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#obscure_input Job#obscure_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#obscure_input Job#obscure_input}
   */
   readonly obscureInput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#require_predefined_choice Job#require_predefined_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#require_predefined_choice Job#require_predefined_choice}
   */
   readonly requirePredefinedChoice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#required Job#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#required Job#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#sort_values Job#sort_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#sort_values Job#sort_values}
   */
   readonly sortValues?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#storage_path Job#storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#storage_path Job#storage_path}
   */
   readonly storagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#validation_regex Job#validation_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#validation_regex Job#validation_regex}
   */
   readonly validationRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#value_choices Job#value_choices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#value_choices Job#value_choices}
   */
   readonly valueChoices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#value_choices_url Job#value_choices_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#value_choices_url Job#value_choices_url}
   */
   readonly valueChoicesUrl?: string;
 }
@@ -5713,33 +5392,33 @@ export class JobOptionList extends cdktf.ComplexList {
 }
 export interface JobOrchestrator {
   /**
-  * The Node Attribute that shoud be used to rank nodes in High/Low Orchestrator.
+  * Node attribute for ranking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#attribute Job#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#attribute Job#attribute}
   */
   readonly attribute?: string;
   /**
-  * Value for the subset orchestrator
+  * Number of nodes for subset orchestrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#count Job#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#count Job#count}
   */
   readonly count?: number;
   /**
-  * Value for the maxPercentage orchestrator
+  * Percentage of nodes for maxPercentage orchestrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#percent Job#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#percent Job#percent}
   */
   readonly percent?: number;
   /**
-  * Option of `highest` or `lowest` for High/Low Orchestrator
+  * Sort order: highest or lowest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#sort Job#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#sort Job#sort}
   */
   readonly sort?: string;
   /**
-  * Option of `subset`, `rankTiered`, `maxPercentage`, `orchestrator-highest-lowest-attribute`
+  * Orchestrator type: subset, rankTiered, maxPercentage, orchestrator-highest-lowest-attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#type Job#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#type Job#type}
   */
   readonly type: string;
 }
@@ -5968,11 +5647,11 @@ export class JobOrchestratorList extends cdktf.ComplexList {
 }
 export interface JobProjectSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#job_options Job#job_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#job_options Job#job_options}
   */
   readonly jobOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#name Job#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#name Job#name}
   */
   readonly name: string;
 }
@@ -6114,7 +5793,7 @@ export class JobProjectScheduleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job rundeck_job}
+* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job rundeck_job}
 */
 export class Job extends cdktf.TerraformResource {
 
@@ -6130,7 +5809,7 @@ export class Job extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Job resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Job to import
-  * @param importFromId The id of the existing Job that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Job that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Job to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6142,7 +5821,7 @@ export class Job extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/job rundeck_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/1.0.0/docs/resources/job rundeck_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6153,8 +5832,8 @@ export class Job extends cdktf.TerraformResource {
       terraformResourceType: 'rundeck_job',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.5',
-        providerVersionConstraint: '0.5.5'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6172,7 +5851,6 @@ export class Job extends cdktf.TerraformResource {
     this._description = config.description;
     this._executionEnabled = config.executionEnabled;
     this._groupName = config.groupName;
-    this._id = config.id;
     this._logLevel = config.logLevel;
     this._maxThreadCount = config.maxThreadCount;
     this._name = config.name;
@@ -6209,7 +5887,7 @@ export class Job extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // allow_concurrent_executions - computed: false, optional: true, required: false
+  // allow_concurrent_executions - computed: true, optional: true, required: false
   private _allowConcurrentExecutions?: boolean | cdktf.IResolvable; 
   public get allowConcurrentExecutions() {
     return this.getBooleanAttribute('allow_concurrent_executions');
@@ -6225,7 +5903,7 @@ export class Job extends cdktf.TerraformResource {
     return this._allowConcurrentExecutions;
   }
 
-  // command_ordering_strategy - computed: false, optional: true, required: false
+  // command_ordering_strategy - computed: true, optional: true, required: false
   private _commandOrderingStrategy?: string; 
   public get commandOrderingStrategy() {
     return this.getStringAttribute('command_ordering_strategy');
@@ -6241,7 +5919,7 @@ export class Job extends cdktf.TerraformResource {
     return this._commandOrderingStrategy;
   }
 
-  // continue_next_node_on_error - computed: false, optional: true, required: false
+  // continue_next_node_on_error - computed: true, optional: true, required: false
   private _continueNextNodeOnError?: boolean | cdktf.IResolvable; 
   public get continueNextNodeOnError() {
     return this.getBooleanAttribute('continue_next_node_on_error');
@@ -6257,7 +5935,7 @@ export class Job extends cdktf.TerraformResource {
     return this._continueNextNodeOnError;
   }
 
-  // continue_on_error - computed: false, optional: true, required: false
+  // continue_on_error - computed: true, optional: true, required: false
   private _continueOnError?: boolean | cdktf.IResolvable; 
   public get continueOnError() {
     return this.getBooleanAttribute('continue_on_error');
@@ -6273,7 +5951,7 @@ export class Job extends cdktf.TerraformResource {
     return this._continueOnError;
   }
 
-  // default_tab - computed: false, optional: true, required: false
+  // default_tab - computed: true, optional: true, required: false
   private _defaultTab?: string; 
   public get defaultTab() {
     return this.getStringAttribute('default_tab');
@@ -6302,7 +5980,7 @@ export class Job extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // execution_enabled - computed: false, optional: true, required: false
+  // execution_enabled - computed: true, optional: true, required: false
   private _executionEnabled?: boolean | cdktf.IResolvable; 
   public get executionEnabled() {
     return this.getBooleanAttribute('execution_enabled');
@@ -6334,23 +6012,12 @@ export class Job extends cdktf.TerraformResource {
     return this._groupName;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // log_level - computed: false, optional: true, required: false
+  // log_level - computed: true, optional: true, required: false
   private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
@@ -6366,7 +6033,7 @@ export class Job extends cdktf.TerraformResource {
     return this._logLevel;
   }
 
-  // max_thread_count - computed: false, optional: true, required: false
+  // max_thread_count - computed: true, optional: true, required: false
   private _maxThreadCount?: number; 
   public get maxThreadCount() {
     return this.getNumberAttribute('max_thread_count');
@@ -6395,7 +6062,7 @@ export class Job extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // node_filter_editable - computed: false, optional: true, required: false
+  // node_filter_editable - computed: true, optional: true, required: false
   private _nodeFilterEditable?: boolean | cdktf.IResolvable; 
   public get nodeFilterEditable() {
     return this.getBooleanAttribute('node_filter_editable');
@@ -6411,7 +6078,7 @@ export class Job extends cdktf.TerraformResource {
     return this._nodeFilterEditable;
   }
 
-  // node_filter_exclude_precedence - computed: false, optional: true, required: false
+  // node_filter_exclude_precedence - computed: true, optional: true, required: false
   private _nodeFilterExcludePrecedence?: boolean | cdktf.IResolvable; 
   public get nodeFilterExcludePrecedence() {
     return this.getBooleanAttribute('node_filter_exclude_precedence');
@@ -6459,7 +6126,7 @@ export class Job extends cdktf.TerraformResource {
     return this._nodeFilterQuery;
   }
 
-  // nodes_selected_by_default - computed: false, optional: true, required: false
+  // nodes_selected_by_default - computed: true, optional: true, required: false
   private _nodesSelectedByDefault?: boolean | cdktf.IResolvable; 
   public get nodesSelectedByDefault() {
     return this.getBooleanAttribute('nodes_selected_by_default');
@@ -6520,7 +6187,7 @@ export class Job extends cdktf.TerraformResource {
     return this._rankAttribute;
   }
 
-  // rank_order - computed: false, optional: true, required: false
+  // rank_order - computed: true, optional: true, required: false
   private _rankOrder?: string; 
   public get rankOrder() {
     return this.getStringAttribute('rank_order');
@@ -6632,7 +6299,7 @@ export class Job extends cdktf.TerraformResource {
     return this._schedule;
   }
 
-  // schedule_enabled - computed: false, optional: true, required: false
+  // schedule_enabled - computed: true, optional: true, required: false
   private _scheduleEnabled?: boolean | cdktf.IResolvable; 
   public get scheduleEnabled() {
     return this.getBooleanAttribute('schedule_enabled');
@@ -6648,7 +6315,7 @@ export class Job extends cdktf.TerraformResource {
     return this._scheduleEnabled;
   }
 
-  // success_on_empty_node_filter - computed: false, optional: true, required: false
+  // success_on_empty_node_filter - computed: true, optional: true, required: false
   private _successOnEmptyNodeFilter?: boolean | cdktf.IResolvable; 
   public get successOnEmptyNodeFilter() {
     return this.getBooleanAttribute('success_on_empty_node_filter');
@@ -6696,13 +6363,16 @@ export class Job extends cdktf.TerraformResource {
     return this._timeout;
   }
 
-  // command - computed: false, optional: false, required: true
+  // command - computed: false, optional: true, required: false
   private _command = new JobCommandList(this, "command", false);
   public get command() {
     return this._command;
   }
   public putCommand(value: JobCommand[] | cdktf.IResolvable) {
     this._command.internalValue = value;
+  }
+  public resetCommand() {
+    this._command.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get commandInput() {
@@ -6835,7 +6505,6 @@ export class Job extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       execution_enabled: cdktf.booleanToTerraform(this._executionEnabled),
       group_name: cdktf.stringToTerraform(this._groupName),
-      id: cdktf.stringToTerraform(this._id),
       log_level: cdktf.stringToTerraform(this._logLevel),
       max_thread_count: cdktf.numberToTerraform(this._maxThreadCount),
       name: cdktf.stringToTerraform(this._name),
@@ -6915,12 +6584,6 @@ export class Job extends cdktf.TerraformResource {
       },
       group_name: {
         value: cdktf.stringToHclTerraform(this._groupName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

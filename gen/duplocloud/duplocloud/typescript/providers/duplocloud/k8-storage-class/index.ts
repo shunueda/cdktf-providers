@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface K8StorageClassConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the storage class allow volume expand Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#allow_volume_expansion K8StorageClass#allow_volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#allow_volume_expansion K8StorageClass#allow_volume_expansion}
   */
   readonly allowVolumeExpansion?: boolean | cdktf.IResolvable;
   /**
   * An unstructured key value map stored with the storage class that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#annotations K8StorageClass#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#annotations K8StorageClass#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#id K8StorageClass#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#id K8StorageClass#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface K8StorageClassConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#labels K8StorageClass#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#labels K8StorageClass#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the storage class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#name K8StorageClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#name K8StorageClass#name}
   */
   readonly name: string;
   /**
   * The parameters for the provisioner that should create volumes of this storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#parameters K8StorageClass#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#parameters K8StorageClass#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Indicates the type of the reclaim policy Defaults to `Delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#reclaim_policy K8StorageClass#reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#reclaim_policy K8StorageClass#reclaim_policy}
   */
   readonly reclaimPolicy?: string;
   /**
   * Indicates the type of the provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#storage_provisioner K8StorageClass#storage_provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#storage_provisioner K8StorageClass#storage_provisioner}
   */
   readonly storageProvisioner: string;
   /**
   * The GUID of the tenant that the storage class will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#tenant_id K8StorageClass#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#tenant_id K8StorageClass#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Indicates when volume binding and dynamic provisioning should occur Defaults to `Immediate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#volume_binding_mode K8StorageClass#volume_binding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#volume_binding_mode K8StorageClass#volume_binding_mode}
   */
   readonly volumeBindingMode?: string;
   /**
   * allowed_topologies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#allowed_topologies K8StorageClass#allowed_topologies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#allowed_topologies K8StorageClass#allowed_topologies}
   */
   readonly allowedTopologies?: K8StorageClassAllowedTopologies;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#timeouts K8StorageClass#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#timeouts K8StorageClass#timeouts}
   */
   readonly timeouts?: K8StorageClassTimeouts;
 }
@@ -85,13 +85,13 @@ export interface K8StorageClassAllowedTopologiesMatchLabelExpressions {
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#key K8StorageClass#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#key K8StorageClass#key}
   */
   readonly key?: string;
   /**
   * An array of string values. One value must match the label to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#values K8StorageClass#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#values K8StorageClass#values}
   */
   readonly values?: string[];
 }
@@ -238,7 +238,7 @@ export interface K8StorageClassAllowedTopologies {
   /**
   * match_label_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#match_label_expressions K8StorageClass#match_label_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#match_label_expressions K8StorageClass#match_label_expressions}
   */
   readonly matchLabelExpressions?: K8StorageClassAllowedTopologiesMatchLabelExpressions[] | cdktf.IResolvable;
 }
@@ -322,15 +322,15 @@ export class K8StorageClassAllowedTopologiesOutputReference extends cdktf.Comple
 }
 export interface K8StorageClassTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#create K8StorageClass#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#create K8StorageClass#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#delete K8StorageClass#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#delete K8StorageClass#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#update K8StorageClass#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#update K8StorageClass#update}
   */
   readonly update?: string;
 }
@@ -482,7 +482,7 @@ export class K8StorageClassTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class duplocloud_k8_storage_class}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class duplocloud_k8_storage_class}
 */
 export class K8StorageClass extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class K8StorageClass extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8StorageClass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8StorageClass to import
-  * @param importFromId The id of the existing K8StorageClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8StorageClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8StorageClass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class K8StorageClass extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_storage_class duplocloud_k8_storage_class} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_storage_class duplocloud_k8_storage_class} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class K8StorageClass extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_storage_class',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

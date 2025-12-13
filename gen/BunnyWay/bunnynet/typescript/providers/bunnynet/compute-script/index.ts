@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ComputeScriptConfig extends cdktf.TerraformMetaArguments {
   /**
   * The code of the script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script#content ComputeScript#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script#content ComputeScript#content}
   */
   readonly content: string;
   /**
   * The name of the script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script#name ComputeScript#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script#name ComputeScript#name}
   */
   readonly name: string;
   /**
   * Options: `middleware`, `standalone`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script#type ComputeScript#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script#type ComputeScript#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script bunnynet_compute_script}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script bunnynet_compute_script}
 */
 export class ComputeScript extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ComputeScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeScript to import
-  * @param importFromId The id of the existing ComputeScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ComputeScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script bunnynet_compute_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.4/docs/resources/compute_script bunnynet_compute_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ComputeScript extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_compute_script',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.3',
-        providerVersionConstraint: '0.11.3'
+        providerVersion: '0.11.4',
+        providerVersionConstraint: '0.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

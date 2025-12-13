@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface K8SecretProviderClassConfig extends cdktf.TerraformMetaArgument
   /**
   * An unstructured key value map stored with the secret provider class that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#annotations K8SecretProviderClass#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#annotations K8SecretProviderClass#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#id K8SecretProviderClass#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#id K8SecretProviderClass#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,53 +23,53 @@ export interface K8SecretProviderClassConfig extends cdktf.TerraformMetaArgument
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#labels K8SecretProviderClass#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#labels K8SecretProviderClass#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the Secret Provider Class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#name K8SecretProviderClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#name K8SecretProviderClass#name}
   */
   readonly name: string;
   /**
   * The parameters section contains the details of the mount request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#parameters K8SecretProviderClass#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#parameters K8SecretProviderClass#parameters}
   */
   readonly parameters?: string;
   /**
   * Provider to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#secret_provider K8SecretProviderClass#secret_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#secret_provider K8SecretProviderClass#secret_provider}
   */
   readonly secretProvider: string;
   /**
   * The GUID of the tenant that the Secret Provider Class will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#tenant_id K8SecretProviderClass#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#tenant_id K8SecretProviderClass#tenant_id}
   */
   readonly tenantId: string;
   /**
   * secret_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#secret_object K8SecretProviderClass#secret_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#secret_object K8SecretProviderClass#secret_object}
   */
   readonly secretObject?: K8SecretProviderClassSecretObject[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#timeouts K8SecretProviderClass#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#timeouts K8SecretProviderClass#timeouts}
   */
   readonly timeouts?: K8SecretProviderClassTimeouts;
 }
 export interface K8SecretProviderClassSecretObjectData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#key K8SecretProviderClass#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#key K8SecretProviderClass#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#object_name K8SecretProviderClass#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#object_name K8SecretProviderClass#object_name}
   */
   readonly objectName: string;
 }
@@ -210,31 +210,31 @@ export interface K8SecretProviderClassSecretObject {
   /**
   * An unstructured key value map stored with the secret object that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#annotations K8SecretProviderClass#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#annotations K8SecretProviderClass#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#labels K8SecretProviderClass#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#labels K8SecretProviderClass#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the secret object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#name K8SecretProviderClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#name K8SecretProviderClass#name}
   */
   readonly name: string;
   /**
   * Type of the secret object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#type K8SecretProviderClass#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#type K8SecretProviderClass#type}
   */
   readonly type: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#data K8SecretProviderClass#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#data K8SecretProviderClass#data}
   */
   readonly data?: K8SecretProviderClassSecretObjectData[] | cdktf.IResolvable;
 }
@@ -460,15 +460,15 @@ export class K8SecretProviderClassSecretObjectList extends cdktf.ComplexList {
 }
 export interface K8SecretProviderClassTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#create K8SecretProviderClass#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#create K8SecretProviderClass#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#delete K8SecretProviderClass#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#delete K8SecretProviderClass#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#update K8SecretProviderClass#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#update K8SecretProviderClass#update}
   */
   readonly update?: string;
 }
@@ -620,7 +620,7 @@ export class K8SecretProviderClassTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class duplocloud_k8_secret_provider_class}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class duplocloud_k8_secret_provider_class}
 */
 export class K8SecretProviderClass extends cdktf.TerraformResource {
 
@@ -636,7 +636,7 @@ export class K8SecretProviderClass extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SecretProviderClass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SecretProviderClass to import
-  * @param importFromId The id of the existing K8SecretProviderClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SecretProviderClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SecretProviderClass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -648,7 +648,7 @@ export class K8SecretProviderClass extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_secret_provider_class duplocloud_k8_secret_provider_class} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/k8_secret_provider_class duplocloud_k8_secret_provider_class} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -659,8 +659,8 @@ export class K8SecretProviderClass extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_secret_provider_class',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

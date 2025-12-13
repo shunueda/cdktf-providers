@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface SourceMongodbConfig extends cdktf.TerraformMetaArguments {
   /**
   * How to encode arrays. 'Array' encodes them as Array objects but requires all values in the array to be of the same type. 'Array_String' encodes them as JSON Strings and should be used if arrays have mixed types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#array_encoding SourceMongodb#array_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#array_encoding SourceMongodb#array_encoding}
   */
   readonly arrayEncoding?: string;
   /**
   * Source collections to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#collection_include_list SourceMongodb#collection_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#collection_include_list SourceMongodb#collection_include_list}
   */
   readonly collectionIncludeList: string;
   /**
   * Source databases to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#database_include_list SourceMongodb#database_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#database_include_list SourceMongodb#database_include_list}
   */
   readonly databaseIncludeList: string;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_key_field_1 SourceMongodb#insert_static_key_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_key_field_1 SourceMongodb#insert_static_key_field_1}
   */
   readonly insertStaticKeyField1?: string;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_key_field_2 SourceMongodb#insert_static_key_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_key_field_2 SourceMongodb#insert_static_key_field_2}
   */
   readonly insertStaticKeyField2?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_key_value_1 SourceMongodb#insert_static_key_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_key_value_1 SourceMongodb#insert_static_key_value_1}
   */
   readonly insertStaticKeyValue1?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_key_value_2 SourceMongodb#insert_static_key_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_key_value_2 SourceMongodb#insert_static_key_value_2}
   */
   readonly insertStaticKeyValue2?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_value_1 SourceMongodb#insert_static_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_value_1 SourceMongodb#insert_static_value_1}
   */
   readonly insertStaticValue1?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_value_2 SourceMongodb#insert_static_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_value_2 SourceMongodb#insert_static_value_2}
   */
   readonly insertStaticValue2?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_value_field_1 SourceMongodb#insert_static_value_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_value_field_1 SourceMongodb#insert_static_value_field_1}
   */
   readonly insertStaticValueField1?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#insert_static_value_field_2 SourceMongodb#insert_static_value_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#insert_static_value_field_2 SourceMongodb#insert_static_value_field_2}
   */
   readonly insertStaticValueField2?: string;
   /**
   * Mongodb Connection String. See Mongodb documentation for further details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#mongodb_connection_string SourceMongodb#mongodb_connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#mongodb_connection_string SourceMongodb#mongodb_connection_string}
   */
   readonly mongodbConnectionString: string;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#name SourceMongodb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#name SourceMongodb#name}
   */
   readonly name: string;
   /**
   * How to encode nested documents. 'Document' encodes them as JSON Objects, 'String' encodes them as JSON Strings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#nested_document_encoding SourceMongodb#nested_document_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#nested_document_encoding SourceMongodb#nested_document_encoding}
   */
   readonly nestedDocumentEncoding?: string;
   /**
   * Regex pattern to match topics for enrichment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#predicates_istopictoenrich_pattern SourceMongodb#predicates_istopictoenrich_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#predicates_istopictoenrich_pattern SourceMongodb#predicates_istopictoenrich_pattern}
   */
   readonly predicatesIstopictoenrichPattern?: string;
   /**
   * Streamkap will use a collection in this database to monitor incremental snapshotting. Follow the instructions in the documentation for creating this collection and specify which database to use here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#signal_data_collection_schema_or_database SourceMongodb#signal_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#signal_data_collection_schema_or_database SourceMongodb#signal_data_collection_schema_or_database}
   */
   readonly signalDataCollectionSchemaOrDatabase: string;
   /**
   * Connect via SSH tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#ssh_enabled SourceMongodb#ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#ssh_enabled SourceMongodb#ssh_enabled}
   */
   readonly sshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Hostname of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#ssh_host SourceMongodb#ssh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#ssh_host SourceMongodb#ssh_host}
   */
   readonly sshHost?: string;
   /**
   * Port of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#ssh_port SourceMongodb#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#ssh_port SourceMongodb#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * User for connecting to the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#ssh_user SourceMongodb#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#ssh_user SourceMongodb#ssh_user}
   */
   readonly sshUser?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb streamkap_source_mongodb}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb streamkap_source_mongodb}
 */
 export class SourceMongodb extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class SourceMongodb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceMongodb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceMongodb to import
-  * @param importFromId The id of the existing SourceMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceMongodb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class SourceMongodb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_mongodb streamkap_source_mongodb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_mongodb streamkap_source_mongodb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class SourceMongodb extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_mongodb',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

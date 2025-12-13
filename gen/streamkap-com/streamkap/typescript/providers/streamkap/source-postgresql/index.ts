@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,199 +10,199 @@ export interface SourcePostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Representation of binary data for binary columns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#binary_handling_mode SourcePostgresql#binary_handling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#binary_handling_mode SourcePostgresql#binary_handling_mode}
   */
   readonly binaryHandlingMode?: string;
   /**
   * An optional, comma-separated list of regular expressions that match the fully-qualified names of columns that should be excluded from change event record values. Fully-qualified names for columns are of the form schemaName.tableName.columnName.You can only specify either `column_include_list` or `column_exclude_list`, not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#column_exclude_list SourcePostgresql#column_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#column_exclude_list SourcePostgresql#column_exclude_list}
   */
   readonly columnExcludeList?: string;
   /**
   * An optional, comma-separated list of regular expressions that match the fully-qualified names of columns that should be included in change event record values. Fully-qualified names for columns are of the form schemaName[.]tableName[.](columnName1|columnName2)You can only specify either `column_include_list` or `column_exclude_list`, not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#column_include_list SourcePostgresql#column_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#column_include_list SourcePostgresql#column_include_list}
   */
   readonly columnIncludeList?: string;
   /**
   * Database from which to stream data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_dbname SourcePostgresql#database_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_dbname SourcePostgresql#database_dbname}
   */
   readonly databaseDbname: string;
   /**
   * PostgreSQL Hostname. For example, postgres.something.rds.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_hostname SourcePostgresql#database_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_hostname SourcePostgresql#database_hostname}
   */
   readonly databaseHostname: string;
   /**
   * Password to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_password SourcePostgresql#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_password SourcePostgresql#database_password}
   */
   readonly databasePassword: string;
   /**
   * PostgreSQL Port. For example, 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_port SourcePostgresql#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_port SourcePostgresql#database_port}
   */
   readonly databasePort?: number;
   /**
   * Whether to use an encrypted connection to the PostgreSQL server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_sslmode SourcePostgresql#database_sslmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_sslmode SourcePostgresql#database_sslmode}
   */
   readonly databaseSslmode?: string;
   /**
   * Username to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#database_user SourcePostgresql#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#database_user SourcePostgresql#database_user}
   */
   readonly databaseUser: string;
   /**
   * Schema for heartbeat data collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#heartbeat_data_collection_schema_or_database SourcePostgresql#heartbeat_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#heartbeat_data_collection_schema_or_database SourcePostgresql#heartbeat_data_collection_schema_or_database}
   */
   readonly heartbeatDataCollectionSchemaOrDatabase?: string;
   /**
   * Enable heartbeat to keep the pipeline healthy during low data volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#heartbeat_enabled SourcePostgresql#heartbeat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#heartbeat_enabled SourcePostgresql#heartbeat_enabled}
   */
   readonly heartbeatEnabled?: boolean | cdktf.IResolvable;
   /**
   * Prefix topics with the database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#include_source_db_name_in_table_name SourcePostgresql#include_source_db_name_in_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#include_source_db_name_in_table_name SourcePostgresql#include_source_db_name_in_table_name}
   */
   readonly includeSourceDbNameInTableName?: boolean | cdktf.IResolvable;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_key_field_1 SourcePostgresql#insert_static_key_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_key_field_1 SourcePostgresql#insert_static_key_field_1}
   */
   readonly insertStaticKeyField1?: string;
   /**
   * The name of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_key_field_2 SourcePostgresql#insert_static_key_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_key_field_2 SourcePostgresql#insert_static_key_field_2}
   */
   readonly insertStaticKeyField2?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_key_value_1 SourcePostgresql#insert_static_key_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_key_value_1 SourcePostgresql#insert_static_key_value_1}
   */
   readonly insertStaticKeyValue1?: string;
   /**
   * The value of the static field to be added to the message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_key_value_2 SourcePostgresql#insert_static_key_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_key_value_2 SourcePostgresql#insert_static_key_value_2}
   */
   readonly insertStaticKeyValue2?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_value_1 SourcePostgresql#insert_static_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_value_1 SourcePostgresql#insert_static_value_1}
   */
   readonly insertStaticValue1?: string;
   /**
   * The value of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_value_2 SourcePostgresql#insert_static_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_value_2 SourcePostgresql#insert_static_value_2}
   */
   readonly insertStaticValue2?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_value_field_1 SourcePostgresql#insert_static_value_field_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_value_field_1 SourcePostgresql#insert_static_value_field_1}
   */
   readonly insertStaticValueField1?: string;
   /**
   * The name of the static field to be added to the message value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#insert_static_value_field_2 SourcePostgresql#insert_static_value_field_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#insert_static_value_field_2 SourcePostgresql#insert_static_value_field_2}
   */
   readonly insertStaticValueField2?: string;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#name SourcePostgresql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#name SourcePostgresql#name}
   */
   readonly name: string;
   /**
   * Regex pattern to match topics for enrichment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#predicates_istopictoenrich_pattern SourcePostgresql#predicates_istopictoenrich_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#predicates_istopictoenrich_pattern SourcePostgresql#predicates_istopictoenrich_pattern}
   */
   readonly predicatesIstopictoenrichPattern?: string;
   /**
   * Publication name for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#publication_name SourcePostgresql#publication_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#publication_name SourcePostgresql#publication_name}
   */
   readonly publicationName?: string;
   /**
   * Schemas to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#schema_include_list SourcePostgresql#schema_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#schema_include_list SourcePostgresql#schema_include_list}
   */
   readonly schemaIncludeList: string;
   /**
   * Schema for signal data collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#signal_data_collection_schema_or_database SourcePostgresql#signal_data_collection_schema_or_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#signal_data_collection_schema_or_database SourcePostgresql#signal_data_collection_schema_or_database}
   */
   readonly signalDataCollectionSchemaOrDatabase?: string;
   /**
   * Replication slot name for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#slot_name SourcePostgresql#slot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#slot_name SourcePostgresql#slot_name}
   */
   readonly slotName?: string;
   /**
   * When connecting to a read replica PostgreSQL database, this must be set to 'Yes' to support Streamkap snapshots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#snapshot_read_only SourcePostgresql#snapshot_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#snapshot_read_only SourcePostgresql#snapshot_read_only}
   */
   readonly snapshotReadOnly?: string;
   /**
   * Connect via SSH tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#ssh_enabled SourcePostgresql#ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#ssh_enabled SourcePostgresql#ssh_enabled}
   */
   readonly sshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Hostname of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#ssh_host SourcePostgresql#ssh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#ssh_host SourcePostgresql#ssh_host}
   */
   readonly sshHost?: string;
   /**
   * Port of the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#ssh_port SourcePostgresql#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#ssh_port SourcePostgresql#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * User for connecting to the SSH server, only required if `ssh_enabled` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#ssh_user SourcePostgresql#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#ssh_user SourcePostgresql#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Source tables to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#table_include_list SourcePostgresql#table_include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#table_include_list SourcePostgresql#table_include_list}
   */
   readonly tableIncludeList: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql streamkap_source_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql streamkap_source_postgresql}
 */
 export class SourcePostgresql extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class SourcePostgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourcePostgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourcePostgresql to import
-  * @param importFromId The id of the existing SourcePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourcePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourcePostgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class SourcePostgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_postgresql streamkap_source_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/source_postgresql streamkap_source_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class SourcePostgresql extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

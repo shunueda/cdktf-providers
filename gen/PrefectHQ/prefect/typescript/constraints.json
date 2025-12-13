@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "prefect": "2.90.4"
+    "prefect": "2.91.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set
+// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IdentitySetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#id IdentitySet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#id IdentitySet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface IdentitySetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the IdentitySet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#name IdentitySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#name IdentitySet#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#timeouts IdentitySet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#timeouts IdentitySet#timeouts}
   */
   readonly timeouts?: IdentitySetTimeouts;
 }
 export interface IdentitySetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#create IdentitySet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#create IdentitySet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#default IdentitySet#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#default IdentitySet#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#delete IdentitySet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#delete IdentitySet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#read IdentitySet#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#read IdentitySet#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#update IdentitySet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#update IdentitySet#update}
   */
   readonly update?: string;
 }
@@ -255,7 +255,7 @@ export class IdentitySetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set sdm_identity_set}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set sdm_identity_set}
 */
 export class IdentitySet extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class IdentitySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentitySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentitySet to import
-  * @param importFromId The id of the existing IdentitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentitySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class IdentitySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/identity_set sdm_identity_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_set sdm_identity_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class IdentitySet extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_identity_set',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.39.0',
-        providerVersionConstraint: '15.39.0'
+        providerVersion: '15.40.0',
+        providerVersionConstraint: '15.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

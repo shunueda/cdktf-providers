@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes
+// https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataLumenBareMetalNetworkSizesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes#id DataLumenBareMetalNetworkSizes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes#id DataLumenBareMetalNetworkSizes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataLumenBareMetalNetworkSizesConfig extends cdktf.TerraformMet
   /**
   * The id of a location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes#location_id DataLumenBareMetalNetworkSizes#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes#location_id DataLumenBareMetalNetworkSizes#location_id}
   */
   readonly locationId: string;
 }
@@ -123,7 +123,7 @@ export class DataLumenBareMetalNetworkSizesNetworkSizesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes lumen_bare_metal_network_sizes}
+* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes lumen_bare_metal_network_sizes}
 */
 export class DataLumenBareMetalNetworkSizes extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataLumenBareMetalNetworkSizes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLumenBareMetalNetworkSizes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLumenBareMetalNetworkSizes to import
-  * @param importFromId The id of the existing DataLumenBareMetalNetworkSizes that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLumenBareMetalNetworkSizes that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLumenBareMetalNetworkSizes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataLumenBareMetalNetworkSizes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs/data-sources/bare_metal_network_sizes lumen_bare_metal_network_sizes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.2/docs/data-sources/bare_metal_network_sizes lumen_bare_metal_network_sizes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataLumenBareMetalNetworkSizes extends cdktf.TerraformDataSource {
       terraformResourceType: 'lumen_bare_metal_network_sizes',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.1',
-        providerVersionConstraint: '3.0.1'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

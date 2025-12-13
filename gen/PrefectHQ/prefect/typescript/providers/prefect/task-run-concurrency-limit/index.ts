@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit
+// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TaskRunConcurrencyLimitConfig extends cdktf.TerraformMetaArgume
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit#account_id TaskRunConcurrencyLimit#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit#account_id TaskRunConcurrencyLimit#account_id}
   */
   readonly accountId?: string;
   /**
   * The task run concurrency limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit#concurrency_limit TaskRunConcurrencyLimit#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit#concurrency_limit TaskRunConcurrencyLimit#concurrency_limit}
   */
   readonly concurrencyLimit: number;
   /**
   * A tag the task run concurrency limit is applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit#tag TaskRunConcurrencyLimit#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit#tag TaskRunConcurrencyLimit#tag}
   */
   readonly tag: string;
   /**
   * Workspace ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit#workspace_id TaskRunConcurrencyLimit#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit#workspace_id TaskRunConcurrencyLimit#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit prefect_task_run_concurrency_limit}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit prefect_task_run_concurrency_limit}
 */
 export class TaskRunConcurrencyLimit extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TaskRunConcurrencyLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskRunConcurrencyLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskRunConcurrencyLimit to import
-  * @param importFromId The id of the existing TaskRunConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskRunConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskRunConcurrencyLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TaskRunConcurrencyLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/task_run_concurrency_limit prefect_task_run_concurrency_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/task_run_concurrency_limit prefect_task_run_concurrency_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TaskRunConcurrencyLimit extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_task_run_concurrency_limit',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.4',
-        providerVersionConstraint: '2.90.4'
+        providerVersion: '2.91.0',
+        providerVersionConstraint: '2.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

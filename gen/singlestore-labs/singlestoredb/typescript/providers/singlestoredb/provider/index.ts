@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SinglestoredbProviderConfig {
   /**
   * The SingleStore Management API key used for authentication. If not provided, the provider will attempt to read the key from the file specified in the 'api_key_path' attribute or from the environment variable 'SINGLESTOREDB_API_KEY'. Generate your API key in the SingleStore Portal at https://portal.singlestore.com/organizations/org-id/api-keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs#api_key SinglestoredbProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs#api_key SinglestoredbProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The absolute path to a file containing the SingleStore Management API key for authentication. If not provided, the provider will use the value in the 'api_key' attribute or the 'SINGLESTOREDB_API_KEY' environment variable. Generate your API key in the SingleStore Portal at https://portal.singlestore.com/organizations/org-id/api-keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs#api_key_path SinglestoredbProvider#api_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs#api_key_path SinglestoredbProvider#api_key_path}
   */
   readonly apiKeyPath?: string;
   /**
   * The URL of the SingleStore Management API service. This URL is used by the provider to interact with the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs#api_service_url SinglestoredbProvider#api_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs#api_service_url SinglestoredbProvider#api_service_url}
   */
   readonly apiServiceUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs#alias SinglestoredbProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs#alias SinglestoredbProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs singlestoredb}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs singlestoredb}
 */
 export class SinglestoredbProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class SinglestoredbProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SinglestoredbProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SinglestoredbProvider to import
-  * @param importFromId The id of the existing SinglestoredbProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SinglestoredbProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SinglestoredbProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SinglestoredbProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs singlestoredb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.8/docs singlestoredb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SinglestoredbProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'singlestoredb',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.7',
-        providerVersionConstraint: '0.1.7'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       terraformProviderSource: 'singlestore-labs/singlestoredb'
     });

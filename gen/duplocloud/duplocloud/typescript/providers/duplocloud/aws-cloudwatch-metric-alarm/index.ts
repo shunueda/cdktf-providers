@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsCloudwatchMetricAlarmConfig extends cdktf.TerraformMetaArgum
   /**
   * The arithmetic operation to use when comparing the specified Statistic and Threshold. The specified Statistic value is used as the first operand. Either of the following is supported: `GreaterThanOrEqualToThreshold`, `GreaterThanThreshold`, `LessThanThreshold`, `LessThanOrEqualToThreshold`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#comparison_operator AwsCloudwatchMetricAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#comparison_operator AwsCloudwatchMetricAlarm#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * The number of periods over which data is compared to the specified threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#evaluation_periods AwsCloudwatchMetricAlarm#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#evaluation_periods AwsCloudwatchMetricAlarm#evaluation_periods}
   */
   readonly evaluationPeriods: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#id AwsCloudwatchMetricAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#id AwsCloudwatchMetricAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface AwsCloudwatchMetricAlarmConfig extends cdktf.TerraformMetaArgum
   /**
   * The name for the alarm's associated metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#metric_name AwsCloudwatchMetricAlarm#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#metric_name AwsCloudwatchMetricAlarm#metric_name}
   */
   readonly metricName: string;
   /**
   * The namespace for the alarm's associated metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#namespace AwsCloudwatchMetricAlarm#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#namespace AwsCloudwatchMetricAlarm#namespace}
   */
   readonly namespace?: string;
   /**
   * The period in seconds over which the specified `statistic` is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#period AwsCloudwatchMetricAlarm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#period AwsCloudwatchMetricAlarm#period}
   */
   readonly period?: number;
   /**
   * The statistic to apply to the alarm's associated metric. Either of the following is supported: `SampleCount`, `Average`, `Sum`, `Minimum`, `Maximum`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#statistic AwsCloudwatchMetricAlarm#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#statistic AwsCloudwatchMetricAlarm#statistic}
   */
   readonly statistic?: string;
   /**
   * The GUID of the tenant that the cloudwatch metric alarm will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#tenant_id AwsCloudwatchMetricAlarm#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#tenant_id AwsCloudwatchMetricAlarm#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The value against which the specified statistic is compared. This parameter is required for alarms based on static thresholds, but should not be used for alarms based on anomaly detection models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#threshold AwsCloudwatchMetricAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#threshold AwsCloudwatchMetricAlarm#threshold}
   */
   readonly threshold?: number;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#dimension AwsCloudwatchMetricAlarm#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#dimension AwsCloudwatchMetricAlarm#dimension}
   */
   readonly dimension?: AwsCloudwatchMetricAlarmDimension[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#timeouts AwsCloudwatchMetricAlarm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#timeouts AwsCloudwatchMetricAlarm#timeouts}
   */
   readonly timeouts?: AwsCloudwatchMetricAlarmTimeouts;
 }
 export interface AwsCloudwatchMetricAlarmDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#key AwsCloudwatchMetricAlarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#key AwsCloudwatchMetricAlarm#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#value AwsCloudwatchMetricAlarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#value AwsCloudwatchMetricAlarm#value}
   */
   readonly value: string;
 }
@@ -220,11 +220,11 @@ export class AwsCloudwatchMetricAlarmDimensionList extends cdktf.ComplexList {
 }
 export interface AwsCloudwatchMetricAlarmTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#create AwsCloudwatchMetricAlarm#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#create AwsCloudwatchMetricAlarm#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#delete AwsCloudwatchMetricAlarm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#delete AwsCloudwatchMetricAlarm#delete}
   */
   readonly delete?: string;
 }
@@ -347,7 +347,7 @@ export class AwsCloudwatchMetricAlarmTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm duplocloud_aws_cloudwatch_metric_alarm}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm duplocloud_aws_cloudwatch_metric_alarm}
 */
 export class AwsCloudwatchMetricAlarm extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class AwsCloudwatchMetricAlarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudwatchMetricAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudwatchMetricAlarm to import
-  * @param importFromId The id of the existing AwsCloudwatchMetricAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudwatchMetricAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudwatchMetricAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class AwsCloudwatchMetricAlarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_metric_alarm duplocloud_aws_cloudwatch_metric_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_cloudwatch_metric_alarm duplocloud_aws_cloudwatch_metric_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class AwsCloudwatchMetricAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_cloudwatch_metric_alarm',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

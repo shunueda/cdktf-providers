@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsBatchSchedulingPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#id AwsBatchSchedulingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#id AwsBatchSchedulingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AwsBatchSchedulingPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the name of the scheduling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#name AwsBatchSchedulingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#name AwsBatchSchedulingPolicy#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#tags AwsBatchSchedulingPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#tags AwsBatchSchedulingPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the aws batch scheduling policy will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#tenant_id AwsBatchSchedulingPolicy#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#tenant_id AwsBatchSchedulingPolicy#tenant_id}
   */
   readonly tenantId: string;
   /**
   * fair_share_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#fair_share_policy AwsBatchSchedulingPolicy#fair_share_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#fair_share_policy AwsBatchSchedulingPolicy#fair_share_policy}
   */
   readonly fairSharePolicy?: AwsBatchSchedulingPolicyFairSharePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#timeouts AwsBatchSchedulingPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#timeouts AwsBatchSchedulingPolicy#timeouts}
   */
   readonly timeouts?: AwsBatchSchedulingPolicyTimeouts;
 }
@@ -49,13 +49,13 @@ export interface AwsBatchSchedulingPolicyFairSharePolicyShareDistribution {
   /**
   * A fair share identifier or fair share identifier prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#share_identifier AwsBatchSchedulingPolicy#share_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#share_identifier AwsBatchSchedulingPolicy#share_identifier}
   */
   readonly shareIdentifier: string;
   /**
   * The weight factor for the fair share identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#weight_factor AwsBatchSchedulingPolicy#weight_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#weight_factor AwsBatchSchedulingPolicy#weight_factor}
   */
   readonly weightFactor?: number;
 }
@@ -199,19 +199,19 @@ export interface AwsBatchSchedulingPolicyFairSharePolicy {
   /**
   * A value used to reserve some of the available maximum vCPU for fair share identifiers that have not yet been used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#compute_reservation AwsBatchSchedulingPolicy#compute_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#compute_reservation AwsBatchSchedulingPolicy#compute_reservation}
   */
   readonly computeReservation?: number;
   /**
   * The time period to use to calculate a fair share percentage for each fair share identifier in use, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#share_decay_seconds AwsBatchSchedulingPolicy#share_decay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#share_decay_seconds AwsBatchSchedulingPolicy#share_decay_seconds}
   */
   readonly shareDecaySeconds?: number;
   /**
   * share_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#share_distribution AwsBatchSchedulingPolicy#share_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#share_distribution AwsBatchSchedulingPolicy#share_distribution}
   */
   readonly shareDistribution?: AwsBatchSchedulingPolicyFairSharePolicyShareDistribution[] | cdktf.IResolvable;
 }
@@ -353,11 +353,11 @@ export class AwsBatchSchedulingPolicyFairSharePolicyOutputReference extends cdkt
 }
 export interface AwsBatchSchedulingPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#create AwsBatchSchedulingPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#create AwsBatchSchedulingPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#delete AwsBatchSchedulingPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#delete AwsBatchSchedulingPolicy#delete}
   */
   readonly delete?: string;
 }
@@ -480,7 +480,7 @@ export class AwsBatchSchedulingPolicyTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy duplocloud_aws_batch_scheduling_policy}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy duplocloud_aws_batch_scheduling_policy}
 */
 export class AwsBatchSchedulingPolicy extends cdktf.TerraformResource {
 
@@ -496,7 +496,7 @@ export class AwsBatchSchedulingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsBatchSchedulingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsBatchSchedulingPolicy to import
-  * @param importFromId The id of the existing AwsBatchSchedulingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsBatchSchedulingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsBatchSchedulingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -508,7 +508,7 @@ export class AwsBatchSchedulingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_scheduling_policy duplocloud_aws_batch_scheduling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/aws_batch_scheduling_policy duplocloud_aws_batch_scheduling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -519,8 +519,8 @@ export class AwsBatchSchedulingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_batch_scheduling_policy',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface RdsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Required unless a `snapshot_id` is provided) The allocated storage in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#allocated_storage RdsInstance#allocated_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#allocated_storage RdsInstance#allocated_storage}
   */
   readonly allocatedStorage?: number;
   /**
   * Enable or disable auto minor version upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#auto_minor_version_upgrade RdsInstance#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#auto_minor_version_upgrade RdsInstance#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Specify a valid Availability Zone for the RDS primary instance (when Multi-AZ is disabled) or for the Aurora writer instance. e.g. us-west-2a
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#availability_zone RdsInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#availability_zone RdsInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Specifies backup retention period between 1 and 35 day(s). Default backup retention period is 1 day. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#backup_retention_period RdsInstance#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#backup_retention_period RdsInstance#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
   * Parameter group associated with this instance's DB Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#cluster_parameter_group_name RdsInstance#cluster_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#cluster_parameter_group_name RdsInstance#cluster_parameter_group_name}
   */
   readonly clusterParameterGroupName?: string;
   /**
   * The name of the database to create when the DB instance is created. This is not applicable for update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#db_name RdsInstance#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#db_name RdsInstance#db_name}
   */
   readonly dbName?: string;
   /**
   * Name of DB subnet group. DB instance will be created in the VPC associated with the DB subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#db_subnet_group_name RdsInstance#db_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#db_subnet_group_name RdsInstance#db_subnet_group_name}
   */
   readonly dbSubnetGroupName?: string;
   /**
   * If the DB instance should have deletion protection enabled.The database can't be deleted when this value is set to `true`. This setting is not applicable for document db cluster instance. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#deletion_protection RdsInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#deletion_protection RdsInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable the RDS IAM authentication. It can only be set during instance creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#enable_iam_auth RdsInstance#enable_iam_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#enable_iam_auth RdsInstance#enable_iam_auth}
   */
   readonly enableIamAuth?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable the RDS instance logging. This setting is not applicable for document db cluster instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#enable_logging RdsInstance#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#enable_logging RdsInstance#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to encrypt the RDS instance storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#encrypt_storage RdsInstance#encrypt_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#encrypt_storage RdsInstance#encrypt_storage}
   */
   readonly encryptStorage?: boolean | cdktf.IResolvable;
   /**
@@ -88,24 +88,24 @@ export interface RdsInstanceConfig extends cdktf.TerraformMetaArguments {
   *    - `14` : MariaDB
   *    - `16` : Aurora
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#engine RdsInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#engine RdsInstance#engine}
   */
   readonly engine: number;
   /**
   * The database engine version to use the for the RDS instance.
   * If you don't know the available engine versions for your RDS instance, you can use the [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/rds/describe-db-engine-versions.html) to retrieve a list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#engine_version RdsInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#engine_version RdsInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Interval to capture metrics in real time for the operating system (OS) that your Amazon RDS DB instance runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#enhanced_monitoring RdsInstance#enhanced_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#enhanced_monitoring RdsInstance#enhanced_monitoring}
   */
   readonly enhancedMonitoring?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#id RdsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#id RdsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,62 +114,62 @@ export interface RdsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IOPS (Input/Output Operations Per Second) value. Should be specified only if `storage_type` is either io1 or gp3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#iops RdsInstance#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#iops RdsInstance#iops}
   */
   readonly iops?: number;
   /**
   * The globally unique identifier for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#kms_key_id RdsInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#kms_key_id RdsInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The master password of the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#master_password RdsInstance#master_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#master_password RdsInstance#master_password}
   */
   readonly masterPassword?: string;
   /**
   * The master username of the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#master_username RdsInstance#master_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#master_username RdsInstance#master_username}
   */
   readonly masterUsername?: string;
   /**
   * Specifies if the RDS instance is multi-AZ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#multi_az RdsInstance#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#multi_az RdsInstance#multi_az}
   */
   readonly multiAz?: boolean | cdktf.IResolvable;
   /**
   * The short name of the RDS instance.  Duplo will add a prefix to the name.  You can retrieve the full name from the `identifier` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#name RdsInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#name RdsInstance#name}
   */
   readonly name: string;
   /**
   * A RDS parameter group name to apply to the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#parameter_group_name RdsInstance#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#parameter_group_name RdsInstance#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * The instance type of the RDS instance.
   * See AWS documentation for the [available instance types](https://aws.amazon.com/rds/instance-types/).Size should be set as db.serverless if rds instamce is created as serverless
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#size RdsInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#size RdsInstance#size}
   */
   readonly size: string;
   /**
   * If the final snapshot should be taken. When set to true, the final snapshot will not be taken when the resource is deleted. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#skip_final_snapshot RdsInstance#skip_final_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#skip_final_snapshot RdsInstance#skip_final_snapshot}
   */
   readonly skipFinalSnapshot?: boolean | cdktf.IResolvable;
   /**
   * A database snapshot to initialize the RDS instance from, at launch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#snapshot_id RdsInstance#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#snapshot_id RdsInstance#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
@@ -184,37 +184,37 @@ export interface RdsInstanceConfig extends cdktf.TerraformMetaArguments {
   * 			| aurora       | Automatic scaling, up to 200K IOPS | Varies                | High-performance, fault-tolerant, distributed storage for Amazon Aurora databases. Aurora uses a unique distributed, fault-tolerant storage system that automatically replicates data across multiple Availability Zones. |
   * 			| aurora-iopt1 | Provisioned IOPS, similar to io1   | Varies                | Aurora databases needing guaranteed, high-performance IOPS. Aurora I/O-Optimized storage offers provisioned IOPS for Aurora clusters that require consistently high performance for critical workloads.                   |
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#storage_type RdsInstance#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#storage_type RdsInstance#storage_type}
   */
   readonly storageType?: string;
   /**
   * Whether or not to store RDS details in the AWS secrets manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#store_details_in_secret_manager RdsInstance#store_details_in_secret_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#store_details_in_secret_manager RdsInstance#store_details_in_secret_manager}
   */
   readonly storeDetailsInSecretManager?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the RDS instance will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#tenant_id RdsInstance#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#tenant_id RdsInstance#tenant_id}
   */
   readonly tenantId: string;
   /**
   * performance_insights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#performance_insights RdsInstance#performance_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#performance_insights RdsInstance#performance_insights}
   */
   readonly performanceInsights?: RdsInstancePerformanceInsights;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#timeouts RdsInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#timeouts RdsInstance#timeouts}
   */
   readonly timeouts?: RdsInstanceTimeouts;
   /**
   * v2_scaling_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#v2_scaling_configuration RdsInstance#v2_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#v2_scaling_configuration RdsInstance#v2_scaling_configuration}
   */
   readonly v2ScalingConfiguration?: RdsInstanceV2ScalingConfiguration;
 }
@@ -222,19 +222,19 @@ export interface RdsInstancePerformanceInsights {
   /**
   * Turn on or off Performance Insights Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#enabled RdsInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#enabled RdsInstance#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify ARN for the KMS key to encrypt Performance Insights data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#kms_key_id RdsInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#kms_key_id RdsInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specify retention period in Days. Valid values are 7, 731 (2 years) or a multiple of 31. For Document DB retention period is 7 Defaults to `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#retention_period RdsInstance#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#retention_period RdsInstance#retention_period}
   */
   readonly retentionPeriod?: number;
 }
@@ -376,15 +376,15 @@ export class RdsInstancePerformanceInsightsOutputReference extends cdktf.Complex
 }
 export interface RdsInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#create RdsInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#create RdsInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#delete RdsInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#delete RdsInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#update RdsInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#update RdsInstance#update}
   */
   readonly update?: string;
 }
@@ -538,13 +538,13 @@ export interface RdsInstanceV2ScalingConfiguration {
   /**
   * Specifies max scaling capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#max_capacity RdsInstance#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#max_capacity RdsInstance#max_capacity}
   */
   readonly maxCapacity: number;
   /**
   * Specifies min scaling capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#min_capacity RdsInstance#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#min_capacity RdsInstance#min_capacity}
   */
   readonly minCapacity: number;
 }
@@ -651,7 +651,7 @@ export class RdsInstanceV2ScalingConfigurationOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance duplocloud_rds_instance}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance duplocloud_rds_instance}
 */
 export class RdsInstance extends cdktf.TerraformResource {
 
@@ -667,7 +667,7 @@ export class RdsInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsInstance to import
-  * @param importFromId The id of the existing RdsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -679,7 +679,7 @@ export class RdsInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/rds_instance duplocloud_rds_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/rds_instance duplocloud_rds_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -690,8 +690,8 @@ export class RdsInstance extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_rds_instance',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

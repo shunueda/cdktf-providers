@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DestinationClickhouseConfig extends cdktf.TerraformMetaArgument
   /**
   * Password to access the ClickHouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#connection_password DestinationClickhouse#connection_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#connection_password DestinationClickhouse#connection_password}
   */
   readonly connectionPassword: string;
   /**
   * Username to access ClickHouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#connection_username DestinationClickhouse#connection_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#connection_username DestinationClickhouse#connection_username}
   */
   readonly connectionUsername: string;
   /**
   * ClickHouse database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#database DestinationClickhouse#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#database DestinationClickhouse#database}
   */
   readonly database?: string;
   /**
   * Specifies whether the connector processes DELETE or tombstone events and removes the corresponding row from the database (applies to `upsert` only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#hard_delete DestinationClickhouse#hard_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#hard_delete DestinationClickhouse#hard_delete}
   */
   readonly hardDelete?: boolean | cdktf.IResolvable;
   /**
   * ClickHouse Hostname Or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#hostname DestinationClickhouse#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#hostname DestinationClickhouse#hostname}
   */
   readonly hostname: string;
   /**
   * Upsert or append modes are available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#ingestion_mode DestinationClickhouse#ingestion_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#ingestion_mode DestinationClickhouse#ingestion_mode}
   */
   readonly ingestionMode?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#name DestinationClickhouse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#name DestinationClickhouse#name}
   */
   readonly name: string;
   /**
   * ClickHouse Port. For example, 8443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#port DestinationClickhouse#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#port DestinationClickhouse#port}
   */
   readonly port?: number;
   /**
   * Controls how schema evolution is handled by the sink connector. For pipelines with pre-created destination tables, set to `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#schema_evolution DestinationClickhouse#schema_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#schema_evolution DestinationClickhouse#schema_evolution}
   */
   readonly schemaEvolution?: string;
   /**
   * Enable TLS for network connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#ssl DestinationClickhouse#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#ssl DestinationClickhouse#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of active task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#tasks_max DestinationClickhouse#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#tasks_max DestinationClickhouse#tasks_max}
   */
   readonly tasksMax?: number;
   /**
   * Per topic configuration in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#topics_config_map DestinationClickhouse#topics_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#topics_config_map DestinationClickhouse#topics_config_map}
   */
   readonly topicsConfigMap?: { [key: string]: DestinationClickhouseTopicsConfigMap } | cdktf.IResolvable;
 }
 export interface DestinationClickhouseTopicsConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#delete_sql_execute DestinationClickhouse#delete_sql_execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#delete_sql_execute DestinationClickhouse#delete_sql_execute}
   */
   readonly deleteSqlExecute?: string;
 }
@@ -196,7 +196,7 @@ export class DestinationClickhouseTopicsConfigMapMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse streamkap_destination_clickhouse}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse streamkap_destination_clickhouse}
 */
 export class DestinationClickhouse extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class DestinationClickhouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationClickhouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationClickhouse to import
-  * @param importFromId The id of the existing DestinationClickhouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationClickhouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationClickhouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class DestinationClickhouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_clickhouse streamkap_destination_clickhouse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.17/docs/resources/destination_clickhouse streamkap_destination_clickhouse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class DestinationClickhouse extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_clickhouse',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.16',
-        providerVersionConstraint: '2.1.16'
+        providerVersion: '2.1.17',
+        providerVersionConstraint: '2.1.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

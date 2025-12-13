@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Emr - additional_info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#additional_info EmrCluster#additional_info}
   */
   readonly additionalInfo?: string;
   /**
   * Emr - list of applications to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#applications EmrCluster#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#applications EmrCluster#applications}
   */
   readonly applications?: string;
   /**
   * The ARN of the emrCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#arn EmrCluster#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#arn EmrCluster#arn}
   */
   readonly arn?: string;
   /**
   * Emr - list of bootstrap_actions to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#bootstrap_actions EmrCluster#bootstrap_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#bootstrap_actions EmrCluster#bootstrap_actions}
   */
   readonly bootstrapActions?: string;
   /**
   * Emr - list of application configurations to be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#configurations EmrCluster#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#configurations EmrCluster#configurations}
   */
   readonly configurations?: string;
   /**
   * EMR CustomAmiId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#custom_ami_id EmrCluster#custom_ami_id}
   */
   readonly customAmiId?: string;
   /**
   * Emr Cluster Ec2 ebs_root_volume_size settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#ebs_root_volume_size EmrCluster#ebs_root_volume_size}
   */
   readonly ebsRootVolumeSize?: number;
   /**
   * full_name - Duplo will add a prefix to the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#full_name EmrCluster#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#full_name EmrCluster#full_name}
   */
   readonly fullName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#id EmrCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#id EmrCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,125 +65,125 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Emr Instance Count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#instance_count EmrCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * Emr - instance_fleets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#instance_fleets EmrCluster#instance_fleets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#instance_fleets EmrCluster#instance_fleets}
   */
   readonly instanceFleets?: string;
   /**
   * Emr - instance_groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#instance_groups EmrCluster#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#instance_groups EmrCluster#instance_groups}
   */
   readonly instanceGroups?: string;
   /**
   * job flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#job_flow_id EmrCluster#job_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#job_flow_id EmrCluster#job_flow_id}
   */
   readonly jobFlowId?: string;
   /**
   * Keep Job Flow Alive When No Steps. Emr Cluster will be terminated if true. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#keep_job_flow_alive_when_no_steps EmrCluster#keep_job_flow_alive_when_no_steps}
   */
   readonly keepJobFlowAliveWhenNoSteps?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket path for logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#log_uri EmrCluster#log_uri}
   */
   readonly logUri?: string;
   /**
   * Emr - managed_scaling_policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#managed_scaling_policy EmrCluster#managed_scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#managed_scaling_policy EmrCluster#managed_scaling_policy}
   */
   readonly managedScalingPolicy?: string;
   /**
   * Emr MasterInstanceType. Supported InstanceTypes e.g. m4.large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#master_instance_type EmrCluster#master_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#master_instance_type EmrCluster#master_instance_type}
   */
   readonly masterInstanceType?: string;
   /**
   * The short name of the emrCluster.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name: string;
   /**
   * EMR ReleaseLabel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#release_label EmrCluster#release_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#release_label EmrCluster#release_label}
   */
   readonly releaseLabel: string;
   /**
   * Emr scale_down_behavior. Specifies the way that individual Amazon EC2 instances terminate when an automatic scale-in activity occurs or an instance group is resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#scale_down_behavior EmrCluster#scale_down_behavior}
   */
   readonly scaleDownBehavior?: string;
   /**
   * Emr SlaveInstanceType. Supported InstanceTypes e.g. m4.large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#slave_instance_type EmrCluster#slave_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#slave_instance_type EmrCluster#slave_instance_type}
   */
   readonly slaveInstanceType?: string;
   /**
   * The status of the emrCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#status EmrCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#status EmrCluster#status}
   */
   readonly status?: string;
   /**
   * Emr Cluster step_concurrency_level settings. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#step_concurrency_level EmrCluster#step_concurrency_level}
   */
   readonly stepConcurrencyLevel?: number;
   /**
   * Emr - list of steps to be run after cluster is ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#steps EmrCluster#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#steps EmrCluster#steps}
   */
   readonly steps?: string;
   /**
   * The GUID of the tenant that the emrCluster will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#tenant_id EmrCluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#tenant_id EmrCluster#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Emr termination protection setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#termination_protection EmrCluster#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * Emr Cluster visible to all users settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#visible_to_all_users EmrCluster#visible_to_all_users}
   */
   readonly visibleToAllUsers?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#timeouts EmrCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#timeouts EmrCluster#timeouts}
   */
   readonly timeouts?: EmrClusterTimeouts;
 }
 export interface EmrClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#create EmrCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#create EmrCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#delete EmrCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#delete EmrCluster#delete}
   */
   readonly delete?: string;
 }
@@ -306,7 +306,7 @@ export class EmrClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster duplocloud_emr_cluster}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster duplocloud_emr_cluster}
 */
 export class EmrCluster extends cdktf.TerraformResource {
 
@@ -322,7 +322,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmrCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrCluster to import
-  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -334,7 +334,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/emr_cluster duplocloud_emr_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.31/docs/resources/emr_cluster duplocloud_emr_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,8 +345,8 @@ export class EmrCluster extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_emr_cluster',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.30',
-        providerVersionConstraint: '0.11.30'
+        providerVersion: '0.11.31',
+        providerVersionConstraint: '0.11.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
