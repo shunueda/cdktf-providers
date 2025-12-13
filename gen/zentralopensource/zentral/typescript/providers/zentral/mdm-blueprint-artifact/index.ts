@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface MdmBlueprintArtifactConfig extends cdktf.TerraformMetaArguments
   /**
   * `ID` of the blueprint artifact artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#artifact_id MdmBlueprintArtifact#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#artifact_id MdmBlueprintArtifact#artifact_id}
   */
   readonly artifactId: string;
   /**
   * `ID` of the blueprint artifact blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#blueprint_id MdmBlueprintArtifact#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#blueprint_id MdmBlueprintArtifact#blueprint_id}
   */
   readonly blueprintId: number;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#default_shard MdmBlueprintArtifact#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#default_shard MdmBlueprintArtifact#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#excluded_tag_ids MdmBlueprintArtifact#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#excluded_tag_ids MdmBlueprintArtifact#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Toggles the installation of the blueprint artifact on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ios MdmBlueprintArtifact#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ios MdmBlueprintArtifact#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ios_max_version MdmBlueprintArtifact#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ios_max_version MdmBlueprintArtifact#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ios_min_version MdmBlueprintArtifact#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ios_min_version MdmBlueprintArtifact#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the blueprint artifact on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ipados MdmBlueprintArtifact#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ipados MdmBlueprintArtifact#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ipados_max_version MdmBlueprintArtifact#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ipados_max_version MdmBlueprintArtifact#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#ipados_min_version MdmBlueprintArtifact#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#ipados_min_version MdmBlueprintArtifact#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the blueprint artifact on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#macos MdmBlueprintArtifact#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#macos MdmBlueprintArtifact#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#macos_max_version MdmBlueprintArtifact#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#macos_max_version MdmBlueprintArtifact#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#macos_min_version MdmBlueprintArtifact#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#macos_min_version MdmBlueprintArtifact#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#shard_modulo MdmBlueprintArtifact#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#shard_modulo MdmBlueprintArtifact#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#tag_shards MdmBlueprintArtifact#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#tag_shards MdmBlueprintArtifact#tag_shards}
   */
   readonly tagShards?: MdmBlueprintArtifactTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the blueprint artifact on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#tvos MdmBlueprintArtifact#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#tvos MdmBlueprintArtifact#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#tvos_max_version MdmBlueprintArtifact#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#tvos_max_version MdmBlueprintArtifact#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this blueprint artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#tvos_min_version MdmBlueprintArtifact#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#tvos_min_version MdmBlueprintArtifact#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
 }
@@ -120,13 +120,13 @@ export interface MdmBlueprintArtifactTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#shard MdmBlueprintArtifact#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#shard MdmBlueprintArtifact#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#tag_id MdmBlueprintArtifact#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#tag_id MdmBlueprintArtifact#tag_id}
   */
   readonly tagId: number;
 }
@@ -265,7 +265,7 @@ export class MdmBlueprintArtifactTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact zentral_mdm_blueprint_artifact}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact zentral_mdm_blueprint_artifact}
 */
 export class MdmBlueprintArtifact extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class MdmBlueprintArtifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmBlueprintArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmBlueprintArtifact to import
-  * @param importFromId The id of the existing MdmBlueprintArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmBlueprintArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmBlueprintArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class MdmBlueprintArtifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint_artifact zentral_mdm_blueprint_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint_artifact zentral_mdm_blueprint_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class MdmBlueprintArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_blueprint_artifact',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface MunkiConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, incidents will be managed automatically when package failed installs are observed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#auto_failed_install_incidents MunkiConfiguration#auto_failed_install_incidents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#auto_failed_install_incidents MunkiConfiguration#auto_failed_install_incidents}
   */
   readonly autoFailedInstallIncidents?: boolean | cdktf.IResolvable;
   /**
   * If `true`, incidents will be managed automatically when package reinstalls are observed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#auto_reinstall_incidents MunkiConfiguration#auto_reinstall_incidents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#auto_reinstall_incidents MunkiConfiguration#auto_reinstall_incidents}
   */
   readonly autoReinstallIncidents?: boolean | cdktf.IResolvable;
   /**
   * Set of the condition keys to collect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#collected_condition_keys MunkiConfiguration#collected_condition_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#collected_condition_keys MunkiConfiguration#collected_condition_keys}
   */
   readonly collectedConditionKeys?: string[];
   /**
   * Description of the Munki configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#description MunkiConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#description MunkiConfiguration#description}
   */
   readonly description?: string;
   /**
   * Percentage of machines configured to collect the full inventory apps information. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#inventory_apps_full_info_shard MunkiConfiguration#inventory_apps_full_info_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#inventory_apps_full_info_shard MunkiConfiguration#inventory_apps_full_info_shard}
   */
   readonly inventoryAppsFullInfoShard?: number;
   /**
   * Interval in days between full managed installs sync. Defaults to 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#managed_installs_sync_interval_days MunkiConfiguration#managed_installs_sync_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#managed_installs_sync_interval_days MunkiConfiguration#managed_installs_sync_interval_days}
   */
   readonly managedInstallsSyncIntervalDays?: number;
   /**
   * Name of the Munki configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#name MunkiConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#name MunkiConfiguration#name}
   */
   readonly name: string;
   /**
   * Set of principal user detection domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#principal_user_detection_domains MunkiConfiguration#principal_user_detection_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#principal_user_detection_domains MunkiConfiguration#principal_user_detection_domains}
   */
   readonly principalUserDetectionDomains?: string[];
   /**
   * List of principal user detection sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#principal_user_detection_sources MunkiConfiguration#principal_user_detection_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#principal_user_detection_sources MunkiConfiguration#principal_user_detection_sources}
   */
   readonly principalUserDetectionSources?: string[];
   /**
   * Interval in seconds between script checks runs. Defaults to 86400 seconds (1 day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#script_checks_run_interval_seconds MunkiConfiguration#script_checks_run_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#script_checks_run_interval_seconds MunkiConfiguration#script_checks_run_interval_seconds}
   */
   readonly scriptChecksRunIntervalSeconds?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration zentral_munki_configuration}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration zentral_munki_configuration}
 */
 export class MunkiConfiguration extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class MunkiConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MunkiConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MunkiConfiguration to import
-  * @param importFromId The id of the existing MunkiConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MunkiConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MunkiConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class MunkiConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/munki_configuration zentral_munki_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/munki_configuration zentral_munki_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class MunkiConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_munki_configuration',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

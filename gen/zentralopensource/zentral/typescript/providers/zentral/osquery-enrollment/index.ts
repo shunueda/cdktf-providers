@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OsqueryEnrollmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the Osquery configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#configuration_id OsqueryEnrollment#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#configuration_id OsqueryEnrollment#configuration_id}
   */
   readonly configurationId: number;
   /**
   * The `ID` of the meta business unit the machine will be assigned to at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#meta_business_unit_id OsqueryEnrollment#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#meta_business_unit_id OsqueryEnrollment#meta_business_unit_id}
   */
   readonly metaBusinessUnitId: number;
   /**
   * Osquery release to include in the enrollment artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#osquery_release OsqueryEnrollment#osquery_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#osquery_release OsqueryEnrollment#osquery_release}
   */
   readonly osqueryRelease?: string;
   /**
   * The number of time the enrollment can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#quota OsqueryEnrollment#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#quota OsqueryEnrollment#quota}
   */
   readonly quota?: number;
   /**
   * The serial numbers the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#serial_numbers OsqueryEnrollment#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#serial_numbers OsqueryEnrollment#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * The `ID`s of the tags that the machine will get at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#tag_ids OsqueryEnrollment#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#tag_ids OsqueryEnrollment#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * The `UDID`s the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#udids OsqueryEnrollment#udids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#udids OsqueryEnrollment#udids}
   */
   readonly udids?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment zentral_osquery_enrollment}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment zentral_osquery_enrollment}
 */
 export class OsqueryEnrollment extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class OsqueryEnrollment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryEnrollment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryEnrollment to import
-  * @param importFromId The id of the existing OsqueryEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryEnrollment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class OsqueryEnrollment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_enrollment zentral_osquery_enrollment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_enrollment zentral_osquery_enrollment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class OsqueryEnrollment extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

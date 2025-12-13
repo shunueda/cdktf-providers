@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface MdmDataAssetConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the data asset artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#artifact_id MdmDataAsset#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#artifact_id MdmDataAsset#artifact_id}
   */
   readonly artifactId: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#default_shard MdmDataAsset#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#default_shard MdmDataAsset#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#excluded_tag_ids MdmDataAsset#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#excluded_tag_ids MdmDataAsset#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * The hexadecimal digest of the sha256 hash of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#file_sha256 MdmDataAsset#file_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#file_sha256 MdmDataAsset#file_sha256}
   */
   readonly fileSha256: string;
   /**
   * The URI of the data asset file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#file_uri MdmDataAsset#file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#file_uri MdmDataAsset#file_uri}
   */
   readonly fileUri: string;
   /**
   * Toggles the installation of the data asset on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ios MdmDataAsset#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ios MdmDataAsset#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ios_max_version MdmDataAsset#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ios_max_version MdmDataAsset#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ios_min_version MdmDataAsset#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ios_min_version MdmDataAsset#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the data asset on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ipados MdmDataAsset#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ipados MdmDataAsset#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ipados_max_version MdmDataAsset#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ipados_max_version MdmDataAsset#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#ipados_min_version MdmDataAsset#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#ipados_min_version MdmDataAsset#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the data asset on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#macos MdmDataAsset#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#macos MdmDataAsset#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#macos_max_version MdmDataAsset#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#macos_max_version MdmDataAsset#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#macos_min_version MdmDataAsset#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#macos_min_version MdmDataAsset#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#shard_modulo MdmDataAsset#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#shard_modulo MdmDataAsset#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#tag_shards MdmDataAsset#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#tag_shards MdmDataAsset#tag_shards}
   */
   readonly tagShards?: MdmDataAssetTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the data asset on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#tvos MdmDataAsset#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#tvos MdmDataAsset#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#tvos_max_version MdmDataAsset#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#tvos_max_version MdmDataAsset#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#tvos_min_version MdmDataAsset#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#tvos_min_version MdmDataAsset#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * The type of the data asset file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#type MdmDataAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#type MdmDataAsset#type}
   */
   readonly type: string;
   /**
   * Version of the data asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#version MdmDataAsset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#version MdmDataAsset#version}
   */
   readonly version: number;
 }
@@ -138,13 +138,13 @@ export interface MdmDataAssetTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#shard MdmDataAsset#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#shard MdmDataAsset#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#tag_id MdmDataAsset#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#tag_id MdmDataAsset#tag_id}
   */
   readonly tagId: number;
 }
@@ -283,7 +283,7 @@ export class MdmDataAssetTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset zentral_mdm_data_asset}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset zentral_mdm_data_asset}
 */
 export class MdmDataAsset extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class MdmDataAsset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmDataAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmDataAsset to import
-  * @param importFromId The id of the existing MdmDataAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmDataAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmDataAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class MdmDataAsset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_data_asset zentral_mdm_data_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_data_asset zentral_mdm_data_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class MdmDataAsset extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_data_asset',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

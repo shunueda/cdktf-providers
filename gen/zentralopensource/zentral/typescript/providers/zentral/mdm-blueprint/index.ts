@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface MdmBlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * Possible values: `NO`, `MANAGED_ONLY`, `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#collect_apps MdmBlueprint#collect_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#collect_apps MdmBlueprint#collect_apps}
   */
   readonly collectApps?: string;
   /**
   * Possible values: `NO`, `MANAGED_ONLY`, `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#collect_certificates MdmBlueprint#collect_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#collect_certificates MdmBlueprint#collect_certificates}
   */
   readonly collectCertificates?: string;
   /**
   * Possible values: `NO`, `MANAGED_ONLY`, `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#collect_profiles MdmBlueprint#collect_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#collect_profiles MdmBlueprint#collect_profiles}
   */
   readonly collectProfiles?: string;
   /**
   * The `ID` of the default apps & books location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#default_location_id MdmBlueprint#default_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#default_location_id MdmBlueprint#default_location_id}
   */
   readonly defaultLocationId?: number;
   /**
   * The `ID` of the attached FileVault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#filevault_config_id MdmBlueprint#filevault_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#filevault_config_id MdmBlueprint#filevault_config_id}
   */
   readonly filevaultConfigId?: number;
   /**
   * In seconds, the minimum interval between two inventory collection. Minimum 4h, maximum 7d, default 1d.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#inventory_interval MdmBlueprint#inventory_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#inventory_interval MdmBlueprint#inventory_interval}
   */
   readonly inventoryInterval?: number;
   /**
   * If `true`, legady profiles are distributed via DDM. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#legacy_profiles_via_ddm MdmBlueprint#legacy_profiles_via_ddm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#legacy_profiles_via_ddm MdmBlueprint#legacy_profiles_via_ddm}
   */
   readonly legacyProfilesViaDdm?: boolean | cdktf.IResolvable;
   /**
   * Name of the blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#name MdmBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#name MdmBlueprint#name}
   */
   readonly name: string;
   /**
   * The `ID` of the attached recovery password configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#recovery_password_config_id MdmBlueprint#recovery_password_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#recovery_password_config_id MdmBlueprint#recovery_password_config_id}
   */
   readonly recoveryPasswordConfigId?: number;
   /**
   * The `ID`s of the software update enforcements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#software_update_enforcement_ids MdmBlueprint#software_update_enforcement_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#software_update_enforcement_ids MdmBlueprint#software_update_enforcement_ids}
   */
   readonly softwareUpdateEnforcementIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint zentral_mdm_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint zentral_mdm_blueprint}
 */
 export class MdmBlueprint extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class MdmBlueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmBlueprint to import
-  * @param importFromId The id of the existing MdmBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class MdmBlueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_blueprint zentral_mdm_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_blueprint zentral_mdm_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class MdmBlueprint extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface MdmArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, new version of this artifact will be automatically installed. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#auto_update MdmArtifact#auto_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#auto_update MdmArtifact#auto_update}
   */
   readonly autoUpdate?: boolean | cdktf.IResolvable;
   /**
   * Channel of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#channel MdmArtifact#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#channel MdmArtifact#channel}
   */
   readonly channel: string;
   /**
   * If `true`, this artifact will be installed during the setup assistant. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#install_during_setup_assistant MdmArtifact#install_during_setup_assistant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#install_during_setup_assistant MdmArtifact#install_during_setup_assistant}
   */
   readonly installDuringSetupAssistant?: boolean | cdktf.IResolvable;
   /**
   * Name of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#name MdmArtifact#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#name MdmArtifact#name}
   */
   readonly name: string;
   /**
   * Platforms of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#platforms MdmArtifact#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#platforms MdmArtifact#platforms}
   */
   readonly platforms: string[];
   /**
   * In days, the time interval after which the artifact will be reinstalled. If `0`, the artifact will not be reinstalled. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#reinstall_interval MdmArtifact#reinstall_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#reinstall_interval MdmArtifact#reinstall_interval}
   */
   readonly reinstallInterval?: number;
   /**
   * Possible values: `No`, `Major`, `Minor`, `Patch`. Defaults to `No`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#reinstall_on_os_update MdmArtifact#reinstall_on_os_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#reinstall_on_os_update MdmArtifact#reinstall_on_os_update}
   */
   readonly reinstallOnOsUpdate?: string;
   /**
   * `ID`s of the artifacts required by this artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#requires MdmArtifact#requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#requires MdmArtifact#requires}
   */
   readonly requires?: string[];
   /**
   * Type of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#type MdmArtifact#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#type MdmArtifact#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact zentral_mdm_artifact}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact zentral_mdm_artifact}
 */
 export class MdmArtifact extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class MdmArtifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmArtifact to import
-  * @param importFromId The id of the existing MdmArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class MdmArtifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_artifact zentral_mdm_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_artifact zentral_mdm_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class MdmArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_artifact',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

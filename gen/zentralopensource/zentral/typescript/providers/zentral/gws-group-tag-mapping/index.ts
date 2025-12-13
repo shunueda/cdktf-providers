@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GwsGroupTagMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the Google Workspace connection for this group tag mapping (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping#connection_id GwsGroupTagMapping#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping#connection_id GwsGroupTagMapping#connection_id}
   */
   readonly connectionId: string;
   /**
   * Group email of the Google Workspace group for this group tag mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping#group_email GwsGroupTagMapping#group_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping#group_email GwsGroupTagMapping#group_email}
   */
   readonly groupEmail: string;
   /**
   * `ID`s of the tags mapped with this group tag mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping#tag_ids GwsGroupTagMapping#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping#tag_ids GwsGroupTagMapping#tag_ids}
   */
   readonly tagIds: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping zentral_gws_group_tag_mapping}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping zentral_gws_group_tag_mapping}
 */
 export class GwsGroupTagMapping extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GwsGroupTagMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GwsGroupTagMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GwsGroupTagMapping to import
-  * @param importFromId The id of the existing GwsGroupTagMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GwsGroupTagMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GwsGroupTagMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GwsGroupTagMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/gws_group_tag_mapping zentral_gws_group_tag_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/gws_group_tag_mapping zentral_gws_group_tag_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class GwsGroupTagMapping extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_gws_group_tag_mapping',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

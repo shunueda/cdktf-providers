@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataZentralRealmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm#name DataZentralRealm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm#name DataZentralRealm#name}
   */
   readonly name?: string;
   /**
   * `UUID` of the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm#uuid DataZentralRealm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm#uuid DataZentralRealm#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm zentral_realm}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm zentral_realm}
 */
 export class DataZentralRealm extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataZentralRealm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZentralRealm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZentralRealm to import
-  * @param importFromId The id of the existing DataZentralRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZentralRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZentralRealm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataZentralRealm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/realm zentral_realm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/data-sources/realm zentral_realm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataZentralRealm extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_realm',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

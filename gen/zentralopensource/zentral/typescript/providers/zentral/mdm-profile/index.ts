@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface MdmProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the profile artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#artifact_id MdmProfile#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#artifact_id MdmProfile#artifact_id}
   */
   readonly artifactId: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#default_shard MdmProfile#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#default_shard MdmProfile#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#excluded_tag_ids MdmProfile#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#excluded_tag_ids MdmProfile#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Toggles the installation of the profile on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ios MdmProfile#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ios MdmProfile#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ios_max_version MdmProfile#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ios_max_version MdmProfile#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ios_min_version MdmProfile#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ios_min_version MdmProfile#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the profile on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ipados MdmProfile#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ipados MdmProfile#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ipados_max_version MdmProfile#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ipados_max_version MdmProfile#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#ipados_min_version MdmProfile#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#ipados_min_version MdmProfile#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the profile on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#macos MdmProfile#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#macos MdmProfile#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#macos_max_version MdmProfile#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#macos_max_version MdmProfile#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#macos_min_version MdmProfile#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#macos_min_version MdmProfile#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#shard_modulo MdmProfile#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#shard_modulo MdmProfile#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * The configuration profile, serialized and base 64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#source MdmProfile#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#source MdmProfile#source}
   */
   readonly source: string;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#tag_shards MdmProfile#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#tag_shards MdmProfile#tag_shards}
   */
   readonly tagShards?: MdmProfileTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the profile on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#tvos MdmProfile#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#tvos MdmProfile#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#tvos_max_version MdmProfile#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#tvos_max_version MdmProfile#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#tvos_min_version MdmProfile#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#tvos_min_version MdmProfile#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * Version of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#version MdmProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#version MdmProfile#version}
   */
   readonly version: number;
 }
@@ -126,13 +126,13 @@ export interface MdmProfileTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#shard MdmProfile#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#shard MdmProfile#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#tag_id MdmProfile#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#tag_id MdmProfile#tag_id}
   */
   readonly tagId: number;
 }
@@ -271,7 +271,7 @@ export class MdmProfileTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile zentral_mdm_profile}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile zentral_mdm_profile}
 */
 export class MdmProfile extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class MdmProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmProfile to import
-  * @param importFromId The id of the existing MdmProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class MdmProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_profile zentral_mdm_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_profile zentral_mdm_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class MdmProfile extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_profile',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

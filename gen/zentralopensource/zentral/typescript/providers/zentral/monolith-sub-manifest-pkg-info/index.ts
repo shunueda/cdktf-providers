@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface MonolithSubManifestPkgInfoConfig extends cdktf.TerraformMetaArg
   /**
   * The `ID` of the condition that is evaluated to decide if this pkg info is included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#condition_id MonolithSubManifestPkgInfo#condition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#condition_id MonolithSubManifestPkgInfo#condition_id}
   */
   readonly conditionId?: number;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#default_shard MonolithSubManifestPkgInfo#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#default_shard MonolithSubManifestPkgInfo#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the pkg info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#excluded_tag_ids MonolithSubManifestPkgInfo#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#excluded_tag_ids MonolithSubManifestPkgInfo#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * If `true`, this pkg info will be displayed in the featured items section in Managed Software Center. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#featured_item MonolithSubManifestPkgInfo#featured_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#featured_item MonolithSubManifestPkgInfo#featured_item}
   */
   readonly featuredItem?: boolean | cdktf.IResolvable;
   /**
   * Sub manifest key under which this pkg info will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#key MonolithSubManifestPkgInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#key MonolithSubManifestPkgInfo#key}
   */
   readonly key: string;
   /**
   * The name of the pkg info to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#pkg_info_name MonolithSubManifestPkgInfo#pkg_info_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#pkg_info_name MonolithSubManifestPkgInfo#pkg_info_name}
   */
   readonly pkgInfoName: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#shard_modulo MonolithSubManifestPkgInfo#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#shard_modulo MonolithSubManifestPkgInfo#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * The `ID` of the sub manifest this pkg info is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#sub_manifest_id MonolithSubManifestPkgInfo#sub_manifest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#sub_manifest_id MonolithSubManifestPkgInfo#sub_manifest_id}
   */
   readonly subManifestId: number;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the pkg info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#tag_shards MonolithSubManifestPkgInfo#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#tag_shards MonolithSubManifestPkgInfo#tag_shards}
   */
   readonly tagShards?: MonolithSubManifestPkgInfoTagShards[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface MonolithSubManifestPkgInfoTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#shard MonolithSubManifestPkgInfo#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#shard MonolithSubManifestPkgInfo#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#tag_id MonolithSubManifestPkgInfo#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#tag_id MonolithSubManifestPkgInfo#tag_id}
   */
   readonly tagId: number;
 }
@@ -211,7 +211,7 @@ export class MonolithSubManifestPkgInfoTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info zentral_monolith_sub_manifest_pkg_info}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info zentral_monolith_sub_manifest_pkg_info}
 */
 export class MonolithSubManifestPkgInfo extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class MonolithSubManifestPkgInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithSubManifestPkgInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithSubManifestPkgInfo to import
-  * @param importFromId The id of the existing MonolithSubManifestPkgInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithSubManifestPkgInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithSubManifestPkgInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class MonolithSubManifestPkgInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_sub_manifest_pkg_info zentral_monolith_sub_manifest_pkg_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_sub_manifest_pkg_info zentral_monolith_sub_manifest_pkg_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class MonolithSubManifestPkgInfo extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_sub_manifest_pkg_info',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

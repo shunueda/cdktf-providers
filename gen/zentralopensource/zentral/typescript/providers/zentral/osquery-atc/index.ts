@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OsqueryAtcConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of the column names corresponding the the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#columns OsqueryAtc#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#columns OsqueryAtc#columns}
   */
   readonly columns: string[];
   /**
   * Description of the Osquery ATC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#description OsqueryAtc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#description OsqueryAtc#description}
   */
   readonly description?: string;
   /**
   * Name of the Osquery ATC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#name OsqueryAtc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#name OsqueryAtc#name}
   */
   readonly name: string;
   /**
   * Path of the SQLite table on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#path OsqueryAtc#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#path OsqueryAtc#path}
   */
   readonly path: string;
   /**
   * Platform on which this ATC can be activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#platforms OsqueryAtc#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#platforms OsqueryAtc#platforms}
   */
   readonly platforms: string[];
   /**
   * Query used to fetch the ATC data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#query OsqueryAtc#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#query OsqueryAtc#query}
   */
   readonly query: string;
   /**
   * Name of the Osquery ATC table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#table_name OsqueryAtc#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#table_name OsqueryAtc#table_name}
   */
   readonly tableName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc zentral_osquery_atc}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc zentral_osquery_atc}
 */
 export class OsqueryAtc extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class OsqueryAtc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryAtc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryAtc to import
-  * @param importFromId The id of the existing OsqueryAtc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryAtc that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryAtc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class OsqueryAtc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_atc zentral_osquery_atc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_atc zentral_osquery_atc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class OsqueryAtc extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_atc',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

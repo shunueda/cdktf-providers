@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ProbeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `ID`s of the actions triggered by the probe when an event matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#action_ids Probe#action_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#action_ids Probe#action_ids}
   */
   readonly actionIds?: string[];
   /**
   * If true, the probe is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#active Probe#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#active Probe#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Description of the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#description Probe#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#description Probe#description}
   */
   readonly description?: string;
   /**
   * Severity of the incidents triggered by this probe (`100`, `200`, `300`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#incident_severity Probe#incident_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#incident_severity Probe#incident_severity}
   */
   readonly incidentSeverity?: number;
   /**
   * A set of filters used to filter the events based on inventory attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#inventory_filters Probe#inventory_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#inventory_filters Probe#inventory_filters}
   */
   readonly inventoryFilters?: ProbeInventoryFilters[] | cdktf.IResolvable;
   /**
   * A set of filters used to filter the events based on their metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#metadata_filters Probe#metadata_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#metadata_filters Probe#metadata_filters}
   */
   readonly metadataFilters?: ProbeMetadataFilters[] | cdktf.IResolvable;
   /**
   * Name of the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#name Probe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#name Probe#name}
   */
   readonly name: string;
   /**
   * A set of filters used to filter the events based on their payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#payload_filters Probe#payload_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#payload_filters Probe#payload_filters}
   */
   readonly payloadFilters?: ProbePayloadFiltersList[] | cdktf.IResolvable;
 }
@@ -60,25 +60,25 @@ export interface ProbeInventoryFilters {
   /**
   * The `ID`s of the meta business units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#meta_business_unit_ids Probe#meta_business_unit_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#meta_business_unit_ids Probe#meta_business_unit_ids}
   */
   readonly metaBusinessUnitIds?: number[];
   /**
   * The machine platforms (`LINUX`, `MACOS`, `WINDOWS`, `ANDROID`, `IOS`, `IPADOS`, `TVOS`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#platforms Probe#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#platforms Probe#platforms}
   */
   readonly platforms?: string[];
   /**
   * The `ID`s of the machine tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#tag_ids Probe#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#tag_ids Probe#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * The machine platforms (`DESKTOP`, `EC2`, `LAPTOP`, `MOBILE`, `SERVER`, `TABLET`, `TV`, `VM`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#types Probe#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#types Probe#types}
   */
   readonly types?: string[];
 }
@@ -283,19 +283,19 @@ export interface ProbeMetadataFilters {
   /**
   * The event routing keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#event_routing_keys Probe#event_routing_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#event_routing_keys Probe#event_routing_keys}
   */
   readonly eventRoutingKeys?: string[];
   /**
   * The event tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#event_tags Probe#event_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#event_tags Probe#event_tags}
   */
   readonly eventTags?: string[];
   /**
   * The event types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#event_types Probe#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#event_types Probe#event_types}
   */
   readonly eventTypes?: string[];
 }
@@ -469,15 +469,15 @@ export class ProbeMetadataFiltersList extends cdktf.ComplexList {
 }
 export interface ProbePayloadFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#attribute Probe#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#attribute Probe#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#operator Probe#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#operator Probe#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#values Probe#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#values Probe#values}
   */
   readonly values?: string[];
 }
@@ -671,7 +671,7 @@ export class ProbePayloadFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe zentral_probe}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe zentral_probe}
 */
 export class Probe extends cdktf.TerraformResource {
 
@@ -687,7 +687,7 @@ export class Probe extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Probe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Probe to import
-  * @param importFromId The id of the existing Probe that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Probe that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Probe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -699,7 +699,7 @@ export class Probe extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/probe zentral_probe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/probe zentral_probe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -710,8 +710,8 @@ export class Probe extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_probe',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

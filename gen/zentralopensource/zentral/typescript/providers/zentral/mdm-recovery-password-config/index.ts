@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MdmRecoveryPasswordConfigConfig extends cdktf.TerraformMetaArgu
   /**
   * If `true`, a unique password is generated for each device. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#dynamic_password MdmRecoveryPasswordConfig#dynamic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#dynamic_password MdmRecoveryPasswordConfig#dynamic_password}
   */
   readonly dynamicPassword?: boolean | cdktf.IResolvable;
   /**
   * Name of the recovery password configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#name MdmRecoveryPasswordConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#name MdmRecoveryPasswordConfig#name}
   */
   readonly name: string;
   /**
   * Set to `true` to rotate the firmware passwords. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#rotate_firmware_password MdmRecoveryPasswordConfig#rotate_firmware_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#rotate_firmware_password MdmRecoveryPasswordConfig#rotate_firmware_password}
   */
   readonly rotateFirmwarePassword?: boolean | cdktf.IResolvable;
   /**
   * The automatic recovery password rotation interval in days. It has a maximum value of `365`. Defaults to `0` (no automatic rotation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#rotation_interval_days MdmRecoveryPasswordConfig#rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#rotation_interval_days MdmRecoveryPasswordConfig#rotation_interval_days}
   */
   readonly rotationIntervalDays?: number;
   /**
   * The  static password to set for all devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#static_password MdmRecoveryPasswordConfig#static_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#static_password MdmRecoveryPasswordConfig#static_password}
   */
   readonly staticPassword?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config zentral_mdm_recovery_password_config}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config zentral_mdm_recovery_password_config}
 */
 export class MdmRecoveryPasswordConfig extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MdmRecoveryPasswordConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmRecoveryPasswordConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmRecoveryPasswordConfig to import
-  * @param importFromId The id of the existing MdmRecoveryPasswordConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmRecoveryPasswordConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmRecoveryPasswordConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MdmRecoveryPasswordConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_recovery_password_config zentral_mdm_recovery_password_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_recovery_password_config zentral_mdm_recovery_password_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MdmRecoveryPasswordConfig extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_recovery_password_config',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

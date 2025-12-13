@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface MdmOtaEnrollmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the optional MDM ACME issuer linked to the OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#acme_issuer_id MdmOtaEnrollment#acme_issuer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#acme_issuer_id MdmOtaEnrollment#acme_issuer_id}
   */
   readonly acmeIssuerId?: string;
   /**
   * `ID` of the MDM blueprint linked to the OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#blueprint_id MdmOtaEnrollment#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#blueprint_id MdmOtaEnrollment#blueprint_id}
   */
   readonly blueprintId?: number;
   /**
   * Name of the MDM OTA enrollment as displayed on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#display_name MdmOtaEnrollment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#display_name MdmOtaEnrollment#display_name}
   */
   readonly displayName?: string;
   /**
   * The `ID` of the meta business unit the machine will be assigned to at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#meta_business_unit_id MdmOtaEnrollment#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#meta_business_unit_id MdmOtaEnrollment#meta_business_unit_id}
   */
   readonly metaBusinessUnitId: number;
   /**
   * Name of the MDM OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#name MdmOtaEnrollment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#name MdmOtaEnrollment#name}
   */
   readonly name: string;
   /**
   * `ID` of the MDM push certificate linked to the OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#push_certificate_id MdmOtaEnrollment#push_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#push_certificate_id MdmOtaEnrollment#push_certificate_id}
   */
   readonly pushCertificateId: number;
   /**
   * The number of time the enrollment can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#quota MdmOtaEnrollment#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#quota MdmOtaEnrollment#quota}
   */
   readonly quota?: number;
   /**
   * `UUID` of the identity realm linked to the OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#realm_uuid MdmOtaEnrollment#realm_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#realm_uuid MdmOtaEnrollment#realm_uuid}
   */
   readonly realmUuid?: string;
   /**
   * `ID` of the MDM SCEP issuer linked to the OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#scep_issuer_id MdmOtaEnrollment#scep_issuer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#scep_issuer_id MdmOtaEnrollment#scep_issuer_id}
   */
   readonly scepIssuerId: string;
   /**
   * The serial numbers the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#serial_numbers MdmOtaEnrollment#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#serial_numbers MdmOtaEnrollment#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * The `ID`s of the tags that the machine will get at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#tag_ids MdmOtaEnrollment#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#tag_ids MdmOtaEnrollment#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * The `UDID`s the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#udids MdmOtaEnrollment#udids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#udids MdmOtaEnrollment#udids}
   */
   readonly udids?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment zentral_mdm_ota_enrollment}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment zentral_mdm_ota_enrollment}
 */
 export class MdmOtaEnrollment extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class MdmOtaEnrollment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmOtaEnrollment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmOtaEnrollment to import
-  * @param importFromId The id of the existing MdmOtaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmOtaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmOtaEnrollment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class MdmOtaEnrollment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_ota_enrollment zentral_mdm_ota_enrollment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_ota_enrollment zentral_mdm_ota_enrollment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class MdmOtaEnrollment extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_ota_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

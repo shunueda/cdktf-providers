@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface OsqueryQueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, the query will be used as compliance check. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#compliance_check_enabled OsqueryQuery#compliance_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#compliance_check_enabled OsqueryQuery#compliance_check_enabled}
   */
   readonly complianceCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * Description of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#description OsqueryQuery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#description OsqueryQuery#description}
   */
   readonly description?: string;
   /**
   * Only run on Osquery versions greater than or equal-to this version string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#minimum_osquery_version OsqueryQuery#minimum_osquery_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#minimum_osquery_version OsqueryQuery#minimum_osquery_version}
   */
   readonly minimumOsqueryVersion?: string;
   /**
   * Name of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#name OsqueryQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#name OsqueryQuery#name}
   */
   readonly name: string;
   /**
   * Restrict the query to some platforms, default is 'all' platforms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#platforms OsqueryQuery#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#platforms OsqueryQuery#platforms}
   */
   readonly platforms?: string[];
   /**
   * Attributes to link a query to a pack for scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#scheduling OsqueryQuery#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#scheduling OsqueryQuery#scheduling}
   */
   readonly scheduling?: OsqueryQueryScheduling;
   /**
   * The SQL query to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#sql OsqueryQuery#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#sql OsqueryQuery#sql}
   */
   readonly sql: string;
   /**
   * `ID` of the machine tag that is updated by this query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#tag_id OsqueryQuery#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#tag_id OsqueryQuery#tag_id}
   */
   readonly tagId?: number;
   /**
   * Description of the results returned by the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#value OsqueryQuery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#value OsqueryQuery#value}
   */
   readonly value?: string;
 }
@@ -66,37 +66,37 @@ export interface OsqueryQueryScheduling {
   /**
   * If `true`, this query can be denylisted when stopped by the watchdog for excessive resource consumption. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#can_be_denylisted OsqueryQuery#can_be_denylisted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#can_be_denylisted OsqueryQuery#can_be_denylisted}
   */
   readonly canBeDenylisted?: boolean | cdktf.IResolvable;
   /**
   * the query frequency, in seconds. It has a maximum value of 604,800 (1 week).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#interval OsqueryQuery#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#interval OsqueryQuery#interval}
   */
   readonly interval: number;
   /**
   * If `true`, remove actions should be logged. Default to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#log_removed_actions OsqueryQuery#log_removed_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#log_removed_actions OsqueryQuery#log_removed_actions}
   */
   readonly logRemovedActions?: boolean | cdktf.IResolvable;
   /**
   * The `ID` of the pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#pack_id OsqueryQuery#pack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#pack_id OsqueryQuery#pack_id}
   */
   readonly packId: number;
   /**
   * Restrict this query to a percentage (1-100) of target hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#shard OsqueryQuery#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#shard OsqueryQuery#shard}
   */
   readonly shard?: number;
   /**
   * If `true`, differentials will not be stored and this query will not emulate an event stream. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#snapshot_mode OsqueryQuery#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#snapshot_mode OsqueryQuery#snapshot_mode}
   */
   readonly snapshotMode?: boolean | cdktf.IResolvable;
 }
@@ -329,7 +329,7 @@ export class OsqueryQuerySchedulingOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query zentral_osquery_query}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query zentral_osquery_query}
 */
 export class OsqueryQuery extends cdktf.TerraformResource {
 
@@ -345,7 +345,7 @@ export class OsqueryQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryQuery to import
-  * @param importFromId The id of the existing OsqueryQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +357,7 @@ export class OsqueryQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_query zentral_osquery_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/osquery_query zentral_osquery_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +368,8 @@ export class OsqueryQuery extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_query',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

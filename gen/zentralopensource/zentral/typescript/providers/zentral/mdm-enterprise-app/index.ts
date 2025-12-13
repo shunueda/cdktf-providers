@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,145 @@ export interface MdmEnterpriseAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the app artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#artifact_id MdmEnterpriseApp#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#artifact_id MdmEnterpriseApp#artifact_id}
   */
   readonly artifactId: string;
   /**
   * A dictionary serialized as plist that contains the initial configuration of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#configuration MdmEnterpriseApp#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#configuration MdmEnterpriseApp#configuration}
   */
   readonly configuration?: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#default_shard MdmEnterpriseApp#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#default_shard MdmEnterpriseApp#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#excluded_tag_ids MdmEnterpriseApp#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#excluded_tag_ids MdmEnterpriseApp#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * If `true`, install the app as a managed app. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#install_as_managed MdmEnterpriseApp#install_as_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#install_as_managed MdmEnterpriseApp#install_as_managed}
   */
   readonly installAsManaged?: boolean | cdktf.IResolvable;
   /**
   * Toggles the installation of the app on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ios MdmEnterpriseApp#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ios MdmEnterpriseApp#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the app is an iOS app that can run on an Apple silicon in macOS 11 and later. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ios_app MdmEnterpriseApp#ios_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ios_app MdmEnterpriseApp#ios_app}
   */
   readonly iosApp?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ios_max_version MdmEnterpriseApp#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ios_max_version MdmEnterpriseApp#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ios_min_version MdmEnterpriseApp#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ios_min_version MdmEnterpriseApp#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the app on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ipados MdmEnterpriseApp#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ipados MdmEnterpriseApp#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ipados_max_version MdmEnterpriseApp#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ipados_max_version MdmEnterpriseApp#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#ipados_min_version MdmEnterpriseApp#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#ipados_min_version MdmEnterpriseApp#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the app on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#macos MdmEnterpriseApp#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#macos MdmEnterpriseApp#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#macos_max_version MdmEnterpriseApp#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#macos_max_version MdmEnterpriseApp#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#macos_min_version MdmEnterpriseApp#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#macos_min_version MdmEnterpriseApp#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * The hexadecimal digest of the sha256 hash of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#package_sha256 MdmEnterpriseApp#package_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#package_sha256 MdmEnterpriseApp#package_sha256}
   */
   readonly packageSha256: string;
   /**
   * The URI of the app package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#package_uri MdmEnterpriseApp#package_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#package_uri MdmEnterpriseApp#package_uri}
   */
   readonly packageUri: string;
   /**
   * If `true`, the app will be removed when the device is unenrolled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#remove_on_unenroll MdmEnterpriseApp#remove_on_unenroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#remove_on_unenroll MdmEnterpriseApp#remove_on_unenroll}
   */
   readonly removeOnUnenroll?: boolean | cdktf.IResolvable;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#shard_modulo MdmEnterpriseApp#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#shard_modulo MdmEnterpriseApp#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#tag_shards MdmEnterpriseApp#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#tag_shards MdmEnterpriseApp#tag_shards}
   */
   readonly tagShards?: MdmEnterpriseAppTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the app on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#tvos MdmEnterpriseApp#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#tvos MdmEnterpriseApp#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#tvos_max_version MdmEnterpriseApp#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#tvos_max_version MdmEnterpriseApp#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#tvos_min_version MdmEnterpriseApp#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#tvos_min_version MdmEnterpriseApp#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * Version of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#version MdmEnterpriseApp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#version MdmEnterpriseApp#version}
   */
   readonly version: number;
 }
@@ -156,13 +156,13 @@ export interface MdmEnterpriseAppTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#shard MdmEnterpriseApp#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#shard MdmEnterpriseApp#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#tag_id MdmEnterpriseApp#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#tag_id MdmEnterpriseApp#tag_id}
   */
   readonly tagId: number;
 }
@@ -301,7 +301,7 @@ export class MdmEnterpriseAppTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app zentral_mdm_enterprise_app}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app zentral_mdm_enterprise_app}
 */
 export class MdmEnterpriseApp extends cdktf.TerraformResource {
 
@@ -317,7 +317,7 @@ export class MdmEnterpriseApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmEnterpriseApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmEnterpriseApp to import
-  * @param importFromId The id of the existing MdmEnterpriseApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmEnterpriseApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmEnterpriseApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class MdmEnterpriseApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_enterprise_app zentral_mdm_enterprise_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_enterprise_app zentral_mdm_enterprise_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,8 +340,8 @@ export class MdmEnterpriseApp extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_enterprise_app',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

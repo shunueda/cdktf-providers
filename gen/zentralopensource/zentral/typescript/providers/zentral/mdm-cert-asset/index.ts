@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface MdmCertAssetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The keychain accessibility that determines when the keychain item is available for use. Defaults to `Default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#accessible MdmCertAsset#accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#accessible MdmCertAsset#accessible}
   */
   readonly accessible?: string;
   /**
   * `ID` of the optional MDM ACME issuer that could be used to issue the certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#acme_issuer_id MdmCertAsset#acme_issuer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#acme_issuer_id MdmCertAsset#acme_issuer_id}
   */
   readonly acmeIssuerId?: string;
   /**
   * `ID` of the cert asset artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#artifact_id MdmCertAsset#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#artifact_id MdmCertAsset#artifact_id}
   */
   readonly artifactId: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#default_shard MdmCertAsset#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#default_shard MdmCertAsset#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#excluded_tag_ids MdmCertAsset#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#excluded_tag_ids MdmCertAsset#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Toggles the installation of the cert asset on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ios MdmCertAsset#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ios MdmCertAsset#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ios_max_version MdmCertAsset#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ios_max_version MdmCertAsset#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ios_min_version MdmCertAsset#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ios_min_version MdmCertAsset#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the cert asset on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ipados MdmCertAsset#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ipados MdmCertAsset#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ipados_max_version MdmCertAsset#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ipados_max_version MdmCertAsset#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#ipados_min_version MdmCertAsset#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#ipados_min_version MdmCertAsset#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the cert asset on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#macos MdmCertAsset#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#macos MdmCertAsset#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#macos_max_version MdmCertAsset#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#macos_max_version MdmCertAsset#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#macos_min_version MdmCertAsset#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#macos_min_version MdmCertAsset#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * `ID` of the MDM SCEP issuer that could be used to issue the certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#scep_issuer_id MdmCertAsset#scep_issuer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#scep_issuer_id MdmCertAsset#scep_issuer_id}
   */
   readonly scepIssuerId?: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#shard_modulo MdmCertAsset#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#shard_modulo MdmCertAsset#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * A set of relative distinguished names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#subject MdmCertAsset#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#subject MdmCertAsset#subject}
   */
   readonly subject?: MdmCertAssetSubject[] | cdktf.IResolvable;
   /**
   * The subject's alternative name for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#subject_alt_name MdmCertAsset#subject_alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#subject_alt_name MdmCertAsset#subject_alt_name}
   */
   readonly subjectAltName?: MdmCertAssetSubjectAltName;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#tag_shards MdmCertAsset#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#tag_shards MdmCertAsset#tag_shards}
   */
   readonly tagShards?: MdmCertAssetTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the cert asset on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#tvos MdmCertAsset#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#tvos MdmCertAsset#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#tvos_max_version MdmCertAsset#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#tvos_max_version MdmCertAsset#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#tvos_min_version MdmCertAsset#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#tvos_min_version MdmCertAsset#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * Version of the cert asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#version MdmCertAsset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#version MdmCertAsset#version}
   */
   readonly version: number;
 }
@@ -150,13 +150,13 @@ export interface MdmCertAssetSubject {
   /**
   * Type of the RDN. You can represent OIDs as dotted numbers or use shortcuts for country (`C`), locality (`L`), state (`ST`), organization (`O`), organizational unit (`OU`), and common name (`CN`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#type MdmCertAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#type MdmCertAsset#type}
   */
   readonly type: string;
   /**
   * The value of the RDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#value MdmCertAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#value MdmCertAsset#value}
   */
   readonly value: string;
 }
@@ -297,25 +297,25 @@ export interface MdmCertAssetSubjectAltName {
   /**
   * The DNS name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#dns_name MdmCertAsset#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#dns_name MdmCertAsset#dns_name}
   */
   readonly dnsName?: string;
   /**
   * The NT principal name. Use an OID set to `1.3.6.1.4.1.311.20.2.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#nt_principal_name MdmCertAsset#nt_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#nt_principal_name MdmCertAsset#nt_principal_name}
   */
   readonly ntPrincipalName?: string;
   /**
   * The RFC 822 email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#rfc822_name MdmCertAsset#rfc822_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#rfc822_name MdmCertAsset#rfc822_name}
   */
   readonly rfc822Name?: string;
   /**
   * The uniform resource identifier (URI).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#uri MdmCertAsset#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#uri MdmCertAsset#uri}
   */
   readonly uri?: string;
 }
@@ -498,13 +498,13 @@ export interface MdmCertAssetTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#shard MdmCertAsset#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#shard MdmCertAsset#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#tag_id MdmCertAsset#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#tag_id MdmCertAsset#tag_id}
   */
   readonly tagId: number;
 }
@@ -643,7 +643,7 @@ export class MdmCertAssetTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset zentral_mdm_cert_asset}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset zentral_mdm_cert_asset}
 */
 export class MdmCertAsset extends cdktf.TerraformResource {
 
@@ -659,7 +659,7 @@ export class MdmCertAsset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmCertAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmCertAsset to import
-  * @param importFromId The id of the existing MdmCertAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmCertAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmCertAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -671,7 +671,7 @@ export class MdmCertAsset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_cert_asset zentral_mdm_cert_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/mdm_cert_asset zentral_mdm_cert_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -682,8 +682,8 @@ export class MdmCertAsset extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_cert_asset',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

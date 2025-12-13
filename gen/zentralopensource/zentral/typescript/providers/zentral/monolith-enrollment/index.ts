@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface MonolithEnrollmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the Monolith manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#manifest_id MonolithEnrollment#manifest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#manifest_id MonolithEnrollment#manifest_id}
   */
   readonly manifestId: number;
   /**
   * The `ID` of the meta business unit the machine will be assigned to at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#meta_business_unit_id MonolithEnrollment#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#meta_business_unit_id MonolithEnrollment#meta_business_unit_id}
   */
   readonly metaBusinessUnitId: number;
   /**
   * The number of time the enrollment can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#quota MonolithEnrollment#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#quota MonolithEnrollment#quota}
   */
   readonly quota?: number;
   /**
   * The serial numbers the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#serial_numbers MonolithEnrollment#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#serial_numbers MonolithEnrollment#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * The `ID`s of the tags that the machine will get at enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#tag_ids MonolithEnrollment#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#tag_ids MonolithEnrollment#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * The `UDID`s the enrollment is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#udids MonolithEnrollment#udids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#udids MonolithEnrollment#udids}
   */
   readonly udids?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment zentral_monolith_enrollment}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment zentral_monolith_enrollment}
 */
 export class MonolithEnrollment extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class MonolithEnrollment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithEnrollment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithEnrollment to import
-  * @param importFromId The id of the existing MonolithEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithEnrollment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class MonolithEnrollment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_enrollment zentral_monolith_enrollment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.68/docs/resources/monolith_enrollment zentral_monolith_enrollment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class MonolithEnrollment extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.67',
-        providerVersionConstraint: '0.1.67'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
