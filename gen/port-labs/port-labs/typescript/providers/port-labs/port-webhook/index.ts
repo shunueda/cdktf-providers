@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PortWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#description PortWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#description PortWebhook#description}
   */
   readonly description?: string;
   /**
   * Whether the webhook is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#enabled PortWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#enabled PortWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The icon of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#icon PortWebhook#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#icon PortWebhook#icon}
   */
   readonly icon?: string;
   /**
   * The identifier of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#identifier PortWebhook#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#identifier PortWebhook#identifier}
   */
   readonly identifier?: string;
   /**
   * The mappings of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#mappings PortWebhook#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#mappings PortWebhook#mappings}
   */
   readonly mappings?: PortWebhookMappings[] | cdktf.IResolvable;
   /**
   * The security of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#security PortWebhook#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#security PortWebhook#security}
   */
   readonly security?: PortWebhookSecurity;
   /**
   * The title of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#title PortWebhook#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#title PortWebhook#title}
   */
   readonly title?: string;
 }
@@ -54,37 +54,37 @@ export interface PortWebhookMappingsEntity {
   /**
   * The icon of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#icon PortWebhook#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#icon PortWebhook#icon}
   */
   readonly icon?: string;
   /**
   * The identifier of the entity. Can be either a simple JQ expression (string) or a search query object encoded with jsonencode(). When using search query objects, the structure must include 'combinator' and 'rules' fields, and each rule must have 'property', 'operator', and 'value' fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#identifier PortWebhook#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#identifier PortWebhook#identifier}
   */
   readonly identifier: string;
   /**
   * The properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#properties PortWebhook#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#properties PortWebhook#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The relations of the entity. Relations can be defined as either simple JQ expressions (strings) or search query objects. When using objects, the rules array must be encoded with jsonencode().
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#relations PortWebhook#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#relations PortWebhook#relations}
   */
   readonly relations?: { [key: string]: string };
   /**
   * The team of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#team PortWebhook#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#team PortWebhook#team}
   */
   readonly team?: string;
   /**
   * The title of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#title PortWebhook#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#title PortWebhook#title}
   */
   readonly title?: string;
 }
@@ -322,13 +322,13 @@ export interface PortWebhookMappingsOperation {
   /**
   * Whether to delete dependents entities, only relevant for delete operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#delete_dependents PortWebhook#delete_dependents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#delete_dependents PortWebhook#delete_dependents}
   */
   readonly deleteDependents?: boolean | cdktf.IResolvable;
   /**
   * The type of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#type PortWebhook#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#type PortWebhook#type}
   */
   readonly type: string;
 }
@@ -450,31 +450,31 @@ export interface PortWebhookMappings {
   /**
   * The blueprint of the mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#blueprint PortWebhook#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#blueprint PortWebhook#blueprint}
   */
   readonly blueprint: string;
   /**
   * The entity of the mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#entity PortWebhook#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#entity PortWebhook#entity}
   */
   readonly entity: PortWebhookMappingsEntity;
   /**
   * The filter of the mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#filter PortWebhook#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#filter PortWebhook#filter}
   */
   readonly filter?: string;
   /**
   * The items to parser of the mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#items_to_parse PortWebhook#items_to_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#items_to_parse PortWebhook#items_to_parse}
   */
   readonly itemsToParse?: string;
   /**
   * The operation of the mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#operation PortWebhook#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#operation PortWebhook#operation}
   */
   readonly operation?: PortWebhookMappingsOperation;
 }
@@ -702,31 +702,31 @@ export interface PortWebhookSecurity {
   /**
   * The request identifier path of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#request_identifier_path PortWebhook#request_identifier_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#request_identifier_path PortWebhook#request_identifier_path}
   */
   readonly requestIdentifierPath?: string;
   /**
   * The secret of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#secret PortWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#secret PortWebhook#secret}
   */
   readonly secret?: string;
   /**
   * The signature algorithm of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#signature_algorithm PortWebhook#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#signature_algorithm PortWebhook#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * The signature header name of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#signature_header_name PortWebhook#signature_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#signature_header_name PortWebhook#signature_header_name}
   */
   readonly signatureHeaderName?: string;
   /**
   * The signature prefix of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#signature_prefix PortWebhook#signature_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#signature_prefix PortWebhook#signature_prefix}
   */
   readonly signaturePrefix?: string;
 }
@@ -936,7 +936,7 @@ export class PortWebhookSecurityOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook port_webhook}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook port_webhook}
 */
 export class PortWebhook extends cdktf.TerraformResource {
 
@@ -952,7 +952,7 @@ export class PortWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortWebhook to import
-  * @param importFromId The id of the existing PortWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -964,7 +964,7 @@ export class PortWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_webhook port_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_webhook port_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -975,8 +975,8 @@ export class PortWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'port_webhook',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.2',
-        providerVersionConstraint: '2.17.2'
+        providerVersion: '2.17.3',
+        providerVersionConstraint: '2.17.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

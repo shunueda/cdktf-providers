@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,32 +11,32 @@ export interface InfinityNextProviderConfig {
   * The access key for API operations. You can retrieve this
   * from the 'Global Settings -> API Keys' section of the Infinity Next portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs#access_key InfinityNextProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs#access_key InfinityNextProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * The client id for API operations, You can retrieve this
   * from the 'Global Settings -> API Keys' section of the Infinity Next portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs#client_id InfinityNextProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs#client_id InfinityNextProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The region where Infinity Policy operations will take place. Options are: us, eu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs#region InfinityNextProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs#region InfinityNextProvider#region}
   */
   readonly region?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs#alias InfinityNextProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs#alias InfinityNextProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs infinity-next}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs infinity-next}
 */
 export class InfinityNextProvider extends cdktf.TerraformProvider {
 
@@ -52,7 +52,7 @@ export class InfinityNextProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a InfinityNextProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfinityNextProvider to import
-  * @param importFromId The id of the existing InfinityNextProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfinityNextProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfinityNextProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class InfinityNextProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.0/docs infinity-next} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs infinity-next} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class InfinityNextProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infinity-next',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       terraformProviderSource: 'CheckPointSW/infinity-next'
     });
