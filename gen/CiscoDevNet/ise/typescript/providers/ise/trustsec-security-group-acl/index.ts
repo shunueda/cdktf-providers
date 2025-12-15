@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TrustsecSecurityGroupAclConfig extends cdktf.TerraformMetaArgum
   /**
   * Content of ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#acl_content TrustsecSecurityGroupAcl#acl_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#acl_content TrustsecSecurityGroupAcl#acl_content}
   */
   readonly aclContent: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#description TrustsecSecurityGroupAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#description TrustsecSecurityGroupAcl#description}
   */
   readonly description?: string;
   /**
@@ -24,25 +24,25 @@ export interface TrustsecSecurityGroupAclConfig extends cdktf.TerraformMetaArgum
   *   - Choices: `IPV4`, `IPV6`, `IP_AGNOSTIC`
   *   - Default value: `IP_AGNOSTIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#ip_version TrustsecSecurityGroupAcl#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#ip_version TrustsecSecurityGroupAcl#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The name of the security group ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#name TrustsecSecurityGroupAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#name TrustsecSecurityGroupAcl#name}
   */
   readonly name: string;
   /**
   * Read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#read_only TrustsecSecurityGroupAcl#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#read_only TrustsecSecurityGroupAcl#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl ise_trustsec_security_group_acl}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl ise_trustsec_security_group_acl}
 */
 export class TrustsecSecurityGroupAcl extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class TrustsecSecurityGroupAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustsecSecurityGroupAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustsecSecurityGroupAcl to import
-  * @param importFromId The id of the existing TrustsecSecurityGroupAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustsecSecurityGroupAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustsecSecurityGroupAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class TrustsecSecurityGroupAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group_acl ise_trustsec_security_group_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group_acl ise_trustsec_security_group_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class TrustsecSecurityGroupAcl extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_security_group_acl',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

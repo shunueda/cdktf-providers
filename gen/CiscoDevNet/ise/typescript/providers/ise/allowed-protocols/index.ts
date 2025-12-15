@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,482 +10,482 @@ export interface AllowedProtocolsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow 5G. This field is only supported from ISE 3.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_5g AllowedProtocols#allow_5g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_5g AllowedProtocols#allow_5g}
   */
   readonly allow5G?: boolean | cdktf.IResolvable;
   /**
   * Allow CHAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_chap AllowedProtocols#allow_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_chap AllowedProtocols#allow_chap}
   */
   readonly allowChap: boolean | cdktf.IResolvable;
   /**
   * Allow EAP Fast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_eap_fast AllowedProtocols#allow_eap_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_eap_fast AllowedProtocols#allow_eap_fast}
   */
   readonly allowEapFast: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MD5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_eap_md5 AllowedProtocols#allow_eap_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_eap_md5 AllowedProtocols#allow_eap_md5}
   */
   readonly allowEapMd5: boolean | cdktf.IResolvable;
   /**
   * Allow EAP TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_eap_tls AllowedProtocols#allow_eap_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_eap_tls AllowedProtocols#allow_eap_tls}
   */
   readonly allowEapTls: boolean | cdktf.IResolvable;
   /**
   * Allow EAP TTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_eap_ttls AllowedProtocols#allow_eap_ttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_eap_ttls AllowedProtocols#allow_eap_ttls}
   */
   readonly allowEapTtls: boolean | cdktf.IResolvable;
   /**
   * Allow LEAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_leap AllowedProtocols#allow_leap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_leap AllowedProtocols#allow_leap}
   */
   readonly allowLeap: boolean | cdktf.IResolvable;
   /**
   * Allow MS CHAP v1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_ms_chap_v1 AllowedProtocols#allow_ms_chap_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_ms_chap_v1 AllowedProtocols#allow_ms_chap_v1}
   */
   readonly allowMsChapV1: boolean | cdktf.IResolvable;
   /**
   * Allow MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_ms_chap_v2 AllowedProtocols#allow_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_ms_chap_v2 AllowedProtocols#allow_ms_chap_v2}
   */
   readonly allowMsChapV2: boolean | cdktf.IResolvable;
   /**
   * Allow PAP ASCII
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_pap_ascii AllowedProtocols#allow_pap_ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_pap_ascii AllowedProtocols#allow_pap_ascii}
   */
   readonly allowPapAscii: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_peap AllowedProtocols#allow_peap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_peap AllowedProtocols#allow_peap}
   */
   readonly allowPeap: boolean | cdktf.IResolvable;
   /**
   * Allow preferred EAP protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_preferred_eap_protocol AllowedProtocols#allow_preferred_eap_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_preferred_eap_protocol AllowedProtocols#allow_preferred_eap_protocol}
   */
   readonly allowPreferredEapProtocol: boolean | cdktf.IResolvable;
   /**
   * Allow TEAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_teap AllowedProtocols#allow_teap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_teap AllowedProtocols#allow_teap}
   */
   readonly allowTeap: boolean | cdktf.IResolvable;
   /**
   * Allow weak ciphers for EAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#allow_weak_ciphers_for_eap AllowedProtocols#allow_weak_ciphers_for_eap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#allow_weak_ciphers_for_eap AllowedProtocols#allow_weak_ciphers_for_eap}
   */
   readonly allowWeakCiphersForEap: boolean | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#description AllowedProtocols#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#description AllowedProtocols#description}
   */
   readonly description?: string;
   /**
   * Accept client certificates. Is required only if `eap_fast_use_pacs` is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_accept_client_cert AllowedProtocols#eap_fast_accept_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_accept_client_cert AllowedProtocols#eap_fast_accept_client_cert}
   */
   readonly eapFastAcceptClientCert?: boolean | cdktf.IResolvable;
   /**
   * Allow machine authentication. Is required only if `eap_fast_use_pacs` is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_allow_machine_authentication AllowedProtocols#eap_fast_allow_machine_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_allow_machine_authentication AllowedProtocols#eap_fast_allow_machine_authentication}
   */
   readonly eapFastAllowMachineAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP GTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_gtc AllowedProtocols#eap_fast_eap_gtc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_gtc AllowedProtocols#eap_fast_eap_gtc}
   */
   readonly eapFastEapGtc?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP GTC password change. Is required only if `eap_fast_eap_gtc` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_gtc_pwd_change AllowedProtocols#eap_fast_eap_gtc_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_gtc_pwd_change AllowedProtocols#eap_fast_eap_gtc_pwd_change}
   */
   readonly eapFastEapGtcPwdChange?: boolean | cdktf.IResolvable;
   /**
   * EAP GTC password change retries. Is required only if `eap_fast_eap_gtc` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_gtc_pwd_change_retries AllowedProtocols#eap_fast_eap_gtc_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_gtc_pwd_change_retries AllowedProtocols#eap_fast_eap_gtc_pwd_change_retries}
   */
   readonly eapFastEapGtcPwdChangeRetries?: number;
   /**
   * Allow EAP MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2 AllowedProtocols#eap_fast_eap_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2 AllowedProtocols#eap_fast_eap_ms_chap_v2}
   */
   readonly eapFastEapMsChapV2?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MS CHAP v2 password change. Is required only if `eap_fast_eap_ms_chap_v2` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2_pwd_change AllowedProtocols#eap_fast_eap_ms_chap_v2_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2_pwd_change AllowedProtocols#eap_fast_eap_ms_chap_v2_pwd_change}
   */
   readonly eapFastEapMsChapV2PwdChange?: boolean | cdktf.IResolvable;
   /**
   * EAP MS CHAP v2 password change retries. Is required only if `eap_fast_eap_ms_chap_v2` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#eap_fast_eap_ms_chap_v2_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#eap_fast_eap_ms_chap_v2_pwd_change_retries}
   */
   readonly eapFastEapMsChapV2PwdChangeRetries?: number;
   /**
   * Allow EAP TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_tls AllowedProtocols#eap_fast_eap_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_tls AllowedProtocols#eap_fast_eap_tls}
   */
   readonly eapFastEapTls?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP TLS authentication of expired certificates. Is required only if `eap_fast_eap_tls` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_eap_tls_auth_of_expired_certs AllowedProtocols#eap_fast_eap_tls_auth_of_expired_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_eap_tls_auth_of_expired_certs AllowedProtocols#eap_fast_eap_tls_auth_of_expired_certs}
   */
   readonly eapFastEapTlsAuthOfExpiredCerts?: boolean | cdktf.IResolvable;
   /**
   * Enable EAP chaining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_enable_eap_chaining AllowedProtocols#eap_fast_enable_eap_chaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_enable_eap_chaining AllowedProtocols#eap_fast_enable_eap_chaining}
   */
   readonly eapFastEnableEapChaining?: boolean | cdktf.IResolvable;
   /**
   * Allow anonymous provisioning. Is required only if `eap_fast_use_pacs` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_allow_anonymous_provisioning AllowedProtocols#eap_fast_pacs_allow_anonymous_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_allow_anonymous_provisioning AllowedProtocols#eap_fast_pacs_allow_anonymous_provisioning}
   */
   readonly eapFastPacsAllowAnonymousProvisioning?: boolean | cdktf.IResolvable;
   /**
   * Allow authenticated provisioning. Is required only if `eap_fast_use_pacs` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_allow_authenticated_provisioning AllowedProtocols#eap_fast_pacs_allow_authenticated_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_allow_authenticated_provisioning AllowedProtocols#eap_fast_pacs_allow_authenticated_provisioning}
   */
   readonly eapFastPacsAllowAuthenticatedProvisioning?: boolean | cdktf.IResolvable;
   /**
   * Accept client certification for provisioning. Is required only if `eap_fast_pacs_allow_authenticated_provisioning` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_allow_client_cert AllowedProtocols#eap_fast_pacs_allow_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_allow_client_cert AllowedProtocols#eap_fast_pacs_allow_client_cert}
   */
   readonly eapFastPacsAllowClientCert?: boolean | cdktf.IResolvable;
   /**
   * Allow machine authentication. Is required only if `eap_fast_use_pacs` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_allow_machine_authentication AllowedProtocols#eap_fast_pacs_allow_machine_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_allow_machine_authentication AllowedProtocols#eap_fast_pacs_allow_machine_authentication}
   */
   readonly eapFastPacsAllowMachineAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Authorization PAC TTL. Is required only if `eap_fast_pacs_stateless_session_resume` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_authorization_pac_ttl AllowedProtocols#eap_fast_pacs_authorization_pac_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_authorization_pac_ttl AllowedProtocols#eap_fast_pacs_authorization_pac_ttl}
   */
   readonly eapFastPacsAuthorizationPacTtl?: number;
   /**
   * Authorization PAC TTL unit. Is required only if `eap_fast_pacs_stateless_session_resume` is `true`.
   *   - Choices: `SECONDS`, `MINUTES`, `HOURS`, `DAYS`, `WEEKS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_authorization_pac_ttl_unit AllowedProtocols#eap_fast_pacs_authorization_pac_ttl_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_authorization_pac_ttl_unit AllowedProtocols#eap_fast_pacs_authorization_pac_ttl_unit}
   */
   readonly eapFastPacsAuthorizationPacTtlUnit?: string;
   /**
   * Machine PAC TTL. Is required only if `eap_fast_pacs_allow_machine_authentication` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_machine_pac_ttl AllowedProtocols#eap_fast_pacs_machine_pac_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_machine_pac_ttl AllowedProtocols#eap_fast_pacs_machine_pac_ttl}
   */
   readonly eapFastPacsMachinePacTtl?: number;
   /**
   * Machine PAC TTL unit. Is required only if `eap_fast_pacs_allow_machine_authentication` is `true`.
   *   - Choices: `SECONDS`, `MINUTES`, `HOURS`, `DAYS`, `WEEKS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_machine_pac_ttl_unit AllowedProtocols#eap_fast_pacs_machine_pac_ttl_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_machine_pac_ttl_unit AllowedProtocols#eap_fast_pacs_machine_pac_ttl_unit}
   */
   readonly eapFastPacsMachinePacTtlUnit?: string;
   /**
   * Server returns access accept after authenticated provisioning. Is required only if `eap_fast_pacs_allow_authenticated_provisioning` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_server_returns AllowedProtocols#eap_fast_pacs_server_returns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_server_returns AllowedProtocols#eap_fast_pacs_server_returns}
   */
   readonly eapFastPacsServerReturns?: boolean | cdktf.IResolvable;
   /**
   * Stateless session resume. Is required only if `eap_fast_use_pacs` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_stateless_session_resume AllowedProtocols#eap_fast_pacs_stateless_session_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_stateless_session_resume AllowedProtocols#eap_fast_pacs_stateless_session_resume}
   */
   readonly eapFastPacsStatelessSessionResume?: boolean | cdktf.IResolvable;
   /**
   * PACs tunnel PAC time to live. Is required only if `eap_fast_use_pacs` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_tunnel_pac_ttl AllowedProtocols#eap_fast_pacs_tunnel_pac_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_tunnel_pac_ttl AllowedProtocols#eap_fast_pacs_tunnel_pac_ttl}
   */
   readonly eapFastPacsTunnelPacTtl?: number;
   /**
   * PACs tunnel PAC time to live unit. Is required only if `eap_fast_use_pacs` is `true`.
   *   - Choices: `SECONDS`, `MINUTES`, `HOURS`, `DAYS`, `WEEKS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_tunnel_pac_ttl_unit AllowedProtocols#eap_fast_pacs_tunnel_pac_ttl_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_tunnel_pac_ttl_unit AllowedProtocols#eap_fast_pacs_tunnel_pac_ttl_unit}
   */
   readonly eapFastPacsTunnelPacTtlUnit?: string;
   /**
   * Use proactive pac update percentage. Is required only if `eap_fast_use_pacs` is `true`.
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_pacs_use_proactive_pac_update_percentage AllowedProtocols#eap_fast_pacs_use_proactive_pac_update_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_pacs_use_proactive_pac_update_percentage AllowedProtocols#eap_fast_pacs_use_proactive_pac_update_percentage}
   */
   readonly eapFastPacsUseProactivePacUpdatePercentage?: number;
   /**
   * Use PACs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_fast_use_pacs AllowedProtocols#eap_fast_use_pacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_fast_use_pacs AllowedProtocols#eap_fast_use_pacs}
   */
   readonly eapFastUsePacs?: boolean | cdktf.IResolvable;
   /**
   * Allow authentication of expired certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_allow_auth_of_expired_certs AllowedProtocols#eap_tls_allow_auth_of_expired_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_allow_auth_of_expired_certs AllowedProtocols#eap_tls_allow_auth_of_expired_certs}
   */
   readonly eapTlsAllowAuthOfExpiredCerts?: boolean | cdktf.IResolvable;
   /**
   * Enable stateless session resume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_enable_stateless_session_resume AllowedProtocols#eap_tls_enable_stateless_session_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_enable_stateless_session_resume AllowedProtocols#eap_tls_enable_stateless_session_resume}
   */
   readonly eapTlsEnableStatelessSessionResume?: boolean | cdktf.IResolvable;
   /**
   * EAP TLS L-Bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_l_bit AllowedProtocols#eap_tls_l_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_l_bit AllowedProtocols#eap_tls_l_bit}
   */
   readonly eapTlsLBit: boolean | cdktf.IResolvable;
   /**
   * Session ticket percentage. Is required only if `eap_tls_enable_stateless_session_resume` is `true`.
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_session_ticket_percentage AllowedProtocols#eap_tls_session_ticket_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_session_ticket_percentage AllowedProtocols#eap_tls_session_ticket_percentage}
   */
   readonly eapTlsSessionTicketPercentage?: number;
   /**
   * Session ticket TTL. Is required only if `eap_tls_enable_stateless_session_resume` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_session_ticket_ttl AllowedProtocols#eap_tls_session_ticket_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_session_ticket_ttl AllowedProtocols#eap_tls_session_ticket_ttl}
   */
   readonly eapTlsSessionTicketTtl?: number;
   /**
   * Session ticket TTL unit. Is required only if `eap_tls_enable_stateless_session_resume` is `true`.
   *   - Choices: `SECONDS`, `MINUTES`, `HOURS`, `DAYS`, `WEEKS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_tls_session_ticket_ttl_unit AllowedProtocols#eap_tls_session_ticket_ttl_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_tls_session_ticket_ttl_unit AllowedProtocols#eap_tls_session_ticket_ttl_unit}
   */
   readonly eapTlsSessionTicketTtlUnit?: string;
   /**
   * Allow CHAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_chap AllowedProtocols#eap_ttls_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_chap AllowedProtocols#eap_ttls_chap}
   */
   readonly eapTtlsChap?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MD5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_eap_md5 AllowedProtocols#eap_ttls_eap_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_eap_md5 AllowedProtocols#eap_ttls_eap_md5}
   */
   readonly eapTtlsEapMd5?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2 AllowedProtocols#eap_ttls_eap_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2 AllowedProtocols#eap_ttls_eap_ms_chap_v2}
   */
   readonly eapTtlsEapMsChapV2?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MS CHAP v2 password change. Is required only if `eap_ttls_eap_ms_chap_v2` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2_pwd_change AllowedProtocols#eap_ttls_eap_ms_chap_v2_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2_pwd_change AllowedProtocols#eap_ttls_eap_ms_chap_v2_pwd_change}
   */
   readonly eapTtlsEapMsChapV2PwdChange?: boolean | cdktf.IResolvable;
   /**
   * EAP MS CHAP v2 password change retries. Is required only if `eap_ttls_eap_ms_chap_v2` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#eap_ttls_eap_ms_chap_v2_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#eap_ttls_eap_ms_chap_v2_pwd_change_retries}
   */
   readonly eapTtlsEapMsChapV2PwdChangeRetries?: number;
   /**
   * Allow MS CHAP v1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_ms_chap_v1 AllowedProtocols#eap_ttls_ms_chap_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_ms_chap_v1 AllowedProtocols#eap_ttls_ms_chap_v1}
   */
   readonly eapTtlsMsChapV1?: boolean | cdktf.IResolvable;
   /**
   * Allow MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_ms_chap_v2 AllowedProtocols#eap_ttls_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_ms_chap_v2 AllowedProtocols#eap_ttls_ms_chap_v2}
   */
   readonly eapTtlsMsChapV2?: boolean | cdktf.IResolvable;
   /**
   * Allow PAP ASCII
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#eap_ttls_pap_ascii AllowedProtocols#eap_ttls_pap_ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#eap_ttls_pap_ascii AllowedProtocols#eap_ttls_pap_ascii}
   */
   readonly eapTtlsPapAscii?: boolean | cdktf.IResolvable;
   /**
   * The name of the allowed protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#name AllowedProtocols#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#name AllowedProtocols#name}
   */
   readonly name: string;
   /**
   * Allow PEAP EAP GTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc AllowedProtocols#peap_allow_peap_eap_gtc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc AllowedProtocols#peap_allow_peap_eap_gtc}
   */
   readonly peapAllowPeapEapGtc?: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP EAP GTC password change. Is required only if `allow_peap_eap_gtc` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc_pwd_change AllowedProtocols#peap_allow_peap_eap_gtc_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc_pwd_change AllowedProtocols#peap_allow_peap_eap_gtc_pwd_change}
   */
   readonly peapAllowPeapEapGtcPwdChange?: boolean | cdktf.IResolvable;
   /**
   * PEAP EAP GTC password change retries. Is required only if `allow_peap_eap_gtc` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc_pwd_change_retries AllowedProtocols#peap_allow_peap_eap_gtc_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_gtc_pwd_change_retries AllowedProtocols#peap_allow_peap_eap_gtc_pwd_change_retries}
   */
   readonly peapAllowPeapEapGtcPwdChangeRetries?: number;
   /**
   * Allow PEAP EAP MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2 AllowedProtocols#peap_allow_peap_eap_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2 AllowedProtocols#peap_allow_peap_eap_ms_chap_v2}
   */
   readonly peapAllowPeapEapMsChapV2?: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP EAP MS CHAP v2 password change. Is required only if `allow_peap_eap_ms_chap_v2` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2_pwd_change AllowedProtocols#peap_allow_peap_eap_ms_chap_v2_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2_pwd_change AllowedProtocols#peap_allow_peap_eap_ms_chap_v2_pwd_change}
   */
   readonly peapAllowPeapEapMsChapV2PwdChange?: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP EAP MS CHAP v2 password change retries. Is required only if `allow_peap_eap_ms_chap_v2` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#peap_allow_peap_eap_ms_chap_v2_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#peap_allow_peap_eap_ms_chap_v2_pwd_change_retries}
   */
   readonly peapAllowPeapEapMsChapV2PwdChangeRetries?: number;
   /**
   * Allow PEAP EAP TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_tls AllowedProtocols#peap_allow_peap_eap_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_tls AllowedProtocols#peap_allow_peap_eap_tls}
   */
   readonly peapAllowPeapEapTls?: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP EAP TLS authentication of expired certificates. Is required only if `peap_allow_peap_eap_tls` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_allow_peap_eap_tls_auth_of_expired_certs AllowedProtocols#peap_allow_peap_eap_tls_auth_of_expired_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_allow_peap_eap_tls_auth_of_expired_certs AllowedProtocols#peap_allow_peap_eap_tls_auth_of_expired_certs}
   */
   readonly peapAllowPeapEapTlsAuthOfExpiredCerts?: boolean | cdktf.IResolvable;
   /**
   * Allow PEAP v0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#peap_peap_v0 AllowedProtocols#peap_peap_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#peap_peap_v0 AllowedProtocols#peap_peap_v0}
   */
   readonly peapPeapV0?: boolean | cdktf.IResolvable;
   /**
   * Preferred EAP protocol
   *   - Choices: `EAP_FAST`, `PEAP`, `LEAP`, `EAP_MD5`, `EAP_TLS`, `EAP_TTLS`, `TEAP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#preferred_eap_protocol AllowedProtocols#preferred_eap_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#preferred_eap_protocol AllowedProtocols#preferred_eap_protocol}
   */
   readonly preferredEapProtocol?: string;
   /**
   * Process host lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#process_host_lookup AllowedProtocols#process_host_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#process_host_lookup AllowedProtocols#process_host_lookup}
   */
   readonly processHostLookup: boolean | cdktf.IResolvable;
   /**
   * Require cryptobinding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#require_cryptobinding AllowedProtocols#require_cryptobinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#require_cryptobinding AllowedProtocols#require_cryptobinding}
   */
   readonly requireCryptobinding?: boolean | cdktf.IResolvable;
   /**
   * Require message authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#require_message_auth AllowedProtocols#require_message_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#require_message_auth AllowedProtocols#require_message_auth}
   */
   readonly requireMessageAuth: boolean | cdktf.IResolvable;
   /**
   * Allow downgrade to MSK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_downgrade_msk AllowedProtocols#teap_downgrade_msk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_downgrade_msk AllowedProtocols#teap_downgrade_msk}
   */
   readonly teapDowngradeMsk?: boolean | cdktf.IResolvable;
   /**
   * Accept client certificate during tunnel establishment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_accept_client_cert_during_tunnel_est AllowedProtocols#teap_eap_accept_client_cert_during_tunnel_est}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_accept_client_cert_during_tunnel_est AllowedProtocols#teap_eap_accept_client_cert_during_tunnel_est}
   */
   readonly teapEapAcceptClientCertDuringTunnelEst?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP chaining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_chaining AllowedProtocols#teap_eap_chaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_chaining AllowedProtocols#teap_eap_chaining}
   */
   readonly teapEapChaining?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MS CHAP v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_ms_chap_v2 AllowedProtocols#teap_eap_ms_chap_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_ms_chap_v2 AllowedProtocols#teap_eap_ms_chap_v2}
   */
   readonly teapEapMsChapV2?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP MS CHAP v2 password change. Is required only if `teap_eap_ms_chap_v2` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_ms_chap_v2_pwd_change AllowedProtocols#teap_eap_ms_chap_v2_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_ms_chap_v2_pwd_change AllowedProtocols#teap_eap_ms_chap_v2_pwd_change}
   */
   readonly teapEapMsChapV2PwdChange?: boolean | cdktf.IResolvable;
   /**
   * EAP MS CHAP v2 password change retries. Is required only if `teap_eap_ms_chap_v2` is `true`.
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#teap_eap_ms_chap_v2_pwd_change_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_ms_chap_v2_pwd_change_retries AllowedProtocols#teap_eap_ms_chap_v2_pwd_change_retries}
   */
   readonly teapEapMsChapV2PwdChangeRetries?: number;
   /**
   * Allow EAP TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_tls AllowedProtocols#teap_eap_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_tls AllowedProtocols#teap_eap_tls}
   */
   readonly teapEapTls?: boolean | cdktf.IResolvable;
   /**
   * Allow EAP TLS authentication of expired certs. Is required only if `teap_eap_tls` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_eap_tls_auth_of_expired_certs AllowedProtocols#teap_eap_tls_auth_of_expired_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_eap_tls_auth_of_expired_certs AllowedProtocols#teap_eap_tls_auth_of_expired_certs}
   */
   readonly teapEapTlsAuthOfExpiredCerts?: boolean | cdktf.IResolvable;
   /**
   * Request basic password authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#teap_request_basic_pwd_auth AllowedProtocols#teap_request_basic_pwd_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#teap_request_basic_pwd_auth AllowedProtocols#teap_request_basic_pwd_auth}
   */
   readonly teapRequestBasicPwdAuth?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols ise_allowed_protocols}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols ise_allowed_protocols}
 */
 export class AllowedProtocols extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class AllowedProtocols extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllowedProtocols resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllowedProtocols to import
-  * @param importFromId The id of the existing AllowedProtocols that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllowedProtocols that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllowedProtocols to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class AllowedProtocols extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols ise_allowed_protocols} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols ise_allowed_protocols} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class AllowedProtocols extends cdktf.TerraformResource {
       terraformResourceType: 'ise_allowed_protocols',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

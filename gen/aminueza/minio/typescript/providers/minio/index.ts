@@ -11,6 +11,7 @@ export * as iamLdapUserPolicyAttachment from './iam-ldap-user-policy-attachment'
 export * as iamPolicy from './iam-policy';
 export * as iamServiceAccount from './iam-service-account';
 export * as iamUser from './iam-user';
+export * as iamUserGroupMembership from './iam-user-group-membership';
 export * as iamUserPolicyAttachment from './iam-user-policy-attachment';
 export * as ilmPolicy from './ilm-policy';
 export * as ilmTier from './ilm-tier';

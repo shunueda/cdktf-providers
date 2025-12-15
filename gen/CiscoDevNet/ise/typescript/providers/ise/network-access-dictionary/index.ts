@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface NetworkAccessDictionaryConfig extends cdktf.TerraformMetaArgume
   /**
   * The description of the dictionary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary#description NetworkAccessDictionary#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary#description NetworkAccessDictionary#description}
   */
   readonly description?: string;
   /**
   * The dictionary attribute type
   *   - Choices: `ENTITY_ATTR`, `MSG_ATTR`, `PIP_ATTR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary#dictionary_attr_type NetworkAccessDictionary#dictionary_attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary#dictionary_attr_type NetworkAccessDictionary#dictionary_attr_type}
   */
   readonly dictionaryAttrType: string;
   /**
   * The dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary#name NetworkAccessDictionary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary#name NetworkAccessDictionary#name}
   */
   readonly name: string;
   /**
   * The version of the dictionary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary#version NetworkAccessDictionary#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary#version NetworkAccessDictionary#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary ise_network_access_dictionary}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary ise_network_access_dictionary}
 */
 export class NetworkAccessDictionary extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NetworkAccessDictionary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAccessDictionary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAccessDictionary to import
-  * @param importFromId The id of the existing NetworkAccessDictionary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAccessDictionary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAccessDictionary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NetworkAccessDictionary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_dictionary ise_network_access_dictionary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_dictionary ise_network_access_dictionary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NetworkAccessDictionary extends cdktf.TerraformResource {
       terraformResourceType: 'ise_network_access_dictionary',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

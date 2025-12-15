@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface TrustsecSecurityGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#description TrustsecSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#description TrustsecSecurityGroup#description}
   */
   readonly description?: string;
   /**
   * Read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#is_read_only TrustsecSecurityGroup#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#is_read_only TrustsecSecurityGroup#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of the security group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#name TrustsecSecurityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#name TrustsecSecurityGroup#name}
   */
   readonly name: string;
   /**
   * Propagate to APIC (ACI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#propogate_to_apic TrustsecSecurityGroup#propogate_to_apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#propogate_to_apic TrustsecSecurityGroup#propogate_to_apic}
   */
   readonly propogateToApic?: boolean | cdktf.IResolvable;
   /**
   * `-1` to auto-generate
   *   - Range: `-1`-`65519`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#value TrustsecSecurityGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#value TrustsecSecurityGroup#value}
   */
   readonly value: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group ise_trustsec_security_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group ise_trustsec_security_group}
 */
 export class TrustsecSecurityGroup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TrustsecSecurityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustsecSecurityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustsecSecurityGroup to import
-  * @param importFromId The id of the existing TrustsecSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustsecSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustsecSecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TrustsecSecurityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_security_group ise_trustsec_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_security_group ise_trustsec_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TrustsecSecurityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_security_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

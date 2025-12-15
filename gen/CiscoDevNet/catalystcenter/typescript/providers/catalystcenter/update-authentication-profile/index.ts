@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,71 +11,71 @@ export interface UpdateAuthenticationProfileConfig extends cdktf.TerraformMetaAr
   * First authentication method
   *   - Choices: `dot1x`, `mac`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#authentication_order UpdateAuthenticationProfile#authentication_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#authentication_order UpdateAuthenticationProfile#authentication_order}
   */
   readonly authenticationOrder: string;
   /**
   * The default host authentication template
   *   - Choices: `Open Authentication`, `Closed Authentication`, `Low Impact`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#authentication_profile_name UpdateAuthenticationProfile#authentication_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#authentication_profile_name UpdateAuthenticationProfile#authentication_profile_name}
   */
   readonly authenticationProfileName: string;
   /**
   * 802.1x Timeout
   *   - Range: `3`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#dot1x_to_mab_fallback_timeout UpdateAuthenticationProfile#dot1x_to_mab_fallback_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#dot1x_to_mab_fallback_timeout UpdateAuthenticationProfile#dot1x_to_mab_fallback_timeout}
   */
   readonly dot1XToMabFallbackTimeout: number;
   /**
   * ID of the fabric this authentication profile is assigned to. To update a global authentication profile, either remove this property or set its value to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#fabric_id UpdateAuthenticationProfile#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#fabric_id UpdateAuthenticationProfile#fabric_id}
   */
   readonly fabricId?: string;
   /**
   * Enable/disable BPDU Guard. Only applicable when authenticationProfileName is set to `Closed Authentication`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#is_bpdu_guard_enabled UpdateAuthenticationProfile#is_bpdu_guard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#is_bpdu_guard_enabled UpdateAuthenticationProfile#is_bpdu_guard_enabled}
   */
   readonly isBpduGuardEnabled?: boolean | cdktf.IResolvable;
   /**
   * Number of hosts
   *   - Choices: `Single`, `Unlimited`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#number_of_hosts UpdateAuthenticationProfile#number_of_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#number_of_hosts UpdateAuthenticationProfile#number_of_hosts}
   */
   readonly numberOfHosts: string;
   /**
   * Access contract list schema. Omitting this property or setting it to null, will reset the property to its default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#pre_auth_acl_access_contracts UpdateAuthenticationProfile#pre_auth_acl_access_contracts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#pre_auth_acl_access_contracts UpdateAuthenticationProfile#pre_auth_acl_access_contracts}
   */
   readonly preAuthAclAccessContracts?: UpdateAuthenticationProfilePreAuthAclAccessContracts[] | cdktf.IResolvable;
   /**
   * Description of the Pre-Authentication ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#pre_auth_acl_description UpdateAuthenticationProfile#pre_auth_acl_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#pre_auth_acl_description UpdateAuthenticationProfile#pre_auth_acl_description}
   */
   readonly preAuthAclDescription?: string;
   /**
   * Enable/disable Pre-Authentication ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#pre_auth_acl_enabled UpdateAuthenticationProfile#pre_auth_acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#pre_auth_acl_enabled UpdateAuthenticationProfile#pre_auth_acl_enabled}
   */
   readonly preAuthAclEnabled?: boolean | cdktf.IResolvable;
   /**
   * Implicit behaviour unless overridden (defaults to `DENY`)
   *   - Choices: `PERMIT`, `DENY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#pre_auth_acl_implicit_action UpdateAuthenticationProfile#pre_auth_acl_implicit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#pre_auth_acl_implicit_action UpdateAuthenticationProfile#pre_auth_acl_implicit_action}
   */
   readonly preAuthAclImplicitAction?: string;
   /**
   * Wake on LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#wake_on_lan UpdateAuthenticationProfile#wake_on_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#wake_on_lan UpdateAuthenticationProfile#wake_on_lan}
   */
   readonly wakeOnLan: boolean | cdktf.IResolvable;
 }
@@ -84,19 +84,19 @@ export interface UpdateAuthenticationProfilePreAuthAclAccessContracts {
   * Contract behaviour
   *   - Choices: `PERMIT`, `DENY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#action UpdateAuthenticationProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#action UpdateAuthenticationProfile#action}
   */
   readonly action: string;
   /**
   * Port for the access contract. The port can only be used once in the Access Contract list. - domain - bootpc - bootps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#port UpdateAuthenticationProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#port UpdateAuthenticationProfile#port}
   */
   readonly port: string;
   /**
   * Protocol for the access contract - UDP - TCP - TCP_UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#protocol UpdateAuthenticationProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#protocol UpdateAuthenticationProfile#protocol}
   */
   readonly protocol: string;
 }
@@ -261,7 +261,7 @@ export class UpdateAuthenticationProfilePreAuthAclAccessContractsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile catalystcenter_update_authentication_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile catalystcenter_update_authentication_profile}
 */
 export class UpdateAuthenticationProfile extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class UpdateAuthenticationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpdateAuthenticationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpdateAuthenticationProfile to import
-  * @param importFromId The id of the existing UpdateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpdateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpdateAuthenticationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class UpdateAuthenticationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/update_authentication_profile catalystcenter_update_authentication_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/update_authentication_profile catalystcenter_update_authentication_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class UpdateAuthenticationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_update_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

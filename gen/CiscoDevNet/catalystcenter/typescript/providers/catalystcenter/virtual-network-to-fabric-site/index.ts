@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualNetworkToFabricSiteConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the fabric this Layer 3 Virtual Network is to be assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site#fabric_site_id VirtualNetworkToFabricSite#fabric_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site#fabric_site_id VirtualNetworkToFabricSite#fabric_site_id}
   */
   readonly fabricSiteId: string;
   /**
   * ID of the Virtual Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site#virtual_network_id VirtualNetworkToFabricSite#virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site#virtual_network_id VirtualNetworkToFabricSite#virtual_network_id}
   */
   readonly virtualNetworkId: string;
   /**
   * Virtual Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site#virtual_network_name VirtualNetworkToFabricSite#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site#virtual_network_name VirtualNetworkToFabricSite#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site catalystcenter_virtual_network_to_fabric_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site catalystcenter_virtual_network_to_fabric_site}
 */
 export class VirtualNetworkToFabricSite extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class VirtualNetworkToFabricSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualNetworkToFabricSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualNetworkToFabricSite to import
-  * @param importFromId The id of the existing VirtualNetworkToFabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualNetworkToFabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualNetworkToFabricSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class VirtualNetworkToFabricSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/virtual_network_to_fabric_site catalystcenter_virtual_network_to_fabric_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/virtual_network_to_fabric_site catalystcenter_virtual_network_to_fabric_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class VirtualNetworkToFabricSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_virtual_network_to_fabric_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

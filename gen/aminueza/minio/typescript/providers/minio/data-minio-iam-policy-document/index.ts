@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document
+// https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataMinioIamPolicyDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#id DataMinioIamPolicyDocument#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#id DataMinioIamPolicyDocument#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#override_json DataMinioIamPolicyDocument#override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#override_json DataMinioIamPolicyDocument#override_json}
   */
   readonly overrideJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#policy_id DataMinioIamPolicyDocument#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#policy_id DataMinioIamPolicyDocument#policy_id}
   */
   readonly policyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#source_json DataMinioIamPolicyDocument#source_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#source_json DataMinioIamPolicyDocument#source_json}
   */
   readonly sourceJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#version DataMinioIamPolicyDocument#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#version DataMinioIamPolicyDocument#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#statement DataMinioIamPolicyDocument#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#statement DataMinioIamPolicyDocument#statement}
   */
   readonly statement?: DataMinioIamPolicyDocumentStatement[] | cdktf.IResolvable;
 }
 export interface DataMinioIamPolicyDocumentStatementCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#test DataMinioIamPolicyDocument#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#test DataMinioIamPolicyDocument#test}
   */
   readonly test: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#values DataMinioIamPolicyDocument#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#values DataMinioIamPolicyDocument#values}
   */
   readonly values: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#variable DataMinioIamPolicyDocument#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#variable DataMinioIamPolicyDocument#variable}
   */
   readonly variable: string;
 }
@@ -212,33 +212,33 @@ export class DataMinioIamPolicyDocumentStatementConditionList extends cdktf.Comp
 }
 export interface DataMinioIamPolicyDocumentStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#actions DataMinioIamPolicyDocument#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#actions DataMinioIamPolicyDocument#actions}
   */
   readonly actions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#effect DataMinioIamPolicyDocument#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#effect DataMinioIamPolicyDocument#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#not_principal DataMinioIamPolicyDocument#not_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#not_principal DataMinioIamPolicyDocument#not_principal}
   */
   readonly notPrincipal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#principal DataMinioIamPolicyDocument#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#principal DataMinioIamPolicyDocument#principal}
   */
   readonly principal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#resources DataMinioIamPolicyDocument#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#resources DataMinioIamPolicyDocument#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#sid DataMinioIamPolicyDocument#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#sid DataMinioIamPolicyDocument#sid}
   */
   readonly sid?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#condition DataMinioIamPolicyDocument#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#condition DataMinioIamPolicyDocument#condition}
   */
   readonly condition?: DataMinioIamPolicyDocumentStatementCondition[] | cdktf.IResolvable;
 }
@@ -528,7 +528,7 @@ export class DataMinioIamPolicyDocumentStatementList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document minio_iam_policy_document}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document minio_iam_policy_document}
 */
 export class DataMinioIamPolicyDocument extends cdktf.TerraformDataSource {
 
@@ -544,7 +544,7 @@ export class DataMinioIamPolicyDocument extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMinioIamPolicyDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMinioIamPolicyDocument to import
-  * @param importFromId The id of the existing DataMinioIamPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMinioIamPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMinioIamPolicyDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class DataMinioIamPolicyDocument extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/data-sources/iam_policy_document minio_iam_policy_document} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/data-sources/iam_policy_document minio_iam_policy_document} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class DataMinioIamPolicyDocument extends cdktf.TerraformDataSource {
       terraformResourceType: 'minio_iam_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.5',
-        providerVersionConstraint: '3.11.5'
+        providerVersion: '3.12.0',
+        providerVersionConstraint: '3.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

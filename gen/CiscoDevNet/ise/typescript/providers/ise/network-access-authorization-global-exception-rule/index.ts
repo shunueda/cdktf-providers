@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,88 +10,88 @@ export interface NetworkAccessAuthorizationGlobalExceptionRuleConfig extends cdk
   /**
   * List of child conditions. `condition_type` must be one of `ConditionAndBlock` or `ConditionOrBlock`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#children NetworkAccessAuthorizationGlobalExceptionRule#children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#children NetworkAccessAuthorizationGlobalExceptionRule#children}
   */
   readonly children?: NetworkAccessAuthorizationGlobalExceptionRuleChildren[] | cdktf.IResolvable;
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_attribute_name NetworkAccessAuthorizationGlobalExceptionRule#condition_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_attribute_name NetworkAccessAuthorizationGlobalExceptionRule#condition_attribute_name}
   */
   readonly conditionAttributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_attribute_value NetworkAccessAuthorizationGlobalExceptionRule#condition_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_attribute_value NetworkAccessAuthorizationGlobalExceptionRule#condition_attribute_value}
   */
   readonly conditionAttributeValue?: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#condition_dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#condition_dictionary_name}
   */
   readonly conditionDictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#condition_dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#condition_dictionary_value}
   */
   readonly conditionDictionaryValue?: string;
   /**
   * UUID for condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_id NetworkAccessAuthorizationGlobalExceptionRule#condition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_id NetworkAccessAuthorizationGlobalExceptionRule#condition_id}
   */
   readonly conditionId?: string;
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_is_negate NetworkAccessAuthorizationGlobalExceptionRule#condition_is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_is_negate NetworkAccessAuthorizationGlobalExceptionRule#condition_is_negate}
   */
   readonly conditionIsNegate?: boolean | cdktf.IResolvable;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`, `macContains`, `macEndsWith`, `macEquals`, `macIn`, `macNotContains`, `macNotEndsWith`, `macNotEquals`, `macNotIn`, `macNotStartsWith`, `macStartsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_operator NetworkAccessAuthorizationGlobalExceptionRule#condition_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_operator NetworkAccessAuthorizationGlobalExceptionRule#condition_operator}
   */
   readonly conditionOperator?: string;
   /**
   * Indicates whether the record is the condition itself or a logical aggregation. Logical aggreation indicates that additional conditions are present under the children attribute.
   *   - Choices: `ConditionAndBlock`, `ConditionAttributes`, `ConditionOrBlock`, `ConditionReference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
   */
   readonly conditionType?: string;
   /**
   * Rule name, [Valid characters are alphanumerics, underscore, hyphen, space, period, parentheses]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#name NetworkAccessAuthorizationGlobalExceptionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#name NetworkAccessAuthorizationGlobalExceptionRule#name}
   */
   readonly name: string;
   /**
   * The authorization profile(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#profiles NetworkAccessAuthorizationGlobalExceptionRule#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#profiles NetworkAccessAuthorizationGlobalExceptionRule#profiles}
   */
   readonly profiles?: string[];
   /**
   * The rank (priority) in relation to other rules. Lower rank is higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#rank NetworkAccessAuthorizationGlobalExceptionRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#rank NetworkAccessAuthorizationGlobalExceptionRule#rank}
   */
   readonly rank?: number;
   /**
   * Security group used in authorization policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#security_group NetworkAccessAuthorizationGlobalExceptionRule#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#security_group NetworkAccessAuthorizationGlobalExceptionRule#security_group}
   */
   readonly securityGroup?: string;
   /**
   * The state that the rule is in. A disabled rule cannot be matched.
   *   - Choices: `disabled`, `enabled`, `monitor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#state NetworkAccessAuthorizationGlobalExceptionRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#state NetworkAccessAuthorizationGlobalExceptionRule#state}
   */
   readonly state?: string;
 }
@@ -99,38 +99,38 @@ export interface NetworkAccessAuthorizationGlobalExceptionRuleChildrenChildren {
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#attribute_name NetworkAccessAuthorizationGlobalExceptionRule#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#attribute_name NetworkAccessAuthorizationGlobalExceptionRule#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#attribute_value NetworkAccessAuthorizationGlobalExceptionRule#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#attribute_value NetworkAccessAuthorizationGlobalExceptionRule#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * Condition type.
   *   - Choices: `ConditionAttributes`, `ConditionReference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
   */
   readonly conditionType: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#dictionary_value}
   */
   readonly dictionaryValue?: string;
   /**
   * UUID for condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#id NetworkAccessAuthorizationGlobalExceptionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#id NetworkAccessAuthorizationGlobalExceptionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,14 +139,14 @@ export interface NetworkAccessAuthorizationGlobalExceptionRuleChildrenChildren {
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#is_negate NetworkAccessAuthorizationGlobalExceptionRule#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#is_negate NetworkAccessAuthorizationGlobalExceptionRule#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#operator NetworkAccessAuthorizationGlobalExceptionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#operator NetworkAccessAuthorizationGlobalExceptionRule#operator}
   */
   readonly operator?: string;
 }
@@ -464,44 +464,44 @@ export interface NetworkAccessAuthorizationGlobalExceptionRuleChildren {
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#attribute_name NetworkAccessAuthorizationGlobalExceptionRule#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#attribute_name NetworkAccessAuthorizationGlobalExceptionRule#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#attribute_value NetworkAccessAuthorizationGlobalExceptionRule#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#attribute_value NetworkAccessAuthorizationGlobalExceptionRule#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * List of child conditions. `condition_type` must be one of `ConditionAndBlock` or `ConditionOrBlock`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#children NetworkAccessAuthorizationGlobalExceptionRule#children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#children NetworkAccessAuthorizationGlobalExceptionRule#children}
   */
   readonly children?: NetworkAccessAuthorizationGlobalExceptionRuleChildrenChildren[] | cdktf.IResolvable;
   /**
   * Indicates whether the record is the condition itself or a logical aggregation. Logical aggreation indicates that additional conditions are present under the children attribute.
   *   - Choices: `ConditionAndBlock`, `ConditionAttributes`, `ConditionOrBlock`, `ConditionReference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#condition_type NetworkAccessAuthorizationGlobalExceptionRule#condition_type}
   */
   readonly conditionType: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#dictionary_name NetworkAccessAuthorizationGlobalExceptionRule#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#dictionary_value NetworkAccessAuthorizationGlobalExceptionRule#dictionary_value}
   */
   readonly dictionaryValue?: string;
   /**
   * UUID for condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#id NetworkAccessAuthorizationGlobalExceptionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#id NetworkAccessAuthorizationGlobalExceptionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -510,14 +510,14 @@ export interface NetworkAccessAuthorizationGlobalExceptionRuleChildren {
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#is_negate NetworkAccessAuthorizationGlobalExceptionRule#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#is_negate NetworkAccessAuthorizationGlobalExceptionRule#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`, `macContains`, `macEndsWith`, `macEquals`, `macIn`, `macNotContains`, `macNotEndsWith`, `macNotEquals`, `macNotIn`, `macNotStartsWith`, `macStartsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#operator NetworkAccessAuthorizationGlobalExceptionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#operator NetworkAccessAuthorizationGlobalExceptionRule#operator}
   */
   readonly operator?: string;
 }
@@ -862,7 +862,7 @@ export class NetworkAccessAuthorizationGlobalExceptionRuleChildrenList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule ise_network_access_authorization_global_exception_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule ise_network_access_authorization_global_exception_rule}
 */
 export class NetworkAccessAuthorizationGlobalExceptionRule extends cdktf.TerraformResource {
 
@@ -878,7 +878,7 @@ export class NetworkAccessAuthorizationGlobalExceptionRule extends cdktf.Terrafo
   * Generates CDKTF code for importing a NetworkAccessAuthorizationGlobalExceptionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAccessAuthorizationGlobalExceptionRule to import
-  * @param importFromId The id of the existing NetworkAccessAuthorizationGlobalExceptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAccessAuthorizationGlobalExceptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAccessAuthorizationGlobalExceptionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -890,7 +890,7 @@ export class NetworkAccessAuthorizationGlobalExceptionRule extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_authorization_global_exception_rule ise_network_access_authorization_global_exception_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_authorization_global_exception_rule ise_network_access_authorization_global_exception_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -901,8 +901,8 @@ export class NetworkAccessAuthorizationGlobalExceptionRule extends cdktf.Terrafo
       terraformResourceType: 'ise_network_access_authorization_global_exception_rule',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DeviceAdminPolicySetUpdateRankConfig extends cdktf.TerraformMet
   /**
   * Policy set ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank#policy_set_id DeviceAdminPolicySetUpdateRank#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank#policy_set_id DeviceAdminPolicySetUpdateRank#policy_set_id}
   */
   readonly policySetId: string;
   /**
   * The rank (priority) in relation to other rules. Lower rank is higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank#rank DeviceAdminPolicySetUpdateRank#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank#rank DeviceAdminPolicySetUpdateRank#rank}
   */
   readonly rank: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank ise_device_admin_policy_set_update_rank}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank ise_device_admin_policy_set_update_rank}
 */
 export class DeviceAdminPolicySetUpdateRank extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class DeviceAdminPolicySetUpdateRank extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceAdminPolicySetUpdateRank resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceAdminPolicySetUpdateRank to import
-  * @param importFromId The id of the existing DeviceAdminPolicySetUpdateRank that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceAdminPolicySetUpdateRank that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceAdminPolicySetUpdateRank to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DeviceAdminPolicySetUpdateRank extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_policy_set_update_rank ise_device_admin_policy_set_update_rank} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_rank ise_device_admin_policy_set_update_rank} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DeviceAdminPolicySetUpdateRank extends cdktf.TerraformResource {
       terraformResourceType: 'ise_device_admin_policy_set_update_rank',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

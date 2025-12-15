@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#rules DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#rules DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#rules}
   */
   readonly rules?: DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanksRules[] | cdktf.IResolvable;
 }
@@ -16,7 +16,7 @@ export interface DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanksRules {
   /**
   * Authorization rule ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#id DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#id DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanksRules {
   /**
   * The rank (priority) in relation to other rules. Lower rank is higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#rank DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#rank DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks#rank}
   */
   readonly rank?: number;
 }
@@ -170,7 +170,7 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanksRulesList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks ise_device_admin_authorization_global_exception_rule_update_ranks}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks ise_device_admin_authorization_global_exception_rule_update_ranks}
 */
 export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks extends cdkt
   * Generates CDKTF code for importing a DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks to import
-  * @param importFromId The id of the existing DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_authorization_global_exception_rule_update_ranks ise_device_admin_authorization_global_exception_rule_update_ranks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_ranks ise_device_admin_authorization_global_exception_rule_update_ranks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks extends cdkt
       terraformResourceType: 'ise_device_admin_authorization_global_exception_rule_update_ranks',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IseProviderConfig {
   /**
   * Allow insecure HTTPS client. This can also be set as the ISE_INSECURE environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#insecure IseProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#insecure IseProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password for the ISE instance. This can also be set as the ISE_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#password IseProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#password IseProvider#password}
   */
   readonly password?: string;
   /**
   * Number of retries for REST API calls. This can also be set as the ISE_RETRIES environment variable. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#retries IseProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#retries IseProvider#retries}
   */
   readonly retries?: number;
   /**
   * URL of the Cisco ISE instance. This can also be set as the ISE_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#url IseProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#url IseProvider#url}
   */
   readonly url?: string;
   /**
   * Username for the ISE instance. This can also be set as the ISE_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#username IseProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#username IseProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#alias IseProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#alias IseProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs ise}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs ise}
 */
 export class IseProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class IseProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IseProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IseProvider to import
-  * @param importFromId The id of the existing IseProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IseProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IseProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class IseProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs ise} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs ise} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class IseProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ise',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       terraformProviderSource: 'CiscoDevNet/ise'
     });

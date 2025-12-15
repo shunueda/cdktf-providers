@@ -11,6 +11,7 @@ Object.defineProperty(exports, 'iamLdapUserPolicyAttachment', { get: function ()
 Object.defineProperty(exports, 'iamPolicy', { get: function () { return require('./iam-policy'); } });
 Object.defineProperty(exports, 'iamServiceAccount', { get: function () { return require('./iam-service-account'); } });
 Object.defineProperty(exports, 'iamUser', { get: function () { return require('./iam-user'); } });
+Object.defineProperty(exports, 'iamUserGroupMembership', { get: function () { return require('./iam-user-group-membership'); } });
 Object.defineProperty(exports, 'iamUserPolicyAttachment', { get: function () { return require('./iam-user-policy-attachment'); } });
 Object.defineProperty(exports, 'ilmPolicy', { get: function () { return require('./ilm-policy'); } });
 Object.defineProperty(exports, 'ilmTier', { get: function () { return require('./ilm-tier'); } });

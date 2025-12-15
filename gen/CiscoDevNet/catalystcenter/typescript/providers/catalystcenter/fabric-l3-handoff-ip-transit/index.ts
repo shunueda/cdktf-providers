@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,80 +10,80 @@ export interface FabricL3HandoffIpTransitConfig extends cdktf.TerraformMetaArgum
   /**
   * External connectivity ip pool will be used by Catalyst Center to allocate IP address for the connection between the border node and peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#external_connectivity_ip_pool_name FabricL3HandoffIpTransit#external_connectivity_ip_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#external_connectivity_ip_pool_name FabricL3HandoffIpTransit#external_connectivity_ip_pool_name}
   */
   readonly externalConnectivityIpPoolName?: string;
   /**
   * ID of the fabric this device belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#fabric_id FabricL3HandoffIpTransit#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#fabric_id FabricL3HandoffIpTransit#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Interface name of the layer 3 handoff ip transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#interface_name FabricL3HandoffIpTransit#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#interface_name FabricL3HandoffIpTransit#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * Local ipv4 address for the selected virtual network. Enter the IP addresses and subnet mask in the CIDR notation (IP address/prefix-length). Not applicable if you have already provided an external connectivity ip pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#local_ip_address FabricL3HandoffIpTransit#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#local_ip_address FabricL3HandoffIpTransit#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Local ipv6 address for the selected virtual network. Enter the IP addresses and subnet mask in the CIDR notation (IP address/prefix-length). Not applicable if you have already provided an external connectivity ip pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#local_ipv6_address FabricL3HandoffIpTransit#local_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#local_ipv6_address FabricL3HandoffIpTransit#local_ipv6_address}
   */
   readonly localIpv6Address?: string;
   /**
   * Network device ID of the fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#network_device_id FabricL3HandoffIpTransit#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#network_device_id FabricL3HandoffIpTransit#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Remote ipv4 address for the selected virtual network. Enter the IP addresses and subnet mask in the CIDR notation (IP address/prefix-length). Not applicable if you have already provided an external connectivity ip pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#remote_ip_address FabricL3HandoffIpTransit#remote_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#remote_ip_address FabricL3HandoffIpTransit#remote_ip_address}
   */
   readonly remoteIpAddress?: string;
   /**
   * Remote ipv6 address for the selected virtual network. Enter the IP addresses and subnet mask in the CIDR notation (IP address/prefix-length). Not applicable if you have already provided an external connectivity ip pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#remote_ipv6_address FabricL3HandoffIpTransit#remote_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#remote_ipv6_address FabricL3HandoffIpTransit#remote_ipv6_address}
   */
   readonly remoteIpv6Address?: string;
   /**
   * TCP maximum segment size (mss) value for the layer 3 handoff. Allowed range is [500-1440]. TCP MSS Adjustment value is applicable for the TCP sessions over both IPv4 and IPv6
   *   - Range: `500`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#tcp_mss_adjustment FabricL3HandoffIpTransit#tcp_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#tcp_mss_adjustment FabricL3HandoffIpTransit#tcp_mss_adjustment}
   */
   readonly tcpMssAdjustment?: number;
   /**
   * ID of the transit network of the layer 3 handoff ip transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#transit_network_id FabricL3HandoffIpTransit#transit_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#transit_network_id FabricL3HandoffIpTransit#transit_network_id}
   */
   readonly transitNetworkId: string;
   /**
   * Name of the virtual network associated with this fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#virtual_network_name FabricL3HandoffIpTransit#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#virtual_network_name FabricL3HandoffIpTransit#virtual_network_name}
   */
   readonly virtualNetworkName: string;
   /**
   * VLAN number for the Switch Virtual Interface (SVI) used to establish BGP peering with the external domain for the virtual network. Allowed VLAN range is 2-4094 except for reserved vlans (1, 1002-1005, 2046, 4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#vlan_id FabricL3HandoffIpTransit#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#vlan_id FabricL3HandoffIpTransit#vlan_id}
   */
   readonly vlanId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit catalystcenter_fabric_l3_handoff_ip_transit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit catalystcenter_fabric_l3_handoff_ip_transit}
 */
 export class FabricL3HandoffIpTransit extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class FabricL3HandoffIpTransit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricL3HandoffIpTransit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricL3HandoffIpTransit to import
-  * @param importFromId The id of the existing FabricL3HandoffIpTransit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricL3HandoffIpTransit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricL3HandoffIpTransit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class FabricL3HandoffIpTransit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_ip_transit catalystcenter_fabric_l3_handoff_ip_transit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_ip_transit catalystcenter_fabric_l3_handoff_ip_transit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class FabricL3HandoffIpTransit extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l3_handoff_ip_transit',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

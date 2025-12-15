@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,50 +11,50 @@ export interface FabricL3HandoffSdaTransitConfig extends cdktf.TerraformMetaArgu
   * Affinity id decider value of the border node. When the affinity id prime value is the same on multiple devices, the affinity id decider value is used as a tiebreaker.
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#affinity_id_decider FabricL3HandoffSdaTransit#affinity_id_decider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#affinity_id_decider FabricL3HandoffSdaTransit#affinity_id_decider}
   */
   readonly affinityIdDecider?: number;
   /**
   * Affinity id prime value of the border node. It supersedes the border priority to determine border node preference.
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#affinity_id_prime FabricL3HandoffSdaTransit#affinity_id_prime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#affinity_id_prime FabricL3HandoffSdaTransit#affinity_id_prime}
   */
   readonly affinityIdPrime?: number;
   /**
   * Set this true to allow associated site to provide internet access to other sites through sd-access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#connected_to_internet FabricL3HandoffSdaTransit#connected_to_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#connected_to_internet FabricL3HandoffSdaTransit#connected_to_internet}
   */
   readonly connectedToInternet?: boolean | cdktf.IResolvable;
   /**
   * ID of the fabric this device is assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#fabric_id FabricL3HandoffSdaTransit#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#fabric_id FabricL3HandoffSdaTransit#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Set this true to configure native multicast over multiple sites that are connected to an sd-access transit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#is_multicast_over_transit_enabled FabricL3HandoffSdaTransit#is_multicast_over_transit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#is_multicast_over_transit_enabled FabricL3HandoffSdaTransit#is_multicast_over_transit_enabled}
   */
   readonly isMulticastOverTransitEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network device ID of the fabric device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#network_device_id FabricL3HandoffSdaTransit#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#network_device_id FabricL3HandoffSdaTransit#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * ID of the transit network of the layer 3 handoff sda transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#transit_network_id FabricL3HandoffSdaTransit#transit_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#transit_network_id FabricL3HandoffSdaTransit#transit_network_id}
   */
   readonly transitNetworkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit catalystcenter_fabric_l3_handoff_sda_transit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit catalystcenter_fabric_l3_handoff_sda_transit}
 */
 export class FabricL3HandoffSdaTransit extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class FabricL3HandoffSdaTransit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricL3HandoffSdaTransit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricL3HandoffSdaTransit to import
-  * @param importFromId The id of the existing FabricL3HandoffSdaTransit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricL3HandoffSdaTransit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricL3HandoffSdaTransit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class FabricL3HandoffSdaTransit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_l3_handoff_sda_transit catalystcenter_fabric_l3_handoff_sda_transit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_l3_handoff_sda_transit catalystcenter_fabric_l3_handoff_sda_transit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class FabricL3HandoffSdaTransit extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l3_handoff_sda_transit',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,50 @@ export interface IpPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DHCP server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#address_space_dhcp_servers IpPool#address_space_dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#address_space_dhcp_servers IpPool#address_space_dhcp_servers}
   */
   readonly addressSpaceDhcpServers?: string[];
   /**
   * The DNS server(s) for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#address_space_dns_servers IpPool#address_space_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#address_space_dns_servers IpPool#address_space_dns_servers}
   */
   readonly addressSpaceDnsServers?: string[];
   /**
   * The gateway IP address for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#address_space_gateway IpPool#address_space_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#address_space_gateway IpPool#address_space_gateway}
   */
   readonly addressSpaceGateway?: string;
   /**
   * The network mask component, as a decimal, for the CIDR notation of this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#address_space_prefix_length IpPool#address_space_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#address_space_prefix_length IpPool#address_space_prefix_length}
   */
   readonly addressSpacePrefixLength: number;
   /**
   * The IP address component of the CIDR notation for this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#address_space_subnet IpPool#address_space_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#address_space_subnet IpPool#address_space_subnet}
   */
   readonly addressSpaceSubnet: string;
   /**
   * The name for this global IP pool. Only letters, numbers, '-', '_', '.', and '/' are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#name IpPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#name IpPool#name}
   */
   readonly name: string;
   /**
   * The type of the global IP pool. Once created, this cannot be changed.
   *   - Choices: `Generic`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#pool_type IpPool#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#pool_type IpPool#pool_type}
   */
   readonly poolType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool catalystcenter_ip_pool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool catalystcenter_ip_pool}
 */
 export class IpPool extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IpPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpPool to import
-  * @param importFromId The id of the existing IpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IpPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/ip_pool catalystcenter_ip_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/ip_pool catalystcenter_ip_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class IpPool extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_ip_pool',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning
+// https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface S3BucketVersioningConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#bucket S3BucketVersioning#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#bucket S3BucketVersioning#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#id S3BucketVersioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#id S3BucketVersioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,21 +23,21 @@ export interface S3BucketVersioningConfig extends cdktf.TerraformMetaArguments {
   /**
   * versioning_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#versioning_configuration S3BucketVersioning#versioning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#versioning_configuration S3BucketVersioning#versioning_configuration}
   */
   readonly versioningConfiguration: S3BucketVersioningVersioningConfiguration;
 }
 export interface S3BucketVersioningVersioningConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#exclude_folders S3BucketVersioning#exclude_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#exclude_folders S3BucketVersioning#exclude_folders}
   */
   readonly excludeFolders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#excluded_prefixes S3BucketVersioning#excluded_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#excluded_prefixes S3BucketVersioning#excluded_prefixes}
   */
   readonly excludedPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#status S3BucketVersioning#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#status S3BucketVersioning#status}
   */
   readonly status: string;
 }
@@ -176,7 +176,7 @@ export class S3BucketVersioningVersioningConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning minio_s3_bucket_versioning}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning minio_s3_bucket_versioning}
 */
 export class S3BucketVersioning extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketVersioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketVersioning to import
-  * @param importFromId The id of the existing S3BucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketVersioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_versioning minio_s3_bucket_versioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/s3_bucket_versioning minio_s3_bucket_versioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class S3BucketVersioning extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_bucket_versioning',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.5',
-        providerVersionConstraint: '3.11.5'
+        providerVersion: '3.12.0',
+        providerVersionConstraint: '3.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

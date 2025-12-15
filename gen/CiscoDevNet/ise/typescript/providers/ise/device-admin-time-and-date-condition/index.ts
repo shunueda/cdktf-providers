@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface DeviceAdminTimeAndDateConditionConfig extends cdktf.TerraformMe
   /**
   * Condition description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#description DeviceAdminTimeAndDateCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#description DeviceAdminTimeAndDateCondition#description}
   */
   readonly description?: string;
   /**
   * End date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#end_date DeviceAdminTimeAndDateCondition#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#end_date DeviceAdminTimeAndDateCondition#end_date}
   */
   readonly endDate?: string;
   /**
   * End time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#end_time DeviceAdminTimeAndDateCondition#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#end_time DeviceAdminTimeAndDateCondition#end_time}
   */
   readonly endTime?: string;
   /**
   * Exception end date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#exception_end_date DeviceAdminTimeAndDateCondition#exception_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#exception_end_date DeviceAdminTimeAndDateCondition#exception_end_date}
   */
   readonly exceptionEndDate?: string;
   /**
   * Exception end time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#exception_end_time DeviceAdminTimeAndDateCondition#exception_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#exception_end_time DeviceAdminTimeAndDateCondition#exception_end_time}
   */
   readonly exceptionEndTime?: string;
   /**
   * Exception start date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#exception_start_date DeviceAdminTimeAndDateCondition#exception_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#exception_start_date DeviceAdminTimeAndDateCondition#exception_start_date}
   */
   readonly exceptionStartDate?: string;
   /**
   * Exception start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#exception_start_time DeviceAdminTimeAndDateCondition#exception_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#exception_start_time DeviceAdminTimeAndDateCondition#exception_start_time}
   */
   readonly exceptionStartTime?: string;
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#is_negate DeviceAdminTimeAndDateCondition#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#is_negate DeviceAdminTimeAndDateCondition#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Condition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#name DeviceAdminTimeAndDateCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#name DeviceAdminTimeAndDateCondition#name}
   */
   readonly name: string;
   /**
   * Start date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#start_date DeviceAdminTimeAndDateCondition#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#start_date DeviceAdminTimeAndDateCondition#start_date}
   */
   readonly startDate?: string;
   /**
   * Start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#start_time DeviceAdminTimeAndDateCondition#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#start_time DeviceAdminTimeAndDateCondition#start_time}
   */
   readonly startTime?: string;
   /**
   * Defines for which days this condition will be matched. List of weekdays - `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`, `Sunday`. Default - List of all week days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#week_days DeviceAdminTimeAndDateCondition#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#week_days DeviceAdminTimeAndDateCondition#week_days}
   */
   readonly weekDays?: string[];
   /**
   * Defines for which days this condition will NOT be matched. List of weekdays - `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`, `Sunday`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#week_days_exception DeviceAdminTimeAndDateCondition#week_days_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#week_days_exception DeviceAdminTimeAndDateCondition#week_days_exception}
   */
   readonly weekDaysException?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition ise_device_admin_time_and_date_condition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition ise_device_admin_time_and_date_condition}
 */
 export class DeviceAdminTimeAndDateCondition extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class DeviceAdminTimeAndDateCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceAdminTimeAndDateCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceAdminTimeAndDateCondition to import
-  * @param importFromId The id of the existing DeviceAdminTimeAndDateCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceAdminTimeAndDateCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceAdminTimeAndDateCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class DeviceAdminTimeAndDateCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/device_admin_time_and_date_condition ise_device_admin_time_and_date_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_time_and_date_condition ise_device_admin_time_and_date_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class DeviceAdminTimeAndDateCondition extends cdktf.TerraformResource {
       terraformResourceType: 'ise_device_admin_time_and_date_condition',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,86 +10,86 @@ export interface PnpDeviceClaimSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Config (temaplate) ID. Required if `type` is `Default` or `StackSwitch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#config_id PnpDeviceClaimSite#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#config_id PnpDeviceClaimSite#config_id}
   */
   readonly configId?: string;
   /**
   * List of config (temaplate) parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#config_parameters PnpDeviceClaimSite#config_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#config_parameters PnpDeviceClaimSite#config_parameters}
   */
   readonly configParameters?: PnpDeviceClaimSiteConfigParameters[] | cdktf.IResolvable;
   /**
   * The device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#device_id PnpDeviceClaimSite#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#device_id PnpDeviceClaimSite#device_id}
   */
   readonly deviceId: string;
   /**
   * Gateway IP. Required if `type` is `CatalystWLC` or `MobilityExpress`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#gateway PnpDeviceClaimSite#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#gateway PnpDeviceClaimSite#gateway}
   */
   readonly gateway?: string;
   /**
   * Image ID. Required if `type` is `Default` or `StackSwitch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#image_id PnpDeviceClaimSite#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#image_id PnpDeviceClaimSite#image_id}
   */
   readonly imageId?: string;
   /**
   * Skip image provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#image_skip PnpDeviceClaimSite#image_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#image_skip PnpDeviceClaimSite#image_skip}
   */
   readonly imageSkip?: boolean | cdktf.IResolvable;
   /**
   * IP interface name. Required for Catalyst 9800 WLC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#ip_interface_name PnpDeviceClaimSite#ip_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#ip_interface_name PnpDeviceClaimSite#ip_interface_name}
   */
   readonly ipInterfaceName?: string;
   /**
   * RF profile. Required if `type` is `AccessPoint`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#rf_profile PnpDeviceClaimSite#rf_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#rf_profile PnpDeviceClaimSite#rf_profile}
   */
   readonly rfProfile?: string;
   /**
   * Sensor profile. Required if `type` is `Sensor`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#sensor_profile PnpDeviceClaimSite#sensor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#sensor_profile PnpDeviceClaimSite#sensor_profile}
   */
   readonly sensorProfile?: string;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#site_id PnpDeviceClaimSite#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#site_id PnpDeviceClaimSite#site_id}
   */
   readonly siteId: string;
   /**
   * Static IP address. Required if `type` is `CatalystWLC` or `MobilityExpress`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#static_ip PnpDeviceClaimSite#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#static_ip PnpDeviceClaimSite#static_ip}
   */
   readonly staticIp?: string;
   /**
   * Subnet mask. Required if `type` is `CatalystWLC` or `MobilityExpress`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#subnet_mask PnpDeviceClaimSite#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#subnet_mask PnpDeviceClaimSite#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
   * The device type
   *   - Choices: `Default`, `StackSwitch`, `AccessPoint`, `Sensor`, `CatalystWLC`, `MobilityExpress`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#type PnpDeviceClaimSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#type PnpDeviceClaimSite#type}
   */
   readonly type: string;
   /**
   * Vlan ID. Required for Catalyst 9800 WLC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#vlan_id PnpDeviceClaimSite#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#vlan_id PnpDeviceClaimSite#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -97,13 +97,13 @@ export interface PnpDeviceClaimSiteConfigParameters {
   /**
   * Name of config parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#name PnpDeviceClaimSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#name PnpDeviceClaimSite#name}
   */
   readonly name: string;
   /**
   * Value of config parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#value PnpDeviceClaimSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#value PnpDeviceClaimSite#value}
   */
   readonly value?: string;
 }
@@ -245,7 +245,7 @@ export class PnpDeviceClaimSiteConfigParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site catalystcenter_pnp_device_claim_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site catalystcenter_pnp_device_claim_site}
 */
 export class PnpDeviceClaimSite extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class PnpDeviceClaimSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PnpDeviceClaimSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PnpDeviceClaimSite to import
-  * @param importFromId The id of the existing PnpDeviceClaimSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PnpDeviceClaimSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PnpDeviceClaimSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class PnpDeviceClaimSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_device_claim_site catalystcenter_pnp_device_claim_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_device_claim_site catalystcenter_pnp_device_claim_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class PnpDeviceClaimSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_pnp_device_claim_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

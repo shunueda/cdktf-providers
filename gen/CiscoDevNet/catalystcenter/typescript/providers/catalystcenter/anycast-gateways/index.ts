@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface AnycastGatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of anycast gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#anycast_gateways AnycastGateways#anycast_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#anycast_gateways AnycastGateways#anycast_gateways}
   */
   readonly anycastGateways: AnycastGatewaysAnycastGateways[] | cdktf.IResolvable;
   /**
   * ID of the fabric to contain this anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#fabric_id AnycastGateways#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#fabric_id AnycastGateways#fabric_id}
   */
   readonly fabricId: string;
 }
@@ -24,112 +24,112 @@ export interface AnycastGatewaysAnycastGateways {
   /**
   * This field cannot be true when vlanName is provided. the vlanName will be generated as ipPoolGroupV4Cidr-virtualNetworkName for non-critical VLANs. for critical VLANs with DATA trafficType, vlanName will be CRITICAL_VLAN. for critical VLANs with VOICE trafficType, vlanName will be VOICE_VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#auto_generate_vlan_name AnycastGateways#auto_generate_vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#auto_generate_vlan_name AnycastGateways#auto_generate_vlan_name}
   */
   readonly autoGenerateVlanName: boolean | cdktf.IResolvable;
   /**
   * Enable/disable critical VLAN. if true, autoGenerateVlanName must also be true. (isCriticalPool is not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#critical_pool AnycastGateways#critical_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#critical_pool AnycastGateways#critical_pool}
   */
   readonly criticalPool?: boolean | cdktf.IResolvable;
   /**
   * ID of the fabric to contain this anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#fabric_id AnycastGateways#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#fabric_id AnycastGateways#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Enable/disable Group-Based Policy Enforcement (applicable only to INFRA_VN; defaults to false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#group_based_policy_enforcement_enabled AnycastGateways#group_based_policy_enforcement_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#group_based_policy_enforcement_enabled AnycastGateways#group_based_policy_enforcement_enabled}
   */
   readonly groupBasedPolicyEnforcementEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable Intra-Subnet Routing (not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#intra_subnet_routing_enabled AnycastGateways#intra_subnet_routing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#intra_subnet_routing_enabled AnycastGateways#intra_subnet_routing_enabled}
   */
   readonly intraSubnetRoutingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable IP-directed broadcast (not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#ip_directed_broadcast AnycastGateways#ip_directed_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#ip_directed_broadcast AnycastGateways#ip_directed_broadcast}
   */
   readonly ipDirectedBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Name of the IP pool associated with the anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#ip_pool_name AnycastGateways#ip_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#ip_pool_name AnycastGateways#ip_pool_name}
   */
   readonly ipPoolName: string;
   /**
   * Enable/disable layer 2 flooding (not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#l2_flooding_enabled AnycastGateways#l2_flooding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#l2_flooding_enabled AnycastGateways#l2_flooding_enabled}
   */
   readonly l2FloodingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable multiple IP-to-MAC Addresses (Wireless Bridged-Network Virtual Machine; not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#multiple_ip_to_mac_addresses AnycastGateways#multiple_ip_to_mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#multiple_ip_to_mac_addresses AnycastGateways#multiple_ip_to_mac_addresses}
   */
   readonly multipleIpToMacAddresses?: boolean | cdktf.IResolvable;
   /**
   * The pool type of the anycast gateway (required for & applicable only to INFRA_VN)
   *   - Choices: `EXTENDED_NODE`, `FABRIC_AP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#pool_type AnycastGateways#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#pool_type AnycastGateways#pool_type}
   */
   readonly poolType?: string;
   /**
   * Name of the associated Security Group (not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#security_group_name AnycastGateways#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#security_group_name AnycastGateways#security_group_name}
   */
   readonly securityGroupName?: string;
   /**
   * Enable/disable Supplicant-Based Extended Node Onboarding (applicable only to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#supplicant_based_extended_node_onboarding AnycastGateways#supplicant_based_extended_node_onboarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#supplicant_based_extended_node_onboarding AnycastGateways#supplicant_based_extended_node_onboarding}
   */
   readonly supplicantBasedExtendedNodeOnboarding?: boolean | cdktf.IResolvable;
   /**
   * TCP maximum segment size adjustment
   *   - Range: `500`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#tcp_mss_adjustment AnycastGateways#tcp_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#tcp_mss_adjustment AnycastGateways#tcp_mss_adjustment}
   */
   readonly tcpMssAdjustment?: number;
   /**
   * The type of traffic the anycast gateway serves
   *   - Choices: `DATA`, `VOICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#traffic_type AnycastGateways#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#traffic_type AnycastGateways#traffic_type}
   */
   readonly trafficType: string;
   /**
   * Name of the layer 3 virtual network associated with the anycast gateway. the virtual network must have already been added to the site before creating an anycast gateway with it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#virtual_network_name AnycastGateways#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#virtual_network_name AnycastGateways#virtual_network_name}
   */
   readonly virtualNetworkName: string;
   /**
   * ID of the VLAN of the anycast gateway. allowed VLAN range is 2-4093 except for reserved VLANs 1002-1005, 2046, and 4094. if deploying an anycast gateway on a fabric zone, this vlanId must match the vlanId of the corresponding anycast gateway on the fabric site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#vlan_id AnycastGateways#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#vlan_id AnycastGateways#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Name of the VLAN of the anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#vlan_name AnycastGateways#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#vlan_name AnycastGateways#vlan_name}
   */
   readonly vlanName?: string;
   /**
   * Enable/disable fabric-enabled wireless (not applicable to INFRA_VN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#wireless_pool AnycastGateways#wireless_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#wireless_pool AnycastGateways#wireless_pool}
   */
   readonly wirelessPool?: boolean | cdktf.IResolvable;
 }
@@ -728,7 +728,7 @@ export class AnycastGatewaysAnycastGatewaysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways catalystcenter_anycast_gateways}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways catalystcenter_anycast_gateways}
 */
 export class AnycastGateways extends cdktf.TerraformResource {
 
@@ -744,7 +744,7 @@ export class AnycastGateways extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AnycastGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnycastGateways to import
-  * @param importFromId The id of the existing AnycastGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnycastGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnycastGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class AnycastGateways extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/anycast_gateways catalystcenter_anycast_gateways} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/anycast_gateways catalystcenter_anycast_gateways} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class AnycastGateways extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_anycast_gateways',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

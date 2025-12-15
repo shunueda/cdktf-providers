@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface PnpConfigPreviewConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview#device_id PnpConfigPreview#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview#device_id PnpConfigPreview#device_id}
   */
   readonly deviceId?: string;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview#site_id PnpConfigPreview#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview#site_id PnpConfigPreview#site_id}
   */
   readonly siteId?: string;
   /**
   * The device type
   *   - Choices: `Default`, `StackSwitch`, `AccessPoint`, `Sensor`, `MobilityExpress`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview#type PnpConfigPreview#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview#type PnpConfigPreview#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview catalystcenter_pnp_config_preview}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview catalystcenter_pnp_config_preview}
 */
 export class PnpConfigPreview extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class PnpConfigPreview extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PnpConfigPreview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PnpConfigPreview to import
-  * @param importFromId The id of the existing PnpConfigPreview that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PnpConfigPreview that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PnpConfigPreview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class PnpConfigPreview extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_config_preview catalystcenter_pnp_config_preview} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_config_preview catalystcenter_pnp_config_preview} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class PnpConfigPreview extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_pnp_config_preview',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

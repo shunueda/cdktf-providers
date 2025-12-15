@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCatalystcenterFabricL2VirtualNetworkConfig extends cdktf.Te
   /**
   * ID of the fabric this layer 2 virtual network is to be assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network#fabric_id DataCatalystcenterFabricL2VirtualNetwork#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network#fabric_id DataCatalystcenterFabricL2VirtualNetwork#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Name of the VLAN of the layer 2 virtual network. Must contain only alphanumeric characters, underscores, and hyphens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network#vlan_name DataCatalystcenterFabricL2VirtualNetwork#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network#vlan_name DataCatalystcenterFabricL2VirtualNetwork#vlan_name}
   */
   readonly vlanName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network}
 */
 export class DataCatalystcenterFabricL2VirtualNetwork extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataCatalystcenterFabricL2VirtualNetwork extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataCatalystcenterFabricL2VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterFabricL2VirtualNetwork to import
-  * @param importFromId The id of the existing DataCatalystcenterFabricL2VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterFabricL2VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterFabricL2VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataCatalystcenterFabricL2VirtualNetwork extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/fabric_l2_virtual_network catalystcenter_fabric_l2_virtual_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataCatalystcenterFabricL2VirtualNetwork extends cdktf.TerraformDat
       terraformResourceType: 'catalystcenter_fabric_l2_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `ise_trustsec_ip_to_sgt_mapping_group`
 
-Refer to the Terraform Registry for docs: [`ise_trustsec_ip_to_sgt_mapping_group`](https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/trustsec_ip_to_sgt_mapping_group).
+Refer to the Terraform Registry for docs: [`ise_trustsec_ip_to_sgt_mapping_group`](https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping_group).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface CertificateAuthenticationProfileConfig extends cdktf.TerraformM
   * Allow as username
   *   - Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#allowed_as_user_name CertificateAuthenticationProfile#allowed_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#allowed_as_user_name CertificateAuthenticationProfile#allowed_as_user_name}
   */
   readonly allowedAsUserName?: boolean | cdktf.IResolvable;
   /**
@@ -19,20 +19,20 @@ export interface CertificateAuthenticationProfileConfig extends cdktf.TerraformM
   *   - Choices: `SUBJECT_COMMON_NAME`, `SUBJECT_ALTERNATIVE_NAME`, `SUBJECT_SERIAL_NUMBER`, `SUBJECT`, `SUBJECT_ALTERNATIVE_NAME_OTHER_NAME`, `SUBJECT_ALTERNATIVE_NAME_EMAIL`, `SUBJECT_ALTERNATIVE_NAME_DNS`
   *   - Default value: `SUBJECT_COMMON_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#certificate_attribute_name CertificateAuthenticationProfile#certificate_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#certificate_attribute_name CertificateAuthenticationProfile#certificate_attribute_name}
   */
   readonly certificateAttributeName?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#description CertificateAuthenticationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#description CertificateAuthenticationProfile#description}
   */
   readonly description?: string;
   /**
   * Referred IDStore name for the Certificate Profile or `[not applicable]` in case no identity store is chosen
   *   - Default value: `[not applicable]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#external_identity_store_name CertificateAuthenticationProfile#external_identity_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#external_identity_store_name CertificateAuthenticationProfile#external_identity_store_name}
   */
   readonly externalIdentityStoreName?: string;
   /**
@@ -40,13 +40,13 @@ export interface CertificateAuthenticationProfileConfig extends cdktf.TerraformM
   *   - Choices: `NEVER`, `RESOLVE_IDENTITY_AMBIGUITY`, `BINARY_COMPARISON`
   *   - Default value: `NEVER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#match_mode CertificateAuthenticationProfile#match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#match_mode CertificateAuthenticationProfile#match_mode}
   */
   readonly matchMode?: string;
   /**
   * The name of the certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#name CertificateAuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#name CertificateAuthenticationProfile#name}
   */
   readonly name: string;
   /**
@@ -54,13 +54,13 @@ export interface CertificateAuthenticationProfileConfig extends cdktf.TerraformM
   *   - Choices: `CERTIFICATE`, `UPN`
   *   - Default value: `CERTIFICATE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#username_from CertificateAuthenticationProfile#username_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#username_from CertificateAuthenticationProfile#username_from}
   */
   readonly usernameFrom?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile ise_certificate_authentication_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile ise_certificate_authentication_profile}
 */
 export class CertificateAuthenticationProfile extends cdktf.TerraformResource {
 
@@ -76,7 +76,7 @@ export class CertificateAuthenticationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateAuthenticationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateAuthenticationProfile to import
-  * @param importFromId The id of the existing CertificateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateAuthenticationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -88,7 +88,7 @@ export class CertificateAuthenticationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/certificate_authentication_profile ise_certificate_authentication_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/certificate_authentication_profile ise_certificate_authentication_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -99,8 +99,8 @@ export class CertificateAuthenticationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'ise_certificate_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

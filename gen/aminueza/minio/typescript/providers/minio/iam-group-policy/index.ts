@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy
+// https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IamGroupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of group the policy belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#group IamGroupPolicy#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#group IamGroupPolicy#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#id IamGroupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#id IamGroupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface IamGroupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the policy. If omitted, Terraform will assign a random, unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#name IamGroupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#name IamGroupPolicy#name}
   */
   readonly name?: string;
   /**
   * Prefix to the generated policy name. Do not use with `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#name_prefix IamGroupPolicy#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Policy JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#policy IamGroupPolicy#policy}
   */
   readonly policy: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy minio_iam_group_policy}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy minio_iam_group_policy}
 */
 export class IamGroupPolicy extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class IamGroupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamGroupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamGroupPolicy to import
-  * @param importFromId The id of the existing IamGroupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamGroupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamGroupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class IamGroupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_group_policy minio_iam_group_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_group_policy minio_iam_group_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class IamGroupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'minio_iam_group_policy',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.5',
-        providerVersionConstraint: '3.11.5'
+        providerVersion: '3.12.0',
+        providerVersionConstraint: '3.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FabricPortAssignmentsConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the fabric the device is assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#fabric_id FabricPortAssignments#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#fabric_id FabricPortAssignments#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Network device ID of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#network_device_id FabricPortAssignments#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#network_device_id FabricPortAssignments#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * List of port assignments in SD-Access fabric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#port_assignments FabricPortAssignments#port_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#port_assignments FabricPortAssignments#port_assignments}
   */
   readonly portAssignments: FabricPortAssignmentsPortAssignments[] | cdktf.IResolvable;
 }
@@ -31,56 +31,56 @@ export interface FabricPortAssignmentsPortAssignments {
   * Authenticate template name of the port assignment
   *   - Choices: `No Authentication`, `Open Authentication`, `Closed Authentication`, `Low Impact`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#authenticate_template_name FabricPortAssignments#authenticate_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#authenticate_template_name FabricPortAssignments#authenticate_template_name}
   */
   readonly authenticateTemplateName?: string;
   /**
   * Connected device type of the port assignment
   *   - Choices: `USER_DEVICE`, `ACCESS_POINT`, `TRUNKING_DEVICE`, `AUTHENTICATOR_SWITCH`, `SUPPLICANT_BASED_EXTENDED_NODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#connected_device_type FabricPortAssignments#connected_device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#connected_device_type FabricPortAssignments#connected_device_type}
   */
   readonly connectedDeviceType: string;
   /**
   * Data VLAN name of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#data_vlan_name FabricPortAssignments#data_vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#data_vlan_name FabricPortAssignments#data_vlan_name}
   */
   readonly dataVlanName?: string;
   /**
   * ID of the fabric the device is assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#fabric_id FabricPortAssignments#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#fabric_id FabricPortAssignments#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Interface description of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#interface_description FabricPortAssignments#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#interface_description FabricPortAssignments#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Interface name of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#interface_name FabricPortAssignments#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#interface_name FabricPortAssignments#interface_name}
   */
   readonly interfaceName: string;
   /**
   * Network device ID of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#network_device_id FabricPortAssignments#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#network_device_id FabricPortAssignments#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Security group name of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#security_group_name FabricPortAssignments#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#security_group_name FabricPortAssignments#security_group_name}
   */
   readonly securityGroupName?: string;
   /**
   * Voice VLAN name of the port assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#voice_vlan_name FabricPortAssignments#voice_vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#voice_vlan_name FabricPortAssignments#voice_vlan_name}
   */
   readonly voiceVlanName?: string;
 }
@@ -421,7 +421,7 @@ export class FabricPortAssignmentsPortAssignmentsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments catalystcenter_fabric_port_assignments}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments catalystcenter_fabric_port_assignments}
 */
 export class FabricPortAssignments extends cdktf.TerraformResource {
 
@@ -437,7 +437,7 @@ export class FabricPortAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricPortAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricPortAssignments to import
-  * @param importFromId The id of the existing FabricPortAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricPortAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricPortAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class FabricPortAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/fabric_port_assignments catalystcenter_fabric_port_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/fabric_port_assignments catalystcenter_fabric_port_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class FabricPortAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_port_assignments',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

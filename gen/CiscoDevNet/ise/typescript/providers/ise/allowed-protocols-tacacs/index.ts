@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AllowedProtocolsTacacsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Allow CHAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#allow_chap AllowedProtocolsTacacs#allow_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#allow_chap AllowedProtocolsTacacs#allow_chap}
   */
   readonly allowChap: boolean | cdktf.IResolvable;
   /**
   * Allow MS CHAP v1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#allow_ms_chap_v1 AllowedProtocolsTacacs#allow_ms_chap_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#allow_ms_chap_v1 AllowedProtocolsTacacs#allow_ms_chap_v1}
   */
   readonly allowMsChapV1: boolean | cdktf.IResolvable;
   /**
   * Allow PAP ASCII
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#allow_pap_ascii AllowedProtocolsTacacs#allow_pap_ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#allow_pap_ascii AllowedProtocolsTacacs#allow_pap_ascii}
   */
   readonly allowPapAscii: boolean | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#description AllowedProtocolsTacacs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#description AllowedProtocolsTacacs#description}
   */
   readonly description?: string;
   /**
   * The name of the allowed protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#name AllowedProtocolsTacacs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#name AllowedProtocolsTacacs#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs ise_allowed_protocols_tacacs}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs ise_allowed_protocols_tacacs}
 */
 export class AllowedProtocolsTacacs extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class AllowedProtocolsTacacs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllowedProtocolsTacacs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllowedProtocolsTacacs to import
-  * @param importFromId The id of the existing AllowedProtocolsTacacs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllowedProtocolsTacacs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllowedProtocolsTacacs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class AllowedProtocolsTacacs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/allowed_protocols_tacacs ise_allowed_protocols_tacacs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/allowed_protocols_tacacs ise_allowed_protocols_tacacs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class AllowedProtocolsTacacs extends cdktf.TerraformResource {
       terraformResourceType: 'ise_allowed_protocols_tacacs',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

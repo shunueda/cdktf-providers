@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIseDeviceAdminConditionConfig extends cdktf.TerraformMetaAr
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#id DataIseDeviceAdminCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition#id DataIseDeviceAdminCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataIseDeviceAdminConditionConfig extends cdktf.TerraformMetaAr
   /**
   * Condition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#name DataIseDeviceAdminCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition#name DataIseDeviceAdminCondition#name}
   */
   readonly name?: string;
 }
@@ -271,7 +271,7 @@ export class DataIseDeviceAdminConditionChildrenList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition ise_device_admin_condition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition ise_device_admin_condition}
 */
 export class DataIseDeviceAdminCondition extends cdktf.TerraformDataSource {
 
@@ -287,7 +287,7 @@ export class DataIseDeviceAdminCondition extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIseDeviceAdminCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIseDeviceAdminCondition to import
-  * @param importFromId The id of the existing DataIseDeviceAdminCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIseDeviceAdminCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIseDeviceAdminCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class DataIseDeviceAdminCondition extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition ise_device_admin_condition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_condition ise_device_admin_condition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class DataIseDeviceAdminCondition extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_device_admin_condition',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

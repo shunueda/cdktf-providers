@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_interface
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/wireless_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterWirelessInterfaceConfig extends cdktf.Terrafo
   /**
   * Interface Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_interface#interface_name DataCatalystcenterWirelessInterface#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/wireless_interface#interface_name DataCatalystcenterWirelessInterface#interface_name}
   */
   readonly interfaceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_interface catalystcenter_wireless_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/wireless_interface catalystcenter_wireless_interface}
 */
 export class DataCatalystcenterWirelessInterface extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCatalystcenterWirelessInterface extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCatalystcenterWirelessInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterWirelessInterface to import
-  * @param importFromId The id of the existing DataCatalystcenterWirelessInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterWirelessInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/wireless_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterWirelessInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCatalystcenterWirelessInterface extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/wireless_interface catalystcenter_wireless_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/wireless_interface catalystcenter_wireless_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCatalystcenterWirelessInterface extends cdktf.TerraformDataSour
       terraformResourceType: 'catalystcenter_wireless_interface',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

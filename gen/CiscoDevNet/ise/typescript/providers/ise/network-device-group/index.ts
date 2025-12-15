@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkDeviceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group#description NetworkDeviceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group#description NetworkDeviceGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the network device group including its hierarchy, e.g. `Device Type#All Device Types#ACCESS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group#name NetworkDeviceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group#name NetworkDeviceGroup#name}
   */
   readonly name: string;
   /**
   * The name of the root device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group#root_group NetworkDeviceGroup#root_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group#root_group NetworkDeviceGroup#root_group}
   */
   readonly rootGroup: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group ise_network_device_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group ise_network_device_group}
 */
 export class NetworkDeviceGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class NetworkDeviceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDeviceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDeviceGroup to import
-  * @param importFromId The id of the existing NetworkDeviceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDeviceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDeviceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NetworkDeviceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_device_group ise_network_device_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device_group ise_network_device_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class NetworkDeviceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_network_device_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

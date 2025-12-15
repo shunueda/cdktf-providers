@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIseAuthorizationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile#id DataIseAuthorizationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile#id DataIseAuthorizationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataIseAuthorizationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the authorization profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile#name DataIseAuthorizationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile#name DataIseAuthorizationProfile#name}
   */
   readonly name?: string;
 }
@@ -125,7 +125,7 @@ export class DataIseAuthorizationProfileAdvancedAttributesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile ise_authorization_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile ise_authorization_profile}
 */
 export class DataIseAuthorizationProfile extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataIseAuthorizationProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIseAuthorizationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIseAuthorizationProfile to import
-  * @param importFromId The id of the existing DataIseAuthorizationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIseAuthorizationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIseAuthorizationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataIseAuthorizationProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/authorization_profile ise_authorization_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/authorization_profile ise_authorization_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataIseAuthorizationProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_authorization_profile',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DownloadableAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DACL content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl#dacl DownloadableAcl#dacl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl#dacl DownloadableAcl#dacl}
   */
   readonly dacl: string;
   /**
@@ -18,25 +18,25 @@ export interface DownloadableAclConfig extends cdktf.TerraformMetaArguments {
   *   - Choices: `IPV4`, `IPV6`, `IP_AGNOSTIC`
   *   - Default value: `IPV4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl#dacl_type DownloadableAcl#dacl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl#dacl_type DownloadableAcl#dacl_type}
   */
   readonly daclType?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl#description DownloadableAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl#description DownloadableAcl#description}
   */
   readonly description?: string;
   /**
   * The name of the downloadable ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl#name DownloadableAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl#name DownloadableAcl#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl ise_downloadable_acl}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl ise_downloadable_acl}
 */
 export class DownloadableAcl extends cdktf.TerraformResource {
 
@@ -52,7 +52,7 @@ export class DownloadableAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadableAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadableAcl to import
-  * @param importFromId The id of the existing DownloadableAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadableAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadableAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class DownloadableAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/downloadable_acl ise_downloadable_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/downloadable_acl ise_downloadable_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class DownloadableAcl extends cdktf.TerraformResource {
       terraformResourceType: 'ise_downloadable_acl',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

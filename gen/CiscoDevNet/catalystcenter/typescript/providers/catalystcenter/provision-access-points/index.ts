@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProvisionAccessPointsConfig extends cdktf.TerraformMetaArgument
   /**
   * AP Zone Name. A custom AP Zone should be passed if no rfProfileName is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#ap_zone_name ProvisionAccessPoints#ap_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#ap_zone_name ProvisionAccessPoints#ap_zone_name}
   */
   readonly apZoneName?: string;
   /**
   * List of access points to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#network_devices ProvisionAccessPoints#network_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#network_devices ProvisionAccessPoints#network_devices}
   */
   readonly networkDevices: ProvisionAccessPointsNetworkDevices[] | cdktf.IResolvable;
   /**
   * RF Profile Name. RF Profile is not allowed for custom AP Zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#rf_profile_name ProvisionAccessPoints#rf_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#rf_profile_name ProvisionAccessPoints#rf_profile_name}
   */
   readonly rfProfileName: string;
   /**
   * ID of the site this network device needs to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#site_id ProvisionAccessPoints#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#site_id ProvisionAccessPoints#site_id}
   */
   readonly siteId: string;
 }
@@ -36,13 +36,13 @@ export interface ProvisionAccessPointsNetworkDevices {
   /**
   * ID of the Access Point to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#device_id ProvisionAccessPoints#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#device_id ProvisionAccessPoints#device_id}
   */
   readonly deviceId: string;
   /**
   * ID of the provisioned AP device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#id ProvisionAccessPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#id ProvisionAccessPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,13 +51,13 @@ export interface ProvisionAccessPointsNetworkDevices {
   /**
   * Mesh Role (Applicable only when AP is in Bridge Mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#mesh_role ProvisionAccessPoints#mesh_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#mesh_role ProvisionAccessPoints#mesh_role}
   */
   readonly meshRole?: string;
   /**
   * Flag to indicate whether the device should be reprovisioned. If set to `true`, reprovisioning will be triggered on every Terraform apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#reprovision ProvisionAccessPoints#reprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#reprovision ProvisionAccessPoints#reprovision}
   */
   readonly reprovision?: boolean | cdktf.IResolvable;
 }
@@ -257,7 +257,7 @@ export class ProvisionAccessPointsNetworkDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points catalystcenter_provision_access_points}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points catalystcenter_provision_access_points}
 */
 export class ProvisionAccessPoints extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class ProvisionAccessPoints extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProvisionAccessPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProvisionAccessPoints to import
-  * @param importFromId The id of the existing ProvisionAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProvisionAccessPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProvisionAccessPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class ProvisionAccessPoints extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/provision_access_points catalystcenter_provision_access_points} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/provision_access_points catalystcenter_provision_access_points} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class ProvisionAccessPoints extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_provision_access_points',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

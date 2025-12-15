@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,165 +10,165 @@ export interface EndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#custom_attributes Endpoint#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#custom_attributes Endpoint#custom_attributes}
   */
   readonly customAttributes?: { [key: string]: string };
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#description Endpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#description Endpoint#description}
   */
   readonly description?: string;
   /**
   * Identity Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#group_id Endpoint#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#group_id Endpoint#group_id}
   */
   readonly groupId?: string;
   /**
   * Identity Store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#identity_store Endpoint#identity_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#identity_store Endpoint#identity_store}
   */
   readonly identityStore?: string;
   /**
   * Identity Store Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#identity_store_id Endpoint#identity_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#identity_store_id Endpoint#identity_store_id}
   */
   readonly identityStoreId?: string;
   /**
   * MAC address of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mac Endpoint#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mac Endpoint#mac}
   */
   readonly mac: string;
   /**
   * Mdm Compliance Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_compliance_status Endpoint#mdm_compliance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_compliance_status Endpoint#mdm_compliance_status}
   */
   readonly mdmComplianceStatus?: boolean | cdktf.IResolvable;
   /**
   * Mdm Encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_encrypted Endpoint#mdm_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_encrypted Endpoint#mdm_encrypted}
   */
   readonly mdmEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Mdm Enrolled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_enrolled Endpoint#mdm_enrolled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_enrolled Endpoint#mdm_enrolled}
   */
   readonly mdmEnrolled?: boolean | cdktf.IResolvable;
   /**
   * Mdm IMEI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_imei Endpoint#mdm_imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_imei Endpoint#mdm_imei}
   */
   readonly mdmImei?: string;
   /**
   * Mdm JailBroken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_jail_broken Endpoint#mdm_jail_broken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_jail_broken Endpoint#mdm_jail_broken}
   */
   readonly mdmJailBroken?: boolean | cdktf.IResolvable;
   /**
   * Mdm Manufacturer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_manufacturer Endpoint#mdm_manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_manufacturer Endpoint#mdm_manufacturer}
   */
   readonly mdmManufacturer?: string;
   /**
   * Mdm Model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_model Endpoint#mdm_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_model Endpoint#mdm_model}
   */
   readonly mdmModel?: string;
   /**
   * Mdm OS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_os Endpoint#mdm_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_os Endpoint#mdm_os}
   */
   readonly mdmOs?: string;
   /**
   * Mdm PhoneNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_phone_number Endpoint#mdm_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_phone_number Endpoint#mdm_phone_number}
   */
   readonly mdmPhoneNumber?: string;
   /**
   * Mdm Pinlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_pinlock Endpoint#mdm_pinlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_pinlock Endpoint#mdm_pinlock}
   */
   readonly mdmPinlock?: boolean | cdktf.IResolvable;
   /**
   * Mdm Reachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_reachable Endpoint#mdm_reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_reachable Endpoint#mdm_reachable}
   */
   readonly mdmReachable?: boolean | cdktf.IResolvable;
   /**
   * Mdm Serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_serial Endpoint#mdm_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_serial Endpoint#mdm_serial}
   */
   readonly mdmSerial?: string;
   /**
   * Mdm Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#mdm_server_name Endpoint#mdm_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#mdm_server_name Endpoint#mdm_server_name}
   */
   readonly mdmServerName?: string;
   /**
   * The name of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name: string;
   /**
   * Portal User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#portal_user Endpoint#portal_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#portal_user Endpoint#portal_user}
   */
   readonly portalUser?: string;
   /**
   * Profile ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#profile_id Endpoint#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#profile_id Endpoint#profile_id}
   */
   readonly profileId?: string;
   /**
   * Static Group Assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#static_group_assignment Endpoint#static_group_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#static_group_assignment Endpoint#static_group_assignment}
   */
   readonly staticGroupAssignment: boolean | cdktf.IResolvable;
   /**
   * staticGroupAssignmentDefined
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#static_group_assignment_defined Endpoint#static_group_assignment_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#static_group_assignment_defined Endpoint#static_group_assignment_defined}
   */
   readonly staticGroupAssignmentDefined?: boolean | cdktf.IResolvable;
   /**
   * Static Profile Assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#static_profile_assignment Endpoint#static_profile_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#static_profile_assignment Endpoint#static_profile_assignment}
   */
   readonly staticProfileAssignment: boolean | cdktf.IResolvable;
   /**
   * Static Profile Assignment Defined
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#static_profile_assignment_defined Endpoint#static_profile_assignment_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#static_profile_assignment_defined Endpoint#static_profile_assignment_defined}
   */
   readonly staticProfileAssignmentDefined?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint ise_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint ise_endpoint}
 */
 export class Endpoint extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class Endpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Endpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Endpoint to import
-  * @param importFromId The id of the existing Endpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Endpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Endpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class Endpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint ise_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint ise_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class Endpoint extends cdktf.TerraformResource {
       terraformResourceType: 'ise_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

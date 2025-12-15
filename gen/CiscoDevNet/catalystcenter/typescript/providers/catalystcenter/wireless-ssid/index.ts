@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,420 +10,420 @@ export interface WirelessSsidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Activate the AAA Override feature when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#aaa_override WirelessSsid#aaa_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#aaa_override WirelessSsid#aaa_override}
   */
   readonly aaaOverride?: boolean | cdktf.IResolvable;
   /**
   * List of Accounting server IpAddresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#acct_servers WirelessSsid#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#acct_servers WirelessSsid#acct_servers}
   */
   readonly acctServers?: string[];
   /**
   * Pre-Auth Access Control List (ACL) Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#acl_name WirelessSsid#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#acl_name WirelessSsid#acl_name}
   */
   readonly aclName?: string;
   /**
   * When set to true, the Access Point (AP) Beacon Protection feature is activated, enhancing the security of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ap_beacon_protection WirelessSsid#ap_beacon_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ap_beacon_protection WirelessSsid#ap_beacon_protection}
   */
   readonly apBeaconProtection?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the 802.1X authentication key is in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key8021x WirelessSsid#auth_key8021x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key8021x WirelessSsid#auth_key8021x}
   */
   readonly authKey8021X?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the 802.1X-Plus-FT authentication key is in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key8021x_plus_ft WirelessSsid#auth_key8021x_plus_ft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key8021x_plus_ft WirelessSsid#auth_key8021x_plus_ft}
   */
   readonly authKey8021XPlusFt?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the feature that enables 802.1X authentication using the SHA256 algorithm is turned on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key8021x_sha256 WirelessSsid#auth_key8021x_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key8021x_sha256 WirelessSsid#auth_key8021x_sha256}
   */
   readonly authKey8021XSha256?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the feature that enables the use of Easy Pre-shared Key (PSK) authentication is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_easy_psk WirelessSsid#auth_key_easy_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_easy_psk WirelessSsid#auth_key_easy_psk}
   */
   readonly authKeyEasyPsk?: boolean | cdktf.IResolvable;
   /**
   * The feature that allows the use of Pre-shared Key (PSK) authentication with the SHA256 algorithm is enabled when it is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_easy_psk_sha256 WirelessSsid#auth_key_easy_psk_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_easy_psk_sha256 WirelessSsid#auth_key_easy_psk_sha256}
   */
   readonly authKeyEasyPskSha256?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Opportunistic Wireless Encryption (OWE) authentication key feature is turned on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_owe WirelessSsid#auth_key_owe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_owe WirelessSsid#auth_key_owe}
   */
   readonly authKeyOwe?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Pre-shared Key (PSK) authentication feature is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_psk WirelessSsid#auth_key_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_psk WirelessSsid#auth_key_psk}
   */
   readonly authKeyPsk?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the feature that enables the combination of Pre-shared Key (PSK) and Fast Transition (FT) authentication keys is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_psk_plus_ft WirelessSsid#auth_key_psk_plus_ft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_psk_plus_ft WirelessSsid#auth_key_psk_plus_ft}
   */
   readonly authKeyPskPlusFt?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the feature enabling the Simultaneous Authentication of Equals (SAE) authentication key is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_sae WirelessSsid#auth_key_sae}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_sae WirelessSsid#auth_key_sae}
   */
   readonly authKeySae?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Simultaneous Authentication of Equals (SAE) Extended Authentication key feature is turned on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_sae_ext WirelessSsid#auth_key_sae_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_sae_ext WirelessSsid#auth_key_sae_ext}
   */
   readonly authKeySaeExt?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Simultaneous Authentication of Equals (SAE) combined with Fast Transition (FT) Authentication Key feature is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_sae_ext_plus_ft WirelessSsid#auth_key_sae_ext_plus_ft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_sae_ext_plus_ft WirelessSsid#auth_key_sae_ext_plus_ft}
   */
   readonly authKeySaeExtPlusFt?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the feature that enables the combination of Pre-shared Key (PSK) and Fast Transition (FT) authentication keys is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_sae_plus_ft WirelessSsid#auth_key_sae_plus_ft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_sae_plus_ft WirelessSsid#auth_key_sae_plus_ft}
   */
   readonly authKeySaePlusFt?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the SuiteB192-1x authentication key feature is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_suite_b1921x WirelessSsid#auth_key_suite_b1921x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_suite_b1921x WirelessSsid#auth_key_suite_b1921x}
   */
   readonly authKeySuiteB1921X?: boolean | cdktf.IResolvable;
   /**
   * When activated by setting it to true, the SuiteB-1x authentication key feature is engaged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_key_suite_b1x WirelessSsid#auth_key_suite_b1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_key_suite_b1x WirelessSsid#auth_key_suite_b1x}
   */
   readonly authKeySuiteB1X?: boolean | cdktf.IResolvable;
   /**
   * Authentication Server, Mandatory for Guest SSIDs with wlanType=Guest and l3AuthType=web_auth
   *   - Choices: `auth_ise`, `auth_external`, `auth_internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_server WirelessSsid#auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_server WirelessSsid#auth_server}
   */
   readonly authServer?: string;
   /**
   * List of Authentication/Authorization server IpAddresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_servers WirelessSsid#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_servers WirelessSsid#auth_servers}
   */
   readonly authServers?: string[];
   /**
   * L2 Authentication Type. If authType is not open, then at least one RSN Cipher Suite and corresponding valid AKM must be enabled.
   *   - Choices: `WPA2_ENTERPRISE`, `WPA2_PERSONAL`, `OPEN`, `WPA3_ENTERPRISE`, `WPA3_PERSONAL`, `WPA2_WPA3_PERSONAL`, `WPA2_WPA3_ENTERPRISE`, `OPEN_SECURED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#auth_type WirelessSsid#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#auth_type WirelessSsid#auth_type}
   */
   readonly authType: string;
   /**
   * This refers to the duration of inactivity, measured in seconds, before a client connected to the Basic Service Set is considered idle and timed out
   *   - Range: `15`-`100000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#basic_service_set_client_idle_timeout WirelessSsid#basic_service_set_client_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#basic_service_set_client_idle_timeout WirelessSsid#basic_service_set_client_idle_timeout}
   */
   readonly basicServiceSetClientIdleTimeout?: number;
   /**
   * Activate the maximum idle feature for the Basic Service Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#basic_service_set_max_idle WirelessSsid#basic_service_set_max_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#basic_service_set_max_idle WirelessSsid#basic_service_set_max_idle}
   */
   readonly basicServiceSetMaxIdle?: boolean | cdktf.IResolvable;
   /**
   * When activated by setting it to true, the Broadcast SSID feature will make the SSID publicly visible to wireless devices searching for available networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#broadcast_ssid WirelessSsid#broadcast_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#broadcast_ssid WirelessSsid#broadcast_ssid}
   */
   readonly broadcastSsid?: boolean | cdktf.IResolvable;
   /**
   * True if CCKM is enabled, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#cckm WirelessSsid#cckm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#cckm WirelessSsid#cckm}
   */
   readonly cckm?: boolean | cdktf.IResolvable;
   /**
   * Cckm TImestamp Tolerance(in milliseconds)
   *   - Range: `1000`-`5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#cckm_tsf_tolerance WirelessSsid#cckm_tsf_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#cckm_tsf_tolerance WirelessSsid#cckm_tsf_tolerance}
   */
   readonly cckmTsfTolerance?: number;
   /**
   * Activate the feature that allows for the exclusion of clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#client_exclusion WirelessSsid#client_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#client_exclusion WirelessSsid#client_exclusion}
   */
   readonly clientExclusion?: boolean | cdktf.IResolvable;
   /**
   * This refers to the length of time, in seconds, a client is excluded or blocked from accessing the network after a specified number of unsuccessful attempts
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#client_exclusion_timeout WirelessSsid#client_exclusion_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#client_exclusion_timeout WirelessSsid#client_exclusion_timeout}
   */
   readonly clientExclusionTimeout?: number;
   /**
   * This pertains to the maximum data transfer rate, specified in bits per second, that a client is permitted to achieve
   *   - Range: `8000`-`100000000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#client_rate_limit WirelessSsid#client_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#client_rate_limit WirelessSsid#client_rate_limit}
   */
   readonly clientRateLimit?: number;
   /**
   * Coverage Hole Detection Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#coverage_hole_detection WirelessSsid#coverage_hole_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#coverage_hole_detection WirelessSsid#coverage_hole_detection}
   */
   readonly coverageHoleDetection?: boolean | cdktf.IResolvable;
   /**
   * The Directed Multicast Service feature becomes operational when it is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#directed_multicast_service WirelessSsid#directed_multicast_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#directed_multicast_service WirelessSsid#directed_multicast_service}
   */
   readonly directedMulticastService?: boolean | cdktf.IResolvable;
   /**
   * Egress QOS
   *   - Choices: `PLATINUM`, `SILVER`, `GOLD`, `BRONZE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#egress_qos WirelessSsid#egress_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#egress_qos WirelessSsid#egress_qos}
   */
   readonly egressQos?: string;
   /**
   * Set SSID's admin status as 'Enabled' when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#enabled WirelessSsid#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#enabled WirelessSsid#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * External WebAuth URL (Mandatory for Guest SSIDs with wlanType = Guest, l3AuthType = web_auth and authServer = auth_external)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#external_auth_ip_address WirelessSsid#external_auth_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#external_auth_ip_address WirelessSsid#external_auth_ip_address}
   */
   readonly externalAuthIpAddress?: string;
   /**
   * True if FastLane is enabled, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#fast_lane WirelessSsid#fast_lane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#fast_lane WirelessSsid#fast_lane}
   */
   readonly fastLane?: boolean | cdktf.IResolvable;
   /**
   * Fast Transition
   *   - Choices: `ADAPTIVE`, `ENABLE`, `DISABLE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#fast_transition WirelessSsid#fast_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#fast_transition WirelessSsid#fast_transition}
   */
   readonly fastTransition?: string;
   /**
   * Enable Fast Transition over the Distributed System when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#fast_transition_over_the_distributed_system WirelessSsid#fast_transition_over_the_distributed_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#fast_transition_over_the_distributed_system WirelessSsid#fast_transition_over_the_distributed_system}
   */
   readonly fastTransitionOverTheDistributedSystem?: boolean | cdktf.IResolvable;
   /**
   * 2.4 Ghz Band Policy value. Allowed only when 2.4 Radio Band is enabled in ssidRadioType
   *   - Choices: `dot11-g-only`, `dot11-bg-only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ghz24_policy WirelessSsid#ghz24_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ghz24_policy WirelessSsid#ghz24_policy}
   */
   readonly ghz24Policy?: string;
   /**
   * True if 6 GHz Policy Client Steering is enabled, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ghz6_policy_client_steering WirelessSsid#ghz6_policy_client_steering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ghz6_policy_client_steering WirelessSsid#ghz6_policy_client_steering}
   */
   readonly ghz6PolicyClientSteering?: boolean | cdktf.IResolvable;
   /**
   * True if passphrase is in Hex format, else False
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#hex WirelessSsid#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#hex WirelessSsid#hex}
   */
   readonly hex?: boolean | cdktf.IResolvable;
   /**
   * Ingress QOS
   *   - Choices: `PLATINUM-UP`, `SILVER-UP`, `GOLD-UP`, `BRONZE-UP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ingress_qos WirelessSsid#ingress_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ingress_qos WirelessSsid#ingress_qos}
   */
   readonly ingressQos?: string;
   /**
   * L3 Authentication Type
   *   - Choices: `open`, `web_auth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#l3_auth_type WirelessSsid#l3_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#l3_auth_type WirelessSsid#l3_auth_type}
   */
   readonly l3AuthType?: string;
   /**
   * When set to true, MAC Filtering will be activated, allowing control over network access based on the MAC address of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#mac_filtering WirelessSsid#mac_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#mac_filtering WirelessSsid#mac_filtering}
   */
   readonly macFiltering?: boolean | cdktf.IResolvable;
   /**
   * Management Frame Protection Client
   *   - Choices: `OPTIONAL`, `DISABLED`, `REQUIRED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#mft_client_protection WirelessSsid#mft_client_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#mft_client_protection WirelessSsid#mft_client_protection}
   */
   readonly mftClientProtection?: string;
   /**
   * Multi PSK Settings (Only applicable for SSID with PERSONAL auth type and PSK)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#multi_psk_settings WirelessSsid#multi_psk_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#multi_psk_settings WirelessSsid#multi_psk_settings}
   */
   readonly multiPskSettings?: WirelessSsidMultiPskSettings[] | cdktf.IResolvable;
   /**
   * Nas Options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#nas_options WirelessSsid#nas_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#nas_options WirelessSsid#nas_options}
   */
   readonly nasOptions?: string[];
   /**
   * The Neighbor List feature is enabled when it is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#neighbor_list WirelessSsid#neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#neighbor_list WirelessSsid#neighbor_list}
   */
   readonly neighborList?: boolean | cdktf.IResolvable;
   /**
   * Open SSID which is already created in the design and not associated to any other OPEN-SECURED SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#open_ssid WirelessSsid#open_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#open_ssid WirelessSsid#open_ssid}
   */
   readonly openSsid?: string;
   /**
   * Passphrase (Only applicable for SSID with PERSONAL security level). Passphrase needs to be between 8 and 63 characters for ASCII type. HEX passphrase needs to be 64 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#passphrase WirelessSsid#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#passphrase WirelessSsid#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Applicable only for Enterprise SSIDs. When set to True, Posturing will enabled. Required to be set to True if ACL needs to be mapped for Enterprise SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#posturing WirelessSsid#posturing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#posturing WirelessSsid#posturing}
   */
   readonly posturing?: boolean | cdktf.IResolvable;
   /**
   * WLAN Profile Name, if not passed autogenerated profile name will be assigned. The same wlanProfileName will also be used for policyProfileName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#profile_name WirelessSsid#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#profile_name WirelessSsid#profile_name}
   */
   readonly profileName?: string;
   /**
   * (REQUIRED is applicable for authType WPA3_PERSONAL, WPA3_ENTERPRISE, OPEN_SECURED) and (OPTIONAL/REQUIRED is applicable for authType WPA2_WPA3_PERSONAL and WPA2_WPA3_ENTERPRISE)
   *   - Choices: `OPTIONAL`, `DISABLED`, `REQUIRED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#protected_management_frame WirelessSsid#protected_management_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#protected_management_frame WirelessSsid#protected_management_frame}
   */
   readonly protectedManagementFrame?: string;
   /**
   * Deny clients using randomized MAC addresses when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#random_mac_filter WirelessSsid#random_mac_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#random_mac_filter WirelessSsid#random_mac_filter}
   */
   readonly randomMacFilter?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Robust Security Network (RSN) Cipher Suite CCMP128 encryption protocol is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#rsn_cipher_suite_ccmp128 WirelessSsid#rsn_cipher_suite_ccmp128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#rsn_cipher_suite_ccmp128 WirelessSsid#rsn_cipher_suite_ccmp128}
   */
   readonly rsnCipherSuiteCcmp128?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Robust Security Network (RSN) Cipher Suite CCMP256 encryption protocol is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#rsn_cipher_suite_ccmp256 WirelessSsid#rsn_cipher_suite_ccmp256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#rsn_cipher_suite_ccmp256 WirelessSsid#rsn_cipher_suite_ccmp256}
   */
   readonly rsnCipherSuiteCcmp256?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Robust Security Network (RSN) Cipher Suite GCMP128 encryption protocol is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#rsn_cipher_suite_gcmp128 WirelessSsid#rsn_cipher_suite_gcmp128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#rsn_cipher_suite_gcmp128 WirelessSsid#rsn_cipher_suite_gcmp128}
   */
   readonly rsnCipherSuiteGcmp128?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the Robust Security Network (RSN) Cipher Suite GCMP256 encryption protocol is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#rsn_cipher_suite_gcmp256 WirelessSsid#rsn_cipher_suite_gcmp256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#rsn_cipher_suite_gcmp256 WirelessSsid#rsn_cipher_suite_gcmp256}
   */
   readonly rsnCipherSuiteGcmp256?: boolean | cdktf.IResolvable;
   /**
   * This denotes the allotted time span, expressed in seconds, before a session is automatically terminated due to inactivity
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#session_timeout WirelessSsid#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#session_timeout WirelessSsid#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Turn on the feature that imposes a time limit on user sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#session_timeout_enable WirelessSsid#session_timeout_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#session_timeout_enable WirelessSsid#session_timeout_enable}
   */
   readonly sessionTimeoutEnable?: boolean | cdktf.IResolvable;
   /**
   * Site ID - only site level Global is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#site_id WirelessSsid#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#site_id WirelessSsid#site_id}
   */
   readonly siteId: string;
   /**
   * When set to true, this will activate the timeout settings that apply to clients in sleep mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#sleeping_client WirelessSsid#sleeping_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#sleeping_client WirelessSsid#sleeping_client}
   */
   readonly sleepingClient?: boolean | cdktf.IResolvable;
   /**
   * This refers to the amount of time, measured in minutes, before a sleeping (inactive) client is timed out of the network
   *   - Range: `10`-`43200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#sleeping_client_timeout WirelessSsid#sleeping_client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#sleeping_client_timeout WirelessSsid#sleeping_client_timeout}
   */
   readonly sleepingClientTimeout?: number;
   /**
   * Name of the SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ssid WirelessSsid#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ssid WirelessSsid#ssid}
   */
   readonly ssid: string;
   /**
   * Radio Policy
   *   - Choices: `Triple band operation(2.4GHz, 5GHz and 6GHz)`, `5GHz only`, `2.4GHz only`, `6GHz only`, `2.4 and 5 GHz`, `2.4 and 6 GHz`, `5 and 6 GHz`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#ssid_radio_type WirelessSsid#ssid_radio_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#ssid_radio_type WirelessSsid#ssid_radio_type}
   */
   readonly ssidRadioType?: string;
   /**
   * When set to true, the Web-Passthrough feature will be activated for the Guest SSID, allowing guests to bypass certain login requirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#web_passthrough WirelessSsid#web_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#web_passthrough WirelessSsid#web_passthrough}
   */
   readonly webPassthrough?: boolean | cdktf.IResolvable;
   /**
   * Band select is allowed only when band options selected contains at least 2.4 GHz and 5 GHz band
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#wlan_band_select WirelessSsid#wlan_band_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#wlan_band_select WirelessSsid#wlan_band_select}
   */
   readonly wlanBandSelect?: boolean | cdktf.IResolvable;
   /**
   * Wlan Type
   *   - Choices: `Enterprise`, `Guest`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#wlan_type WirelessSsid#wlan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#wlan_type WirelessSsid#wlan_type}
   */
   readonly wlanType: string;
 }
@@ -431,20 +431,20 @@ export interface WirelessSsidMultiPskSettings {
   /**
   * Passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#passphrase WirelessSsid#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#passphrase WirelessSsid#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Passphrase Type
   *   - Choices: `ASCII`, `HEX`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#passphrase_type WirelessSsid#passphrase_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#passphrase_type WirelessSsid#passphrase_type}
   */
   readonly passphraseType?: string;
   /**
   * Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#priority WirelessSsid#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#priority WirelessSsid#priority}
   */
   readonly priority: string;
 }
@@ -615,7 +615,7 @@ export class WirelessSsidMultiPskSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid catalystcenter_wireless_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid catalystcenter_wireless_ssid}
 */
 export class WirelessSsid extends cdktf.TerraformResource {
 
@@ -631,7 +631,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsid to import
-  * @param importFromId The id of the existing WirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -643,7 +643,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/wireless_ssid catalystcenter_wireless_ssid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/wireless_ssid catalystcenter_wireless_ssid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -654,8 +654,8 @@ export class WirelessSsid extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_wireless_ssid',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

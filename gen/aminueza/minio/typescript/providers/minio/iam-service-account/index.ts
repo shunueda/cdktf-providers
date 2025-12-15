@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account
+// https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IamServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of service account (256 bytes max), can't be cleared once set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#description IamServiceAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#description IamServiceAccount#description}
   */
   readonly description?: string;
   /**
   * Disable service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#disable_user IamServiceAccount#disable_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#disable_user IamServiceAccount#disable_user}
   */
   readonly disableUser?: boolean | cdktf.IResolvable;
   /**
   * Expiration of service account in RFC3339 format. Must be between NOW+15min & NOW+365d. If not set, the service account will not expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#expiration IamServiceAccount#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#expiration IamServiceAccount#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#id IamServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#id IamServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface IamServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of service account (32 bytes max), can't be cleared once set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#name IamServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#name IamServiceAccount#name}
   */
   readonly name?: string;
   /**
   * policy of service account as encoded JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#policy IamServiceAccount#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#policy IamServiceAccount#policy}
   */
   readonly policy?: string;
   /**
   * User the service account will be created for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#target_user IamServiceAccount#target_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#target_user IamServiceAccount#target_user}
   */
   readonly targetUser: string;
   /**
   * rotate secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#update_secret IamServiceAccount#update_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#update_secret IamServiceAccount#update_secret}
   */
   readonly updateSecret?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account minio_iam_service_account}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account minio_iam_service_account}
 */
 export class IamServiceAccount extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class IamServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamServiceAccount to import
-  * @param importFromId The id of the existing IamServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class IamServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/iam_service_account minio_iam_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.12.0/docs/resources/iam_service_account minio_iam_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class IamServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'minio_iam_service_account',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.5',
-        providerVersionConstraint: '3.11.5'
+        providerVersion: '3.12.0',
+        providerVersionConstraint: '3.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

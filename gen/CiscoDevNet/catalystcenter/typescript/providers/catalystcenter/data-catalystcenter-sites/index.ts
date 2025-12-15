@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/sites
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/sites
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCatalystcenterSitesConfig extends cdktf.TerraformMetaArgume
   /**
   * Site type (eg. area, building, floor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/sites#type DataCatalystcenterSites#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/sites#type DataCatalystcenterSites#type}
   */
   readonly type?: string;
 }
@@ -161,7 +161,7 @@ export class DataCatalystcenterSitesSitesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/sites catalystcenter_sites}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/sites catalystcenter_sites}
 */
 export class DataCatalystcenterSites extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataCatalystcenterSites extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCatalystcenterSites resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterSites to import
-  * @param importFromId The id of the existing DataCatalystcenterSites that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/sites#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterSites that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/sites#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterSites to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataCatalystcenterSites extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/data-sources/sites catalystcenter_sites} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/data-sources/sites catalystcenter_sites} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataCatalystcenterSites extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_sites',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

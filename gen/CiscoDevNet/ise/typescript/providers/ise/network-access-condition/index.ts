@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface NetworkAccessConditionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * List of child conditions. `condition_type` must be one of `LibraryConditionAndBlock` or `LibraryConditionOrBlock`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#children NetworkAccessCondition#children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#children NetworkAccessCondition#children}
   */
   readonly children?: NetworkAccessConditionChildren[] | cdktf.IResolvable;
   /**
   * Indicates whether the record is the condition itself or a logical aggregation. Logical aggreation indicates that additional conditions are present under the children attribute.
   *   - Choices: `LibraryConditionAndBlock`, `LibraryConditionAttributes`, `LibraryConditionOrBlock`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
   */
   readonly conditionType: string;
   /**
   * Condition description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#description NetworkAccessCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#description NetworkAccessCondition#description}
   */
   readonly description?: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
   */
   readonly dictionaryValue?: string;
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Condition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#name NetworkAccessCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#name NetworkAccessCondition#name}
   */
   readonly name: string;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`, `macContains`, `macEndsWith`, `macEquals`, `macIn`, `macNotContains`, `macNotEndsWith`, `macNotEquals`, `macNotIn`, `macNotStartsWith`, `macStartsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
   */
   readonly operator?: string;
 }
@@ -74,44 +74,44 @@ export interface NetworkAccessConditionChildrenChildren {
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * Condition type.
   *   - Choices: `ConditionAttributes`, `ConditionReference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
   */
   readonly conditionType: string;
   /**
   * Condition description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#description NetworkAccessCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#description NetworkAccessCondition#description}
   */
   readonly description?: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
   */
   readonly dictionaryValue?: string;
   /**
   * UUID for condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#id NetworkAccessCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#id NetworkAccessCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,20 +120,20 @@ export interface NetworkAccessConditionChildrenChildren {
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Condition name. Required if `condition_type` is `ConditionReference`, if `condition_type` is `ConditionAttributes` then this attribute is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#name NetworkAccessCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#name NetworkAccessCondition#name}
   */
   readonly name?: string;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
   */
   readonly operator?: string;
 }
@@ -509,50 +509,50 @@ export interface NetworkAccessConditionChildren {
   /**
   * Dictionary attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_name NetworkAccessCondition#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute value for condition. Value type is specified in dictionary object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#attribute_value NetworkAccessCondition#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * List of child conditions. `condition_type` must be one of `ConditionAndBlock` or `ConditionOrBlock`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#children NetworkAccessCondition#children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#children NetworkAccessCondition#children}
   */
   readonly children?: NetworkAccessConditionChildrenChildren[] | cdktf.IResolvable;
   /**
   * Indicates whether the record is the condition itself or a logical aggregation. Logical aggreation indicates that additional conditions are present under the children attribute.
   *   - Choices: `ConditionAndBlock`, `ConditionAttributes`, `ConditionOrBlock`, `ConditionReference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#condition_type NetworkAccessCondition#condition_type}
   */
   readonly conditionType: string;
   /**
   * Condition description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#description NetworkAccessCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#description NetworkAccessCondition#description}
   */
   readonly description?: string;
   /**
   * Dictionary name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_name NetworkAccessCondition#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * Dictionary value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#dictionary_value NetworkAccessCondition#dictionary_value}
   */
   readonly dictionaryValue?: string;
   /**
   * UUID for condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#id NetworkAccessCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#id NetworkAccessCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -561,20 +561,20 @@ export interface NetworkAccessConditionChildren {
   /**
   * Indicates whereas this condition is in negate mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#is_negate NetworkAccessCondition#is_negate}
   */
   readonly isNegate?: boolean | cdktf.IResolvable;
   /**
   * Condition name. Required if `condition_type` is `ConditionReference`, if `condition_type` is `ConditionAttributes` then this attribute is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#name NetworkAccessCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#name NetworkAccessCondition#name}
   */
   readonly name?: string;
   /**
   * Equality operator
   *   - Choices: `contains`, `endsWith`, `equals`, `greaterOrEquals`, `greaterThan`, `in`, `ipEquals`, `ipGreaterThan`, `ipLessThan`, `ipNotEquals`, `lessOrEquals`, `lessThan`, `matches`, `notContains`, `notEndsWith`, `notEquals`, `notIn`, `notStartsWith`, `startsWith`, `macContains`, `macEndsWith`, `macEquals`, `macIn`, `macNotContains`, `macNotEndsWith`, `macNotEquals`, `macNotIn`, `macNotStartsWith`, `macStartsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#operator NetworkAccessCondition#operator}
   */
   readonly operator?: string;
 }
@@ -977,7 +977,7 @@ export class NetworkAccessConditionChildrenList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition ise_network_access_condition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition ise_network_access_condition}
 */
 export class NetworkAccessCondition extends cdktf.TerraformResource {
 
@@ -993,7 +993,7 @@ export class NetworkAccessCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAccessCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAccessCondition to import
-  * @param importFromId The id of the existing NetworkAccessCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAccessCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAccessCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1005,7 +1005,7 @@ export class NetworkAccessCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/network_access_condition ise_network_access_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_access_condition ise_network_access_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1016,8 +1016,8 @@ export class NetworkAccessCondition extends cdktf.TerraformResource {
       terraformResourceType: 'ise_network_access_condition',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

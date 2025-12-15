@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface PnpImportDevicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of devices to add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#devices PnpImportDevices#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#devices PnpImportDevices#devices}
   */
   readonly devices: PnpImportDevicesDevices[] | cdktf.IResolvable;
 }
@@ -18,25 +18,25 @@ export interface PnpImportDevicesDevices {
   /**
   * Device hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#hostname PnpImportDevices#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#hostname PnpImportDevices#hostname}
   */
   readonly hostname?: string;
   /**
   * Device product ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#pid PnpImportDevices#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#pid PnpImportDevices#pid}
   */
   readonly pid?: string;
   /**
   * Device serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#serial_number PnpImportDevices#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#serial_number PnpImportDevices#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Device is a stacked switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#stack PnpImportDevices#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#stack PnpImportDevices#stack}
   */
   readonly stack?: boolean | cdktf.IResolvable;
 }
@@ -239,7 +239,7 @@ export class PnpImportDevicesDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices catalystcenter_pnp_import_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices catalystcenter_pnp_import_devices}
 */
 export class PnpImportDevices extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class PnpImportDevices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PnpImportDevices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PnpImportDevices to import
-  * @param importFromId The id of the existing PnpImportDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PnpImportDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PnpImportDevices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class PnpImportDevices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.5/docs/resources/pnp_import_devices catalystcenter_pnp_import_devices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.6/docs/resources/pnp_import_devices catalystcenter_pnp_import_devices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class PnpImportDevices extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_pnp_import_devices',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface EndpointIdentityGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group#description EndpointIdentityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group#description EndpointIdentityGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the endpoint identity group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group#name EndpointIdentityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group#name EndpointIdentityGroup#name}
   */
   readonly name: string;
   /**
   * Parent endpoint identity group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group#parent_endpoint_identity_group_id EndpointIdentityGroup#parent_endpoint_identity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group#parent_endpoint_identity_group_id EndpointIdentityGroup#parent_endpoint_identity_group_id}
   */
   readonly parentEndpointIdentityGroupId?: string;
   /**
   * System defined endpoint identity group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group#system_defined EndpointIdentityGroup#system_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group#system_defined EndpointIdentityGroup#system_defined}
   */
   readonly systemDefined?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group ise_endpoint_identity_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group ise_endpoint_identity_group}
 */
 export class EndpointIdentityGroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class EndpointIdentityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointIdentityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointIdentityGroup to import
-  * @param importFromId The id of the existing EndpointIdentityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointIdentityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointIdentityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class EndpointIdentityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/endpoint_identity_group ise_endpoint_identity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/endpoint_identity_group ise_endpoint_identity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class EndpointIdentityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_endpoint_identity_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12',
-        providerVersionConstraint: '0.2.12'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
